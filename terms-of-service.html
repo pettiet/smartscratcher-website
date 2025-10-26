@@ -24,8 +24,17 @@
 
         .legal-content h1 {
             font-size: 3rem;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             color: var(--text-white);
+        }
+
+        /* Termly iframe container styling */
+        .termly-container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
 
         .legal-content h2 {
@@ -121,12 +130,18 @@
     <!-- Legal Content -->
     <div class="legal-content">
         <h1>Terms of Service</h1>
-        <p class="last-updated"><strong>Last updated:</strong> November 30, 2024</p>
 
-        <!-- Your Termly Terms of Service content goes here -->
-        <p>The complete Terms of Service content from Termly will be displayed here. Due to the length of the content, you can copy and paste the full HTML from Termly into this section.</p>
-
-        <p>For now, this serves as a placeholder that you can update with the complete Termly HTML content for your Terms of Service.</p>
+        <!-- Termly Embed Code in white container for readability -->
+        <div class="termly-container">
+            <div name="termly-embed" data-id="2f2d6a50-b341-418b-a855-a9ffff486690"></div>
+            <script type="text/javascript">(function(d, s, id) {
+              var js, tjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "https://app.termly.io/embed-policy.min.js";
+              tjs.parentNode.insertBefore(js, tjs);
+            }(document, 'script', 'termly-jssdk'));</script>
+        </div>
 
         <p style="text-align: center; margin-top: 60px;">
             <a href="index.html" class="btn-primary">Back to Home</a>
