@@ -1219,6 +1219,17 @@ p {
     margin-bottom: 10px;
 }
 
+.parent-company-link {
+    color: var(--text-white) !important;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.parent-company-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
 .disclaimer {
     font-style: italic;
     color: var(--text-medium);
