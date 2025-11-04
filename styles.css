@@ -401,11 +401,11 @@ p {
 }
 
 .card-icon-image {
-    width: 64px;
-    height: 64px;
+    width: 96px;
+    height: 96px;
     margin-bottom: 20px;
     display: block;
-    border-radius: 16px;
+    border-radius: 20px;
 }
 
 .comparison-card h3 {
