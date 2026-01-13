@@ -522,6 +522,192 @@ p {
 }
 
 /* ==========================================
+   Code Terminal Animation
+   ========================================== */
+.code-terminal-wrapper {
+    max-width: 900px;
+    margin: 80px auto 0;
+    perspective: 1000px;
+}
+
+.code-terminal {
+    background: var(--bg-darker);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 113, 227, 0.3),
+                0 0 0 1px rgba(0, 113, 227, 0.2);
+    transition: all 0.3s ease;
+    animation: terminalFloat 6s ease-in-out infinite;
+}
+
+.code-terminal:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 70px rgba(0, 113, 227, 0.4),
+                0 0 0 1px rgba(0, 113, 227, 0.3);
+}
+
+@keyframes terminalFloat {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+}
+
+.terminal-header {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid rgba(0, 113, 227, 0.2);
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+}
+
+.terminal-button.red {
+    background: #ff5f57;
+    box-shadow: 0 0 8px rgba(255, 95, 87, 0.5);
+}
+
+.terminal-button.yellow {
+    background: #ffbd2e;
+    box-shadow: 0 0 8px rgba(255, 189, 46, 0.5);
+}
+
+.terminal-button.green {
+    background: #28ca42;
+    box-shadow: 0 0 8px rgba(40, 202, 66, 0.5);
+}
+
+.terminal-title {
+    font-size: 0.8125rem;
+    color: var(--text-light);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.terminal-body {
+    padding: 28px;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 0.875rem;
+    line-height: 1.8;
+    color: #e5e5e5;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%);
+    height: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for terminal */
+.terminal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.terminal-body::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+    background: rgba(0, 113, 227, 0.5);
+    border-radius: 4px;
+}
+
+.terminal-body::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 113, 227, 0.7);
+}
+
+.code-line {
+    opacity: 1;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    animation: fadeInLine 0.3s ease forwards;
+}
+
+@keyframes fadeInLine {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Syntax Highlighting */
+.comment {
+    color: #6a9955;
+    font-style: italic;
+}
+
+.keyword {
+    color: #569cd6;
+    font-weight: 600;
+}
+
+.function {
+    color: #dcdcaa;
+    font-weight: 500;
+}
+
+.variable {
+    color: #9cdcfe;
+}
+
+.property {
+    color: #9cdcfe;
+}
+
+.method {
+    color: #dcdcaa;
+}
+
+.string {
+    color: #ce9178;
+}
+
+.number {
+    color: #b5cea8;
+    font-weight: 500;
+}
+
+.boolean {
+    color: #569cd6;
+}
+
+.success {
+    color: #30d158;
+    font-weight: 700;
+}
+
+/* Responsive Terminal */
+@media (max-width: 768px) {
+    .code-terminal-wrapper {
+        margin: 60px auto 0;
+    }
+
+    .terminal-body {
+        padding: 20px;
+        font-size: 0.75rem;
+        height: 300px;
+    }
+
+    .terminal-title {
+        font-size: 0.75rem;
+    }
+}
+
+/* ==========================================
    Features Section
    ========================================== */
 .features {
