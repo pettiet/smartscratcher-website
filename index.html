@@ -1,431 +1,1536 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SmartScratcher - Make data-driven scratch-off lottery decisions with real-time analysis and rankings">
-    <title>SmartScratcher - Stop Guessing. Start Winning Smarter.</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SmartScratcher — Stop buying dead scratchers 🪦 Play smarter.</title>
+<meta name="description" content="SmartScratcher shows you which scratch-off games still have real prizes worth winning. Always-current data for Oklahoma, Texas, and California. Free to try." />
+<meta property="og:title" content="SmartScratcher — Stop buying dead scratchers." />
+<meta property="og:description" content="Which scratch-offs still have real prizes? We do the math when the lottery updates. OK, TX, CA." />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="Artboard 1.png">
+<!-- Structured data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "SmartScratcher",
+  "operatingSystem": "iOS",
+  "applicationCategory": "Lifestyle",
+  "offers": {
+    "@type": "Offer",
+    "price": "2.99",
+    "priceCurrency": "USD"
+  }
+}
+</script>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://smartscratcher.app/">
-    <meta property="og:title" content="SmartScratcher - Stop Guessing. Start Winning Smarter.">
-    <meta property="og:description" content="Make data-driven scratch-off lottery decisions with real-time analysis and rankings. See which games still have prizes worth playing for.">
-    <meta property="og:image" content="https://smartscratcher.app/newLogoV2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fff9e6;
+    --ink: #111111;
+    --ink-soft: #2a2a2a;
+    --yellow: #ffd60a;
+    --yellow-deep: #ffbb00;
+    --red: #ff3b30;
+    --red-deep: #c01e15;
+    --green: #16a34a;
+    --blue: #0066ff;
+    --cream: #fff3cc;
+    --muted: #6b6b6b;
+    --rule: #e6dfc3;
+    --display: 'Bricolage Grotesque', system-ui, sans-serif;
+    --sans: 'Inter', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', monospace;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://smartscratcher.app/">
-    <meta property="twitter:title" content="SmartScratcher - Stop Guessing. Start Winning Smarter.">
-    <meta property="twitter:description" content="Make data-driven scratch-off lottery decisions with real-time analysis and rankings. See which games still have prizes worth playing for.">
-    <meta property="twitter:image" content="https://smartscratcher.app/newLogoV2.png">
+  /* ========== NAV ========== */
+  nav.top {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--ink);
+    border-bottom: 2px solid var(--ink);
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav.top .logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  nav.top .logo img {
+    height: 36px;
+    width: auto;
+    display: block;
+  }
+  nav.top .menu {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+  }
+  nav.top .menu a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    transition: color 0.15s;
+  }
+  nav.top .menu a:hover { color: var(--yellow); }
+  nav.top .menu .cta-btn {
+    background: var(--yellow);
+    color: #000;
+    padding: 10px 18px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+  nav.top .menu .cta-btn:hover { background: #ffe44d; color: #000; }
+  nav.top .menu-mobile { display: none; }
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  /* ========== HERO ========== */
+  .hero {
+    padding: 80px 24px 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "🎟️";
+    position: absolute;
+    top: 40px;
+    right: 5%;
+    font-size: 80px;
+    transform: rotate(15deg);
+    opacity: 0.15;
+    pointer-events: none;
+  }
+  .hero::after {
+    content: "🪦";
+    position: absolute;
+    bottom: 30px;
+    left: 3%;
+    font-size: 60px;
+    transform: rotate(-12deg);
+    opacity: 0.15;
+    pointer-events: none;
+  }
+  .hero .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--ink);
+    color: var(--yellow);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    margin-bottom: 28px;
+    font-weight: 700;
+  }
+  .hero .eyebrow .dot {
+    width: 8px;
+    height: 8px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: blink 1.8s infinite;
+  }
+  @keyframes blink {
+    0%, 60%, 100% { opacity: 1; }
+    80% { opacity: 0.4; }
+  }
+  .hero h1 {
+    font-family: var(--display);
+    font-size: 92px;
+    line-height: 0.92;
+    font-weight: 800;
+    letter-spacing: -3px;
+    max-width: 920px;
+    margin-bottom: 24px;
+  }
+  .hero h1 .strike {
+    position: relative;
+    display: inline-block;
+  }
+  .hero h1 .strike::after {
+    content: '';
+    position: absolute;
+    left: -4px; right: -4px;
+    top: 52%;
+    height: 10px;
+    background: var(--red);
+    transform: rotate(-2deg);
+    z-index: -1;
+  }
+  .hero h1 .yellow-hl {
+    background: var(--yellow);
+    padding: 0 8px;
+    display: inline-block;
+    transform: rotate(-1.5deg);
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--red);
+  }
+  .hero .deck {
+    font-size: 21px;
+    max-width: 620px;
+    line-height: 1.45;
+    margin-bottom: 36px;
+    color: var(--ink-soft);
+  }
+  .hero .buttons {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .hero .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 18px 30px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 5px 5px 0 var(--red);
+    transition: all 0.15s;
+  }
+  .hero .btn-primary:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0 var(--red);
+  }
+  .hero .btn-primary .arrow { font-size: 18px; }
+  .hero .mini-proof {
+    font-size: 14px;
+    color: var(--muted);
+    font-family: var(--mono);
+  }
+  .hero .mini-proof strong { color: var(--ink); font-weight: 600; }
+
+  /* Trust bar */
+  .trust {
+    display: flex;
+    gap: 32px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .trust .t-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .trust .t-item .emoji { font-size: 20px; }
+
+  /* ========== THE PITCH (was "usual way vs smart way") ========== */
+  .pitch {
+    background: var(--ink);
+    padding: 80px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pitch::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, var(--yellow), var(--red), var(--yellow));
+    background-size: 200% 100%;
+    animation: slide 6s linear infinite;
+  }
+  @keyframes slide {
+    0% { background-position: 0% 0; }
+    100% { background-position: -200% 0; }
+  }
+  .pitch-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    color: white;
+  }
+  .pitch .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 14px;
+  }
+  .pitch h2 {
+    font-family: var(--display);
+    font-size: 58px;
+    line-height: 0.98;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 40px;
+    max-width: 760px;
+  }
+  .pitch h2 em { font-style: italic; color: var(--yellow); }
+
+  .vs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .vs-box {
+    background: #1f1f1f;
+    border-radius: 20px;
+    padding: 30px 28px;
+    position: relative;
+  }
+  .vs-box.bad {
+    border: 2px solid rgba(255, 59, 48, 0.3);
+  }
+  .vs-box.good {
+    border: 2px solid var(--yellow);
+    background: #252515;
+  }
+  .vs-box .box-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 100px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: var(--mono);
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .vs-box.bad .box-tag {
+    background: rgba(255, 59, 48, 0.2);
+    color: var(--red);
+  }
+  .vs-box.good .box-tag {
+    background: rgba(255, 214, 10, 0.2);
+    color: var(--yellow);
+  }
+  .vs-box h3 {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+  }
+  .vs-box ul { list-style: none; padding: 0; }
+  .vs-box li {
+    padding: 10px 0 10px 30px;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.5;
+    border-bottom: 1px dashed rgba(255,255,255,0.08);
+  }
+  .vs-box li:last-child { border-bottom: none; }
+  .vs-box.bad li::before {
+    content: '❌';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 14px;
+  }
+  .vs-box.good li::before {
+    content: '✓';
+    position: absolute;
+    left: 2px;
+    top: 9px;
+    color: var(--yellow);
+    font-weight: 900;
+    font-size: 17px;
+  }
+
+  /* ========== SCREENSHOT / APP PREVIEW ========== */
+  .app-preview {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .preview-copy .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .preview-copy h2 {
+    font-family: var(--display);
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+  }
+  .preview-copy h2 .hl {
+    background: var(--yellow);
+    padding: 0 6px;
+    display: inline-block;
+    transform: rotate(-1deg);
+  }
+  .preview-copy p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+    max-width: 480px;
+  }
+  .preview-copy .features-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 22px;
+  }
+  .preview-copy .features-list li {
+    padding: 10px 0 10px 32px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px dashed var(--rule);
+  }
+  .preview-copy .features-list li:last-child { border-bottom: none; }
+  .preview-copy .features-list li::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: var(--red);
+    font-size: 16px;
+    top: 10px;
+  }
+
+  /* Phone mockup */
+  .phone-mockup {
+    background: #111;
+    border-radius: 42px;
+    padding: 12px;
+    box-shadow: 10px 10px 0 var(--ink);
+    max-width: 340px;
+    margin: 0 auto;
+    transform: rotate(2deg);
+  }
+  .phone-screen {
+    background: #000;
+    border-radius: 32px;
+    aspect-ratio: 9 / 19.5;
+    position: relative;
+    overflow: hidden;
+  }
+  .phone-notch {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 22px;
+    background: #111;
+    border-radius: 16px;
+    z-index: 2;
+  }
+  .app-video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* ========== HOW IT WORKS ========== */
+  .how {
+    background: var(--cream);
+    padding: 80px 24px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+  }
+  .how-inner { max-width: 1100px; margin: 0 auto; }
+  .how .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .how h2 {
+    font-family: var(--display);
+    font-size: 52px;
+    line-height: 0.98;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 14px;
+  }
+  .how h2 em { font-style: italic; color: var(--red); }
+  .how .section-deck {
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 560px;
+    margin-bottom: 40px;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .step {
+    background: white;
+    border-radius: 18px;
+    padding: 30px 26px 26px;
+    border: 2px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--ink);
+    position: relative;
+  }
+  .step .step-num {
+    font-family: var(--display);
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+  .step h3 {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .step p {
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+  }
+
+  /* ========== BLOG TEASER ========== */
+  .blog-teaser {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+  }
+  .bt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .bt-header .bt-title .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .bt-header h2 {
+    font-family: var(--display);
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 6px;
+  }
+  .bt-header .bt-sub {
+    font-size: 16px;
+    color: var(--muted);
+  }
+  .bt-header .see-all {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid var(--ink);
+    border-radius: 100px;
+    color: var(--ink);
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 380px));
+    gap: 22px;
+    justify-content: center;
+  }
+  .blog-card {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    text-decoration: none;
+    color: var(--ink);
+    transition: all 0.15s;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink); }
+  .blog-cover {
+    padding: 24px 22px;
+    min-height: 140px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .blog-cover .emoji {
+    font-size: 44px;
+    line-height: 1;
+  }
+  .blog-cover .cover-kicker {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .cover-zine { background: #f0ead6; color: var(--ink); }
+  .cover-yellow { background: linear-gradient(135deg, var(--yellow), var(--yellow-deep)); color: var(--ink); }
+  .cover-tier { background: linear-gradient(135deg, #ff4757, #ff8b3d); color: white; }
+  .cover-zine .cover-kicker, .cover-yellow .cover-kicker { color: var(--ink); }
+  .cover-tier .cover-kicker { color: white; }
+  .blog-body {
+    background: white;
+    padding: 20px 22px 22px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-body h3 {
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.18;
+    margin-bottom: 8px;
+  }
+  .blog-body p {
+    font-size: 13.5px;
+    color: var(--muted);
+    line-height: 1.5;
+    flex: 1;
+  }
+  .blog-body .meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--rule);
+  }
+
+  /* ========== PRICING ========== */
+  .pricing {
+    background: var(--ink);
+    color: white;
+    padding: 80px 24px;
+  }
+  .pricing-inner { max-width: 1100px; margin: 0 auto; }
+  .pricing .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .pricing h2 {
+    font-family: var(--display);
+    font-size: 52px;
+    line-height: 0.98;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 14px;
+  }
+  .pricing h2 em { font-style: italic; color: var(--yellow); }
+  .pricing-deck {
+    font-size: 18px;
+    color: rgba(255,255,255,0.75);
+    max-width: 560px;
+    margin-bottom: 40px;
+  }
+
+  .plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .plan {
+    padding: 36px 30px 30px;
+    border-radius: 20px;
+    background: #1f1f1f;
+    border: 2px solid #333;
+    position: relative;
+  }
+  .plan.featured {
+    background: linear-gradient(135deg, #3a2a00, #221000);
+    border-color: var(--yellow);
+  }
+  .plan.featured::before {
+    content: 'MOST POPULAR ★';
+    position: absolute;
+    top: -14px;
+    right: 20px;
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+  }
+  .plan .plan-name {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 8px;
+  }
+  .plan .plan-price {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+  .plan .plan-price .amount {
+    font-family: var(--display);
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -2px;
+  }
+  .plan.featured .plan-price .amount { color: var(--yellow); }
+  .plan .plan-price .period {
+    font-size: 15px;
+    color: rgba(255,255,255,0.6);
+  }
+  .plan .plan-tagline {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 28px;
+    font-family: var(--mono);
+  }
+  .plan ul { list-style: none; padding: 0; margin-bottom: 26px; }
+  .plan li {
+    padding: 9px 0 9px 28px;
+    position: relative;
+    font-size: 14.5px;
+    line-height: 1.45;
+    border-bottom: 1px dashed rgba(255,255,255,0.08);
+  }
+  .plan li:last-child { border-bottom: none; }
+  .plan li::before {
+    content: '✓';
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #888;
+  }
+  .plan.featured li::before { color: var(--yellow); }
+  .plan li strong { color: white; }
+  .plan .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 24px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+  }
+  .plan.free .cta-btn {
+    background: white;
+    color: var(--ink);
+  }
+  .plan.featured .cta-btn {
+    background: var(--yellow);
+    color: var(--ink);
+  }
+  .pricing-fine {
+    margin-top: 30px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.5px;
+  }
+
+  /* ========== STATES ========== */
+  .states {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 24px;
+  }
+  .states .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .states h2 {
+    font-family: var(--display);
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .states-deck {
+    text-align: center;
+    color: var(--muted);
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  .states-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .state-card {
+    background: white;
+    border: 2px solid var(--ink);
+    border-radius: 16px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  .state-card .s-flag {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .state-card .s-abbr {
+    font-family: var(--display);
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--red);
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .state-card .s-name {
+    font-family: var(--display);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .state-card .s-stats {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--rule);
+  }
+  .states-cta {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--mono);
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .states-cta a { color: var(--red); font-weight: 700; text-decoration: underline; }
+
+  /* ========== FAQ ========== */
+  .faq {
+    background: var(--cream);
+    padding: 80px 24px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+  }
+  .faq-inner { max-width: 760px; margin: 0 auto; }
+  .faq .section-kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .faq h2 {
+    font-family: var(--display);
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 40px;
+  }
+  .faq-item {
+    background: white;
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+  .faq-q {
+    width: 100%;
+    text-align: left;
+    background: white;
+    border: none;
+    padding: 20px 24px;
+    font-family: var(--display);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--ink);
+    letter-spacing: -0.3px;
+  }
+  .faq-q .toggle {
+    font-size: 22px;
+    color: var(--red);
+    transition: transform 0.2s;
+    font-weight: 800;
+  }
+  .faq-item.open .toggle { transform: rotate(45deg); }
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 24px;
+  }
+  .faq-item.open .faq-a {
+    max-height: 400px;
+    padding: 0 24px 22px;
+  }
+  .faq-a p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+  .faq-a p + p { margin-top: 10px; }
+
+  /* ========== FINAL CTA ========== */
+  .final-cta {
+    padding: 90px 24px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .final-cta .stickers {
+    font-size: 36px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+  }
+  .final-cta h2 {
+    font-family: var(--display);
+    font-size: 64px;
+    line-height: 0.95;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+  }
+  .final-cta h2 em { font-style: italic; color: var(--red); }
+  .final-cta h2 .hl {
+    background: var(--yellow);
+    padding: 0 8px;
+    display: inline-block;
+    transform: rotate(-1deg);
+  }
+  .final-cta p {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 540px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+  }
+  .final-cta .btn-big {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 20px 36px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 6px 6px 0 var(--red);
+    transition: all 0.15s;
+  }
+  .final-cta .btn-big:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0 var(--red);
+  }
+  .final-cta .fine {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  /* ========== CONTACT ========== */
+  .contact {
+    padding: 70px 24px;
+    background: var(--bg);
+    border-top: 2px solid var(--ink);
+  }
+  .contact-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .contact-box h3 {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .contact-box p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+  .contact-box a {
+    color: var(--red);
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+  /* ========== FOOTER ========== */
+  footer.site {
+    background: var(--ink);
+    color: white;
+    padding: 60px 24px 30px;
+  }
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  footer .f-brand .logo {
+    font-family: var(--display);
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  footer .f-brand .logo span { color: var(--yellow); }
+  footer .f-brand p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+    max-width: 320px;
+  }
+  footer .f-col h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  footer .f-col a {
+    display: block;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    padding: 4px 0;
+  }
+  footer .f-col a:hover { color: var(--yellow); }
+  .footer-bottom {
+    padding-top: 22px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    font-family: var(--mono);
+    line-height: 1.6;
+    max-width: 1100px;
+    margin: 0 auto;
+    letter-spacing: 0.3px;
+  }
+  .footer-bottom a { color: var(--yellow); text-decoration: none; }
+
+  /* ========== RESPONSIVE ========== */
+  @media (max-width: 880px) {
+    nav.top .menu a:not(.cta-btn) { display: none; }
+    .hero h1 { font-size: 60px; letter-spacing: -1.5px; }
+    .hero .deck { font-size: 18px; }
+    .pitch h2, .how h2, .final-cta h2, .faq h2, .preview-copy h2 { font-size: 38px; letter-spacing: -1px; }
+    .states-grid { grid-template-columns: 1fr 1fr; }
+    .steps { grid-template-columns: 1fr; }
+    .vs-grid { grid-template-columns: 1fr; }
+    .app-preview { grid-template-columns: 1fr; }
+    .blog-grid { grid-template-columns: 1fr; }
+    .plans { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .contact-inner { grid-template-columns: 1fr; }
+    .final-cta h2 { font-size: 42px; }
+  }
+  @media (max-width: 480px) {
+    .hero { padding: 50px 20px 40px; }
+    .hero h1 { font-size: 44px; }
+    .hero .btn-primary { width: 100%; justify-content: center; }
+    .pitch h2, .how h2, .preview-copy h2 { font-size: 32px; }
+    .states-grid { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr; }
+  }
+</style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <div class="logo">
-                    <img src="newLogoV2.png" alt="SmartScratcher" class="logo-image">
-                </div>
-                <div class="nav-links">
-                    <a href="#features">Features</a>
-                    <a href="#how-it-works">How It Works</a>
-                    <a href="#states">States</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="#contact">Contact</a>
-                    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="btn-primary" target="_blank">Download App</a>
-                </div>
-            </div>
+
+<!-- NAV -->
+<nav class="top">
+  <a href="#" class="logo"><img src="newLogoV2.png" alt="SmartScratcher"></a>
+  <div class="menu">
+    <a href="#how">How it works</a>
+    <a href="#blog">Blog</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-btn">Get the App</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="eyebrow">
+    <span class="dot"></span>
+    <span>Always current · OK · TX · CA</span>
+  </div>
+  <h1>
+    Stop buying <span class="strike">dead</span> scratchers.<br>
+    Start playing the <span class="yellow-hl">good</span> ones.
+  </h1>
+  <p class="deck">
+    Half the scratch-offs on the shelf have already had their big prizes claimed — they just keep selling. SmartScratcher tells you which ones still have real prizes worth chasing.
+  </p>
+  <div class="buttons">
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="btn-primary">
+      <span>Download on App Store</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+  <div class="mini-proof">Free to try · <strong>$2.99/mo</strong> premium · 3-day free trial · cancel anytime</div>
+  <div class="trust">
+    <div class="t-item"><span class="emoji">📊</span>Official lottery data</div>
+    <div class="t-item"><span class="emoji">🔄</span>Always up to date</div>
+    <div class="t-item"><span class="emoji">🎟️</span>Every active game</div>
+  </div>
+</section>
+
+<!-- THE PITCH -->
+<section class="pitch">
+  <div class="pitch-inner">
+    <div class="section-kicker">· The actual problem ·</div>
+    <h2>You're standing at the counter. <em>Now what?</em></h2>
+    <p style="font-size: 18px; color: rgba(255,255,255,0.8); max-width: 620px; margin-bottom: 40px; line-height: 1.5;">
+      Dozens of games under the glass. Catchy names. Shiny jackpot numbers. But what you <em>can't</em> see is which of those games still has its prizes — and which ones had their big winners claimed months ago.
+    </p>
+
+    <div class="vs-grid">
+      <div class="vs-box bad">
+        <div class="box-tag">🤷 The usual way</div>
+        <h3>Guess. Hope. Lose.</h3>
+        <ul>
+          <li>Pick whichever ticket looks coolest</li>
+          <li>Believe the odds the lottery advertised when the game launched</li>
+          <li>Buy games where jackpots were claimed months ago</li>
+          <li>Walk out not knowing if you just wasted your money</li>
+          <li>Repeat next week</li>
+        </ul>
+      </div>
+      <div class="vs-box good">
+        <div class="box-tag">⚡ The SmartScratcher way</div>
+        <h3>Know. Pick. Play.</h3>
+        <ul>
+          <li>See which games still have top prizes live</li>
+          <li>Check the <strong>current</strong> odds, not the launch odds</li>
+          <li>Spot games where value is trending <strong>up</strong></li>
+          <li>Skip the games that are picked clean</li>
+          <li>Play with real info, not vibes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APP PREVIEW -->
+<section class="app-preview" id="features">
+  <div class="preview-copy">
+    <div class="section-kicker">· What you see in the app ·</div>
+    <h2>Every game in your state, <span class="hl">ranked.</span></h2>
+    <p>
+      SmartScratcher pulls the latest prize data from your state lottery and ranks every active game with our proprietary <strong>SmartScratcher Score</strong>. The hot ones still have their big prizes waiting. The cold ones are tapped out — skip those.
+    </p>
+    <ul class="features-list">
+      <li><strong>SmartScratcher Score</strong> — instant ranking for every game</li>
+      <li><strong>Game Temperature</strong> — is the game getting better or worse?</li>
+      <li><strong>Estimated Tickets Remaining</strong> — the number lotteries <em>don't</em> publish</li>
+      <li><strong>Estimated Value</strong> — your current return per dollar spent</li>
+      <li><strong>Daily Summaries</strong> — what changed overnight, waiting in your in-app message center</li>
+    </ul>
+  </div>
+
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <div class="phone-notch"></div>
+      <video class="app-video" autoplay loop muted playsinline poster="Game_List.PNG">
+        <source src="Vid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+  <div class="how-inner">
+    <div class="section-kicker">· How it works ·</div>
+    <h2>Three steps. <em>That's it.</em></h2>
+    <p class="section-deck">No signups to see the data. No complicated setup. Just open the app and look at the numbers.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>We pull the data.</h3>
+        <p>We grab the latest prize-remaining information straight from official state lottery sites — the same data they publish publicly.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>We do the math.</h3>
+        <p>Our algorithm estimates remaining tickets, calculates current odds, and ranks every game. It's math you <em>could</em> do. We just do it faster.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>You play smarter.</h3>
+        <p>Open the app before you head to the store. See which games are worth your money today. Leave the cold ones on the shelf.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG TEASER -->
+<section class="blog-teaser" id="blog">
+  <div class="bt-header">
+    <div class="bt-title">
+      <div class="section-kicker">· From the blog ·</div>
+      <h2>Fun reads on smart scratching.</h2>
+      <div class="bt-sub">Explainers, tier lists, tales from the gas station.</div>
+    </div>
+    <a href="blog-index.html" class="see-all">See all →</a>
+  </div>
+
+  <div class="blog-grid">
+    <a href="articles/uncle-myths.html" class="blog-card">
+      <div class="blog-cover cover-yellow">
+        <div class="emoji">👨</div>
+        <div class="cover-kicker">· Featured ·</div>
+      </div>
+      <div class="blog-body">
+        <h3>7 scratcher myths your uncle swears by.</h3>
+        <p>Every family has the guy who's cracked the code. Tap each card to bust the myth.</p>
+        <div class="meta">Apr 22 · 2026 · 5 min read</div>
+      </div>
+    </a>
+
+    <a href="articles/clerks-zine.html" class="blog-card">
+      <div class="blog-cover cover-zine">
+        <div class="emoji">🏪</div>
+        <div class="cover-kicker">· Zine #01 ·</div>
+      </div>
+      <div class="blog-body">
+        <h3>Things the guy behind the counter has seen.</h3>
+        <p>Actual gas station clerks told us the wildest scratcher stuff they've witnessed.</p>
+        <div class="meta">Apr 11 · 2026 · 6 min read</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="pricing-inner">
+    <div class="section-kicker">· Pricing ·</div>
+    <h2>Free to look. <em>$2.99</em> for the answers.</h2>
+    <p class="pricing-deck">The free version lets you see all the data. Premium does the ranking and analysis for you — plus a daily summary that lands in your in-app message center, ready to read whenever you open the app.</p>
+
+    <div class="plans">
+      <div class="plan free">
+        <div class="plan-name">Free</div>
+        <div class="plan-price">
+          <span class="amount">$0</span>
+          <span class="period">forever</span>
         </div>
-    </nav>
+        <div class="plan-tagline">Perfect for browsing · no signup required</div>
+        <ul>
+          <li>View all active scratch-off games</li>
+          <li>See ticket prices and remaining prizes</li>
+          <li>View all prize tiers for every game</li>
+          <li>Switch between OK / TX / CA</li>
+          <li>Games sorted alphabetically</li>
+        </ul>
+        <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-btn">Get the free app →</a>
+      </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">You Know There's a Better Way to Pick Scratch-Offs</h1>
-                    <p class="hero-subtitle">Most players pick their tickets based on the name, the design, or whatever catches their eye. But you know there's more to it. What if you could find the games still packed with big prizes—and skip the ones that almost never win big?</p>
-                    <div class="hero-cta">
-                        <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" target="_blank">
-                            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1705881600" alt="Download on the App Store" class="app-store-badge">
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="phone-mockup">
-                        <div class="phone-screen">
-                            <video class="app-video" autoplay loop muted playsinline>
-                                <source src="Vid.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="plan featured">
+        <div class="plan-name">Premium</div>
+        <div class="plan-price">
+          <span class="amount">$2.99</span>
+          <span class="period">/ month</span>
         </div>
-    </section>
+        <div class="plan-tagline">3-day free trial · cancel anytime</div>
+        <ul>
+          <li><strong>SmartScratcher Score</strong> — proprietary ranking for every game</li>
+          <li><strong>Smart Sorting</strong> — best games at the top</li>
+          <li><strong>Game Temperature</strong> — hot or cold, at a glance</li>
+          <li><strong>Pros & Cons</strong> — clear analysis per game</li>
+          <li><strong>Odds Trends</strong> — getting better or worse?</li>
+          <li><strong>Estimated Value</strong> — return per dollar, live</li>
+          <li><strong>Score Comparison</strong> — rank games at same price</li>
+          <li><strong>Estimated Tickets Remaining</strong> — the missing number</li>
+          <li><strong>Detailed odds table</strong> — initial vs current</li>
+          <li><strong>Daily Summaries</strong> — what changed overnight</li>
+        </ul>
+        <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-btn">Start free trial →</a>
+      </div>
+    </div>
+    <div class="pricing-fine">No hidden fees. Cancel anytime through the App Store. You can always downgrade back to free.</div>
+  </div>
+</section>
 
-    <!-- Problem/Solution Section -->
-    <section class="problem-solution">
-        <div class="container">
-            <div class="section-intro">
-                <h2>How Do You Decide Which Ticket to Buy?</h2>
-                <p>You're standing at the counter. Dozens of colorful scratch-off games stare back at you. Some have catchy names. Others show flashy jackpot amounts. Maybe you pick the one with the coolest design, or grab whatever's in front. But here's what you can't see: which games still have their top prizes—and which ones were claimed weeks ago.</p>
-            </div>
-            <div class="comparison-grid">
-                <div class="comparison-card problem">
-                    <div class="card-icon">🤷</div>
-                    <h3>The Usual Way</h3>
-                    <ul>
-                        <li>Pick by the name or how it looks</li>
-                        <li>Hope the big prizes are still out there</li>
-                        <li>Trust the advertised odds from day one</li>
-                        <li>Buy tickets from games that ran out of jackpots months ago</li>
-                        <li>Never know if you're wasting your money</li>
-                    </ul>
-                </div>
-                <div class="comparison-card solution">
-                    <img src="Artboard 1.png" alt="SmartScratcher Icon" class="card-icon-image">
-                    <h3>The SmartScratcher Way</h3>
-                    <ul>
-                        <li>See which games still have major prizes available</li>
-                        <li>Know the estimated current odds based on estimated tickets remaining</li>
-                        <li>Spot games where prizes are getting easier to win</li>
-                        <li>Avoid games that are picked clean</li>
-                        <li>Make informed choices with real data</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="problem-callout">
-                <p>You know scratch-offs are games of chance. But why play blind when you can play informed? SmartScratcher helps you spot the games worth your attention—and skip the ones that aren't.</p>
-            </div>
-        </div>
-    </section>
+<!-- STATES -->
+<section class="states" id="states">
+  <div class="section-kicker">· States we cover ·</div>
+  <h2>Three states. <em>More coming.</em></h2>
+  <p class="states-deck">We currently track every active scratch-off in these states. Data refreshes whenever each state lottery posts an update.</p>
 
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <h2 class="section-title">How SmartScratcher Works</h2>
-            <p class="section-subtitle">Three simple steps to smarter scratch-off decisions</p>
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <h3>We Collect Official Data Daily</h3>
-                    <p>Every day, we pull the latest prize information directly from official state lottery agencies. We track remaining prizes across all tiers, which games still have top winners, and exactly when the data was last published.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <h3>Our Algorithms Do the Math</h3>
-                    <p>Our system estimates remaining tickets, calculates estimated current odds for each prize tier, and assigns easy-to-read scores. You get instant analysis that would take hours to calculate yourself—ratings, trends, and recommendations for every game.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <h3>You Play With an Edge</h3>
-                    <p>Armed with data most players never see, you can confidently choose games with the best current opportunities and avoid the picked-over ones. You're no longer guessing—you're making informed decisions that set you apart.</p>
-                </div>
-            </div>
+  <div class="states-grid">
+    <div class="state-card">
+      <div class="s-flag">🌾</div>
+      <div class="s-abbr">OK</div>
+      <div class="s-name">Oklahoma</div>
+      <div class="s-stats">Every active game · always current</div>
+    </div>
+    <div class="state-card">
+      <div class="s-flag">⭐</div>
+      <div class="s-abbr">TX</div>
+      <div class="s-name">Texas</div>
+      <div class="s-stats">Every active game · always current</div>
+    </div>
+    <div class="state-card">
+      <div class="s-flag">🐻</div>
+      <div class="s-abbr">CA</div>
+      <div class="s-name">California</div>
+      <div class="s-stats">Every active game · always current</div>
+    </div>
+  </div>
 
-            <!-- Code Animation Terminal -->
-            <div class="code-terminal-wrapper">
-                <div class="code-terminal">
-                    <div class="terminal-header">
-                        <div class="terminal-buttons">
-                            <span class="terminal-button red"></span>
-                            <span class="terminal-button yellow"></span>
-                            <span class="terminal-button green"></span>
-                        </div>
-                        <div class="terminal-title">SmartScratcher Analysis Engine</div>
-                    </div>
-                    <div class="terminal-body" id="terminal-output">
-                        <!-- Content will be dynamically generated by JavaScript -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="states-cta">
+    Want your state added? <a href="#contact">Let us know →</a>
+  </div>
+</section>
 
-    <!-- Free vs Paid Comparison Section -->
-    <section id="features" class="pricing-comparison">
-        <div class="container">
-            <h2 class="section-title">Free to Start, Premium to Master</h2>
-            <p class="section-subtitle">Choose the level of insight that's right for you. Premium includes automated daily summaries—save time while staying informed.</p>
-            
-            <div class="table-scroll-hint">Swipe table to see all features →</div>
-            <div class="comparison-table-wrapper">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th class="feature-column">
-                                <div class="feature-column-header">Features</div>
-                            </th>
-                            <th class="plan-column free-column">
-                                <div class="plan-badge free-badge">
-                                    <div class="badge-label">Free</div>
-                                </div>
-                                <div class="plan-price">$0</div>
-                            </th>
-                            <th class="plan-column premium-column">
-                                <div class="plan-badge premium-badge">
-                                    <div class="badge-label">Premium</div>
-                                </div>
-                                <div class="plan-price">$2.99<span>/mo</span></div>
-                                <div class="plan-trial">3-Day Free Trial</div>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="row-even">
-                            <td class="feature-name">View all scratch-off games</td>
-                            <td class="check-cell"><span class="checkmark">✓</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name">See ticket costs</td>
-                            <td class="check-cell"><span class="checkmark">✓</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-even">
-                            <td class="feature-name">View remaining prizes for all tiers</td>
-                            <td class="check-cell"><span class="checkmark">✓</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name">Switch between states (OK, TX, CA)</td>
-                            <td class="check-cell"><span class="checkmark">✓</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-even">
-                            <td class="feature-name"><strong>SmartScratcher Score</strong> – Easy game ratings</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name"><strong>Smart Sorting</strong> – Games ranked by score, not alphabetically</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name"><strong>Hot/Cold Temperature Ratings</strong> – Quickly spot best games</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-even">
-                            <td class="feature-name"><strong>Pros & Cons Lists</strong> – Clear analysis for each game</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name"><strong>Odds Trends</strong> – See if prizes are getting easier/harder to win</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-even">
-                            <td class="feature-name"><strong>Estimated Value</strong> – Know your estimated return per dollar</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name"><strong>Score Comparison Chart</strong> – Rank games at same price point</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-even">
-                            <td class="feature-name"><strong>Estimated Remaining Tickets</strong> – Timing & availability insight</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-odd">
-                            <td class="feature-name"><strong>Detailed Odds Table</strong> – Initial vs. current estimated odds</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                        <tr class="row-even">
-                            <td class="feature-name"><strong>Daily Lottery Summaries</strong> – Automated daily analysis delivered to your message center with jackpot claims, ranking changes, sales trends, and today's best picks by price tier</td>
-                            <td class="check-cell"><span class="xmark">✗</span></td>
-                            <td class="check-cell premium-cell"><span class="checkmark">✓</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="faq-inner">
+    <div class="section-kicker">· Common questions ·</div>
+    <h2>Everything you were gonna ask.</h2>
 
-            <div class="pricing-note">
-                <p><strong>No hidden fees.</strong> Cancel anytime. Premium includes a 3-day free trial—start with free to see if you like it, upgrade when you're ready for deeper insights and automated daily analysis that saves you time.</p>
-            </div>
-        </div>
-    </section>
+    <div class="faq-item open">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>Where does the data actually come from?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Directly from official state lottery websites. We pull the exact same information the lottery publishes publicly — prize availability, original odds, launch dates — and refresh it whenever they post a new update. Then we do the math on top.</p>
+      </div>
+    </div>
 
-    <!-- States Section -->
-    <section id="states" class="states">
-        <div class="container">
-            <h2 class="section-title">Available States</h2>
-            <div class="states-grid">
-                <div class="state-card">
-                    <div class="state-circle">CA</div>
-                    <h3>California</h3>
-                </div>
-                <div class="state-card">
-                    <div class="state-circle">OK</div>
-                    <h3>Oklahoma</h3>
-                </div>
-                <div class="state-card">
-                    <div class="state-circle">TX</div>
-                    <h3>Texas</h3>
-                </div>
-            </div>
-            <p class="states-coming-soon">More states coming soon!</p>
-        </div>
-    </section>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>Will SmartScratcher help me win?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>We can't promise wins — nobody can, it's a game of chance. What we can do is help you <strong>stop buying tickets for games where the big prizes are already gone.</strong> Better information means smarter decisions. Smarter decisions don't guarantee wins, but they definitely reduce losses.</p>
+      </div>
+    </div>
 
-    <!-- Social Proof Section -->
-    <section class="social-proof">
-        <div class="container">
-            <div class="proof-grid">
-                <div class="proof-item">
-                    <div class="proof-number">99%+</div>
-                    <div class="proof-label">Uptime</div>
-                </div>
-                <div class="proof-item">
-                    <div class="proof-number">Daily</div>
-                    <div class="proof-label">Automated Updates</div>
-                </div>
-                <div class="proof-item">
-                    <div class="proof-number">All</div>
-                    <div class="proof-label">Prize Tiers Tracked</div>
-                </div>
-                <div class="proof-item">
-                    <div class="proof-number">Real-Time</div>
-                    <div class="proof-label">Data Analysis</div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>How often is the data updated?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Whenever the state lottery commission posts new numbers — we pull them in right away. Most states update on weekdays; some are slower than others. The app always shows you when the data was last refreshed, so you know exactly how current it is.</p>
+      </div>
+    </div>
 
-    <!-- FAQ Section -->
-    <section id="faq" class="faq">
-        <div class="container">
-            <h2 class="section-title">Common Questions</h2>
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h3>Where does the data come from?</h3>
-                    <p>We pull information directly from official state lottery sources every day. This includes prize availability and initial published odds—all the public data that's out there, just organized in one place. We then use this data to estimate remaining tickets and calculate current estimated odds.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Will this help me win?</h3>
-                    <p>SmartScratcher doesn't guarantee wins—scratch-offs are games of chance and nobody can predict individual outcomes. What we do is help you avoid games where the big prizes are already gone, and spot games that still have good opportunities. Better information leads to smarter decisions.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>How often is the data updated?</h3>
-                    <p>We update data from each state lottery daily. You'll always see a "last updated" timestamp in the app so you know exactly how current the information is.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>What's the difference between Free and Premium?</h3>
-                    <p>The free version lets you see basic info—ticket prices and remaining prizes. Premium adds our analysis: ratings, hot/cold indicators, odds trends, estimated value, detailed recommendations, and automated daily summaries delivered to your message center. Try free first, upgrade when you want the full picture.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>What states do you cover?</h3>
-                    <p>Currently we support Oklahoma, Texas, and California. We're working on adding more states based on user requests and data availability. Let us know which state you'd like to see next!</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Can't I just look this up myself on my state's lottery website?</h3>
-                    <p>Partially. State lotteries publish remaining prize counts, but they don't tell you approximately how many tickets are left in circulation—and that's the critical piece of information. Without an estimate of the ticket count, you can't calculate estimated current odds or know if a game is near the end of its run. SmartScratcher fills in that gap by estimating remaining tickets and doing all the math for you.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>How do you estimate remaining tickets?</h3>
-                    <p>We use the published overall odds for each game (provided by the lottery at launch) combined with the current number of remaining prizes to mathematically estimate how many tickets are still out there. With large prize pools and thousands of tickets, statistical methods become very reliable. It's the same principle casinos and statisticians use—large numbers make patterns predictable.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Can I cancel my subscription anytime?</h3>
-                    <p>Absolutely. The $2.99/month Premium subscription includes a 3-day free trial and can be canceled anytime through your App Store account settings. No hassle, no hidden fees. You can also downgrade to the free version whenever you want.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>Can't I just look this up on the lottery website?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Technically, yes — the raw data is public. But state lotteries only publish the "remaining prizes" count. They don't publish <strong>how many tickets are still out there</strong>, which is the critical piece for calculating real odds.</p>
+        <p>SmartScratcher estimates the remaining ticket count using the published odds and prize claims. That lets us show you the <em>actual</em> current odds for each tier, not just the ones printed at launch.</p>
+      </div>
+    </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Have questions or feedback? We'd love to hear from you.</p>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h3>Email Support</h3>
-                        <p><a href="mailto:support@gamingdatasolutions.com">support@gamingdatasolutions.com</a></p>
-                        <p class="contact-note">We typically respond within 24 hours.</p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Request a State</h3>
-                        <p>Want SmartScratcher in your state? Let us know which state lottery you'd like us to add next.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>How do you estimate remaining tickets?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>We use the published overall odds (provided by the lottery at launch) combined with the current number of remaining prizes. From those two numbers, we can work backwards to a reasonable estimate of tickets still in circulation.</p>
+        <p>With large prize pools and millions of tickets, the law of large numbers makes these estimates very reliable. It's the same kind of statistical reasoning casinos and actuaries use.</p>
+      </div>
+    </div>
 
-    <!-- Download CTA Section -->
-    <section id="download" class="download-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to See Which Games Are Actually Worth It?</h2>
-                <p>Download SmartScratcher and start making smarter scratch-off choices today. It's free to try—see the data for yourself.</p>
-                <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" target="_blank">
-                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1705881600" alt="Download on the App Store" class="app-store-badge">
-                </a>
-                <p class="cta-note">Available on iPhone and iPad • No credit card required to start</p>
-            </div>
-        </div>
-    </section>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>What's the difference between free and premium?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Free shows you all the raw data — every game, every tier, every remaining prize. It's like having the lottery website, but organized and in one place.</p>
+        <p>Premium layers our analysis on top: scores, rankings, hot/cold indicators, estimated odds, estimated tickets remaining, and a daily summary of what changed. It's the difference between <em>looking at numbers</em> and <em>knowing what they mean.</em></p>
+      </div>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="logo">
-                        <img src="newLogoV2.png" alt="SmartScratcher" class="logo-image">
-                    </div>
-                    <p>Make data-driven lottery decisions.</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Product</h4>
-                        <a href="#features">Features</a>
-                        <a href="#how-it-works">How It Works</a>
-                        <a href="#states">States</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Support</h4>
-                        <a href="#faq">FAQ</a>
-                        <a href="#contact">Contact</a>
-                        <a href="privacy-policy.html">Privacy Policy</a>
-                        <a href="terms-of-service.html">Terms of Service</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Connect</h4>
-                        <a href="https://twitter.com/SmartScratcher" target="_blank">Twitter/X</a>
-                        <a href="https://www.instagram.com/smartscratcher/" target="_blank">Instagram</a>
-                        <a href="https://www.tiktok.com/@smartscratcher" target="_blank">TikTok</a>
-                        <a href="https://www.youtube.com/@SmartScratcherApp" target="_blank">YouTube</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 SmartScratcher. All rights reserved. | A product of <a href="https://www.gamingdatasolutions.com" target="_blank" rel="noopener noreferrer" class="parent-company-link">Gaming Data Solutions LLC</a></p>
-                <p class="disclaimer">SmartScratcher provides statistical analysis and does not guarantee lottery wins. Please play responsibly.</p>
-            </div>
-        </div>
-    </footer>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>What states do you cover?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Currently Oklahoma, Texas, and California. More are on the roadmap — especially the ones people ask about most. If your state isn't covered, <a href="#contact">let us know</a> and we'll add it to the queue.</p>
+      </div>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="faq-item">
+      <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+        <span>Can I cancel my premium subscription?</span>
+        <span class="toggle">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Anytime, through your App Store account settings. Premium includes a 3-day free trial so you can test-drive the full experience before paying anything. If it's not for you, you'll never be charged.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="stickers">🎟️ 💰 🍀</div>
+  <h2>Ready to stop playing <em>dead</em> <span class="hl">scratchers?</span></h2>
+  <p>Download SmartScratcher free. See the data for yourself. Upgrade if you want the rankings done for you — $2.99/month with a 3-day free trial.</p>
+  <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="btn-big">
+    <span>Download on App Store</span>
+    <span>→</span>
+  </a>
+  <div class="fine">Available on iPhone and iPad · No credit card required to start</div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-box">
+      <h3>📬 Get in touch</h3>
+      <p>Questions, feedback, bug reports, love letters, requests for your state. We usually reply within 24 hours.</p>
+      <a href="mailto:support@gamingdatasolutions.com">support@gamingdatasolutions.com</a>
+    </div>
+    <div class="contact-box">
+      <h3>🗺️ Request a state</h3>
+      <p>Want SmartScratcher in your state? Drop us a line. We add states based on what people actually ask for.</p>
+      <a href="mailto:support@gamingdatasolutions.com?subject=State%20request">Email us a state request →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site">
+  <div class="footer-inner">
+    <div class="f-brand">
+      <a href="#" class="logo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+    </div>
+    <div class="f-col">
+      <h4>Product</h4>
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#states">States</a>
+    </div>
+    <div class="f-col">
+      <h4>Resources</h4>
+      <a href="blog-index.html">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.smartscratcherapp.com/privacy-policy.html">Privacy</a>
+      <a href="https://www.smartscratcherapp.com/terms-of-service.html">Terms</a>
+    </div>
+    <div class="f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
 </body>
 </html>
