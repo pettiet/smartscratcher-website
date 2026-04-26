@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>7 scratcher myths your uncle swears by 👨 (tap to bust 'em) | SmartScratcher</title>
+<meta name="description" content="Every family has the guy who's cracked the code. We bust the seven scratch-off myths your uncle swears by — with the actual math." />
+<meta property="og:title" content="7 scratcher myths your uncle swears by." />
+<meta property="og:description" content="Every family has the guy who's cracked the code. Tap each card to bust the myth." />
+<meta property="og:image" content="https://smartscratcherapp.com/Artboard%201.png" />
+<meta property="og:type" content="article" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://smartscratcherapp.com/Artboard%201.png" />
+<link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg" />
+<link rel="shortcut icon" href="../favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="SmartScratcher" />
+<link rel="manifest" href="../favicon/site.webmanifest" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@800&family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0f0e17;
+    --bg2: #1a1825;
+    --cream: #fffffe;
+    --yellow: #ffe156;
+    --pink: #ff6b9d;
+    --mint: #4ade80;
+    --purple: #a78bfa;
+    --orange: #ff8c42;
+    --muted: #a0a0b8;
+    --sans: 'Space Grotesk', system-ui, sans-serif;
+    --serif: 'Instrument Serif', Georgia, serif;
+  }
+  body {
+    background: var(--bg);
+    color: var(--cream);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* Animated background grid */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(167, 139, 250, 0.08), transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(255, 107, 157, 0.08), transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* === TOP NAV === */
+  .topbar {
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .topbar .logo {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+  }
+  .topbar .logo em {
+    color: var(--yellow);
+    font-style: normal;
+  }
+  .topbar .chip {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 100px;
+  }
+
+  /* === HERO === */
+  .hero {
+    padding: 70px 24px 50px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .hero .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 24px;
+    padding: 6px 14px;
+    border: 1px solid var(--yellow);
+    border-radius: 100px;
+  }
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: 72px;
+    line-height: 0.95;
+    letter-spacing: -2px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--yellow);
+  }
+  .hero h1 .uncle {
+    display: inline-block;
+    animation: wiggle 3s ease-in-out infinite;
+    transform-origin: center bottom;
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(6deg); }
+    75% { transform: rotate(-6deg); }
+  }
+  .hero .subdeck {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--muted);
+    max-width: 560px;
+    margin: 20px auto 30px;
+    line-height: 1.35;
+  }
+  .hero .instruction {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    font-weight: 500;
+  }
+  .hero .instruction::before,
+  .hero .instruction::after {
+    content: '✦';
+    margin: 0 10px;
+    color: var(--pink);
+  }
+
+  /* === FLIP CARDS === */
+  .myths-grid {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 22px;
+  }
+
+  .myth-card {
+    perspective: 1200px;
+    height: 340px;
+    cursor: pointer;
+  }
+  .myth-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform-style: preserve-3d;
+  }
+  .myth-card.flipped .myth-card-inner {
+    transform: rotateY(180deg);
+  }
+  .myth-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  /* FRONT (myth) */
+  .myth-front {
+    background: var(--bg2);
+    border: 2px solid rgba(255,255,255,0.1);
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .myth-card:hover .myth-front {
+    transform: translateY(-4px);
+    border-color: var(--yellow);
+  }
+  .myth-front .number {
+    font-family: var(--serif);
+    font-size: 52px;
+    line-height: 1;
+    color: var(--yellow);
+    font-style: italic;
+  }
+  .myth-front .label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 8px;
+  }
+  .myth-front .claim {
+    font-family: var(--serif);
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--cream);
+    margin-top: auto;
+  }
+  .myth-front .claim .quote {
+    color: var(--pink);
+    font-size: 32px;
+    line-height: 0;
+    vertical-align: -10px;
+    margin-right: 2px;
+  }
+  .myth-front .tap {
+    margin-top: 18px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .myth-front .tap::after {
+    content: '→';
+    font-size: 16px;
+    transition: transform 0.3s;
+  }
+  .myth-card:hover .tap::after { transform: translateX(4px); }
+
+  /* BACK (truth) */
+  .myth-back {
+    background: var(--cream);
+    color: var(--bg);
+    transform: rotateY(180deg);
+  }
+  .myth-back.accent-yellow { background: var(--yellow); }
+  .myth-back.accent-pink { background: var(--pink); color: var(--cream); }
+  .myth-back.accent-mint { background: var(--mint); color: var(--bg); }
+  .myth-back.accent-purple { background: var(--purple); color: var(--cream); }
+  .myth-back.accent-orange { background: var(--orange); color: var(--cream); }
+
+  .myth-back .verdict {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .myth-back .verdict .bust {
+    background: var(--bg);
+    color: var(--yellow);
+    padding: 4px 10px;
+    border-radius: 100px;
+  }
+  .myth-back.accent-pink .verdict .bust,
+  .myth-back.accent-purple .verdict .bust,
+  .myth-back.accent-orange .verdict .bust {
+    background: var(--cream);
+    color: var(--bg);
+  }
+  .myth-back .truth {
+    font-family: var(--serif);
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: auto;
+  }
+  .myth-back .explainer {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 12px;
+    opacity: 0.85;
+  }
+
+  /* === MIDBLOCK: STATS STRIP === */
+  .stat-strip {
+    background: var(--bg2);
+    margin: 80px 0;
+    padding: 50px 24px;
+    text-align: center;
+  }
+  .stat-strip .q {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .stat-strip .a {
+    font-family: var(--serif);
+    font-size: 56px;
+    line-height: 1;
+    color: var(--yellow);
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+  }
+  .stat-strip .note {
+    font-size: 14px;
+    color: var(--muted);
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  /* === CLOSING === */
+  .closer {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 24px 40px;
+    text-align: center;
+  }
+  .closer h2 {
+    font-family: var(--serif);
+    font-size: 42px;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+  }
+  .closer h2 em {
+    font-style: italic;
+    color: var(--yellow);
+  }
+  .closer p {
+    font-size: 17px;
+    color: var(--muted);
+    margin-bottom: 22px;
+  }
+
+  .cta-pill {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--yellow);
+    color: var(--bg);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  .cta-pill:hover { transform: scale(1.05); }
+
+  .share-row {
+    margin-top: 26px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .share-row a {
+    padding: 10px 18px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 100px;
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .share-row a:hover {
+    border-color: var(--yellow);
+    color: var(--yellow);
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 24px 50px;
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 48px; }
+    .hero .subdeck { font-size: 18px; }
+    .stat-strip .a { font-size: 42px; }
+    .closer h2 { font-size: 32px; }
+  }
+
+  /* === SITE CHROME (nav + footer, scoped to ss-* namespace) === */
+  nav.ss-top { position: sticky; top: 0; z-index: 1000; background: #111; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', system-ui, sans-serif; }
+  nav.ss-top .ss-logo { display: inline-flex; align-items: center; text-decoration: none; }
+  nav.ss-top .ss-logo img { height: 36px; width: auto; display: block; }
+  nav.ss-top .ss-menu { display: flex; gap: 28px; align-items: center; }
+  nav.ss-top .ss-menu a { text-decoration: none; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.85); transition: color 0.15s; border: 0; padding: 0; letter-spacing: normal; text-transform: none; }
+  nav.ss-top .ss-menu a:hover { color: #ffd60a; }
+  nav.ss-top .ss-menu .ss-cta { background: #ffd60a; color: #000; padding: 10px 18px; border-radius: 100px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; }
+  nav.ss-top .ss-menu .ss-cta:hover { background: #ffe44d; color: #000; }
+  @media (max-width: 880px) { nav.ss-top .ss-menu a:not(.ss-cta) { display: none; } }
+
+  footer.ss-footer { background: #111; color: #fff; padding: 60px 24px 30px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; max-width: none; margin: 0; text-align: left; font-style: normal; letter-spacing: normal; opacity: 1; }
+  .ss-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .ss-f-brand .ss-flogo { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: -0.8px; margin-bottom: 10px; display: block; text-decoration: none; color: #fff; font-style: normal; }
+  .ss-f-brand .ss-flogo span { color: #ffd60a; }
+  .ss-f-brand p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; max-width: 320px; font-style: normal; margin: 0; }
+  .ss-f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #ffd60a; margin-bottom: 14px; font-weight: 700; }
+  .ss-f-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.8); text-decoration: none; padding: 4px 0; border: 0; }
+  .ss-f-col a:hover { color: #ffd60a; }
+  .ss-footer-bottom { padding-top: 22px; font-size: 12px; color: rgba(255,255,255,0.5); font-family: 'JetBrains Mono', monospace; line-height: 1.6; max-width: 1100px; margin: 0 auto; letter-spacing: 0.3px; font-style: normal; text-align: left; }
+  .ss-footer-bottom a { color: #ffd60a; text-decoration: none; }
+  @media (max-width: 880px) { .ss-footer-inner { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .ss-footer-inner { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="ss-top">
+  <a href="../index.html" class="ss-logo"><img src="../newLogoV2.png" alt="SmartScratcher"></a>
+  <div class="ss-menu">
+    <a href="../index.html#how">How it works</a>
+    <a href="../blog-index.html">Blog</a>
+    <a href="../index.html#pricing">Pricing</a>
+    <a href="../index.html#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="ss-cta">Get the App</a>
+  </div>
+</nav>
+
+<div class="wrapper">
+
+  <section class="hero">
+    <div class="eyebrow">The Definitive List</div>
+    <h1>
+      7 scratcher myths<br>
+      your <span class="uncle">👨</span> uncle <em>swears</em> by.
+    </h1>
+    <p class="subdeck">Every family has one. The guy at Thanksgiving who's cracked the code. Here's what the math actually says.</p>
+    <p class="instruction">Tap any card to bust the myth</p>
+  </section>
+
+  <div class="myths-grid">
+
+    <!-- MYTH 1 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">01</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>Never buy the first ticket off a new roll. The winners come a few in."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-yellow">
+          <div class="verdict">Verdict <span class="bust">Busted</span></div>
+          <div>
+            <div class="truth">Tickets are printed in random order within a game, not a roll.</div>
+            <p class="explainer">The position of a ticket in a pack has zero effect on whether it's a winner. Retailers don't get "good rolls" or "bad rolls" — they get the next book off the truck.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYTH 2 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">02</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>This gas station sells more winners. They're the lucky store."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-pink">
+          <div class="verdict">Verdict <span class="bust">Mostly Busted</span></div>
+          <div>
+            <div class="truth">High-volume stores sell more winners because they sell more tickets. Same ratio.</div>
+            <p class="explainer">The store that "always has winners" is just the busiest. You'd have the same odds at any retailer stocking the same game. Your gas station isn't blessed. It's just popular.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYTH 3 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">03</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>Buy the ticket right after someone cashes a big winner there. They restock with new ones."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-mint">
+          <div class="verdict">Verdict <span class="bust">Busted</span></div>
+          <div>
+            <div class="truth">Cashing a winner doesn't trigger a restock. The other winners in that book are still there.</div>
+            <p class="explainer">Retailers restock on regular delivery schedules, not based on what's been cashed. A just-claimed winner doesn't affect the next ticket at all.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYTH 4 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">04</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>More expensive tickets are always a better deal."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-purple">
+          <div class="verdict">Verdict <span class="bust">Half True</span></div>
+          <div>
+            <div class="truth">Higher-priced tickets tend to have better payout ratios — but only if the prizes are still in the game.</div>
+            <p class="explainer">A $30 ticket with a healthy prize pool might return 72¢ per dollar. The same $30 ticket after the big prizes are gone might return 50¢. Price alone isn't the story.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYTH 5 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">05</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>Always play new games. The odds are best at launch."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-orange">
+          <div class="verdict">Verdict <span class="bust">Busted</span></div>
+          <div>
+            <div class="truth">Games often reach peak value a few weeks <em>after</em> launch, not on day one.</div>
+            <p class="explainer">Small prizes get claimed faster than big ones. As small-prize tickets drain, the remaining pool is weighted toward bigger prizes — and expected value actually climbs for a while.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYTH 6 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">06</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>If I keep buying tickets, I'm due for a win."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-yellow">
+          <div class="verdict">Verdict <span class="bust">Very Busted</span></div>
+          <div>
+            <div class="truth">Every ticket is independent. The lottery doesn't owe you a win for being loyal.</div>
+            <p class="explainer">This is the gambler's fallacy. A ticket doesn't know how many losing tickets came before it. Twenty losses in a row gives you the exact same odds on ticket 21.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYTH 7 -->
+    <div class="myth-card" onclick="this.classList.toggle('flipped')">
+      <div class="myth-card-inner">
+        <div class="myth-face myth-front">
+          <div>
+            <div class="number">07</div>
+            <div class="label">The Claim</div>
+          </div>
+          <div class="claim"><span class="quote">"</span>Picking the game off the shelf with the prettiest graphics is as good a strategy as any."</div>
+          <div class="tap">Bust it</div>
+        </div>
+        <div class="myth-face myth-back accent-pink">
+          <div class="verdict">Verdict <span class="bust">Finally: True-ish</span></div>
+          <div>
+            <div class="truth">If you're picking blind, this is as good as anything. But you don't have to pick blind.</div>
+            <p class="explainer">Every state publishes remaining prize data. Apps like this one rank active games by what's actually still winnable. Pretty graphics or real data — one of those helps more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="stat-strip">
+    <div class="q">So how many of these myths are actually true?</div>
+    <div class="a">Basically one.</div>
+    <div class="note">Out of seven scratcher beliefs we hear all the time, only one has any real mathematical backing. And even that one has a better version.</div>
+  </section>
+
+  <section class="closer">
+    <h2>Your uncle means well. <em>The math doesn't.</em></h2>
+    <p>Most lottery "strategies" are stories we tell ourselves to feel in control of something random. But there is one genuine edge available to you — and the lottery publishes the data for it. For free. Every day.</p>
+    <p>SmartScratcher crunches that data across OK, TX, and CA and hands you the shortlist. No rituals. No lucky rolls. Just which games have the prizes, right now.</p>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-pill">Open SmartScratcher →</a>
+    <div class="share-row">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Funcle-myths.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a href="sms:?&body=7%20scratcher%20myths%20your%20uncle%20swears%20by%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Funcle-myths.html">Text it</a>
+      <a href="#" data-copy-link>Copy link</a>
+    </div>
+  </section>
+
+  <footer>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, the National Problem Gambling Helpline is 1-800-GAMBLER.
+  </footer>
+
+</div>
+
+<footer class="ss-footer">
+  <div class="ss-footer-inner">
+    <div class="ss-f-brand">
+      <a href="../index.html" class="ss-flogo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+    </div>
+    <div class="ss-f-col">
+      <h4>Product</h4>
+      <a href="../index.html#features">Features</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="ss-f-col">
+      <h4>Resources</h4>
+      <a href="../blog-index.html">Blog</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="ss-f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="ss-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-copy-link]').forEach(el => {
+    el.addEventListener('click', async (e) => {
+      e.preventDefault();
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        const original = el.textContent;
+        el.textContent = 'Copied!';
+        setTimeout(() => { el.textContent = original; }, 1500);
+      } catch (err) {
+        window.prompt('Copy this link:', window.location.href);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

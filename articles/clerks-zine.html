@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>THINGS THE GUY BEHIND THE COUNTER HAS SEEN | SmartScratcher Zine #1</title>
+<meta name="description" content="Actual gas station clerks tell us the wildest scratcher stuff they've witnessed — funny, kinda sad, and weirdly useful." />
+<meta property="og:title" content="Things the guy behind the counter has seen." />
+<meta property="og:description" content="Real gas station clerks. Real scratcher stories. Names changed. Habits unfortunately real." />
+<meta property="og:image" content="https://smartscratcherapp.com/Artboard%201.png" />
+<meta property="og:type" content="article" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://smartscratcherapp.com/Artboard%201.png" />
+<link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg" />
+<link rel="shortcut icon" href="../favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="SmartScratcher" />
+<link rel="manifest" href="../favicon/site.webmanifest" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Anton&family=Courier+Prime:wght@400;700&family=Rubik+Mono+One&family=Bricolage+Grotesque:wght@800&family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --paper: #f0ead6;
+    --paper-dark: #d4cba8;
+    --ink: #1a1a1a;
+    --red-stamp: #c5342b;
+    --yellow-hl: #fff352;
+    --typewriter: 'Special Elite', 'Courier Prime', monospace;
+    --courier: 'Courier Prime', 'Courier New', monospace;
+    --display: 'Anton', 'Arial Black', sans-serif;
+    --chunky: 'Rubik Mono One', sans-serif;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--typewriter);
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(0,0,0,0.03) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, rgba(0,0,0,0.04) 0%, transparent 50%);
+  }
+
+  /* Photocopy grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 100;
+    mix-blend-mode: multiply;
+  }
+
+  .zine {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
+    background: var(--paper);
+    position: relative;
+  }
+
+  /* === COVER === */
+  .cover {
+    padding: 30px 24px 40px;
+    position: relative;
+    border-bottom: 4px solid var(--ink);
+    background: var(--paper);
+  }
+  .cover-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--courier);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 24px;
+  }
+
+  .issue-stamp {
+    position: absolute;
+    top: 60px;
+    right: 24px;
+    background: var(--red-stamp);
+    color: var(--paper);
+    padding: 10px 18px;
+    transform: rotate(6deg);
+    font-family: var(--chunky);
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 3px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    z-index: 2;
+  }
+
+  .cover h1 {
+    font-family: var(--display);
+    font-size: 92px;
+    line-height: 0.85;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+  .cover h1 .slashed {
+    background: var(--yellow-hl);
+    padding: 0 4px;
+    display: inline-block;
+    transform: rotate(-1deg);
+  }
+  .cover h1 .crooked {
+    display: inline-block;
+    transform: rotate(2deg);
+  }
+
+  .cover .subdeck {
+    font-family: var(--typewriter);
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 2px dashed var(--ink);
+    max-width: 500px;
+    background: rgba(255,255,255,0.4);
+  }
+  .cover .byline {
+    font-family: var(--courier);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+  }
+  .cover .byline strong {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 2px 8px;
+  }
+
+  /* === TAPE PIECES === */
+  .tape {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    background: rgba(255, 235, 150, 0.6);
+    border: 1px solid rgba(180, 160, 80, 0.5);
+    z-index: 1;
+  }
+  .tape-1 {
+    top: -8px;
+    left: 40px;
+    transform: rotate(-8deg);
+  }
+  .tape-2 {
+    top: -8px;
+    right: 60px;
+    transform: rotate(6deg);
+  }
+
+  /* === INTRO BLOCK === */
+  .intro {
+    padding: 30px 24px;
+    border-bottom: 3px solid var(--ink);
+    background: var(--paper);
+  }
+  .intro p {
+    font-size: 17px;
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+  .intro p:first-child::first-letter {
+    font-family: var(--display);
+    font-size: 68px;
+    float: left;
+    line-height: 0.9;
+    margin: 6px 10px 0 0;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 8px 12px 4px;
+  }
+  .intro p strong {
+    background: var(--yellow-hl);
+    padding: 0 3px;
+  }
+
+  /* === STORY CARDS === */
+  .story-rail {
+    padding: 30px 20px;
+  }
+  .rail-header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .rail-header h2 {
+    font-family: var(--display);
+    font-size: 56px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 0.9;
+  }
+  .rail-header h2 .cut {
+    display: inline-block;
+    transform: rotate(-2deg);
+    background: var(--ink);
+    color: var(--paper);
+    padding: 2px 10px;
+  }
+  .rail-header .sub {
+    font-family: var(--courier);
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .story {
+    border: 3px solid var(--ink);
+    padding: 22px 20px 20px;
+    margin-bottom: 30px;
+    background: rgba(255,255,255,0.55);
+    position: relative;
+  }
+
+  .story:nth-child(odd) {
+    transform: rotate(-0.6deg);
+  }
+  .story:nth-child(even) {
+    transform: rotate(0.5deg);
+  }
+
+  .story .story-num {
+    position: absolute;
+    top: -20px;
+    left: -16px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--display);
+    font-size: 30px;
+    padding: 8px 16px;
+    line-height: 1;
+    box-shadow: 4px 4px 0 var(--red-stamp);
+  }
+
+  .story .story-header {
+    font-family: var(--courier);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed var(--ink);
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .story .story-header strong {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 2px 6px;
+  }
+
+  .story h3 {
+    font-family: var(--display);
+    font-size: 34px;
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    margin-bottom: 14px;
+  }
+  .story h3 .yellow {
+    background: var(--yellow-hl);
+    padding: 0 4px;
+  }
+
+  .story .quote-body {
+    font-family: var(--typewriter);
+    font-size: 17px;
+    line-height: 1.55;
+    padding: 16px 18px;
+    border-left: 4px solid var(--red-stamp);
+    background: rgba(255,255,255,0.5);
+    margin-bottom: 14px;
+  }
+  .story .quote-body::before {
+    content: '"';
+    font-family: var(--display);
+    font-size: 56px;
+    line-height: 0;
+    vertical-align: -20px;
+    color: var(--red-stamp);
+    margin-right: 2px;
+  }
+
+  .story .verdict {
+    font-family: var(--courier);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 14px;
+    background: var(--ink);
+    color: var(--paper);
+    display: inline-block;
+    letter-spacing: 1px;
+  }
+  .story .verdict .tag {
+    background: var(--yellow-hl);
+    color: var(--ink);
+    padding: 1px 6px;
+    margin-right: 6px;
+  }
+
+  /* === PULLOUT / STAMP === */
+  .pullout {
+    padding: 26px 20px;
+    margin: 30px 0;
+    background: var(--ink);
+    color: var(--paper);
+    border: 4px solid var(--ink);
+    text-align: center;
+    position: relative;
+    transform: rotate(-0.5deg);
+  }
+  .pullout::before {
+    content: '';
+    position: absolute;
+    top: 4px; left: 4px; right: 4px; bottom: 4px;
+    border: 2px dashed var(--paper);
+    pointer-events: none;
+  }
+  .pullout .p-kicker {
+    font-family: var(--courier);
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--yellow-hl);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .pullout .p-body {
+    font-family: var(--display);
+    font-size: 30px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+
+  /* === BACK MATTER / CTA === */
+  .back-matter {
+    padding: 40px 24px 20px;
+    background: var(--ink);
+    color: var(--paper);
+    border-top: 6px solid var(--red-stamp);
+  }
+  .back-matter .bm-label {
+    font-family: var(--courier);
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--yellow-hl);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .back-matter h2 {
+    font-family: var(--display);
+    font-size: 52px;
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 14px;
+  }
+  .back-matter h2 .hl {
+    background: var(--yellow-hl);
+    color: var(--ink);
+    padding: 0 6px;
+  }
+  .back-matter p {
+    font-family: var(--typewriter);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    max-width: 520px;
+  }
+
+  .back-matter .btn {
+    display: inline-block;
+    font-family: var(--chunky);
+    font-size: 14px;
+    background: var(--yellow-hl);
+    color: var(--ink);
+    padding: 14px 24px;
+    text-decoration: none;
+    border: 3px solid var(--paper);
+    letter-spacing: 1px;
+    box-shadow: 4px 4px 0 var(--red-stamp);
+    text-transform: uppercase;
+  }
+
+  .share-strip {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px dashed var(--paper);
+    font-family: var(--courier);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .share-strip a {
+    color: var(--yellow-hl);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--yellow-hl);
+  }
+
+  .colophon {
+    padding: 20px 24px 40px;
+    font-family: var(--courier);
+    font-size: 11px;
+    line-height: 1.7;
+    color: rgba(240, 234, 214, 0.7);
+    background: var(--ink);
+    border-top: 1px solid rgba(240, 234, 214, 0.2);
+  }
+  .colophon strong { color: var(--yellow-hl); }
+
+  @media (max-width: 640px) {
+    .cover h1 { font-size: 58px; }
+    .rail-header h2 { font-size: 38px; }
+    .story h3 { font-size: 26px; }
+    .back-matter h2 { font-size: 36px; }
+    .pullout .p-body { font-size: 22px; }
+    .issue-stamp { font-size: 13px; padding: 8px 12px; top: 30px; }
+  }
+
+  /* === SITE CHROME (nav + footer, scoped to ss-* namespace) === */
+  nav.ss-top { position: sticky; top: 0; z-index: 1000; background: #111; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', system-ui, sans-serif; }
+  nav.ss-top .ss-logo { display: inline-flex; align-items: center; text-decoration: none; }
+  nav.ss-top .ss-logo img { height: 36px; width: auto; display: block; }
+  nav.ss-top .ss-menu { display: flex; gap: 28px; align-items: center; }
+  nav.ss-top .ss-menu a { text-decoration: none; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.85); transition: color 0.15s; border: 0; padding: 0; letter-spacing: normal; text-transform: none; }
+  nav.ss-top .ss-menu a:hover { color: #ffd60a; }
+  nav.ss-top .ss-menu .ss-cta { background: #ffd60a; color: #000; padding: 10px 18px; border-radius: 100px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; }
+  nav.ss-top .ss-menu .ss-cta:hover { background: #ffe44d; color: #000; }
+  @media (max-width: 880px) { nav.ss-top .ss-menu a:not(.ss-cta) { display: none; } }
+
+  footer.ss-footer { background: #111; color: #fff; padding: 60px 24px 30px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; max-width: none; margin: 0; text-align: left; font-style: normal; letter-spacing: normal; opacity: 1; border: 0; }
+  .ss-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .ss-f-brand .ss-flogo { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: -0.8px; margin-bottom: 10px; display: block; text-decoration: none; color: #fff; font-style: normal; }
+  .ss-f-brand .ss-flogo span { color: #ffd60a; }
+  .ss-f-brand p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; max-width: 320px; font-style: normal; margin: 0; }
+  .ss-f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #ffd60a; margin-bottom: 14px; font-weight: 700; }
+  .ss-f-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.8); text-decoration: none; padding: 4px 0; border: 0; }
+  .ss-f-col a:hover { color: #ffd60a; }
+  .ss-footer-bottom { padding-top: 22px; font-size: 12px; color: rgba(255,255,255,0.5); font-family: 'JetBrains Mono', monospace; line-height: 1.6; max-width: 1100px; margin: 0 auto; letter-spacing: 0.3px; font-style: normal; text-align: left; }
+  .ss-footer-bottom a { color: #ffd60a; text-decoration: none; }
+  @media (max-width: 880px) { .ss-footer-inner { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .ss-footer-inner { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="ss-top">
+  <a href="../index.html" class="ss-logo"><img src="../newLogoV2.png" alt="SmartScratcher"></a>
+  <div class="ss-menu">
+    <a href="../index.html#how">How it works</a>
+    <a href="../blog-index.html">Blog</a>
+    <a href="../index.html#pricing">Pricing</a>
+    <a href="../index.html#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="ss-cta">Get the App</a>
+  </div>
+</nav>
+
+<div class="zine">
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="tape tape-1"></div>
+    <div class="tape tape-2"></div>
+    <div class="issue-stamp">ISSUE #01</div>
+
+    <div class="cover-top">
+      <span>SmartScratcher Zine</span>
+      <span>Apr. 2026 · Free</span>
+    </div>
+
+    <h1>
+      <span class="crooked">Things</span><br>
+      the <span class="slashed">guy</span><br>
+      behind the<br>
+      counter<br>
+      has <span class="slashed crooked">SEEN.</span>
+    </h1>
+
+    <div class="subdeck">
+      We asked some actual gas station clerks about the wildest scratcher stuff they've witnessed. What they told us was funny, kinda sad, and weirdly useful.
+    </div>
+
+    <div class="byline">
+      By <strong>SmartScratcher</strong> · 6 min read · based on real stuff
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <div class="intro">
+    <p>Here's the thing about gas station clerks: they've seen everything. If you sell lottery tickets for a living, you are basically a <strong>professional witness to human hope</strong>. Every weird ritual, every bad habit, every spectacular win or loss — it all happens right in front of you, a hundred times a day, in two-minute transactions.</p>
+    <p>So we talked to a few of them. Asked what surprised them. What makes them laugh. What makes them want to quietly intervene. Stories have been lightly paraphrased. Names changed. The habits described are real enough that you might recognize yourself in one or two. Sorry.</p>
+  </div>
+
+  <!-- STORIES -->
+  <div class="story-rail">
+
+    <div class="rail-header">
+      <h2>
+        Seven <span class="cut">weird things</span><br>
+        they told us.
+      </h2>
+      <div class="sub">— direct from behind the counter —</div>
+    </div>
+
+    <!-- STORY 1 -->
+    <div class="story">
+      <div class="story-num">01</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Edmond, OK</span>
+        <span>Tue 2:14 PM</span>
+      </div>
+      <h3>The guy who <span class="yellow">blows on</span> every ticket before scratching.</h3>
+      <div class="quote-body">
+        Every single one. Kiss it, blow on it, rub it on his forehead. He does this with his eyes closed. It takes like forty-five seconds before he even starts scratching. There's usually a line. Nobody says anything. One time he won fifty bucks and I think he cried a little.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>Rituals don't affect odds. But they're free and they make you feel something. Fine.</div>
+    </div>
+
+    <!-- STORY 2 -->
+    <div class="story">
+      <div class="story-num">02</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Austin, TX</span>
+        <span>Fri 8:40 PM</span>
+      </div>
+      <h3>The lady who demands the <span class="yellow">third ticket</span> from the top.</h3>
+      <div class="quote-body">
+        Not the top one. That one's bad. Not the second one either. The third one. She asks by name. She thinks I'm trying to trick her when I just grab the next one in the book. I'm not. There is no difference. There has never been a difference. I have tried to explain. She doesn't care.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>Position in a book doesn't affect whether a ticket is a winner. Truly. It does not matter.</div>
+    </div>
+
+    <!-- STORY 3 -->
+    <div class="story">
+      <div class="story-num">03</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Norman, OK</span>
+        <span>Sun 11:15 AM</span>
+      </div>
+      <h3>The dude who <span class="yellow">returns</span> his losing tickets.</h3>
+      <div class="quote-body">
+        He brings them back to the counter. Like to the counter. Like I sold him a sweater. He says the ticket was defective because it lost. I have told him. My manager has told him. He has been told by the Texas Lottery Commission. He comes back every Saturday. He always tries again. I respect it at this point.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>Not being a winner is not a defect. That is how most tickets work.</div>
+    </div>
+
+    <!-- PULLOUT BETWEEN -->
+    <div class="pullout">
+      <div class="p-kicker">· Intermission ·</div>
+      <div class="p-body">
+        The lottery is a great business because the product doesn't have to work to get repeat customers.
+      </div>
+    </div>
+
+    <!-- STORY 4 -->
+    <div class="story">
+      <div class="story-num">04</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Long Beach, CA</span>
+        <span>Thu 6:02 PM</span>
+      </div>
+      <h3>The guy who bought the <span class="yellow">same game</span> for two years.</h3>
+      <div class="quote-body">
+        $20 a day. Same game. The top prize was claimed like eleven months in. He didn't know. Nobody tells you that, you have to look it up. I tried to say something once. He said he had a system. I stopped asking. He spent about fourteen thousand dollars on tickets that could not win the thing on the front of them.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>Check remaining prizes. Every state publishes this. It's free. It takes 30 seconds.</div>
+    </div>
+
+    <!-- STORY 5 -->
+    <div class="story">
+      <div class="story-num">05</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Tulsa, OK</span>
+        <span>Sat 9:20 PM</span>
+      </div>
+      <h3>The woman who won <span class="yellow">$10,000</span> and asked us not to tell her husband.</h3>
+      <div class="quote-body">
+        Like we would. We don't know her husband. We don't know her. She's just some lady. She won on a $5 ticket right there in the store. Scratched it at the counter. Saw the number. Looked at me dead in the eye and said "please do not put this on the scanner." I put it on the scanner. It was ten thousand dollars. She asked for it in cash. We don't have ten thousand dollars. I don't know what happened after.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>Winnings over $600 require tax paperwork. You cannot hide this from anyone. Sorry.</div>
+    </div>
+
+    <!-- STORY 6 -->
+    <div class="story">
+      <div class="story-num">06</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Plano, TX</span>
+        <span>Mon 7:45 AM</span>
+      </div>
+      <h3>The regular who <span class="yellow">only plays on Mondays</span>.</h3>
+      <div class="quote-body">
+        He said Mondays have fresher tickets because the books haven't been sitting on the shelf all weekend. I'm not sure what he means. Tickets don't spoil. They don't do anything different on a weekend. But he is cheerful and kind and he tips me with small candy when he wins. I'm not gonna correct him. He's living his best life.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>Tickets do not ferment over the weekend. But his life sounds nice and I want to support it.</div>
+    </div>
+
+    <!-- STORY 7 -->
+    <div class="story">
+      <div class="story-num">07</div>
+      <div class="story-header">
+        <span><strong>Clerk</strong> · Sacramento, CA</span>
+        <span>Wed 4:30 PM</span>
+      </div>
+      <h3>The girl who <span class="yellow">actually did the math</span>.</h3>
+      <div class="quote-body">
+        College-age. Came in with her phone out. Asked me which $10 games we had. I told her. She read from her phone — "the one with the diamonds has 3 top prizes left out of 5 but the other one has 0 out of 3." Picked the first one. Won $100 a week later. Came back to show me. Said "see." I said see.
+      </div>
+      <div class="verdict"><span class="tag">VERDICT</span>The only strategy that actually works. Know the numbers before you walk in.</div>
+    </div>
+
+  </div>
+
+  <!-- BACK MATTER / CTA -->
+  <div class="back-matter">
+    <div class="bm-label">··· ABOUT THE APP ···</div>
+    <h2>That <span class="hl">last girl?</span><br>Yeah. We built her an app.</h2>
+    <p>SmartScratcher does the thing story #7 is doing, automatically. Every day, for every active scratch-off game in Oklahoma, Texas, and California. We pull the remaining prize data the state publishes, rank the games, and hand you the good ones.</p>
+    <p>Free to browse. Premium is $2.99/month with a 3-day free trial if you want the full ranking system. You will become the person the gas station clerk eventually writes about.</p>
+
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="btn">→ Download the app</a>
+
+    <div class="share-strip">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html" target="_blank" rel="noopener">Share on FB</a>
+      <a href="sms:?&body=Things%20the%20guy%20behind%20the%20counter%20has%20seen%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html">Text this</a>
+      <a href="mailto:?subject=Things%20the%20guy%20behind%20the%20counter%20has%20seen&body=Wild%20stories%20from%20gas%20station%20clerks%3A%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html">Email it</a>
+      <a href="#" data-copy-link>Copy link</a>
+    </div>
+  </div>
+
+  <div class="colophon">
+    SmartScratcher Zine · Issue #01 · April 2026 · Stories lightly fictionalized from real clerk conversations. Names changed. Habits unfortunately real.<br><br>
+    <strong>Play responsibly.</strong> Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, the National Problem Gambling Helpline is <strong>1-800-GAMBLER</strong>.
+  </div>
+
+</div>
+
+<footer class="ss-footer">
+  <div class="ss-footer-inner">
+    <div class="ss-f-brand">
+      <a href="../index.html" class="ss-flogo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+    </div>
+    <div class="ss-f-col">
+      <h4>Product</h4>
+      <a href="../index.html#features">Features</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="ss-f-col">
+      <h4>Resources</h4>
+      <a href="../blog-index.html">Blog</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="ss-f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="ss-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-copy-link]').forEach(el => {
+    el.addEventListener('click', async (e) => {
+      e.preventDefault();
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        const original = el.textContent;
+        el.textContent = 'Copied!';
+        setTimeout(() => { el.textContent = original; }, 1500);
+      } catch (err) {
+        window.prompt('Copy this link:', window.location.href);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
