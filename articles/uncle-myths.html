@@ -613,7 +613,7 @@
     <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-pill">Open SmartScratcher →</a>
     <div class="share-row">
       <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Funcle-myths.html" target="_blank" rel="noopener">Share on Facebook</a>
-      <a href="sms:?body=7%20scratcher%20myths%20your%20uncle%20swears%20by%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Funcle-myths.html">Text it</a>
+      <a href="sms:?body=7%20scratcher%20myths%20your%20uncle%20swears%20by%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Funcle-myths.html" data-share data-share-title="7 scratcher myths your uncle swears by" data-share-text="Every family has the guy who's cracked the code. Here's what the math actually says.">Text it</a>
       <a href="#" data-copy-link>Copy link</a>
     </div>
   </section>
@@ -661,6 +661,20 @@
 </footer>
 
 <script>
+  document.querySelectorAll('[data-share]').forEach(el => {
+    el.addEventListener('click', async (e) => {
+      if (!navigator.share) return;
+      e.preventDefault();
+      try {
+        await navigator.share({
+          title: el.dataset.shareTitle || document.title,
+          text: el.dataset.shareText || '',
+          url: window.location.href
+        });
+      } catch (err) { /* user cancelled */ }
+    });
+  });
+
   document.querySelectorAll('[data-copy-link]').forEach(el => {
     el.addEventListener('click', async (e) => {
       e.preventDefault();

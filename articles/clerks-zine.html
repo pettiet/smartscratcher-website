@@ -645,7 +645,7 @@
 
     <div class="share-strip">
       <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html" target="_blank" rel="noopener">Share on FB</a>
-      <a href="sms:?body=Things%20the%20guy%20behind%20the%20counter%20has%20seen%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html">Text this</a>
+      <a href="sms:?body=Things%20the%20guy%20behind%20the%20counter%20has%20seen%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html" data-share data-share-title="Things the guy behind the counter has seen" data-share-text="Real gas station clerks. Real scratcher stories.">Text this</a>
       <a href="mailto:?subject=Things%20the%20guy%20behind%20the%20counter%20has%20seen&body=Wild%20stories%20from%20gas%20station%20clerks%3A%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fclerks-zine.html">Email it</a>
       <a href="#" data-copy-link>Copy link</a>
     </div>
@@ -695,6 +695,20 @@
 </footer>
 
 <script>
+  document.querySelectorAll('[data-share]').forEach(el => {
+    el.addEventListener('click', async (e) => {
+      if (!navigator.share) return;
+      e.preventDefault();
+      try {
+        await navigator.share({
+          title: el.dataset.shareTitle || document.title,
+          text: el.dataset.shareText || '',
+          url: window.location.href
+        });
+      } catch (err) { /* user cancelled */ }
+    });
+  });
+
   document.querySelectorAll('[data-copy-link]').forEach(el => {
     el.addEventListener('click', async (e) => {
       e.preventDefault();
