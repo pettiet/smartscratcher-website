@@ -441,41 +441,149 @@
     .issue-stamp { font-size: 13px; padding: 8px 12px; top: 30px; }
   }
 
-  /* === SITE CHROME (nav + footer, scoped to ss-* namespace) === */
-  nav.ss-top { position: sticky; top: 0; z-index: 1000; background: #111; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', system-ui, sans-serif; }
-  nav.ss-top .ss-logo { display: inline-flex; align-items: center; text-decoration: none; }
-  nav.ss-top .ss-logo img { height: 36px; width: auto; display: block; }
-  nav.ss-top .ss-menu { display: flex; gap: 28px; align-items: center; }
-  nav.ss-top .ss-menu a { text-decoration: none; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.85); transition: color 0.15s; border: 0; padding: 0; letter-spacing: normal; text-transform: none; }
-  nav.ss-top .ss-menu a:hover { color: #ffd60a; }
-  nav.ss-top .ss-menu .ss-cta { background: #ffd60a; color: #000; padding: 10px 18px; border-radius: 100px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; }
-  nav.ss-top .ss-menu .ss-cta:hover { background: #ffe44d; color: #000; }
-  @media (max-width: 880px) { nav.ss-top .ss-menu a:not(.ss-cta) { display: none; } }
+  /* === ZINE NAV === */
+  .zine-nav {
+    position: sticky; top: 0; z-index: 1000;
+    background: var(--paper);
+    border-bottom: 4px solid var(--ink);
+    box-shadow: 0 3px 0 var(--ink);
+    padding: 12px 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 16px; flex-wrap: wrap;
+  }
+  .zn-logo {
+    font-family: var(--typewriter);
+    font-size: 20px;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 1px;
+  }
+  .zn-links { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .zn-links a {
+    font-family: var(--courier);
+    font-size: 12px; font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink);
+    text-decoration: none;
+    padding: 4px 6px;
+    border: 0;
+    transition: background 0.12s;
+  }
+  .zn-links a:hover { background: var(--yellow-hl); }
+  .zn-cta {
+    background: var(--red-stamp);
+    color: var(--paper) !important;
+    padding: 8px 14px !important;
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+    font-family: var(--chunky) !important;
+    font-size: 11px !important;
+    letter-spacing: 0.1em !important;
+    transform: rotate(-1.5deg);
+    transition: transform 0.12s, box-shadow 0.12s, background 0.12s;
+  }
+  .zn-cta:hover {
+    background: var(--ink) !important;
+    color: var(--yellow-hl) !important;
+    transform: rotate(0deg) translate(1px, 1px);
+    box-shadow: 2px 2px 0 var(--ink);
+  }
+  @media (max-width: 760px){ .zn-links{ gap: 10px; } .zn-links a:not(.zn-cta){ font-size: 11px; } }
+  @media (max-width: 540px){ .zine-nav{ flex-direction: column; align-items: flex-start; } }
 
-  footer.ss-footer { background: #111; color: #fff; padding: 60px 24px 30px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; max-width: none; margin: 0; text-align: left; font-style: normal; letter-spacing: normal; opacity: 1; border: 0; }
-  .ss-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-  .ss-f-brand .ss-flogo { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: -0.8px; margin-bottom: 10px; display: block; text-decoration: none; color: #fff; font-style: normal; }
-  .ss-f-brand .ss-flogo span { color: #ffd60a; }
-  .ss-f-brand p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; max-width: 320px; font-style: normal; margin: 0; }
-  .ss-f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #ffd60a; margin-bottom: 14px; font-weight: 700; }
-  .ss-f-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.8); text-decoration: none; padding: 4px 0; border: 0; }
-  .ss-f-col a:hover { color: #ffd60a; }
-  .ss-footer-bottom { padding-top: 22px; font-size: 12px; color: rgba(255,255,255,0.5); font-family: 'JetBrains Mono', monospace; line-height: 1.6; max-width: 1100px; margin: 0 auto; letter-spacing: 0.3px; font-style: normal; text-align: left; }
-  .ss-footer-bottom a { color: #ffd60a; text-decoration: none; }
-  @media (max-width: 880px) { .ss-footer-inner { grid-template-columns: 1fr 1fr; } }
-  @media (max-width: 480px) { .ss-footer-inner { grid-template-columns: 1fr; } }
+  /* === ZINE FOOTER === */
+  .zine-footer {
+    background: var(--paper);
+    border-top: 4px double var(--ink);
+    padding: 56px 24px 30px;
+    font-family: var(--typewriter);
+    color: var(--ink);
+    position: relative;
+    margin-top: 60px;
+  }
+  .zf-stamp {
+    position: absolute; top: -18px; left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+    background: var(--red-stamp);
+    color: var(--paper);
+    padding: 7px 16px;
+    font-family: var(--chunky);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+  }
+  .zf-grid {
+    max-width: 1100px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 36px;
+    padding-bottom: 28px;
+    border-bottom: 1px dashed var(--ink);
+  }
+  .zf-logo {
+    font-family: var(--display);
+    font-size: 28px; letter-spacing: 0.04em;
+    color: var(--ink);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .zf-brand p {
+    font-family: var(--courier);
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 320px;
+    margin: 0;
+    color: var(--ink);
+  }
+  .zf-col h4 {
+    font-family: var(--chunky);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red-stamp);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .zf-col a {
+    display: block;
+    font-family: var(--courier);
+    font-size: 14px;
+    color: var(--ink);
+    text-decoration: none;
+    padding: 3px 0;
+    width: fit-content;
+    border: 0;
+  }
+  .zf-col a:hover { background: var(--yellow-hl); }
+  .zf-bottom {
+    max-width: 1100px;
+    margin: 22px auto 0;
+    font-family: var(--courier);
+    font-size: 12px;
+    color: var(--ink);
+    opacity: 0.78;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .zf-bottom a { color: var(--red-stamp); text-decoration: none; border-bottom: 1px solid var(--red-stamp); }
+  @media (max-width: 880px){ .zf-grid{ grid-template-columns: 1fr 1fr; gap: 28px; } }
+  @media (max-width: 480px){ .zf-grid{ grid-template-columns: 1fr; gap: 22px; } }
 </style>
 </head>
 <body>
 
-<nav class="ss-top">
-  <a href="../index.html" class="ss-logo"><img src="../newLogoV2.png" alt="SmartScratcher"></a>
-  <div class="ss-menu">
-    <a href="../index.html#how">How it works</a>
-    <a href="../blog-index.html">Blog</a>
+<nav class="zine-nav">
+  <a href="../index.html" class="zn-logo">SmartScratcher</a>
+  <div class="zn-links">
+    <a href="../index.html">Home</a>
+    <a href="../blog-index.html">The Pages</a>
     <a href="../index.html#pricing">Pricing</a>
     <a href="../index.html#faq">FAQ</a>
-    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="ss-cta">Get the App</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="zn-cta">Get the App →</a>
   </div>
 </nav>
 
@@ -658,29 +766,30 @@
 
 </div>
 
-<footer class="ss-footer">
-  <div class="ss-footer-inner">
-    <div class="ss-f-brand">
-      <a href="../index.html" class="ss-flogo">Smart<span>Scratcher</span></a>
-      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+<footer class="zine-footer">
+  <div class="zf-stamp">PUBLISHER'S COLOPHON · ZINE #01</div>
+  <div class="zf-grid">
+    <div class="zf-brand">
+      <a href="../index.html" class="zf-logo" style="text-decoration:none;">SmartScratcher</a>
+      <p>A photocopied-and-stapled report on scratch-offs in OK, TX, and CA. More states coming.</p>
     </div>
-    <div class="ss-f-col">
-      <h4>Product</h4>
-      <a href="../index.html#features">Features</a>
+    <div class="zf-col">
+      <h4>The Mag</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
       <a href="../index.html#how">How it works</a>
       <a href="../index.html#pricing">Pricing</a>
       <a href="../index.html#states">States</a>
     </div>
-    <div class="ss-f-col">
-      <h4>Resources</h4>
-      <a href="../blog-index.html">Blog</a>
+    <div class="zf-col">
+      <h4>Fine Print</h4>
       <a href="../index.html#faq">FAQ</a>
       <a href="../index.html#contact">Contact</a>
       <a href="../privacy-policy.html">Privacy</a>
       <a href="../terms-of-service.html">Terms</a>
     </div>
-    <div class="ss-f-col">
-      <h4>Follow</h4>
+    <div class="zf-col">
+      <h4>Send Mail</h4>
       <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
       <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
       <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
@@ -688,9 +797,8 @@
       <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
     </div>
   </div>
-  <div class="ss-footer-bottom">
-    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
-    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  <div class="zf-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
   </div>
 </footer>
 

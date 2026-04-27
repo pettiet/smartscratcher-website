@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>A love letter to the $5 scratcher · February 14, 2026 | SmartScratcher</title>
+<meta name="description" content="A Valentine's Day love letter to the most underrated ticket in the rack. Why the $5 scratcher hits a sweet spot most casual players overlook.">
+
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="A love letter to the $5 scratcher">
+<meta property="og:description" content="A Valentine's Day love letter to the most underrated ticket in the rack. Why the $5 scratcher hits a sweet spot most casual players overlook.">
+<meta property="og:url" content="https://smartscratcherapp.com/articles/valentines.html">
+<meta property="og:site_name" content="SmartScratcher">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="A love letter to the $5 scratcher">
+<meta name="twitter:description" content="A Valentine's Day love letter to the most underrated ticket in the rack. Why the $5 scratcher hits a sweet spot most casual players overlook.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  color-scheme: light;
+  --ink: #1a1410;
+  --ink-soft: #3a2f28;
+  --paper: #f6ecd9;
+  --paper-2: #efe2c6;
+  --paper-deep: #e6d4ad;
+  --paper-shadow: #c9b48a;
+  --rose: #a8324a;
+  --rose-deep: #7a1f33;
+  --rose-soft: #e6c4cc;
+  --gold: #b8893a;
+  --gold-soft: #d4ad60;
+  --rule: #c9b48a;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  background-color: #2a1f1a;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(184, 137, 58, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(168, 50, 74, 0.05) 0%, transparent 50%),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0px,
+      transparent 2px,
+      rgba(0,0,0,0.04) 2px,
+      rgba(0,0,0,0.04) 3px
+    );
+  background-attachment: fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+.nav {
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+  padding: 1.1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: 'Cormorant Garamond', serif;
+}
+.wordmark {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 1.45rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+  font-style: italic;
+}
+.wordmark::before {
+  content: '✦ ';
+  color: var(--rose);
+  font-style: normal;
+  font-weight: 400;
+}
+.nav-links {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.02rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--ink);
+  font-style: italic;
+}
+.nav-links a:hover { color: var(--rose); }
+.nav-cta {
+  background: var(--ink);
+  color: var(--paper) !important;
+  padding: 0.45rem 1rem;
+  font-style: italic !important;
+  border: 1px solid var(--ink);
+  letter-spacing: 0.01em;
+}
+.nav-cta:hover {
+  background: var(--rose);
+  border-color: var(--rose);
+}
+
+.masthead {
+  max-width: 760px;
+  margin: 4rem auto 1.5rem;
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.mast-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  color: var(--paper);
+  text-transform: uppercase;
+  border-top: 1px solid rgba(246,236,217,0.3);
+  border-bottom: 1px solid rgba(246,236,217,0.3);
+  padding: 0.5rem 0;
+  margin-bottom: 2.5rem;
+}
+.mast-line span:nth-child(2) {
+  color: var(--gold-soft);
+}
+.mast-section-name {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3.2rem;
+  color: var(--gold-soft);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.mast-tag {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: rgba(246,236,217,0.7);
+  font-size: 1.05rem;
+}
+
+.envelope-stage {
+  max-width: 600px;
+  margin: 3rem auto 0;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.envelope {
+  background-color: #e6d4ad;
+  background-image:
+    radial-gradient(circle at 30% 20%, rgba(0,0,0,0.04) 0%, transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(0,0,0,0.06) 0%, transparent 50%);
+  border: 1px solid var(--paper-shadow);
+  padding: 2rem 2.2rem;
+  position: relative;
+  z-index: 1;
+  box-shadow:
+    0 1px 0 rgba(0,0,0,0.1) inset,
+    0 20px 40px rgba(0,0,0,0.4),
+    0 6px 12px rgba(0,0,0,0.3);
+  transform: rotate(-1.2deg);
+}
+.envelope::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 1px;
+  background: var(--paper-shadow);
+  opacity: 0.4;
+}
+
+.postmark {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 92px;
+  height: 92px;
+  border: 2px solid var(--rose);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--rose);
+  text-transform: uppercase;
+  transform: rotate(-12deg);
+  opacity: 0.75;
+  font-weight: 500;
+}
+.postmark::before, .postmark::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  height: 1px;
+  background: var(--rose);
+  transform: translateX(-50%);
+  opacity: 0.5;
+}
+.postmark::before { top: 24%; }
+.postmark::after { bottom: 24%; }
+.pm-top { font-size: 0.55rem; letter-spacing: 0.18em; margin-bottom: 0.2rem; }
+.pm-mid {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-style: normal;
+}
+.pm-bot { font-size: 0.55rem; letter-spacing: 0.18em; margin-top: 0.2rem; }
+
+.stamp {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  width: 70px;
+  height: 86px;
+  background:
+    repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      transparent 4px,
+      var(--paper-deep) 4px,
+      var(--paper-deep) 6px
+    );
+  padding: 4px;
+}
+.stamp-inner {
+  background: var(--rose);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 4px;
+  color: var(--paper);
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+.stamp-heart { font-size: 2rem; line-height: 1; margin-top: 4px; }
+.stamp-amt {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.stamp-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.42rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.envelope-addressee {
+  margin: 100px 0 8px 30%;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.envelope-addressee .name {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--ink);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.envelope-addressee .place-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-style: normal;
+}
+.envelope-instr {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--rose);
+  margin-top: 1.5rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.letter-stage {
+  max-width: 720px;
+  margin: 5rem auto 0;
+  padding: 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.letter {
+  background-color: #f6ecd9;
+  background-image:
+    radial-gradient(circle at 15% 12%, rgba(168, 50, 74, 0.05) 0%, transparent 35%),
+    radial-gradient(circle at 90% 88%, rgba(184, 137, 58, 0.06) 0%, transparent 35%),
+    radial-gradient(circle at 50% 50%, transparent 60%, rgba(201, 180, 138, 0.18) 100%),
+    linear-gradient(180deg, #f6ecd9 0%, #efe2c6 100%);
+  padding: 5rem 4rem 4.5rem;
+  position: relative;
+  z-index: 1;
+  box-shadow:
+    0 30px 60px rgba(0,0,0,0.5),
+    0 8px 16px rgba(0,0,0,0.3),
+    0 1px 0 rgba(255,255,255,0.4) inset;
+}
+.letter::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(74, 51, 32, 0.05) 1px, transparent 1.5px);
+  background-size: 4px 4px;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.letter::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 4px solid rgba(184, 137, 58, 0.18);
+  pointer-events: none;
+}
+
+.letterhead {
+  text-align: center;
+  margin-bottom: 2.8rem;
+  position: relative;
+  z-index: 1;
+}
+.monogram {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4rem;
+  color: var(--rose);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+.letterhead-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.letterhead-rule::before, .letterhead-rule::after {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background: var(--rose);
+  opacity: 0.5;
+}
+.letterhead-rule span {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--rose);
+}
+.letterhead-tag {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+}
+
+.letter-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: clamp(2.4rem, 5.5vw, 3.6rem);
+  line-height: 1.05;
+  text-align: center;
+  margin: 2rem 0 0.5rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  position: relative;
+  z-index: 1;
+}
+.letter-title em {
+  font-family: 'Pinyon Script', cursive;
+  font-style: normal;
+  color: var(--rose);
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 0.7;
+  display: inline-block;
+  vertical-align: -8px;
+}
+
+.letter-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  text-align: center;
+  color: var(--ink-soft);
+  margin-bottom: 2.5rem;
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.letter-byline {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--ink-soft);
+  margin-bottom: 3rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+  z-index: 1;
+}
+
+.letter-body { position: relative; z-index: 1; }
+
+.salutation {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3rem;
+  color: var(--ink);
+  margin-bottom: 1.8rem;
+  line-height: 1;
+}
+
+.letter-body p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.22rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  color: var(--ink);
+}
+.letter-body p:first-of-type::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.4rem;
+  font-weight: 700;
+  float: left;
+  line-height: 0.9;
+  padding: 0.4rem 0.6rem 0 0;
+  color: var(--rose);
+  font-style: italic;
+}
+.letter-body strong {
+  font-weight: 700;
+  font-style: italic;
+  color: var(--rose-deep);
+}
+.letter-body em { font-style: italic; color: var(--rose); }
+
+.margin-note {
+  position: absolute;
+  font-family: 'Pinyon Script', cursive;
+  color: var(--rose);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  opacity: 0.75;
+  pointer-events: none;
+}
+.margin-note .underscript {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  display: block;
+  margin-top: 0.2rem;
+  opacity: 0.7;
+}
+.margin-note.left { left: -3.5rem; transform: rotate(-8deg); }
+.margin-note.right { right: -3.5rem; transform: rotate(6deg); text-align: right; }
+
+.enumeration {
+  margin: 3rem 0;
+  padding: 2.2rem 2rem 1.8rem;
+  background: rgba(246, 236, 217, 0.6);
+  border: 1px solid var(--rule);
+  position: relative;
+}
+.enumeration::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid var(--rule);
+  pointer-events: none;
+  opacity: 0.5;
+}
+.enumeration-title {
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.2rem;
+  color: var(--rose);
+  margin-bottom: 0.3rem;
+  line-height: 1;
+}
+.enumeration-sub {
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 2rem;
+}
+
+.thing {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 1.4rem;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--rule);
+  align-items: baseline;
+}
+.thing:last-child { border-bottom: none; padding-bottom: 0.4rem; }
+
+.thing-num {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--rose);
+  line-height: 1;
+  text-align: right;
+}
+.thing-body h4 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+  line-height: 1.2;
+}
+.thing-body p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.08rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+.aside {
+  margin: 3rem 0;
+  padding: 1.8rem 2rem;
+  background: var(--paper-deep);
+  border-left: 4px solid var(--rose);
+  position: relative;
+}
+.aside::before {
+  content: '✦';
+  position: absolute;
+  top: -10px;
+  left: 1.5rem;
+  background: var(--paper);
+  padding: 0 0.5rem;
+  color: var(--rose);
+  font-size: 1rem;
+}
+.aside h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  color: var(--ink);
+}
+.aside p {
+  font-size: 1.08rem !important;
+  margin-bottom: 0 !important;
+}
+.aside p::first-letter { all: unset !important; }
+
+.signoff {
+  margin-top: 3rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.signature {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3.4rem;
+  color: var(--rose);
+  margin-top: 0.4rem;
+  display: block;
+  line-height: 1;
+}
+.signature-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 0.8rem;
+  font-style: normal;
+}
+
+.ps-section {
+  margin-top: 3.5rem;
+  padding-top: 2.2rem;
+  border-top: 1px dashed var(--rule);
+  position: relative;
+}
+.wax-seal {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 64px;
+  background: radial-gradient(circle at 35% 30%, var(--rose) 0%, var(--rose-deep) 60%, #4a121e 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2rem;
+  color: rgba(246, 236, 217, 0.85);
+  box-shadow:
+    0 4px 8px rgba(0,0,0,0.3),
+    inset 0 -3px 6px rgba(0,0,0,0.3),
+    inset 0 3px 6px rgba(255,255,255,0.15);
+}
+.wax-seal::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, transparent 30%, rgba(0,0,0,0.15) 70%);
+  pointer-events: none;
+}
+
+.ps-label {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+}
+.ps-section p {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem !important;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem !important;
+}
+.ps-section p::first-letter { all: unset !important; }
+
+.cta-button {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.85rem 1.8rem;
+  text-decoration: none;
+  border: 1px solid var(--ink);
+  letter-spacing: 0.01em;
+  transition: all 0.2s;
+}
+.cta-button::before { content: '✦ '; color: var(--rose-soft); }
+.cta-button:hover { background: var(--rose); border-color: var(--rose); }
+
+.share-row {
+  max-width: 720px;
+  margin: 3rem auto 0;
+  padding: 0 1.5rem;
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  font-family: 'Cormorant Garamond', serif;
+}
+.share-row a {
+  font-style: italic;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--paper);
+  padding: 0.5rem 1.2rem;
+  border-right: 1px solid rgba(246,236,217,0.3);
+}
+.share-row a:last-child { border-right: none; }
+.share-row a:hover { color: var(--gold-soft); }
+
+.colophon {
+  max-width: 720px;
+  margin: 4rem auto 4rem;
+  padding: 2.5rem 1.5rem 0;
+  border-top: 1px solid rgba(246,236,217,0.2);
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: rgba(246,236,217,0.75);
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+.colophon-rule {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5em;
+  color: var(--gold-soft);
+  opacity: 0.7;
+}
+.colophon strong { color: var(--paper); font-weight: 600; }
+.colophon-set {
+  margin-top: 1.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(246,236,217,0.5);
+  font-style: normal;
+}
+
+footer.site-footer {
+  background: #1a1410;
+  color: var(--paper);
+  padding: 4rem 2rem 2rem;
+  border-top: 1px solid rgba(246,236,217,0.15);
+  position: relative;
+  z-index: 1;
+}
+.footer-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+}
+footer h4 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+  color: var(--gold-soft);
+}
+footer ul { list-style: none; }
+footer ul li { margin-bottom: 0.55rem; }
+footer ul li a {
+  color: rgba(246,236,217,0.75);
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+footer ul li a:hover { color: var(--gold-soft); }
+.footer-publisher p {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: rgba(246,236,217,0.75);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.footer-cta {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: var(--gold-soft);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold-soft);
+  padding-bottom: 2px;
+}
+.footer-legal {
+  max-width: 1100px;
+  margin: 3rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(246,236,217,0.1);
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: rgba(246,236,217,0.5);
+  line-height: 1.7;
+  text-align: center;
+}
+.footer-legal a { color: var(--gold-soft); text-decoration: none; }
+.footer-legal strong { color: var(--paper); }
+
+@media (max-width: 760px) {
+  .nav { padding: 0.85rem 1.2rem; }
+  .nav-links a:not(.nav-cta) { display: none; }
+  .masthead { margin-top: 2.5rem; }
+  .mast-section-name { font-size: 2.2rem; }
+  .mast-line { font-size: 0.6rem; flex-direction: column; gap: 0.3rem; padding: 0.5rem 0; }
+  .envelope-stage { padding: 0 1rem; }
+  .envelope { padding: 1.5rem 1.5rem; transform: rotate(-0.8deg); }
+  .stamp { width: 56px; height: 70px; }
+  .stamp-heart { font-size: 1.6rem; }
+  .postmark { width: 76px; height: 76px; }
+  .pm-mid { font-size: 0.78rem; }
+  .envelope-addressee { margin: 80px 0 8px 25%; font-size: 0.95rem; }
+  .envelope-addressee .name { font-size: 1.2rem; }
+  .letter-stage { margin-top: 3rem; padding: 0 0.8rem; }
+  .letter { padding: 2.5rem 1.6rem 2.5rem; }
+  .letter::after { display: none; }
+  .monogram { font-size: 3rem; }
+  .salutation { font-size: 2.2rem; }
+  .letter-body p { font-size: 1.1rem; }
+  .letter-body p:first-of-type::first-letter { font-size: 3.2rem; }
+  .margin-note { display: none; }
+  .enumeration { padding: 1.5rem 1.2rem 1.2rem; }
+  .enumeration-title { font-size: 1.7rem; }
+  .thing { grid-template-columns: 40px 1fr; gap: 0.8rem; }
+  .thing-num { font-size: 2rem; }
+  .thing-body h4 { font-size: 1.15rem; }
+  .thing-body p { font-size: 1rem; }
+  .signature { font-size: 2.6rem; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .footer-publisher { grid-column: 1 / -1; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../index.html" class="wordmark">SmartScratcher</a>
+  <div class="nav-links">
+    <a href="../index.html">Home</a>
+    <a href="../blog-index.html">The Pages</a>
+    <a href="../index.html#pricing">Pricing</a>
+    <a href="../index.html#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="nav-cta">Get the App →</a>
+  </div>
+</nav>
+
+<section class="masthead">
+  <div class="mast-line">
+    <span>Vol. II · No. 06</span>
+    <span>SAINT VALENTINE'S EDITION</span>
+    <span>SMARTSCRATCHERAPP.COM</span>
+  </div>
+  <div class="mast-section-name">Correspondence</div>
+  <p class="mast-tag">a letter, postmarked February 14<sup>th</sup>, addressed to a humble five-dollar ticket</p>
+</section>
+
+<div class="envelope-stage">
+  <div class="envelope">
+    <div class="stamp">
+      <div class="stamp-inner">
+        <div class="stamp-heart">♡</div>
+        <div class="stamp-amt">five</div>
+        <div class="stamp-label">U.S. AFFECTION</div>
+      </div>
+    </div>
+    <div class="postmark">
+      <div class="pm-top">SmartScratcher</div>
+      <div class="pm-mid">FEB 14 · '26</div>
+      <div class="pm-bot">written w/ care</div>
+    </div>
+    <div class="envelope-addressee">
+      <span class="name">The $5 Scratcher</span>
+      somewhere on the rack<br>
+      between the lottos and the gum<br>
+      <span class="place-tag">OK · TX · CA</span>
+    </div>
+    <div class="envelope-instr">— please open below —</div>
+  </div>
+</div>
+
+<div class="letter-stage">
+  <article class="letter">
+
+    <header class="letterhead">
+      <div class="monogram">&#x2665;</div>
+      <div class="letterhead-rule">
+        <span>From the desk of</span>
+      </div>
+      <div class="letterhead-tag">a regular at the corner store · a friend of the rack</div>
+    </header>
+
+    <h1 class="letter-title">A love letter <em>to</em> the $5 scratcher.</h1>
+    <p class="letter-subtitle">It is not the flashiest ticket on the rack. It is not the cheapest, either. Yet it has been quietly the right one, all along.</p>
+    <p class="letter-byline">By a SmartScratcher User · Filed Feb. 14, 2026 · Saint Valentine's Edition</p>
+
+    <div class="letter-body">
+
+      <p class="salutation">Dearest $5,</p>
+
+      <p>We need to be honest with each other today, because nobody else is going to be. The $1 ticket gets called <em>approachable.</em> The $20 gets called <em>serious.</em> The $30 gets called <em>premium.</em> Even the lowly $2 has its devoted fans who insist it's the smart starter ticket — the entry point, the gentle on-ramp, the one to tell your friends about.</p>
+
+      <p>And then there is you. <strong>The most-bought, most-overlooked, most-quietly-reasonable ticket in the whole rack.</strong> Sitting there in the middle of the wall like a middle child at a holiday dinner. Patient. Reliable. Underappreciated. We thought, this year, that someone ought to write it down.</p>
+
+      <div class="margin-note left">
+        ♡ ♡ ♡<br>
+        <span class="underscript">marg., feb 14</span>
+      </div>
+
+      <p>You do not pretend to be anything you are not, and that is the first thing we have always loved about you. There is no jackpot fantasy attached. There is no <em>experience.</em> You are a five dollar ticket that takes about a minute to scratch and might pay back ten, sometimes more, occasionally a great deal more — and that is the whole pitch. It is an honest pitch. The honesty is the whole thing.</p>
+
+      <div class="enumeration">
+        <div class="enumeration-title">things we love about you</div>
+        <div class="enumeration-sub">— in order, but only loosely —</div>
+
+        <div class="thing">
+          <div class="thing-num">i.</div>
+          <div class="thing-body">
+            <h4>Your prizes are real, if small.</h4>
+            <p>The $1 ticket is mostly hope dressed up as a product. You actually have prizes a regular person can hit. Not jackpot prizes. <em>"Buy a nice dinner"</em> prizes. <em>"Cover the gas this week"</em> prizes. Prizes that show up often enough to feel like a thing that happens, rather than a thing that might one day happen to someone else.</p>
+          </div>
+        </div>
+
+        <div class="thing">
+          <div class="thing-num">ii.</div>
+          <div class="thing-body">
+            <h4>You do not bankrupt anyone.</h4>
+            <p>Two of you a week is forty dollars a month. That is a streaming service. That is two coffees out. That is a sustainable, repeatable, year-after-year amount of fun. The $30 cannot say that for most of us. You can. You always could.</p>
+          </div>
+        </div>
+
+        <div class="thing">
+          <div class="thing-num">iii.</div>
+          <div class="thing-body">
+            <h4>You are long enough to be fun.</h4>
+            <p>The $1 is over before it has properly begun. You typically have more play areas, more bonus zones, more <em>moments</em>. The entertainment-per-dollar is, frankly, as good as anything in the rack — and entertainment is what we are paying for here, isn't it. We may not have admitted that to ourselves, but it has been true the whole time.</p>
+          </div>
+        </div>
+
+        <div class="thing">
+          <div class="thing-num">iv.</div>
+          <div class="thing-body">
+            <h4>You ask nothing of us we cannot give.</h4>
+            <p>You require no second mortgage. No talking around the spouse. No carefully constructed story about why this Tuesday is different. You are a small thing, openly purchased, scratched on the dashboard before pulling out of the parking lot. There is a kind of dignity in that.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="margin-note right">
+        true<br>♡<br>
+        <span class="underscript">— ed.</span>
+      </div>
+
+      <div class="aside">
+        <h3>And yet — we have to talk about something.</h3>
+        <p>You are not always the right call, and we owe you the honesty. Sometimes the top prizes on a $5 game get claimed quickly — smaller print runs, fewer top-tier prizes to begin with — and you can be picked clean within weeks of launch. We have watched it happen. A great $5 game can quietly turn into a dead one and we would never know without checking. So even though we love you in principle, we cannot love every one of you in practice. Some of you we have to walk past. We hope you understand. We hope you would want us to.</p>
+      </div>
+
+      <p>That is the deal we have, $5. We will keep buying the good ones. We will skip the dead ones. We will never ask you to be a $30. We will never resent you for not being a jackpot. We will simply keep picking the ones still worth picking, and let you do what you do best.</p>
+
+      <p>Which is, mostly, just <em>be a fun thing to scratch on a Tuesday.</em></p>
+
+      <div class="signoff">
+        Yours in moderate, informed play,
+        <span class="signature">— A SmartScratcher user</span>
+        <span class="signature-meta">somewhere in OK / TX / CA · Feb. 14, 2026</span>
+      </div>
+
+      <div class="ps-section">
+        <div class="wax-seal">&#x2665;</div>
+        <div class="ps-label">P.S.</div>
+        <p>If you are going to keep loving the $5, at least love the ones still worth loving. SmartScratcher tells you which scratchers in your state have prizes left to win — and which ones got picked clean weeks ago and are still being sold. Free to start. No commitment. Honest about what it can and cannot do.</p>
+        <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-button">Open the app</a>
+      </div>
+
+    </div>
+  </article>
+</div>
+
+<div class="share-row">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fvalentines.html" target="_blank" rel="noopener">share this</a>
+  <a href="sms:?body=A%20love%20letter%20to%20the%20%245%20scratcher%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fvalentines.html">text a friend</a>
+  <a href="#" onclick="navigator.clipboard.writeText('https://smartscratcherapp.com/articles/valentines.html');return false;">copy the link</a>
+</div>
+
+<div class="colophon">
+  <div class="colophon-rule">✦ ✦ ✦</div>
+  <strong>The fine print:</strong> SmartScratcher is an information tool and does not guarantee winnings. We help you make smarter, informed decisions about which active games still have real prizes available — we do not predict outcomes.<br><br>
+  Must be 18+ (21+ in some states). Play responsibly. If the lottery stops being fun, the National Problem Gambling Helpline is <strong>1-800-GAMBLER</strong>.<br><br>
+  Lottery prize data is sourced from the Oklahoma Lottery Commission, the Texas Lottery Commission, and the California State Lottery. SmartScratcher is not affiliated with any state lottery.
+
+  <div class="colophon-set">— set in Playfair Display, Cormorant Garamond, &amp; Pinyon Script —</div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h4>The Paper</h4>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog-index.html">The Pages</a></li>
+        <li><a href="../index.html#how">How it works</a></li>
+        <li><a href="../index.html#pricing">Pricing</a></li>
+        <li><a href="../index.html#states">States</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="../index.html#faq">FAQ</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../privacy-policy.html">Privacy</a></li>
+        <li><a href="../terms-of-service.html">Terms</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Wire Services</h4>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a></li>
+        <li><a href="https://twitter.com/SmartScratcher">Twitter / X</a></li>
+        <li><a href="https://www.instagram.com/smartscratcher/">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@smartscratcher">TikTok</a></li>
+        <li><a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a></li>
+      </ul>
+    </div>
+    <div class="footer-publisher">
+      <h4>The Publisher</h4>
+      <p>SmartScratcher is published by Gaming Data Solutions LLC. Available wherever scratchers are sold in OK, TX, and CA.</p>
+      <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="footer-cta">Get the App →</a>
+    </div>
+  </div>
+  <div class="footer-legal">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537"><strong>1-800-GAMBLER</strong></a>.
+  </div>
+</footer>
+
+</body>
+</html>

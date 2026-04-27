@@ -386,41 +386,192 @@
     .cta h3 { font-size: 26px; }
   }
 
-  /* === SITE CHROME (nav + footer, scoped to ss-* namespace) === */
-  nav.ss-top { position: sticky; top: 0; z-index: 1000; background: #111; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', system-ui, sans-serif; }
-  nav.ss-top .ss-logo { display: inline-flex; align-items: center; text-decoration: none; }
-  nav.ss-top .ss-logo img { height: 36px; width: auto; display: block; }
-  nav.ss-top .ss-menu { display: flex; gap: 28px; align-items: center; }
-  nav.ss-top .ss-menu a { text-decoration: none; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.85); transition: color 0.15s; border: 0; padding: 0; letter-spacing: normal; text-transform: none; }
-  nav.ss-top .ss-menu a:hover { color: #ffd60a; }
-  nav.ss-top .ss-menu .ss-cta { background: #ffd60a; color: #000; padding: 10px 18px; border-radius: 100px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; }
-  nav.ss-top .ss-menu .ss-cta:hover { background: #ffe44d; color: #000; }
-  @media (max-width: 880px) { nav.ss-top .ss-menu a:not(.ss-cta) { display: none; } }
+  /* === CELESTIAL NAV === */
+  .celest-nav {
+    position: sticky; top: 0; z-index: 1000;
+    background: rgba(13, 10, 31, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+    padding: 14px 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 16px; flex-wrap: wrap;
+  }
+  .ce-logo {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--cream);
+    text-decoration: none;
+  }
+  .ce-logo .ce-star { color: var(--gold); margin: 0 6px; }
+  .ce-links { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .ce-links a {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--cream);
+    text-decoration: none;
+    padding: 4px 10px;
+    border: 0;
+    transition: color 0.15s;
+  }
+  .ce-links a:hover { color: var(--gold-bright); }
+  .ce-sep {
+    color: var(--gold);
+    font-family: var(--display);
+    font-size: 9px;
+    user-select: none;
+    opacity: 0.7;
+  }
+  .ce-cta {
+    margin-left: 8px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-bright));
+    color: var(--night) !important;
+    padding: 8px 18px !important;
+    border-radius: 100px;
+    font-family: var(--display) !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 0 rgba(212,175,55,0);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .ce-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 18px rgba(212,175,55,0.35);
+    color: var(--night) !important;
+  }
+  @media (max-width: 760px){ .ce-links{ gap: 2px; } .ce-links a{ font-size: 15px; padding: 4px 8px; } }
+  @media (max-width: 540px){ .celest-nav{ flex-direction: column; align-items: flex-start; } }
 
-  footer.ss-footer { background: #111; color: #fff; padding: 60px 24px 30px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; max-width: none; margin: 0; text-align: left; font-style: normal; letter-spacing: normal; opacity: 1; border: 0; }
-  .ss-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-  .ss-f-brand .ss-flogo { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: -0.8px; margin-bottom: 10px; display: block; text-decoration: none; color: #fff; font-style: normal; }
-  .ss-f-brand .ss-flogo span { color: #ffd60a; }
-  .ss-f-brand p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; max-width: 320px; font-style: normal; margin: 0; }
-  .ss-f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #ffd60a; margin-bottom: 14px; font-weight: 700; }
-  .ss-f-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.8); text-decoration: none; padding: 4px 0; border: 0; }
-  .ss-f-col a:hover { color: #ffd60a; }
-  .ss-footer-bottom { padding-top: 22px; font-size: 12px; color: rgba(255,255,255,0.5); font-family: 'JetBrains Mono', monospace; line-height: 1.6; max-width: 1100px; margin: 0 auto; letter-spacing: 0.3px; font-style: normal; text-align: left; }
-  .ss-footer-bottom a { color: #ffd60a; text-decoration: none; }
-  @media (max-width: 880px) { .ss-footer-inner { grid-template-columns: 1fr 1fr; } }
-  @media (max-width: 480px) { .ss-footer-inner { grid-template-columns: 1fr; } }
+  /* === CELESTIAL FOOTER === */
+  .celest-footer {
+    position: relative;
+    background: var(--night2);
+    color: var(--cream);
+    padding: 70px 24px 30px;
+    margin-top: 80px;
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    overflow: hidden;
+  }
+  .celest-footer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.18) 0%, transparent 45%),
+      radial-gradient(2px 2px at 15% 20%, rgba(255,255,255,0.7), transparent 50%),
+      radial-gradient(1px 1px at 70% 35%, rgba(255,255,255,0.6), transparent 50%),
+      radial-gradient(1.5px 1.5px at 85% 70%, rgba(255,255,255,0.5), transparent 50%),
+      radial-gradient(1px 1px at 30% 80%, rgba(255,255,255,0.5), transparent 50%);
+    pointer-events: none;
+  }
+  .ce-divider {
+    position: relative;
+    max-width: 220px;
+    margin: 0 auto 38px;
+    text-align: center;
+  }
+  .ce-divider::before, .ce-divider::after {
+    content: '';
+    position: absolute;
+    top: 50%; height: 1px; width: 80px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+  .ce-divider::before { left: 0; }
+  .ce-divider::after { right: 0; }
+  .ce-divider-star {
+    color: var(--gold);
+    font-size: 14px;
+  }
+  .cef-grid {
+    position: relative;
+    max-width: 1100px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 36px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.18);
+  }
+  .cef-logo {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--cream);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 14px;
+  }
+  .cef-logo .cef-star { color: var(--gold); margin: 0 4px; }
+  .cef-brand p {
+    font-family: var(--serif);
+    font-size: 16px;
+    font-style: italic;
+    color: var(--muted);
+    line-height: 1.55;
+    max-width: 320px;
+    margin: 0;
+  }
+  .cef-col h4 {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  }
+  .cef-col a {
+    display: block;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--cream);
+    text-decoration: none;
+    padding: 3px 0;
+    width: fit-content;
+    transition: color 0.15s;
+  }
+  .cef-col a:hover { color: var(--gold-bright); }
+  .cef-bottom {
+    position: relative;
+    max-width: 1100px;
+    margin: 22px auto 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.65;
+    text-align: center;
+  }
+  .cef-bottom a { color: var(--gold-bright); text-decoration: none; }
+  .cef-bottom a:hover { text-decoration: underline; }
+  @media (max-width: 880px){ .cef-grid{ grid-template-columns: 1fr 1fr; gap: 28px; } }
+  @media (max-width: 480px){ .cef-grid{ grid-template-columns: 1fr; gap: 22px; } }
 </style>
 </head>
 <body>
 
-<nav class="ss-top">
-  <a href="../index.html" class="ss-logo"><img src="../newLogoV2.png" alt="SmartScratcher"></a>
-  <div class="ss-menu">
-    <a href="../index.html#how">How it works</a>
-    <a href="../blog-index.html">Blog</a>
+<nav class="celest-nav">
+  <a href="../index.html" class="ce-logo">Smart<span class="ce-star">✦</span>Scratcher</a>
+  <div class="ce-links">
+    <a href="../index.html">Home</a>
+    <span class="ce-sep">✦</span>
+    <a href="../blog-index.html">The Pages</a>
+    <span class="ce-sep">✦</span>
     <a href="../index.html#pricing">Pricing</a>
+    <span class="ce-sep">✦</span>
     <a href="../index.html#faq">FAQ</a>
-    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="ss-cta">Get the App</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="ce-cta">Get the App</a>
   </div>
 </nav>
 
@@ -588,29 +739,30 @@
   SmartScratcher · April 2026 · Zodiac content is for entertainment. Play responsibly. Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, the National Problem Gambling Helpline is 1-800-GAMBLER.
 </footer>
 
-<footer class="ss-footer">
-  <div class="ss-footer-inner">
-    <div class="ss-f-brand">
-      <a href="../index.html" class="ss-flogo">Smart<span>Scratcher</span></a>
-      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+<footer class="celest-footer">
+  <div class="ce-divider"><span class="ce-divider-star">✦</span></div>
+  <div class="cef-grid">
+    <div class="cef-brand">
+      <a href="../index.html" class="cef-logo">Smart<span class="cef-star">✦</span>Scratcher</a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states written in the stars.</p>
     </div>
-    <div class="ss-f-col">
-      <h4>Product</h4>
-      <a href="../index.html#features">Features</a>
+    <div class="cef-col">
+      <h4>The Site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
       <a href="../index.html#how">How it works</a>
       <a href="../index.html#pricing">Pricing</a>
       <a href="../index.html#states">States</a>
     </div>
-    <div class="ss-f-col">
-      <h4>Resources</h4>
-      <a href="../blog-index.html">Blog</a>
+    <div class="cef-col">
+      <h4>Earthly Matters</h4>
       <a href="../index.html#faq">FAQ</a>
       <a href="../index.html#contact">Contact</a>
       <a href="../privacy-policy.html">Privacy</a>
       <a href="../terms-of-service.html">Terms</a>
     </div>
-    <div class="ss-f-col">
-      <h4>Follow</h4>
+    <div class="cef-col">
+      <h4>Constellations</h4>
       <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
       <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
       <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
@@ -618,9 +770,8 @@
       <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
     </div>
   </div>
-  <div class="ss-footer-bottom">
-    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
-    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  <div class="cef-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
   </div>
 </footer>
 

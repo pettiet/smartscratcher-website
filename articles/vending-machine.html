@@ -52,52 +52,73 @@
   }
   a { color: inherit; }
 
-  /* ========== SITE NAV (matches index.html / blog-index.html) ========== */
+  /* ========== KIOSK NAV ========== */
   nav.top {
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    position: sticky; top: 0; z-index: 50;
     background: var(--ink);
+    border-top: 4px solid var(--yellow);
     border-bottom: 2px solid var(--ink);
     padding: 14px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
   }
   nav.top .logo {
     display: inline-flex;
-    align-items: center;
+    align-items: baseline;
     text-decoration: none;
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.6px;
+    color: white;
+    line-height: 1;
   }
-  nav.top .logo img {
-    height: 36px;
-    width: auto;
-    display: block;
+  nav.top .logo .hl {
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 2px 8px;
+    margin-left: 4px;
+    transform: rotate(-1.5deg);
+    display: inline-block;
   }
   nav.top .menu {
     display: flex;
-    gap: 28px;
+    gap: 22px;
     align-items: center;
+    flex-wrap: wrap;
   }
   nav.top .menu a {
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     color: rgba(255,255,255,0.85);
     transition: color 0.15s;
   }
   nav.top .menu a:hover { color: var(--yellow); }
   nav.top .menu .cta-btn {
     background: var(--yellow);
-    color: #000;
-    padding: 10px 18px;
-    border-radius: 100px;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 0.5px;
+    color: var(--ink);
+    padding: 10px 16px !important;
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 12px !important;
+    letter-spacing: 0.05em !important;
+    text-transform: uppercase;
     text-decoration: none;
+    border: 2px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--yellow-deep);
+    transition: transform 0.12s, box-shadow 0.12s;
   }
-  nav.top .menu .cta-btn:hover { background: #ffe44d; color: #000; }
+  nav.top .menu .cta-btn:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--yellow-deep);
+  }
 
   /* ========== ARTICLE HERO ========== */
   .hero {
@@ -442,12 +463,29 @@
     font-family: var(--mono);
   }
 
-  /* ========== SITE FOOTER (matches index.html / blog-index.html) ========== */
+  /* ========== KIOSK FOOTER ========== */
   footer.site {
     background: var(--ink);
     color: white;
     padding: 60px 24px 30px;
     font-family: var(--sans);
+    border-top: 4px solid var(--yellow);
+    position: relative;
+  }
+  footer.site::before {
+    content: 'INSERT COIN';
+    position: absolute;
+    top: -14px; left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 5px 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
   }
   .footer-inner {
     max-width: 1100px;
@@ -456,33 +494,47 @@
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 40px;
     padding-bottom: 30px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px dashed rgba(255,214,10,0.25);
   }
   footer .f-brand .logo {
     font-family: var(--display);
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 800;
     letter-spacing: -0.8px;
     margin-bottom: 10px;
-    display: block;
+    display: inline-flex;
+    align-items: baseline;
     text-decoration: none;
     color: white;
+    line-height: 1;
   }
-  footer .f-brand .logo span { color: var(--yellow); }
+  footer .f-brand .logo span {
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 2px 8px;
+    margin-left: 4px;
+    transform: rotate(-1.5deg);
+    display: inline-block;
+  }
   footer .f-brand p {
     font-size: 14px;
     color: rgba(255,255,255,0.6);
     line-height: 1.5;
     max-width: 320px;
+    margin-top: 14px;
   }
   footer .f-col h4 {
+    display: inline-block;
     font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 2px;
+    font-size: 10px;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--yellow);
+    color: var(--ink);
+    background: var(--yellow);
+    padding: 4px 10px;
     margin-bottom: 14px;
     font-weight: 700;
+    box-shadow: 3px 3px 0 var(--yellow-deep);
   }
   footer .f-col a {
     display: block;
@@ -490,26 +542,35 @@
     color: rgba(255,255,255,0.8);
     text-decoration: none;
     padding: 4px 0;
+    transition: color 0.15s;
   }
   footer .f-col a:hover { color: var(--yellow); }
   .footer-bottom {
     padding-top: 22px;
-    font-size: 12px;
-    color: rgba(255,255,255,0.5);
+    font-size: 11px;
+    color: rgba(255,255,255,0.55);
     font-family: var(--mono);
     line-height: 1.6;
     max-width: 1100px;
     margin: 0 auto;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.05em;
+    text-align: center;
   }
   .footer-bottom a { color: var(--yellow); text-decoration: none; }
+  .footer-bottom a:hover { text-decoration: underline; }
 
+  @media (max-width: 760px) {
+    nav.top { gap: 12px; }
+    nav.top .menu { gap: 14px; }
+  }
+  @media (max-width: 540px) {
+    nav.top { flex-direction: column; align-items: flex-start; }
+  }
   @media (max-width: 880px) {
-    nav.top .menu a:not(.cta-btn) { display: none; }
-    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .footer-inner { grid-template-columns: 1fr 1fr; gap: 28px; }
   }
   @media (max-width: 480px) {
-    .footer-inner { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr; gap: 22px; }
   }
 </style>
 </head>
@@ -517,13 +578,13 @@
 
 <!-- NAV -->
 <nav class="top">
-  <a href="../index.html" class="logo"><img src="../newLogoV2.png" alt="SmartScratcher"></a>
+  <a href="../index.html" class="logo">Smart<span class="hl">Scratcher</span></a>
   <div class="menu">
-    <a href="../index.html#how">How it works</a>
-    <a href="../blog-index.html">Blog</a>
+    <a href="../index.html">Home</a>
+    <a href="../blog-index.html">The Pages</a>
     <a href="../index.html#pricing">Pricing</a>
     <a href="../index.html#faq">FAQ</a>
-    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-btn">Get the App</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-btn">Get the App →</a>
   </div>
 </nav>
 
@@ -698,15 +759,15 @@
       <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
     </div>
     <div class="f-col">
-      <h4>Product</h4>
-      <a href="../index.html#features">Features</a>
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
       <a href="../index.html#how">How it works</a>
       <a href="../index.html#pricing">Pricing</a>
       <a href="../index.html#states">States</a>
     </div>
     <div class="f-col">
-      <h4>Resources</h4>
-      <a href="../blog-index.html">Blog</a>
+      <h4>Fine print</h4>
       <a href="../index.html#faq">FAQ</a>
       <a href="../index.html#contact">Contact</a>
       <a href="../privacy-policy.html">Privacy</a>
@@ -722,8 +783,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
-    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
   </div>
 </footer>
 

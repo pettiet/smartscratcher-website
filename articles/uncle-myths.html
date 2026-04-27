@@ -399,41 +399,153 @@
     .closer h2 { font-size: 32px; }
   }
 
-  /* === SITE CHROME (nav + footer, scoped to ss-* namespace) === */
-  nav.ss-top { position: sticky; top: 0; z-index: 1000; background: #111; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', system-ui, sans-serif; }
-  nav.ss-top .ss-logo { display: inline-flex; align-items: center; text-decoration: none; }
-  nav.ss-top .ss-logo img { height: 36px; width: auto; display: block; }
-  nav.ss-top .ss-menu { display: flex; gap: 28px; align-items: center; }
-  nav.ss-top .ss-menu a { text-decoration: none; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.85); transition: color 0.15s; border: 0; padding: 0; letter-spacing: normal; text-transform: none; }
-  nav.ss-top .ss-menu a:hover { color: #ffd60a; }
-  nav.ss-top .ss-menu .ss-cta { background: #ffd60a; color: #000; padding: 10px 18px; border-radius: 100px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; }
-  nav.ss-top .ss-menu .ss-cta:hover { background: #ffe44d; color: #000; }
-  @media (max-width: 880px) { nav.ss-top .ss-menu a:not(.ss-cta) { display: none; } }
+  /* === COSMIC NAV === */
+  .cosmic-nav {
+    position: sticky; top: 0; z-index: 1000;
+    background: rgba(15, 14, 23, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 225, 86, 0.15);
+    padding: 14px 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 16px; flex-wrap: wrap;
+  }
+  .cn-logo {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 24px;
+    color: var(--cream);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+  .cn-logo .cn-dot { color: var(--yellow); }
+  .cn-links { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+  .cn-links a {
+    font-family: var(--sans);
+    font-size: 13px; font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .cn-links a:nth-of-type(1):hover { color: var(--yellow); }
+  .cn-links a:nth-of-type(2):hover { color: var(--pink); }
+  .cn-links a:nth-of-type(3):hover { color: var(--mint); }
+  .cn-links a:nth-of-type(4):hover { color: var(--purple); }
+  .cn-cta {
+    background: linear-gradient(135deg, var(--pink), var(--purple));
+    color: var(--bg) !important;
+    padding: 9px 18px;
+    border-radius: 100px;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    letter-spacing: 0.02em !important;
+    transition: transform 0.15s, box-shadow 0.15s;
+    box-shadow: 0 0 0 0 rgba(255,107,157,0);
+  }
+  .cn-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(255,107,157,0.35);
+    color: var(--bg) !important;
+  }
+  @media (max-width: 760px){ .cn-links{ gap: 14px; } }
+  @media (max-width: 540px){ .cosmic-nav{ flex-direction: column; align-items: flex-start; } }
 
-  footer.ss-footer { background: #111; color: #fff; padding: 60px 24px 30px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; max-width: none; margin: 0; text-align: left; font-style: normal; letter-spacing: normal; opacity: 1; }
-  .ss-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-  .ss-f-brand .ss-flogo { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: -0.8px; margin-bottom: 10px; display: block; text-decoration: none; color: #fff; font-style: normal; }
-  .ss-f-brand .ss-flogo span { color: #ffd60a; }
-  .ss-f-brand p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; max-width: 320px; font-style: normal; margin: 0; }
-  .ss-f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #ffd60a; margin-bottom: 14px; font-weight: 700; }
-  .ss-f-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.8); text-decoration: none; padding: 4px 0; border: 0; }
-  .ss-f-col a:hover { color: #ffd60a; }
-  .ss-footer-bottom { padding-top: 22px; font-size: 12px; color: rgba(255,255,255,0.5); font-family: 'JetBrains Mono', monospace; line-height: 1.6; max-width: 1100px; margin: 0 auto; letter-spacing: 0.3px; font-style: normal; text-align: left; }
-  .ss-footer-bottom a { color: #ffd60a; text-decoration: none; }
-  @media (max-width: 880px) { .ss-footer-inner { grid-template-columns: 1fr 1fr; } }
-  @media (max-width: 480px) { .ss-footer-inner { grid-template-columns: 1fr; } }
+  /* === COSMIC FOOTER === */
+  .cosmic-footer {
+    position: relative;
+    background: var(--bg2);
+    color: var(--cream);
+    padding: 64px 24px 28px;
+    margin-top: 80px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    overflow: hidden;
+  }
+  .cosmic-footer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 20% 0%, rgba(255,107,157,0.12) 0%, transparent 40%),
+      radial-gradient(circle at 80% 0%, rgba(167,139,250,0.12) 0%, transparent 40%),
+      radial-gradient(circle at 50% 100%, rgba(74,222,128,0.08) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .cf-grid {
+    position: relative;
+    max-width: 1100px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 36px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .cf-logo {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 28px;
+    color: var(--cream);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+  }
+  .cf-logo .cf-dot { color: var(--yellow); }
+  .cf-brand p {
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.5;
+    max-width: 320px;
+    margin: 0;
+  }
+  .cf-col h4 {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  .cf-col:nth-of-type(2) h4 { color: var(--yellow); }
+  .cf-col:nth-of-type(3) h4 { color: var(--pink); }
+  .cf-col:nth-of-type(4) h4 { color: var(--mint); }
+  .cf-col a {
+    display: block;
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--muted);
+    text-decoration: none;
+    padding: 4px 0;
+    transition: color 0.15s;
+    width: fit-content;
+  }
+  .cf-col a:hover { color: var(--cream); }
+  .cf-bottom {
+    position: relative;
+    max-width: 1100px;
+    margin: 22px auto 0;
+    font-family: var(--sans);
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  .cf-bottom a { color: var(--yellow); text-decoration: none; }
+  .cf-bottom a:hover { text-decoration: underline; }
+  @media (max-width: 880px){ .cf-grid{ grid-template-columns: 1fr 1fr; gap: 28px; } }
+  @media (max-width: 480px){ .cf-grid{ grid-template-columns: 1fr; gap: 22px; } }
 </style>
 </head>
 <body>
 
-<nav class="ss-top">
-  <a href="../index.html" class="ss-logo"><img src="../newLogoV2.png" alt="SmartScratcher"></a>
-  <div class="ss-menu">
-    <a href="../index.html#how">How it works</a>
-    <a href="../blog-index.html">Blog</a>
+<nav class="cosmic-nav">
+  <a href="../index.html" class="cn-logo">SmartScratcher<span class="cn-dot">.</span></a>
+  <div class="cn-links">
+    <a href="../index.html">Home</a>
+    <a href="../blog-index.html">The Pages</a>
     <a href="../index.html#pricing">Pricing</a>
     <a href="../index.html#faq">FAQ</a>
-    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="ss-cta">Get the App</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cn-cta">Get the App →</a>
   </div>
 </nav>
 
@@ -624,29 +736,29 @@
 
 </div>
 
-<footer class="ss-footer">
-  <div class="ss-footer-inner">
-    <div class="ss-f-brand">
-      <a href="../index.html" class="ss-flogo">Smart<span>Scratcher</span></a>
+<footer class="cosmic-footer">
+  <div class="cf-grid">
+    <div class="cf-brand">
+      <a href="../index.html" class="cf-logo">SmartScratcher<span class="cf-dot">.</span></a>
       <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
     </div>
-    <div class="ss-f-col">
-      <h4>Product</h4>
-      <a href="../index.html#features">Features</a>
+    <div class="cf-col">
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
       <a href="../index.html#how">How it works</a>
       <a href="../index.html#pricing">Pricing</a>
       <a href="../index.html#states">States</a>
     </div>
-    <div class="ss-f-col">
-      <h4>Resources</h4>
-      <a href="../blog-index.html">Blog</a>
+    <div class="cf-col">
+      <h4>The fine print</h4>
       <a href="../index.html#faq">FAQ</a>
       <a href="../index.html#contact">Contact</a>
       <a href="../privacy-policy.html">Privacy</a>
       <a href="../terms-of-service.html">Terms</a>
     </div>
-    <div class="ss-f-col">
-      <h4>Follow</h4>
+    <div class="cf-col">
+      <h4>Out there</h4>
       <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
       <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
       <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
@@ -654,9 +766,8 @@
       <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
     </div>
   </div>
-  <div class="ss-footer-bottom">
-    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
-    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  <div class="cf-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
   </div>
 </footer>
 
