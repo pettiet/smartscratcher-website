@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The $100 Club — SmartScratcher</title>
+<meta name="description" content="The most exclusive ticket at the gas station. A look inside the world of $100 scratch-offs — and the weeks one Oklahoma game's EV climbed past 270.">
+<meta property="og:title" content="The $100 Club">
+<meta property="og:description" content="Inside the world of $100 scratch-offs — and the weeks Oklahoma's Deluxe Gold tilted the math past EV 270.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://smartscratcherapp.com/articles/100-club.html">
+<meta property="og:site_name" content="SmartScratcher">
+<meta property="og:image" content="https://smartscratcherapp.com/share/100-club.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The $100 Club">
+<meta name="twitter:description" content="Inside the world of $100 scratch-offs — and the weeks Oklahoma's Deluxe Gold tilted the math past EV 270.">
+<meta name="twitter:image" content="https://smartscratcherapp.com/share/100-club.png">
+
+<link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg">
+<link rel="shortcut icon" href="../favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="SmartScratcher">
+<link rel="manifest" href="../favicon/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Bricolage+Grotesque:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --ink-soft: #1a1a1a;
+    --gold: #d4af37;
+    --gold-bright: #f4cf5e;
+    --gold-deep: #8a6d1f;
+    --cream: #f5e9c8;
+    --paper: #faf3e0;
+    --wine: #4a0d18;
+    --velvet: #1a0a14;
+    --crimson: #c1272d;
+  }
+
+  html { color-scheme: light; scroll-behavior: smooth; }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--ink) !important;
+    color: var(--cream) !important;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 19px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    background-image:
+      radial-gradient(ellipse at top, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom, rgba(74, 13, 24, 0.15) 0%, transparent 60%);
+    background-attachment: fixed;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 1000;
+    mix-blend-mode: overlay;
+  }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 0 28px; position: relative; }
+  .wide { max-width: 1100px; margin: 0 auto; padding: 0 28px; position: relative; }
+
+  /* TOP BAR */
+  .topbar {
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 16px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    position: relative;
+    z-index: 10;
+    background: rgba(10, 10, 10, 0.5);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+  .topbar .wide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .topbar a { color: var(--gold); text-decoration: none; transition: color 0.2s; }
+  .topbar a:hover { color: var(--gold-bright); }
+  .topbar .crest {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-style: italic;
+    text-transform: none;
+    color: var(--cream);
+  }
+  .topbar .crest:hover { color: var(--gold-bright); }
+  .topbar .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+  .topbar .nav-links a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .topbar .nav-cta {
+    background: linear-gradient(135deg, var(--gold), var(--gold-bright));
+    color: var(--ink) !important;
+    padding: 8px 16px !important;
+    border-radius: 100px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 11px !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase;
+    border: 1px solid var(--gold-deep);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .topbar .nav-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 18px rgba(212,175,55,0.35);
+    color: var(--ink) !important;
+  }
+  @media (max-width: 760px) {
+    .topbar .nav-links { gap: 14px; }
+  }
+  @media (max-width: 540px) {
+    .topbar .wide { flex-direction: column; align-items: flex-start; gap: 12px; }
+  }
+
+  /* PUBLISHER FOOTER (site nav block) */
+  .publisher {
+    position: relative;
+    background: var(--velvet);
+    border-top: 1px solid rgba(212, 175, 55, 0.25);
+    padding: 64px 0 28px;
+    margin-top: 60px;
+    color: var(--cream);
+    overflow: hidden;
+  }
+  .publisher::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at top, rgba(212, 175, 55, 0.08), transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(74, 13, 24, 0.25), transparent 60%);
+    pointer-events: none;
+  }
+  .pub-ornament {
+    position: relative;
+    text-align: center;
+    color: var(--gold);
+    letter-spacing: 0.6em;
+    font-size: 14px;
+    margin-bottom: 36px;
+  }
+  .pub-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 36px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.18);
+  }
+  .pub-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--cream);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    letter-spacing: -0.005em;
+  }
+  .pub-brand p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(245, 233, 200, 0.7);
+    line-height: 1.55;
+    max-width: 320px;
+  }
+  .pub-col h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  }
+  .pub-col a {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: var(--cream);
+    text-decoration: none;
+    padding: 3px 0;
+    width: fit-content;
+    transition: color 0.15s;
+  }
+  .pub-col a:hover { color: var(--gold-bright); }
+  .pub-bottom {
+    position: relative;
+    margin-top: 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(245, 233, 200, 0.55);
+    line-height: 1.6;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .pub-bottom a { color: var(--gold-bright); text-decoration: none; }
+  .pub-bottom a:hover { text-decoration: underline; }
+  @media (max-width: 880px) { .pub-grid { grid-template-columns: 1fr 1fr; gap: 26px; } }
+  @media (max-width: 480px) { .pub-grid { grid-template-columns: 1fr; gap: 22px; } }
+
+  /* HERO */
+  .hero {
+    padding: 100px 0 80px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  }
+  .hero::before, .hero::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+  .hero::before { top: 60px; }
+  .hero::after { bottom: 50px; }
+
+  .hero-kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 40px;
+    opacity: 0.85;
+  }
+
+  .hero-ornament {
+    font-size: 22px;
+    color: var(--gold);
+    letter-spacing: 0.5em;
+    margin: 30px 0;
+    opacity: 0.7;
+  }
+
+  h1.hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: clamp(56px, 11vw, 132px);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    margin: 20px 0;
+  }
+  h1.hero-title .dollar { color: var(--gold); font-style: italic; font-weight: 400; }
+  h1.hero-title .club {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    background: linear-gradient(180deg, var(--gold-bright) 0%, var(--gold-deep) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(20px, 2.4vw, 26px);
+    color: rgba(245, 233, 200, 0.75);
+    max-width: 580px;
+    margin: 30px auto 10px;
+    line-height: 1.4;
+  }
+
+  .hero-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(212, 175, 55, 0.6);
+    margin-top: 50px;
+  }
+  .hero-meta span { margin: 0 12px; }
+
+  /* INVITATION CARD */
+  .invitation {
+    margin: 70px auto;
+    max-width: 580px;
+    padding: 50px 40px;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.08) 0%, rgba(212, 175, 55, 0.02) 100%);
+    border: 1px solid var(--gold);
+    position: relative;
+    text-align: center;
+  }
+  .invitation::before {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    pointer-events: none;
+  }
+  .invitation-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    color: var(--gold);
+    margin-bottom: 18px;
+  }
+  .invitation-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--cream);
+  }
+  .invitation-text em {
+    color: var(--gold-bright);
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /* PROSE */
+  p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 1.65;
+    color: rgba(245, 233, 200, 0.92);
+    margin-bottom: 1.4em;
+  }
+  p .accent { color: var(--gold-bright); font-style: italic; }
+  p strong { color: var(--cream); font-weight: 600; }
+
+  .lede::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 76px;
+    line-height: 1;
+    float: left;
+    padding: 8px 14px 0 0;
+    color: var(--gold);
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  /* SECTIONS */
+  section { padding: 80px 0; position: relative; }
+
+  .section-divider {
+    text-align: center;
+    color: var(--gold);
+    font-size: 18px;
+    letter-spacing: 1em;
+    opacity: 0.5;
+    padding: 20px 0;
+  }
+
+  .section-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  h2.section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: clamp(36px, 5vw, 58px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    color: var(--cream);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  h2.section-title em { color: var(--gold-bright); font-weight: 400; }
+
+  /* GUEST LIST */
+  .guest-list { margin: 50px auto; max-width: 720px; }
+  .guest-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 30px;
+    align-items: baseline;
+    padding: 26px 0;
+    border-bottom: 1px dashed rgba(212, 175, 55, 0.25);
+  }
+  .guest-row:first-of-type { border-top: 1px dashed rgba(212, 175, 55, 0.25); }
+  .guest-state {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--cream);
+    letter-spacing: 0.02em;
+  }
+  .guest-state .abbr { color: var(--gold); font-style: italic; font-weight: 400; margin-right: 14px; }
+  .guest-status {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245, 233, 200, 0.6);
+  }
+  .guest-count {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--gold);
+    font-style: italic;
+    min-width: 60px;
+    text-align: right;
+  }
+  .guest-count.zero { color: rgba(245, 233, 200, 0.4); text-decoration: line-through; }
+
+  .guest-note {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: rgba(245, 233, 200, 0.6);
+    letter-spacing: 0.02em;
+  }
+
+  /* AMENITIES */
+  .amenities {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: rgba(212, 175, 55, 0.2);
+    margin: 50px 0;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+  }
+  .amenity { background: var(--ink); padding: 36px 30px; transition: background 0.4s; }
+  .amenity:hover { background: rgba(212, 175, 55, 0.04); }
+  .amenity-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: var(--gold);
+    margin-bottom: 12px;
+    letter-spacing: 0.05em;
+  }
+  .amenity-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--cream);
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+  .amenity-body {
+    font-size: 17px;
+    line-height: 1.55;
+    color: rgba(245, 233, 200, 0.78);
+    margin: 0;
+  }
+
+  /* STORY SECTION */
+  .story-section {
+    padding: 100px 0;
+    position: relative;
+    background:
+      radial-gradient(ellipse at center, rgba(74, 13, 24, 0.4) 0%, transparent 70%),
+      var(--velvet);
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    margin: 60px 0;
+  }
+  .story-frame { max-width: 760px; margin: 0 auto; padding: 0 28px; }
+  .story-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .story-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: 1.05;
+    text-align: center;
+    color: var(--cream);
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .story-title .gold-word { color: var(--gold-bright); font-style: normal; font-weight: 500; }
+  .story-deck {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    color: rgba(245, 233, 200, 0.7);
+    margin-bottom: 60px;
+    line-height: 1.4;
+  }
+
+  /* TICKET */
+  .ticket {
+    margin: 60px auto;
+    max-width: 540px;
+    background: linear-gradient(135deg, var(--ink-soft) 0%, var(--velvet) 100%);
+    border: 2px solid var(--gold);
+    padding: 40px 36px;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), inset 0 0 80px rgba(212, 175, 55, 0.05);
+  }
+
+  /* TICKET PHOTO LAYOUT (replaces stylized card) */
+  .ticket-display {
+    margin: 70px auto;
+    max-width: 820px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 50px;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .ticket-photo-frame {
+    position: relative;
+    padding: 14px;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.03) 100%);
+    border: 1px solid var(--gold);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+  }
+  .ticket-photo-frame::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    pointer-events: none;
+  }
+  .ticket-photo-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .ticket-photo-stamp {
+    position: absolute;
+    top: -14px;
+    right: -8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--gold-bright);
+    background: var(--ink);
+    border: 1px solid var(--gold);
+    padding: 6px 12px;
+    transform: rotate(6deg);
+    text-transform: uppercase;
+    z-index: 2;
+  }
+  .ticket-specs {
+    padding: 0;
+  }
+  .ticket-specs-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .ticket-specs-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.05;
+    color: var(--cream);
+    margin-bottom: 6px;
+  }
+  .ticket-specs-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(245, 233, 200, 0.6);
+    margin-bottom: 26px;
+  }
+  .ticket-spec-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 13px 0;
+    border-bottom: 1px dashed rgba(212, 175, 55, 0.2);
+    gap: 14px;
+  }
+  .ticket-spec-row:last-child { border-bottom: none; }
+  .ticket-spec-row .k {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(245, 233, 200, 0.6);
+  }
+  .ticket-spec-row .v {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 21px;
+    color: var(--cream);
+    text-align: right;
+  }
+  .ticket-spec-row .v.gold { color: var(--gold-bright); font-weight: 500; }
+  .ticket::before, .ticket::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--gold);
+  }
+  .ticket::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+  .ticket::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+  .ticket-stamp {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    color: rgba(212, 175, 55, 0.5);
+    transform: rotate(8deg);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    padding: 4px 8px;
+    text-transform: uppercase;
+  }
+  .ticket-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .ticket-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 1.05;
+    color: var(--cream);
+    margin-bottom: 8px;
+    font-style: italic;
+  }
+  .ticket-state {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 28px;
+  }
+  .ticket-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px 0;
+    border-bottom: 1px dashed rgba(212, 175, 55, 0.2);
+    font-family: 'Cormorant Garamond', serif;
+    gap: 14px;
+  }
+  .ticket-row:last-child { border-bottom: none; }
+  .ticket-row .k {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    color: rgba(245, 233, 200, 0.55);
+  }
+  .ticket-row .v {
+    font-size: 21px;
+    color: var(--cream);
+    font-style: italic;
+    text-align: right;
+  }
+  .ticket-row .v.gold { color: var(--gold-bright); font-weight: 500; }
+
+  /* CHART */
+  .chart-wrap {
+    margin: 70px auto 50px;
+    max-width: 880px;
+    padding: 50px 30px;
+    background: rgba(10, 10, 10, 0.6);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    position: relative;
+  }
+  .chart-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+    pointer-events: none;
+  }
+  .chart-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .chart-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 30px;
+    color: var(--cream);
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .chart-deck {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: rgba(245, 233, 200, 0.75);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .chart-svg { width: 100%; height: auto; display: block; }
+  .chart-caption {
+    margin-top: 28px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: rgba(245, 233, 200, 0.75);
+    line-height: 1.55;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* EV MARQUEE */
+  .ev-marquee {
+    margin: 50px auto;
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid rgba(212, 175, 55, 0.3);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  }
+  .ev-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+  .ev-figure {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(80px, 14vw, 160px);
+    line-height: 1;
+    background: linear-gradient(180deg, var(--gold-bright) 0%, var(--gold) 50%, var(--gold-deep) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.03em;
+  }
+  .ev-caption {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: rgba(245, 233, 200, 0.65);
+    margin-top: 14px;
+    letter-spacing: 0.05em;
+  }
+
+  /* TWO WINNERS */
+  .winners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: rgba(212, 175, 55, 0.2);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    margin: 60px 0;
+  }
+  .winner-card { background: var(--ink-soft); padding: 44px 34px; position: relative; }
+  .winner-card.first { background: linear-gradient(135deg, var(--ink-soft) 0%, rgba(74, 13, 24, 0.4) 100%); }
+  .winner-card.second { background: linear-gradient(135deg, var(--ink-soft) 0%, rgba(212, 175, 55, 0.06) 100%); }
+
+  .winner-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .winner-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    color: var(--cream);
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+  .winner-where {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: rgba(245, 233, 200, 0.55);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .winner-body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    line-height: 1.55;
+    color: rgba(245, 233, 200, 0.85);
+    margin: 0;
+  }
+  .winner-body em { color: var(--gold-bright); font-style: italic; }
+
+  /* PULL QUOTE */
+  .pull-quote {
+    margin: 70px auto;
+    text-align: center;
+    max-width: 640px;
+    padding: 0 20px;
+  }
+  .pull-quote .marks {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+    line-height: 0.5;
+    color: var(--gold);
+    font-style: italic;
+    margin-bottom: 20px;
+    opacity: 0.6;
+  }
+  .pull-quote-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.3;
+    color: var(--cream);
+  }
+  .pull-quote-text em { color: var(--gold-bright); font-weight: 500; }
+
+  /* THE CATCH */
+  .catch {
+    background: var(--ink-soft);
+    padding: 60px 50px;
+    margin: 50px 0;
+    border-left: 3px solid var(--gold);
+    position: relative;
+  }
+  .catch-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .catch-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 30px;
+    color: var(--cream);
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .catch ol { list-style: none; counter-reset: catch; }
+  .catch li {
+    counter-increment: catch;
+    padding: 18px 0 18px 60px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    line-height: 1.5;
+    color: rgba(245, 233, 200, 0.88);
+  }
+  .catch li:last-child { border-bottom: none; }
+  .catch li::before {
+    content: counter(catch, upper-roman) '.';
+    position: absolute;
+    left: 0;
+    top: 18px;
+    font-style: italic;
+    color: var(--gold);
+    font-size: 22px;
+    font-weight: 500;
+    width: 50px;
+  }
+  .catch li strong { color: var(--cream); font-weight: 600; }
+
+  /* HOUSE */
+  .house-section { text-align: center; padding: 80px 0; }
+  .house-frame {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    position: relative;
+  }
+  .house-frame::before {
+    content: '';
+    position: absolute;
+    inset: 8px;
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    pointer-events: none;
+  }
+  .house-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .house-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(34px, 4.5vw, 46px);
+    line-height: 1.1;
+    color: var(--cream);
+    margin-bottom: 28px;
+  }
+  .house-title .gold-word { color: var(--gold-bright); font-style: normal; }
+  .house-body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    line-height: 1.6;
+    color: rgba(245, 233, 200, 0.85);
+    margin-bottom: 14px;
+  }
+
+  /* CTA */
+  .cta-section {
+    text-align: center;
+    padding: 100px 0;
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    margin-top: 60px;
+  }
+  .cta-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .cta-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(38px, 5.5vw, 60px);
+    line-height: 1.1;
+    color: var(--cream);
+    margin-bottom: 20px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cta-title .gold-word { color: var(--gold-bright); }
+  .cta-body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: rgba(245, 233, 200, 0.78);
+    max-width: 540px;
+    margin: 0 auto 40px;
+    line-height: 1.5;
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 22px 56px;
+    background: var(--gold);
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid var(--gold);
+    transition: all 0.3s ease;
+  }
+  .cta-button:hover {
+    background: transparent;
+    color: var(--gold-bright);
+    border-color: var(--gold-bright);
+    transform: translateY(-2px);
+  }
+  .cta-secondary {
+    display: block;
+    margin-top: 24px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(245, 233, 200, 0.55);
+  }
+  .cta-secondary a { color: var(--gold); text-decoration: none; border-bottom: 1px solid rgba(212, 175, 55, 0.3); }
+  .cta-secondary a:hover { color: var(--gold-bright); }
+
+  /* FOOTER */
+  footer {
+    background: #050505 !important;
+    border-top: 1px solid rgba(212, 175, 55, 0.15);
+    padding: 60px 0 40px;
+  }
+  .footer-ornament {
+    text-align: center;
+    color: var(--gold);
+    font-size: 18px;
+    letter-spacing: 1em;
+    opacity: 0.4;
+    margin-bottom: 30px;
+  }
+  .footer-disclaimers {
+    max-width: 660px;
+    margin: 0 auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    line-height: 1.9;
+    letter-spacing: 0.05em;
+    color: rgba(245, 233, 200, 0.45);
+    text-align: center;
+  }
+  .footer-disclaimers p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: inherit;
+    line-height: 1.9;
+  }
+  .footer-disclaimers strong { color: var(--gold); font-weight: 500; }
+  .footer-meta {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(245, 233, 200, 0.4);
+  }
+  .footer-meta a { color: var(--gold); text-decoration: none; }
+
+  /* RESPONSIVE */
+  @media (max-width: 720px) {
+    body { font-size: 17px; }
+    p { font-size: 18px; }
+    .hero { padding: 70px 0 60px; }
+    .hero::before { top: 40px; }
+    .invitation { padding: 36px 24px; margin: 50px 20px; }
+    .invitation-text { font-size: 20px; }
+    .amenities { grid-template-columns: 1fr; }
+    .amenity { padding: 30px 24px; }
+    .guest-row { grid-template-columns: 1fr auto; gap: 12px; padding: 20px 0; }
+    .guest-status { grid-column: 1 / -1; margin-top: 4px; }
+    .guest-state { font-size: 26px; }
+    .guest-count { font-size: 32px; }
+    .ticket { padding: 30px 22px; margin: 50px 16px; }
+    .ticket-name { font-size: 28px; }
+    .ticket-row .v { font-size: 18px; }
+    .ticket-display {
+      grid-template-columns: 1fr;
+      gap: 36px;
+      max-width: 360px;
+      margin: 50px auto;
+    }
+    .ticket-photo-frame { max-width: 280px; margin: 0 auto; }
+    .ticket-specs-name { font-size: 30px; }
+    .ticket-spec-row .v { font-size: 19px; }
+    .catch { padding: 40px 28px; }
+    .catch li { padding-left: 50px; font-size: 17px; }
+    .house-frame { padding: 40px 24px; }
+    .story-frame { padding: 0 20px; }
+    .topbar { font-size: 10px; padding: 14px 0; }
+    .topbar .crest { font-size: 14px; }
+    section { padding: 60px 0; }
+    .winners-grid { grid-template-columns: 1fr; }
+    .winner-card { padding: 36px 26px; }
+    .chart-wrap { padding: 30px 14px; margin: 50px 14px; }
+    .chart-title { font-size: 22px; }
+    .chart-deck { font-size: 14px; }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero > * { animation: fadeUp 1s ease forwards; opacity: 0; }
+  .hero-kicker { animation-delay: 0.1s; }
+  .hero-ornament:first-of-type { animation-delay: 0.2s; }
+  .hero-title { animation-delay: 0.3s; }
+  .hero-sub { animation-delay: 0.5s; }
+  .hero-ornament:last-of-type { animation-delay: 0.7s; }
+  .hero-meta { animation-delay: 0.8s; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wide">
+    <a href="../index.html" class="crest">SmartScratcher</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="nav-cta">Get the App →</a>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-kicker">An Examination of the Highest Tier</div>
+    <div class="hero-ornament">✦ ✦ ✦</div>
+    <h1 class="hero-title">
+      The <span class="dollar">$100</span>
+      <span class="club">Club</span>
+    </h1>
+    <p class="hero-sub">The fanciest ticket at the gas station — and the six weeks one Oklahoma game flipped the odds on its head.</p>
+    <div class="hero-ornament">✦ ✦ ✦</div>
+    <div class="hero-meta">
+      <span>April 28, 2026</span>·<span>10 min read</span>·<span>SmartScratcher Investigates</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="invitation">
+      <div class="invitation-mark">— Cordially Invited —</div>
+      <p class="invitation-text">There's a kind of scratch-off ticket so unusual that <em>most cashiers have to unlock a drawer to grab one.</em> It doesn't come on a roll. It comes in a small protected case. And it costs as much as dinner for two.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <p class="lede">Welcome to the $100 Club. Black tie not required, but you might feel like wearing one. Most of the lottery world plays out at the $1, $5, and $10 level — that's the open-bar crowd. But up here, in the $100 corner of the rack, the tickets are bigger, the prizes are bigger, and the way the math works is genuinely different.</p>
+
+    <p>It's a small club. It doesn't exist in every state. The members behave differently than their cheaper cousins. And on at least one well-documented run in Oklahoma, the math at the door briefly — and very quietly — flipped from the house's side to the player's side. For about six weeks. Until somebody noticed.</p>
+
+    <p>What follows is a tour. Mind the velvet rope.</p>
+  </div>
+</section>
+
+<div class="section-divider">✦ ✦ ✦</div>
+
+<section>
+  <div class="container">
+    <div class="section-num">— Part One —</div>
+    <h2 class="section-title">The <em>Guest List</em></h2>
+
+    <p style="text-align: center; max-width: 540px; margin: 0 auto 20px;">$100 scratch-offs aren't sold everywhere. Across the three states SmartScratcher covers right now, here's the lay of the land:</p>
+
+    <div class="guest-list">
+      <div class="guest-row">
+        <div class="guest-state">Texas</div>
+        <div class="guest-status">Charter Member</div>
+        <div class="guest-count">4</div>
+      </div>
+      <div class="guest-row">
+        <div class="guest-state">Oklahoma</div>
+        <div class="guest-status">Member in Good Standing</div>
+        <div class="guest-count">1</div>
+      </div>
+      <div class="guest-row">
+        <div class="guest-state">California</div>
+        <div class="guest-status">Has Not Submitted Application</div>
+        <div class="guest-count zero">0</div>
+      </div>
+    </div>
+
+    <p class="guest-note">California, for whatever reason, sits this one out entirely. The state that gave us movie stars and Silicon Valley caps its scratch-offs at $40.</p>
+
+    <p style="margin-top: 50px;">It's worth pausing on what a $100 ticket actually is. You're spending more on a single piece of paper than some people spend on a week of groceries. The transaction itself is a little ceremony — the clerk's eyebrows go up, the ticket comes out of a case instead of off a roll, the whole thing takes a few extra seconds. <span class="accent">Win or lose, you've at least made the day a little more interesting for everyone behind the counter.</span></p>
+  </div>
+</section>
+
+<div class="section-divider">✦ ✦ ✦</div>
+
+<section>
+  <div class="container">
+    <div class="section-num">— Part Two —</div>
+    <h2 class="section-title">What you get for your <em>hundred</em></h2>
+
+    <p>A $100 ticket isn't just a $10 ticket with a bigger price tag. The way these games are built is genuinely different — almost a different species. Think of these as the perks that come with the price of admission:</p>
+
+    <div class="amenities">
+      <div class="amenity">
+        <div class="amenity-num">i.</div>
+        <div class="amenity-title">Better Payback</div>
+        <p class="amenity-body">Cheaper tickets are designed to pay back somewhere around 60–70% of what players spend, on average. $100 games usually pay back closer to 80%. The house's edge is thinner up here. Slightly.</p>
+      </div>
+      <div class="amenity">
+        <div class="amenity-num">ii.</div>
+        <div class="amenity-title">Fewer, Bigger Jackpots</div>
+        <p class="amenity-body">A $5 game might print dozens of top prizes. A $100 game often has only one or two — but they're usually in the millions. The whole prize structure is top-heavy.</p>
+      </div>
+      <div class="amenity">
+        <div class="amenity-num">iii.</div>
+        <div class="amenity-title">Smaller Print Runs</div>
+        <p class="amenity-body">Fewer tickets get printed overall, because fewer people are buying them at $100 a pop. That's why a single unclaimed jackpot can swing the math so dramatically near the end of a game's life — there are only so many tickets left for it to be hiding in.</p>
+      </div>
+      <div class="amenity">
+        <div class="amenity-num">iv.</div>
+        <div class="amenity-title">A Longer Life</div>
+        <p class="amenity-body">The smaller print run sells through more slowly. A $100 game can sit on shelves for a year or more, quietly aging — sometimes well, sometimes badly, almost always interesting.</p>
+      </div>
+    </div>
+
+    <p>That last point is where the story gets good. Because when a game sits long enough, with one of its only two top prizes still uncollected, something unusual starts to happen to the average value of each remaining ticket. We've got a real-world example. It comes from Oklahoma. It involves about half a million tickets, two five-million-dollar jackpots, and a strange six-week stretch in fall 2025.</p>
+  </div>
+</section>
+
+<section class="story-section">
+  <div class="story-frame">
+    <div class="story-label">— Part Three —</div>
+    <h2 class="story-title">The weeks the <span class="gold-word">math</span> tipped</h2>
+    <p class="story-deck">Limited Edition Deluxe Gold. Two five-million-dollar jackpots. Six weeks of climbing odds. One overnight cliff.</p>
+
+    <div class="ticket-display">
+      <div class="ticket-photo-frame">
+        <div class="ticket-photo-stamp">Discontinued</div>
+        <img src="images/deluxe-gold-ticket.png" alt="Limited Edition Deluxe Gold scratch-off ticket — gold metallic design with $5 Million top prize">
+      </div>
+      <div class="ticket-specs">
+        <div class="ticket-specs-mark">— Oklahoma Lottery, Game #689 —</div>
+        <div class="ticket-specs-name">Limited Edition Deluxe Gold</div>
+        <div class="ticket-specs-sub">$100 Scratch-Off · 2023 — 2025</div>
+        <div class="ticket-spec-row"><span class="k">Print Run</span><span class="v">492,204 tickets</span></div>
+        <div class="ticket-spec-row"><span class="k">Top Prizes</span><span class="v gold">2 × $5,000,000</span></div>
+        <div class="ticket-spec-row"><span class="k">Smaller Prizes</span><span class="v">$100 — $10,000</span></div>
+        <div class="ticket-spec-row"><span class="k">Overall Odds</span><span class="v">1 in 2.64</span></div>
+        <div class="ticket-spec-row"><span class="k">Launch EV</span><span class="v">≈ 80</span></div>
+        <div class="ticket-spec-row"><span class="k">Late-Life EV Peak</span><span class="v gold">270</span></div>
+      </div>
+    </div>
+
+    <p>Deluxe Gold launched in early 2023 as Oklahoma's very first $100 scratch-off — a deliberate experiment by the state lottery to see how a premium ticket would sell. Only about <strong>492,000 tickets were ever printed</strong>, which is tiny by lottery standards. (For comparison, Texas's first $100 game printed over ten million.) Two top prizes of five million dollars each. A long tail of smaller prizes starting at $100.</p>
+
+    <p>The game sold steadily but slowly through 2023, 2024, and into 2025. As tickets got sold and prizes got claimed, something started to shift. The smaller prizes — the $100s, $500s, $1,000s — got picked off at the steady rate they always do. But neither of the two five-million-dollar top prizes had been claimed yet. With fewer and fewer tickets left, and the big prizes still hiding in there somewhere, <span class="accent">the average value of each remaining ticket kept climbing.</span></p>
+
+    <p>This is the number SmartScratcher tracks every day. The app calls it <strong>Estimated Value</strong>, or <strong>EV</strong> for short. The simplest way to think about EV: <em>if you bought every single ticket left in the game, what percentage of your money would you get back, on average?</em> A fresh game usually starts with an EV around 80, meaning you'd get back about 80% of what you spent. Anything above 100 means you'd get back more than you put in — and that's the line where the math has tipped in the player's favor. Most games never go anywhere near it.</p>
+
+    <p>By summer 2025, Deluxe Gold's EV had crossed the 100 line. Somebody had been watching. <strong>In August, the first of the two jackpots was claimed</strong> by a Pennsylvania-based LLC that had quietly bought a batch of Deluxe Gold tickets in Oklahoma. (More on them in a minute.) That should have been the end of the story.</p>
+
+    <p>It wasn't. Because the <em>second</em> jackpot was still out there, sitting in some unscratched ticket on a shelf somewhere in Oklahoma. And the pile of remaining tickets kept shrinking. By the end of October, only about 23,717 tickets were left from the original print run of 492,204 — and one of them, somewhere in the state, was worth five million dollars.</p>
+
+    <div class="chart-wrap">
+      <div class="chart-mark">— SmartScratcher Internal Tracking —</div>
+      <h3 class="chart-title">Six weeks of climbing. One day of cliff.</h3>
+      <p class="chart-deck">Deluxe Gold's Estimated Value · Sept 22, 2025 — Nov 19, 2025</p>
+
+      <svg class="chart-svg" viewBox="0 0 880 420" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Chart showing Estimated Value climbing from 214 on September 22 to 270 on October 30, then dropping overnight to about 60 on October 31 and staying flat through November 19">
+
+        <defs>
+          <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f4cf5e" stop-opacity="0.45"/>
+            <stop offset="100%" stop-color="#f4cf5e" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Grid lines -->
+        <g stroke="rgba(212,175,55,0.1)" stroke-width="1">
+          <line x1="60" y1="60" x2="820" y2="60"/>
+          <line x1="60" y1="124" x2="820" y2="124"/>
+          <line x1="60" y1="188" x2="820" y2="188"/>
+          <line x1="60" y1="252" x2="820" y2="252"/>
+        </g>
+
+        <!-- Break-even line -->
+        <line x1="60" y1="316" x2="820" y2="316" stroke="rgba(245,233,200,0.4)" stroke-width="1" stroke-dasharray="4 4"/>
+        <text x="816" y="308" font-family="JetBrains Mono, monospace" font-size="13" fill="rgba(245,233,200,0.7)" text-anchor="end" font-weight="500">break-even — EV 100</text>
+
+        <!-- Area fill under climb -->
+        <path d="M 80 169.52
+                 L 91 168.35
+                 L 102 167.07
+                 L 113 165.47
+                 L 124 164.14
+                 L 168 159.06
+                 L 179 157.46
+                 L 190 156.35
+                 L 201 155.30
+                 L 234 150.70
+                 L 246 149.25
+                 L 268 146.40
+                 L 279 145.18
+                 L 312 140.91
+                 L 323 139.09
+                 L 334 137.40
+                 L 345 136.24
+                 L 356 134.88
+                 L 389 130.04
+                 L 411 127.14
+                 L 422 125.50
+                 L 433 123.86
+                 L 466 119.23
+                 L 477 117.28
+                 L 488 114.85
+                 L 499 97.95
+                 L 499 380
+                 L 80 380 Z"
+              fill="url(#areaGrad)"/>
+
+        <!-- Climb line -->
+        <polyline points="80,169.52 91,168.35 102,167.07 113,165.47 124,164.14 168,159.06 179,157.46 190,156.35 201,155.30 234,150.70 246,149.25 268,146.40 279,145.18 312,140.91 323,139.09 334,137.40 345,136.24 356,134.88 389,130.04 411,127.14 422,125.50 433,123.86 466,119.23 477,117.28 488,114.85 499,97.95"
+                  stroke="#f4cf5e" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- Cliff: near-vertical overnight drop Oct 30 → Oct 31, then flat to Nov 19 -->
+        <polyline points="499,97.95 510,367.67 720,367.66"
+                  stroke="#c1272d" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- Peak marker -->
+        <circle cx="499" cy="97.95" r="6" fill="#f4cf5e" stroke="#0a0a0a" stroke-width="2"/>
+        <circle cx="499" cy="97.95" r="12" fill="none" stroke="#f4cf5e" stroke-width="1" opacity="0.5"/>
+
+        <!-- Peak label -->
+        <line x1="499" y1="92" x2="499" y2="40" stroke="rgba(244,207,94,0.5)" stroke-width="1" stroke-dasharray="3 3"/>
+        <text x="499" y="30" font-family="Cormorant Garamond, serif" font-style="italic" font-size="24" fill="#f4cf5e" text-anchor="middle" font-weight="600">EV 270</text>
+        <text x="499" y="48" font-family="JetBrains Mono, monospace" font-size="12" fill="rgba(244,207,94,0.85)" text-anchor="middle" letter-spacing="1.5" font-weight="500">OCT 30 — PEAK</text>
+
+        <!-- Cliff bottom marker (Oct 31, where it landed) -->
+        <circle cx="510" cy="367.67" r="5" fill="#c1272d" stroke="#0a0a0a" stroke-width="2"/>
+
+        <!-- Cliff label - "jackpot claimed Oct 31" -->
+        <line x1="510" y1="367" x2="510" y2="395" stroke="rgba(193,39,45,0.6)" stroke-width="1" stroke-dasharray="3 3"/>
+        <text x="510" y="412" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#c1272d" text-anchor="start" font-weight="500">jackpot claimed Oct 31</text>
+
+        <!-- EV 60 label at end of flat line -->
+        <text x="720" y="358" font-family="JetBrains Mono, monospace" font-size="13" fill="rgba(245,233,200,0.7)" text-anchor="end" font-weight="500">EV 60</text>
+
+        <!-- Y-axis title -->
+        <text x="50" y="48" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(244,207,94,0.85)" text-anchor="end" letter-spacing="2" font-weight="500">EV</text>
+
+        <!-- Y-axis labels -->
+        <g font-family="JetBrains Mono, monospace" font-size="13" fill="rgba(245,233,200,0.7)" text-anchor="end" font-weight="500">
+          <text x="50" y="66">300</text>
+          <text x="50" y="130">250</text>
+          <text x="50" y="194">200</text>
+          <text x="50" y="258">150</text>
+          <text x="50" y="322">100</text>
+        </g>
+
+        <!-- X-axis labels -->
+        <g font-family="JetBrains Mono, monospace" font-size="12" fill="rgba(245,233,200,0.7)" text-anchor="middle" font-weight="500">
+          <text x="80" y="398">SEP 22</text>
+          <text x="234" y="398">OCT 6</text>
+          <text x="389" y="398">OCT 20</text>
+          <text x="499" y="398" fill="#f4cf5e" font-weight="600">OCT 30</text>
+          <text x="720" y="398">NOV 19</text>
+        </g>
+
+      </svg>
+
+      <p class="chart-caption">SmartScratcher's daily EV calculation, plotted from publicly available Oklahoma Lottery prize-claim data. The morning the second jackpot was claimed, the EV dropped from 270 to about 60 overnight — a roughly 78% drop in a single day.</p>
+    </div>
+
+    <p>To put that climb in everyday terms: when Deluxe Gold first launched, with all 492,204 tickets in circulation, your shot at any single ticket being a jackpot winner was about <strong>1 in 246,102</strong>. Pretty grim. By October 30, with one jackpot already gone and only 23,717 tickets left, your shot at any single remaining ticket being the second jackpot had improved to about <strong>1 in 23,717.</strong> That's roughly ten times better odds at the same five-million-dollar prize. That's why the EV climbed the way it did.</p>
+
+    <p>For comparison: most scratch-off games launch with an EV in the 60s or 70s, and as the better prizes get scooped up early, that number can drift even lower. $100 games are built differently. They almost always launch around 80, and they tend to stay there. If a $100 ticket paid back at the rate of a $1 scratcher, almost nobody would ever buy a second one. The slightly better return is part of why these tickets exist at all.</p>
+
+    <div class="ev-marquee">
+      <div class="ev-label">Estimated Value at Late-Game Peak</div>
+      <div class="ev-figure">EV 270</div>
+      <div class="ev-caption">— October 30, 2025 —</div>
+    </div>
+
+    <p>An EV of 270 is, on its face, a wild thing for a game whose whole job is to fund Oklahoma's public budget. So a fair question is: why didn't the state just pull the game off the shelves?</p>
+
+    <p>The answer is that <span class="accent">they didn't have to.</span> The lottery's profit on Deluxe Gold was locked in the day the tickets were printed. Every ticket already sold was already cash in the state's pocket. The remaining prizes were a fixed pile of paper. A high EV near the end of a game's life doesn't cost the state anything — it just means the leftover prizes were now packed into a smaller pool of tickets. The state had no reason to step in. Whoever bought the next Deluxe Gold ticket might walk out with five million dollars, but the lottery's books would look the same either way.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="pull-quote">
+    <div class="marks">"</div>
+    <p class="pull-quote-text">An EV of 270 means: <em>if you bought every ticket left,</em> you'd expect to get back about 270% of what you spent. But almost nobody buys every ticket left. Most people buy one or two.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="section-num">— Part Four —</div>
+    <h2 class="section-title">Two <em>winners</em>, two stories</h2>
+
+    <p>By the time Deluxe Gold's EV peaked at 270 in late October, the first jackpot had already been claimed back in August. Only the second five-million-dollar prize was still out there — somewhere in those last 23,717 tickets. The math had been on the player's side for months.</p>
+
+    <p>Here's what's interesting: the two jackpots ended up in two completely different kinds of hands. One was won by someone who knew exactly what was happening. The other was won by someone who almost certainly had no clue.</p>
+
+    <div class="winners-grid">
+      <div class="winner-card first">
+        <div class="winner-tag">— Jackpot One · August 8, 2025 —</div>
+        <div class="winner-name">Friendly Enterprise LLC</div>
+        <div class="winner-where">Pennsylvania-based · claimed in OK</div>
+        <p class="winner-body">According to Oklahoma News 4, an LLC registered in Pennsylvania quietly bought a batch of Deluxe Gold tickets and walked away with one of the two five-million-dollar jackpots — plus a $10,000 winner and <em>eighteen separate $1,000 winners</em> — for a total of <em>roughly $5,028,000 in a single day.</em> For perspective, the published odds of any single ticket winning $1,000 are about 1 in 2,300. Hitting eighteen of them in one day is, statistically, the kind of thing that doesn't happen by accident — it strongly suggests a coordinated buy involving thousands of tickets at once. And because Oklahoma's public data only reports the larger prize wins, the real total was almost certainly higher than $5,028,000. The same LLC also won close to $1.2 million in Pennsylvania's lottery the year before. Lottery analysts call this <em>"lottery tourism"</em> — groups that watch games across multiple states and travel in to play when the math turns favorable. Somebody, in other words, had been watching the same numbers SmartScratcher watches.</p>
+      </div>
+      <div class="winner-card second">
+        <div class="winner-tag">— Jackpot Two · October 31, 2025 —</div>
+        <div class="winner-name">Ernesto, from Iowa Park, TX</div>
+        <div class="winner-where">Bartlesville, Oklahoma</div>
+        <p class="winner-body">According to the Oklahoma Lottery, a man from Iowa Park stopped at a Bartlesville store, bought a single Deluxe Gold ticket on what he later called a whim, and uncovered the second five-million-dollar prize on his <em>very first play spot.</em> No spreadsheets. No travel plans. No advantage-play group. Just a guy, a hundred-dollar ticket, and a moment that paid for a vision-board's worth of life plans.</p>
+      </div>
+    </div>
+
+    <p>Two jackpots. Two very different ways to walk away with five million dollars. The first one went to a group running spreadsheets. The second went to a man who'd just stopped in to grab a ticket. Both got paid exactly the same.</p>
+
+    <p>It would be easy to draw a clean lesson here and pick a side. <strong>Don't.</strong> The lesson isn't that the math doesn't matter — the LLC made a few million dollars precisely because they were paying attention to it. The lesson also isn't that luck always wins — Ernesto hitting the jackpot on his very first scratch is the kind of thing that almost never happens. The honest takeaway is more boring than either of those: <span class="accent">when the math tilts toward the player, anyone holding a ticket is in slightly better shape than they would have been otherwise.</span> Some people figure that out on purpose. Some people just walk in.</p>
+  </div>
+</section>
+
+<div class="section-divider">✦ ✦ ✦</div>
+
+<section>
+  <div class="container">
+    <div class="section-num">— Part Five —</div>
+    <h2 class="section-title">Could <em>you</em> have done what the LLC did?</h2>
+
+    <p>In theory, sure. In practice, almost certainly not. To pull off what Friendly Enterprise pulled off, you'd need:</p>
+
+    <div class="catch">
+      <div class="catch-mark">— The Fine Print —</div>
+      <div class="catch-title">What "advantage play" actually requires:</div>
+      <ol>
+        <li><strong>The money to bulk-buy.</strong> Hundreds of thousands of dollars, ready to spend in a few days. Most people don't have that lying around. The people who do are usually already running this kind of operation.</li>
+        <li><strong>The setup to actually do it.</strong> People on the ground in the right state, retailers willing to sell that many tickets at once, the logistics of moving them around, and the legal paperwork to claim the winnings as a company.</li>
+        <li><strong>The willingness to lose real money.</strong> An EV of 270 doesn't guarantee anything. You can buy a thousand tickets and never hit the jackpot. A favorable EV only pays off in the long run, and only if you can buy enough tickets to ride out the bad luck along the way.</li>
+        <li><strong>The right timing.</strong> The LLC bought in August. By late October, the EV was even higher — but anyone showing up then would have been competing with both other advantage-play groups <em>and</em> regular buyers like Ernesto.</li>
+        <li><strong>Plain old luck.</strong> Even the LLC, with all their planning, only walked away with one of the two jackpots. The other one ended up with a Texan on his first scratch.</li>
+      </ol>
+    </div>
+
+    <p>None of this is illegal. It's not even all that rare. Advantage play happens — there are people who do it for a living — and state lotteries know about it. But the basic principle hasn't gone anywhere: some games, every once in a while, drift into territory where the math actually favors the player.</p>
+
+    <p>And here's what's more useful for the rest of us: <span class="accent">Deluxe Gold, in its late life, was one of the best $100 tickets to ever exist.</span> Anyone who happened to buy one during that stretch was, on average, getting a much better deal than they would have a year earlier. That's not nothing. It's also not a green light to bet the mortgage.</p>
+
+    <p>This is the difference between <strong>information</strong> and <strong>prediction.</strong> SmartScratcher can tell you the math has shifted. It can't tell you what the next ticket holds. Nothing can. That ticket is a sealed envelope that doesn't know or care what any spreadsheet says.</p>
+  </div>
+</section>
+
+<div class="section-divider">✦ ✦ ✦</div>
+
+<section>
+  <div class="container">
+    <div class="section-num">— Part Six —</div>
+    <h2 class="section-title">The part that should <em>bother you</em></h2>
+
+    <p>Here's the part of the Deluxe Gold story that doesn't get as much attention as the climb and the cliff. The morning the second jackpot was claimed on October 31, 2025, the EV crashed from 270 down to about 60. Both jackpots were gone. Most of the bigger prizes had been claimed too. There was almost nothing of real value left in the remaining pile of tickets.</p>
+
+    <p>And Oklahoma kept selling them. The state lottery did not pull Deluxe Gold from store shelves when the second jackpot was claimed. The game stayed in stores all over the state, for two more months, until it was finally retired on <strong>December 30, 2025</strong>.</p>
+
+    <p>People kept buying them. Slower than before, but they kept buying. Regular folks were still walking up to gas station counters and handing over $100 for a ticket whose two top prizes were already gone — on a game with no real shot left at any kind of life-changing payout. There's no judgment in that. Most of those buyers had no way of knowing. The state doesn't put a sticker on the ticket case that says <em>"both jackpots gone, nothing big left to win."</em> The case looked the same as it did in October. The clerk handed it over the same way. The price was the same.</p>
+
+    <p>This is the everyday reason an app like SmartScratcher exists. It's <em>not</em> really about catching the next Deluxe Gold–style climb to ride up. The LLC found that one without an app. The honest, day-to-day reason the app exists is to keep regular people from being the November buyer — the one spending $100 on a ticket whose actual value is closer to $60, on a game whose meaningful prizes are already gone.</p>
+
+    <p><span class="accent">That's not a wild edge case. That's what scratch-off games look like all the time, in every state, at every price tier.</span> Most "dead" games are way quieter than Deluxe Gold. They don't make the news. They just hollow out slowly until the state retires them. And in the meantime, regular people are still buying them.</p>
+
+    <p>Knowing the difference between a game in its prime and a game that's been picked clean is the whole point.</p>
+  </div>
+</section>
+
+<div class="section-divider">✦ ✦ ✦</div>
+
+<section class="house-section">
+  <div class="container">
+    <div class="house-frame">
+      <div class="house-mark">— A Final Note from the Door —</div>
+      <h2 class="house-title">The <span class="gold-word">house</span> still wins the season.</h2>
+      <p class="house-body">Whatever happens with any single game, in any single state, in any given autumn — the lottery's job is to be a profitable engine that funds public programs. It does that job extremely well. The state's profit on a given game is locked in long before the first ticket is scratched. Across every game in every state, the math always, always favors the house in the end.</p>
+      <p class="house-body">A $100 ticket whose EV briefly hit 270 is a small statistical curiosity, not a crack in the foundation. The crack closed the moment the second jackpot was claimed. Look at the chart again — the cliff is not subtle.</p>
+      <p class="house-body" style="margin-top: 24px; font-style: italic; color: var(--gold-bright);">What changes, ticket to ticket and week to week, is your information.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-mark">— Members Only —</div>
+    <h2 class="cta-title">Don't be the <span class="gold-word">November buyer</span>.</h2>
+    <p class="cta-body">SmartScratcher tracks every active scratch-off in Oklahoma, Texas, and California, every day. We tell you which games still have real prizes worth chasing — and which ones have been picked clean. Free to browse. Premium for the full picture.</p>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-button">Download on iOS</a>
+    <span class="cta-secondary">Free tier available · Premium <a href="https://smartscratcherapp.com">$2.99/month</a> with 3-day free trial</span>
+  </div>
+</section>
+
+<!-- PUBLISHER (site footer) -->
+<footer class="publisher">
+  <div class="wide">
+    <div class="pub-ornament">✦ ✦ ✦</div>
+    <div class="pub-grid">
+      <div class="pub-brand">
+        <a href="../index.html" class="pub-logo">SmartScratcher</a>
+        <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+      </div>
+      <div class="pub-col">
+        <h4>The Paper</h4>
+        <a href="../index.html">Home</a>
+        <a href="../blog-index.html">The Pages</a>
+        <a href="../index.html#how">How it works</a>
+        <a href="../index.html#pricing">Pricing</a>
+        <a href="../index.html#states">States</a>
+      </div>
+      <div class="pub-col">
+        <h4>Resources</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="../privacy-policy.html">Privacy</a>
+        <a href="../terms-of-service.html">Terms</a>
+      </div>
+      <div class="pub-col">
+        <h4>Wire Services</h4>
+        <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+        <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+        <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+        <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+        <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+      </div>
+    </div>
+    <div class="pub-bottom">
+      © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ARTICLE FINE PRINT -->
+<footer>
+  <div class="container">
+    <div class="footer-ornament">✦ ✦ ✦</div>
+    <div class="footer-disclaimers">
+      <p><strong>SmartScratcher is an information tool and does not guarantee winnings.</strong></p>
+      <p>Must be 18+ (21+ in some states). Play responsibly.</p>
+      <p>If the lottery stops being fun, the National Problem Gambling Helpline is <strong>1-800-GAMBLER</strong>.</p>
+      <p>Oklahoma Association on Problem Gambling: 800-522-4700.</p>
+      <p style="margin-top: 18px; opacity: 0.7;">EV figures are SmartScratcher's internal estimates derived from publicly available Oklahoma Lottery prize-claim data. Ticket-remaining counts are statistical estimates. Reporting on Friendly Enterprise LLC and the second jackpot winner is sourced from KFOR / Oklahoma News 4 and Oklahoma Lottery announcements.</p>
+    </div>
+    <div class="footer-meta">
+      Published April 28, 2026 · <a href="../blog-index.html">More from SmartScratcher</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
