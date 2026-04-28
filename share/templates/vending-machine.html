@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fff9e6;
+    --yellow: #ffd60a;
+    --yellow-deep: #ffbb00;
+    --red: #ff3b30;
+    --ink: #1a1a1a;
+    --display: 'Bricolage Grotesque', sans-serif;
+    --mono: 'JetBrains Mono', monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--display);
+    background-image:
+      radial-gradient(circle at 90% 10%, rgba(255,214,10,0.45), transparent 40%),
+      radial-gradient(circle at 10% 90%, rgba(255,214,10,0.25), transparent 40%);
+  }
+  .top-stripe {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 14px;
+    background: var(--yellow);
+    border-bottom: 2px solid var(--ink);
+  }
+  .frame {
+    position: relative;
+    width: 1200px; height: 630px;
+    padding: 40px 80px 86px;
+  }
+  .footer {
+    position: absolute;
+    left: 80px; right: 80px; bottom: 28px;
+  }
+  .eyebrow {
+    align-self: flex-start;
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--yellow);
+    padding: 8px 16px;
+    border: 2px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  h1 {
+    font-family: var(--display);
+    font-size: 88px;
+    line-height: 0.96;
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: var(--ink);
+    margin-top: 18px;
+  }
+  h1 .hl {
+    background: var(--yellow);
+    padding: 0 12px;
+    display: inline-block;
+    transform: rotate(-1.5deg);
+    box-shadow: 6px 6px 0 var(--ink);
+    margin: 0 4px;
+  }
+  .footer.row {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    border-top: 2px dashed var(--ink);
+    padding-top: 14px;
+  }
+  .brand {
+    display: inline-flex; align-items: baseline;
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    color: var(--ink);
+  }
+  .brand .hl {
+    background: var(--yellow);
+    padding: 2px 9px;
+    margin-left: 4px;
+    transform: rotate(-1.5deg);
+    display: inline-block;
+  }
+  .meta {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+</style>
+</head>
+<body>
+  <div class="top-stripe"></div>
+  <div class="frame">
+    <div>
+      <div class="eyebrow">★ The Vending Machine Theory ★</div>
+      <h1>Your scratcher is a <span class="hl">vending machine</span>.</h1>
+    </div>
+    <div class="footer row">
+      <div class="brand">Smart<span class="hl">Scratcher</span></div>
+      <div class="meta">— Here's how to read it —</div>
+    </div>
+  </div>
+</body>
+</html>

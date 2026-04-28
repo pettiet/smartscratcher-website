@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Bricolage+Grotesque:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --ink-soft: #1a1a1a;
+    --gold: #d4af37;
+    --gold-bright: #f4cf5e;
+    --gold-deep: #8a6d1f;
+    --cream: #f5e9c8;
+    --paper: #faf3e0;
+    --wine: #4a0d18;
+    --velvet: #1a0a14;
+    --crimson: #c1272d;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: var(--ink);
+    color: var(--cream);
+    font-family: 'Cormorant Garamond', serif;
+    background-image:
+      radial-gradient(ellipse at 50% 0%, rgba(212, 175, 55, 0.16) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 100%, rgba(74, 13, 24, 0.32) 0%, transparent 60%);
+    background-attachment: fixed;
+  }
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.18'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  .frame {
+    position: relative;
+    width: 100%; height: 100%;
+    padding: 50px 90px 38px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    text-align: center;
+  }
+  .top { display: flex; flex-direction: column; align-items: center; }
+  .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+  }
+  .ornament-top, .ornament-bot {
+    color: var(--gold);
+    font-size: 24px;
+    letter-spacing: 0.5em;
+    margin: 8px 0;
+  }
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 132px;
+    line-height: 0.98;
+    font-weight: 500;
+    letter-spacing: -2.5px;
+    color: var(--cream);
+    margin: 2px 0;
+  }
+  h1 .dollar {
+    font-style: italic;
+    background: linear-gradient(180deg, var(--gold-bright), var(--gold-deep));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 26px;
+    color: rgba(245, 233, 200, 0.72);
+    margin-top: 10px;
+    max-width: 940px;
+    align-self: center;
+  }
+  .footer {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    border-top: 1px solid rgba(212, 175, 55, 0.32);
+    padding-top: 18px;
+    text-align: left;
+  }
+  .brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--cream);
+    letter-spacing: -0.005em;
+  }
+  .meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="top">
+      <div class="kicker">An examination of the highest tier</div>
+      <div class="ornament-top">✦ ✦ ✦</div>
+      <h1>The <span class="dollar">$100</span> Club.</h1>
+      <div class="ornament-bot">✦ ✦ ✦</div>
+      <div class="subtitle">The fanciest ticket at the gas station — and the six weeks one Oklahoma game flipped the odds.</div>
+    </div>
+    <div class="footer">
+      <div class="brand">SmartScratcher</div>
+      <div class="meta">— SmartScratcher Investigates —</div>
+    </div>
+  </div>
+</body>
+</html>
