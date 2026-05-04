@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>The scratcher bouquet, but better — a Mother's Day guide | SmartScratcher</title>
+<meta name="description" content="The scratch-off bouquet is a real Mother's Day tradition. Here's how to put one together that actually has a chance of paying off — without buying a stack of tickets where the good prizes are already gone.">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg">
+<link rel="shortcut icon" href="../favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="SmartScratcher">
+<link rel="manifest" href="../favicon/site.webmanifest">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="The scratcher bouquet, but better.">
+<meta property="og:description" content="A small honest guide to building a Mother's Day scratch-off bouquet — without all the tickets where the good prizes are already gone.">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/mothers-day.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The scratcher bouquet, but better — a Mother's Day guide from SmartScratcher.">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/mothers-day.html">
+<meta property="og:site_name" content="SmartScratcher">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The scratcher bouquet, but better.">
+<meta name="twitter:description" content="A small honest guide to building a Mother's Day scratch-off bouquet — without all the tickets where the good prizes are already gone.">
+<meta name="twitter:image" content="https://www.smartscratcherapp.com/share/mothers-day.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600&family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  color-scheme: light;
+  --cream:#fbf3e3;
+  --cream-light:#fdf9ee;
+  --cream-dark:#f0e2c4;
+  --paper:#fffbf2;
+  --rose:#c97a8a;
+  --rose-deep:#a85363;
+  --rose-darker:#8a3f4d;
+  --rose-pale:#f3d3d9;
+  --rose-mist:#fae8ec;
+  --sage:#7a9778;
+  --sage-deep:#4f6b4d;
+  --sage-pale:#cfd9c3;
+  --gold:#b89752;
+  --gold-deep:#8b6f31;
+  --gold-light:#e8d093;
+  --ink:#3a2a2c;
+  --ink-soft:#6b4f52;
+  --ink-faded:#8c7479;
+  --shadow-paper: 0 1px 0 rgba(0,0,0,0.04), 0 4px 8px rgba(58,42,44,0.06), 0 16px 40px rgba(58,42,44,0.10);
+  --shadow-deep: 0 2px 0 rgba(0,0,0,0.04), 0 12px 24px rgba(58,42,44,0.10), 0 24px 60px rgba(58,42,44,0.14);
+}
+
+@media (prefers-color-scheme: dark){
+  :root{ color-scheme: light; }
+}
+
+html{
+  background-color:#f3e8d0 !important;
+  color:#3a2a2c !important;
+  scroll-behavior:smooth;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family:'Fraunces', Georgia, serif;
+  background-color:#f3e8d0 !important;
+  color:#3a2a2c !important;
+  line-height:1.65;
+  font-size:18px;
+  min-height:100vh;
+  overflow-x:hidden;
+  /* Linen-textured backdrop */
+  background-image:
+    radial-gradient(ellipse 1200px 600px at 20% -10%, rgba(201,122,138,0.10) 0%, transparent 60%),
+    radial-gradient(ellipse 1000px 500px at 100% 110%, rgba(122,151,120,0.08) 0%, transparent 60%),
+    repeating-linear-gradient(43deg, rgba(184,151,82,0.025) 0px, rgba(184,151,82,0.025) 1px, transparent 1px, transparent 4px),
+    repeating-linear-gradient(133deg, rgba(184,151,82,0.025) 0px, rgba(184,151,82,0.025) 1px, transparent 1px, transparent 4px);
+  background-attachment: fixed;
+}
+
+/* Vignette overlay */
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(58,42,44,0.08) 100%);
+  z-index:1;
+}
+
+.wrap{
+  max-width:740px;
+  margin:0 auto;
+  padding:48px 24px 24px;
+  position:relative;
+  z-index:2;
+}
+
+/* ============ ENVELOPE / OPENING ============ */
+.envelope-area{
+  margin:0 auto 56px;
+  max-width:560px;
+  position:relative;
+}
+
+.envelope{
+  background:linear-gradient(180deg, var(--rose-pale) 0%, var(--rose-mist) 100%);
+  border-radius:4px;
+  padding:64px 32px 40px;
+  position:relative;
+  box-shadow: var(--shadow-deep);
+  text-align:center;
+  /* Slight tilt like it's been laid down */
+  transform: rotate(-1.2deg);
+  border: 1px solid rgba(168,83,99,0.2);
+}
+
+/* The flap (triangle) at top */
+.envelope::before{
+  content:"";
+  position:absolute;
+  top:-1px;
+  left:0;
+  right:0;
+  height:80px;
+  background:
+    linear-gradient(180deg, var(--rose-mist) 0%, var(--rose-pale) 100%);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  border-bottom: 1px solid rgba(168,83,99,0.15);
+  filter: drop-shadow(0 2px 1px rgba(168,83,99,0.08));
+}
+
+/* Wax seal */
+.seal{
+  position:absolute;
+  top:54px;
+  left:50%;
+  transform: translateX(-50%);
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  background:
+    radial-gradient(circle at 35% 35%, #c2435a 0%, #8a2535 60%, #6e1a28 100%);
+  box-shadow:
+    inset 0 -4px 8px rgba(0,0,0,0.3),
+    inset 0 2px 4px rgba(255,255,255,0.2),
+    0 4px 12px rgba(110,26,40,0.4);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Cormorant Garamond', serif;
+  font-style:italic;
+  font-weight:700;
+  font-size:26px;
+  color:#fbe5b8;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  z-index:2;
+  letter-spacing:-0.02em;
+}
+
+/* Tiny scallops around seal edge */
+.seal::before{
+  content:"";
+  position:absolute;
+  inset:-3px;
+  border-radius:50%;
+  background:
+    radial-gradient(circle at 50% 0%, transparent 4px, rgba(110,26,40,0.6) 4px, rgba(110,26,40,0.6) 5px, transparent 5px),
+    radial-gradient(circle at 100% 50%, transparent 4px, rgba(110,26,40,0.6) 4px, rgba(110,26,40,0.6) 5px, transparent 5px),
+    radial-gradient(circle at 50% 100%, transparent 4px, rgba(110,26,40,0.6) 4px, rgba(110,26,40,0.6) 5px, transparent 5px),
+    radial-gradient(circle at 0% 50%, transparent 4px, rgba(110,26,40,0.6) 4px, rgba(110,26,40,0.6) 5px, transparent 5px);
+  z-index:-1;
+}
+
+.envelope-to{
+  margin-top:60px;
+  font-family:'Caveat', cursive;
+  font-size:30px;
+  color:var(--rose-darker);
+  line-height:1.2;
+  transform: rotate(-2deg);
+}
+
+.envelope-to .small{
+  font-family:'JetBrains Mono', monospace;
+  font-size:9px;
+  letter-spacing:0.3em;
+  text-transform:uppercase;
+  color:var(--rose-deep);
+  display:block;
+  margin-bottom:6px;
+  transform:rotate(2deg);
+}
+
+.postmark{
+  position:absolute;
+  top:18px;
+  right:24px;
+  width:90px;
+  height:90px;
+  border:2px solid var(--rose-deep);
+  border-radius:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-family:'JetBrains Mono', monospace;
+  font-size:8px;
+  letter-spacing:0.15em;
+  color:var(--rose-deep);
+  text-transform:uppercase;
+  text-align:center;
+  line-height:1.4;
+  transform: rotate(-12deg);
+  opacity:0.55;
+  background:transparent;
+}
+
+.postmark .year{
+  font-family:'Cormorant Garamond', serif;
+  font-size:18px;
+  font-style:italic;
+  letter-spacing:0;
+  margin:2px 0;
+  font-weight:600;
+}
+
+.postmark::before, .postmark::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:130%;
+  height:1px;
+  background: var(--rose-deep);
+  transform: translateX(-50%);
+  opacity:0.3;
+}
+.postmark::before{ top:30%; }
+.postmark::after{ bottom:30%; }
+
+.stamp-corner{
+  position:absolute;
+  top:14px;
+  left:18px;
+  width:62px;
+  height:78px;
+  background:
+    linear-gradient(135deg, #fdfbf3 0%, var(--cream) 100%);
+  border:1px solid var(--rose);
+  padding:6px;
+  transform: rotate(-4deg);
+  box-shadow: 0 2px 4px rgba(58,42,44,0.15);
+  /* Perforated edge effect via radial-gradient */
+  background-image:
+    radial-gradient(circle at 0% 0%, transparent 3px, transparent 3px),
+    linear-gradient(135deg, #fdfbf3 0%, var(--cream) 100%);
+}
+
+.stamp-corner svg{
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+/* ============ THE CARD (main content card) ============ */
+.card{
+  background: linear-gradient(180deg, var(--paper) 0%, var(--cream-light) 100%);
+  border:1px solid rgba(168,83,99,0.15);
+  border-radius:3px;
+  padding:0;
+  position:relative;
+  box-shadow: var(--shadow-deep);
+}
+
+/* Decorative ornamental border using SVG */
+.card-border{
+  position:absolute;
+  pointer-events:none;
+  z-index:3;
+}
+.card-border.tl{ top:14px; left:14px; }
+.card-border.tr{ top:14px; right:14px; transform:scaleX(-1); }
+.card-border.bl{ bottom:14px; left:14px; transform:scaleY(-1); }
+.card-border.br{ bottom:14px; right:14px; transform:scale(-1,-1); }
+
+.card-inner{
+  padding:80px 56px 64px;
+  position:relative;
+}
+
+@media (max-width:600px){
+  .card-inner{ padding: 56px 28px 48px; }
+  .card-border{ width:48px !important; height:48px !important; }
+}
+
+/* ============ MASTHEAD ============ */
+.masthead{
+  text-align:center;
+  margin-bottom:48px;
+  padding-bottom:32px;
+  position:relative;
+}
+
+.masthead::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:200px;
+  height:1px;
+  background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
+}
+
+.kicker{
+  font-family:'JetBrains Mono', monospace;
+  font-size:10px;
+  letter-spacing:0.4em;
+  text-transform:uppercase;
+  color:var(--rose-deep);
+  margin-bottom:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+}
+
+.kicker .dash{
+  flex:0 0 32px;
+  height:1px;
+  background: var(--gold);
+}
+
+.script-line{
+  font-family:'Caveat', cursive;
+  font-size:34px;
+  color:var(--rose-darker);
+  line-height:1;
+  margin-bottom:12px;
+  transform: rotate(-1.5deg);
+  display:inline-block;
+}
+
+h1.title{
+  font-family:'Fraunces', serif;
+  font-weight:300;
+  font-size:clamp(40px, 7vw, 64px);
+  line-height:1.02;
+  letter-spacing:-0.025em;
+  color:var(--ink);
+  font-variation-settings: "opsz" 144;
+  margin-bottom:22px;
+  /* Letterpress / embossed effect */
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.7),
+    0 -1px 0 rgba(58,42,44,0.05);
+}
+
+h1.title em{
+  font-style:italic;
+  color:var(--rose-deep);
+  font-weight:400;
+  font-variation-settings: "opsz" 144;
+  position:relative;
+  display:inline-block;
+}
+
+/* Tiny floral underline beneath italic 'better' */
+h1.title em::after{
+  content:"";
+  position:absolute;
+  left:5%;
+  right:5%;
+  bottom:-6px;
+  height:8px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'%3E%3Cpath d='M0 4 Q 25 0 50 4 T 100 4' fill='none' stroke='%23c97a8a' stroke-width='1.2' opacity='0.7'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+
+.deck{
+  font-family:'Cormorant Garamond', serif;
+  font-style:italic;
+  font-weight:400;
+  font-size:21px;
+  color:var(--ink-soft);
+  max-width:520px;
+  margin:0 auto;
+  line-height:1.45;
+}
+
+/* Decorative SVG flourish */
+.flourish{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:28px auto 0;
+  color:var(--rose);
+}
+
+.flourish svg{ width:140px; height:auto; }
+
+/* ============ BODY TEXT ============ */
+article{ margin-bottom:32px; }
+
+p{
+  margin-bottom:20px;
+  font-size:18.5px;
+  line-height:1.72;
+  color:var(--ink);
+  font-weight:400;
+}
+
+article > p:first-of-type,
+.card-inner > section > p:first-of-type{
+  font-size:19.5px;
+}
+
+article > p:first-of-type::first-letter,
+.card-inner > section > p:first-of-type::first-letter{
+  font-family:'Fraunces', serif;
+  font-weight:600;
+  font-style:italic;
+  font-size:78px;
+  line-height:0.85;
+  float:left;
+  padding:8px 14px 0 0;
+  color:var(--rose-deep);
+  font-variation-settings: "opsz" 144;
+}
+
+em.lift{
+  font-style:italic;
+  color:var(--rose-deep);
+  font-weight:500;
+}
+
+.section-h{
+  font-family:'Fraunces', serif;
+  font-weight:400;
+  font-style:italic;
+  font-size:34px;
+  margin:56px 0 20px;
+  line-height:1.15;
+  color:var(--sage-deep);
+  letter-spacing:-0.015em;
+  font-variation-settings: "opsz" 144;
+  text-align:center;
+}
+
+.section-h::before{
+  content:"";
+  display:block;
+  width:60px;
+  height:14px;
+  margin:0 auto 14px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 14'%3E%3Cpath d='M2 7 H22' stroke='%23b89752' stroke-width='0.8' fill='none'/%3E%3Cpath d='M38 7 H58' stroke='%23b89752' stroke-width='0.8' fill='none'/%3E%3Cg transform='translate(30,7)'%3E%3Cpath d='M0 -5 Q 3 -2 0 0 Q -3 -2 0 -5 Z' fill='%23c97a8a' opacity='0.7'/%3E%3Cpath d='M-5 0 Q -2 -3 0 0 Q -2 3 -5 0 Z' fill='%23c97a8a' opacity='0.7'/%3E%3Cpath d='M5 0 Q 2 -3 0 0 Q 2 3 5 0 Z' fill='%23c97a8a' opacity='0.7'/%3E%3Cpath d='M0 5 Q -3 2 0 0 Q 3 2 0 5 Z' fill='%23c97a8a' opacity='0.7'/%3E%3Ccircle cx='0' cy='0' r='1.5' fill='%23b89752'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+/* ============ HANDWRITTEN NOTE ============ */
+.note{
+  background:#fffbf0;
+  border-radius:3px;
+  padding:32px 36px 36px;
+  margin:40px 0;
+  position:relative;
+  transform: rotate(-0.6deg);
+  box-shadow:
+    3px 4px 0 rgba(168,83,99,0.08),
+    0 8px 24px rgba(58,42,44,0.08);
+  /* Notepaper rule lines */
+  background-image:
+    repeating-linear-gradient(
+      180deg,
+      transparent 0,
+      transparent 31px,
+      rgba(201,122,138,0.18) 31px,
+      rgba(201,122,138,0.18) 32px
+    );
+  border:1px solid rgba(184,151,82,0.2);
+}
+
+/* Tape strip */
+.note::before{
+  content:"";
+  position:absolute;
+  top:-14px;
+  left:50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width:90px;
+  height:26px;
+  background: rgba(232,208,147,0.55);
+  border-left: 1px dashed rgba(184,151,82,0.4);
+  border-right: 1px dashed rgba(184,151,82,0.4);
+  box-shadow: 0 1px 2px rgba(58,42,44,0.08);
+}
+
+.note p{
+  font-family:'Caveat', cursive;
+  font-size:25px;
+  line-height:32px;
+  color:var(--ink);
+  margin-bottom:0;
+  font-weight:500;
+}
+
+.note p::first-letter{
+  font-family:'Caveat', cursive;
+  font-size:25px;
+  line-height:32px;
+  float:none;
+  padding:0;
+  color:inherit;
+  font-style:normal;
+  font-weight:500;
+}
+
+.note .sig{
+  font-family:'Caveat', cursive;
+  font-weight:600;
+  font-size:22px;
+  color:var(--rose-darker);
+  margin-top:18px;
+  text-align:right;
+  display:block;
+  transform:rotate(-2deg);
+}
+
+/* ============ THE BOUQUET (illustrated) ============ */
+.bouquet-box{
+  background:
+    linear-gradient(180deg, #fff 0%, var(--cream-light) 100%);
+  border-radius:6px;
+  padding:36px 28px 32px;
+  margin:48px -8px;
+  position:relative;
+  box-shadow: var(--shadow-paper);
+  border: 1px solid rgba(184,151,82,0.18);
+}
+
+/* Gold corner brackets */
+.bouquet-box::before, .bouquet-box::after{
+  content:"";
+  position:absolute;
+  width:24px;
+  height:24px;
+  border:1.5px solid var(--gold);
+}
+.bouquet-box::before{
+  top:10px; left:10px;
+  border-right:none; border-bottom:none;
+}
+.bouquet-box::after{
+  bottom:10px; right:10px;
+  border-left:none; border-top:none;
+}
+
+.bouquet-head{
+  text-align:center;
+  margin-bottom:8px;
+}
+
+.bouquet-head .label{
+  font-family:'Caveat', cursive;
+  font-weight:600;
+  font-size:30px;
+  color:var(--rose-darker);
+  display:block;
+  line-height:1;
+  margin-bottom:6px;
+  transform:rotate(-1deg);
+}
+
+.bouquet-head .sub{
+  font-family:'JetBrains Mono', monospace;
+  font-size:9px;
+  letter-spacing:0.35em;
+  text-transform:uppercase;
+  color:var(--ink-faded);
+}
+
+.bouquet-illustration{
+  margin: 8px auto 16px;
+  max-width:480px;
+}
+
+.bouquet-illustration svg{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.ticket-legend{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:12px 20px;
+  margin-top:8px;
+}
+
+@media (max-width:560px){
+  .ticket-legend{ grid-template-columns:1fr; }
+}
+
+.legend-row{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  padding:8px 0;
+  border-bottom:1px dotted rgba(168,83,99,0.2);
+}
+
+.legend-row:last-child, .legend-row:nth-last-child(2){ border-bottom:none; }
+
+@media (max-width:560px){
+  .legend-row{ border-bottom:1px dotted rgba(168,83,99,0.2); }
+  .legend-row:last-child{ border-bottom:none; }
+}
+
+.legend-dot{
+  flex:0 0 26px;
+  height:26px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Cormorant Garamond', serif;
+  font-weight:700;
+  font-size:11px;
+  color:#fff;
+  margin-top:2px;
+}
+
+.dot-a{ background:var(--rose-deep); }
+.dot-b{ background:var(--gold); }
+.dot-c{ background:var(--sage); }
+.dot-d{ background:var(--rose-darker); }
+
+.legend-text h4{
+  font-family:'Fraunces', serif;
+  font-weight:600;
+  font-style:italic;
+  font-size:16px;
+  color:var(--ink);
+  margin-bottom:2px;
+  line-height:1.2;
+}
+
+.legend-text p{
+  font-family:'Fraunces', serif;
+  font-size:14px;
+  line-height:1.45;
+  color:var(--ink-soft);
+  margin:0;
+}
+
+/* ============ DOS / DONTS as gift tags ============ */
+.tag-pair{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+  margin:48px 0;
+}
+
+@media (max-width:560px){
+  .tag-pair{ grid-template-columns:1fr; }
+}
+
+.gift-tag{
+  background:#fffaf0;
+  padding:32px 28px 28px;
+  position:relative;
+  box-shadow:
+    0 2px 0 rgba(58,42,44,0.04),
+    0 8px 20px rgba(58,42,44,0.08);
+  border:1px solid rgba(184,151,82,0.2);
+  /* Cut corner top-left */
+  clip-path: polygon(28px 0, 100% 0, 100% 100%, 0 100%, 0 28px);
+}
+
+.gift-tag.do{ transform: rotate(-1.2deg); }
+.gift-tag.dont{ transform: rotate(1deg); }
+
+/* Hole and string */
+.gift-tag::before{
+  content:"";
+  position:absolute;
+  top:8px;
+  left:8px;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#f3e8d0;
+  box-shadow:
+    inset 0 1px 2px rgba(58,42,44,0.3),
+    0 0 0 1px rgba(184,151,82,0.3);
+}
+
+.gift-tag::after{
+  content:"";
+  position:absolute;
+  top:8px;
+  left:14px;
+  width:50px;
+  height:14px;
+  background:
+    repeating-linear-gradient(45deg, var(--rose) 0, var(--rose) 2px, var(--rose-pale) 2px, var(--rose-pale) 4px);
+  transform: rotate(-25deg);
+  transform-origin: 0 50%;
+  border-radius:1px;
+  opacity:0.6;
+  z-index:-1;
+}
+
+.gift-tag.do::after{
+  background:
+    repeating-linear-gradient(45deg, var(--sage) 0, var(--sage) 2px, var(--sage-pale) 2px, var(--sage-pale) 4px);
+}
+
+.gift-tag h4{
+  font-family:'Caveat', cursive;
+  font-weight:700;
+  font-size:34px;
+  margin-bottom:14px;
+  line-height:1;
+  margin-top:8px;
+}
+
+.gift-tag.do h4{ color:var(--sage-deep); }
+.gift-tag.dont h4{ color:var(--rose-darker); }
+
+.gift-tag h4 span{
+  font-family:'Cormorant Garamond', serif;
+  font-style:italic;
+  font-weight:400;
+  font-size:14px;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  display:block;
+  color:var(--ink-faded);
+  margin-top:4px;
+}
+
+.gift-tag ul{
+  list-style:none;
+}
+
+.gift-tag li{
+  padding:10px 0 10px 28px;
+  font-family:'Fraunces', serif;
+  font-size:15.5px;
+  line-height:1.45;
+  color:var(--ink);
+  border-bottom:1px dashed rgba(168,83,99,0.18);
+  position:relative;
+}
+
+.gift-tag li:last-child{ border-bottom:none; }
+
+.gift-tag.do li::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:14px;
+  width:18px;
+  height:18px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cg transform='translate(10,10)'%3E%3Cellipse cx='0' cy='-5' rx='2' ry='3.5' fill='%237a9778'/%3E%3Cellipse cx='5' cy='0' rx='3.5' ry='2' fill='%237a9778'/%3E%3Cellipse cx='0' cy='5' rx='2' ry='3.5' fill='%237a9778'/%3E%3Cellipse cx='-5' cy='0' rx='3.5' ry='2' fill='%237a9778'/%3E%3Ccircle cx='0' cy='0' r='1.6' fill='%23b89752'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+.gift-tag.dont li::before{
+  content:"";
+  position:absolute;
+  left:1px;
+  top:13px;
+  width:16px;
+  height:16px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg stroke='%238a3f4d' stroke-width='1.8' stroke-linecap='round' opacity='0.8'%3E%3Cline x1='4' y1='4' x2='12' y2='12'/%3E%3Cline x1='12' y1='4' x2='4' y2='12'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+/* ============ PULL QUOTE ============ */
+.pull{
+  text-align:center;
+  margin:64px auto;
+  padding:36px 24px;
+  position:relative;
+  max-width:560px;
+}
+
+.pull svg.q-deco{
+  display:block;
+  width:80px;
+  height:auto;
+  margin:0 auto 16px;
+  color: var(--rose);
+}
+
+.pull blockquote{
+  font-family:'Cormorant Garamond', serif;
+  font-style:italic;
+  font-weight:400;
+  font-size:32px;
+  line-height:1.25;
+  color:var(--sage-deep);
+  letter-spacing:-0.005em;
+}
+
+.pull blockquote em{
+  color:var(--rose-deep);
+  font-weight:500;
+}
+
+.pull-attribution{
+  font-family:'JetBrains Mono', monospace;
+  font-size:10px;
+  letter-spacing:0.3em;
+  text-transform:uppercase;
+  color:var(--ink-faded);
+  margin-top:18px;
+  display:block;
+}
+
+/* ============ DIVIDER ============ */
+.divider{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:40px 0;
+  gap:14px;
+  color:var(--rose);
+}
+
+.divider svg{ width:24px; height:24px; }
+
+.divider .line{
+  flex:0 0 80px;
+  height:1px;
+  background: linear-gradient(90deg, transparent, var(--rose) 50%, transparent);
+}
+
+/* ============ CTA ============ */
+.cta{
+  background:
+    linear-gradient(135deg, var(--rose-mist) 0%, var(--cream-light) 50%, var(--rose-pale) 100%);
+  border-radius:6px;
+  padding:56px 40px 48px;
+  text-align:center;
+  margin:64px 0 40px;
+  position:relative;
+  box-shadow: var(--shadow-paper);
+  border: 1px solid rgba(168,83,99,0.2);
+  overflow:hidden;
+}
+
+/* Gold ribbon banner */
+.cta::before{
+  content:"WITH LOVE";
+  position:absolute;
+  top:18px;
+  right:-44px;
+  width:180px;
+  background: linear-gradient(180deg, var(--gold-light) 0%, var(--gold) 70%, var(--gold-deep) 100%);
+  color:#fff;
+  text-align:center;
+  font-family:'JetBrains Mono', monospace;
+  font-size:10px;
+  letter-spacing:0.3em;
+  padding:5px 0;
+  transform: rotate(35deg);
+  box-shadow: 0 2px 4px rgba(58,42,44,0.15);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.cta-script{
+  font-family:'Caveat', cursive;
+  font-weight:600;
+  font-size:36px;
+  color:var(--rose-darker);
+  line-height:1;
+  margin-bottom:10px;
+  transform: rotate(-1.5deg);
+  display:inline-block;
+}
+
+.cta h2{
+  font-family:'Fraunces', serif;
+  font-weight:400;
+  font-style:italic;
+  font-size:clamp(28px, 4.5vw, 38px);
+  line-height:1.18;
+  margin-bottom:18px;
+  color:var(--ink);
+  letter-spacing:-0.015em;
+  font-variation-settings: "opsz" 144;
+  max-width:480px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.cta p{
+  font-family:'Fraunces', serif;
+  font-size:16.5px;
+  line-height:1.55;
+  max-width:460px;
+  margin:0 auto 28px;
+  color:var(--ink-soft);
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  background: var(--rose-darker);
+  color:#fffbf2;
+  font-family:'Fraunces', serif;
+  font-weight:600;
+  font-size:16px;
+  letter-spacing:0.03em;
+  padding:18px 36px;
+  text-decoration:none;
+  border-radius:3px;
+  transition: all 0.2s ease;
+  box-shadow:
+    0 4px 0 var(--ink),
+    0 6px 18px rgba(58,42,44,0.2);
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 0 var(--ink),
+    0 10px 22px rgba(58,42,44,0.28);
+}
+
+.btn:active{
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--ink);
+}
+
+.btn svg{ width:16px; height:16px; }
+
+/* ============ FROM THE DESK / SIGN-OFF ============ */
+.signoff{
+  margin:48px auto 32px;
+  max-width:420px;
+  text-align:center;
+  padding:24px 0;
+  border-top: 1px solid rgba(184,151,82,0.3);
+  border-bottom: 1px solid rgba(184,151,82,0.3);
+}
+
+.signoff .from{
+  font-family:'JetBrains Mono', monospace;
+  font-size:9px;
+  letter-spacing:0.3em;
+  text-transform:uppercase;
+  color:var(--ink-faded);
+  margin-bottom:8px;
+}
+
+.signoff .name{
+  font-family:'Caveat', cursive;
+  font-weight:700;
+  font-size:34px;
+  color:var(--rose-darker);
+  line-height:1;
+  transform:rotate(-2deg);
+  display:inline-block;
+}
+
+.signoff .sub{
+  font-family:'Cormorant Garamond', serif;
+  font-style:italic;
+  font-size:14px;
+  color:var(--ink-faded);
+  margin-top:8px;
+  letter-spacing:0.05em;
+}
+
+/* ============ FINE PRINT ============ */
+.fineprint{
+  padding:32px 8px 16px;
+  font-family:'JetBrains Mono', monospace;
+  font-size:11px;
+  line-height:1.7;
+  color:var(--ink-faded);
+  text-align:center;
+}
+
+.fineprint p{
+  margin-bottom:10px;
+  font-size:11px;
+  font-family:'JetBrains Mono', monospace;
+  color:var(--ink-faded);
+}
+
+.fineprint p::first-letter{
+  font-family:inherit;
+  font-size:11px;
+  font-weight:normal;
+  color:inherit;
+  float:none;
+  padding:0;
+  font-style:normal;
+}
+
+.fineprint strong{ color:var(--rose-deep); }
+
+/* OUTSIDE THE CARD: footer line under everything */
+.afterword{
+  text-align:center;
+  margin-top:32px;
+  padding:16px 0 32px;
+  font-family:'Caveat', cursive;
+  font-size:22px;
+  color:var(--rose-darker);
+  font-weight:600;
+  transform: rotate(-1deg);
+}
+
+/* ============ SITE NAV ============ */
+.mom-nav{
+  position:sticky;
+  top:0;
+  z-index:50;
+  background: var(--cream);
+  border-bottom: 1px solid rgba(184,151,82,0.25);
+  padding: 14px 24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-family:'Fraunces', Georgia, serif;
+}
+.mom-nav-brand{
+  font-family:'Fraunces', Georgia, serif;
+  font-style:italic;
+  font-weight:600;
+  font-size:1.25rem;
+  letter-spacing:-0.01em;
+  color:var(--ink);
+  text-decoration:none;
+}
+.mom-nav-brand::before{
+  content:'❀ ';
+  color: var(--rose);
+  font-style:normal;
+  font-weight:400;
+}
+.mom-nav-links{
+  display:flex;
+  gap:22px;
+  align-items:center;
+}
+.mom-nav-links a{
+  color:var(--ink-soft);
+  text-decoration:none;
+  font-size:0.95rem;
+  font-weight:500;
+  transition:color 0.15s;
+}
+.mom-nav-links a:hover{ color: var(--rose-deep); }
+.mom-nav-links a.mom-nav-cta{
+  background: var(--rose-deep);
+  color: var(--cream-light);
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight:600;
+  letter-spacing:0.02em;
+}
+.mom-nav-links a.mom-nav-cta:hover{
+  background: var(--rose-darker);
+  color: var(--cream-light);
+}
+@media (max-width: 720px){
+  .mom-nav-links a:not(.mom-nav-cta){ display:none; }
+  .mom-nav{ padding: 12px 18px; }
+}
+
+/* ============ SHARE ROW ============ */
+.mom-share{
+  max-width:560px;
+  margin: 24px auto 0;
+  padding: 16px 24px;
+  text-align:center;
+  font-family:'Cormorant Garamond', serif;
+  font-size:15px;
+  color: var(--ink-soft);
+  border-top: 1px dashed rgba(184,151,82,0.4);
+  border-bottom: 1px dashed rgba(184,151,82,0.4);
+  position:relative;
+  z-index:2;
+}
+.mom-share span.label{
+  font-family:'Caveat', cursive;
+  font-size:18px;
+  color: var(--rose-deep);
+  margin-right:10px;
+}
+.mom-share a{
+  color: var(--rose-deep);
+  text-decoration:none;
+  margin: 0 10px;
+  font-style:italic;
+  border-bottom: 1px solid rgba(168,83,99,0.35);
+  padding-bottom:1px;
+}
+.mom-share a:hover{
+  color: var(--rose-darker);
+  border-bottom-color: var(--rose-darker);
+}
+
+/* ============ SITE FOOTER ============ */
+.mom-footer{
+  background: var(--ink);
+  color: rgba(251,243,227,0.85);
+  padding: 56px 24px 28px;
+  margin-top: 48px;
+  position:relative;
+  z-index:2;
+  font-family:'Cormorant Garamond', serif;
+}
+.mom-footer-grid{
+  max-width: 1100px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 36px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(251,243,227,0.12);
+}
+.mom-footer .mf-brand a.mf-logo{
+  font-family:'Fraunces', serif;
+  font-style:italic;
+  font-weight:600;
+  font-size: 1.3rem;
+  color: var(--cream-light);
+  text-decoration:none;
+  display:inline-block;
+  margin-bottom: 10px;
+}
+.mom-footer .mf-brand a.mf-logo::before{
+  content:'❀ ';
+  color: var(--rose-pale);
+  font-style:normal;
+}
+.mom-footer .mf-brand p{
+  font-size: 14px;
+  color: rgba(251,243,227,0.55);
+  line-height: 1.55;
+  max-width: 320px;
+}
+.mom-footer h4{
+  font-family:'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--rose-pale);
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.mom-footer .mf-col a{
+  display:block;
+  font-size: 14px;
+  color: rgba(251,243,227,0.78);
+  text-decoration:none;
+  padding: 4px 0;
+}
+.mom-footer .mf-col a:hover{ color: var(--rose-pale); }
+.mom-footer-bottom{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 22px;
+  font-size: 12px;
+  color: rgba(251,243,227,0.5);
+  font-family:'JetBrains Mono', monospace;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.mom-footer-bottom a{ color: var(--rose-pale); text-decoration:none; }
+
+@media (max-width: 880px){
+  .mom-footer-grid{ grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px){
+  .mom-footer-grid{ grid-template-columns: 1fr; }
+}
+
+</style>
+</head>
+<body>
+
+<nav class="mom-nav">
+  <a href="../index.html" class="mom-nav-brand">SmartScratcher</a>
+  <div class="mom-nav-links">
+    <a href="../index.html">Home</a>
+    <a href="../blog-index.html">The Pages</a>
+    <a href="../index.html#pricing">Pricing</a>
+    <a href="../index.html#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="mom-nav-cta">Get the App</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- ============ ENVELOPE ============ -->
+  <section class="envelope-area" aria-label="A letter for Mom">
+    <div class="envelope">
+
+      <!-- Stamp in the corner -->
+      <div class="stamp-corner" aria-hidden="true">
+        <svg viewBox="0 0 50 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="50" height="60" fill="#fbe9d4" stroke="#a85363" stroke-width="0.6" stroke-dasharray="1.2 1.2"/>
+          <g transform="translate(25,28)">
+            <!-- Little flower -->
+            <ellipse cx="0" cy="-8" rx="3.5" ry="5" fill="#c97a8a"/>
+            <ellipse cx="7" cy="0" rx="5" ry="3.5" fill="#c97a8a"/>
+            <ellipse cx="0" cy="8" rx="3.5" ry="5" fill="#c97a8a"/>
+            <ellipse cx="-7" cy="0" rx="5" ry="3.5" fill="#c97a8a"/>
+            <circle cx="0" cy="0" r="2.8" fill="#b89752"/>
+          </g>
+          <text x="25" y="50" font-family="Cormorant Garamond, serif" font-style="italic" font-size="6" fill="#a85363" text-anchor="middle" letter-spacing="0.5">For Mom</text>
+        </svg>
+      </div>
+
+      <!-- Postmark -->
+      <div class="postmark" aria-hidden="true">
+        SMARTSCRATCHER
+        <span class="year">2026</span>
+        MAY · TEN
+      </div>
+
+      <!-- Wax seal -->
+      <div class="seal" aria-hidden="true">M</div>
+
+      <div class="envelope-to">
+        <span class="small">A small honest guide</span>
+        for the woman who raised you
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE CARD ============ -->
+  <article class="card">
+
+    <!-- Decorative ornamental SVG corners -->
+    <svg class="card-border tl" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="#b89752" stroke-width="0.8" opacity="0.7">
+        <path d="M2 62 Q 2 22 22 22 Q 32 22 36 12 Q 38 6 44 4"/>
+        <path d="M2 62 Q 2 32 32 32" opacity="0.4"/>
+        <path d="M14 22 Q 18 14 26 14" opacity="0.6"/>
+      </g>
+      <g fill="#c97a8a" opacity="0.5">
+        <ellipse cx="22" cy="22" rx="2.2" ry="3" transform="rotate(-30 22 22)"/>
+        <ellipse cx="22" cy="22" rx="3" ry="2.2" transform="rotate(60 22 22)"/>
+        <circle cx="22" cy="22" r="1.4" fill="#b89752"/>
+      </g>
+      <g fill="#7a9778" opacity="0.5">
+        <path d="M36 12 Q 40 8 38 4 Q 34 6 36 12 Z"/>
+      </g>
+      <circle cx="44" cy="4" r="1.6" fill="#b89752" opacity="0.6"/>
+    </svg>
+
+    <svg class="card-border tr" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="#b89752" stroke-width="0.8" opacity="0.7">
+        <path d="M2 62 Q 2 22 22 22 Q 32 22 36 12 Q 38 6 44 4"/>
+        <path d="M2 62 Q 2 32 32 32" opacity="0.4"/>
+        <path d="M14 22 Q 18 14 26 14" opacity="0.6"/>
+      </g>
+      <g fill="#c97a8a" opacity="0.5">
+        <ellipse cx="22" cy="22" rx="2.2" ry="3" transform="rotate(-30 22 22)"/>
+        <ellipse cx="22" cy="22" rx="3" ry="2.2" transform="rotate(60 22 22)"/>
+        <circle cx="22" cy="22" r="1.4" fill="#b89752"/>
+      </g>
+      <g fill="#7a9778" opacity="0.5">
+        <path d="M36 12 Q 40 8 38 4 Q 34 6 36 12 Z"/>
+      </g>
+      <circle cx="44" cy="4" r="1.6" fill="#b89752" opacity="0.6"/>
+    </svg>
+
+    <svg class="card-border bl" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="#b89752" stroke-width="0.8" opacity="0.7">
+        <path d="M2 62 Q 2 22 22 22 Q 32 22 36 12 Q 38 6 44 4"/>
+        <path d="M2 62 Q 2 32 32 32" opacity="0.4"/>
+      </g>
+      <g fill="#c97a8a" opacity="0.5">
+        <ellipse cx="22" cy="22" rx="2.2" ry="3" transform="rotate(-30 22 22)"/>
+        <ellipse cx="22" cy="22" rx="3" ry="2.2" transform="rotate(60 22 22)"/>
+        <circle cx="22" cy="22" r="1.4" fill="#b89752"/>
+      </g>
+      <circle cx="44" cy="4" r="1.6" fill="#b89752" opacity="0.6"/>
+    </svg>
+
+    <svg class="card-border br" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="#b89752" stroke-width="0.8" opacity="0.7">
+        <path d="M2 62 Q 2 22 22 22 Q 32 22 36 12 Q 38 6 44 4"/>
+        <path d="M2 62 Q 2 32 32 32" opacity="0.4"/>
+      </g>
+      <g fill="#c97a8a" opacity="0.5">
+        <ellipse cx="22" cy="22" rx="2.2" ry="3" transform="rotate(-30 22 22)"/>
+        <ellipse cx="22" cy="22" rx="3" ry="2.2" transform="rotate(60 22 22)"/>
+        <circle cx="22" cy="22" r="1.4" fill="#b89752"/>
+      </g>
+      <circle cx="44" cy="4" r="1.6" fill="#b89752" opacity="0.6"/>
+    </svg>
+
+    <div class="card-inner">
+
+      <!-- Masthead -->
+      <header class="masthead">
+        <div class="kicker">
+          <span class="dash"></span>
+          <span>For Mother's Day · 2026</span>
+          <span class="dash"></span>
+        </div>
+        <div class="script-line">A small honest guide to</div>
+        <h1 class="title">The scratcher bouquet,<br>but <em>better.</em></h1>
+        <p class="deck">A scratch-off bouquet makes a surprisingly nice gift. Here's how to put one together that actually has a chance of giving Mom a little something back.</p>
+
+        <div class="flourish" aria-hidden="true">
+          <svg viewBox="0 0 140 20" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6">
+              <path d="M0 10 Q 30 10 50 10"/>
+              <path d="M90 10 Q 110 10 140 10"/>
+              <path d="M40 10 Q 45 4 50 10 Q 55 16 60 10"/>
+              <path d="M80 10 Q 85 4 90 10 Q 95 16 100 10"/>
+            </g>
+            <g transform="translate(70, 10)">
+              <path d="M0 -8 Q 4 -3 0 0 Q -4 -3 0 -8 Z" fill="#c97a8a" opacity="0.7"/>
+              <path d="M8 0 Q 3 -4 0 0 Q 3 4 8 0 Z" fill="#c97a8a" opacity="0.7"/>
+              <path d="M0 8 Q -4 3 0 0 Q 4 3 0 8 Z" fill="#c97a8a" opacity="0.7"/>
+              <path d="M-8 0 Q -3 4 0 0 Q -3 -4 -8 0 Z" fill="#c97a8a" opacity="0.7"/>
+              <circle cx="0" cy="0" r="2" fill="#b89752"/>
+            </g>
+          </svg>
+        </div>
+      </header>
+
+      <!-- Body -->
+      <section>
+
+        <p>Somewhere along the way, scratch-offs became a Mother's Day thing. You've probably seen the photos: a dozen tickets fanned out like a bouquet, taped to skewers in a flowerpot, ribbon tied around the base. Sometimes there's a card. Sometimes there's a coffee mug full of tickets. It's become a real little tradition.</p>
+
+        <p>It's a sweet gift, honestly. It's affordable. It's interactive — Mom gets to scratch them, which is half the fun. And there's something nice about handing someone a gift that has a tiny element of surprise built in. Even if nothing hits, the act of scratching is the entertainment.</p>
+
+        <p>But here's the thing nobody tells you when you walk into the gas station to put one of these together: <em class="lift">most of the good prizes have already been claimed.</em> A bouquet of twelve scratch-offs, grabbed from whatever's near the register, is statistically very likely to include several games whose top prizes were won weeks or months ago. The ticket still costs $5 or $10. It just doesn't have what the front of the ticket promises anymore.</p>
+
+        <p>That's a small heartbreak you can spare your mother.</p>
+
+        <h2 class="section-h">What "a good ticket for Mom" actually means</h2>
+
+        <p>Let's be honest about what we're optimizing for. A Mother's Day scratcher bouquet is not a serious wager. The point isn't to win money. The point is to give Mom a fun fifteen minutes of scratching at the kitchen table while everybody watches.</p>
+
+        <p>So a good ticket for the bouquet is one that:</p>
+
+        <!-- Gift tag do/don't -->
+        <div class="tag-pair">
+          <div class="gift-tag do">
+            <h4>The good ones<span>worth picking</span></h4>
+            <ul>
+              <li>Has a fun theme she'll smile at</li>
+              <li>Still has a reasonable share of mid-tier prizes left</li>
+              <li>Is at a price point that lets you include a few</li>
+              <li>Has a few small wins so it's not a blank stretch</li>
+            </ul>
+          </div>
+          <div class="gift-tag dont">
+            <h4>The skip pile<span>leave on the shelf</span></h4>
+            <ul>
+              <li>Top prizes already claimed (you can check)</li>
+              <li>Games that are mostly $1–$2 returns</li>
+              <li>Anything past its retire date — they sell those</li>
+              <li>Whatever the clerk hands you because you didn't ask</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Handwritten note -->
+        <div class="note">
+          <p>Quick plug: SmartScratcher ranks every active scratcher in OK, TX, and CA from best to worst — running on real prize-pool data. Tap a price tier ($1, $2, $5, $10, $20) and instantly see the games sorted by how much life they actually have left. There for you if you just want a quick pick. There for you if you want to dig into the numbers.</p>
+          <span class="sig">— from us ✿</span>
+        </div>
+
+        <h2 class="section-h">A modest 6-ticket bouquet</h2>
+
+        <p>If you want a starting point, here's the rough mix that tends to work. Six tickets, somewhere between $25 and $40 total depending on what your state offers and what's actually live this week:</p>
+
+        <!-- ILLUSTRATED BOUQUET -->
+        <div class="bouquet-box">
+          <div class="bouquet-head">
+            <span class="label">For her bouquet</span>
+            <span class="sub">— a suggested mix —</span>
+          </div>
+
+          <div class="bouquet-illustration" aria-label="Illustrated bouquet of six scratch-off tickets in a vase">
+            <svg viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <!-- Gold gradient -->
+                <linearGradient id="goldFill" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#e8d093"/>
+                  <stop offset="60%" stop-color="#b89752"/>
+                  <stop offset="100%" stop-color="#8b6f31"/>
+                </linearGradient>
+                <!-- Vase gradient -->
+                <linearGradient id="vaseFill" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#e8d093" stop-opacity="0.6"/>
+                  <stop offset="50%" stop-color="#b89752" stop-opacity="0.85"/>
+                  <stop offset="100%" stop-color="#8b6f31" stop-opacity="0.7"/>
+                </linearGradient>
+                <!-- Ticket gradients -->
+                <linearGradient id="rosePaper" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#f3d3d9"/>
+                  <stop offset="100%" stop-color="#c97a8a"/>
+                </linearGradient>
+                <linearGradient id="goldPaper" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#fbe9b8"/>
+                  <stop offset="100%" stop-color="#b89752"/>
+                </linearGradient>
+                <linearGradient id="sagePaper" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#cfd9c3"/>
+                  <stop offset="100%" stop-color="#7a9778"/>
+                </linearGradient>
+                <linearGradient id="darkRosePaper" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#d98a99"/>
+                  <stop offset="100%" stop-color="#8a3f4d"/>
+                </linearGradient>
+              </defs>
+
+              <!-- Background petals scattered (decorative) -->
+              <g opacity="0.35">
+                <ellipse cx="40" cy="350" rx="6" ry="3" fill="#c97a8a" transform="rotate(-30 40 350)"/>
+                <ellipse cx="430" cy="340" rx="5" ry="2.5" fill="#c97a8a" transform="rotate(40 430 340)"/>
+                <ellipse cx="80" cy="365" rx="4" ry="2" fill="#7a9778" transform="rotate(20 80 365)"/>
+                <ellipse cx="400" cy="370" rx="5" ry="2.5" fill="#b89752" transform="rotate(-15 400 370)"/>
+                <ellipse cx="240" cy="375" rx="6" ry="3" fill="#c97a8a" transform="rotate(10 240 375)"/>
+              </g>
+
+              <!-- TICKETS / STEMS — drawn back-to-front so center comes forward -->
+              <!-- LEFT outer: $1 ticket A (rose, small) -->
+              <g transform="translate(150, 220) rotate(-22)">
+                <rect x="-2" y="0" width="4" height="120" fill="#7a9778" opacity="0.85"/>
+                <!-- Leaf -->
+                <ellipse cx="-8" cy="60" rx="6" ry="3" fill="#7a9778" opacity="0.7" transform="rotate(-25 -8 60)"/>
+                <!-- Ticket card -->
+                <g transform="translate(-30, -85)">
+                  <rect x="0" y="0" width="60" height="85" rx="2" fill="url(#rosePaper)" stroke="#a85363" stroke-width="0.8"/>
+                  <rect x="3" y="3" width="54" height="79" rx="1" fill="none" stroke="#fff" stroke-width="0.6" opacity="0.6"/>
+                  <text x="30" y="32" font-family="Fraunces, serif" font-style="italic" font-weight="700" font-size="22" fill="#fff" text-anchor="middle">$1</text>
+                  <text x="30" y="52" font-family="JetBrains Mono, monospace" font-size="6" fill="#fff" text-anchor="middle" letter-spacing="0.5" opacity="0.85">SCRATCH</text>
+                  <!-- decorative dots -->
+                  <circle cx="14" cy="70" r="1.4" fill="#fff" opacity="0.6"/>
+                  <circle cx="30" cy="70" r="1.4" fill="#fff" opacity="0.6"/>
+                  <circle cx="46" cy="70" r="1.4" fill="#fff" opacity="0.6"/>
+                </g>
+              </g>
+
+              <!-- LEFT inner: $5 ticket (sage, medium) -->
+              <g transform="translate(190, 200) rotate(-10)">
+                <rect x="-2" y="0" width="4" height="140" fill="#7a9778" opacity="0.85"/>
+                <ellipse cx="8" cy="80" rx="7" ry="3.5" fill="#7a9778" opacity="0.7" transform="rotate(30 8 80)"/>
+                <g transform="translate(-32, -100)">
+                  <rect x="0" y="0" width="64" height="100" rx="2" fill="url(#sagePaper)" stroke="#4f6b4d" stroke-width="0.8"/>
+                  <rect x="3" y="3" width="58" height="94" rx="1" fill="none" stroke="#fff" stroke-width="0.6" opacity="0.6"/>
+                  <text x="32" y="38" font-family="Fraunces, serif" font-style="italic" font-weight="700" font-size="26" fill="#fff" text-anchor="middle">$5</text>
+                  <text x="32" y="58" font-family="JetBrains Mono, monospace" font-size="6.5" fill="#fff" text-anchor="middle" letter-spacing="0.5" opacity="0.85">MID-TIER</text>
+                  <line x1="14" y1="72" x2="50" y2="72" stroke="#fff" stroke-width="0.6" opacity="0.5"/>
+                  <circle cx="20" cy="83" r="2" fill="#fff" opacity="0.5"/>
+                  <circle cx="32" cy="83" r="2" fill="#fff" opacity="0.5"/>
+                  <circle cx="44" cy="83" r="2" fill="#fff" opacity="0.5"/>
+                </g>
+              </g>
+
+              <!-- CENTER tall: $10 ticket (deep rose, biggest, "the dream ticket") -->
+              <g transform="translate(240, 195) rotate(0)">
+                <rect x="-2" y="0" width="4" height="160" fill="#7a9778" opacity="0.85"/>
+                <ellipse cx="-9" cy="100" rx="7" ry="3.5" fill="#7a9778" opacity="0.7" transform="rotate(-30 -9 100)"/>
+                <ellipse cx="9" cy="60" rx="7" ry="3.5" fill="#7a9778" opacity="0.7" transform="rotate(35 9 60)"/>
+                <g transform="translate(-36, -120)">
+                  <!-- glow behind -->
+                  <rect x="-2" y="-2" width="76" height="124" rx="3" fill="#b89752" opacity="0.25"/>
+                  <rect x="0" y="0" width="72" height="120" rx="2" fill="url(#darkRosePaper)" stroke="#6e1a28" stroke-width="0.9"/>
+                  <rect x="3" y="3" width="66" height="114" rx="1" fill="none" stroke="#fbe5b8" stroke-width="0.6" opacity="0.7"/>
+                  <text x="36" y="40" font-family="Fraunces, serif" font-style="italic" font-weight="800" font-size="28" fill="#fbe5b8" text-anchor="middle">$10</text>
+                  <text x="36" y="58" font-family="JetBrains Mono, monospace" font-size="6.5" fill="#fbe5b8" text-anchor="middle" letter-spacing="0.5" opacity="0.85">THE DREAM</text>
+                  <!-- little crown -->
+                  <g transform="translate(36, 76)" fill="#fbe5b8">
+                    <path d="M-8 0 L -8 -6 L -4 -2 L 0 -7 L 4 -2 L 8 -6 L 8 0 Z" opacity="0.85"/>
+                  </g>
+                  <line x1="14" y1="92" x2="58" y2="92" stroke="#fbe5b8" stroke-width="0.6" opacity="0.4"/>
+                  <line x1="14" y1="100" x2="58" y2="100" stroke="#fbe5b8" stroke-width="0.6" opacity="0.4"/>
+                  <line x1="14" y1="108" x2="58" y2="108" stroke="#fbe5b8" stroke-width="0.6" opacity="0.4"/>
+                </g>
+              </g>
+
+              <!-- RIGHT inner: $5 ticket (gold, medium) -->
+              <g transform="translate(290, 205) rotate(10)">
+                <rect x="-2" y="0" width="4" height="140" fill="#7a9778" opacity="0.85"/>
+                <ellipse cx="-8" cy="80" rx="7" ry="3.5" fill="#7a9778" opacity="0.7" transform="rotate(-30 -8 80)"/>
+                <g transform="translate(-32, -100)">
+                  <rect x="0" y="0" width="64" height="100" rx="2" fill="url(#goldPaper)" stroke="#8b6f31" stroke-width="0.8"/>
+                  <rect x="3" y="3" width="58" height="94" rx="1" fill="none" stroke="#fff" stroke-width="0.6" opacity="0.6"/>
+                  <text x="32" y="38" font-family="Fraunces, serif" font-style="italic" font-weight="700" font-size="26" fill="#fff" text-anchor="middle">$5</text>
+                  <text x="32" y="58" font-family="JetBrains Mono, monospace" font-size="6.5" fill="#fff" text-anchor="middle" letter-spacing="0.5" opacity="0.85">MID-TIER</text>
+                  <line x1="14" y1="72" x2="50" y2="72" stroke="#fff" stroke-width="0.6" opacity="0.5"/>
+                  <circle cx="20" cy="83" r="2" fill="#fff" opacity="0.5"/>
+                  <circle cx="32" cy="83" r="2" fill="#fff" opacity="0.5"/>
+                  <circle cx="44" cy="83" r="2" fill="#fff" opacity="0.5"/>
+                </g>
+              </g>
+
+              <!-- RIGHT outer: $2 pretty ticket (rose) -->
+              <g transform="translate(330, 220) rotate(20)">
+                <rect x="-2" y="0" width="4" height="120" fill="#7a9778" opacity="0.85"/>
+                <ellipse cx="9" cy="60" rx="6" ry="3" fill="#7a9778" opacity="0.7" transform="rotate(28 9 60)"/>
+                <g transform="translate(-30, -85)">
+                  <rect x="0" y="0" width="60" height="85" rx="2" fill="url(#rosePaper)" stroke="#a85363" stroke-width="0.8"/>
+                  <rect x="3" y="3" width="54" height="79" rx="1" fill="none" stroke="#fff" stroke-width="0.6" opacity="0.6"/>
+                  <text x="30" y="32" font-family="Fraunces, serif" font-style="italic" font-weight="700" font-size="22" fill="#fff" text-anchor="middle">$2</text>
+                  <text x="30" y="52" font-family="JetBrains Mono, monospace" font-size="6" fill="#fff" text-anchor="middle" letter-spacing="0.5" opacity="0.85">PRETTY</text>
+                  <!-- tiny flower -->
+                  <g transform="translate(30, 67)" fill="#fff" opacity="0.7">
+                    <ellipse cx="0" cy="-4" rx="2" ry="3"/>
+                    <ellipse cx="4" cy="0" rx="3" ry="2"/>
+                    <ellipse cx="0" cy="4" rx="2" ry="3"/>
+                    <ellipse cx="-4" cy="0" rx="3" ry="2"/>
+                    <circle cx="0" cy="0" r="1.5" fill="#b89752"/>
+                  </g>
+                </g>
+              </g>
+
+              <!-- BACKGROUND extra: another $1 ticket peeking from far back left -->
+              <g transform="translate(120, 230) rotate(-30)" opacity="0.95">
+                <rect x="-2" y="0" width="4" height="100" fill="#7a9778" opacity="0.7"/>
+                <g transform="translate(-26, -70)">
+                  <rect x="0" y="0" width="52" height="70" rx="2" fill="url(#goldPaper)" stroke="#8b6f31" stroke-width="0.8" opacity="0.9"/>
+                  <text x="26" y="30" font-family="Fraunces, serif" font-style="italic" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">$1</text>
+                  <text x="26" y="48" font-family="JetBrains Mono, monospace" font-size="5.5" fill="#fff" text-anchor="middle" letter-spacing="0.3" opacity="0.85">WARM-UP</text>
+                </g>
+              </g>
+
+              <!-- VASE -->
+              <g transform="translate(240, 320)">
+                <!-- Ribbon tied around vase -->
+                <path d="M -52 -2 Q 0 -8 52 -2 L 56 6 Q 0 0 -56 6 Z" fill="#a85363" opacity="0.85"/>
+                <path d="M -56 6 Q -64 18 -52 22 Q -56 14 -50 8 Z" fill="#a85363" opacity="0.85"/>
+                <path d="M 56 6 Q 64 18 52 22 Q 56 14 50 8 Z" fill="#a85363" opacity="0.85"/>
+                <ellipse cx="0" cy="2" rx="4" ry="6" fill="#8a3f4d"/>
+
+                <!-- Vase body -->
+                <path d="M -42 0 Q -44 30 -32 56 L 32 56 Q 44 30 42 0 Z" fill="url(#vaseFill)" stroke="#8b6f31" stroke-width="1"/>
+                <!-- Highlight -->
+                <path d="M -36 4 Q -38 28 -28 50" fill="none" stroke="#fff" stroke-width="2" opacity="0.4"/>
+                <!-- Vase lip -->
+                <ellipse cx="0" cy="0" rx="42" ry="4" fill="#8b6f31" opacity="0.5"/>
+                <ellipse cx="0" cy="-1" rx="42" ry="3" fill="#e8d093" opacity="0.6"/>
+              </g>
+
+              <!-- Tabletop shadow -->
+              <ellipse cx="240" cy="378" rx="100" ry="3" fill="#3a2a2c" opacity="0.12"/>
+
+              <!-- A few floating petals/stars -->
+              <g opacity="0.5">
+                <path d="M 80 100 L 82 96 L 84 100 L 88 102 L 84 104 L 82 108 L 80 104 L 76 102 Z" fill="#c97a8a"/>
+                <path d="M 400 130 L 402 126 L 404 130 L 408 132 L 404 134 L 402 138 L 400 134 L 396 132 Z" fill="#b89752"/>
+                <circle cx="100" cy="180" r="2" fill="#c97a8a"/>
+                <circle cx="380" cy="200" r="2" fill="#7a9778"/>
+                <circle cx="60" cy="260" r="1.5" fill="#b89752"/>
+                <circle cx="420" cy="280" r="1.5" fill="#c97a8a"/>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Legend -->
+          <div class="ticket-legend">
+            <div class="legend-row">
+              <div class="legend-dot dot-c">2×</div>
+              <div class="legend-text">
+                <h4>The little ones · $1</h4>
+                <p>Two cheap tickets so the first scratches feel like a quick win or a quick laugh. Sets the tone.</p>
+              </div>
+            </div>
+            <div class="legend-row">
+              <div class="legend-dot dot-a">1×</div>
+              <div class="legend-text">
+                <h4>A pretty one · $2</h4>
+                <p>Pick this one for theme. Flowers, hearts, butterflies — whatever makes her smile when she sees it.</p>
+              </div>
+            </div>
+            <div class="legend-row">
+              <div class="legend-dot dot-b">2×</div>
+              <div class="legend-text">
+                <h4>The middle of the bouquet · $5</h4>
+                <p>Pick games where mid-tier prizes ($50, $100, $500) still have plenty of life left. This is where the fun is.</p>
+              </div>
+            </div>
+            <div class="legend-row">
+              <div class="legend-dot dot-d">1×</div>
+              <div class="legend-text">
+                <h4>The hopeful one · $10</h4>
+                <p>Just one. Pick a game where the top prize hasn't been claimed yet. The "dream ticket" of the bouquet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p>That mix is suggestive, not prescriptive. The point is the <em class="lift">composition</em>: a couple of cheap warm-up tickets, a couple of mid-range tickets where there's actually meat left on the bone, and one little dream ticket on top.</p>
+
+        <h2 class="section-h">The simplest version of doing your homework</h2>
+
+        <p>You don't need a spreadsheet. You don't need to learn what expected value means. You don't need to be a numbers person at all. You just need to know two things before you walk up to the counter:</p>
+
+        <p>First — <em class="lift">which games in your state still have their top prizes available?</em> Some won't. Those are the ones to skip for a bouquet, because the ticket loses its emotional center if "$10,000 TOP PRIZE!" is technically a lie at this point.</p>
+
+        <p>Second — <em class="lift">which games are draining well at the mid-tier?</em> A game where most of the $50, $100, and $500 prizes have already been won is going to feel cold. A game where those mid-tiers are still mostly intact has the best chance of producing a small win or two during the kitchen-table scratching session.</p>
+
+        <!-- Pull quote -->
+        <div class="pull">
+          <svg class="q-deco" viewBox="0 0 80 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.7">
+              <path d="M 4 15 Q 20 15 30 15"/>
+              <path d="M 50 15 Q 60 15 76 15"/>
+            </g>
+            <g transform="translate(40, 15)">
+              <path d="M 0 -10 Q 5 -4 0 0 Q -5 -4 0 -10 Z" fill="currentColor" opacity="0.7"/>
+              <path d="M 10 0 Q 4 -5 0 0 Q 4 5 10 0 Z" fill="currentColor" opacity="0.7"/>
+              <path d="M 0 10 Q -5 4 0 0 Q 5 4 0 10 Z" fill="currentColor" opacity="0.7"/>
+              <path d="M -10 0 Q -4 5 0 0 Q -4 -5 -10 0 Z" fill="currentColor" opacity="0.7"/>
+              <circle cx="0" cy="0" r="2.2" fill="#b89752"/>
+            </g>
+          </svg>
+          <blockquote>
+            The point isn't to win.<br>
+            The point is to give her a ticket<br>that <em>could.</em>
+          </blockquote>
+          <span class="pull-attribution">— smartscratcher's mother's day rule</span>
+        </div>
+
+        <h2 class="section-h">A few things that aren't about the math</h2>
+
+        <p><strong style="font-style:italic; color:var(--rose-deep); font-weight:600;">One:</strong> write something on the card. The bouquet is a vehicle for time spent together — the actual gift is sitting next to her while she scratches. Don't treat the tickets like the whole present.</p>
+
+        <p><strong style="font-style:italic; color:var(--rose-deep); font-weight:600;">Two:</strong> if your mom doesn't like the lottery, don't do this. Some moms find it stressful. Some don't like the association. Know your mom.</p>
+
+        <p><strong style="font-style:italic; color:var(--rose-deep); font-weight:600;">Three:</strong> keep the budget honest. If $40 is a stretch this month, do a smaller bouquet and a longer card. Three good tickets and a thoughtful note is a better gift than twelve tickets where the good prizes are already gone.</p>
+
+        <div class="divider" aria-hidden="true">
+          <span class="line"></span>
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(12,12)" fill="currentColor">
+              <path d="M 0 -8 Q 4 -3 0 0 Q -4 -3 0 -8 Z" opacity="0.7"/>
+              <path d="M 8 0 Q 3 -4 0 0 Q 3 4 8 0 Z" opacity="0.7"/>
+              <path d="M 0 8 Q -4 3 0 0 Q 4 3 0 8 Z" opacity="0.7"/>
+              <path d="M -8 0 Q -3 4 0 0 Q -3 -4 -8 0 Z" opacity="0.7"/>
+              <circle cx="0" cy="0" r="2" fill="#b89752"/>
+            </g>
+          </svg>
+          <span class="line"></span>
+        </div>
+
+        <p>That's basically it. The whole point of putting any kind of thought into the bouquet — instead of just grabbing whatever — is that you're giving Mom a slightly better shot at the small joy of an unexpected $20 win. Not because she needs the money. Because that little hit of "oh!" at the kitchen table is the actual gift.</p>
+
+        <p>The math is just the vehicle.</p>
+
+      </section>
+
+      <!-- ============ CTA ============ -->
+      <section class="cta">
+        <span class="cta-script">a quick favor</span>
+        <h2>Build her bouquet with a little extra info on your side.</h2>
+        <p>SmartScratcher tells you which scratch-offs in Oklahoma, Texas, and California still have real prizes worth chasing — so the bouquet you put together for Mom isn't full of games whose top prizes ran out back in March. Free to start. 3-day free trial on premium.</p>
+        <a class="btn" href="https://apps.apple.com/us/app/smartscratcher/id6737247458">
+          Download on iOS
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 8 H13 M9 4 L13 8 L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </section>
+
+      <!-- Sign off -->
+      <div class="signoff">
+        <div class="from">From the team at</div>
+        <div class="name">SmartScratcher</div>
+        <div class="sub">— wishing your mom a happy Mother's Day —</div>
+      </div>
+
+      <!-- Fine print -->
+      <footer class="fineprint">
+        <p><strong>The fine print:</strong> SmartScratcher is an information tool and does not guarantee winnings. We help you make smarter, informed decisions about which active games still have real prizes available — we do not predict outcomes.</p>
+        <p>Must be 18+ (21+ in some states). Play responsibly. If the lottery stops being fun, the National Problem Gambling Helpline is <strong>1-800-GAMBLER</strong>.</p>
+        <p>Lottery prize data is sourced from the Oklahoma Lottery Commission, the Texas Lottery Commission, and the California State Lottery.</p>
+      </footer>
+
+    </div>
+  </article>
+
+  <div class="afterword">— happy mother's day —</div>
+
+  <div class="mom-share">
+    <span class="label">pass it along —</span>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fmothers-day.html" target="_blank" rel="noopener">share on facebook</a>
+    <a href="sms:?body=The%20scratcher%20bouquet%2C%20but%20better%20%E2%80%94%20https%3A%2F%2Fsmartscratcherapp.com%2Farticles%2Fmothers-day.html">text a friend</a>
+    <a href="#" onclick="navigator.clipboard.writeText('https://smartscratcherapp.com/articles/mothers-day.html');return false;">copy the link</a>
+  </div>
+
+</div>
+
+<footer class="mom-footer">
+  <div class="mom-footer-grid">
+    <div class="mf-brand">
+      <a href="../index.html" class="mf-logo">SmartScratcher</a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, and CA. More states coming soon.</p>
+    </div>
+    <div class="mf-col">
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="mf-col">
+      <h4>Fine print</h4>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="mf-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="mom-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+</body>
+</html>
