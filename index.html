@@ -1203,9 +1203,61 @@
     .states-grid { grid-template-columns: 1fr; }
     .footer-inner { grid-template-columns: 1fr; }
   }
+
+  /* ========== LAUNCH BANNER ========== */
+  .launch-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 11px 24px;
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid var(--ink);
+    text-align: center;
+  }
+  .launch-banner:hover { background: #ffe44d; }
+  .launch-banner .lb-pill {
+    background: var(--red);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+  .launch-banner .lb-msg strong { font-weight: 800; }
+  .launch-banner .lb-arrow {
+    font-weight: 700;
+    transition: transform 0.15s ease;
+  }
+  .launch-banner:hover .lb-arrow { transform: translateX(3px); }
+  @media (max-width: 640px) {
+    .launch-banner {
+      font-size: 12px;
+      padding: 9px 14px;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .launch-banner .lb-msg { flex: 1 1 auto; min-width: 0; }
+  }
 </style>
 </head>
 <body>
+
+<!-- LAUNCH BANNER -->
+<a href="articles/three-new-states.html" class="launch-banner">
+  <span class="lb-pill">New</span>
+  <span class="lb-msg">Now live in <strong>Florida, New York &amp; North Carolina</strong></span>
+  <span class="lb-arrow">Read more →</span>
+</a>
 
 <!-- NAV -->
 <nav class="top">
