@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Powerball, Mega Millions, and the Scratcher in Your Pocket | SmartScratcher</title>
+<meta name="description" content="A side-by-side comparison of the math behind Powerball, Mega Millions, and scratch-off lottery games. Real odds, real expected values, and what they actually mean for the regular player.">
+<meta name="author" content="SmartScratcher">
+<meta name="keywords" content="Powerball vs scratch off, Mega Millions vs scratchers, lottery odds comparison, expected value lottery, best lottery odds, scratch off odds, lottery jackpot odds, SmartScratcher">
+
+<link rel="canonical" href="https://www.smartscratcherapp.com/articles/powerball-vs-scratchers.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/powerball-vs-scratchers.html">
+<meta property="og:title" content="Powerball, Mega Millions, and the Scratcher in Your Pocket">
+<meta property="og:description" content="A side-by-side comparison of the math behind Powerball, Mega Millions, and scratch-off lottery games.">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/powerball-vs-scratchers.png">
+<meta property="og:site_name" content="SmartScratcher">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Powerball, Mega Millions, and the Scratcher in Your Pocket">
+<meta name="twitter:description" content="A side-by-side comparison of the math behind Powerball, Mega Millions, and scratch-off games.">
+<meta name="twitter:image" content="https://www.smartscratcherapp.com/share/powerball-vs-scratchers.png">
+
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f4efe6">
+
+<!-- Structured data: Article + SoftwareApplication + FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.smartscratcherapp.com/articles/powerball-vs-scratchers.html#article",
+      "headline": "Powerball, Mega Millions, and the Scratcher in Your Pocket",
+      "alternativeHeadline": "How the odds of America's two biggest jackpot games compare to scratch-off lottery games",
+      "description": "A side-by-side comparison of the mathematics of Powerball, Mega Millions, and scratch-off games. Powerball jackpot odds are approximately 1 in 292.2 million. Mega Millions jackpot odds are approximately 1 in 290.5 million. A typical $10 scratch-off has overall winning odds of about 1 in 3.5 to 1 in 4. Expected value per dollar spent ranges from roughly 50 cents for the big jackpot games to 60-73 cents at launch for most scratch-offs.",
+      "author": {
+        "@type": "Organization",
+        "name": "SmartScratcher",
+        "url": "https://www.smartscratcherapp.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SmartScratcher",
+        "url": "https://www.smartscratcherapp.com"
+      },
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "mainEntityOfPage": "https://www.smartscratcherapp.com/articles/powerball-vs-scratchers.html",
+      "image": "https://www.smartscratcherapp.com/share/powerball-vs-scratchers.png",
+      "articleSection": "Field Guide",
+      "keywords": "Powerball odds, Mega Millions odds, scratch off odds, lottery comparison, expected value",
+      "about": [
+        { "@type": "Thing", "name": "Powerball lottery odds" },
+        { "@type": "Thing", "name": "Mega Millions lottery odds" },
+        { "@type": "Thing", "name": "Scratch-off lottery odds" },
+        { "@type": "Thing", "name": "Expected value of lottery games" }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.smartscratcherapp.com/#app",
+      "name": "SmartScratcher",
+      "alternateName": "Scratch Odds: SmartScratcher",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "iOS",
+      "description": "SmartScratcher is an iOS app that helps scratch-off lottery players make better-informed choices by tracking which games still have unclaimed prizes at every tier. It estimates remaining tickets from publicly available state lottery data and ranks games using the proprietary SmartScratcher Score. Available in California, Florida, New York, North Carolina, Oklahoma, and Texas.",
+      "url": "https://www.smartscratcherapp.com",
+      "downloadUrl": "https://apps.apple.com/us/app/smartscratcher/id6737247458",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "View all active scratch-off games and remaining prizes in covered states."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium",
+          "price": "2.99",
+          "priceCurrency": "USD",
+          "description": "Monthly subscription with 3-day free trial. Unlocks the SmartScratcher Score, Smart Sorting, Daily Summaries, estimated tickets remaining, and game temperature indicators."
+        }
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "Gaming Data Solutions LLC"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.smartscratcherapp.com/articles/powerball-vs-scratchers.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the odds of winning the Powerball jackpot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The odds of winning the Powerball jackpot are approximately 1 in 292.2 million. The odds of winning any Powerball prize, including the smallest $4 prize, are approximately 1 in 24.87. A Powerball ticket costs $2."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the odds of winning Mega Millions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The odds of winning the Mega Millions jackpot are approximately 1 in 290.5 million under the current game format. The odds of winning any prize are approximately 1 in 23. A Mega Millions ticket costs $5 and includes the multiplier feature."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are scratch-off odds better than Powerball or Mega Millions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends what you mean by better. The odds of winning any prize at all are dramatically better for scratch-offs: a typical $5 to $10 scratch-off has overall winning odds of about 1 in 3.5 to 1 in 4, compared to roughly 1 in 24 for Powerball and 1 in 23 for Mega Millions. The expected value per dollar spent is also generally higher for scratch-offs, often 60 to 73 cents at launch versus around 50 cents for Powerball and Mega Millions. However, the top prizes on scratch-offs are much smaller — typically tens of thousands to a few million dollars rather than hundreds of millions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the expected value of a lottery ticket?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expected value is the average amount a player can expect to win per dollar spent. For Powerball and Mega Millions, expected value typically sits around 50 cents on the dollar across the long run. For scratch-off games, launch-day expected value is usually 60 to 73 cents on the dollar, and can briefly rise higher during a game's mid-life as small prizes drain faster than large ones. No lottery game has a positive expected value, meaning all are negative-sum bets over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are scratch-off odds harder to find than Powerball odds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Powerball and Mega Millions have fixed combinatorial odds that never change, calculated from the number-pool format and easily publicized. Scratch-off odds are based on a finite print run that drains over time as tickets are sold and prizes claimed. State lotteries publish remaining-prize tables for each scratch-off game, but interpreting them requires combining that data with an estimate of remaining tickets. Tools like SmartScratcher do this work automatically for six states: California, Florida, New York, North Carolina, Oklahoma, and Texas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does SmartScratcher work with Powerball or Mega Millions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. SmartScratcher only tracks scratch-off games, not drawing-based games like Powerball or Mega Millions. The math for drawing games is fixed and does not change over time, so a tracking app would not add value. Scratch-off games change daily as prizes are claimed, which is the problem SmartScratcher exists to solve."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    color-scheme: light !important;
+    --paper: #f4efe6;
+    --paper-edge: #ebe4d3;
+    --ink: #1f1d1a;
+    --ink-soft: #4a443d;
+    --ink-faded: #807968;
+    --rule: #c7bda7;
+    --amber: #b8741a;
+    --amber-light: #e2b87a;
+    --terracotta: #a23e2c;
+    --moss: #5a6b3c;
+    --teal: #356978;
+    --plum: #6b3c5a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--paper) !important; color: var(--ink) !important; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  body { font-family: 'IBM Plex Serif', Georgia, serif; font-size: 18px; line-height: 1.7; background: var(--paper) !important; min-height: 100vh; overflow-x: hidden; }
+  ::selection { background: var(--ink); color: var(--paper); }
+
+  /* ─── MASTHEAD ─── */
+  .masthead { max-width: 1280px; margin: 0 auto; padding: 24px 56px; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--ink); }
+  .masthead-brand { font-family: 'Fraunces', serif; font-weight: 600; font-style: italic; font-size: 22px; color: var(--ink); text-decoration: none; letter-spacing: -0.015em; }
+  .masthead-nav { display: flex; gap: 32px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.22em; }
+  .masthead-nav a { color: var(--ink); text-decoration: none; transition: color 0.2s; }
+  .masthead-nav a:hover { color: var(--amber); }
+  .issue-line { max-width: 1280px; margin: 0 auto; padding: 12px 56px; display: flex; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--ink-faded); border-bottom: 1px solid var(--rule); }
+
+  /* ─── HERO ─── */
+  .hero { max-width: 1280px; margin: 0 auto; padding: 72px 56px 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; position: relative; }
+  .hero::after { content: ""; position: absolute; bottom: 0; left: 56px; right: 56px; height: 1px; background: var(--ink); }
+  .hero-left { padding-bottom: 48px; }
+  .hero-category { font-family: 'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.28em; color: var(--amber); margin-bottom: 28px; display: inline-block; padding: 4px 12px; border: 1px solid var(--amber); }
+  .hero h1 { font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.98; letter-spacing: -0.035em; color: var(--ink); margin-bottom: 28px; font-variation-settings: "opsz" 144; }
+  .hero h1 em { font-style: italic; font-weight: 400; color: var(--amber); }
+  .hero-deck { font-family: 'IBM Plex Serif', serif; font-weight: 300; font-size: 22px; line-height: 1.45; color: var(--ink-soft); max-width: 540px; font-style: italic; }
+  .hero-meta { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--rule); display: flex; gap: 32px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--ink-faded); flex-wrap: wrap; }
+  .hero-meta strong { color: var(--ink); font-weight: 500; }
+  .hero-right { padding-bottom: 48px; }
+
+  /* ─── FIGURES ─── */
+  .figure { margin: 64px auto; max-width: 900px; padding: 0 56px; }
+  .figure-frame { background: var(--paper); border: 1px solid var(--ink); padding: 36px 40px 32px; position: relative; }
+  .figure-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.28em; color: var(--amber); margin-bottom: 8px; }
+  .figure-title { font-family: 'Fraunces', serif; font-weight: 500; font-style: italic; font-size: 24px; line-height: 1.2; color: var(--ink); margin-bottom: 6px; letter-spacing: -0.015em; }
+  .figure-subtitle { font-family: 'IBM Plex Serif', serif; font-size: 14px; line-height: 1.5; color: var(--ink-faded); font-style: italic; margin-bottom: 28px; max-width: 640px; }
+  .figure-caption { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--rule); font-family: 'IBM Plex Serif', serif; font-size: 14px; line-height: 1.55; color: var(--ink-soft); font-style: italic; }
+  .figure-caption strong { font-style: normal; font-weight: 600; color: var(--ink); }
+
+  /* ─── BODY ─── */
+  .body-wrap { max-width: 680px; margin: 0 auto; padding: 0 56px; }
+  .lede { font-family: 'Fraunces', serif; font-weight: 300; font-size: 26px; line-height: 1.4; color: var(--ink); margin: 64px 0 40px; letter-spacing: -0.01em; font-variation-settings: "opsz" 36; }
+  .lede::first-letter { font-family: 'Fraunces', serif; font-weight: 500; font-style: italic; float: left; font-size: 88px; line-height: 0.85; padding: 10px 14px 0 0; color: var(--amber); font-variation-settings: "opsz" 144; }
+  .body-wrap p { font-family: 'IBM Plex Serif', serif; font-size: 18px; line-height: 1.75; margin-bottom: 22px; color: var(--ink); }
+  .body-wrap p em { font-style: italic; color: var(--ink-soft); }
+  .body-wrap p strong { font-weight: 600; }
+  .body-wrap p a { color: var(--amber); text-decoration: none; border-bottom: 1px solid var(--amber-light); }
+  .body-wrap p a:hover { border-bottom-color: var(--amber); }
+
+  /* ─── SECTIONS ─── */
+  .section { margin: 72px 0 32px; display: grid; grid-template-columns: 60px 1fr; gap: 24px; align-items: baseline; }
+  .section-num { font-family: 'Fraunces', serif; font-style: italic; font-weight: 400; font-size: 48px; color: var(--amber); line-height: 0.9; letter-spacing: -0.03em; }
+  .section h2 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 32px; line-height: 1.1; color: var(--ink); letter-spacing: -0.02em; }
+  .section h2 em { font-style: italic; font-weight: 400; }
+
+  /* ─── STAT ROW ─── */
+  .stat-row { margin: 40px 0; padding: 28px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; }
+  .stat { text-align: left; }
+  .stat-number { font-family: 'Fraunces', serif; font-weight: 400; font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -0.03em; margin-bottom: 8px; }
+  .stat-number .unit { font-size: 20px; color: var(--amber); font-style: italic; margin-left: 4px; }
+  .stat-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--ink-faded); line-height: 1.4; }
+
+  /* ─── PULL QUOTE ─── */
+  .pullquote { margin: 56px -32px; padding: 0 32px; text-align: center; }
+  .pullquote p { font-family: 'Fraunces', serif; font-style: italic; font-weight: 400; font-size: 30px; line-height: 1.25; color: var(--ink); letter-spacing: -0.018em; margin: 0; font-variation-settings: "opsz" 48; }
+  .pullquote::before { content: "—"; display: block; color: var(--amber); font-size: 24px; margin-bottom: 16px; }
+
+  /* ─── COLOPHON ─── */
+  .colophon { margin: 72px auto; max-width: 600px; padding: 32px 40px; border: 1px solid var(--ink); background: rgba(184, 116, 26, 0.06); text-align: center; }
+  .colophon-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.28em; color: var(--amber); margin-bottom: 14px; }
+  .colophon p { font-family: 'Fraunces', serif; font-style: italic; font-weight: 400; font-size: 19px; line-height: 1.55; color: var(--ink); margin-bottom: 14px; }
+  .colophon p:last-child { margin-bottom: 0; font-style: normal; font-family: 'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--ink-faded); }
+  .colophon-name { font-style: normal; font-weight: 600; color: var(--amber); }
+
+  /* ─── CTA ─── */
+  .cta { margin: 72px auto; padding: 56px 0; text-align: center; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+  .cta-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.28em; color: var(--amber); margin-bottom: 18px; }
+  .cta h3 { font-family: 'Fraunces', serif; font-weight: 400; font-style: italic; font-size: 36px; line-height: 1.15; color: var(--ink); max-width: 520px; margin: 0 auto 32px; letter-spacing: -0.015em; }
+  .cta-link { font-family: 'IBM Plex Mono', monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 4px; transition: color 0.2s, border-color 0.2s; }
+  .cta-link:hover { color: var(--amber); border-bottom-color: var(--amber); }
+
+  /* ─── FAQ ─── */
+  .faq { max-width: 680px; margin: 80px auto 0; padding: 56px 56px 0; border-top: 1px solid var(--ink); }
+  .faq-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.28em; color: var(--amber); text-align: center; margin-bottom: 12px; }
+  .faq h2 { font-family: 'Fraunces', serif; font-weight: 400; font-style: italic; font-size: 36px; text-align: center; color: var(--ink); margin-bottom: 48px; letter-spacing: -0.02em; }
+  .faq-item { margin-bottom: 32px; padding-bottom: 32px; border-bottom: 1px solid var(--rule); }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item h3 { font-family: 'Fraunces', serif; font-weight: 500; font-style: italic; font-size: 22px; line-height: 1.3; color: var(--ink); margin-bottom: 12px; letter-spacing: -0.012em; }
+  .faq-item p { font-family: 'IBM Plex Serif', serif; font-size: 17px; line-height: 1.65; color: var(--ink-soft); margin: 0; }
+
+  /* ─── SOURCES ─── */
+  .sources { max-width: 680px; margin: 56px auto 0; padding: 32px 56px 0; }
+  .sources h4 { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.28em; color: var(--ink-faded); margin-bottom: 18px; text-align: center; }
+  .sources ol { list-style: none; counter-reset: source; }
+  .sources li { font-family: 'IBM Plex Serif', serif; font-size: 13px; line-height: 1.55; color: var(--ink-soft); margin-bottom: 10px; padding-left: 28px; position: relative; counter-increment: source; }
+  .sources li::before { content: counter(source); position: absolute; left: 0; top: 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--amber); font-weight: 500; }
+  .sources li a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  .sources li a:hover { color: var(--ink); border-bottom-color: var(--ink); }
+
+  /* ─── FOOTER ─── */
+  footer { max-width: 1280px; margin: 96px auto 0; padding: 48px 56px 64px; border-top: 2px solid var(--ink); font-family: 'IBM Plex Mono', monospace; font-size: 11px; line-height: 1.9; color: var(--ink-faded); text-align: center; }
+  footer p { margin-bottom: 8px; font-size: 11px; }
+  .footer-brand { font-family: 'Fraunces', serif; font-style: italic; font-size: 20px; color: var(--ink); margin-bottom: 24px; text-transform: none; letter-spacing: 0; }
+  .footer-helpline { color: var(--ink); font-weight: 500; }
+  .footer-nav { text-transform: uppercase; letter-spacing: 0.14em; line-height: 2.2; margin-bottom: 4px; }
+  .footer-nav:last-of-type { margin-bottom: 16px; }
+  footer a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
+
+  /* ─── SVG ─── */
+  .chart-svg { width: 100%; height: auto; display: block; }
+  .chart-svg text { font-family: 'IBM Plex Mono', monospace; fill: var(--ink-soft); }
+  .chart-svg .axis-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; fill: var(--ink-faded); }
+  .chart-svg .tier-label { font-size: 11px; fill: var(--ink); font-family: 'IBM Plex Serif', serif; }
+  .chart-svg .tier-value { font-size: 11px; font-weight: 500; fill: var(--ink); }
+  .chart-svg .annotation { font-family: 'Fraunces', serif; font-style: italic; font-size: 13px; fill: var(--amber); }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 960px) {
+    .hero { grid-template-columns: 1fr; gap: 48px; padding: 56px 32px 32px; }
+    .hero::after { left: 32px; right: 32px; }
+    .hero-left, .hero-right { padding-bottom: 24px; }
+    .hero h1 { font-size: 48px; }
+    .hero-deck { font-size: 19px; }
+    .figure { padding: 0 32px; margin: 48px auto; }
+    .figure-frame { padding: 24px 24px 22px; }
+    .body-wrap { padding: 0 32px; }
+    .lede { font-size: 22px; }
+    .lede::first-letter { font-size: 68px; }
+    .section { grid-template-columns: 40px 1fr; gap: 16px; margin: 56px 0 24px; }
+    .section-num { font-size: 36px; }
+    .section h2 { font-size: 26px; }
+    .stat-row { grid-template-columns: 1fr; gap: 20px; padding: 20px 0; }
+    .stat-number { font-size: 38px; }
+    .pullquote { margin: 40px -10px; padding: 0 10px; }
+    .pullquote p { font-size: 22px; }
+    .colophon { padding: 24px 24px; margin: 56px auto; }
+    .cta h3 { font-size: 26px; }
+    .faq { padding: 40px 32px 0; }
+    .faq h2 { font-size: 28px; }
+    .sources { padding: 32px 32px 0; }
+    .masthead, .issue-line { padding-left: 24px; padding-right: 24px; }
+    .masthead-nav { gap: 18px; font-size: 9px; }
+    footer { padding: 32px 24px 48px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <a href="../index.html" class="masthead-brand">SmartScratcher</a>
+  <nav class="masthead-nav">
+    <a href="../index.html">Home</a>
+    <a href="../blog-index.html">The Pages</a>
+    <a href="../index.html#pricing">Pricing</a>
+    <a href="../index.html#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458">Get the App</a>
+  </nav>
+</header>
+
+<div class="issue-line">
+  <span>Field Guide &nbsp;·&nbsp; No. 01</span>
+  <span>Comparative Odds</span>
+  <span>May 22, 2026</span>
+</div>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-category">Field Guide</div>
+    <h1>Powerball, Mega Millions, and the <em>Scratcher</em> in Your Pocket.</h1>
+    <p class="hero-deck">Three different products, three very different mathematical propositions, sold under the same word — <em>lottery</em>. Here is what the numbers actually look like, side by side.</p>
+    <div class="hero-meta">
+      <div><strong>12 min read</strong></div>
+      <div><strong>Topic</strong> &nbsp;Odds, side by side</div>
+      <div><strong>Sources</strong> &nbsp;State lotteries · cited below</div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <!-- Hero: three stylized tickets, side by side -->
+    <svg class="chart-svg" viewBox="0 0 520 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-svg-title">
+      <title id="hero-svg-title">Three lottery products: a Powerball ticket, a Mega Millions ticket, and a scratch-off ticket, drawn side by side as a comparative diagram.</title>
+
+      <!-- Powerball ticket -->
+      <g transform="translate(40 50) rotate(-3)">
+        <rect width="140" height="200" fill="#fffdf8" stroke="#1f1d1a" stroke-width="2" rx="3"/>
+        <rect x="10" y="14" width="120" height="36" fill="#a23e2c"/>
+        <text x="70" y="38" text-anchor="middle" font-family="Fraunces, serif" font-size="14" fill="#fffdf8" font-weight="600" letter-spacing="2">POWERBALL</text>
+        <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#1f1d1a" letter-spacing="1">
+          <text x="20" y="72">07 19 23 41 58</text>
+          <text x="20" y="90" fill="#a23e2c" font-weight="600">PB · 12</text>
+        </g>
+        <line x1="14" y1="105" x2="126" y2="105" stroke="#c7bda7" stroke-width="0.5"/>
+        <text x="20" y="125" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#807968">JACKPOT ODDS</text>
+        <text x="20" y="140" font-family="Fraunces, serif" font-size="11" fill="#1f1d1a" font-style="italic">1 in 292,200,000</text>
+        <text x="20" y="160" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#807968">ANY PRIZE</text>
+        <text x="20" y="175" font-family="Fraunces, serif" font-size="11" fill="#1f1d1a" font-style="italic">1 in 24.87</text>
+        <text x="20" y="190" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#a23e2c">$2.00</text>
+      </g>
+
+      <!-- Mega Millions -->
+      <g transform="translate(190 30) rotate(2)">
+        <rect width="140" height="200" fill="#fffdf8" stroke="#1f1d1a" stroke-width="2" rx="3"/>
+        <rect x="10" y="14" width="120" height="36" fill="#b8741a"/>
+        <text x="70" y="38" text-anchor="middle" font-family="Fraunces, serif" font-size="13" fill="#fffdf8" font-weight="600" letter-spacing="1">MEGA MILLIONS</text>
+        <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#1f1d1a" letter-spacing="1">
+          <text x="20" y="72">10 26 34 56 64</text>
+          <text x="20" y="90" fill="#b8741a" font-weight="600">MB · 06</text>
+        </g>
+        <line x1="14" y1="105" x2="126" y2="105" stroke="#c7bda7" stroke-width="0.5"/>
+        <text x="20" y="125" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#807968">JACKPOT ODDS</text>
+        <text x="20" y="140" font-family="Fraunces, serif" font-size="11" fill="#1f1d1a" font-style="italic">1 in 290,500,000</text>
+        <text x="20" y="160" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#807968">ANY PRIZE</text>
+        <text x="20" y="175" font-family="Fraunces, serif" font-size="11" fill="#1f1d1a" font-style="italic">1 in 23</text>
+        <text x="20" y="190" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#b8741a">$5.00</text>
+      </g>
+
+      <!-- Scratcher -->
+      <g transform="translate(340 60) rotate(-1)">
+        <rect width="140" height="200" fill="#fffdf8" stroke="#1f1d1a" stroke-width="2" rx="3"/>
+        <rect x="10" y="14" width="120" height="36" fill="#5a6b3c"/>
+        <text x="70" y="38" text-anchor="middle" font-family="Fraunces, serif" font-size="13" fill="#fffdf8" font-weight="600" letter-spacing="1" font-style="italic">$10 SCRATCHER</text>
+        <g>
+          <rect x="20" y="62" width="22" height="22" fill="#c7bda7" stroke="#1f1d1a" stroke-width="0.5"/>
+          <rect x="46" y="62" width="22" height="22" fill="#c7bda7" stroke="#1f1d1a" stroke-width="0.5"/>
+          <rect x="72" y="62" width="22" height="22" fill="#c7bda7" stroke="#1f1d1a" stroke-width="0.5"/>
+          <rect x="98" y="62" width="22" height="22" fill="#c7bda7" stroke="#1f1d1a" stroke-width="0.5"/>
+        </g>
+        <line x1="14" y1="105" x2="126" y2="105" stroke="#c7bda7" stroke-width="0.5"/>
+        <text x="20" y="125" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#807968">TOP PRIZE ODDS</text>
+        <text x="20" y="140" font-family="Fraunces, serif" font-size="11" fill="#1f1d1a" font-style="italic">~1 in 1,500,000</text>
+        <text x="20" y="160" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#807968">ANY PRIZE</text>
+        <text x="20" y="175" font-family="Fraunces, serif" font-size="11" fill="#1f1d1a" font-style="italic">~1 in 3.5</text>
+        <text x="20" y="190" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1.5" fill="#5a6b3c">$10.00</text>
+      </g>
+
+      <!-- Bottom annotation -->
+      <text x="260" y="290" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="14" fill="#b8741a">three games, three very different bets</text>
+
+      <!-- Measurement -->
+      <g stroke="#807968" stroke-width="0.5" opacity="0.4">
+        <line x1="30" y1="40" x2="40" y2="40"/>
+        <line x1="30" y1="270" x2="40" y2="270"/>
+        <line x1="30" y1="40" x2="30" y2="270"/>
+      </g>
+      <text x="22" y="158" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="8" letter-spacing="1" fill="#807968" transform="rotate(-90 22 158)">FIG. 1</text>
+    </svg>
+  </div>
+</section>
+
+<div class="body-wrap">
+  <p class="lede">Most people who buy a Powerball ticket on a Tuesday night also buy a scratch-off ticket once or twice a week. They are, under the hood, completely different products. They are sold in the same store, by the same clerk, often within thirty seconds of each other, but the math that governs them barely overlaps.</p>
+
+  <p>This is a side-by-side look at what the numbers actually say.</p>
+
+  <!-- ─── SECTION 1 ─── -->
+  <div class="section">
+    <div class="section-num">i.</div>
+    <h2>The <em>headline odds</em></h2>
+  </div>
+
+  <p>Start with the number everybody knows: the chance of hitting the jackpot.</p>
+
+  <p><strong>Powerball</strong> is approximately <em>1 in 292,201,338</em>. Mega Millions, under its current format that took effect with the April 2025 redesign, is approximately <em>1 in 290,472,336</em>. These figures come directly from the games' operators and don't change unless the game's rules do.</p>
+
+  <p>To put the scale in plain terms: you are more likely to be struck by lightning twice in your life than to win either jackpot on a single ticket. Both numbers belong, mathematically, to the same neighborhood as <em>never.</em></p>
+
+  <p>A typical $10 scratch-off has a top-prize ratio in the neighborhood of <em>1 in 1.5 to 1 in 3 million</em>, depending on the game and the state. That sounds tiny, and it is tiny. But compared to the headline drawing games it is roughly <strong>one hundred to two hundred times more reachable.</strong> Not better. Reachable.</p>
+</div>
+
+<!-- ─── FIGURE: JACKPOT ODDS ─── -->
+<div class="figure">
+  <div class="figure-frame">
+    <div class="figure-label">Figure 02 &nbsp;·&nbsp; Top-prize odds</div>
+    <div class="figure-title">Approximate odds of winning the top prize, per ticket.</div>
+    <div class="figure-subtitle">Both jackpot games and the scratch-off are drawn on a logarithmic scale. A linear chart would render the scratch-off bar as a barely visible line — the gap is that large.</div>
+
+    <svg class="chart-svg" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="topodds-title topodds-desc">
+      <title id="topodds-title">Comparison of top prize odds across Powerball, Mega Millions, and a representative $10 scratch-off</title>
+      <desc id="topodds-desc">Bar chart showing top prize odds. Powerball top prize: 1 in 292.2 million. Mega Millions top prize: 1 in 290.5 million. Representative $10 scratcher top prize: approximately 1 in 1.5 million. The scratch-off odds are roughly 200 times more reachable than either jackpot game.</desc>
+
+      <!-- Grid lines (log scale) -->
+      <g stroke="#c7bda7" stroke-width="0.5" stroke-dasharray="2 3">
+        <line x1="280" y1="40" x2="280" y2="260"/>
+        <line x1="430" y1="40" x2="430" y2="260"/>
+        <line x1="580" y1="40" x2="580" y2="260"/>
+        <line x1="730" y1="40" x2="730" y2="260"/>
+      </g>
+      <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">
+        <text x="280" y="278" text-anchor="middle">1M</text>
+        <text x="430" y="278" text-anchor="middle">10M</text>
+        <text x="580" y="278" text-anchor="middle">100M</text>
+        <text x="730" y="278" text-anchor="middle">1B</text>
+      </g>
+
+      <!-- Bars: log scale, x = 130 + 150*log10(odds/100K) -->
+      <!-- Scratcher: 1.5M => log10(15) * 150 + 130 = 306 -->
+      <g>
+        <text x="120" y="74" text-anchor="end" class="tier-label" font-weight="500">$10 Scratcher</text>
+        <text x="120" y="86" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">TOP PRIZE</text>
+        <rect x="130" y="60" width="176" height="36" fill="#5a6b3c"/>
+        <text x="316" y="84" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">1 in 1.5M</text>
+      </g>
+
+      <!-- Mega Millions: 290.5M => log10(2905) * 150 + 130 = 648 -->
+      <g>
+        <text x="120" y="144" text-anchor="end" class="tier-label" font-weight="500">Mega Millions</text>
+        <text x="120" y="156" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">JACKPOT</text>
+        <rect x="130" y="130" width="518" height="36" fill="#b8741a"/>
+        <text x="658" y="154" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">1 in 290.5M</text>
+      </g>
+
+      <!-- Powerball: 292.2M => essentially same width -->
+      <g>
+        <text x="120" y="214" text-anchor="end" class="tier-label" font-weight="500">Powerball</text>
+        <text x="120" y="226" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">JACKPOT</text>
+        <rect x="130" y="200" width="520" height="36" fill="#a23e2c"/>
+        <text x="660" y="224" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">1 in 292.2M</text>
+      </g>
+
+      <!-- Annotation -->
+      <g>
+        <line x1="316" y1="100" x2="316" y2="118" stroke="#b8741a" stroke-width="1"/>
+        <line x1="316" y1="118" x2="500" y2="118" stroke="#b8741a" stroke-width="1"/>
+        <text x="505" y="122" class="annotation">~200× more reachable</text>
+      </g>
+
+      <text x="400" y="305" text-anchor="middle" class="axis-label">ODDS (LOGARITHMIC SCALE — 1 IN N)</text>
+    </svg>
+
+    <div class="figure-caption"><strong>Sources.</strong> Powerball jackpot odds per Powerball.com<sup>[1]</sup>. Mega Millions jackpot odds per multiple state lottery sites following the April 2025 game redesign<sup>[2, 3]</sup>. $10 scratch-off top-prize odds are representative; exact figures vary by state and by individual game.</div>
+  </div>
+</div>
+
+<div class="body-wrap">
+
+  <!-- ─── SECTION 2 ─── -->
+  <div class="section">
+    <div class="section-num">ii.</div>
+    <h2>The number nobody talks about</h2>
+  </div>
+
+  <p>The jackpot is the headline. What people actually win is something else.</p>
+
+  <p>Powerball's odds of winning <em>any prize</em> — including the lowest tier, a $4 return on a $2 ticket — are approximately <strong>1 in 24.87.</strong> Mega Millions sits at roughly <strong>1 in 23.</strong> These numbers are also published by the operators and are calculated against the full prize structure of the game, not just the jackpot.</p>
+
+  <p>A typical $5 to $10 scratch-off game, by contrast, has overall winning odds in the range of <strong>1 in 3.5 to 1 in 4.</strong> On a $20 or $30 scratcher, the number tightens further — sometimes as good as <strong>1 in 2.75.</strong> This is not a small difference. It is the difference between expecting to win something on roughly every third ticket and expecting to win something on roughly every twenty-fourth.</p>
+
+  <p>What this gap means in practice: a person who buys a Powerball ticket twice a week for a year is, in the long run, expected to win <em>something</em> about four times. A person who buys a $10 scratcher twice a week for a year is expected to win something around thirty times. The amounts are mostly small in both cases. But the cadence of the experience is wildly different.</p>
+
+  <div class="pullquote">
+    <p>One game is engineered to deliver a near-zero chance of a life-changing prize. The other is engineered to deliver a near-constant trickle of small ones.</p>
+  </div>
+</div>
+
+<!-- ─── FIGURE: ANY-PRIZE ODDS ─── -->
+<div class="figure">
+  <div class="figure-frame">
+    <div class="figure-label">Figure 03 &nbsp;·&nbsp; Any-prize odds</div>
+    <div class="figure-title">Approximate odds of winning any prize at all, per ticket.</div>
+    <div class="figure-subtitle">This chart uses a linear scale, because the values fit on one. The gap is still substantial — about six to seven times — but the order of magnitude is comparable.</div>
+
+    <svg class="chart-svg" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="anyodds-title anyodds-desc">
+      <title id="anyodds-title">Comparison of any-prize odds across Powerball, Mega Millions, and typical scratch-off games</title>
+      <desc id="anyodds-desc">Bar chart showing any-prize odds. Powerball: approximately 1 in 24.87. Mega Millions: approximately 1 in 23. Typical $5 to $10 scratcher: approximately 1 in 3.5 to 4. Typical $20 to $30 scratcher: approximately 1 in 2.75 to 3.5. Linear scale, showing the dramatic gap between jackpot games and scratch-offs.</desc>
+
+      <!-- Grid (linear, 0-30) -->
+      <g stroke="#c7bda7" stroke-width="0.5" stroke-dasharray="2 3">
+        <line x1="266" y1="40" x2="266" y2="260"/>
+        <line x1="402" y1="40" x2="402" y2="260"/>
+        <line x1="538" y1="40" x2="538" y2="260"/>
+        <line x1="674" y1="40" x2="674" y2="260"/>
+      </g>
+      <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">
+        <text x="130" y="278" text-anchor="middle">0</text>
+        <text x="266" y="278" text-anchor="middle">5</text>
+        <text x="402" y="278" text-anchor="middle">10</text>
+        <text x="538" y="278" text-anchor="middle">15</text>
+        <text x="674" y="278" text-anchor="middle">20</text>
+        <text x="730" y="278" text-anchor="middle">25</text>
+      </g>
+
+      <!-- Bars: scale x = 130 + (value/30) * 600 -->
+      <!-- $20-30 Scratcher: 3 -->
+      <g>
+        <text x="120" y="64" text-anchor="end" class="tier-label" font-weight="500">$20–30 Scratcher</text>
+        <text x="120" y="76" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">ANY PRIZE</text>
+        <rect x="130" y="52" width="60" height="32" fill="#5a6b3c"/>
+        <text x="200" y="73" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~1 in 3</text>
+      </g>
+
+      <!-- $5-10 Scratcher: 3.75 -->
+      <g>
+        <text x="120" y="112" text-anchor="end" class="tier-label" font-weight="500">$5–10 Scratcher</text>
+        <text x="120" y="124" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">ANY PRIZE</text>
+        <rect x="130" y="100" width="75" height="32" fill="#5a6b3c" opacity="0.85"/>
+        <text x="215" y="121" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~1 in 3.75</text>
+      </g>
+
+      <!-- Mega Millions: 23 -->
+      <g>
+        <text x="120" y="160" text-anchor="end" class="tier-label" font-weight="500">Mega Millions</text>
+        <text x="120" y="172" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">ANY PRIZE</text>
+        <rect x="130" y="148" width="460" height="32" fill="#b8741a"/>
+        <text x="600" y="169" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~1 in 23</text>
+      </g>
+
+      <!-- Powerball: 24.87 -->
+      <g>
+        <text x="120" y="208" text-anchor="end" class="tier-label" font-weight="500">Powerball</text>
+        <text x="120" y="220" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">ANY PRIZE</text>
+        <rect x="130" y="196" width="497" height="32" fill="#a23e2c"/>
+        <text x="637" y="217" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~1 in 24.87</text>
+      </g>
+
+      <text x="400" y="305" text-anchor="middle" class="axis-label">"1 IN N" — LOWER IS BETTER</text>
+    </svg>
+
+    <div class="figure-caption"><strong>Sources.</strong> Powerball any-prize odds per Powerball.com<sup>[1]</sup>. Mega Millions any-prize odds per state lottery sites including Delaware and Georgia<sup>[3, 4]</sup>. Scratch-off any-prize odds are representative ranges drawn from multiple state lottery game details<sup>[5]</sup>; specific games vary.</div>
+  </div>
+</div>
+
+<div class="body-wrap">
+
+  <!-- ─── SECTION 3 ─── -->
+  <div class="section">
+    <div class="section-num">iii.</div>
+    <h2>The number that actually matters</h2>
+  </div>
+
+  <p>Both of the previous charts are interesting, but neither answers the real question, which is: <em>for every dollar you spend, how much should you expect to get back?</em> The economics term for this is <strong>expected value.</strong> It is the single most useful figure for comparing any two games of chance, and it is the figure that the people who run lotteries are least eager to advertise.</p>
+
+  <p>For Powerball and Mega Millions, expected value sits around <strong>50 cents on the dollar</strong> in normal jackpot conditions — meaning, in plain terms, that for every dollar spent over the long run, the average player gets about half of it back. It can drift up slightly when the jackpot grows past the point where the prize pool justifies a higher payout, and down again after a winner resets the pot.</p>
+
+  <p>For scratch-off games, expected value at launch is typically <strong>60 to 73 cents on the dollar.</strong> The higher-priced scratchers ($20 and $30) generally sit at the top of that range. And — this is the part that is genuinely interesting — a scratch-off's expected value <em>changes over time</em> as prizes are claimed and the remaining pool shifts. A game can briefly exceed 80 cents on the dollar during what we call the mid-game window. It can also collapse below 40 cents once the meaningful prizes have been picked off and the state keeps selling the tickets anyway.</p>
+</div>
+
+<!-- ─── FIGURE: EV ─── -->
+<div class="figure">
+  <div class="figure-frame">
+    <div class="figure-label">Figure 04 &nbsp;·&nbsp; Expected value</div>
+    <div class="figure-title">Approximate return per dollar spent.</div>
+    <div class="figure-subtitle">Across the long run, this is the figure that determines how much a player loses over time. No legal lottery game in the United States has a positive expected value.</div>
+
+    <svg class="chart-svg" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ev-title ev-desc">
+      <title id="ev-title">Expected value per dollar spent: Powerball, Mega Millions, and scratch-off games</title>
+      <desc id="ev-desc">Bar chart showing approximate expected value per dollar spent. Powerball and Mega Millions: approximately 50 cents per dollar. Typical scratch-off at launch: 60 to 73 cents per dollar. Scratch-off at peak mid-game: can reach 80 cents or higher. Scratch-off late life: can fall to 40 cents or lower.</desc>
+
+      <!-- Reference line at $1 -->
+      <line x1="730" y1="40" x2="730" y2="260" stroke="#807968" stroke-width="0.5" stroke-dasharray="3 3"/>
+      <text x="730" y="32" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">$1.00 BREAK-EVEN</text>
+
+      <!-- Grid -->
+      <g stroke="#c7bda7" stroke-width="0.5" stroke-dasharray="2 3">
+        <line x1="280" y1="40" x2="280" y2="260"/>
+        <line x1="430" y1="40" x2="430" y2="260"/>
+        <line x1="580" y1="40" x2="580" y2="260"/>
+      </g>
+      <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">
+        <text x="130" y="278" text-anchor="middle">$0</text>
+        <text x="280" y="278" text-anchor="middle">$0.25</text>
+        <text x="430" y="278" text-anchor="middle">$0.50</text>
+        <text x="580" y="278" text-anchor="middle">$0.75</text>
+        <text x="730" y="278" text-anchor="middle">$1.00</text>
+      </g>
+
+      <!-- Bars: x = 130 + (value/1.00)*600 -->
+      <!-- Scratcher at peak: 0.80 -->
+      <g>
+        <text x="120" y="64" text-anchor="end" class="tier-label" font-weight="500">Scratcher</text>
+        <text x="120" y="76" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">PEAK MID-GAME</text>
+        <rect x="130" y="52" width="480" height="32" fill="#5a6b3c"/>
+        <text x="620" y="73" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~$0.80</text>
+      </g>
+
+      <!-- Scratcher launch: 0.68 -->
+      <g>
+        <text x="120" y="112" text-anchor="end" class="tier-label" font-weight="500">Scratcher</text>
+        <text x="120" y="124" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#807968" letter-spacing="1">AT LAUNCH</text>
+        <rect x="130" y="100" width="408" height="32" fill="#5a6b3c" opacity="0.85"/>
+        <text x="548" y="121" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~$0.60–0.73</text>
+      </g>
+
+      <!-- Powerball/Mega: 0.50 -->
+      <g>
+        <text x="120" y="160" text-anchor="end" class="tier-label" font-weight="500">Mega Millions</text>
+        <rect x="130" y="148" width="300" height="32" fill="#b8741a"/>
+        <text x="440" y="169" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~$0.50</text>
+      </g>
+      <g>
+        <text x="120" y="208" text-anchor="end" class="tier-label" font-weight="500">Powerball</text>
+        <rect x="130" y="196" width="300" height="32" fill="#a23e2c"/>
+        <text x="440" y="217" class="tier-value" font-family="Fraunces, serif" font-size="13" font-style="italic">~$0.50</text>
+      </g>
+
+      <text x="400" y="305" text-anchor="middle" class="axis-label">RETURN PER $1 SPENT (LONG-RUN AVERAGE)</text>
+    </svg>
+
+    <div class="figure-caption"><strong>Sources.</strong> Powerball and Mega Millions expected value figures are widely cited industry estimates, generally near 50 percent of revenue in line with each game's prize-pool design. Scratch-off launch EV range of 60–73 percent is consistent with state lottery prize-pool disclosures<sup>[5, 6]</sup>; the mid-game peak figure is an illustrative ceiling based on observed game tracking. All figures are long-run averages.</div>
+  </div>
+</div>
+
+<div class="body-wrap">
+
+  <!-- ─── STATS ─── -->
+  <div class="stat-row">
+    <div class="stat">
+      <div class="stat-number">200<span class="unit">×</span></div>
+      <div class="stat-label">More reachable: top prize of a typical $10 scratcher vs. Powerball jackpot</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">7<span class="unit">×</span></div>
+      <div class="stat-label">Higher any-prize hit rate for a typical $10 scratcher vs. Powerball</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">~20<span class="unit">¢</span></div>
+      <div class="stat-label">Typical expected-value advantage of a launch-day scratcher over a Powerball ticket</div>
+    </div>
+  </div>
+
+  <!-- ─── SECTION 4 ─── -->
+  <div class="section">
+    <div class="section-num">iv.</div>
+    <h2>So which is the <em>better bet</em>?</h2>
+  </div>
+
+  <p>This is a trick question, and the honest answer depends on what you mean by <em>better.</em></p>
+
+  <p>If the question is <em>which game has the best chance of changing my life,</em> the answer is unambiguously Powerball or Mega Millions. Yes, the odds are vanishingly small. But a scratch-off cannot pay you a billion dollars. The biggest scratch-off top prizes are usually in the one-to-twenty-million-dollar range. The jackpot games and the scratchers are not in the same product category for that question.</p>
+
+  <p>If the question is <em>which game is the best entertainment value for my dollar over the long run,</em> the answer is almost always a scratch-off — and the gap is not small. Roughly twenty cents on the dollar, in expected-value terms, in favor of the scratcher.</p>
+
+  <p>If the question is <em>which game gives me the most consistent fun,</em> that is also the scratcher. The any-prize hit rate is roughly six to eight times higher. You'll win something more often, which is the actual experience of playing.</p>
+
+  <p>The honest framing is that these are different products. Powerball and Mega Millions sell <em>the dream of a billion dollars.</em> Scratchers sell <em>the small, frequent thrill of finding out.</em> Both are entertainment. Neither is an investment. Anyone telling you otherwise is selling you something.</p>
+
+  <div class="colophon">
+    <div class="colophon-label">A note from the publisher</div>
+    <p><span class="colophon-name">SmartScratcher</span> doesn't help you with Powerball or Mega Millions — the math on those is fixed and doesn't change. But scratch-off odds shift every day as prizes get claimed, and almost no one tracks them. The app does, in <strong>California, Florida, New York, North Carolina, Oklahoma, and Texas.</strong></p>
+    <p>Free to look around. <strong>$2.99 a month</strong>, with a three-day trial, for the rankings.</p>
+  </div>
+
+  <div class="cta">
+    <div class="cta-eyebrow">If you'd like the work done for you</div>
+    <h3>SmartScratcher checks every scratch-off game, in every covered state, every day.</h3>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-link">Find it on the App Store →</a>
+  </div>
+
+</div>
+
+<section class="faq">
+  <div class="faq-label">For the curious</div>
+  <h2>Questions, answered.</h2>
+
+  <div class="faq-item">
+    <h3>What are the odds of winning the Powerball jackpot?</h3>
+    <p>The odds of winning the Powerball jackpot are approximately 1 in 292.2 million. The odds of winning any Powerball prize, including the smallest $4 prize, are approximately 1 in 24.87. A Powerball ticket costs $2.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What are the odds of winning Mega Millions?</h3>
+    <p>The odds of winning the Mega Millions jackpot are approximately 1 in 290.5 million under the current game format. The odds of winning any prize are approximately 1 in 23. A Mega Millions ticket costs $5 and includes the multiplier feature.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Are scratch-off odds better than Powerball or Mega Millions?</h3>
+    <p>It depends what you mean by better. The odds of winning any prize at all are dramatically better for scratch-offs: a typical $5 to $10 scratch-off has overall winning odds of about 1 in 3.5 to 1 in 4, compared to roughly 1 in 24 for Powerball and 1 in 23 for Mega Millions. The expected value per dollar spent is also generally higher for scratch-offs, often 60 to 73 cents at launch versus around 50 cents for Powerball and Mega Millions. However, the top prizes on scratch-offs are much smaller — typically tens of thousands to a few million dollars rather than hundreds of millions.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What is the expected value of a lottery ticket?</h3>
+    <p>Expected value is the average amount a player can expect to win per dollar spent. For Powerball and Mega Millions, expected value typically sits around 50 cents on the dollar across the long run. For scratch-off games, launch-day expected value is usually 60 to 73 cents on the dollar, and can briefly rise higher during a game's mid-life as small prizes drain faster than large ones. No lottery game has a positive expected value, meaning all are negative-sum bets over time.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Why are scratch-off odds harder to find than Powerball odds?</h3>
+    <p>Powerball and Mega Millions have fixed combinatorial odds that never change, calculated from the number-pool format and easily publicized. Scratch-off odds are based on a finite print run that drains over time as tickets are sold and prizes claimed. State lotteries publish remaining-prize tables for each scratch-off game, but interpreting them requires combining that data with an estimate of remaining tickets. Tools like SmartScratcher do this work automatically for six states: California, Florida, New York, North Carolina, Oklahoma, and Texas.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Does SmartScratcher work with Powerball or Mega Millions?</h3>
+    <p>No. SmartScratcher only tracks scratch-off games, not drawing-based games like Powerball or Mega Millions. The math for drawing games is fixed and does not change over time, so a tracking app would not add value. Scratch-off games change daily as prizes are claimed, which is the problem SmartScratcher exists to solve.</p>
+  </div>
+</section>
+
+<section class="sources">
+  <h4>Sources</h4>
+  <ol>
+    <li>Powerball Prize Chart, official Powerball website. Overall odds of winning a prize: 1 in 24.87. Jackpot odds: 1 in 292,201,338. <a href="https://www.powerball.com/powerball-prize-chart">powerball.com/powerball-prize-chart</a></li>
+    <li>Virginia Lottery, Mega Millions current format odds: 1 in 290,472,336. <a href="https://www.valottery.com/data/draw-games/megamillions">valottery.com/data/draw-games/megamillions</a></li>
+    <li>Delaware Lottery, Mega Millions prizes and odds; overall odds approximately 1 in 23.07. <a href="https://www.delottery.com/Drawing-Games/Mega-Millions/Prizes-And-Odds">delottery.com</a></li>
+    <li>Georgia Lottery, Mega Millions overall odds approximately 1 in 23.07. <a href="https://www.galottery.com/en-us/games/draw-games/megamillions.html">galottery.com</a></li>
+    <li>Texas Lottery, individual scratch ticket details showing overall game odds typically between 1 in 3 and 1 in 5. <a href="https://www.texaslottery.com/export/sites/lottery/Games/Scratch_Offs/index.html">texaslottery.com/scratch-offs</a></li>
+    <li>Industry analysis of scratch-off prize-pool returns by ticket price tier, consistently showing higher returns for higher-priced tickets in the 60–85% range.</li>
+  </ol>
+</section>
+
+<footer>
+  <div class="footer-brand">SmartScratcher</div>
+
+  <p class="footer-nav">
+    <a href="../index.html">Home</a> &nbsp;·&nbsp;
+    <a href="../blog-index.html">The Pages</a> &nbsp;·&nbsp;
+    <a href="../index.html#how">How it works</a> &nbsp;·&nbsp;
+    <a href="../index.html#pricing">Pricing</a> &nbsp;·&nbsp;
+    <a href="../index.html#faq">FAQ</a> &nbsp;·&nbsp;
+    <a href="../privacy-policy.html">Privacy</a> &nbsp;·&nbsp;
+    <a href="../terms-of-service.html">Terms</a>
+  </p>
+  <p class="footer-nav">
+    <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a> &nbsp;·&nbsp;
+    <a href="https://twitter.com/SmartScratcher">Twitter / X</a> &nbsp;·&nbsp;
+    <a href="https://www.instagram.com/smartscratcher/">Instagram</a> &nbsp;·&nbsp;
+    <a href="https://www.tiktok.com/@smartscratcher">TikTok</a> &nbsp;·&nbsp;
+    <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+  </p>
+
+  <p>&nbsp;</p>
+  <p>Must be 18+ to play the lottery (21+ in some states).</p>
+  <p>SmartScratcher is an information tool and does not guarantee winnings.</p>
+  <p>Play responsibly. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537" class="footer-helpline">1-800-GAMBLER</a>.</p>
+  <p>&nbsp;</p>
+  <p>A Gaming Data Solutions LLC project &nbsp;·&nbsp; <a href="https://www.gamingdatasolutions.com">gamingdatasolutions.com</a></p>
+  <p>Odds figures cited from public state-lottery sources as of May 2026. © 2026 Gaming Data Solutions LLC.</p>
+</footer>
+
+</body>
+</html>
