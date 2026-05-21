@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f4efe6;
+    --paper-edge: #ebe4d3;
+    --ink: #1f1d1a;
+    --ink-soft: #4a443d;
+    --ink-faded: #807968;
+    --rule: #c7bda7;
+    --amber: #b8741a;
+    --terracotta: #a23e2c;
+    --moss: #5a6b3c;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1080px; height: 1080px; overflow: hidden;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+  body::after {
+    content: '';
+    position: fixed; inset: 32px;
+    border: 2px solid var(--ink);
+    pointer-events: none;
+  }
+  .frame {
+    position: relative;
+    width: 100%; height: 100%;
+    padding: 76px 80px 72px;
+    display: flex; flex-direction: column;
+  }
+
+  .masthead {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding-bottom: 22px; border-bottom: 2px solid var(--ink);
+  }
+  .brand { font-family: 'Fraunces', serif; font-weight: 600; font-style: italic; font-size: 34px; letter-spacing: -0.015em; }
+  .issue { font-family: 'IBM Plex Mono', monospace; font-size: 15px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--ink-faded); }
+
+  .kicker {
+    font-family: 'IBM Plex Mono', monospace; font-size: 15px; text-transform: uppercase;
+    letter-spacing: 0.28em; color: var(--amber); margin-top: 52px;
+  }
+  h1 {
+    font-family: 'Fraunces', serif; font-weight: 400; font-size: 82px; line-height: 0.98;
+    letter-spacing: -0.03em; margin-top: 20px; font-variation-settings: "opsz" 144;
+  }
+  h1 em { font-style: italic; color: var(--amber); }
+  .deck {
+    font-family: 'IBM Plex Serif', serif; font-style: italic; font-weight: 400;
+    font-size: 28px; line-height: 1.4; color: var(--ink-soft); margin-top: 24px; max-width: 760px;
+  }
+
+  .compare { margin-top: 56px; }
+  .compare-head {
+    font-family: 'IBM Plex Mono', monospace; font-size: 14px; text-transform: uppercase;
+    letter-spacing: 0.2em; color: var(--ink-faded); padding-bottom: 14px; border-bottom: 1px solid var(--rule);
+  }
+  .row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 22px 0; border-bottom: 1px solid var(--rule);
+  }
+  .row .name { font-family: 'Fraunces', serif; font-size: 34px; font-weight: 500; letter-spacing: -0.01em; }
+  .row .swatch { display: inline-block; width: 16px; height: 16px; margin-right: 18px; vertical-align: -1px; }
+  .row .odds { font-family: 'Fraunces', serif; font-style: italic; font-size: 38px; color: var(--ink); white-space: nowrap; }
+  .row.win .name, .row.win .odds { color: var(--moss); font-weight: 600; }
+
+  .note {
+    margin-top: 28px; font-family: 'IBM Plex Mono', monospace; font-size: 16px;
+    text-transform: uppercase; letter-spacing: 0.16em; color: var(--amber);
+  }
+
+  .footer {
+    margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end;
+    padding-top: 22px; border-top: 2px solid var(--ink);
+  }
+  .url { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: 0.04em; }
+  .tag { font-family: 'IBM Plex Mono', monospace; font-size: 14px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--ink-faded); }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="masthead">
+      <div class="brand">SmartScratcher</div>
+      <div class="issue">Field Guide · No. 01</div>
+    </div>
+
+    <div class="kicker">The odds, side by side</div>
+    <h1>Three games.<br>One word: <em>lottery.</em></h1>
+    <div class="deck">How often does each one actually pay you <em>something?</em></div>
+
+    <div class="compare">
+      <div class="compare-head">Odds of winning any prize, per ticket</div>
+      <div class="row">
+        <div class="name"><span class="swatch" style="background:#a23e2c"></span>Powerball</div>
+        <div class="odds">1 in 24.9</div>
+      </div>
+      <div class="row">
+        <div class="name"><span class="swatch" style="background:#b8741a"></span>Mega Millions</div>
+        <div class="odds">1 in 23</div>
+      </div>
+      <div class="row win">
+        <div class="name"><span class="swatch" style="background:#5a6b3c"></span>$10 Scratcher</div>
+        <div class="odds">~1 in 3.5</div>
+      </div>
+      <div class="note">≈ 7× more often than the big jackpot games</div>
+    </div>
+
+    <div class="footer">
+      <div class="url">smartscratcherapp.com</div>
+      <div class="tag">— Not better. Just different. —</div>
+    </div>
+  </div>
+</body>
+</html>
