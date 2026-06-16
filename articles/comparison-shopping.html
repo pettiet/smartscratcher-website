@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You'd Never Book the First Flight You See — SmartScratcher</title>
+<meta name="description" content="You'll open three tabs to save $40 on a hotel, then grab whatever scratcher's shiniest at the counter. Here's the 10-second value check most players never do.">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="You'd Never Book the First Flight You See">
+<meta property="og:description" content="You comparison shop everything — except scratchers. Here's the 10-second check that fixes that.">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/comparison-shopping.html">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/comparison-shopping.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://www.smartscratcherapp.com/articles/comparison-shopping.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "You'd Never Book the First Flight You See",
+  "description": "You comparison shop everything — except scratchers. Here's the 10-second value check most players never do.",
+  "datePublished": "2026-06-09",
+  "dateModified": "2026-06-09",
+  "author": { "@type": "Organization", "name": "SmartScratcher" },
+  "publisher": { "@type": "Organization", "name": "SmartScratcher", "url": "https://www.smartscratcherapp.com" },
+  "mainEntityOfPage": "https://www.smartscratcherapp.com/articles/comparison-shopping.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Does SmartScratcher tell me which scratcher will win?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Scratch-offs are games of chance and no app can change that. SmartScratcher shows you which games still have prizes left to claim, so you don't pay full price for a game that's already been picked clean." } },
+    { "@type": "Question", "name": "What is the SmartScratcher Score?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A single number from 0 to 100 that ranks every active game. It weighs estimated value, how many prizes are still unclaimed, jackpot availability, and more, so you can compare two games at the same price without doing any math." } },
+    { "@type": "Question", "name": "What does estimated value mean?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Roughly what comes back per ticket if you bought every remaining ticket in a game. A higher number means more prize value is still on the table at that price. It's one of the inputs behind the SmartScratcher Score." } },
+    { "@type": "Question", "name": "Which states does SmartScratcher cover?",
+      "acceptedAnswer": { "@type": "Answer", "text": "California, Florida, New York, North Carolina, Oklahoma, and Texas." } },
+    { "@type": "Question", "name": "Is SmartScratcher free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, there's a free tier that shows active games and remaining prizes. Premium ($2.99/month, with a free trial) adds the SmartScratcher Score, smart sorting by value, estimated value, and daily summaries." } }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --board:#0c0c0e; --board2:#16161a;
+    --amber:#ffd60a; --amber-dim:#9c8516;
+    --ink:#1a1a1a; --red:#ff3b30; --green:#16a34a; --navy:#11243f;
+    --manila:#f3e9cf; --manila2:#ece0bf; --page:#fbf4e0;
+    --line:#ddd0a8; --mut:#7a7256;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--page);color:var(--ink);font-family:'IBM Plex Serif',Georgia,serif;font-size:20px;line-height:1.65;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;}
+  .wrap{max-width:740px;margin:0 auto;padding:0 22px;}
+
+  /* ---------- SPLIT-FLAP BOARD SYSTEM (2D, crisp) ---------- */
+  .flip-line{display:block;font-family:'Anton',sans-serif;line-height:1.16;letter-spacing:0.01em;color:var(--amber);}
+  .flap-word{display:inline-block;white-space:nowrap;vertical-align:top;}
+  .flap-gap{display:inline-block;width:0.34em;}
+  .flap-cell{
+    display:inline-block;min-width:0.7em;height:1.04em;line-height:1.04em;text-align:center;
+    margin:0.06em 0.04em;border-radius:3px;color:inherit;
+    background-image:linear-gradient(180deg,#2c2c34 0%,#1d1d24 48.5%,#000 49.6%,#000 50.4%,#232329 51.5%,#141419 100%);
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.05);
+    transform-origin:center;
+  }
+  .flap-cell.lit{color:var(--red);}
+  @keyframes flap{0%{transform:scaleY(1);}45%{transform:scaleY(0.04);}55%{transform:scaleY(0.04);}100%{transform:scaleY(1);}}
+  .flap-cell.flapping{animation:flap 90ms linear;}
+
+  /* ---------- TOP BAR ---------- */
+  .topbar{background:var(--board);color:var(--amber);font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;border-bottom:2px solid var(--amber-dim);}
+  .topbar-in{max-width:740px;margin:0 auto;padding:10px 22px;display:flex;justify-content:space-between;align-items:center;}
+  .topbar a{color:var(--amber);text-decoration:none;font-weight:700;}
+  .topbar .blink{color:var(--red);}
+  .topnav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end;}
+  @media (max-width:560px){.topbar-in{gap:10px;}.topnav{gap:12px;font-size:10px;}}
+
+  /* ---------- HERO BOARD ---------- */
+  .board{
+    background:repeating-linear-gradient(0deg, rgba(255,255,255,0.022) 0 1px, transparent 1px 26px),
+               radial-gradient(120% 140% at 50% -20%, #1c1c22 0%, var(--board) 60%);
+    color:var(--amber);padding:32px 26px 28px;border-bottom:6px solid var(--amber);
+  }
+  .board-in{max-width:740px;margin:0 auto;}
+  .board-head{display:flex;justify-content:space-between;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.2em;color:#cdb84a;text-transform:uppercase;border-bottom:1px solid rgba(255,214,10,0.25);padding-bottom:12px;margin-bottom:20px;}
+  .board-head .dotled::before{content:"●";color:var(--green);margin-right:7px;}
+  .cols{display:grid;grid-template-columns:auto 1fr auto;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.2em;color:#8a7c34;text-transform:uppercase;margin-bottom:14px;}
+  .cols span:last-child{text-align:right;}
+  h1.board-title{margin:0;}
+  .board .flip-line{font-size:clamp(30px,6.8vw,52px);}
+  .status-row{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-top:20px;border-top:1px solid rgba(255,214,10,0.25);padding-top:16px;flex-wrap:wrap;}
+  .status-row .sub{font-family:'IBM Plex Mono',monospace;color:#e9dca0;font-size:14px;letter-spacing:0.02em;}
+  .status-row .stat{font-family:'IBM Plex Mono',monospace;color:var(--green);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;white-space:nowrap;}
+  .status-row .stat::before{content:"● ";}
+
+  .ticket-meta{max-width:740px;margin:26px auto 0;padding:0 22px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--mut);display:flex;gap:22px;flex-wrap:wrap;}
+  .ticket-meta b{color:var(--ink);}
+
+  /* ---------- BODY ---------- */
+  article{padding:18px 0 10px;}
+  article p{margin:0 0 24px;}
+  .lead::first-letter{font-family:'Anton',sans-serif;float:left;font-size:78px;line-height:0.66;padding:10px 12px 0 0;color:var(--red);}
+  .hl{background:var(--amber);padding:0 4px;box-decoration-break:clone;-webkit-box-decoration-break:clone;}
+  article strong{font-weight:600;background:linear-gradient(transparent 60%, #ffe98a 60%);}
+  em{font-style:italic;}
+
+  blockquote{margin:36px 0;padding:18px 24px;border-left:6px solid var(--amber);background:var(--manila);font-size:24px;line-height:1.32;font-style:italic;}
+
+  /* ---------- SECTION BOARDS ---------- */
+  .seg{
+    background:repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0 1px, transparent 1px 22px), var(--board);
+    border-left:6px solid var(--amber);border-radius:10px;padding:15px 18px 17px;margin:56px 0 26px;
+    box-shadow:6px 6px 0 var(--ink);
+  }
+  .seg-tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--amber);background:rgba(255,214,10,0.12);border:1px solid rgba(255,214,10,0.38);padding:4px 9px;border-radius:4px;margin-bottom:11px;}
+  .seg .flip-line{font-size:clamp(21px,4.8vw,32px);}
+
+  /* ---------- BOARDING PASSES ---------- */
+  .gate-label{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--mut);text-align:center;margin:30px 0 14px;}
+  .pass{display:flex;background:var(--manila);border-radius:12px;margin:0 0 20px;position:relative;box-shadow:7px 7px 0 var(--ink);overflow:visible;}
+  .pass-main{flex:1;padding:20px 22px;border-radius:12px 0 0 12px;min-width:0;}
+  .pass-rowtop{display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mut);border-bottom:1px dashed var(--line);padding-bottom:10px;margin-bottom:12px;}
+  .pass-rowtop .airline{color:var(--navy);font-weight:700;}
+  .pstat{font-weight:700;white-space:nowrap;}
+  .pstat::before{content:"● ";}
+  .pstat.ontime{color:var(--green);}
+  .pstat.departed{color:var(--red);}
+  .pass-name{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:26px;line-height:0.95;letter-spacing:0.01em;margin:0 0 8px;}
+  .route{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;color:var(--navy);text-transform:uppercase;margin-bottom:12px;}
+  .route .arrow{color:var(--red);margin:0 6px;}
+  .pass-meta{font-family:'IBM Plex Mono',monospace;font-size:12px;line-height:1.55;color:#5f5840;}
+  .pass-price{font-family:'Anton',sans-serif;font-size:30px;margin-top:14px;color:var(--ink);}
+  .pass-price small{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:var(--mut);margin-left:8px;}
+  .perf{position:relative;width:0;border-left:3px dashed rgba(26,26,26,0.4);}
+  .perf::before,.perf::after{content:"";position:absolute;left:-11px;width:20px;height:20px;border-radius:50%;background:var(--page);}
+  .perf::before{top:-10px;}
+  .perf::after{bottom:-10px;}
+  .pass-stub{width:158px;flex-shrink:0;padding:20px 16px;background:var(--manila2);border-radius:0 12px 12px 0;display:flex;flex-direction:column;justify-content:space-between;text-align:center;}
+  .stub-label{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:0.1em;line-height:1.4;text-transform:uppercase;color:var(--mut);}
+  .score-big{font-family:'Anton',sans-serif;font-size:58px;line-height:0.82;}
+  .score-big small{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:0.05em;color:var(--mut);}
+  .score-good{color:var(--green);} .score-bad{color:var(--red);}
+  .stub-ev{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:var(--ink);margin-top:6px;}
+  .barcode{height:30px;margin-top:12px;background-image:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 5px,transparent 5px 9px,var(--ink) 9px 12px,transparent 12px 13px);opacity:0.85;}
+  .stamp{position:absolute;top:14px;right:-6px;z-index:3;font-family:'IBM Plex Mono',monospace;font-weight:700;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;padding:6px 12px;border:2.5px solid var(--green);color:var(--green);border-radius:6px;background:rgba(255,255,255,0.55);transform:rotate(8deg);}
+  .stamp.bad{border-color:var(--red);color:var(--red);transform:rotate(-7deg);}
+  .pass-caption{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--mut);text-align:center;margin:4px 0 8px;line-height:1.55;}
+  .illus-note{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--mut);text-align:center;margin:18px 0 0;letter-spacing:0.03em;}
+
+  /* ---------- CHECKLIST ---------- */
+  .checklist{background:var(--manila);border:2px solid var(--ink);border-radius:12px;padding:6px 26px;margin:34px 0;box-shadow:6px 6px 0 var(--amber);counter-reset:leg;list-style:none;}
+  .checklist li{position:relative;margin:20px 0;padding-left:40px;}
+  .checklist li::before{counter-increment:leg;content:counter(leg);position:absolute;left:0;top:2px;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;}
+  .checklist strong{font-weight:600;background:none;}
+
+  /* ---------- CTA GATE ---------- */
+  .gate{background:repeating-linear-gradient(0deg, rgba(255,255,255,0.03) 0 1px, transparent 1px 26px), var(--board);color:var(--amber);border-radius:16px;padding:42px 30px;margin:56px 0 20px;text-align:center;border:3px solid var(--amber);}
+  .gate .now{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.24em;text-transform:uppercase;color:var(--green);margin-bottom:16px;}
+  .gate .now::before{content:"● ";}
+  .gate .flip-line{font-size:clamp(27px,5.8vw,42px);}
+  .gate .flip-line + .flip-line{margin-bottom:18px;}
+  .gate p{font-family:'IBM Plex Serif',serif;font-size:18px;color:#ece0bf;margin:16px auto 26px;max-width:430px;}
+  .board-btn{display:inline-block;background:var(--amber);color:var(--ink);font-family:'Anton',sans-serif;text-transform:uppercase;font-size:20px;letter-spacing:0.02em;text-decoration:none;padding:15px 30px;border-radius:8px;box-shadow:5px 5px 0 var(--red);transition:transform .08s ease,box-shadow .08s ease;}
+  .board-btn:hover{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--red);}
+  .gate-sub{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;color:#8a7c34;margin-top:18px;text-transform:uppercase;}
+
+  /* ---------- FAQ ---------- */
+  details{border-bottom:1px solid var(--line);padding:18px 0;}
+  summary{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:17px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;}
+  summary::-webkit-details-marker{display:none;}
+  summary::after{content:"+";color:var(--red);font-size:24px;font-weight:700;}
+  details[open] summary::after{content:"–";}
+  details p{font-size:18px;margin:14px 0 2px;color:#34312a;}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:var(--board);color:#cdb84a;margin-top:60px;padding:38px 0 56px;border-top:6px solid var(--amber);}
+  .foot-grid{font-family:'IBM Plex Mono',monospace;font-size:12px;line-height:1.7;}
+  .foot-grid b{color:var(--amber);} .foot-grid a{color:#cdb84a;}
+  .foot-nav{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;display:flex;flex-wrap:wrap;gap:18px;margin-top:18px;}
+  .foot-nav a{color:#cdb84a;text-decoration:none;}
+  .foot-nav a:hover{color:var(--amber);}
+  .disclaimer{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,214,10,0.2);font-size:11px;line-height:1.75;color:#9a8e5e;}
+  .disclaimer .gambler{color:var(--amber);font-weight:700;text-decoration:none;}
+
+  @media (max-width:560px){
+    body{font-size:18px;}
+    .pass{flex-direction:column;}
+    .pass-main{border-radius:12px 12px 0 0;}
+    .pass-stub{width:auto;border-radius:0 0 12px 12px;border-top:3px dashed rgba(26,26,26,0.4);flex-direction:row;align-items:center;justify-content:space-between;text-align:left;}
+    .perf{display:none;} .barcode{display:none;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .flap-cell.flapping{animation:none;}
+    .board-btn{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <a href="../index.html">SmartScratcher<span class="blink"> ✦</span></a>
+    <nav class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458">Get the App</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO BOARD -->
+<div class="board">
+  <div class="board-in">
+    <div class="board-head">
+      <span class="dotled">SmartScratcher Airways · Now Departing</span>
+      <span>Flight SS-20 · New York</span>
+    </div>
+    <div class="cols"><span>Time</span><span>Destination</span><span>Status</span></div>
+    <h1 class="board-title">
+      <span class="flip-line" data-text="YOU'D NEVER">YOU'D NEVER</span>
+      <span class="flip-line" data-text="BOOK THE FIRST" data-lit="7:5">BOOK THE FIRST</span>
+      <span class="flip-line" data-text="FLIGHT YOU SEE.">FLIGHT YOU SEE.</span>
+    </h1>
+    <div class="status-row">
+      <span class="sub">So why grab the first scratcher off the rack?</span>
+      <span class="stat">Boarding</span>
+    </div>
+  </div>
+</div>
+
+<div class="ticket-meta">
+  <span>Carrier · <b>SmartScratcher</b></span>
+  <span>Date · <b>Jun 9 2026</b></span>
+  <span>Boarding · <b>5 min read</b></span>
+</div>
+
+<div class="wrap">
+  <article>
+    <p class="lead">Think about the last trip you booked. You probably opened a couple of tabs. Compared the 6 a.m. flight against the one that doesn't make you set an alarm. Squinted at whether "free cancellation" was worth twenty bucks. Read three hotel reviews to make sure the "ocean view" wasn't a parking lot with a telescope.</p>
+
+    <p>You did all that for a trip you take once a year. Nobody books the first result. That's not being cheap — that's just <span class="hl">knowing what your money's buying before you hand it over.</span></p>
+
+    <p>Then you stop for gas, walk up to the lottery counter, and point at whatever's shiniest. The big new $20 one with the gold foil. No tabs. No comparing. No idea what you're actually getting.</p>
+
+    <blockquote>The same instinct that makes you check three hotels just… switches off at the scratcher rack.</blockquote>
+
+    <p>Here's the thing nobody tells you: <strong>two scratchers at the same price are not the same deal.</strong> Not even close. And the difference is sitting right there in plain sight — you just can't see it from the counter.</p>
+
+    <div class="seg">
+      <span class="seg-tag">Segment 01</span>
+      <span class="flip-line" data-text="THE HIDDEN FARE">THE HIDDEN FARE</span>
+    </div>
+    <p>When you book a flight, the price at least tells you something. A nonstop at noon usually costs more than a red-eye with a layover — the number climbs as the trip gets better, and you get to decide what the extra's worth. The price is a <em>signal</em>.</p>
+    <p>Scratchers take that signal away. Every $20 game costs $20, full stop — whether it's loaded with prizes or completely picked clean. The price never moves, so it can't tell you a single thing about which one's actually worth buying.</p>
+    <p>And the part that <em>does</em> change is invisible from the counter. Every game launches with a fixed number of big prizes, and as people buy and scratch, those get claimed — but the rack never gets restocked or re-priced. So a game whose top prizes are <strong>already gone</strong> sits there looking brand new, same $20 as the one beside it that's still loaded. It's been <span class="hl">picked clean</span> — and there's no sticker on the dispenser to warn you.</p>
+
+    <div class="seg">
+      <span class="seg-tag">Segment 02</span>
+      <span class="flip-line" data-text="TWO PASSES, ONE PRICE">TWO PASSES, ONE PRICE</span>
+    </div>
+    <p>Imagine you could pull up the scratcher rack the way you pull up flights — same price point, ranked by value, the picked-over ones bumped to standby. Two $20 games in New York might board like this:</p>
+
+    <div class="gate-label">— Now boarding · New York · $20 games —</div>
+
+    <div class="pass">
+      <span class="stamp">Best value</span>
+      <div class="pass-main">
+        <div class="pass-rowtop"><span class="airline">SmartScratcher Airways</span><span class="pstat ontime">On time</span></div>
+        <div class="pass-name">Empire Gold</div>
+        <div class="route">New York <span class="arrow">→</span> $20 game</div>
+        <div class="pass-meta">All 4 top prizes still unclaimed<br>Fresh on the rack · prizes still loaded</div>
+        <div class="pass-price">$20<small>per ticket</small></div>
+      </div>
+      <div class="perf"></div>
+      <div class="pass-stub">
+        <div class="stub-label">SmartScratcher Score</div>
+        <div class="score-big score-good">88<small>/100</small></div>
+        <div class="stub-ev">est. value $14.60</div>
+        <div class="barcode"></div>
+      </div>
+    </div>
+
+    <div class="pass">
+      <span class="stamp bad">Picked clean</span>
+      <div class="pass-main">
+        <div class="pass-rowtop"><span class="airline">SmartScratcher Airways</span><span class="pstat departed">Departed</span></div>
+        <div class="pass-name">Skyline Cash</div>
+        <div class="route">New York <span class="arrow">→</span> $20 game</div>
+        <div class="pass-meta">0 of 5 top prizes left<br>Been on the rack a while · small prizes only</div>
+        <div class="pass-price">$20<small>per ticket</small></div>
+      </div>
+      <div class="perf"></div>
+      <div class="pass-stub">
+        <div class="stub-label">SmartScratcher Score</div>
+        <div class="score-big score-bad">31<small>/100</small></div>
+        <div class="stub-ev">est. value $9.40</div>
+        <div class="barcode"></div>
+      </div>
+    </div>
+
+    <p class="pass-caption">Same $20 either way. One's a nonstop. One's the red-eye whose prizes already left the gate.</p>
+
+    <p>That's the entire pitch on two boarding passes. You're spending the twenty bucks regardless — it's your entertainment money and you're allowed to enjoy it. The only question is whether you spend it on the game that still has <strong>real prizes left to chase</strong>, or the one that's been drained dry while still wearing its launch-day shine.</p>
+
+    <div class="seg">
+      <span class="seg-tag">Segment 03</span>
+      <span class="flip-line" data-text="THE TWO NUMBERS">THE TWO NUMBERS</span>
+    </div>
+    <p>You don't need to understand the math, the same way you don't need to know how an airline prices a fare to spot the better seat. You just need a couple of honest numbers you can compare.</p>
+    <p>The big one is the <strong>SmartScratcher Score</strong> — a single rating from 0 to 100 for every active game. It quietly weighs how many prizes are still out there, the estimated value, jackpot availability, and a few other things, then hands you one number. Empire Gold boards at <strong>88</strong>. Skyline Cash limps in at <strong>31</strong>. Like sorting hotels by rating instead of reading every review yourself.</p>
+    <p>Underneath that is <strong>estimated value</strong>, the plainest-English piece: picture buying every remaining ticket in the game and tallying what comes back, then boiling it down per ticket. On Empire Gold that's around $14.60; on the picked-clean one it's down near $9.40 — same $20 out of your pocket either way. You don't do that math. The app does. You just glance and pick the bigger number.</p>
+
+    <div class="seg">
+      <span class="seg-tag">Segment 04</span>
+      <span class="flip-line" data-text="THE 10-SECOND CHECK">THE 10-SECOND CHECK</span>
+    </div>
+    <p>Here's the whole routine. It's shorter than reading this sentence took:</p>
+    <ul class="checklist">
+      <li><strong>Open the app</strong> and tap your state.</li>
+      <li><strong>Tap your price point</strong> — the $5s, the $10s, whatever you're feeling today.</li>
+      <li><strong>Look at the top of the list.</strong> The highest SmartScratcher Scores are already floated up top, and the picked-clean ones are bumped to the bottom.</li>
+      <li><strong>Buy off the top, not off the foil.</strong> That's it. You're back in the car before the person behind you finishes their coffee.</li>
+    </ul>
+    <p>That's the same move you already make on every other purchase that matters to you. Check before you buy. Get the best bang for your buck. You're not changing your budget or your habit — you're just <span class="hl">aiming the same money at a better game.</span></p>
+
+    <div class="seg">
+      <span class="seg-tag">Segment 05</span>
+      <span class="flip-line" data-text="THE HONEST PART">THE HONEST PART</span>
+    </div>
+    <p>Let's be straight, because we always are: a scratch-off is a game of chance. Nothing — no app, no system, no lucky gas station — changes that. Comparing flights doesn't guarantee a smooth trip, and checking a SmartScratcher Score doesn't guarantee a winner.</p>
+    <p>What it does is stop you from <strong>overpaying for an empty game.</strong> It's the difference between booking blind and booking informed. You're going to scratch either way — so you might as well know which games still have something worth scratching for.</p>
+    <p>That's the whole idea. Not a winning system. Just the price-check you already do everywhere else, finally pointed at the rack.</p>
+
+    <div class="seg">
+      <span class="seg-tag">Pre-flight</span>
+      <span class="flip-line" data-text="QUICK QUESTIONS">QUICK QUESTIONS</span>
+    </div>
+    <section class="faq">
+      <details>
+        <summary>So will this tell me which one wins?</summary>
+        <p>Nope — and anyone who tells you they can is selling something. Scratchers are chance. SmartScratcher just shows you which games still have prizes left to claim, so you don't pay full price for one that's already picked clean.</p>
+      </details>
+      <details>
+        <summary>What's the SmartScratcher Score?</summary>
+        <p>One number from 0 to 100 that ranks every active game. It weighs estimated value, how many prizes are still unclaimed, jackpot availability, and more — so you can compare two games at the same price without doing any math.</p>
+      </details>
+      <details>
+        <summary>And "estimated value"?</summary>
+        <p>Roughly what comes back per ticket if you bought every remaining ticket in a game. Higher means more prize value still on the table at that price. It's one of the inputs behind the Score.</p>
+      </details>
+      <details>
+        <summary>Which states does it cover?</summary>
+        <p>California, Florida, New York, North Carolina, Oklahoma, and Texas. More on the way.</p>
+      </details>
+      <details>
+        <summary>Is it free?</summary>
+        <p>Yes — the free tier shows active games and remaining prizes. Premium ($2.99/month, free trial included) adds the SmartScratcher Score, smart sorting by value, estimated value, and a daily summary of what changed overnight.</p>
+      </details>
+    </section>
+
+    <div class="gate">
+      <div class="now">Now boarding</div>
+      <span class="flip-line" data-text="COMPARISON SHOP">COMPARISON SHOP</span>
+      <span class="flip-line" data-text="THE RACK">THE RACK</span>
+      <p>Do the same 10-second check you already do for flights, hotels, and everything else worth your money.</p>
+      <a class="board-btn" href="https://apps.apple.com/us/app/smartscratcher/id6737247458">Board now — get the app free</a>
+      <div class="gate-sub">iOS · CA · FL · NY · NC · OK · TX</div>
+    </div>
+
+    <p class="illus-note">Game names, scores, and figures in this article are illustrative.</p>
+  </article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <b>SmartScratcher</b> — your pre-flight check before you hit the scratcher rack.<br>
+      Built by <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a> · <a href="../index.html">smartscratcherapp.com</a>
+    </div>
+
+    <div class="foot-nav">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+
+    <div class="foot-nav">
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+
+    <div class="disclaimer">
+      Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings — scratch-offs are games of chance. Game names, scores, and figures in this article are illustrative. Play responsibly. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537" class="gambler">1-800-GAMBLER</a>.
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$.,'-!?→✦".split("");
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function rnd(){ return CHARS[(Math.random()*CHARS.length)|0]; }
+
+  function parseLit(v){
+    if(!v) return [-1,-1];
+    if(v.indexOf(':')>=0){ var p=v.split(':'); var s=parseInt(p[0],10); return [s, s+parseInt(p[1],10)]; }
+    return [0, parseInt(v,10)];
+  }
+
+  function build(line){
+    var text = line.getAttribute('data-text') || line.textContent;
+    var litR = parseLit(line.getAttribute('data-lit'));
+    line.textContent = '';
+    line.setAttribute('aria-label', text);
+    var words = text.split(' ');
+    var cells = [], idx = 0;
+    words.forEach(function(word, wi){
+      if (wi > 0){
+        var g = document.createElement('span'); g.className = 'flap-gap'; g.setAttribute('aria-hidden','true');
+        line.appendChild(g);
+      }
+      var wrap = document.createElement('span'); wrap.className = 'flap-word'; wrap.setAttribute('aria-hidden','true');
+      for (var i = 0; i < word.length; i++){
+        var c = document.createElement('span'); c.className = 'flap-cell';
+        c.textContent = word[i].toUpperCase();
+        if (idx >= litR[0] && idx < litR[1]) c.classList.add('lit');
+        idx++;
+        wrap.appendChild(c); cells.push(c);
+      }
+      line.appendChild(wrap);
+    });
+    line._cells = cells; line._done = false;
+  }
+
+  function flip(el, ch){
+    el.classList.remove('flapping');
+    void el.offsetWidth;
+    el.classList.add('flapping');
+    setTimeout(function(){ el.textContent = ch; }, 42);
+  }
+
+  function animate(line){
+    if (line._done) return; line._done = true;
+    line._cells.forEach(function(el, i){
+      var target = el.textContent;
+      var ticks = 6 + ((Math.random()*7)|0);
+      var d = i * 40;
+      for (var t = 0; t < ticks; t++){
+        d += 44 + t * 11;
+        (function(last, delay){
+          setTimeout(function(){ flip(el, last ? target : rnd()); }, delay);
+        })(t === ticks - 1, d);
+      }
+    });
+  }
+
+  function init(){
+    var lines = [].slice.call(document.querySelectorAll('.flip-line'));
+    lines.forEach(build);
+    if (reduce) return;
+    if (!('IntersectionObserver' in window)){ lines.forEach(animate); return; }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){ animate(e.target); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.45 });
+    lines.forEach(function(l){ io.observe(l); });
+  }
+
+  if (document.readyState !== 'loading') init();
+  else document.addEventListener('DOMContentLoaded', init);
+})();
+</script>
+
+</body>
+</html>
