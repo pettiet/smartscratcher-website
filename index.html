@@ -953,6 +953,48 @@
     color: var(--muted);
   }
   .states-cta a { color: var(--red); font-weight: 700; text-decoration: underline; }
+  .states .live-peek {
+    max-width: 820px;
+    margin: 36px auto 0;
+    background: var(--ink);
+    color: white;
+    border-radius: 18px;
+    padding: 28px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .states .live-peek h3 {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 6px;
+  }
+  .states .live-peek h3 em { font-style: normal; color: var(--yellow); }
+  .states .live-peek p {
+    font-size: 14.5px;
+    color: rgba(255,255,255,0.7);
+    max-width: 440px;
+    line-height: 1.5;
+  }
+  .states .live-peek .lp-btn {
+    background: var(--yellow);
+    color: var(--ink);
+    font-weight: 800;
+    font-size: 15px;
+    padding: 13px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: transform 0.1s;
+  }
+  .states .live-peek .lp-btn:hover { transform: translateY(-2px); }
+  @media (max-width: 640px) {
+    .states .live-peek { justify-content: center; text-align: center; }
+    .states .live-peek .lp-btn { width: 100%; text-align: center; }
+  }
 
   /* ========== FAQ ========== */
   .faq {
@@ -1253,11 +1295,10 @@
 <body>
 
 <!-- LAUNCH BANNER -->
-<!-- TODO: Remove this banner (and the .launch-banner styles above) after ~June 1, 2026 once the FL/NY/NC expansion news has cooled off. -->
-<a href="articles/three-new-states.html" class="launch-banner">
+<a href="games.html" class="launch-banner">
   <span class="lb-pill">New</span>
-  <span class="lb-msg">Now live in <strong>Florida, New York &amp; North Carolina</strong></span>
-  <span class="lb-arrow">Read more →</span>
+  <span class="lb-msg">Live prize data for <strong>every game in all six states</strong> — free to browse</span>
+  <span class="lb-arrow">See the games →</span>
 </a>
 
 <!-- NAV -->
@@ -1539,6 +1580,14 @@
       <div class="s-name">North Carolina</div>
       <div class="s-stats">Just added · every active game</div>
     </div>
+  </div>
+
+  <div class="live-peek">
+    <div>
+      <h3>Don't take our word for it — <em>peek at the data.</em></h3>
+      <p>Every active game in all six states, with real remaining-prize counts straight from official lottery data. Free to browse, updated daily.</p>
+    </div>
+    <a href="games.html" class="lp-btn">Browse the live game data →</a>
   </div>
 
   <div class="states-cta">
