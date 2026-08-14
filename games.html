@@ -225,6 +225,34 @@
     font-family: var(--mono); color: var(--muted);
   }
 
+  /* ---------- IMAGE LIGHTBOX ---------- */
+  .card-head img { cursor: zoom-in; }
+  .lightbox {
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(17, 17, 17, 0.82);
+    display: none; align-items: center; justify-content: center;
+    padding: 24px; cursor: zoom-out;
+  }
+  .lightbox.show { display: flex; }
+  .lightbox figure {
+    max-width: min(560px, 92vw); text-align: center; cursor: default;
+  }
+  .lightbox img {
+    max-width: 100%; max-height: 74vh; display: block; margin: 0 auto;
+    border: 3px solid #fff; border-radius: 14px; background: #fff;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .lightbox figcaption {
+    font-family: var(--mono); color: #fff; font-size: 14px; font-weight: 700;
+    margin-top: 14px;
+  }
+  .lightbox figcaption .sub { color: rgba(255,255,255,0.6); font-weight: 400; font-size: 12px; }
+  .lightbox .close {
+    position: absolute; top: 18px; right: 22px;
+    background: none; border: none; color: #fff; font-size: 34px;
+    line-height: 1; cursor: pointer; font-family: var(--sans);
+  }
+
   /* ---------- FOOTER (matches homepage) ---------- */
   footer.site {
     background: var(--ink); color: white; padding: 60px 24px 30px; margin-top: 20px;
@@ -311,6 +339,14 @@
     </a>
     <div class="fine">Free to try · $2.99/mo premium · 3-day free trial · cancel anytime</div>
   </div>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Game ticket image">
+  <button class="close" aria-label="Close">×</button>
+  <figure>
+    <img id="lightboxImg" src="" alt="">
+    <figcaption><span id="lightboxName"></span><br><span class="sub" id="lightboxSub"></span></figcaption>
+  </figure>
 </div>
 
 <footer class="site">
@@ -498,6 +534,31 @@
   }
 
   searchBox.addEventListener('input', applyFilters);
+
+  // Image lightbox: clicking a ticket image shows it large. Capture phase so
+  // the card's own tap-to-expand handler doesn't also fire.
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightboxImg');
+  const lbName = document.getElementById('lightboxName');
+  const lbSub = document.getElementById('lightboxSub');
+  grid.addEventListener('click', (e) => {
+    const im = e.target.closest('.card-head img');
+    if (!im) return;
+    e.stopPropagation();
+    e.preventDefault();
+    const card = im.closest('.card');
+    lbImg.src = im.src;
+    lbName.textContent = card.querySelector('h3').textContent;
+    lbSub.textContent = card.querySelector('.num').textContent + ' · ' +
+      card.querySelector('.cost-chip').textContent + ' ticket';
+    lb.classList.add('show');
+  }, true);
+  lb.addEventListener('click', (e) => {
+    if (e.target === lb || e.target.closest('.close')) lb.classList.remove('show');
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') lb.classList.remove('show');
+  });
 
   selectState(active);
 })();
