@@ -225,21 +225,41 @@
     font-family: var(--mono); color: var(--muted);
   }
 
-  /* ---------- FOOTER (matches homepage tone) ---------- */
+  /* ---------- FOOTER (matches homepage) ---------- */
   footer.site {
-    border-top: 2px solid var(--ink); background: var(--cream);
-    padding: 34px 5% 40px; margin-top: 20px; text-align: center;
+    background: var(--ink); color: white; padding: 60px 24px 30px; margin-top: 20px;
   }
-  footer.site .f-links {
-    display: flex; gap: 22px; justify-content: center; flex-wrap: wrap;
-    font-weight: 600; font-size: 14px; margin-bottom: 18px;
+  .footer-inner {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
+    padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1);
   }
-  footer.site .f-links a { text-decoration: none; }
-  footer.site .f-links a:hover { color: var(--red); }
-  footer.site .fine {
-    max-width: 640px; margin: 0 auto; font-size: 12.5px; color: var(--muted); line-height: 1.7;
+  footer .f-brand .logo {
+    font-family: var(--display); font-size: 24px; font-weight: 800;
+    letter-spacing: -0.8px; margin-bottom: 10px; display: block;
+    color: white; text-decoration: none;
   }
-  footer.site .fine a { color: var(--muted); }
+  footer .f-brand .logo span { color: var(--yellow); }
+  footer .f-brand p {
+    font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; max-width: 320px;
+  }
+  footer .f-col h4 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--yellow); margin-bottom: 14px; font-weight: 700;
+  }
+  footer .f-col a {
+    display: block; font-size: 14px; color: rgba(255,255,255,0.8);
+    text-decoration: none; padding: 4px 0;
+  }
+  footer .f-col a:hover { color: var(--yellow); }
+  .footer-bottom {
+    padding-top: 22px; font-size: 12px; color: rgba(255,255,255,0.5);
+    font-family: var(--mono); line-height: 1.6; max-width: 1100px;
+    margin: 0 auto; letter-spacing: 0.3px;
+  }
+  .footer-bottom a { color: var(--yellow); text-decoration: none; }
+  @media (max-width: 880px) { .footer-inner { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .footer-inner { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -294,18 +314,39 @@
 </div>
 
 <footer class="site">
-  <div class="f-links">
-    <a href="index.html">Home</a>
-    <a href="blog-index.html">The Pages</a>
-    <a href="index.html#pricing">Pricing</a>
-    <a href="privacy-policy.html">Privacy</a>
-    <a href="terms-of-service.html">Terms</a>
+  <div class="footer-inner">
+    <div class="f-brand">
+      <a href="index.html" class="logo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, CA, FL, NY, and NC.</p>
+    </div>
+    <div class="f-col">
+      <h4>Product</h4>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#states">States</a>
+    </div>
+    <div class="f-col">
+      <h4>Resources</h4>
+      <a href="blog-index.html">The Pages</a>
+      <a href="games.html">Live Games</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="https://www.smartscratcherapp.com/privacy-policy.html">Privacy</a>
+      <a href="https://www.smartscratcherapp.com/terms-of-service.html">Terms</a>
+    </div>
+    <div class="f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
   </div>
-  <div class="fine">
-    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br>
-    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical
-    analysis and does not guarantee lottery wins. If the lottery stops being fun, the National
-    Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  <div class="footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br><br>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical analysis and does not guarantee lottery wins. If the lottery stops being fun, the National Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
   </div>
 </footer>
 
