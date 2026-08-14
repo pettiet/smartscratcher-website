@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Live Game Data — SmartScratcher</title>
+<meta name="description" content="Every active scratch-off game in OK, TX, CA, FL, NY, and NC — with real remaining prize counts, updated daily from official lottery data." />
+<meta property="og:title" content="Live Scratch-Off Game Data — SmartScratcher" />
+<meta property="og:description" content="Every active game, every prize tier, how many prizes are still out there. Updated daily." />
+
+<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+<link rel="shortcut icon" href="favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fff9e6;
+    --ink: #111111;
+    --ink-soft: #2a2a2a;
+    --yellow: #ffd60a;
+    --yellow-deep: #ffbb00;
+    --red: #ff3b30;
+    --red-deep: #c01e15;
+    --green: #16a34a;
+    --blue: #0066ff;
+    --cream: #fff3cc;
+    --muted: #6b6b6b;
+    --rule: #e6dfc3;
+    --display: 'Bricolage Grotesque', system-ui, sans-serif;
+    --sans: 'Inter', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', monospace;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--sans); background: var(--bg); color: var(--ink); line-height: 1.6; }
+  a { color: inherit; }
+
+  /* ---------- NAV (matches homepage) ---------- */
+  nav.top {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 5%; position: sticky; top: 0; z-index: 100;
+    background: rgba(255, 249, 230, 0.92); backdrop-filter: blur(8px);
+    border-bottom: 2px solid var(--ink);
+  }
+  nav.top .logo img { height: 40px; display: block; }
+  nav.top .menu { display: flex; align-items: center; gap: 26px; font-weight: 600; font-size: 15px; }
+  nav.top .menu a { text-decoration: none; }
+  nav.top .menu a:hover:not(.cta-btn) { color: var(--red); }
+  .cta-btn {
+    background: var(--ink); color: #fff !important; padding: 10px 18px;
+    border-radius: 10px; text-decoration: none; font-weight: 700;
+    border: 2px solid var(--ink); transition: background 0.15s, color 0.15s;
+  }
+  .cta-btn:hover { background: var(--yellow); color: var(--ink) !important; }
+  @media (max-width: 720px) {
+    nav.top .menu a:not(.cta-btn) { display: none; }
+  }
+
+  /* ---------- HEADER ---------- */
+  header.page {
+    max-width: 1100px; margin: 0 auto; padding: 56px 5% 10px; text-align: center;
+  }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: var(--mono); font-size: 12.5px; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    background: var(--cream); border: 1.5px solid var(--ink);
+    border-radius: 999px; padding: 7px 16px; margin-bottom: 22px;
+  }
+  .eyebrow .dot {
+    width: 8px; height: 8px; border-radius: 50%; background: var(--green);
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  header.page h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(34px, 6vw, 58px);
+    line-height: 1.05; letter-spacing: -0.02em; margin-bottom: 18px;
+  }
+  .yellow-hl { background: linear-gradient(transparent 55%, var(--yellow) 55%); padding: 0 4px; }
+  header.page .deck {
+    max-width: 620px; margin: 0 auto 8px; font-size: 17.5px; color: var(--ink-soft);
+  }
+  .updated-line { font-family: var(--mono); font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+
+  /* ---------- CONTROLS ---------- */
+  .controls { max-width: 1100px; margin: 26px auto 6px; padding: 0 5%; }
+  .state-tabs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-bottom: 16px; }
+  .state-tabs button {
+    font-family: var(--mono); font-size: 13.5px; font-weight: 700; cursor: pointer;
+    padding: 9px 18px; border-radius: 999px; border: 2px solid var(--ink);
+    background: #fff; color: var(--ink); transition: transform 0.1s, background 0.15s;
+  }
+  .state-tabs button:hover { transform: translateY(-1px); }
+  .state-tabs button.active { background: var(--yellow); box-shadow: 3px 3px 0 var(--ink); }
+  .search-row { display: flex; justify-content: center; }
+  .search-row input {
+    font-family: var(--sans); font-size: 15px; width: min(420px, 100%);
+    padding: 11px 16px; border: 2px solid var(--ink); border-radius: 12px;
+    background: #fff; outline: none;
+  }
+  .search-row input:focus { box-shadow: 3px 3px 0 var(--yellow-deep); }
+
+  /* ---------- GRID + CARDS ---------- */
+  .grid {
+    max-width: 1100px; margin: 26px auto 30px; padding: 0 5%;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 18px;
+    align-items: start;
+  }
+  .card {
+    background: #fff; border: 2px solid var(--ink); border-radius: 16px;
+    overflow: hidden; transition: transform 0.12s, box-shadow 0.12s;
+  }
+  .card:hover { transform: translateY(-2px); box-shadow: 5px 5px 0 var(--ink); }
+  .card-head {
+    display: flex; gap: 14px; align-items: center; padding: 14px 16px; cursor: pointer;
+  }
+  .card-head img {
+    width: 62px; height: 62px; object-fit: cover; border-radius: 10px;
+    border: 1.5px solid var(--rule); background: var(--cream); flex-shrink: 0;
+  }
+  .card-head .noimg {
+    width: 62px; height: 62px; border-radius: 10px; border: 1.5px solid var(--rule);
+    background: var(--cream); display: flex; align-items: center; justify-content: center;
+    font-size: 24px; flex-shrink: 0;
+  }
+  .card-title { flex: 1; min-width: 0; }
+  .card-title h3 {
+    font-family: var(--display); font-weight: 700; font-size: 17px; line-height: 1.2;
+    overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
+    -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  }
+  .card-title .num { font-family: var(--mono); font-size: 11.5px; color: var(--muted); margin-top: 3px; }
+  .cost-chip {
+    font-family: var(--mono); font-weight: 700; font-size: 15px;
+    background: var(--yellow); border: 2px solid var(--ink); border-radius: 10px;
+    padding: 6px 10px; flex-shrink: 0;
+  }
+  .expand-hint {
+    font-family: var(--mono); font-size: 11px; color: var(--muted);
+    text-align: center; padding: 0 0 10px; user-select: none;
+  }
+  .card.open .expand-hint { display: none; }
+
+  /* prize table */
+  .prizes { display: none; border-top: 2px dashed var(--rule); }
+  .card.open .prizes { display: block; }
+  .prizes table { width: 100%; border-collapse: collapse; }
+  .prizes th {
+    font-family: var(--mono); font-size: 10.5px; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--muted); text-align: right;
+    padding: 10px 14px 6px; font-weight: 500;
+  }
+  .prizes th:first-child { text-align: left; }
+  .prizes td {
+    padding: 7px 14px; font-size: 14px; text-align: right;
+    font-variant-numeric: tabular-nums; border-top: 1px solid #f3eed8;
+  }
+  .prizes td:first-child { text-align: left; font-weight: 700; }
+  .prizes td .bar {
+    height: 5px; background: #efe9cf; border-radius: 3px; overflow: hidden; margin-top: 4px;
+  }
+  .prizes td .bar span { display: block; height: 100%; background: var(--green); }
+  .prizes td.zero { color: var(--red); font-weight: 700; }
+  .prizes .gone-note { color: var(--red); font-family: var(--mono); font-size: 10.5px; }
+
+  /* locked footer inside card */
+  .locked {
+    background: var(--cream); border-top: 2px solid var(--ink);
+    padding: 12px 16px; font-size: 13.5px; line-height: 1.5;
+  }
+  .locked .lock-line { display: flex; gap: 8px; align-items: flex-start; }
+  .locked strong { font-weight: 700; }
+  .locked a { color: var(--red-deep); font-weight: 700; }
+
+  /* ---------- CTA BAND ---------- */
+  .cta-band {
+    max-width: 1100px; margin: 10px auto 40px; padding: 0 5%;
+  }
+  .cta-inner {
+    background: var(--ink); color: #fff; border-radius: 20px;
+    padding: 34px 30px; text-align: center;
+  }
+  .cta-inner h2 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(24px, 4vw, 34px);
+    line-height: 1.15; margin-bottom: 10px;
+  }
+  .cta-inner h2 .y { color: var(--yellow); }
+  .cta-inner p { color: #d7d2bd; max-width: 560px; margin: 0 auto 20px; font-size: 15.5px; }
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--yellow); color: var(--ink); text-decoration: none;
+    font-weight: 800; font-size: 16px; padding: 14px 26px; border-radius: 12px;
+    border: 2px solid var(--yellow); transition: transform 0.1s;
+  }
+  .btn-primary:hover { transform: translateY(-2px); }
+  .cta-inner .fine { font-family: var(--mono); font-size: 11.5px; color: #a39e8a; margin-top: 14px; }
+
+  .empty-msg {
+    grid-column: 1 / -1; text-align: center; padding: 50px 0;
+    font-family: var(--mono); color: var(--muted);
+  }
+
+  /* ---------- FOOTER (matches homepage tone) ---------- */
+  footer.site {
+    border-top: 2px solid var(--ink); background: var(--cream);
+    padding: 34px 5% 40px; margin-top: 20px; text-align: center;
+  }
+  footer.site .f-links {
+    display: flex; gap: 22px; justify-content: center; flex-wrap: wrap;
+    font-weight: 600; font-size: 14px; margin-bottom: 18px;
+  }
+  footer.site .f-links a { text-decoration: none; }
+  footer.site .f-links a:hover { color: var(--red); }
+  footer.site .fine {
+    max-width: 640px; margin: 0 auto; font-size: 12.5px; color: var(--muted); line-height: 1.7;
+  }
+  footer.site .fine a { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <a href="index.html" class="logo"><img src="newLogoV2.png" alt="SmartScratcher"></a>
+  <div class="menu">
+    <a href="index.html#how">How it works</a>
+    <a href="blog-index.html">The Pages</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="index.html#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="cta-btn">Get the App</a>
+  </div>
+</nav>
+
+<header class="page">
+  <div class="eyebrow">
+    <span class="dot"></span>
+    <span id="eyebrowText">Live data · updated daily</span>
+  </div>
+  <h1>Every game on the shelf.<br>What's <span class="yellow-hl">actually left</span> in it.</h1>
+  <p class="deck">
+    Official lottery data for every active scratch-off — how many prizes each game started
+    with, and how many are still out there. Tap a game to see its full prize table.
+  </p>
+  <div class="updated-line" id="updatedLine">Loading…</div>
+</header>
+
+<div class="controls">
+  <div class="state-tabs" id="stateTabs"></div>
+  <div class="search-row">
+    <input type="search" id="searchBox" placeholder="Search games… (name or number)" autocomplete="off">
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="cta-band">
+  <div class="cta-inner">
+    <h2>These numbers tell you what's left.<br>The app tells you <span class="y">what's worth it.</span></h2>
+    <p>
+      Prize counts are just the start. SmartScratcher turns them into a ticket value, a
+      0–100 score, and a straight answer for every game — so you skip the picked-clean
+      ones and play the good ones.
+    </p>
+    <a href="https://apps.apple.com/us/app/smartscratcher/id6737247458" class="btn-primary">
+      <span>Get SmartScratcher</span><span>→</span>
+    </a>
+    <div class="fine">Free to try · $2.99/mo premium · 3-day free trial · cancel anytime</div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="f-links">
+    <a href="index.html">Home</a>
+    <a href="blog-index.html">The Pages</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="terms-of-service.html">Terms</a>
+  </div>
+  <div class="fine">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a><br>
+    Play responsibly. Must be 18+ (21+ in some states). SmartScratcher provides statistical
+    analysis and does not guarantee lottery wins. If the lottery stops being fun, the National
+    Problem Gambling Helpline is <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+<script>
+(function () {
+  const STATES = [
+    ['ca', 'California'], ['fl', 'Florida'], ['nc', 'North Carolina'],
+    ['ny', 'New York'], ['ok', 'Oklahoma'], ['tx', 'Texas'],
+  ];
+  const APP_URL = 'https://apps.apple.com/us/app/smartscratcher/id6737247458';
+  const grid = document.getElementById('grid');
+  const tabsEl = document.getElementById('stateTabs');
+  const searchBox = document.getElementById('searchBox');
+  const updatedLine = document.getElementById('updatedLine');
+  const cache = {};
+  let currentGames = [];
+
+  const fmt = (n) => n == null ? '—' : n.toLocaleString('en-US');
+  const money = (n) => n == null ? '—' : '$' + n.toLocaleString('en-US');
+  const esc = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  // Which state to open first: ?state=xx, else remembered, else Texas
+  const params = new URLSearchParams(location.search);
+  let active = params.get('state') || localStorage.getItem('ss_state') || 'tx';
+  if (!STATES.some(([code]) => code === active)) active = 'tx';
+
+  STATES.forEach(([code, name]) => {
+    const b = document.createElement('button');
+    b.textContent = name;
+    b.dataset.state = code;
+    b.addEventListener('click', () => selectState(code));
+    tabsEl.appendChild(b);
+  });
+
+  function selectState(code) {
+    active = code;
+    localStorage.setItem('ss_state', code);
+    history.replaceState(null, '', '?state=' + code);
+    tabsEl.querySelectorAll('button').forEach(b =>
+      b.classList.toggle('active', b.dataset.state === code));
+    searchBox.value = '';
+    load(code);
+  }
+
+  function load(code) {
+    if (cache[code]) { render(cache[code]); return; }
+    grid.innerHTML = '<div class="empty-msg">Loading games…</div>';
+    fetch('data/games/' + code + '.json')
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => { cache[code] = data; render(data); })
+      .catch(() => {
+        grid.innerHTML = '<div class="empty-msg">Couldn\'t load game data right now — try a refresh.</div>';
+        updatedLine.textContent = '';
+      });
+  }
+
+  function render(data) {
+    currentGames = data.games;
+    updatedLine.textContent = data.games.length + ' active ' + data.state_name +
+      ' games · data updated ' + (data.updated || 'daily');
+    draw(currentGames);
+  }
+
+  function draw(games) {
+    if (!games.length) {
+      grid.innerHTML = '<div class="empty-msg">No games match that search.</div>';
+      return;
+    }
+    grid.innerHTML = games.map(g => {
+      const rows = g.prizes.map(p => {
+        const pct = p.total ? Math.round(100 * p.left / p.total) : 0;
+        const leftCell = p.left === 0
+          ? '<td class="zero">0 <span class="gone-note">gone</span></td>'
+          : '<td>' + fmt(p.left) + '<div class="bar"><span style="width:' + pct + '%"></span></div></td>';
+        return '<tr><td>' + money(p.amt) + '</td>' + leftCell + '<td>' + fmt(p.total) + '</td></tr>';
+      }).join('');
+      const table = g.prizes.length
+        ? '<table><thead><tr><th>Prize</th><th>Still out there</th><th>Started with</th></tr></thead><tbody>' + rows + '</tbody></table>'
+        : '<div class="empty-msg" style="padding:18px 0">Prize details coming soon for this game.</div>';
+      const img = g.img
+        ? '<img src="' + esc(g.img) + '" alt="" loading="lazy" onerror="this.outerHTML=\'<div class=noimg>🎟️</div>\'">'
+        : '<div class="noimg">🎟️</div>';
+      return (
+        '<div class="card" data-name="' + esc((g.name + ' ' + g.n).toLowerCase()) + '">' +
+          '<div class="card-head" onclick="this.parentElement.classList.toggle(\'open\')">' +
+            img +
+            '<div class="card-title"><h3>' + esc(g.name) + '</h3><div class="num">#' + esc(g.n) + '</div></div>' +
+            '<div class="cost-chip">$' + (g.cost % 1 ? g.cost : Math.round(g.cost)) + '</div>' +
+          '</div>' +
+          '<div class="expand-hint">▾ tap for prize table</div>' +
+          '<div class="prizes">' + table +
+            '<div class="locked"><div class="lock-line"><span>🔒</span><span>' +
+              '<strong>Is this one still worth buying?</strong> Ticket value, SmartScratcher Score, ' +
+              'and best-in-state rankings are <a href="' + APP_URL + '">in the app</a>.' +
+            '</span></div></div>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join('');
+  }
+
+  searchBox.addEventListener('input', () => {
+    const q = searchBox.value.trim().toLowerCase();
+    draw(q ? currentGames.filter(g => (g.name + ' ' + g.n).toLowerCase().includes(q)) : currentGames);
+  });
+
+  selectState(active);
+})();
+</script>
+</body>
+</html>
