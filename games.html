@@ -97,6 +97,14 @@
   }
   .state-tabs button:hover { transform: translateY(-1px); }
   .state-tabs button.active { background: var(--yellow); box-shadow: 3px 3px 0 var(--ink); }
+  .cost-tabs { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; margin-bottom: 16px; }
+  .cost-tabs button {
+    font-family: var(--mono); font-size: 12.5px; font-weight: 700; cursor: pointer;
+    padding: 6px 13px; border-radius: 999px; border: 1.5px solid var(--ink);
+    background: #fff; color: var(--ink); transition: transform 0.1s, background 0.15s;
+  }
+  .cost-tabs button:hover { transform: translateY(-1px); }
+  .cost-tabs button.active { background: var(--ink); color: var(--yellow); }
   .search-row { display: flex; justify-content: center; }
   .search-row input {
     font-family: var(--sans); font-size: 15px; width: min(420px, 100%);
@@ -140,6 +148,15 @@
     background: var(--yellow); border: 2px solid var(--ink); border-radius: 10px;
     padding: 6px 10px; flex-shrink: 0;
   }
+  .tickets-left {
+    display: flex; align-items: center; gap: 10px;
+    padding: 0 16px 10px; font-family: var(--mono); font-size: 11px; color: var(--muted);
+  }
+  .tickets-left .tbar {
+    flex: 1; height: 6px; background: #efe9cf; border-radius: 3px; overflow: hidden;
+  }
+  .tickets-left .tbar span { display: block; height: 100%; background: var(--green); }
+  .tickets-left .tpct { white-space: nowrap; font-weight: 700; color: var(--ink-soft); }
   .expand-hint {
     font-family: var(--mono); font-size: 11px; color: var(--muted);
     text-align: center; padding: 0 0 10px; user-select: none;
@@ -250,6 +267,7 @@
 
 <div class="controls">
   <div class="state-tabs" id="stateTabs"></div>
+  <div class="cost-tabs" id="costTabs"></div>
   <div class="search-row">
     <input type="search" id="searchBox" placeholder="Search games… (name or number)" autocomplete="off">
   </div>
@@ -297,14 +315,23 @@
   const APP_URL = 'https://apps.apple.com/us/app/smartscratcher/id6737247458';
   const grid = document.getElementById('grid');
   const tabsEl = document.getElementById('stateTabs');
+  const costTabsEl = document.getElementById('costTabs');
   const searchBox = document.getElementById('searchBox');
   const updatedLine = document.getElementById('updatedLine');
   const cache = {};
   let currentGames = [];
+  let activeCost = null;   // null = all prices
 
   const fmt = (n) => n == null ? '—' : n.toLocaleString('en-US');
   const money = (n) => n == null ? '—' : '$' + n.toLocaleString('en-US');
   const esc = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const costLabel = (c) => '$' + (c % 1 ? c : Math.round(c));
+  const niceDate = (iso) => {
+    if (!iso) return 'daily';
+    const [y, m, d] = iso.split('-').map(Number);
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return months[m - 1] + ' ' + d + ', ' + y;
+  };
 
   // Which state to open first: ?state=xx, else remembered, else Texas
   const params = new URLSearchParams(location.search);
@@ -332,7 +359,7 @@
   function load(code) {
     if (cache[code]) { render(cache[code]); return; }
     grid.innerHTML = '<div class="empty-msg">Loading games…</div>';
-    fetch('data/games/' + code + '.json')
+    fetch('data/games/' + code + '.json', { cache: 'no-cache' })
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(data => { cache[code] = data; render(data); })
       .catch(() => {
@@ -344,13 +371,46 @@
   function render(data) {
     currentGames = data.games;
     updatedLine.textContent = data.games.length + ' active ' + data.state_name +
-      ' games · data updated ' + (data.updated || 'daily');
-    draw(currentGames);
+      ' games · data updated ' + niceDate(data.updated);
+    activeCost = null;
+    buildCostTabs(currentGames);
+    applyFilters();
+  }
+
+  function buildCostTabs(games) {
+    const costs = [...new Set(games.map(g => g.cost).filter(c => c != null))].sort((a, b) => a - b);
+    costTabsEl.innerHTML = '';
+    const all = document.createElement('button');
+    all.textContent = 'All prices';
+    all.classList.add('active');
+    all.addEventListener('click', () => setCost(null, all));
+    costTabsEl.appendChild(all);
+    costs.forEach(c => {
+      const b = document.createElement('button');
+      b.textContent = costLabel(c);
+      b.addEventListener('click', () => setCost(c, b));
+      costTabsEl.appendChild(b);
+    });
+  }
+
+  function setCost(cost, btn) {
+    activeCost = cost;
+    costTabsEl.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const q = searchBox.value.trim().toLowerCase();
+    let games = currentGames;
+    if (activeCost != null) games = games.filter(g => g.cost === activeCost);
+    if (q) games = games.filter(g => (g.name + ' ' + g.n).toLowerCase().includes(q));
+    draw(games);
   }
 
   function draw(games) {
     if (!games.length) {
-      grid.innerHTML = '<div class="empty-msg">No games match that search.</div>';
+      grid.innerHTML = '<div class="empty-msg">No games match those filters.</div>';
       return;
     }
     grid.innerHTML = games.map(g => {
@@ -367,13 +427,20 @@
       const img = g.img
         ? '<img src="' + esc(g.img) + '" alt="" loading="lazy" onerror="this.outerHTML=\'<div class=noimg>🎟️</div>\'">'
         : '<div class="noimg">🎟️</div>';
+      const oddsBit = g.odds ? ' · odds 1 in ' + g.odds : '';
+      const ticketsBar = g.left_pct != null
+        ? '<div class="tickets-left"><span>est. tickets left</span>' +
+          '<div class="tbar"><span style="width:' + Math.min(100, g.left_pct) + '%"></span></div>' +
+          '<span class="tpct">≈' + g.left_pct + '%</span></div>'
+        : '';
       return (
         '<div class="card" data-name="' + esc((g.name + ' ' + g.n).toLowerCase()) + '">' +
           '<div class="card-head" onclick="this.parentElement.classList.toggle(\'open\')">' +
             img +
-            '<div class="card-title"><h3>' + esc(g.name) + '</h3><div class="num">#' + esc(g.n) + '</div></div>' +
-            '<div class="cost-chip">$' + (g.cost % 1 ? g.cost : Math.round(g.cost)) + '</div>' +
+            '<div class="card-title"><h3>' + esc(g.name) + '</h3><div class="num">#' + esc(g.n) + esc(oddsBit) + '</div></div>' +
+            '<div class="cost-chip">' + costLabel(g.cost) + '</div>' +
           '</div>' +
+          ticketsBar +
           '<div class="expand-hint">▾ tap for prize table</div>' +
           '<div class="prizes">' + table +
             '<div class="locked"><div class="lock-line"><span>🔒</span><span>' +
@@ -386,10 +453,7 @@
     }).join('');
   }
 
-  searchBox.addEventListener('input', () => {
-    const q = searchBox.value.trim().toLowerCase();
-    draw(q ? currentGames.filter(g => (g.name + ' ' + g.n).toLowerCase().includes(q)) : currentGames);
-  });
+  searchBox.addEventListener('input', applyFilters);
 
   selectState(active);
 })();
