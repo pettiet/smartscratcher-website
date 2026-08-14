@@ -499,7 +499,9 @@
         const leftCell = p.left === 0
           ? '<td class="zero">0 <span class="gone-note">gone</span></td>'
           : '<td>' + fmt(p.left) + '<div class="bar"><span style="width:' + pct + '%"></span></div></td>';
-        return '<tr><td>' + money(p.amt) + '</td>' + leftCell + '<td>' + fmt(p.total) + '</td></tr>';
+        // prize_amount -1 is the lotteries' marker for a free-ticket prize
+        const prizeLabel = p.amt === -1 ? '🎟️ Free Ticket' : money(p.amt);
+        return '<tr><td>' + prizeLabel + '</td>' + leftCell + '<td>' + fmt(p.total) + '</td></tr>';
       }).join('');
       const table = g.prizes.length
         ? '<table><thead><tr><th>Prize</th><th>Still out there</th><th>Started with</th></tr></thead><tbody>' + rows + '</tbody></table>'
