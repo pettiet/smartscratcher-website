@@ -439,7 +439,9 @@
   function load(code) {
     if (cache[code]) { render(cache[code]); return; }
     grid.innerHTML = '<div class="empty-msg">Loading games…</div>';
-    fetch('data/games/' + code + '.json', { cache: 'no-cache' })
+    // Timestamped URL defeats iOS Safari's stubborn fetch cache — the files
+    // are small and load once per visit, so skipping the cache is cheap.
+    fetch('data/games/' + code + '.json?t=' + Date.now(), { cache: 'no-cache' })
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(data => { cache[code] = data; render(data); })
       .catch(() => {
