@@ -152,7 +152,7 @@ header.page .deck {
 .dr-body { color: var(--ink-soft); font-size: 15.5px; margin-bottom: 16px; }
 .dr-upsell {
   background: var(--cream); border-top: 2px solid var(--ink);
-  margin: 0 -22px; padding: 12px 22px; font-size: 13.5px; line-height: 1.5;
+  margin: 10px -22px 0; padding: 14px 22px; font-size: 13.5px; line-height: 1.5;
   display: flex; gap: 8px; align-items: flex-start;
 }
 .dr-upsell strong { font-weight: 700; }
