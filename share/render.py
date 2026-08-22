@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Render share-card HTML templates to 1200x630 PNGs via Playwright.
+"""Render share-card HTML templates to PNGs via Playwright.
+
+1200x630 by default; templates whose slug ends in "-ig" render as 1080x1080
+Instagram squares.
 
 Templates live in share/templates/<slug>.html.
 Outputs land at share/<slug>.png.
@@ -20,21 +23,24 @@ TEMPLATES = ROOT / "templates"
 def render(slugs):
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        ctx = browser.new_context(viewport={"width": 1200, "height": 630}, device_scale_factor=1)
-        page = ctx.new_page()
         for slug in slugs:
             template = TEMPLATES / f"{slug}.html"
             output = ROOT / f"{slug}.png"
             if not template.exists():
                 print(f"  ! missing: {template}")
                 continue
+            # "-ig" templates are 1080x1080 Instagram squares; everything else is 1200x630.
+            w, h = (1080, 1080) if slug.endswith("-ig") else (1200, 630)
+            ctx = browser.new_context(viewport={"width": w, "height": h}, device_scale_factor=1)
+            page = ctx.new_page()
             page.goto(f"file://{template}")
             # Wait for fonts to be ready before screenshot
             page.evaluate("document.fonts.ready")
             page.wait_for_load_state("networkidle")
-            page.screenshot(path=str(output), clip={"x": 0, "y": 0, "width": 1200, "height": 630})
+            page.screenshot(path=str(output), clip={"x": 0, "y": 0, "width": w, "height": h})
+            ctx.close()
             size = output.stat().st_size
-            print(f"  ✓ {slug}.png ({size:,} bytes)")
+            print(f"  ✓ {slug}.png ({w}x{h}, {size:,} bytes)")
         browser.close()
 
 

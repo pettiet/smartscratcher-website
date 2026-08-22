@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,900&family=JetBrains+Mono:wght@500;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root { --yellow:#ffd60a; --red:#ff3b30; --ink:#1a1a1a; --cream:#fff9e6; --display:'Bricolage Grotesque',sans-serif; --mono:'JetBrains Mono',monospace; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1080px; overflow:hidden; background:var(--cream); color:var(--ink); font-family:var(--display); -webkit-font-smoothing:antialiased;
+    background-image: radial-gradient(circle at 88% 8%, rgba(255,214,10,.55), transparent 38%); }
+  .stripe { position:absolute; top:0; left:0; right:0; height:16px; background:var(--ink); border-bottom:4px solid var(--yellow); }
+  .frame { position:relative; width:1080px; height:1080px; padding:72px 76px 64px; display:flex; flex-direction:column; }
+  .brand { display:flex; justify-content:space-between; align-items:center; }
+  .wm { font-weight:900; font-size:30px; letter-spacing:-.02em; }
+  .wm span { background:var(--yellow); padding:0 8px; }
+  .eyebrow { font-family:var(--mono); font-size:14px; font-weight:700; letter-spacing:.25em; text-transform:uppercase; background:var(--ink); color:var(--yellow); padding:8px 14px; transform:rotate(1deg); box-shadow:4px 4px 0 var(--red); }
+  h1 { font-weight:900; font-size:112px; line-height:.9; letter-spacing:-.05em; margin-top:44px; }
+  h1 em { font-style:normal; color:var(--red); }
+  .sub { font-family:var(--mono); font-size:18px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:#444; margin-top:18px; }
+  .card { margin-top:34px; background:#fff; border:4px solid var(--ink); box-shadow:12px 12px 0 var(--red); padding:28px 30px 22px; transform:rotate(-.8deg); }
+  .grid { display:grid; grid-template-columns:repeat(20, 1fr); gap:9px; }
+  .grid span { aspect-ratio:1; border-radius:50%; background:#e4dcc2; border:2px solid #d6cdae; display:block; }
+  .grid span.on { background:var(--yellow); border-color:var(--ink); }
+  .grid span.new { background:var(--red); border-color:var(--ink); }
+  .legend { display:flex; gap:26px; justify-content:center; font-family:var(--mono); font-size:13px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#444; margin-top:18px; }
+  .legend i { display:inline-block; width:13px; height:13px; border-radius:50%; border:2px solid var(--ink); vertical-align:-1px; margin-right:7px; }
+  .chips { display:flex; gap:10px; margin-top:34px; }
+  .chip { font-family:var(--mono); font-weight:700; font-size:22px; letter-spacing:.06em; padding:12px 0; border:3px solid var(--ink); flex:1; text-align:center; background:#fff; }
+  .chip.new { background:var(--red); border-color:var(--ink); color:#fff; }
+  .ask { font-family:'Caveat',cursive; font-size:46px; color:var(--ink); margin-top:auto; transform:rotate(-1.5deg); }
+  .ask b { color:var(--red); }
+  .footer { display:flex; justify-content:space-between; align-items:flex-end; border-top:3px solid var(--ink); padding-top:16px; margin-top:14px; }
+  .url { font-family:var(--mono); font-weight:700; font-size:20px; letter-spacing:.04em; }
+  .tag { font-family:var(--mono); font-size:13px; letter-spacing:.2em; text-transform:uppercase; color:#666; }
+</style></head>
+<body>
+  <div class="stripe"></div>
+  <div class="frame">
+    <div class="brand"><div class="wm">Smart<span>Scratcher</span></div><div class="eyebrow">Version 4.0 is out</div></div>
+    <h1>Nearly <em>half</em> of America.</h1>
+    <div class="sub">9 states · ~157 million people · ~900 games tracked daily</div>
+    <div class="card">
+      <div class="grid"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="legend"><span><i style="background:#ffd60a"></i>Already covered</span><span><i style="background:#ff3b30"></i>New in 4.0</span><span><i style="background:#e4dcc2;border-color:#d6cdae"></i>Not yet</span></div>
+    </div>
+    <div class="chips"><span class="chip">CA</span><span class="chip">TX</span><span class="chip">OK</span><span class="chip">FL</span><span class="chip">NY</span><span class="chip">NC</span><span class="chip new">MA</span><span class="chip new">GA</span><span class="chip new">NJ</span></div>
+    <div class="ask">Is <b>your</b> state on the list? 👇</div>
+    <div class="footer"><div class="url">smartscratcherapp.com</div><div class="tag">— Stop buying dead scratchers —</div></div>
+  </div>
+</body></html>

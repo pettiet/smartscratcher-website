@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,900&family=JetBrains+Mono:wght@500;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root { --yellow:#ffd60a; --red:#ff3b30; --ink:#1a1a1a; --cream:#fff9e6; --display:'Bricolage Grotesque',sans-serif; --mono:'JetBrains Mono',monospace; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1200px; height:630px; overflow:hidden; background:var(--ink); color:var(--cream); font-family:var(--display); -webkit-font-smoothing:antialiased; }
+  .ghost { position:absolute; top:-18px; left:-10px; white-space:nowrap; font-weight:900; font-size:150px; color:#2a2a2a; opacity:.7; line-height:1; letter-spacing:-.03em; }
+  .stripe { position:absolute; top:0; left:0; right:0; height:14px; background:var(--yellow); }
+  .frame { position:relative; width:1200px; height:630px; padding:120px 72px 0 72px; display:grid; grid-template-columns:1fr 380px; gap:40px; }
+  .eyebrow { display:inline-block; font-family:var(--mono); font-size:13px; font-weight:700; letter-spacing:.25em; text-transform:uppercase; background:var(--yellow); color:var(--ink); padding:8px 14px; transform:rotate(-1deg); box-shadow:4px 4px 0 var(--red); margin-bottom:22px; }
+  .pct { font-weight:900; font-size:210px; line-height:.82; letter-spacing:-.06em; color:var(--yellow); text-shadow:8px 8px 0 var(--red); }
+  .pct sup { font-size:.36em; vertical-align:top; position:relative; top:.1em; margin-left:4px; }
+  h1 { font-weight:900; font-size:46px; line-height:1; letter-spacing:-.03em; margin-top:22px; max-width:640px; }
+  .chips { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; align-content:start; padding-top:8px; }
+  .chip { font-family:var(--mono); font-weight:700; font-size:24px; letter-spacing:.06em; padding:18px 0; border:3px solid var(--cream); color:var(--cream); text-align:center; }
+  .chip.new { background:var(--red); border-color:var(--red); color:#fff; position:relative; }
+  .chip.new::after { content:"NEW"; position:absolute; top:-12px; right:-10px; background:var(--yellow); color:var(--ink); font-size:10px; letter-spacing:.15em; padding:3px 6px; transform:rotate(6deg); }
+  .caveat { grid-column:1 / -1; font-family:'Caveat',cursive; font-size:27px; white-space:nowrap; color:var(--yellow); margin-top:10px; transform:rotate(-2deg); }
+  .footer { position:absolute; left:72px; right:72px; bottom:34px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid rgba(255,249,230,.25); padding-top:16px; }
+  .url { font-family:var(--mono); font-weight:700; font-size:18px; letter-spacing:.04em; }
+  .tag { font-family:var(--mono); font-size:13px; letter-spacing:.2em; text-transform:uppercase; color:rgba(255,249,230,.6); }
+</style></head>
+<body>
+  <div class="stripe"></div>
+  <div class="ghost">NINE STATES · NINE STATES · NINE STATES</div>
+  <div class="frame">
+    <div>
+      <div class="eyebrow">SmartScratcher 4.0 · three more states</div>
+      <div class="pct">46<sup>%</sup></div>
+      <h1>of America can now scratch smarter.</h1>
+    </div>
+    <div class="chips">
+      <span class="chip">CA</span><span class="chip">TX</span><span class="chip">OK</span>
+      <span class="chip">FL</span><span class="chip">NY</span><span class="chip">NC</span>
+      <span class="chip new">MA</span><span class="chip new">GA</span><span class="chip new">NJ</span>
+      <div class="caveat">↑ 9 states · ~900 games · checked daily</div>
+    </div>
+  </div>
+  <div class="footer"><div class="url">smartscratcherapp.com</div><div class="tag">— Stop buying dead scratchers —</div></div>
+</body></html>

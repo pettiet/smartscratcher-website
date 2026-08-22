@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,900&family=JetBrains+Mono:wght@500;700&family=Caveat:wght@700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root { --yellow:#ffd60a; --red:#ff3b30; --ink:#1a1a1a; --cream:#fff9e6; --purple:#6d28d9; --display:'Bricolage Grotesque',sans-serif; --mono:'JetBrains Mono',monospace; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1200px; height:630px; overflow:hidden; background:var(--yellow); color:var(--ink); font-family:var(--display); -webkit-font-smoothing:antialiased; }
+  .stripe { position:absolute; top:0; left:0; right:0; height:14px; background:var(--ink); }
+  .frame { position:relative; width:1200px; height:630px; padding:80px 0 0 72px; display:grid; grid-template-columns:560px 1fr; gap:30px; align-items:start; }
+  .eyebrow { display:inline-block; font-family:var(--mono); font-size:13px; font-weight:700; letter-spacing:.25em; text-transform:uppercase; background:var(--ink); color:var(--yellow); padding:8px 14px; transform:rotate(-1deg); box-shadow:4px 4px 0 var(--red); margin-bottom:26px; }
+  h1 { font-weight:900; font-size:96px; line-height:.9; letter-spacing:-.05em; }
+  h1 span { background:var(--cream); padding:0 10px; display:inline-block; transform:rotate(-1deg); }
+  .sub { font-family:var(--mono); font-size:15px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-top:26px; color:#333; max-width:520px; line-height:1.6; }
+  .page { position:relative; align-self:center; margin-top:-60px; margin-right:56px; background:#fffdf5; border:3px solid var(--ink); box-shadow:10px 10px 0 var(--ink); transform:rotate(2deg); padding:26px 28px 22px 48px;
+    background-image:repeating-linear-gradient(to bottom, transparent 0 27px, #d9e6f5 27px 28px); background-position:0 14px; }
+  .page::before { content:""; position:absolute; top:0; bottom:0; left:32px; width:2px; background:#f4b4b4; }
+  .holes { position:absolute; left:9px; top:26px; bottom:26px; width:12px; display:flex; flex-direction:column; justify-content:space-between; }
+  .holes i { display:block; width:12px; height:12px; border-radius:50%; background:var(--yellow); border:2px solid var(--ink); }
+  .ph { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+  .game { font-weight:800; font-size:19px; letter-spacing:-.01em; }
+  .game small { display:block; font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:#6a6a6a; margin-top:3px; }
+  .badge { font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; background:var(--purple); color:#fff; padding:5px 9px; border-radius:100px; }
+  .lab { font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--purple); margin-bottom:4px; }
+  .hd { font-family:'Fraunces',serif; font-weight:600; font-size:23px; line-height:1.2; letter-spacing:-.01em; margin-bottom:10px; }
+  .bd { font-family:'Fraunces',serif; font-size:15.5px; line-height:1.5; color:#2a2a2a; }
+  .bd u { color:#0066ff; text-decoration-style:dotted; text-underline-offset:3px; font-weight:600; }
+  .stamp { margin-top:12px; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:.06em; background:#fff3cc; border:2px dashed var(--ink); padding:7px 10px; display:inline-block; transform:rotate(.6deg); }
+  .footer { position:absolute; left:72px; right:72px; bottom:30px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid var(--ink); padding-top:14px; }
+  .url { font-family:var(--mono); font-weight:700; font-size:18px; letter-spacing:.04em; }
+  .tag { font-family:var(--mono); font-size:13px; letter-spacing:.2em; text-transform:uppercase; color:#444; }
+</style></head>
+<body>
+  <div class="stripe"></div>
+  <div class="frame">
+    <div>
+      <div class="eyebrow">New in 4.0 · Daily Deep Dive</div>
+      <h1>We gave every scratcher <span>a diary.</span></h1>
+      <div class="sub">A fresh write-up on every game, every morning. What changed. What it means. Where to look instead.</div>
+    </div>
+    <div class="page">
+      <div class="holes"><i></i><i></i><i></i></div>
+      <div class="ph"><div class="game">Dino Dollars<small>$5 · fictional, for show</small></div><span class="badge">Today</span></div>
+      <div class="lab">✦ Daily Deep Dive</div>
+      <div class="hd">Two of three $100K top prizes are gone — but the middle of the pile is still stuffed</div>
+      <div class="bd">Somebody cashed a $100,000 ticket yesterday. The big dream got thinner; the everyday wins didn't. Holding a five and want all the top prizes still in play? <u>“Corn Dog Cash”</u> is the one we'd look at next.</div>
+      <div class="stamp">Still a solid $5 pick in our rankings.</div>
+    </div>
+  </div>
+  <div class="footer"><div class="url">smartscratcherapp.com</div><div class="tag">— Every game. Every day. —</div></div>
+</body></html>
