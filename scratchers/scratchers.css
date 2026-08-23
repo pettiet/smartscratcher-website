@@ -193,6 +193,12 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
 }
 .prize-card td .bar span { display: block; height: 100%; background: var(--green); }
 .prize-card td.zero, .index-table td.zero { color: var(--red); font-weight: 700; }
+/* Top prize of a game whose top tier is exhausted — struck through so the
+   index never reads as advertising a prize that can no longer be won. */
+.index-table td.dead-amt {
+  color: var(--muted); text-decoration: line-through;
+  text-decoration-thickness: 1px; text-decoration-color: var(--red);
+}
 .gone-note { color: var(--red); font-family: var(--mono); font-size: 10.5px; }
 
 /* locked upsell inside prize card */
