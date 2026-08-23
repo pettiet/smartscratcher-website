@@ -82,6 +82,13 @@ header.page h1 {
 header.page .deck {
   max-width: 620px; margin: 0 auto 8px; font-size: 17px; color: var(--ink-soft);
 }
+/* Game page H1 = the <title>; the second half is visually quieter so the
+   game name still reads as the headline. */
+header.page h1 .h1-sub {
+  display: block; font-size: 0.5em; font-weight: 600; color: var(--ink-soft);
+  letter-spacing: 0; margin-top: 10px;
+}
+header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
 
 /* ---------- SHARED LAYOUT ---------- */
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 5%; }
@@ -186,6 +193,12 @@ header.page .deck {
 }
 .prize-card td .bar span { display: block; height: 100%; background: var(--green); }
 .prize-card td.zero, .index-table td.zero { color: var(--red); font-weight: 700; }
+/* Top prize of a game whose top tier is exhausted — struck through so the
+   index never reads as advertising a prize that can no longer be won. */
+.index-table td.dead-amt {
+  color: var(--muted); text-decoration: line-through;
+  text-decoration-thickness: 1px; text-decoration-color: var(--red);
+}
 .gone-note { color: var(--red); font-family: var(--mono); font-size: 10.5px; }
 
 /* locked upsell inside prize card */
@@ -260,6 +273,7 @@ header.page .deck {
 .chip.more { background: var(--ink); color: var(--yellow); }
 .chip.more:hover { background: var(--ink-soft); }
 .chip.ended { color: var(--muted); }
+.chip .chip-price { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-left: 4px; }
 
 /* ---------- HUB: STATE CARDS ---------- */
 .state-grid {
