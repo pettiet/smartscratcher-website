@@ -912,13 +912,23 @@
     gap: 16px;
   }
   .state-card {
+    display: block;
     background: white;
     border: 2px solid var(--ink);
     border-radius: 16px;
     padding: 28px 22px;
     text-align: center;
     box-shadow: 4px 4px 0 var(--ink);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.12s, box-shadow 0.12s;
   }
+  .state-card:hover,
+  .state-card:focus-visible {
+    transform: translateY(-3px);
+    box-shadow: 7px 7px 0 var(--ink);
+  }
+  .state-card:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
   .state-card .s-flag {
     font-size: 40px;
     margin-bottom: 10px;
@@ -946,6 +956,14 @@
     padding-top: 10px;
     border-top: 1px dashed var(--rule);
   }
+  .state-card .s-go {
+    margin-top: 12px;
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: 13.5px;
+    color: var(--red-deep);
+  }
+  .state-card:hover .s-go { text-decoration: underline; }
   .states-cta {
     text-align: center;
     margin-top: 30px;
@@ -1545,60 +1563,69 @@
   <p class="states-deck">We currently track every active scratch-off in these states. Data refreshes whenever each state lottery posts an update.</p>
 
   <div class="states-grid">
-    <div class="state-card">
+    <a class="state-card" href="/scratchers/oklahoma/">
       <div class="s-flag">🌾</div>
       <div class="s-abbr">OK</div>
       <div class="s-name">Oklahoma</div>
       <div class="s-stats">Every active game · always current</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/texas/">
       <div class="s-flag">⭐</div>
       <div class="s-abbr">TX</div>
       <div class="s-name">Texas</div>
       <div class="s-stats">Every active game · always current</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/california/">
       <div class="s-flag">🐻</div>
       <div class="s-abbr">CA</div>
       <div class="s-name">California</div>
       <div class="s-stats">Every active game · always current</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/florida/">
       <div class="s-flag">🌴</div>
       <div class="s-abbr">FL</div>
       <div class="s-name">Florida</div>
       <div class="s-stats">Just added · every active game</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/new-york/">
       <div class="s-flag">🗽</div>
       <div class="s-abbr">NY</div>
       <div class="s-name">New York</div>
       <div class="s-stats">Just added · every active game</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/north-carolina/">
       <div class="s-flag">🌲</div>
       <div class="s-abbr">NC</div>
       <div class="s-name">North Carolina</div>
       <div class="s-stats">Just added · every active game</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/massachusetts/">
       <div class="s-flag">🦞</div>
       <div class="s-abbr">MA</div>
       <div class="s-name">Massachusetts</div>
       <div class="s-stats">Sneak peek · in the app soon</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/georgia/">
       <div class="s-flag">🍑</div>
       <div class="s-abbr">GA</div>
       <div class="s-name">Georgia</div>
       <div class="s-stats">Sneak peek · in the app soon</div>
-    </div>
-    <div class="state-card">
+      <div class="s-go">See every game →</div>
+    </a>
+    <a class="state-card" href="/scratchers/new-jersey/">
       <div class="s-flag">🎡</div>
       <div class="s-abbr">NJ</div>
       <div class="s-name">New Jersey</div>
       <div class="s-stats">Sneak peek · in the app soon</div>
-    </div>
+      <div class="s-go">See every game →</div>
+    </a>
   </div>
 
   <div class="live-peek">
