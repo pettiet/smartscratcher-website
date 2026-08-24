@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>Seven new states. One very big day. — SmartScratcher</title>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Seven new states. One very big day.">
+<meta property="og:description" content="Michigan, Maryland, Washington, South Carolina, Virginia, Indiana, and Missouri are now live. Sixteen states total. One app that tells you which scratchers are worth your money.">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/seven-new-states.png">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/seven-new-states.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    color-scheme: light !important;
+    --yellow: #ffd60a;
+    --yellow-soft: #fff3cc;
+    --cream: #fff9e6;
+    --ink: #1a1a1a;
+    --ink-soft: #2a2a2a;
+    --red: #ff3b30;
+    --green: #16a34a;
+    --blue: #0066ff;
+    --muted: #6a6a6a;
+    --rule: #e8e2d1;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--cream) !important;
+    color: var(--ink) !important;
+    color-scheme: light !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ============ NAV ============ */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--ink);
+    color: var(--cream);
+    padding: 14px 0;
+    border-bottom: 4px solid var(--yellow);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wordmark {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    text-decoration: none;
+  }
+  .wordmark span { color: var(--yellow); }
+  .nav-links {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+  }
+  .nav-links a {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 249, 230, 0.85);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--yellow); }
+  .nav-links a.nav-cta {
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 9px 18px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .nav-links a.nav-cta:hover {
+    background: #ffe44d;
+    color: var(--ink);
+  }
+  @media (max-width: 720px) {
+    .nav-links a:not(.nav-cta) { display: none; }
+    .nav { padding: 12px 0; }
+  }
+
+  /* ============ TICKER ============ */
+  .ticker {
+    background: var(--red);
+    color: white;
+    overflow: hidden;
+    border-bottom: 2px solid var(--ink);
+    padding: 10px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .ticker-inner {
+    display: inline-block;
+    animation: scroll 30s linear infinite;
+    padding-left: 100%;
+  }
+  .ticker-inner span { margin: 0 24px; }
+  .ticker-inner .dot { color: var(--yellow); }
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  /* ============ HERO ============ */
+  .hero {
+    background: var(--cream);
+    padding: 80px 24px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: var(--yellow);
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 0;
+  }
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    display: inline-block;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 8px 16px;
+    transform: rotate(-1deg);
+    box-shadow: 4px 4px 0 var(--red);
+  }
+  .hero h1 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(48px, 8vw, 104px);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    margin-bottom: 32px;
+    max-width: 1000px;
+  }
+  .hero h1 .state-name {
+    display: inline-block;
+    color: var(--ink);
+  }
+  .hero h1 .state-name:nth-of-type(1) { color: var(--ink); }
+  .hero h1 .state-name:nth-of-type(2) { color: var(--ink); }
+  .hero h1 .state-name:nth-of-type(3) { color: var(--ink); }
+  .hero h1 .highlight {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .hero h1 .highlight::before {
+    content: "";
+    position: absolute;
+    inset: 12px -6px -8px -6px;
+    background: var(--yellow);
+    z-index: -1;
+    transform: rotate(-0.5deg);
+  }
+  .hero-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(18px, 2vw, 22px);
+    color: var(--ink-soft);
+    max-width: 720px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+  }
+  .hero-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 24px;
+    border-top: 2px solid var(--ink);
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  /* ============ MAP REVEAL ============ */
+  .map-section {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 100px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .map-section::before {
+    content: "MORE STATES. MORE GAMES. MORE STATES. MORE GAMES. ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: 180px;
+    color: var(--ink-soft);
+    opacity: 0.4;
+    line-height: 1;
+    pointer-events: none;
+  }
+  .map-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .map-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .map-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--yellow);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .map-headline {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 5vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--cream);
+    margin-bottom: 24px;
+  }
+  .map-headline .num {
+    color: var(--yellow);
+    font-size: 1.2em;
+    display: inline-block;
+    transform: translateY(8px);
+  }
+  .map-text {
+    font-size: 17px;
+    color: rgba(255, 249, 230, 0.85);
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+
+  .map-viz {
+    background: var(--cream);
+    color: var(--ink);
+    padding: 40px 32px;
+    border: 4px solid var(--yellow);
+    box-shadow: 8px 8px 0 var(--red);
+    transform: rotate(-1deg);
+  }
+  .map-viz svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .map-viz-caption {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 16px;
+    color: var(--ink);
+  }
+  .map-viz-caption .arrow {
+    color: var(--red);
+    font-weight: 700;
+  }
+
+  /* ============ STATES STACK ============ */
+  .states-section {
+    background: var(--cream);
+    padding: 100px 24px;
+  }
+  .states-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .states-eyebrow {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .states-eyebrow .kicker-small {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .states-eyebrow h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 5vw, 56px);
+    letter-spacing: -0.03em;
+    color: var(--ink);
+    line-height: 1;
+  }
+
+  .state-card {
+    background: white;
+    border: 3px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--ink);
+    padding: 40px;
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    gap: 32px;
+    align-items: center;
+    position: relative;
+  }
+  .state-card:nth-child(2) { transform: rotate(-0.4deg); }
+  .state-card:nth-child(3) { transform: rotate(0.5deg); }
+  .state-card:nth-child(4) { transform: rotate(-0.3deg); }
+
+  .state-number {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: 88px;
+    line-height: 1;
+    color: var(--yellow);
+    text-shadow: 3px 3px 0 var(--ink);
+  }
+  .state-body h3 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 3vw, 40px);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  .state-body .state-abbr {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .state-body p {
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    max-width: 480px;
+  }
+  .state-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  @media (max-width: 720px) {
+    .state-card {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .state-number { font-size: 64px; }
+    .state-icon { width: 60px; height: 60px; font-size: 32px; }
+  }
+
+  /* ============ WHAT YOU GET ============ */
+  .features-section {
+    background: var(--yellow);
+    padding: 100px 24px;
+    border-top: 4px solid var(--ink);
+    border-bottom: 4px solid var(--ink);
+  }
+  .features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .features-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .features-headline {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 5vw, 64px);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: var(--ink);
+    margin-bottom: 60px;
+    max-width: 800px;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+  .feature {
+    background: var(--cream);
+    border: 3px solid var(--ink);
+    padding: 28px;
+    position: relative;
+  }
+  .feature-num {
+    position: absolute;
+    top: -16px;
+    left: 20px;
+    background: var(--red);
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    letter-spacing: 0.1em;
+  }
+  .feature h4 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    color: var(--ink);
+  }
+  .feature p {
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  /* ============ CTA ============ */
+  .cta-section {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 100px 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .cta-eyebrow {
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    color: var(--yellow);
+    margin-bottom: 16px;
+    transform: rotate(-2deg);
+    display: inline-block;
+  }
+  .cta-headline {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(40px, 6vw, 72px);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+  .cta-headline .yellow { color: var(--yellow); }
+  .cta-sub {
+    font-size: 18px;
+    color: rgba(255, 249, 230, 0.85);
+    margin-bottom: 40px;
+    line-height: 1.55;
+  }
+  .cta-button {
+    display: inline-block;
+    background: var(--yellow);
+    color: var(--ink);
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    padding: 22px 48px;
+    border: 4px solid var(--cream);
+    box-shadow: 8px 8px 0 var(--red);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .cta-button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 var(--red);
+  }
+  .cta-fineprint {
+    margin-top: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: rgba(255, 249, 230, 0.5);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ============ FOOTER ============ */
+  .site-footer {
+    background: var(--ink);
+    color: rgba(255, 249, 230, 0.85);
+    padding: 60px 24px 30px;
+    border-top: 4px solid var(--yellow);
+  }
+  .site-footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 249, 230, 0.12);
+  }
+  .site-footer .f-brand .f-logo {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .site-footer .f-brand .f-logo span { color: var(--yellow); }
+  .site-footer .f-brand p {
+    font-size: 14px;
+    color: rgba(255, 249, 230, 0.6);
+    line-height: 1.55;
+    max-width: 320px;
+  }
+  .site-footer .f-col h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .site-footer .f-col a {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 249, 230, 0.78);
+    text-decoration: none;
+    padding: 4px 0;
+  }
+  .site-footer .f-col a:hover { color: var(--yellow); }
+  .site-footer-bottom {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: rgba(255, 249, 230, 0.5);
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+  }
+  .site-footer-bottom a {
+    color: var(--yellow);
+    text-decoration: none;
+  }
+  @media (max-width: 880px) {
+    .site-footer-inner { grid-template-columns: 1fr 1fr; gap: 28px; }
+  }
+  @media (max-width: 480px) {
+    .site-footer-inner { grid-template-columns: 1fr; gap: 22px; }
+  }
+
+  /* ============ MOBILE ============ */
+  @media (max-width: 720px) {
+    .map-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .hero { padding: 60px 24px 40px; }
+    .map-section, .states-section, .features-section, .cta-section {
+      padding: 60px 20px;
+    }
+    .map-section::before { font-size: 80px; }
+    .hero-meta { gap: 16px; flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="wordmark">Smart<span>Scratcher</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="nav-cta">Get the App</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>🟡 NEW</span><span class="dot">●</span>
+    <span>MICHIGAN IS LIVE</span><span class="dot">●</span>
+    <span>MARYLAND IS LIVE</span><span class="dot">●</span>
+    <span>WASHINGTON IS LIVE</span><span class="dot">●</span>
+    <span>SOUTH CAROLINA IS LIVE</span><span class="dot">●</span>
+    <span>VIRGINIA IS LIVE</span><span class="dot">●</span>
+    <span>INDIANA IS LIVE</span><span class="dot">●</span>
+    <span>MISSOURI IS LIVE</span><span class="dot">●</span>
+    <span>SIXTEEN STATES TOTAL</span><span class="dot">●</span>
+    <span>🟡 NEW</span><span class="dot">●</span>
+    <span>MICHIGAN IS LIVE</span><span class="dot">●</span>
+    <span>MARYLAND IS LIVE</span><span class="dot">●</span>
+    <span>WASHINGTON IS LIVE</span><span class="dot">●</span>
+    <span>SOUTH CAROLINA IS LIVE</span><span class="dot">●</span>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="kicker">📍 Our biggest expansion ever</div>
+    <h1><span class="state-name">Michigan.</span> <span class="state-name">Maryland.</span> <span class="state-name">Washington.</span> <span class="state-name">South Carolina.</span> <span class="state-name">Virginia.</span> <span class="state-name">Indiana.</span> <span class="state-name">Missouri.</span> <span class="highlight">Come on in.</span></h1>
+    <p class="hero-sub">SmartScratcher just added seven states in one shot — the biggest single expansion we've ever done. That's sixteen states total, covering most of the biggest scratch-off markets in the country. Same SmartScratcher Score, same hot/cold signals, same daily data. Now playing in your state.</p>
+    <div class="hero-meta">
+      <span>📅 Announcement</span>
+      <span>🆕 MI · MD · WA · SC · VA · IN · MO</span>
+      <span>📱 Already live in the app</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAP ============ -->
+<section class="map-section">
+  <div class="map-inner">
+    <div class="map-grid">
+      <div>
+        <div class="map-label">The new math</div>
+        <h2 class="map-headline">From <span class="num">9</span> → <span class="num">16</span></h2>
+        <p class="map-text">A year ago, SmartScratcher covered three states. This spring we made it six. This summer, nine.</p>
+        <p class="map-text">Today we're adding seven more at once: <strong style="color: var(--yellow);">Michigan, Maryland, Washington, South Carolina, Virginia, Indiana, and Missouri</strong> — every one of them fully tracked, with the same SmartScratcher Score, the same hot/cold temperature, and the same daily updates as the rest of the lineup.</p>
+        <p class="map-text">If you've been waiting for your state, there's a very good chance this is it.</p>
+      </div>
+      <div class="map-viz">
+        <!-- Stylized US map highlighting states -->
+        <svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30,80 Q40,40 90,40 L150,35 Q200,30 250,40 L340,45 Q380,50 380,90 L375,140 Q370,180 320,190 L260,200 Q200,210 140,205 L80,195 Q35,180 30,140 Z"
+                fill="#fff9e6" stroke="#1a1a1a" stroke-width="2"/>
+
+          <!-- Already tracking (yellow) -->
+          <circle cx="78" cy="128" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="78" y="132" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">CA</text>
+          <circle cx="178" cy="162" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="178" y="166" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">TX</text>
+          <circle cx="192" cy="128" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="192" y="132" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">OK</text>
+          <circle cx="309" cy="188" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="309" y="192" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">FL</text>
+          <circle cx="330" cy="74" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="330" y="78" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">NY</text>
+          <circle cx="291" cy="140" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="291" y="144" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">NC</text>
+          <circle cx="356" cy="62" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="356" y="66" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">MA</text>
+          <circle cx="282" cy="172" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="282" y="176" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">GA</text>
+          <circle cx="344" cy="96" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="344" y="100" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">NJ</text>
+
+          <!-- Just added (red, pulsing) -->
+          <circle cx="257" cy="72" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="257" cy="72" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="257" y="76" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">MI</text>
+
+          <circle cx="318" cy="112" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="318" cy="112" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="318" y="116" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">MD</text>
+
+          <circle cx="62" cy="58" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="62" cy="58" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="62" y="62" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">WA</text>
+
+          <circle cx="298" cy="158" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="0.9s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="0.9s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="298" cy="158" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="298" y="162" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">SC</text>
+
+          <circle cx="304" cy="126" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="304" cy="126" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="304" y="130" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">VA</text>
+
+          <circle cx="248" cy="102" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="248" cy="102" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="248" y="106" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">IN</text>
+
+          <circle cx="222" cy="124" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="1.8s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="1.8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="222" cy="124" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="222" y="128" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">MO</text>
+        </svg>
+        <div class="map-viz-caption">
+          🟡 = already tracking <span class="arrow">→</span> 🔴 = just added
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE THREE STATES ============ -->
+<section class="states-section">
+  <div class="states-inner">
+    <div class="states-eyebrow">
+      <div class="kicker-small">Now Tracking</div>
+      <h2>The seven new ones.</h2>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">01</div>
+      <div class="state-body">
+        <h3>Michigan</h3>
+        <div class="state-abbr">MI · Michigan Lottery</div>
+        <p>One of the biggest catalogs we've ever added — over a hundred active games at once, from $1 tickets to $50 monsters. That many choices is exactly when a ranking earns its keep. Browse <a href="../scratchers/michigan/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Michigan game and its remaining prizes</a> free.</p>
+      </div>
+      <div class="state-icon">🚗</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">02</div>
+      <div class="state-body">
+        <h3>Maryland</h3>
+        <div class="state-abbr">MD · Maryland Lottery</div>
+        <p>Home of the famous Big Spin wheel and a serious crossword habit. Maryland posts detailed prize tables for every game, and now they're all in one ranked list. Here's <a href="../scratchers/maryland/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Maryland game, counted prize by prize</a>.</p>
+      </div>
+      <div class="state-icon">🦀</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">03</div>
+      <div class="state-body">
+        <h3>Washington</h3>
+        <div class="state-abbr">WA · Washington's Lottery</div>
+        <p>A data lover's dream — Washington is one of the only lotteries in the country that publishes exactly how many tickets each game printed. That makes our estimates extra sharp here. See <a href="../scratchers/washington/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Washington game and what's left</a>.</p>
+      </div>
+      <div class="state-icon">🏔️</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">04</div>
+      <div class="state-body">
+        <h3>South Carolina</h3>
+        <div class="state-abbr">SC · South Carolina Education Lottery</div>
+        <p>Pound for pound, one of the most scratch-happy states in America. Fresh prize numbers post every morning, and the app grabs them the moment they land. Peek at <a href="../scratchers/south-carolina/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every South Carolina game's remaining prizes</a>.</p>
+      </div>
+      <div class="state-icon">🎓</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">05</div>
+      <div class="state-body">
+        <h3>Virginia</h3>
+        <div class="state-abbr">VA · Virginia Lottery</div>
+        <p>Big catalog, big variety — nearly ninety active games, including some of the largest top prizes on the East Coast. Virginia is for lovers; we'd add: lovers of not buying dead tickets. Here's <a href="../scratchers/virginia/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Virginia game and what's still out there</a>.</p>
+      </div>
+      <div class="state-icon">❤️</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">06</div>
+      <div class="state-body">
+        <h3>Indiana</h3>
+        <div class="state-abbr">IN · Hoosier Lottery</div>
+        <p>The Hoosier Lottery refreshes its numbers overnight, every night — so your morning check is always working with yesterday's reality, not last month's. Take a lap through <a href="../scratchers/indiana/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Indiana game and its unclaimed prizes</a>.</p>
+      </div>
+      <div class="state-icon">🏁</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">07</div>
+      <div class="state-body">
+        <h3>Missouri</h3>
+        <div class="state-abbr">MO · Missouri Lottery</div>
+        <p>The Show-Me State — fitting, because that's our whole thing. One honest detail we like: Missouri keeps old games on its website long after stores stop selling them, so we filter the list down to games you can actually still buy. See <a href="../scratchers/missouri/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every buyable Missouri game</a>.</p>
+      </div>
+      <div class="state-icon">⚜️</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT YOU GET ============ -->
+<section class="features-section">
+  <div class="features-inner">
+    <div class="features-eyebrow">Same app. Same tools. New states.</div>
+    <h2 class="features-headline">If you're new here, this is what SmartScratcher actually does.</h2>
+
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-num">01</div>
+        <h4>The SmartScratcher Score</h4>
+        <p>Every active game gets a single ranking based on prizes remaining, estimated tickets left, and overall value. No math required.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">02</div>
+        <h4>Hot / Cold Temperature</h4>
+        <p>At-a-glance signals for which games are heating up (good prizes still in play) and which are running cold (drained out, but still selling).</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">03</div>
+        <h4>Estimated Value</h4>
+        <p>The estimated return per ticket at the game's current state — not the launch state. Because that number changes every single day.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">04</div>
+        <h4>Daily Updates</h4>
+        <p>The app pulls fresh prize data from each state lottery every day. Wake up, check the app, see what changed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Michigan, Maryland, Washington, South Carolina, Virginia, Indiana, Missouri —</div>
+    <h2 class="cta-headline">Open the app. <span class="yellow">Pick your state.</span> Stop buying dead scratchers.</h2>
+    <p class="cta-sub">Free to download. Premium features include a 3-day free trial. If you've already got the app, just hit the state selector — the new ones are right there.</p>
+    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-button">Get SmartScratcher</a>
+    <div class="cta-fineprint">$2.99/mo after trial · Cancel anytime · iOS</div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="f-brand">
+      <a href="../index.html" class="f-logo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in 16 states: CA, FL, GA, IN, MA, MD, MI, MO, NC, NJ, NY, OK, SC, TX, VA, and WA.</p>
+    </div>
+    <div class="f-col">
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="f-col">
+      <h4>Fine print</h4>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="site-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+</body>
+</html>
