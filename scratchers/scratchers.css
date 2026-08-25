@@ -353,3 +353,53 @@ footer .f-col a:hover { color: var(--yellow); }
 .footer-bottom a { color: var(--yellow); text-decoration: none; }
 @media (max-width: 880px) { .footer-inner { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 480px) { .footer-inner { grid-template-columns: 1fr; } }
+
+/* ---------- BY THE NUMBERS PAGE ---------- */
+.num-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 26px;
+}
+.num-card {
+  background: #fff; border: 2px solid var(--ink); border-radius: 16px;
+  padding: 22px 20px; box-shadow: 4px 4px 0 var(--ink);
+}
+.num-card.hero-card { background: var(--yellow); }
+.num-card .n-num, .nerd-card .n-num {
+  font-family: var(--display); font-weight: 800;
+  font-size: clamp(30px, 3.4vw, 40px); line-height: 1.05;
+  letter-spacing: -0.02em; font-variant-numeric: tabular-nums;
+}
+.num-card .n-label, .nerd-card .n-label {
+  font-family: var(--mono); font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em; margin-top: 8px;
+}
+.num-card .n-sub, .nerd-card .n-sub {
+  font-size: 13.5px; color: var(--muted); line-height: 1.5; margin-top: 8px;
+}
+.num-card.hero-card .n-sub { color: var(--ink-soft); }
+@media (max-width: 1000px) { .num-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .num-grid { grid-template-columns: 1fr; } }
+
+.nerd-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 10px;
+}
+.nerd-card {
+  background: var(--cream); border: 2px solid var(--ink); border-radius: 16px;
+  padding: 20px;
+}
+@media (max-width: 760px) { .nerd-grid { grid-template-columns: 1fr; } }
+
+.method-card {
+  background: #fff; border: 2px solid var(--ink); border-radius: 16px;
+  padding: 24px 28px; margin-top: 10px; margin-bottom: 40px;
+}
+.method-card ul { list-style: none; padding: 0; }
+.method-card li {
+  padding: 10px 0 10px 28px; position: relative; font-size: 15px;
+  line-height: 1.55; color: var(--ink-soft);
+  border-bottom: 1px dashed var(--rule);
+}
+.method-card li:last-child { border-bottom: none; }
+.method-card li::before {
+  content: '✓'; position: absolute; left: 2px; top: 9px;
+  color: var(--green); font-weight: 800;
+}
