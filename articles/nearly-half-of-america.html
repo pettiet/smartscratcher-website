@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>Nearly half of America can now scratch smarter. — SmartScratcher</title>
+<meta name="description" content="Massachusetts, Georgia, and New Jersey just joined SmartScratcher. That's nine states, about 157 million people, and close to 900 scratch-off games tracked every day.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Nearly half of America can now scratch smarter.">
+<meta property="og:description" content="SmartScratcher 4.0 adds Massachusetts, Georgia, and New Jersey. Nine states. About 157 million people. Close to 900 scratch-off games, checked every day.">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/nearly-half-of-america.png">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/nearly-half-of-america.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    color-scheme: light !important;
+    --yellow: #ffd60a;
+    --yellow-deep: #ffbb00;
+    --yellow-soft: #fff3cc;
+    --cream: #fff9e6;
+    --ink: #1a1a1a;
+    --ink-soft: #2a2a2a;
+    --red: #ff3b30;
+    --green: #16a34a;
+    --blue: #0066ff;
+    --muted: #6a6a6a;
+    --rule: #e8e2d1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--cream) !important;
+    color: var(--ink) !important;
+    color-scheme: light !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body { font-family: 'Inter', system-ui, sans-serif; line-height: 1.6; overflow-x: hidden; }
+  a { color: inherit; }
+
+  /* ============ NAV ============ */
+  .nav { position: sticky; top: 0; z-index: 50; background: var(--ink); color: var(--cream); padding: 14px 0; border-bottom: 4px solid var(--yellow); }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+  .wordmark { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; color: var(--cream); text-decoration: none; }
+  .wordmark span { color: var(--yellow); }
+  .nav-links { display: flex; gap: 26px; align-items: center; }
+  .nav-links a { font-size: 14px; font-weight: 600; color: rgba(255,249,230,0.85); text-decoration: none; transition: color .15s; }
+  .nav-links a:hover { color: var(--yellow); }
+  .nav-links a.nav-cta { background: var(--yellow); color: var(--ink); padding: 9px 18px; border-radius: 100px; font-size: 13px; font-weight: 700; letter-spacing: .02em; }
+  .nav-links a.nav-cta:hover { background: #ffe44d; color: var(--ink); }
+  @media (max-width: 720px) { .nav-links a:not(.nav-cta) { display: none; } .nav { padding: 12px 0; } }
+
+  /* ============ TICKER ============ */
+  .ticker { background: var(--red); color: white; overflow: hidden; border-bottom: 2px solid var(--ink); padding: 10px 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: scroll 32s linear infinite; padding-left: 100%; }
+  .ticker-inner span { margin: 0 24px; }
+  .ticker-inner .dot { color: var(--yellow); }
+  @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-100%); } }
+
+  /* ============ HERO ============ */
+  .hero { background: var(--cream); padding: 80px 24px 64px; position: relative; overflow: hidden; }
+  .hero::before { content: ""; position: absolute; top: -80px; right: -120px; width: 460px; height: 460px; background: var(--yellow); border-radius: 50%; opacity: .55; z-index: 0; }
+  .hero-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; }
+  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 24px; display: inline-block; background: var(--ink); color: var(--yellow); padding: 8px 16px; transform: rotate(-1deg); box-shadow: 4px 4px 0 var(--red); }
+  .hero h1 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(46px, 8vw, 108px); line-height: .94; letter-spacing: -.04em; color: var(--ink); margin-bottom: 32px; max-width: 1050px; }
+  .hero h1 .highlight { position: relative; display: inline-block; z-index: 1; white-space: nowrap; }
+  .hero h1 .highlight::before { content: ""; position: absolute; inset: 12px -8px -8px -8px; background: var(--yellow); z-index: -1; transform: rotate(-.6deg); }
+  .hero-sub { font-size: clamp(18px, 2vw, 22px); color: var(--ink-soft); max-width: 760px; line-height: 1.5; margin-bottom: 32px; }
+  .hero-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; padding-top: 24px; border-top: 2px solid var(--ink); display: flex; gap: 32px; flex-wrap: wrap; }
+
+  /* ============ BIG NUMBER ============ */
+  .poster { background: var(--ink); color: var(--cream); padding: 100px 24px; position: relative; overflow: hidden; }
+  .poster::before { content: "NINE STATES. NINE STATES. NINE STATES. NINE STATES. "; position: absolute; top: 0; left: 0; white-space: nowrap; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: 180px; color: var(--ink-soft); opacity: .5; line-height: 1; pointer-events: none; }
+  .poster-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; display: grid; grid-template-columns: 1.1fr 1fr; gap: 60px; align-items: center; }
+  .poster-label { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: var(--yellow); letter-spacing: .2em; text-transform: uppercase; margin-bottom: 12px; }
+  .big-pct { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(120px, 20vw, 260px); line-height: .85; letter-spacing: -.06em; color: var(--yellow); text-shadow: 8px 8px 0 var(--red); margin-bottom: 20px; }
+  .big-pct sup { font-size: .4em; vertical-align: top; top: .25em; position: relative; }
+  .poster h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(30px, 4vw, 50px); line-height: 1; letter-spacing: -.03em; color: var(--cream); margin-bottom: 22px; max-width: 520px; }
+  .poster p { font-size: 17px; color: rgba(255,249,230,.85); line-height: 1.65; margin-bottom: 14px; max-width: 520px; }
+  .poster p strong { color: var(--yellow); }
+  .poster-fine { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: rgba(255,249,230,.45); letter-spacing: .05em; margin-top: 18px; max-width: 520px; line-height: 1.6; }
+
+  /* dot grid: 100 people */
+  .people-card { background: var(--cream); color: var(--ink); padding: 32px 32px 26px; border: 4px solid var(--yellow); box-shadow: 10px 10px 0 var(--red); transform: rotate(1deg); }
+  .people-title { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; text-align: center; }
+  .people-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 8px; }
+  .people-grid span { aspect-ratio: 1; border-radius: 50%; background: #e4dcc2; border: 2px solid #d6cdae; display: block; }
+  .people-grid span.on { background: var(--yellow); border-color: var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+  .people-grid span.new { background: var(--red); border-color: var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+  .people-caption { font-family: 'Caveat', cursive; font-size: 24px; text-align: center; margin-top: 18px; color: var(--ink); line-height: 1.25; }
+  .people-caption b { color: var(--red); }
+  .people-legend { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; margin-top: 10px; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .people-legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; border: 2px solid var(--ink); vertical-align: -1px; margin-right: 6px; }
+
+  /* ============ DOUBLED ============ */
+  .double { background: var(--yellow); padding: 100px 24px; border-top: 4px solid var(--ink); border-bottom: 4px solid var(--ink); }
+  .double-inner { max-width: 1100px; margin: 0 auto; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .3em; text-transform: uppercase; margin-bottom: 14px; color: var(--red); }
+  .double h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(36px, 5.5vw, 68px); letter-spacing: -.035em; line-height: .98; color: var(--ink); margin-bottom: 20px; max-width: 820px; }
+  .double .lede { font-size: 18px; color: var(--ink-soft); max-width: 720px; line-height: 1.55; margin-bottom: 48px; }
+  .bars { display: grid; gap: 22px; }
+  .bar-row { display: grid; grid-template-columns: 190px 1fr; gap: 18px; align-items: center; }
+  .bar-label { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: -.02em; line-height: 1.1; }
+  .bar-label small { display: block; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); margin-top: 4px; }
+  .bar-track { position: relative; height: 64px; background: rgba(26,26,26,.08); border: 3px solid var(--ink); }
+  .bar-fill { position: absolute; inset: 0 auto 0 0; display: flex; align-items: center; justify-content: flex-end; padding-right: 14px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: 26px; letter-spacing: -.02em; }
+  .bar-fill.old { width: 49.9%; background: var(--cream); color: var(--ink); border-right: 3px solid var(--ink); }
+  .bar-fill.new { width: 50.1%; background: var(--red); color: white; border-right: 3px solid var(--ink); }
+  .bar-fill.all { width: 100%; background: var(--ink); color: var(--yellow); }
+  .bar-fine { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--ink-soft); letter-spacing: .05em; margin-top: 22px; line-height: 1.6; }
+  @media (max-width: 640px) { .bar-row { grid-template-columns: 1fr; gap: 8px; } .bar-track { height: 54px; } .bar-fill { font-size: 20px; } }
+
+  /* ============ STATES ============ */
+  .states-section { background: var(--cream); padding: 100px 24px; }
+  .states-inner { max-width: 1000px; margin: 0 auto; }
+  .states-eyebrow { text-align: center; margin-bottom: 60px; }
+  .states-eyebrow .kicker-small { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: var(--red); letter-spacing: .3em; text-transform: uppercase; margin-bottom: 12px; }
+  .states-eyebrow h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(36px, 5vw, 56px); letter-spacing: -.03em; color: var(--ink); line-height: 1; }
+  .state-card { background: white; border: 3px solid var(--ink); box-shadow: 8px 8px 0 var(--ink); padding: 40px; margin-bottom: 36px; display: grid; grid-template-columns: 100px 1fr auto; gap: 32px; align-items: center; position: relative; }
+  .state-card:nth-of-type(1) { transform: rotate(-.4deg); }
+  .state-card:nth-of-type(2) { transform: rotate(.5deg); }
+  .state-card:nth-of-type(3) { transform: rotate(-.3deg); }
+  .state-number { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: 88px; line-height: 1; color: var(--yellow); text-shadow: 3px 3px 0 var(--ink); }
+  .state-body h3 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(28px, 3vw, 40px); letter-spacing: -.02em; line-height: 1; margin-bottom: 8px; color: var(--ink); }
+  .state-body .state-abbr { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; color: var(--red); letter-spacing: .15em; text-transform: uppercase; margin-bottom: 12px; }
+  .state-body p { font-size: 16px; color: var(--ink-soft); line-height: 1.55; max-width: 520px; }
+  .state-body p + p { margin-top: 10px; }
+  .state-body a { text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+  .state-stat { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; background: var(--yellow-soft); border: 2px solid var(--ink); padding: 4px 10px; margin: 12px 8px 0 0; }
+  .state-icon { width: 80px; height: 80px; background: var(--yellow); border: 3px solid var(--ink); display: flex; align-items: center; justify-content: center; font-size: 40px; }
+  @media (max-width: 720px) { .state-card { grid-template-columns: 1fr; gap: 16px; } .state-number { font-size: 64px; } .state-icon { width: 60px; height: 60px; font-size: 32px; } }
+
+  /* ============ ALSO IN 4.0 ============ */
+  .also { background: var(--ink); color: var(--cream); padding: 100px 24px; border-top: 4px solid var(--yellow); }
+  .also-inner { max-width: 1200px; margin: 0 auto; }
+  .also .eyebrow { color: var(--yellow); }
+  .also h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(36px, 5vw, 64px); letter-spacing: -.03em; line-height: 1; margin-bottom: 16px; max-width: 820px; }
+  .also .lede { font-size: 18px; color: rgba(255,249,230,.8); max-width: 720px; margin-bottom: 56px; line-height: 1.55; }
+  .also-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .also-card { background: var(--cream); color: var(--ink); border: 3px solid var(--yellow); padding: 28px; position: relative; }
+  .also-card .tag { position: absolute; top: -14px; left: 20px; background: var(--red); color: white; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; padding: 4px 12px; letter-spacing: .1em; text-transform: uppercase; }
+  .also-card .emo { font-size: 30px; margin-bottom: 10px; line-height: 1; }
+  .also-card h4 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -.02em; margin-bottom: 8px; }
+  .also-card p { font-size: 15px; color: var(--ink-soft); line-height: 1.5; }
+
+  /* ============ CTA ============ */
+  .cta-section { background: var(--yellow); color: var(--ink); padding: 100px 24px; text-align: center; border-top: 4px solid var(--ink); }
+  .cta-inner { max-width: 800px; margin: 0 auto; }
+  .cta-eyebrow { font-family: 'Caveat', cursive; font-size: 32px; color: var(--red); margin-bottom: 12px; transform: rotate(-2deg); display: inline-block; }
+  .cta-headline { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(40px, 6vw, 76px); letter-spacing: -.03em; line-height: .98; margin-bottom: 22px; }
+  .cta-sub { font-size: 18px; color: var(--ink-soft); margin-bottom: 40px; line-height: 1.55; }
+  .cta-button { display: inline-block; background: var(--ink); color: var(--yellow); font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; padding: 22px 48px; border: 4px solid var(--ink); box-shadow: 8px 8px 0 var(--red); text-decoration: none; text-transform: uppercase; letter-spacing: .02em; transition: transform .15s ease, box-shadow .15s ease; }
+  .cta-button:hover { transform: translate(-2px,-2px); box-shadow: 10px 10px 0 var(--red); }
+  .cta-fineprint { margin-top: 24px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--ink-soft); letter-spacing: .1em; text-transform: uppercase; }
+
+  /* ============ FOOTER ============ */
+  .site-footer { background: var(--ink); color: rgba(255,249,230,.85); padding: 60px 24px 30px; border-top: 4px solid var(--yellow); }
+  .site-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,249,230,.12); }
+  .site-footer .f-brand .f-logo { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 24px; letter-spacing: -.02em; color: var(--cream); text-decoration: none; display: inline-block; margin-bottom: 10px; }
+  .site-footer .f-brand .f-logo span { color: var(--yellow); }
+  .site-footer .f-brand p { font-size: 14px; color: rgba(255,249,230,.6); line-height: 1.55; max-width: 320px; }
+  .site-footer .f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--yellow); margin-bottom: 14px; font-weight: 700; }
+  .site-footer .f-col a { display: block; font-size: 14px; color: rgba(255,249,230,.78); text-decoration: none; padding: 4px 0; }
+  .site-footer .f-col a:hover { color: var(--yellow); }
+  .site-footer-bottom { max-width: 1100px; margin: 0 auto; padding-top: 22px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: rgba(255,249,230,.5); line-height: 1.6; letter-spacing: .3px; }
+  .site-footer-bottom a { color: var(--yellow); text-decoration: none; }
+  @media (max-width: 880px) { .site-footer-inner { grid-template-columns: 1fr 1fr; gap: 28px; } }
+  @media (max-width: 480px) { .site-footer-inner { grid-template-columns: 1fr; gap: 22px; } }
+
+  /* ============ MOBILE ============ */
+  @media (max-width: 820px) {
+    .poster-inner { grid-template-columns: 1fr; gap: 44px; }
+    .hero { padding: 60px 24px 40px; }
+    .poster, .double, .states-section, .also, .cta-section { padding: 60px 20px; }
+    .poster::before { font-size: 80px; }
+    .hero-meta { gap: 12px; flex-direction: column; }
+    .people-card { transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="wordmark">Smart<span>Scratcher</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="nav-cta">Get the App</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>🟡 SMARTSCRATCHER 4.0 IS HERE</span><span class="dot">●</span>
+    <span>MASSACHUSETTS IS LIVE</span><span class="dot">●</span>
+    <span>GEORGIA IS LIVE</span><span class="dot">●</span>
+    <span>NEW JERSEY IS LIVE</span><span class="dot">●</span>
+    <span>NINE STATES TOTAL</span><span class="dot">●</span>
+    <span>CLOSE TO 900 GAMES TRACKED</span><span class="dot">●</span>
+    <span>🟡 SMARTSCRATCHER 4.0 IS HERE</span><span class="dot">●</span>
+    <span>MASSACHUSETTS IS LIVE</span><span class="dot">●</span>
+    <span>GEORGIA IS LIVE</span><span class="dot">●</span>
+    <span>NEW JERSEY IS LIVE</span><span class="dot">●</span>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="kicker">📍 Version 4.0 · three more states</div>
+    <h1>Nearly half of America can now <span class="highlight">scratch smarter.</span></h1>
+    <p class="hero-sub">Massachusetts, Georgia, and New Jersey just joined SmartScratcher. Add them to the six states already on board and you get nine states, roughly 157 million people, and close to 900 scratch-off games checked every single day. If you've been waiting for your state — hi. Come on in.</p>
+    <div class="hero-meta">
+      <span>📅 Announcement</span>
+      <span>🦞 Massachusetts · 🍑 Georgia · 🎡 New Jersey</span>
+      <span>📱 Live now in SmartScratcher 4.0</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIG NUMBER ============ -->
+<section class="poster">
+  <div class="poster-inner">
+    <div>
+      <div class="poster-label">The big number</div>
+      <div class="big-pct">46<sup>%</sup></div>
+      <h2>of the country lives in a SmartScratcher state.</h2>
+      <p>Line the nine states up and the population comes to about <strong>157 million people</strong>. That's 46 out of every 100 Americans who can open the app, pick their state, and see which scratchers on their shelf still have the good stuff in them.</p>
+      <p>When we launched it was three states and about 75 million people. Then six. Now nine. Same job every morning: pull the official prize numbers, run the math, and show you what's left.</p>
+      <p class="poster-fine">Population math uses U.S. Census Bureau 2024 state estimates, rounded. Nine states ÷ whole country ≈ 46%. We're rounding, not bragging. Okay, a little bragging.</p>
+    </div>
+    <div class="people-card">
+      <div class="people-title">If America were 100 people…</div>
+      <div class="people-grid" aria-label="100 dots; 46 are highlighted to represent the share of Americans living in a SmartScratcher state">
+        <!-- 46 of 100 lit. The 8 red ones are the share added by MA+GA+NJ (~27.8M of ~340M ≈ 8). -->
+        <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span>
+        <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span>
+        <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span>
+        <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="new"></span><span class="new"></span>
+        <span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span class="new"></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="people-caption">…<b>46</b> of them could be checking the app before they buy.</div>
+      <div class="people-legend">
+        <span><i style="background:#ffd60a"></i>Already covered</span>
+        <span><i style="background:#ff3b30"></i>New in 4.0</span>
+        <span><i style="background:#e4dcc2;border-color:#d6cdae"></i>Not yet (we see you)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOUBLED ============ -->
+<section class="double">
+  <div class="double-inner">
+    <div class="eyebrow">Fun fact we didn't plan</div>
+    <h2>The three new states doubled the shelf.</h2>
+    <p class="lede">Here's a stat that made us do a double take. The six states we already tracked add up to about 450 active scratch-off games. Massachusetts, Georgia, and New Jersey walked in with… about 450 more. Three states, same size shelf as the other six combined. Georgia alone runs the biggest lineup we've ever tracked.</p>
+    <div class="bars">
+      <div class="bar-row">
+        <div class="bar-label">The original six<small>OK · TX · CA · FL · NY · NC</small></div>
+        <div class="bar-track"><div class="bar-fill old">448 games</div></div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">The new three<small>MA · GA · NJ</small></div>
+        <div class="bar-track"><div class="bar-fill new">449 games</div></div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">All nine<small>Now in the app</small></div>
+        <div class="bar-track"><div class="bar-fill all">897 games</div></div>
+      </div>
+    </div>
+    <p class="bar-fine">Active game counts from our Aug 21, 2026 data pull. Lotteries launch and retire games all the time, so these wobble a little every day — the doubling doesn't.</p>
+  </div>
+</section>
+
+<!-- ============ THE THREE STATES ============ -->
+<section class="states-section">
+  <div class="states-inner">
+    <div class="states-eyebrow">
+      <div class="kicker-small">Meet the new ones</div>
+      <h2>Three states. Three very different shelves.</h2>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">01</div>
+      <div class="state-body">
+        <h3>Massachusetts</h3>
+        <div class="state-abbr">MA · Massachusetts State Lottery</div>
+        <p>The scratcher capital. Massachusetts is famous for being the heaviest lottery-playing state in the country per person, and the scratch-off shelf shows it — a deep lineup from $1 all the way up to the big-ticket $50 games. When a state plays this much, knowing which games are picked clean and which still have their top prizes actually matters.</p>
+        <p>Curious before you download? <a href="../scratchers/massachusetts/">Every Massachusetts game's remaining prizes</a> are free to browse.</p>
+        <span class="state-stat">132 active games</span>
+      </div>
+      <div class="state-icon">🦞</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">02</div>
+      <div class="state-body">
+        <h3>Georgia</h3>
+        <div class="state-abbr">GA · Georgia Lottery</div>
+        <p>The biggest shelf we've ever tracked. Georgia runs nearly 200 active scratch-off games at once — more than any other state in the app. That's a lot of tickets to sort through at the counter, which is exactly the kind of problem the SmartScratcher Score was built for. (Bonus: Georgia Lottery money funds the HOPE Scholarship and pre-K programs, so the state takes its lottery seriously.)</p>
+        <p>Take a look first: <a href="../scratchers/georgia/">every active Georgia game and what's left in it</a>.</p>
+        <span class="state-stat">193 active games</span>
+      </div>
+      <div class="state-icon">🍑</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">03</div>
+      <div class="state-body">
+        <h3>New Jersey</h3>
+        <div class="state-abbr">NJ · New Jersey Lottery</div>
+        <p>Boardwalk energy. New Jersey has been running a state lottery since 1970 — one of the oldest in the country — and the scratch-off lineup is big, busy, and full of games that share names with their own reprints. Sorting the fresh printing from the one that's been on the shelf all summer is exactly the kind of thing the app is good at.</p>
+        <p>Peek at <a href="../scratchers/new-jersey/">every New Jersey game's remaining prizes</a> for free.</p>
+        <span class="state-stat">124 active games</span>
+      </div>
+      <div class="state-icon">🎡</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ALSO IN 4.0 ============ -->
+<section class="also">
+  <div class="also-inner">
+    <div class="eyebrow">Also in the box</div>
+    <h2>4.0 is our biggest update yet — and the states are only half of it.</h2>
+    <p class="lede">While the map was growing, the app got a fresh coat of paint and a few things we've wanted to build for a long time. Quick tour:</p>
+    <div class="also-grid">
+      <div class="also-card">
+        <span class="tag">New</span>
+        <div class="emo">📓</div>
+        <h4>Daily Deep Dive</h4>
+        <p>Every game gets a short, fresh write-up every morning — what changed overnight, what it means, and which games down the shelf are worth a look. It sits right at the top of a game's details.</p>
+      </div>
+      <div class="also-card">
+        <span class="tag">New</span>
+        <div class="emo">📈</div>
+        <h4>Value trend charts</h4>
+        <p>See how a game's ticket value has moved over time, jackpot claims and all. Tap the mini chart for the full interactive version.</p>
+      </div>
+      <div class="also-card">
+        <span class="tag">Fresh</span>
+        <div class="emo">🎨</div>
+        <h4>A cleaner look</h4>
+        <p>Game details, the game list, and Settings got redesigned — compact score and top-prize tiles, tidier stats, tap-to-open tables, and a favorite heart right where you want it.</p>
+      </div>
+      <div class="also-card">
+        <span class="tag">New</span>
+        <div class="emo">🔀</div>
+        <h4>More ways to rank</h4>
+        <p>Sort the list by Best Overall Odds or Best Estimated Jackpot Odds — tap “Change” on the ranking banner above the games.</p>
+      </div>
+      <div class="also-card">
+        <span class="tag">New</span>
+        <div class="emo">🏁</div>
+        <h4>Recently ended games</h4>
+        <p>Games the lottery just pulled hang around for a couple of weeks in a shaded section at the bottom of the list, final numbers included. No more “wait, where did it go?”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Massachusetts, Georgia, New Jersey —</div>
+    <h2 class="cta-headline">Pick your state. Find the good ones.</h2>
+    <p class="cta-sub">Free to download. Premium features come with a 3-day free trial. Already have the app? Update to 4.0 and hit the state menu up top — the new ones are right there.</p>
+    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-button">Get SmartScratcher</a>
+    <div class="cta-fineprint">$2.99/mo after trial · Cancel anytime · iOS</div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="f-brand">
+      <a href="../index.html" class="f-logo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, CA, FL, NY, NC, MA, GA, and NJ.</p>
+    </div>
+    <div class="f-col">
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="f-col">
+      <h4>Fine print</h4>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="site-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>We gave every scratcher a diary. — SmartScratcher</title>
+<meta name="description" content="New in SmartScratcher 4.0: the Daily Deep Dive. Every scratch-off game gets a short, fresh write-up every morning — what changed overnight, what it means, and which games are worth a look. Plus trend charts that show the whole ride.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="We gave every scratcher a diary.">
+<meta property="og:description" content="New in 4.0: every game in the app gets a short, fresh write-up every morning. What changed, what it means, which rival to look at. Plus value trend charts that show the whole ride.">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/scratcher-diary.png">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/scratcher-diary.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    color-scheme: light !important;
+    --yellow: #ffd60a;
+    --yellow-deep: #ffbb00;
+    --yellow-soft: #fff3cc;
+    --cream: #fff9e6;
+    --paper: #fffdf5;
+    --ink: #1a1a1a;
+    --ink-soft: #2a2a2a;
+    --red: #ff3b30;
+    --green: #16a34a;
+    --blue: #0066ff;
+    --purple: #6d28d9;
+    --muted: #6a6a6a;
+    --rule: #e8e2d1;
+    --line: #d9e6f5;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--cream) !important; color: var(--ink) !important; color-scheme: light !important; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  body { font-family: 'Inter', system-ui, sans-serif; line-height: 1.6; overflow-x: hidden; }
+  a { color: inherit; }
+
+  /* ============ NAV ============ */
+  .nav { position: sticky; top: 0; z-index: 50; background: var(--ink); color: var(--cream); padding: 14px 0; border-bottom: 4px solid var(--yellow); }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+  .wordmark { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -.02em; color: var(--cream); text-decoration: none; }
+  .wordmark span { color: var(--yellow); }
+  .nav-links { display: flex; gap: 26px; align-items: center; }
+  .nav-links a { font-size: 14px; font-weight: 600; color: rgba(255,249,230,.85); text-decoration: none; transition: color .15s; }
+  .nav-links a:hover { color: var(--yellow); }
+  .nav-links a.nav-cta { background: var(--yellow); color: var(--ink); padding: 9px 18px; border-radius: 100px; font-size: 13px; font-weight: 700; letter-spacing: .02em; }
+  .nav-links a.nav-cta:hover { background: #ffe44d; color: var(--ink); }
+  @media (max-width: 720px) { .nav-links a:not(.nav-cta) { display: none; } .nav { padding: 12px 0; } }
+
+  /* ============ HERO ============ */
+  .hero { background: var(--cream); padding: 84px 24px 70px; position: relative; overflow: hidden; }
+  .hero::before { content: ""; position: absolute; top: -90px; right: -110px; width: 440px; height: 440px; background: var(--yellow); border-radius: 50%; opacity: .55; z-index: 0; }
+  .hero-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; }
+  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 24px; display: inline-block; background: var(--ink); color: var(--yellow); padding: 8px 16px; transform: rotate(-1deg); box-shadow: 4px 4px 0 var(--red); }
+  .hero h1 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(46px, 8vw, 108px); line-height: .94; letter-spacing: -.04em; color: var(--ink); margin-bottom: 32px; max-width: 1000px; }
+  .hero h1 .highlight { position: relative; display: inline-block; z-index: 1; white-space: nowrap; }
+  .hero h1 .highlight::before { content: ""; position: absolute; inset: 12px -8px -8px -8px; background: var(--yellow); z-index: -1; transform: rotate(-.6deg); }
+  .hero-sub { font-size: clamp(18px, 2vw, 22px); color: var(--ink-soft); max-width: 760px; line-height: 1.5; margin-bottom: 32px; }
+  .hero-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; padding-top: 24px; border-top: 2px solid var(--ink); display: flex; gap: 32px; flex-wrap: wrap; }
+
+  /* ============ THE PROBLEM ============ */
+  .why { background: var(--ink); color: var(--cream); padding: 100px 24px; position: relative; overflow: hidden; }
+  .why::before { content: "EVERY GAME. EVERY DAY. EVERY GAME. EVERY DAY. "; position: absolute; top: 0; left: 0; white-space: nowrap; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: 180px; color: var(--ink-soft); opacity: .5; line-height: 1; pointer-events: none; }
+  .why-inner { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .3em; text-transform: uppercase; margin-bottom: 14px; color: var(--red); }
+  .why .eyebrow { color: var(--yellow); }
+  .why h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(34px, 4.6vw, 58px); line-height: 1; letter-spacing: -.03em; margin-bottom: 22px; }
+  .why p { font-size: 17px; color: rgba(255,249,230,.85); line-height: 1.65; margin-bottom: 14px; }
+  .why p strong { color: var(--yellow); }
+  .why-list { list-style: none; display: grid; gap: 14px; margin-top: 8px; }
+  .why-list li { background: rgba(255,249,230,.06); border: 2px solid rgba(255,214,10,.5); padding: 18px 20px; display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; }
+  .why-list .n { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; color: var(--yellow); }
+  .why-list b { display: block; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -.01em; margin-bottom: 4px; color: var(--cream); }
+  .why-list span { font-size: 15px; color: rgba(255,249,230,.8); line-height: 1.5; }
+
+  /* ============ DIARY PAGE ============ */
+  .diary { background: var(--yellow); padding: 100px 24px; border-top: 4px solid var(--ink); border-bottom: 4px solid var(--ink); }
+  .diary-inner { max-width: 1100px; margin: 0 auto; }
+  .diary h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(36px, 5.5vw, 68px); letter-spacing: -.035em; line-height: .98; color: var(--ink); margin-bottom: 18px; max-width: 820px; }
+  .diary .lede { font-size: 18px; color: var(--ink-soft); max-width: 720px; line-height: 1.55; margin-bottom: 48px; }
+  .diary-stage { display: grid; grid-template-columns: minmax(0, 620px) 1fr; gap: 40px; align-items: start; }
+
+  .page { position: relative; background: var(--paper); border: 3px solid var(--ink); box-shadow: 10px 10px 0 var(--ink); transform: rotate(-.8deg); padding: 34px 34px 30px 58px;
+    background-image: repeating-linear-gradient(to bottom, transparent 0 31px, var(--line) 31px 32px);
+    background-position: 0 18px; }
+  .page::before { content: ""; position: absolute; top: 0; bottom: 0; left: 40px; width: 2px; background: #f4b4b4; }
+  .page .holes { position: absolute; left: 12px; top: 36px; bottom: 36px; width: 14px; display: flex; flex-direction: column; justify-content: space-between; }
+  .page .holes i { display: block; width: 14px; height: 14px; border-radius: 50%; background: var(--yellow); border: 2px solid var(--ink); }
+  .page-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  .game-chip { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: -.01em; line-height: 1; }
+  .game-chip small { display: block; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
+  .date-badge { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; background: var(--purple); color: white; padding: 6px 10px; border-radius: 100px; display: inline-flex; align-items: center; gap: 6px; }
+  .date-badge i { width: 7px; height: 7px; border-radius: 50%; background: var(--yellow); display: inline-block; }
+  .dive-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--purple); margin-bottom: 6px; }
+  .dive-head { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(22px, 2.6vw, 29px); line-height: 1.2; letter-spacing: -.015em; color: var(--ink); margin-bottom: 16px; }
+  .dive-body { font-family: 'Fraunces', serif; font-size: 17.5px; line-height: 1.6; color: var(--ink-soft); }
+  .dive-body p + p { margin-top: 12px; }
+  .dive-body .rival { color: var(--blue); text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 4px; font-weight: 600; cursor: pointer; }
+  .dive-stamp { margin-top: 16px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .06em; color: var(--ink); background: var(--yellow-soft); border: 2px dashed var(--ink); padding: 10px 12px; display: inline-block; transform: rotate(.6deg); }
+  .lock { margin-top: 18px; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+  .notes { display: grid; gap: 18px; padding-top: 12px; }
+  .note { font-family: 'Caveat', cursive; font-size: 27px; line-height: 1.15; color: var(--ink); position: relative; padding-left: 44px; }
+  .note::before { content: "↙"; position: absolute; left: 0; top: -6px; font-size: 34px; color: var(--red); transform: rotate(-10deg); }
+  .note b { color: var(--red); }
+  .note small { display: block; font-family: 'Inter', sans-serif; font-size: 14px; color: var(--ink-soft); line-height: 1.45; margin-top: 4px; }
+  @media (max-width: 860px) { .diary-stage { grid-template-columns: 1fr; } .page { transform: rotate(0); padding-left: 50px; } .note::before { content: "↑"; transform: none; } }
+
+  /* ============ CHART ============ */
+  .chart-section { background: var(--cream); padding: 100px 24px; }
+  .chart-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.15fr; gap: 56px; align-items: center; }
+  .chart-inner h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(34px, 4.6vw, 58px); line-height: 1; letter-spacing: -.03em; margin-bottom: 20px; }
+  .chart-inner p { font-size: 17px; color: var(--ink-soft); line-height: 1.65; margin-bottom: 14px; }
+  .chart-card { background: white; border: 3px solid var(--ink); box-shadow: 8px 8px 0 var(--red); padding: 24px 24px 18px; transform: rotate(.6deg); }
+  .chart-card .ch-title { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: -.01em; display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+  .chart-card .ch-title small { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .chart-card svg { width: 100%; height: auto; display: block; }
+  .chart-card .ch-foot { font-family: 'Caveat', cursive; font-size: 22px; color: var(--ink); margin-top: 6px; text-align: center; }
+  .chart-card .ch-foot b { color: var(--red); }
+  .chart-fine { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); letter-spacing: .05em; margin-top: 10px; text-align: center; }
+  @media (max-width: 860px) { .chart-inner { grid-template-columns: 1fr; gap: 36px; } .chart-card { transform: none; } }
+
+  /* ============ ALSO ============ */
+  .also { background: var(--ink); color: var(--cream); padding: 100px 24px; border-top: 4px solid var(--yellow); }
+  .also-inner { max-width: 1200px; margin: 0 auto; }
+  .also .eyebrow { color: var(--yellow); }
+  .also h2 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(36px, 5vw, 64px); letter-spacing: -.03em; line-height: 1; margin-bottom: 16px; max-width: 820px; }
+  .also .lede { font-size: 18px; color: rgba(255,249,230,.8); max-width: 720px; margin-bottom: 56px; line-height: 1.55; }
+  .also-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; }
+  .also-card { background: var(--cream); color: var(--ink); border: 3px solid var(--yellow); padding: 28px; position: relative; text-decoration: none; display: block; }
+  .also-card .tag { position: absolute; top: -14px; left: 20px; background: var(--red); color: white; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; padding: 4px 12px; letter-spacing: .1em; text-transform: uppercase; }
+  .also-card .emo { font-size: 30px; margin-bottom: 10px; line-height: 1; }
+  .also-card h4 { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -.02em; margin-bottom: 8px; }
+  .also-card p { font-size: 15px; color: var(--ink-soft); line-height: 1.5; }
+  .also-card .more { display: inline-block; margin-top: 10px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red); }
+
+  /* ============ CTA ============ */
+  .cta-section { background: var(--yellow); color: var(--ink); padding: 100px 24px; text-align: center; border-top: 4px solid var(--ink); }
+  .cta-inner { max-width: 800px; margin: 0 auto; }
+  .cta-eyebrow { font-family: 'Caveat', cursive; font-size: 32px; color: var(--red); margin-bottom: 12px; transform: rotate(-2deg); display: inline-block; }
+  .cta-headline { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 900; font-size: clamp(40px, 6vw, 76px); letter-spacing: -.03em; line-height: .98; margin-bottom: 22px; }
+  .cta-sub { font-size: 18px; color: var(--ink-soft); margin-bottom: 40px; line-height: 1.55; }
+  .cta-button { display: inline-block; background: var(--ink); color: var(--yellow); font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; padding: 22px 48px; border: 4px solid var(--ink); box-shadow: 8px 8px 0 var(--red); text-decoration: none; text-transform: uppercase; letter-spacing: .02em; transition: transform .15s ease, box-shadow .15s ease; }
+  .cta-button:hover { transform: translate(-2px,-2px); box-shadow: 10px 10px 0 var(--red); }
+  .cta-fineprint { margin-top: 24px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--ink-soft); letter-spacing: .1em; text-transform: uppercase; }
+
+  /* ============ FOOTER ============ */
+  .site-footer { background: var(--ink); color: rgba(255,249,230,.85); padding: 60px 24px 30px; border-top: 4px solid var(--yellow); }
+  .site-footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,249,230,.12); }
+  .site-footer .f-brand .f-logo { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 24px; letter-spacing: -.02em; color: var(--cream); text-decoration: none; display: inline-block; margin-bottom: 10px; }
+  .site-footer .f-brand .f-logo span { color: var(--yellow); }
+  .site-footer .f-brand p { font-size: 14px; color: rgba(255,249,230,.6); line-height: 1.55; max-width: 320px; }
+  .site-footer .f-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--yellow); margin-bottom: 14px; font-weight: 700; }
+  .site-footer .f-col a { display: block; font-size: 14px; color: rgba(255,249,230,.78); text-decoration: none; padding: 4px 0; }
+  .site-footer .f-col a:hover { color: var(--yellow); }
+  .site-footer-bottom { max-width: 1100px; margin: 0 auto; padding-top: 22px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: rgba(255,249,230,.5); line-height: 1.6; letter-spacing: .3px; }
+  .site-footer-bottom a { color: var(--yellow); text-decoration: none; }
+  @media (max-width: 880px) { .site-footer-inner { grid-template-columns: 1fr 1fr; gap: 28px; } }
+  @media (max-width: 480px) { .site-footer-inner { grid-template-columns: 1fr; gap: 22px; } }
+
+  @media (max-width: 820px) {
+    .why-inner { grid-template-columns: 1fr; gap: 40px; }
+    .hero { padding: 60px 24px 40px; }
+    .why, .diary, .chart-section, .also, .cta-section { padding: 60px 20px; }
+    .why::before { font-size: 80px; }
+    .hero-meta { gap: 12px; flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="wordmark">Smart<span>Scratcher</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="nav-cta">Get the App</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="kicker">📓 New in 4.0 · The Daily Deep Dive</div>
+    <h1>We gave every scratcher <span class="highlight">a diary.</span></h1>
+    <p class="hero-sub">Every game in SmartScratcher now gets a short, fresh write-up every morning. What changed overnight, what it actually means, and which games down the shelf are worth a look instead. No spreadsheet. No squinting. Just the story of the day, in plain words, sitting at the top of every game's details.</p>
+    <div class="hero-meta">
+      <span>📅 Feature story</span>
+      <span>📓 Daily Deep Dive · 📈 Value trend charts</span>
+      <span>📱 Live now in SmartScratcher 4.0</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="why">
+  <div class="why-inner">
+    <div>
+      <div class="eyebrow">Why a diary?</div>
+      <h2>Because the numbers change every single day. The story is what they add up to.</h2>
+      <p>SmartScratcher has always been good at the numbers: prizes left, estimated tickets left, the SmartScratcher Score, the value of a ticket right now. But a wall of numbers makes you do the thinking. <strong>A diary does the thinking out loud.</strong></p>
+      <p>So now, every morning, after we pull the fresh prize data from each state lottery, the app writes a little entry for every game. Hundreds of them, across all nine states, before you've finished your coffee.</p>
+      <p>Each one is built from that game's actual numbers that day — never recycled, never guessed. If nothing interesting happened, it says so. If a top prize got claimed overnight, that's the headline.</p>
+    </div>
+    <div>
+      <ul class="why-list">
+        <li><span class="n">1</span><div><b>What changed</b><span>Top prize claimed? A pile of $20 winners scratched out over the weekend? Brand new game on the shelf? That's the lead.</span></div></li>
+        <li><span class="n">2</span><div><b>What it means</b><span>Does the change move the game up or down in our rankings, and why. Said the way a friend would say it, not a textbook.</span></div></li>
+        <li><span class="n">3</span><div><b>Where to look instead</b><span>If a game's looking picked clean, the write-up names the rival at the same price we'd look at next — and you can tap the name to jump straight to it.</span></div></li>
+        <li><span class="n">4</span><div><b>A fresh date stamp</b><span>A little unread dot tells you when there's a new entry, so you never wonder if you're reading yesterday's news.</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIARY PAGE ============ -->
+<section class="diary">
+  <div class="diary-inner">
+    <div class="eyebrow">What a day looks like</div>
+    <h2>Here's a page out of the diary.</h2>
+    <p class="lede">A made-up game, made-up numbers, real format. This is what you'd see at the top of a game's details in the app — the headline is free for everyone, and the full read is part of Premium.</p>
+
+    <div class="diary-stage">
+      <div class="page">
+        <div class="holes"><i></i><i></i><i></i><i></i></div>
+        <div class="page-head">
+          <div class="game-chip">Dino Dollars<small>$5 · #1234 · fictional, for show</small></div>
+          <span class="date-badge"><i></i>Today · Aug 22</span>
+        </div>
+        <div class="dive-label">📓 Daily Deep Dive</div>
+        <div class="dive-head">Two of the three $100,000 top prizes are gone — but the middle of the pile is still stuffed</div>
+        <div class="dive-body">
+          <p>Somebody in the state cashed a $100,000 ticket yesterday, so Dino Dollars is down to its last top prize. That's the headline, but it's not the whole story. By our math, about 40% of the tickets are still out there, and the $50, $100, and $500 winners are hanging around at a better clip than you'd expect this far in.</p>
+          <p>Translation: the big dream got thinner, the everyday wins didn't. In our rankings that keeps Dino Dollars in the upper half of the $5 shelf — just not the top dog it was last week. If you're holding a five and want a game that still has all its top prizes, <span class="rival">“Corn Dog Cash”</span> is the one we'd look at next.</p>
+        </div>
+        <div class="dive-stamp">Still a solid $5 pick in our rankings. Fresh numbers tomorrow.</div>
+        <div class="lock">🔒 Headline free · full read with Premium</div>
+      </div>
+
+      <div class="notes">
+        <div class="note"><b>The headline's on the house.</b><small>Every game shows its headline and date badge to everyone. Tap to expand the full read (Premium, 3-day free trial).</small></div>
+        <div class="note"><b>That blue name is tappable.</b><small>When a write-up mentions another game, tap it and you jump straight to that game's details. No hunting through the list.</small></div>
+        <div class="note"><b>It's always our read, never a promise.</b><small>Everything in a Deep Dive is our math and our opinion on a game's value — where it sits in our rankings and why. It's never a prediction that a ticket will win. Scratchers are random; we just tell you what's left.</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHART ============ -->
+<section class="chart-section">
+  <div class="chart-inner">
+    <div>
+      <div class="eyebrow">Also new: value trend charts</div>
+      <h2>And a chart that shows the whole ride.</h2>
+      <p>A scratcher's value isn't a one-way street. A top prize gets claimed and the estimated ticket value dips. Then a few weeks of people scratching out the small stuff can nudge it back up, because the prizes still in the game are now spread across fewer tickets. Up, down, sideways — it moves.</p>
+      <p>4.0 puts that ride on a chart. Every game's details now show a mini trend line of its estimated ticket value over time. Tap it for the full interactive version, with jackpot claims marked right on the line, so you can see exactly when and why things changed.</p>
+      <p>Pair it with the diary and you've got the two things that were missing: the story of today, and the story of how we got here.</p>
+    </div>
+    <div>
+      <div class="chart-card">
+        <div class="ch-title">Dino Dollars · est. value per $5 ticket <small>Last 10 weeks · fictional</small></div>
+        <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart of a fictional game's estimated ticket value over ten weeks, dipping when a top prize is claimed and climbing afterwards">
+          <!-- grid -->
+          <g stroke="#e8e2d1" stroke-width="1">
+            <line x1="50" y1="40" x2="540" y2="40"/>
+            <line x1="50" y1="100" x2="540" y2="100"/>
+            <line x1="50" y1="160" x2="540" y2="160"/>
+            <line x1="50" y1="220" x2="540" y2="220"/>
+          </g>
+          <line x1="50" y1="250" x2="540" y2="250" stroke="#1a1a1a" stroke-width="2"/>
+          <line x1="50" y1="30" x2="50" y2="250" stroke="#1a1a1a" stroke-width="2"/>
+          <!-- y labels -->
+          <g font-family="JetBrains Mono, monospace" font-size="11" fill="#6a6a6a" text-anchor="end">
+            <text x="44" y="44">$3.90</text>
+            <text x="44" y="104">$3.70</text>
+            <text x="44" y="164">$3.50</text>
+            <text x="44" y="224">$3.30</text>
+          </g>
+          <!-- x labels -->
+          <g font-family="JetBrains Mono, monospace" font-size="11" fill="#6a6a6a" text-anchor="middle">
+            <text x="50" y="272">Wk 1</text>
+            <text x="213" y="272">Wk 4</text>
+            <text x="377" y="272">Wk 7</text>
+            <text x="540" y="272">Wk 10</text>
+          </g>
+          <!-- area fill -->
+          <path d="M50,150 L104,144 L159,140 L213,128 L268,112 L322,198 L377,186 L431,160 L486,134 L540,118 L540,250 L50,250 Z" fill="#ffd60a" opacity=".35"/>
+          <!-- line -->
+          <path d="M50,150 L104,144 L159,140 L213,128 L268,112 L322,198 L377,186 L431,160 L486,134 L540,118" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+          <!-- points -->
+          <g fill="#fff9e6" stroke="#1a1a1a" stroke-width="3">
+            <circle cx="50" cy="150" r="5"/><circle cx="104" cy="144" r="5"/><circle cx="159" cy="140" r="5"/><circle cx="213" cy="128" r="5"/><circle cx="268" cy="112" r="5"/><circle cx="377" cy="186" r="5"/><circle cx="431" cy="160" r="5"/><circle cx="486" cy="134" r="5"/><circle cx="540" cy="118" r="5"/>
+          </g>
+          <!-- jackpot marker -->
+          <circle cx="322" cy="198" r="9" fill="#ff3b30" stroke="#1a1a1a" stroke-width="3"/>
+          <line x1="322" y1="198" x2="322" y2="60" stroke="#ff3b30" stroke-width="2" stroke-dasharray="4 4"/>
+          <rect x="236" y="36" width="172" height="26" fill="#1a1a1a"/>
+          <text x="322" y="54" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="#ffd60a" text-anchor="middle" letter-spacing="1">$100K CLAIMED</text>
+          <!-- annotation -->
+          <text x="470" y="108" font-family="Caveat, cursive" font-size="22" fill="#16a34a" font-weight="700" text-anchor="middle">climbing back ↗</text>
+        </svg>
+        <div class="ch-foot">Dip on the claim, <b>then it climbs back</b> as the small prizes get scratched out.</div>
+        <div class="chart-fine">Fictional game, made-up numbers. Real charts use each game's daily data.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ALSO ============ -->
+<section class="also">
+  <div class="also-inner">
+    <div class="eyebrow">Also in 4.0</div>
+    <h2>The rest of the box.</h2>
+    <p class="lede">The diary and the charts are the headliners, but 4.0 is our biggest update ever. The quick tour:</p>
+    <div class="also-grid">
+      <a class="also-card" href="nearly-half-of-america.html">
+        <span class="tag">New</span>
+        <div class="emo">🗺️</div>
+        <h4>Three new states</h4>
+        <p>Massachusetts, Georgia, and New Jersey join the lineup. Nine states, close to 900 games, nearly half the country.</p>
+        <span class="more">Read the story →</span>
+      </a>
+      <div class="also-card">
+        <span class="tag">Fresh</span>
+        <div class="emo">🎨</div>
+        <h4>A cleaner look</h4>
+        <p>Game details, the game list, and Settings got redesigned — compact score and top-prize tiles, tidier stats, tap-to-open tables, and a favorite heart right in the game's details.</p>
+      </div>
+      <div class="also-card">
+        <span class="tag">New</span>
+        <div class="emo">🔀</div>
+        <h4>More ways to rank</h4>
+        <p>Sort the list by Best Overall Odds or Best Estimated Jackpot Odds — tap “Change” on the ranking banner above the games.</p>
+      </div>
+      <div class="also-card">
+        <span class="tag">New</span>
+        <div class="emo">🏁</div>
+        <h4>Recently ended games</h4>
+        <p>Games the lottery just pulled hang around for a couple of weeks in a shaded section at the bottom of the list, final numbers included.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Go read today's entry —</div>
+    <h2 class="cta-headline">Your scratcher has something to tell you.</h2>
+    <p class="cta-sub">Free to download. The Deep Dive headline is free on every game; the full read and the rest of Premium come with a 3-day free trial. Already have the app? Update to 4.0 and open any game.</p>
+    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-button">Get SmartScratcher</a>
+    <div class="cta-fineprint">$2.99/mo after trial · Cancel anytime · iOS</div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="f-brand">
+      <a href="../index.html" class="f-logo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in OK, TX, CA, FL, NY, NC, MA, GA, and NJ.</p>
+    </div>
+    <div class="f-col">
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="f-col">
+      <h4>Fine print</h4>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="site-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+</body>
+</html>
