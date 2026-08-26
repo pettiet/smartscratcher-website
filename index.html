@@ -1055,6 +1055,21 @@
     color: var(--red-deep);
   }
   .state-card:hover .s-go { text-decoration: underline; }
+  .state-card.soon { position: relative; }
+  .state-card.soon .soon-chip {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    background: var(--blue);
+    border-radius: 999px;
+    padding: 3px 9px;
+  }
+  .state-card.soon .s-abbr { color: var(--blue); }
   .states-cta {
     text-align: center;
     margin-top: 30px;
@@ -1684,8 +1699,8 @@
 <!-- STATES -->
 <section class="states" id="states">
   <div class="section-kicker">· States we cover ·</div>
-  <h2>Nine states. <em>More coming.</em></h2>
-  <p class="states-deck">We currently track every active scratch-off in these states. Data refreshes whenever each state lottery posts an update.</p>
+  <h2>Nine states. <em>Six more on the way.</em></h2>
+  <p class="states-deck">We currently track every active scratch-off in these states. Data refreshes whenever each state lottery posts an update. And six more states are coming to the app soon — we're already tracking their games, so go ahead and browse.</p>
 
   <div class="states-grid">
     <a class="state-card" href="/scratchers/oklahoma/">
@@ -1751,12 +1766,60 @@
       <div class="s-stats">Just added · every active game</div>
       <div class="s-go">See every game →</div>
     </a>
+    <a class="state-card soon" href="/scratchers/maryland/">
+      <span class="soon-chip">APP SOON</span>
+      <div class="s-flag">🦀</div>
+      <div class="s-abbr">MD</div>
+      <div class="s-name">Maryland</div>
+      <div class="s-stats">Coming to the app soon · data's live</div>
+      <div class="s-go">Peek at the games →</div>
+    </a>
+    <a class="state-card soon" href="/scratchers/michigan/">
+      <span class="soon-chip">APP SOON</span>
+      <div class="s-flag">🚗</div>
+      <div class="s-abbr">MI</div>
+      <div class="s-name">Michigan</div>
+      <div class="s-stats">Coming to the app soon · data's live</div>
+      <div class="s-go">Peek at the games →</div>
+    </a>
+    <a class="state-card soon" href="/scratchers/missouri/">
+      <span class="soon-chip">APP SOON</span>
+      <div class="s-flag">⚜️</div>
+      <div class="s-abbr">MO</div>
+      <div class="s-name">Missouri</div>
+      <div class="s-stats">Coming to the app soon · data's live</div>
+      <div class="s-go">Peek at the games →</div>
+    </a>
+    <a class="state-card soon" href="/scratchers/south-carolina/">
+      <span class="soon-chip">APP SOON</span>
+      <div class="s-flag">🎓</div>
+      <div class="s-abbr">SC</div>
+      <div class="s-name">South Carolina</div>
+      <div class="s-stats">Coming to the app soon · data's live</div>
+      <div class="s-go">Peek at the games →</div>
+    </a>
+    <a class="state-card soon" href="/scratchers/virginia/">
+      <span class="soon-chip">APP SOON</span>
+      <div class="s-flag">❤️</div>
+      <div class="s-abbr">VA</div>
+      <div class="s-name">Virginia</div>
+      <div class="s-stats">Coming to the app soon · data's live</div>
+      <div class="s-go">Peek at the games →</div>
+    </a>
+    <a class="state-card soon" href="/scratchers/washington/">
+      <span class="soon-chip">APP SOON</span>
+      <div class="s-flag">🏔️</div>
+      <div class="s-abbr">WA</div>
+      <div class="s-name">Washington</div>
+      <div class="s-stats">Coming to the app soon · data's live</div>
+      <div class="s-go">Peek at the games →</div>
+    </a>
   </div>
 
   <div class="live-peek">
     <div>
       <h3>Don't take our word for it — <em>peek at the data.</em></h3>
-      <p>Every active game in all nine states, with real remaining-prize counts straight from official lottery data. Free to browse, updated daily.</p>
+      <p>Every active game in all fifteen states we track, with real remaining-prize counts straight from official lottery data. Free to browse, updated daily.</p>
     </div>
     <a href="scratchers/" class="lp-btn">Browse the live game data →</a>
   </div>
@@ -1841,7 +1904,7 @@
         <span class="toggle">+</span>
       </button>
       <div class="faq-a">
-        <p>Currently Oklahoma, Texas, California, Florida, New York, North Carolina, Massachusetts, Georgia, and New Jersey — nine states in all, and all nine live in the app as of version 4.0. More are on the roadmap, especially the ones people ask about most. If your state isn't covered, <a href="#contact">let us know</a> and we'll add it to the queue.</p>
+        <p>Currently Oklahoma, Texas, California, Florida, New York, North Carolina, Massachusetts, Georgia, and New Jersey — nine states in all, and all nine live in the app as of version 4.0. Six more are on the way: Michigan, Maryland, Washington, South Carolina, Virginia, and Missouri are already being tracked, and their game data is live on this site while we finish their spot in the app. If your state isn't covered, <a href="#contact">let us know</a> and we'll add it to the queue.</p>
       </div>
     </div>
 
