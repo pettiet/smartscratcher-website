@@ -244,51 +244,53 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
 
 /* ---------- BEST-ODDS PAGE ---------- */
 .podium {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 26px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px;
 }
-@media (max-width: 820px) { .podium { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .podium { grid-template-columns: 1fr; } }
 .pod-card {
   background: #fff; border: 2px solid var(--ink); border-radius: 16px;
-  padding: 20px 20px 18px; text-decoration: none; text-align: center;
-  transition: transform 0.12s, box-shadow 0.12s; box-shadow: 4px 4px 0 var(--ink);
+  padding: 16px 18px; text-decoration: none; box-shadow: 4px 4px 0 var(--ink);
+  display: flex; gap: 14px; align-items: center;
+  transition: transform 0.12s, box-shadow 0.12s;
 }
 .pod-card:hover { transform: translateY(-2px); box-shadow: 6px 6px 0 var(--ink); }
 .pod-card.first { background: var(--yellow); }
-.pod-rank {
-  font-family: var(--mono); font-size: 12px; font-weight: 700;
-  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;
-}
-.pod-rank .medal-emoji { font-size: 18px; vertical-align: -2px; margin-right: 2px; }
-.pod-img {
-  width: 110px; border: 2px solid var(--ink); border-radius: 10px;
-  background: #fff; display: inline-block; margin-bottom: 12px;
+.pod-thumb {
+  width: 64px; height: 88px; object-fit: cover; object-position: center top;
+  border: 2px solid var(--ink); border-radius: 8px; background: #fff; flex-shrink: 0;
 }
 .pod-fallback {
-  width: 110px; aspect-ratio: 3 / 4; border: 2px solid var(--ink);
-  border-radius: 10px; background: var(--cream); display: inline-flex;
-  align-items: center; justify-content: center; font-size: 34px; margin-bottom: 12px;
+  width: 64px; height: 88px; border: 2px solid var(--ink); border-radius: 8px;
+  background: var(--cream); display: inline-flex; align-items: center;
+  justify-content: center; font-size: 26px; flex-shrink: 0;
+}
+.pod-info { min-width: 0; }
+.pod-rank {
+  font-family: var(--mono); font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px;
 }
 .pod-name {
-  font-family: var(--display); font-weight: 800; font-size: 19px;
-  line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 6px;
+  font-family: var(--display); font-weight: 800; font-size: 16px;
+  line-height: 1.2; letter-spacing: -0.01em;
 }
 .pod-odds {
-  font-family: var(--display); font-weight: 800; font-size: clamp(26px, 3vw, 32px);
-  line-height: 1.1; letter-spacing: -0.01em;
+  font-family: var(--display); font-weight: 800; font-size: 23px;
+  line-height: 1.15; letter-spacing: -0.01em;
 }
-.pod-meta { font-family: var(--mono); font-size: 12px; color: var(--ink-soft); margin-top: 6px; }
+.pod-meta { font-family: var(--mono); font-size: 11.5px; color: var(--ink-soft); }
 .pod-card.first .pod-meta { color: var(--ink); }
 .pod-catch {
-  display: inline-block; margin-top: 12px; font-family: var(--mono);
-  font-size: 11.5px; font-weight: 700; border-radius: 999px; padding: 5px 12px;
+  display: inline-block; margin-top: 7px; font-family: var(--mono);
+  font-size: 10.5px; font-weight: 700; border-radius: 999px; padding: 3px 10px;
   border: 1.5px solid var(--ink);
 }
 .pod-catch.good { background: #e8f7ee; color: var(--green); }
 .pod-catch.bad { background: #ffe9e7; color: var(--red-deep); }
 
-.rank-table td.rank-num { font-weight: 700; color: var(--muted); }
+.rank-table th.th-rank { text-align: center; }
+.rank-table th:nth-child(2) { text-align: left; }
+.rank-table td.rank-num { font-weight: 700; color: var(--muted); text-align: center; }
 .rank-table td.rank-num.medal { color: var(--ink); background: var(--yellow); }
-.rank-table .odds-cell .tbar { width: 90px; }
 
 .price-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
@@ -330,17 +332,62 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
 .story-kicker { border-top: 1px dashed var(--rule); padding-top: 14px; }
 .story-kicker a { color: var(--red-deep); font-weight: 700; }
 
-/* ---------- STATE PAGE: best-odds promo ---------- */
-.best-promo {
-  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-  background: var(--yellow); border: 2px solid var(--ink); border-radius: 16px;
-  padding: 16px 20px; margin-top: 22px; text-decoration: none;
-  box-shadow: 4px 4px 0 var(--ink); transition: transform 0.12s, box-shadow 0.12s;
+/* ---------- STATE PAGE: stat band, best-odds strip, price sections ---------- */
+.state-stats { margin-top: 4px; }
+.state-stats .n-sub a { font-weight: 700; color: var(--red-deep); text-decoration: none; }
+.state-stats .n-sub a:hover { text-decoration: underline; }
+
+.best-strip {
+  background: #fff; border: 2px solid var(--ink); border-radius: 16px;
+  box-shadow: 4px 4px 0 var(--ink); padding: 20px 22px; margin-top: 24px;
 }
-.best-promo:hover { transform: translateY(-2px); box-shadow: 6px 6px 0 var(--ink); }
-.best-promo .bp-emoji { font-size: 26px; }
-.best-promo .bp-text { flex: 1; min-width: 220px; font-size: 14.5px; line-height: 1.45; }
-.best-promo .bp-go { font-weight: 800; font-size: 14px; white-space: nowrap; }
+.bs-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; margin-bottom: 14px;
+}
+.bs-head h2 {
+  font-family: var(--display); font-weight: 800; font-size: 21px;
+  letter-spacing: -0.01em; margin-bottom: 2px;
+}
+.bs-head p { font-size: 14px; color: var(--ink-soft); max-width: 540px; line-height: 1.45; }
+.bs-btn {
+  background: var(--ink); color: var(--yellow); font-weight: 800; font-size: 13px;
+  font-family: var(--mono); padding: 10px 18px; border-radius: 999px;
+  text-decoration: none; white-space: nowrap; transition: background 0.15s;
+}
+.bs-btn:hover { background: var(--ink-soft); color: var(--yellow); }
+.bs-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 820px) { .bs-row { grid-template-columns: 1fr; } }
+.bs-card {
+  border: 2px solid var(--ink); border-radius: 12px; background: var(--cream);
+  padding: 12px 14px; text-decoration: none; transition: transform 0.1s;
+}
+.bs-card:hover { transform: translateY(-1px); }
+.bs-card.first { background: var(--yellow); }
+.bs-rank {
+  font-family: var(--mono); font-size: 10.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 3px;
+}
+.bs-name {
+  font-family: var(--display); font-weight: 800; font-size: 15.5px; line-height: 1.2;
+}
+.bs-meta { font-family: var(--mono); font-size: 11.5px; color: var(--ink-soft); margin-top: 3px; }
+.bs-catch {
+  margin-top: 6px; font-family: var(--mono); font-size: 10.5px; font-weight: 700;
+}
+.bs-catch.good { color: var(--green); }
+.bs-catch.bad { color: var(--red-deep); }
+
+.price-jump { margin: 26px 0 0; align-items: center; }
+.price-jump .jump-label {
+  font-family: var(--mono); font-size: 11.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
+  margin-right: 4px;
+}
+.price-h { margin-top: 34px; }
+.price-h .price-count {
+  font-family: var(--mono); font-size: 12.5px; font-weight: 500; color: var(--muted);
+}
 
 /* ---------- FAQ ---------- */
 .faq-sec { max-width: 1100px; }
