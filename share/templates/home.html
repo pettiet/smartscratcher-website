@@ -56,13 +56,14 @@
     color: var(--ink);
     display: inline-flex; align-items: center; gap: 12px;
   }
-  .wordmark .dot {
-    width: 14px; height: 14px;
+  .wordmark .s-badge { display: block; }
+  .wordmark .wm-hl {
     background: var(--yellow);
-    border-radius: 50%;
+    padding: 0 4px 1px;
     display: inline-block;
-    box-shadow: 0 0 0 2.5px var(--ink);
+    transform: rotate(-1.5deg);
   }
+  .wordmark .wm-tail { padding-left: 2px; }
   .states {
     display: flex; gap: 6px;
   }
@@ -160,11 +161,9 @@
 <body>
   <div class="frame">
     <div class="top">
-      <div class="wordmark"><span class="dot"></span>SmartScratcher</div>
+      <div class="wordmark"><svg class="s-badge" width="44" height="44" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="hbl" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#111111" stroke-width="1.7"/></pattern></defs><circle cx="60" cy="60" r="44" fill="#ffd60a"/><text x="55" y="91" font-family="Bricolage Grotesque" font-size="74" font-weight="800" fill="url(#hbl)" text-anchor="middle">S</text><text x="61" y="85" font-family="Bricolage Grotesque" font-size="74" font-weight="800" fill="#111111" text-anchor="middle">S</text></svg><span class="wm-text"><span class="wm-hl">Smart</span><span class="wm-tail">Scratcher</span></span></div>
       <div class="states">
-        <span class="state">OK</span>
-        <span class="state">TX</span>
-        <span class="state">CA</span>
+        <span class="state">NOW IN 15 STATES</span>
       </div>
     </div>
     <div class="center">
