@@ -1,5 +1,5 @@
 {
- "as_of": "2026-08-31",
+ "as_of": "2026-09-01",
  "biggest_jackpots": [
   {
    "amount": 25000000,
@@ -42,159 +42,159 @@
    "total": 3
   }
  ],
- "claimed_7d_money": 575665202,
- "claimed_7d_prizes": 20648922,
- "data_points": 171876,
- "face_value": 134326909708,
- "free_tickets_remaining": 74744176,
- "games": 1348,
- "million_prizes_remaining": 1053,
- "million_prizes_total": 2632,
- "million_tiers": 472,
- "money_remaining": 37680774580,
- "money_total": 102633533796,
+ "claimed_7d_money": 586861626,
+ "claimed_7d_prizes": 21093052,
+ "data_points": 173250,
+ "face_value": 134551656448,
+ "free_tickets_remaining": 74498101,
+ "games": 1353,
+ "million_prizes_remaining": 1059,
+ "million_prizes_total": 2636,
+ "million_tiers": 473,
+ "money_remaining": 37895385688,
+ "money_total": 102792929957,
  "per_state": [
   {
    "code": "ca",
    "face_value": 12252747000,
    "games": 54,
-   "money_remaining": 4343755226,
+   "money_remaining": 4329789136,
    "name": "California",
-   "prizes_remaining": 144049423,
+   "prizes_remaining": 143524618,
    "tickets_printed": 1152013467
   },
   {
    "code": "fl",
    "face_value": 21932484886,
    "games": 84,
-   "money_remaining": 5220782577,
+   "money_remaining": 5206414690,
    "name": "Florida",
-   "prizes_remaining": 147297472,
+   "prizes_remaining": 146886073,
    "tickets_printed": 2066705675
   },
   {
    "code": "ga",
    "face_value": 17664007323,
    "games": 194,
-   "money_remaining": 2701947671,
+   "money_remaining": 2695446484,
    "name": "Georgia",
-   "prizes_remaining": 92377182,
+   "prizes_remaining": 92126925,
    "tickets_printed": 2737730654
   },
   {
    "code": "md",
    "face_value": 3123649234,
    "games": 91,
-   "money_remaining": 1111423077,
+   "money_remaining": 1108501740,
    "name": "Maryland",
-   "prizes_remaining": 35654986,
+   "prizes_remaining": 35568661,
    "tickets_printed": 306672678
   },
   {
    "code": "ma",
    "face_value": 17169606593,
    "games": 132,
-   "money_remaining": 4935054387,
+   "money_remaining": 4927102928,
    "name": "Massachusetts",
-   "prizes_remaining": 135710295,
+   "prizes_remaining": 135465239,
    "tickets_printed": 1577233382
   },
   {
    "code": "mi",
-   "face_value": 8959689605,
-   "games": 108,
-   "money_remaining": 3244586688,
+   "face_value": 9174877139,
+   "games": 111,
+   "money_remaining": 3427296367,
    "name": "Michigan",
-   "prizes_remaining": 102744048,
-   "tickets_printed": 850732689
+   "prizes_remaining": 109974544,
+   "tickets_printed": 874045105
   },
   {
    "code": "mo",
-   "face_value": 2790428362,
-   "games": 45,
-   "money_remaining": 1311583468,
+   "face_value": 2612951372,
+   "games": 43,
+   "money_remaining": 1285373547,
    "name": "Missouri",
-   "prizes_remaining": 30353344,
-   "tickets_printed": 211175365
+   "prizes_remaining": 29732846,
+   "tickets_printed": 202289232
   },
   {
    "code": "nj",
    "face_value": 6338406100,
    "games": 125,
-   "money_remaining": 1634192607,
+   "money_remaining": 1630382220,
    "name": "New Jersey",
-   "prizes_remaining": 55609599,
+   "prizes_remaining": 55451996,
    "tickets_printed": 739910730
   },
   {
    "code": "ny",
    "face_value": 16130873236,
    "games": 106,
-   "money_remaining": 3637763463,
+   "money_remaining": 3630130727,
    "name": "New York",
-   "prizes_remaining": 158027745,
+   "prizes_remaining": 157638727,
    "tickets_printed": 2503527475
   },
   {
    "code": "nc",
-   "face_value": 8186750240,
-   "games": 75,
-   "money_remaining": 2533779079,
+   "face_value": 8373786436,
+   "games": 79,
+   "money_remaining": 2669874805,
    "name": "North Carolina",
-   "prizes_remaining": 62027557,
-   "tickets_printed": 629673844
+   "prizes_remaining": 66984104,
+   "tickets_printed": 650062707
   },
   {
    "code": "ok",
    "face_value": 549986800,
    "games": 45,
-   "money_remaining": 225002704,
+   "money_remaining": 224596517,
    "name": "Oklahoma",
-   "prizes_remaining": 8387091,
+   "prizes_remaining": 8363610,
    "tickets_printed": 53405822
   },
   {
    "code": "sc",
    "face_value": 2248938660,
    "games": 59,
-   "money_remaining": 625038732,
+   "money_remaining": 621824495,
    "name": "South Carolina",
-   "prizes_remaining": 25626924,
+   "prizes_remaining": 25494360,
    "tickets_printed": 285657116
   },
   {
    "code": "tx",
    "face_value": 12415014650,
    "games": 81,
-   "money_remaining": 4942905928,
+   "money_remaining": 4929673856,
    "name": "Texas",
-   "prizes_remaining": 119621720,
+   "prizes_remaining": 119249835,
    "tickets_printed": 963902705
   },
   {
    "code": "va",
    "face_value": 3474691419,
    "games": 90,
-   "money_remaining": 924907400,
+   "money_remaining": 922190856,
    "name": "Virginia",
-   "prizes_remaining": 27442365,
+   "prizes_remaining": 27369330,
    "tickets_printed": 323690488
   },
   {
    "code": "wa",
    "face_value": 1089635600,
    "games": 59,
-   "money_remaining": 288051573,
+   "money_remaining": 286787320,
    "name": "Washington",
-   "prizes_remaining": 14490242,
+   "prizes_remaining": 14420215,
    "tickets_printed": 143343570
   }
  ],
- "prizes_remaining": 1159419993,
- "prizes_total": 3653621210,
+ "prizes_remaining": 1168251083,
+ "prizes_total": 3661288208,
  "states": 15,
- "tickets_printed": 14545375660,
- "tier_snapshots": 711429,
- "tiers": 14453,
+ "tickets_printed": 14580190806,
+ "tier_snapshots": 726069,
+ "tiers": 14500,
  "tracking_since": "2024-11-25"
 }
