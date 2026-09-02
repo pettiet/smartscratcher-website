@@ -45,14 +45,14 @@
  "claimed_7d_money": 586514472,
  "claimed_7d_prizes": 21581478,
  "data_points": 174629,
- "face_value": 134916135018,
+ "face_value": 134898902098,
  "free_tickets_remaining": 75773373,
- "games": 1356,
+ "games": 1353,
  "million_prizes_remaining": 1066,
  "million_prizes_total": 2645,
  "million_tiers": 474,
- "money_remaining": 38098796337,
- "money_total": 103065984844,
+ "money_remaining": 38096044147,
+ "money_total": 103053428278,
  "per_state": [
   {
    "code": "ca",
@@ -146,12 +146,12 @@
   },
   {
    "code": "ok",
-   "face_value": 549986800,
-   "games": 45,
-   "money_remaining": 224596517,
+   "face_value": 532753880,
+   "games": 42,
+   "money_remaining": 221844327,
    "name": "Oklahoma",
-   "prizes_remaining": 8363610,
-   "tickets_printed": 53405822
+   "prizes_remaining": 8092825,
+   "tickets_printed": 50574692
   },
   {
    "code": "sc",
@@ -190,11 +190,11 @@
    "tickets_printed": 143343570
   }
  ],
- "prizes_remaining": 1178105344,
- "prizes_total": 3671785501,
+ "prizes_remaining": 1177834559,
+ "prizes_total": 3670966169,
  "states": 15,
- "tickets_printed": 14618567486,
+ "tickets_printed": 14615736356,
  "tier_snapshots": 740794,
- "tiers": 14528,
+ "tiers": 14496,
  "tracking_since": "2024-11-25"
 }
