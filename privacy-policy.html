@@ -369,8 +369,8 @@
 <ul>
   <li><strong>Install ID.</strong> When you first open the App it generates a random identifier and stores it on your device. This ID is sent with your requests so we can count how many people use the App, recognize a returning install, and honor promo codes. It is not your name, email, phone number, or Apple or Google account.</li>
   <li><strong>Device and app information.</strong> Device model, operating system and version, App version and build, language, and time zone.</li>
-  <li><strong>IP address.</strong> Your device's IP address reaches our servers with every request. We keep it in our logs for up to 48 hours for security and troubleshooting, then remove it.</li>
-  <li><strong>Approximate location.</strong> Before the IP address is removed we derive a coarse location (country, region, and city) from it so we can understand where our users are. We do not ask for or use your device's GPS or location permission.</li>
+  <li><strong>IP address.</strong> Your device's IP address reaches our servers with every request. It is recorded in our usage records and in our standard server logs. Section 6 explains how long each is kept.</li>
+  <li><strong>Approximate location.</strong> When a request arrives we derive a coarse location (country, region, and city) from it so we can understand where our users are. We do not ask for or use your device's GPS or location permission.</li>
   <li><strong>Usage information.</strong> Which screens and games you view, which filters and sorts you use, when you open the App, and how long sessions last.</li>
   <li><strong>Push token.</strong> If you allow notifications, Apple or Google gives the App a device token that we store, together with your install ID and chosen state, so we can send you notifications.</li>
   <li><strong>Purchase and subscription information.</strong> Whether you have an active subscription or trial, and subscription events (start, renewal, cancellation, refund) that Apple or Google report to us. Payments are handled entirely by Apple and Google. <strong>We never see your card number or billing details.</strong></li>
@@ -435,8 +435,9 @@
 
 <h2 id="retention">6. How long we keep information</h2>
 <ul>
-  <li><strong>IP addresses</strong> are removed from our request logs within 48 hours.</li>
-  <li><strong>Usage records</strong> tied to your install ID (sessions, chosen state, coarse location, promo-code checks) are kept for as long as we need them for analytics and troubleshooting, then deleted or aggregated so they no longer identify an install.</li>
+  <li><strong>Usage records</strong> tied to your install ID (sessions, chosen state, coarse location, and App version) are kept for as long as we need them for analytics and troubleshooting, then deleted or aggregated so they no longer identify an install. The IP address in these records is removed after 48 hours; the coarse location derived from it stays.</li>
+  <li><strong>Promo-code records</strong> (the code entered, whether it worked, your install ID, IP address, and device type) are kept for as long as the code program runs so we can spot sharing and abuse.</li>
+  <li><strong>Server logs.</strong> Like almost every online service, our web server and API record each request, including its IP address, in standard log files. Web server logs are kept for 14 days. API process logs are kept until the server's log space fills and older entries roll off, which at current volumes is several months. We use these logs only for security and troubleshooting.</li>
   <li><strong>Push tokens</strong> are kept until Apple or Google tells us the token is no longer valid, you turn notifications off and reinstall, or you ask us to remove it.</li>
   <li><strong>Subscription events</strong> reported by Apple or Google are kept for as long as needed for accounting, tax, and to understand subscription trends.</li>
   <li><strong>Emails</strong> you send us are kept for as long as needed to help you and improve the Services.</li>
@@ -483,7 +484,7 @@
 <table>
   <thead><tr><th>Category</th><th>Examples we collect</th><th>Disclosed to service providers</th><th>"Shared" for cross-context behavioral advertising</th></tr></thead>
   <tbody>
-    <tr><td>Identifiers</td><td>Install ID, IP address (48 hours), push token, advertising identifier (with permission), app-instance IDs</td><td>Yes</td><td>Yes — advertising identifier and app-instance IDs with Meta and Google</td></tr>
+    <tr><td>Identifiers</td><td>Install ID, IP address, push token, advertising identifier (with permission), app-instance IDs</td><td>Yes</td><td>Yes — advertising identifier and app-instance IDs with Meta and Google</td></tr>
     <tr><td>Commercial information</td><td>Subscription and trial status, purchase events, promo codes used</td><td>Yes</td><td>Yes — purchase events with Meta and Google</td></tr>
     <tr><td>Internet or other electronic network activity</td><td>Screens and games viewed, filters used, session times, device and App version</td><td>Yes</td><td>Yes — app events with Meta and Google</td></tr>
     <tr><td>Geolocation data (approximate only)</td><td>Country, region, and city derived from IP address</td><td>Yes</td><td>No</td></tr>
