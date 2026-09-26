@@ -232,6 +232,49 @@
   }
   .footer-bottom a { color: var(--yellow); text-decoration: none; }
 
+  /* ========== LEGAL PROSE ========== */
+  .legal { font-size: 16px; line-height: 1.65; color: var(--ink-soft); }
+  .legal .doc-meta {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 1px;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 22px;
+  }
+  .legal p, .legal ul, .legal ol { margin-bottom: 16px; }
+  .legal ul, .legal ol { padding-left: 24px; }
+  .legal li { margin-bottom: 8px; }
+  .legal li > ul { margin-top: 8px; margin-bottom: 0; }
+  .legal strong { color: var(--ink); }
+  .legal h2 {
+    font-family: var(--display); font-size: 26px; line-height: 1.15; font-weight: 800;
+    letter-spacing: -0.5px; color: var(--ink); margin: 40px 0 14px;
+    padding-top: 22px; border-top: 2px solid var(--rule); scroll-margin-top: 90px;
+  }
+  .legal h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 8px; }
+  .legal h3 {
+    font-family: var(--sans); font-size: 17px; font-weight: 700; color: var(--ink);
+    margin: 26px 0 10px;
+  }
+  .legal .summary {
+    background: var(--cream); border: 2px solid var(--ink); border-radius: 14px;
+    padding: 22px 24px 8px; margin: 26px 0 34px;
+  }
+  .legal .summary h2 { border: 0; padding: 0; margin: 0 0 12px; font-size: 22px; }
+  .legal .toc { columns: 2; column-gap: 32px; padding-left: 22px; }
+  .legal .toc li { break-inside: avoid; margin-bottom: 6px; font-size: 15px; }
+  .legal .toc a { color: var(--ink); font-weight: 600; text-decoration: none; }
+  .legal .toc a:hover { color: var(--red); text-decoration: underline; }
+  .legal table {
+    width: 100%; border-collapse: collapse; font-size: 14px; margin: 18px 0 20px;
+    display: block; overflow-x: auto;
+  }
+  .legal th, .legal td {
+    border: 1px solid var(--rule); padding: 10px 12px; text-align: left; vertical-align: top;
+  }
+  .legal th { background: var(--cream); color: var(--ink); font-weight: 700; font-family: var(--mono); font-size: 12px; letter-spacing: 0.5px; }
+  @media (max-width: 640px) {
+    .legal .toc { columns: 1; }
+    .legal h2 { font-size: 22px; }
+  }
+
   /* ========== RESPONSIVE ========== */
   @media (max-width: 880px) {
     nav.top .menu a:not(.cta-btn) { display: none; }
@@ -272,15 +315,172 @@
 <!-- LEGAL CONTENT -->
 <section class="legal-wrap">
   <div class="legal-card">
-    <!-- Termly embed (legal content) -->
-    <div name="termly-embed" data-id="2f2d6a50-b341-418b-a855-a9ffff486690"></div>
-    <script type="text/javascript">(function(d, s, id) {
-      var js, tjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://app.termly.io/embed-policy.min.js";
-      tjs.parentNode.insertBefore(js, tjs);
-    }(document, 'script', 'termly-jssdk'));</script>
+<div class="legal">
+
+<p class="doc-meta">Last updated: September 26, 2026</p>
+
+<p>These Terms of Service (the "Terms") are a legal agreement between you and Gaming Data Solutions LLC, an Oklahoma limited liability company based in Edmond, Oklahoma ("we," "us," or "our"). They govern your use of:</p>
+<ul>
+  <li>the SmartScratcher mobile app for iPhone and Android (the "App");</li>
+  <li>our website at smartscratcherapp.com (the "Website"); and</li>
+  <li>any content, notifications, or messages we provide through them.</li>
+</ul>
+<p>Together we call these the "Services." <strong>By downloading, installing, or using the Services you agree to these Terms and to our <a href="privacy-policy.html">Privacy Policy</a>.</strong> If you don't agree, please don't use the Services.</p>
+<p>These Terms include a binding arbitration agreement and class-action waiver (Section 16). Please read that section carefully.</p>
+
+<h2 id="toc">Contents</h2>
+<ol class="toc">
+  <li><a href="#what">What SmartScratcher is</a></li>
+  <li><a href="#eligibility">Who may use the Services</a></li>
+  <li><a href="#no-guarantee">No guarantees: our data and your decisions</a></li>
+  <li><a href="#responsible">Responsible play</a></li>
+  <li><a href="#subscriptions">Subscriptions, trials, and payments</a></li>
+  <li><a href="#promo">Promo and VIP codes</a></li>
+  <li><a href="#license">Your license to use the Services</a></li>
+  <li><a href="#ip">Our content and intellectual property</a></li>
+  <li><a href="#acceptable">Acceptable use</a></li>
+  <li><a href="#feedback">Feedback</a></li>
+  <li><a href="#notifications">Notifications and messages</a></li>
+  <li><a href="#third-party">App stores and other third parties</a></li>
+  <li><a href="#changes">Changes to the Services and to these Terms</a></li>
+  <li><a href="#termination">Termination</a></li>
+  <li><a href="#disclaimer">Disclaimer of warranties</a></li>
+  <li><a href="#disputes">Dispute resolution and arbitration</a></li>
+  <li><a href="#liability">Limitation of liability</a></li>
+  <li><a href="#indemnity">Indemnification</a></li>
+  <li><a href="#law">Governing law</a></li>
+  <li><a href="#california">California residents</a></li>
+  <li><a href="#general">General terms</a></li>
+  <li><a href="#contact">How to contact us</a></li>
+</ol>
+
+<h2 id="what">1. What SmartScratcher is</h2>
+<p>SmartScratcher is an information and analysis tool for lottery scratch-off tickets. We gather the prize and odds figures that state lotteries publish, run our own calculations on them, and present the results as ratings, rankings, charts, daily write-ups, and alerts. Some features are free; others require a paid subscription.</p>
+<p>The Services currently cover scratch-off games sold in California, Florida, Georgia, Maryland, Massachusetts, Michigan, Missouri, New Jersey, New York, North Carolina, Oklahoma, South Carolina, Texas, Virginia, and Washington. Coverage may differ between the App and the Website while a new state is being rolled out, and we may add or remove states at any time. The current list is always shown in the App and on the Website.</p>
+<p><strong>We are not a lottery and we do not sell tickets.</strong> SmartScratcher is independent and is not affiliated with, endorsed by, or sponsored by any state lottery or any lottery vendor. Lottery names, game names, logos, and ticket artwork belong to the respective lotteries and appear in the Services only to identify the games being discussed.</p>
+
+<h2 id="eligibility">2. Who may use the Services</h2>
+<p>You must be at least 18 years old to use the Services, or older if your state sets a higher minimum age to buy lottery tickets (for example, 21 in some states). By using the Services you confirm that you meet the age requirement where you live, that you are legally able to enter into these Terms, and that you will use the Services only where doing so is legal.</p>
+<p>The Services are designed for people in the United States. If you use them from elsewhere, you are responsible for complying with your local laws.</p>
+<p>You don't create an account to use the Services. Your device holds a random install ID that we use to recognize your install. Keep your device secure; anything done through the App on your device is treated as done by you.</p>
+
+<h2 id="no-guarantee">3. No guarantees: our data and your decisions</h2>
+<p>Everything in the Services is for general information only. In particular:</p>
+<ul>
+  <li><strong>Our figures come from the lotteries.</strong> Prize counts, odds, and related details are taken from information the state lotteries publish. Lotteries update on their own schedules, sometimes lag, and sometimes contain errors. We may also make mistakes when collecting or calculating.</li>
+  <li><strong>Ratings are opinions from math, not predictions.</strong> Our scores, rankings, "expected value," "ticket value," daily write-ups, and similar features are the output of our calculations applied to published figures. They describe a game's remaining prize pool as a whole. They cannot tell you whether any particular ticket will win, and a higher rating never guarantees a win.</li>
+  <li><strong>Scratch-off tickets are games of chance.</strong> Every ticket is random. Nothing in the Services changes the odds of any ticket, and past results do not affect future ones.</li>
+  <li><strong>Check with the source.</strong> Before you rely on any figure, confirm it with the official lottery for your state.</li>
+  <li><strong>Not financial advice.</strong> The Services are not financial, investment, legal, or tax advice, and we are not your adviser.</li>
+</ul>
+<p>Any decision to buy a lottery ticket, and any money you spend or lose doing so, is entirely your own responsibility.</p>
+
+<h2 id="responsible">4. Responsible play</h2>
+<p>SmartScratcher is meant to make the lottery more informed and more fun. It does not promote gambling and it is not a way to make money. Please only spend what you can afford to lose, and take a break if it stops being fun. Help is free and confidential from the National Problem Gambling Helpline at <a href="tel:1-800-426-2537">1-800-GAMBLER</a> (1-800-426-2537).</p>
+
+<h2 id="subscriptions">5. Subscriptions, trials, and payments</h2>
+<p>Premium features are sold as an auto-renewing subscription purchased through Apple's App Store or Google Play (each an "App Store"). The price, billing period, and any free trial are shown in the App before you buy. Any sales tax required by law is added by the App Store.</p>
+<ul>
+  <li><strong>Payment.</strong> The App Store charges the payment method on your Apple ID or Google account. We never receive or store your card details. All prices are in U.S. dollars.</li>
+  <li><strong>Auto-renewal.</strong> Your subscription renews automatically at the end of each billing period, at the then-current price, until you cancel. You will be charged within 24 hours before the start of each new period.</li>
+  <li><strong>Free trials.</strong> If a free trial is offered and you start one, the trial converts to a paid subscription and your payment method is charged when the trial ends, unless you cancel at least 24 hours before then. You can only use a trial once.</li>
+  <li><strong>Cancelling.</strong> You cancel through the App Store, not through us. On iPhone: Settings → your name → Subscriptions → SmartScratcher → Cancel Subscription. On Android: Google Play → your profile → Payments &amp; subscriptions → Subscriptions → SmartScratcher → Cancel. Deleting the App does not cancel a subscription. Cancellation takes effect at the end of the current period, and you keep premium access until then.</li>
+  <li><strong>Refunds.</strong> Because the App Store processes every payment, refund requests go to Apple or Google under their refund policies. We cannot issue refunds ourselves.</li>
+  <li><strong>Price changes.</strong> We may change subscription prices. The App Store will notify you before a price increase takes effect, and where required will ask you to agree to the new price. If you do nothing and the App Store requires consent, your subscription may end.</li>
+  <li><strong>Restoring purchases.</strong> If you reinstall the App or switch devices, use "Restore Purchases" in Settings while signed in to the same Apple ID or Google account.</li>
+</ul>
+
+<h2 id="promo">6. Promo and VIP codes</h2>
+<p>From time to time we issue codes that unlock premium features for free or at a discount. Codes are for the person we gave them to, are non-transferable, have no cash value, and may be limited in number, time, or use. We may change or withdraw a code, or revoke access obtained with one, at any time, especially if we believe it is being shared or abused.</p>
+
+<h2 id="license">7. Your license to use the Services</h2>
+<p>Subject to these Terms, we grant you a personal, limited, non-exclusive, non-transferable, revocable license to install and use the App on devices you own or control, and to view the Website, for your own personal, non-commercial use. We reserve all rights not expressly granted.</p>
+
+<h2 id="ip">8. Our content and intellectual property</h2>
+<p>The Services and everything in them that we created, including our software, calculations, scoring methods, ratings, rankings, write-ups, charts, text, design, graphics, the SmartScratcher name, and our logos, are owned by us or our licensors and protected by copyright, trademark, and other laws. You may not copy, republish, sell, license, distribute, or create derivative works from any of it, except for the printing or saving of individual pages or screens for your own personal use. If you want to use our content some other way, email us and ask.</p>
+<p>As noted in Section 1, lottery names, logos, and ticket images belong to the respective lotteries.</p>
+
+<h2 id="acceptable">9. Acceptable use</h2>
+<p>You agree not to:</p>
+<ul>
+  <li>use automated tools (bots, scrapers, crawlers, scripts) to access the Services or to collect data from them, except that ordinary search engines may index the public Website;</li>
+  <li>copy, extract, or systematically collect our ratings, rankings, write-ups, or other content to build any dataset, product, or service, whether or not it competes with us;</li>
+  <li>bypass, disable, or interfere with the subscription paywall, our API keys, or any other security or access-control feature;</li>
+  <li>reverse engineer, decompile, or otherwise attempt to discover the source code or the workings of our calculations, except to the extent the law expressly allows despite this restriction;</li>
+  <li>resell, rent, or share access to premium features, or use the Services for any commercial purpose;</li>
+  <li>overload or attack our servers, or use them in a way that interferes with anyone else's use;</li>
+  <li>remove or hide any copyright, trademark, or other notice;</li>
+  <li>use the Services to break any law, to harm anyone, or to deceive us or anyone else;</li>
+  <li>use the Services if you are under the required age or where their use is unlawful; or</li>
+  <li>help anyone else do any of the above.</li>
+</ul>
+
+<h2 id="feedback">10. Feedback</h2>
+<p>We love hearing from you. If you send us ideas, suggestions, bug reports, or other feedback, you agree that we can use them for any purpose, without payment or credit to you, and that you are not giving us anything confidential.</p>
+
+<h2 id="notifications">11. Notifications and messages</h2>
+<p>With your permission the App can send push notifications about new games, new states, features, and offers, and it shows messages in its in-app message center. You can turn push notifications off at any time in your device settings. We may still show important service notices in the App.</p>
+
+<h2 id="third-party">12. App stores and other third parties</h2>
+<p>The App is distributed through Apple's App Store and Google Play, and your use of it is also subject to their terms. The following applies to the App Store you obtained the App from (the "App Store Provider"):</p>
+<ul>
+  <li>These Terms are between you and us only, not with the App Store Provider. We, not the App Store Provider, are responsible for the App and its content.</li>
+  <li>Your license to the App is limited to use on devices running the App Store Provider's operating system, in accordance with its usage rules.</li>
+  <li>The App Store Provider has no obligation to provide maintenance or support for the App.</li>
+  <li>If the App fails to conform to any applicable warranty, you may notify the App Store Provider, which may refund the purchase price to you (if any). To the fullest extent permitted by law, the App Store Provider has no other warranty obligation for the App.</li>
+  <li>The App Store Provider is not responsible for addressing any claims by you or a third party relating to the App, including product liability claims, consumer protection claims, or claims that the App infringes someone's intellectual property.</li>
+  <li>You represent that you are not located in a country subject to a U.S. government embargo or designated as a "terrorist supporting" country, and that you are not on any U.S. government list of prohibited or restricted parties.</li>
+  <li>The App Store Provider and its subsidiaries are third-party beneficiaries of these Terms and may enforce them against you.</li>
+</ul>
+<p>The Services link to official lottery websites and other third-party sites. We do not control them and are not responsible for their content or practices.</p>
+
+<h2 id="changes">13. Changes to the Services and to these Terms</h2>
+<p><strong>The Services.</strong> We may add, change, suspend, or remove features, states, or content at any time, and we may stop offering the Services altogether. We will try to give notice of changes that matter, but we are not liable for any change, interruption, or discontinuation.</p>
+<p><strong>These Terms.</strong> We may update these Terms. The date at the top shows when they last changed. For material changes we will post the new Terms on the Website and give notice in the App at least 7 days before they take effect, except that changes needed for new features, security, bug fixes, or legal compliance may take effect immediately. If you keep using the Services after a change takes effect, you accept the new Terms. If you don't agree, stop using the Services and cancel any subscription.</p>
+
+<h2 id="termination">14. Termination</h2>
+<p>You may stop using the Services at any time. Cancelling your subscription (Section 5) and deleting the App ends your relationship with us, though these Terms continue to apply to your past use.</p>
+<p>We may suspend or end your access to all or part of the Services at any time, with or without notice, if we believe you have violated these Terms or the law, if we are required to, or if we discontinue the Services. Sections 3, 8, 10, and 15 through 21 survive termination.</p>
+
+<h2 id="disclaimer">15. Disclaimer of warranties</h2>
+<p>THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE." TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICES WILL BE ACCURATE, COMPLETE, CURRENT, UNINTERRUPTED, SECURE, OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT USING THE SERVICES WILL RESULT IN ANY LOTTERY WIN OR OTHER OUTCOME. YOUR USE OF THE SERVICES IS AT YOUR OWN RISK. SOME STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SOME OF THESE EXCLUSIONS MAY NOT APPLY TO YOU.</p>
+
+<h2 id="disputes">16. Dispute resolution and arbitration</h2>
+<p><strong>Please read this section carefully. It affects your legal rights.</strong></p>
+<p><strong>Talk to us first.</strong> If you have a dispute with us, email <a href="mailto:support@gamingdatasolutions.com">support@gamingdatasolutions.com</a> with a description of the problem and what you would like us to do. Both of us agree to try in good faith to resolve any dispute informally for at least 30 days after that notice before starting arbitration or any other proceeding.</p>
+<p><strong>Binding arbitration.</strong> If we cannot resolve a dispute informally, you and we agree that any dispute, claim, or controversy arising out of or relating to these Terms or the Services will be resolved by binding individual arbitration administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules, available at <a href="https://www.adr.org" rel="noopener">adr.org</a>. The Federal Arbitration Act governs this section. The arbitrator may award the same relief a court could award to an individual, must follow applicable law, and will issue a written decision. Arbitration fees will be allocated as the AAA Consumer Arbitration Rules provide; if the arbitrator finds your share of fees unreasonably high, we will pay it. The arbitration may be conducted by document submission, by phone or video, or in person in Oklahoma County, Oklahoma, or at another location we both agree to. <strong>YOU UNDERSTAND THAT BY AGREEING TO ARBITRATION YOU ARE GIVING UP THE RIGHT TO SUE IN COURT AND TO A JURY TRIAL.</strong></p>
+<p><strong>No class actions.</strong> You and we agree that each of us may bring claims against the other only in an individual capacity, and not as a plaintiff or class member in any purported class, consolidated, or representative proceeding. The arbitrator may not consolidate claims of more than one person. If this paragraph is found unenforceable as to a particular claim, then that claim (and only that claim) must be brought in court under Section 19, and it will be stayed pending the arbitration of any remaining claims.</p>
+<p><strong>Exceptions.</strong> Either of us may (a) bring an individual claim in small claims court if it qualifies, (b) seek an injunction or other equitable relief in court to protect intellectual property rights, or (c) bring a claim in court that by law cannot be arbitrated.</p>
+<p><strong>Your right to opt out.</strong> You may opt out of this arbitration agreement by emailing <a href="mailto:support@gamingdatasolutions.com">support@gamingdatasolutions.com</a> with the subject "Arbitration opt-out" within 30 days after you first use the Services. Your email must include your device type, the state you selected in the App, and a statement that you want to opt out. Opting out does not affect any other part of these Terms.</p>
+<p><strong>Time limit.</strong> Any claim relating to the Services must be filed within one year after it arose, or it is permanently barred, unless the law does not allow that limit.</p>
+
+<h2 id="liability">17. Limitation of liability</h2>
+<p>TO THE FULLEST EXTENT PERMITTED BY LAW, NEITHER WE NOR OUR MEMBERS, MANAGERS, EMPLOYEES, OR CONTRACTORS WILL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOST PROFITS, LOST REVENUE, LOST DATA, OR MONEY SPENT ON LOTTERY TICKETS, ARISING OUT OF OR RELATING TO THE SERVICES OR THESE TERMS, EVEN IF WE WERE TOLD SUCH DAMAGES WERE POSSIBLE. OUR TOTAL LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES WILL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID US FOR THE SERVICES IN THE SIX MONTHS BEFORE THE CLAIM AROSE, OR (B) ONE HUNDRED U.S. DOLLARS ($100). SOME STATES DO NOT ALLOW THESE LIMITATIONS, SO SOME OF THEM MAY NOT APPLY TO YOU.</p>
+
+<h2 id="indemnity">18. Indemnification</h2>
+<p>You agree to defend, indemnify, and hold us and our members, managers, employees, and contractors harmless from any claim, loss, liability, or expense (including reasonable attorneys' fees) made by a third party that arises from your use of the Services, your violation of these Terms, or your violation of any law or third-party right. We may take over the defense of any matter you must indemnify, and you agree to cooperate with us if we do.</p>
+
+<h2 id="law">19. Governing law</h2>
+<p>These Terms and any dispute relating to them or the Services are governed by the laws of the State of Oklahoma and the Federal Arbitration Act, without regard to conflict-of-law rules. Any court proceeding permitted by Section 16 must be brought in the state or federal courts located in Oklahoma County, Oklahoma, and you consent to their jurisdiction, except that either party may bring a qualifying claim in small claims court where you live.</p>
+
+<h2 id="california">20. California residents</h2>
+<p>If you are a California resident and have a complaint we have not resolved, you may contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834, or by telephone at (800) 952-5210.</p>
+
+<h2 id="general">21. General terms</h2>
+<ul>
+  <li><strong>Entire agreement.</strong> These Terms and our Privacy Policy are the entire agreement between you and us about the Services and replace any earlier agreements.</li>
+  <li><strong>Severability.</strong> If any part of these Terms is found unenforceable, the rest remains in effect.</li>
+  <li><strong>No waiver.</strong> If we don't enforce a provision, we may still enforce it later.</li>
+  <li><strong>Assignment.</strong> You may not transfer your rights under these Terms. We may assign these Terms in connection with a merger, acquisition, or sale of assets.</li>
+  <li><strong>Events beyond our control.</strong> We are not responsible for delays or failures caused by events outside our reasonable control, including lottery website outages, App Store outages, or internet failures.</li>
+  <li><strong>Electronic communications.</strong> You agree that we can communicate with you electronically through the App, the Website, and email, and that those communications satisfy any legal requirement for written notice.</li>
+  <li><strong>No relationship.</strong> These Terms create no partnership, joint venture, employment, or agency relationship between you and us.</li>
+</ul>
+
+<h2 id="contact">22. How to contact us</h2>
+<p>Gaming Data Solutions LLC<br>Edmond, Oklahoma, United States<br><a href="mailto:support@gamingdatasolutions.com">support@gamingdatasolutions.com</a></p>
+
+</div>
   </div>
 
   <div class="back-home">
