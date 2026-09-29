@@ -5,7 +5,7 @@
    "game": {
     "bands": {
      "big": 0.0091,
-     "jackpot": 0.377,
+     "jackpot": 0.3774,
      "mid": 0.0736,
      "small": 0.3054,
      "top": {
@@ -16,7 +16,7 @@
     },
     "cost": 1.0,
     "est_left": 219863,
-    "fresh_value": 0.6665,
+    "fresh_value": 0.6668,
     "history": [
      {
       "jackpot": 27632,
@@ -24,6 +24,13 @@
       "score": 73,
       "t": "2026-09-29 10:48",
       "value": 0.7652
+     },
+     {
+      "jackpot": 27661,
+      "left_pct": 73.3,
+      "score": 73,
+      "t": "2026-09-29 16:00",
+      "value": 0.7656
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp242.jpg",
@@ -34,10 +41,15 @@
      "share_pct": 49,
      "start": 4000,
      "total": 3,
-     "value": 27632,
+     "value": 27661,
      "value_at_start": 0.4427
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 27661
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -61,7 +73,7 @@
     "printed": 300000,
     "prizes": [
      {
-      "amt": 27632,
+      "amt": 27661,
       "jackpot": true,
       "left": 3,
       "odds_now": 73287.67,
@@ -148,8 +160,17 @@
     ],
     "rating": "Good",
     "score": 73,
-    "since": null,
-    "value": 0.7652
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 29,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 0.7656
    },
    "last_seen": "2026-09-29",
    "slug": "242-blazin-bucks-progressive",
@@ -160,7 +181,7 @@
    "game": {
     "bands": {
      "big": 0.0103,
-     "jackpot": 0.2047,
+     "jackpot": 0.2049,
      "mid": 0.231,
      "small": 0.7198,
      "top": {
@@ -171,7 +192,7 @@
     },
     "cost": 2.0,
     "est_left": 454205,
-    "fresh_value": 1.1481,
+    "fresh_value": 1.1483,
     "history": [
      {
       "jackpot": 30990,
@@ -179,6 +200,13 @@
       "score": 48,
       "t": "2026-09-29 10:48",
       "value": 0.5829
+     },
+     {
+      "jackpot": 31017,
+      "left_pct": 90.8,
+      "score": 48,
+      "t": "2026-09-29 16:00",
+      "value": 0.583
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp243.jpg",
@@ -189,10 +217,15 @@
      "share_pct": 18,
      "start": 8000,
      "total": 3,
-     "value": 30990,
+     "value": 31017,
      "value_at_start": 1.0139
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 31017
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -216,7 +249,7 @@
     "printed": 500000,
     "prizes": [
      {
-      "amt": 30990,
+      "amt": 31017,
       "jackpot": true,
       "left": 3,
       "odds_now": 151401.67,
@@ -310,8 +343,17 @@
     ],
     "rating": "Poor",
     "score": 48,
-    "since": null,
-    "value": 1.1658
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 27,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 1.166
    },
    "last_seen": "2026-09-29",
    "slug": "243-cash-spot-progressive",
@@ -322,7 +364,7 @@
    "game": {
     "bands": {
      "big": 0.0,
-     "jackpot": 0.222,
+     "jackpot": 0.2222,
      "mid": 0.3336,
      "small": 0.6237,
      "top": {
@@ -333,7 +375,7 @@
     },
     "cost": 2.0,
     "est_left": 418698,
-    "fresh_value": 1.154,
+    "fresh_value": 1.1542,
     "history": [
      {
       "jackpot": 30990,
@@ -341,6 +383,13 @@
       "score": 55,
       "t": "2026-09-29 10:48",
       "value": 0.5897
+     },
+     {
+      "jackpot": 31017,
+      "left_pct": 87.2,
+      "score": 55,
+      "t": "2026-09-29 16:00",
+      "value": 0.5898
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp244.jpg",
@@ -351,10 +400,15 @@
      "share_pct": 19,
      "start": 8000,
      "total": 3,
-     "value": 30990,
+     "value": 31017,
      "value_at_start": 1.0147
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 31017
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -378,7 +432,7 @@
     "printed": 480000,
     "prizes": [
      {
-      "amt": 30990,
+      "amt": 31017,
       "jackpot": true,
       "left": 3,
       "odds_now": 139566.0,
@@ -451,8 +505,17 @@
     ],
     "rating": "Poor",
     "score": 55,
-    "since": null,
-    "value": 1.1794
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 27,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 1.1796
    },
    "last_seen": "2026-09-29",
    "slug": "244-hit-100-progressive",
@@ -463,7 +526,7 @@
    "game": {
     "bands": {
      "big": 0.0044,
-     "jackpot": 0.2724,
+     "jackpot": 0.2726,
      "mid": 0.1607,
      "small": 0.7589,
      "top": {
@@ -474,7 +537,7 @@
     },
     "cost": 2.0,
     "est_left": 227550,
-    "fresh_value": 1.2399,
+    "fresh_value": 1.2402,
     "history": [
      {
       "jackpot": 30990,
@@ -482,6 +545,13 @@
       "score": 39,
       "t": "2026-09-29 10:48",
       "value": 0.5982
+     },
+     {
+      "jackpot": 31017,
+      "left_pct": 75.8,
+      "score": 39,
+      "t": "2026-09-29 16:00",
+      "value": 0.5983
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp245.jpg",
@@ -492,10 +562,15 @@
      "share_pct": 23,
      "start": 8000,
      "total": 3,
-     "value": 30990,
+     "value": 31017,
      "value_at_start": 0.9943
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-09-29 16:00",
+      "v": 31017
+     },
      {
       "left": 2,
       "t": "2026-09-29 10:48",
@@ -519,7 +594,7 @@
     "printed": 300000,
     "prizes": [
      {
-      "amt": 30990,
+      "amt": 31017,
       "jackpot": true,
       "left": 2,
       "odds_now": 113775.0,
@@ -585,8 +660,17 @@
     ],
     "rating": "Poor",
     "score": 39,
-    "since": null,
-    "value": 1.1964
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 27,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 1.1966
    },
    "last_seen": "2026-09-29",
    "slug": "245-grumpy-cat-progressive",
@@ -597,7 +681,7 @@
    "game": {
     "bands": {
      "big": 0.0047,
-     "jackpot": 0.1958,
+     "jackpot": 0.196,
      "mid": 0.1056,
      "small": 0.2938,
      "top": {
@@ -608,7 +692,7 @@
     },
     "cost": 1.0,
     "est_left": 423453,
-    "fresh_value": 0.578,
+    "fresh_value": 0.5782,
     "history": [
      {
       "jackpot": 27632,
@@ -616,6 +700,13 @@
       "score": 50,
       "t": "2026-09-29 10:48",
       "value": 0.5998
+     },
+     {
+      "jackpot": 27661,
+      "left_pct": 88.2,
+      "score": 50,
+      "t": "2026-09-29 16:00",
+      "value": 0.6
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp246.jpg",
@@ -626,10 +717,15 @@
      "share_pct": 33,
      "start": 4000,
      "total": 3,
-     "value": 27632,
+     "value": 27661,
      "value_at_start": 0.4324
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 27661
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -653,7 +749,7 @@
     "printed": 480000,
     "prizes": [
      {
-      "amt": 27632,
+      "amt": 27661,
       "jackpot": true,
       "left": 3,
       "odds_now": 141151.0,
@@ -740,8 +836,17 @@
     ],
     "rating": "Poor",
     "score": 50,
-    "since": null,
-    "value": 0.5998
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 29,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 0.6
    },
    "last_seen": "2026-09-29",
    "slug": "246-double-play-progressive",
@@ -752,7 +857,7 @@
    "game": {
     "bands": {
      "big": 0.0049,
-     "jackpot": 0.3407,
+     "jackpot": 0.341,
      "mid": 0.093,
      "small": 0.2889,
      "top": {
@@ -763,7 +868,7 @@
     },
     "cost": 1.0,
     "est_left": 243327,
-    "fresh_value": 0.6667,
+    "fresh_value": 0.6669,
     "history": [
      {
       "jackpot": 27632,
@@ -771,6 +876,13 @@
       "score": 63,
       "t": "2026-09-29 10:48",
       "value": 0.7275
+     },
+     {
+      "jackpot": 27661,
+      "left_pct": 81.1,
+      "score": 63,
+      "t": "2026-09-29 16:00",
+      "value": 0.7279
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp247.jpg",
@@ -781,10 +893,15 @@
      "share_pct": 47,
      "start": 4000,
      "total": 3,
-     "value": 27632,
+     "value": 27661,
      "value_at_start": 0.4362
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 27661
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -808,7 +925,7 @@
     "printed": 300000,
     "prizes": [
      {
-      "amt": 27632,
+      "amt": 27661,
       "jackpot": true,
       "left": 3,
       "odds_now": 81109.0,
@@ -916,8 +1033,17 @@
     ],
     "rating": "Fair",
     "score": 63,
-    "since": null,
-    "value": 0.7275
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 29,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 0.7279
    },
    "last_seen": "2026-09-29",
    "slug": "247-sugar-crush-progressive",
@@ -928,7 +1054,7 @@
    "game": {
     "bands": {
      "big": 0.0,
-     "jackpot": 0.389,
+     "jackpot": 0.3896,
      "mid": 1.0949,
      "small": 1.6116,
      "top": {
@@ -939,7 +1065,7 @@
     },
     "cost": 5.0,
     "est_left": 449191,
-    "fresh_value": 3.0595,
+    "fresh_value": 3.0601,
     "history": [
      {
       "jackpot": 58248,
@@ -947,6 +1073,13 @@
       "score": 59,
       "t": "2026-09-29 10:48",
       "value": 0.6191
+     },
+     {
+      "jackpot": 58342,
+      "left_pct": 89.8,
+      "score": 59,
+      "t": "2026-09-29 16:00",
+      "value": 0.6192
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp248.jpg",
@@ -957,10 +1090,15 @@
      "share_pct": 13,
      "start": 40000,
      "total": 3,
-     "value": 58248,
+     "value": 58342,
      "value_at_start": 2.9736
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 58342
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -984,7 +1122,7 @@
     "printed": 500000,
     "prizes": [
      {
-      "amt": 58248,
+      "amt": 58342,
       "jackpot": true,
       "left": 3,
       "odds_now": 149730.33,
@@ -1050,8 +1188,17 @@
     ],
     "rating": "Poor",
     "score": 59,
-    "since": null,
-    "value": 3.0955
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 94,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 3.0961
    },
    "last_seen": "2026-09-29",
    "slug": "248-500-frenzy-progressive",
@@ -1062,7 +1209,7 @@
    "game": {
     "bands": {
      "big": 0.0066,
-     "jackpot": 0.2554,
+     "jackpot": 0.2558,
      "mid": 0.7802,
      "small": 1.918,
      "top": {
@@ -1073,7 +1220,7 @@
     },
     "cost": 5.0,
     "est_left": 456113,
-    "fresh_value": 3.0595,
+    "fresh_value": 3.0601,
     "history": [
      {
       "jackpot": 58248,
@@ -1081,6 +1228,13 @@
       "score": 39,
       "t": "2026-09-29 10:48",
       "value": 0.592
+     },
+     {
+      "jackpot": 58342,
+      "left_pct": 91.2,
+      "score": 39,
+      "t": "2026-09-29 16:00",
+      "value": 0.5921
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp250.jpg",
@@ -1091,10 +1245,15 @@
      "share_pct": 9,
      "start": 40000,
      "total": 3,
-     "value": 58248,
+     "value": 58342,
      "value_at_start": 2.8802
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-09-29 16:00",
+      "v": 58342
+     },
      {
       "left": 2,
       "t": "2026-09-29 10:48",
@@ -1118,7 +1277,7 @@
     "printed": 500000,
     "prizes": [
      {
-      "amt": 58248,
+      "amt": 58342,
       "jackpot": true,
       "left": 2,
       "odds_now": 228056.5,
@@ -1205,8 +1364,17 @@
     ],
     "rating": "Poor",
     "score": 39,
-    "since": null,
-    "value": 2.9602
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 94,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 2.9606
    },
    "last_seen": "2026-09-29",
    "slug": "250-5-times-lucky-progressive",
@@ -1217,7 +1385,7 @@
    "game": {
     "bands": {
      "big": 0.1978,
-     "jackpot": 0.6442,
+     "jackpot": 0.6451,
      "mid": 1.5024,
      "small": 4.271,
      "top": {
@@ -1228,7 +1396,7 @@
     },
     "cost": 10.0,
     "est_left": 364087,
-    "fresh_value": 6.8555,
+    "fresh_value": 6.8568,
     "history": [
      {
       "jackpot": 117273,
@@ -1236,6 +1404,13 @@
       "score": 52,
       "t": "2026-09-29 10:48",
       "value": 0.6615
+     },
+     {
+      "jackpot": 117437,
+      "left_pct": 91.0,
+      "score": 52,
+      "t": "2026-09-29 16:00",
+      "value": 0.6616
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp251.jpg",
@@ -1246,10 +1421,15 @@
      "share_pct": 10,
      "start": 90000,
      "total": 3,
-     "value": 117273,
+     "value": 117437,
      "value_at_start": 6.4656
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-09-29 16:00",
+      "v": 117437
+     },
      {
       "left": 2,
       "t": "2026-09-29 10:48",
@@ -1273,7 +1453,7 @@
     "printed": 400000,
     "prizes": [
      {
-      "amt": 117273,
+      "amt": 117437,
       "jackpot": true,
       "left": 2,
       "odds_now": 182043.5,
@@ -1353,8 +1533,17 @@
     ],
     "rating": "Poor",
     "score": 52,
-    "since": null,
-    "value": 6.6154
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 164,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 6.6163
    },
    "last_seen": "2026-09-29",
    "slug": "251-money-multiplier-progressive",
@@ -1365,7 +1554,7 @@
    "game": {
     "bands": {
      "big": 0.0,
-     "jackpot": 0.9418,
+     "jackpot": 0.9431,
      "mid": 2.2328,
      "small": 3.7494,
      "top": {
@@ -1376,7 +1565,7 @@
     },
     "cost": 10.0,
     "est_left": 373564,
-    "fresh_value": 6.8545,
+    "fresh_value": 6.8558,
     "history": [
      {
       "jackpot": 117273,
@@ -1384,6 +1573,13 @@
       "score": 71,
       "t": "2026-09-29 10:48",
       "value": 0.6924
+     },
+     {
+      "jackpot": 117437,
+      "left_pct": 93.4,
+      "score": 71,
+      "t": "2026-09-29 16:00",
+      "value": 0.6925
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp252.jpg",
@@ -1394,10 +1590,15 @@
      "share_pct": 14,
      "start": 90000,
      "total": 3,
-     "value": 117273,
+     "value": 117437,
      "value_at_start": 6.705
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 117437
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -1421,7 +1622,7 @@
     "printed": 400000,
     "prizes": [
      {
-      "amt": 117273,
+      "amt": 117437,
       "jackpot": true,
       "left": 3,
       "odds_now": 124521.33,
@@ -1480,8 +1681,17 @@
     ],
     "rating": "Good",
     "score": 71,
-    "since": null,
-    "value": 6.924
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 164,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 6.9254
    },
    "last_seen": "2026-09-29",
    "slug": "252-1000-loaded-progressive",
@@ -1492,7 +1702,7 @@
    "game": {
     "bands": {
      "big": 0.0,
-     "jackpot": 0.9568,
+     "jackpot": 0.9581,
      "mid": 0.9024,
      "small": 5.0796,
      "top": {
@@ -1503,7 +1713,7 @@
     },
     "cost": 10.0,
     "est_left": 367705,
-    "fresh_value": 6.8545,
+    "fresh_value": 6.8558,
     "history": [
      {
       "jackpot": 117273,
@@ -1511,6 +1721,13 @@
       "score": 71,
       "t": "2026-09-29 10:48",
       "value": 0.6939
+     },
+     {
+      "jackpot": 117437,
+      "left_pct": 91.9,
+      "score": 71,
+      "t": "2026-09-29 16:00",
+      "value": 0.694
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp253.jpg",
@@ -1521,10 +1738,15 @@
      "share_pct": 14,
      "start": 90000,
      "total": 3,
-     "value": 117273,
+     "value": 117437,
      "value_at_start": 6.7163
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 117437
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -1548,7 +1770,7 @@
     "printed": 400000,
     "prizes": [
      {
-      "amt": 117273,
+      "amt": 117437,
       "jackpot": true,
       "left": 3,
       "odds_now": 122568.33,
@@ -1614,8 +1836,17 @@
     ],
     "rating": "Good",
     "score": 71,
-    "since": null,
-    "value": 6.9388
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 164,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 6.9401
    },
    "last_seen": "2026-09-29",
    "slug": "253-casino-royale-progressive",
@@ -1626,7 +1857,7 @@
    "game": {
     "bands": {
      "big": 0.7457,
-     "jackpot": 3.5714,
+     "jackpot": 3.5731,
      "mid": 1.2373,
      "small": 13.323,
      "top": {
@@ -1637,7 +1868,7 @@
     },
     "cost": 30.0,
     "est_left": 489461,
-    "fresh_value": 18.7972,
+    "fresh_value": 18.7988,
     "history": [
      {
       "jackpot": 582692,
@@ -1645,6 +1876,13 @@
       "score": 63,
       "t": "2026-09-29 10:48",
       "value": 0.6292
+     },
+     {
+      "jackpot": 582966,
+      "left_pct": 97.9,
+      "score": 63,
+      "t": "2026-09-29 16:00",
+      "value": 0.6293
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp254.jpg",
@@ -1655,10 +1893,15 @@
      "share_pct": 19,
      "start": 500000,
      "total": 3,
-     "value": 582692,
+     "value": 582966,
      "value_at_start": 18.3706
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 582966
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -1682,7 +1925,7 @@
     "printed": 500000,
     "prizes": [
      {
-      "amt": 582692,
+      "amt": 582966,
       "jackpot": true,
       "left": 3,
       "odds_now": 163153.67,
@@ -1797,8 +2040,17 @@
     ],
     "rating": "Fair",
     "score": 63,
-    "since": null,
-    "value": 18.8774
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 274,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 18.8791
    },
    "last_seen": "2026-09-29",
    "slug": "254-extreme-green-progressive",
@@ -1809,7 +2061,7 @@
    "game": {
     "bands": {
      "big": 0.5481,
-     "jackpot": 3.5488,
+     "jackpot": 3.5504,
      "mid": 1.6084,
      "small": 13.1592,
      "top": {
@@ -1820,7 +2072,7 @@
     },
     "cost": 30.0,
     "est_left": 492587,
-    "fresh_value": 18.8002,
+    "fresh_value": 18.8018,
     "history": [
      {
       "jackpot": 582692,
@@ -1828,6 +2080,13 @@
       "score": 67,
       "t": "2026-09-29 10:48",
       "value": 0.6288
+     },
+     {
+      "jackpot": 582966,
+      "left_pct": 98.5,
+      "score": 67,
+      "t": "2026-09-29 16:00",
+      "value": 0.6289
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp255.jpg",
@@ -1838,10 +2097,15 @@
      "share_pct": 19,
      "start": 500000,
      "total": 3,
-     "value": 582692,
+     "value": 582966,
      "value_at_start": 18.3609
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 582966
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -1865,7 +2129,7 @@
     "printed": 500000,
     "prizes": [
      {
-      "amt": 582692,
+      "amt": 582966,
       "jackpot": true,
       "left": 3,
       "odds_now": 164195.67,
@@ -1952,8 +2216,17 @@
     ],
     "rating": "Fair",
     "score": 67,
-    "since": null,
-    "value": 18.8646
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 274,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 18.8662
    },
    "last_seen": "2026-09-29",
    "slug": "255-winning-line-progressive",
@@ -1964,7 +2237,7 @@
    "game": {
     "bands": {
      "big": 0.3313,
-     "jackpot": 1.4162,
+     "jackpot": 1.4176,
      "mid": 2.076,
      "small": 9.0633,
      "top": {
@@ -1975,7 +2248,7 @@
     },
     "cost": 20.0,
     "est_left": 347103,
-    "fresh_value": 12.8731,
+    "fresh_value": 12.8744,
     "history": [
      {
       "jackpot": 163860,
@@ -1983,6 +2256,13 @@
       "score": 68,
       "t": "2026-09-29 10:48",
       "value": 0.6443
+     },
+     {
+      "jackpot": 164017,
+      "left_pct": 99.2,
+      "score": 68,
+      "t": "2026-09-29 16:00",
+      "value": 0.6444
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp256.jpg",
@@ -1993,10 +2273,15 @@
      "share_pct": 11,
      "start": 150000,
      "total": 3,
-     "value": 163860,
+     "value": 164017,
      "value_at_start": 12.7671
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 164017
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -2020,7 +2305,7 @@
     "printed": 350000,
     "prizes": [
      {
-      "amt": 163860,
+      "amt": 164017,
       "jackpot": true,
       "left": 3,
       "odds_now": 115701.0,
@@ -2121,8 +2406,17 @@
     ],
     "rating": "Fair",
     "score": 68,
-    "since": null,
-    "value": 12.8869
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 157,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 12.8883
    },
    "last_seen": "2026-09-29",
    "slug": "256-high-voltage-progressive",
@@ -2133,7 +2427,7 @@
    "game": {
     "bands": {
      "big": 0.3342,
-     "jackpot": 1.4163,
+     "jackpot": 1.4177,
      "mid": 0.7572,
      "small": 10.3779,
      "top": {
@@ -2144,13 +2438,20 @@
     },
     "cost": 20.0,
     "est_left": 347085,
-    "fresh_value": 12.8707,
+    "fresh_value": 12.8721,
     "history": [
      {
       "jackpot": 163860,
       "left_pct": 99.2,
       "score": 68,
       "t": "2026-09-29 10:48",
+      "value": 0.6443
+     },
+     {
+      "jackpot": 164017,
+      "left_pct": 99.2,
+      "score": 68,
+      "t": "2026-09-29 16:00",
       "value": 0.6443
      }
     ],
@@ -2162,10 +2463,15 @@
      "share_pct": 11,
      "start": 150000,
      "total": 3,
-     "value": 163860,
+     "value": 164017,
      "value_at_start": 12.7658
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 164017
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -2189,7 +2495,7 @@
     "printed": 350000,
     "prizes": [
      {
-      "amt": 163860,
+      "amt": 164017,
       "jackpot": true,
       "left": 3,
       "odds_now": 115695.0,
@@ -2276,8 +2582,17 @@
     ],
     "rating": "Fair",
     "score": 68,
-    "since": null,
-    "value": 12.8856
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 157,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 12.887
    },
    "last_seen": "2026-09-29",
    "slug": "257-cash-blast-progressive",
@@ -2288,7 +2603,7 @@
    "game": {
     "bands": {
      "big": 0.0502,
-     "jackpot": 0.2123,
+     "jackpot": 0.2129,
      "mid": 0.182,
      "small": 1.188,
      "top": {
@@ -2299,7 +2614,7 @@
     },
     "cost": 3.0,
     "est_left": 299014,
-    "fresh_value": 1.6316,
+    "fresh_value": 1.6322,
     "history": [
      {
       "jackpot": 21159,
@@ -2307,6 +2622,13 @@
       "score": 57,
       "t": "2026-09-29 10:48",
       "value": 0.5441
+     },
+     {
+      "jackpot": 21220,
+      "left_pct": 99.7,
+      "score": 57,
+      "t": "2026-09-29 16:00",
+      "value": 0.5443
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp258.jpg",
@@ -2317,10 +2639,15 @@
      "share_pct": 13,
      "start": 20000,
      "total": 3,
-     "value": 21159,
+     "value": 21220,
      "value_at_start": 1.6208
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 21220
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -2344,7 +2671,7 @@
     "printed": 300000,
     "prizes": [
      {
-      "amt": 21159,
+      "amt": 21220,
       "jackpot": true,
       "left": 3,
       "odds_now": 99671.33,
@@ -2424,8 +2751,17 @@
     ],
     "rating": "Poor",
     "score": 57,
-    "since": null,
-    "value": 1.6324
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 61,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 1.633
    },
    "last_seen": "2026-09-29",
    "slug": "258-bingo-progressive",
@@ -2436,7 +2772,7 @@
    "game": {
     "bands": {
      "big": 0.0167,
-     "jackpot": 0.2122,
+     "jackpot": 0.2129,
      "mid": 0.1288,
      "small": 1.275,
      "top": {
@@ -2447,7 +2783,7 @@
     },
     "cost": 3.0,
     "est_left": 299175,
-    "fresh_value": 1.6321,
+    "fresh_value": 1.6328,
     "history": [
      {
       "jackpot": 21159,
@@ -2455,6 +2791,13 @@
       "score": 58,
       "t": "2026-09-29 10:48",
       "value": 0.5442
+     },
+     {
+      "jackpot": 21236,
+      "left_pct": 99.7,
+      "score": 58,
+      "t": "2026-09-29 16:00",
+      "value": 0.5445
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp259.jpg",
@@ -2465,10 +2808,15 @@
      "share_pct": 13,
      "start": 20000,
      "total": 3,
-     "value": 21159,
+     "value": 21236,
      "value_at_start": 1.6211
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 21236
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -2492,7 +2840,7 @@
     "printed": 300000,
     "prizes": [
      {
-      "amt": 21159,
+      "amt": 21236,
       "jackpot": true,
       "left": 3,
       "odds_now": 99725.0,
@@ -2565,8 +2913,17 @@
     ],
     "rating": "Poor",
     "score": 58,
-    "since": null,
-    "value": 1.6327
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 77,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 1.6335
    },
    "last_seen": "2026-09-29",
    "slug": "259-scrabble-progressive",
@@ -2577,7 +2934,7 @@
    "game": {
     "bands": {
      "big": 0.0602,
-     "jackpot": 0.2123,
+     "jackpot": 0.213,
      "mid": 0.1359,
      "small": 1.225,
      "top": {
@@ -2588,7 +2945,7 @@
     },
     "cost": 3.0,
     "est_left": 299032,
-    "fresh_value": 1.6326,
+    "fresh_value": 1.6333,
     "history": [
      {
       "jackpot": 21159,
@@ -2596,6 +2953,13 @@
       "score": 57,
       "t": "2026-09-29 10:48",
       "value": 0.5445
+     },
+     {
+      "jackpot": 21233,
+      "left_pct": 99.7,
+      "score": 57,
+      "t": "2026-09-29 16:00",
+      "value": 0.5447
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp260.jpg",
@@ -2606,10 +2970,15 @@
      "share_pct": 13,
      "start": 20000,
      "total": 3,
-     "value": 21159,
+     "value": 21233,
      "value_at_start": 1.6218
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-09-29 16:00",
+      "v": 21233
+     },
      {
       "left": 3,
       "t": "2026-09-29 10:48",
@@ -2633,7 +3002,7 @@
     "printed": 300000,
     "prizes": [
      {
-      "amt": 21159,
+      "amt": 21233,
       "jackpot": true,
       "left": 3,
       "odds_now": 99677.33,
@@ -2706,8 +3075,17 @@
     ],
     "rating": "Poor",
     "score": 57,
-    "since": null,
-    "value": 1.6334
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 5.2,
+     "jackpot_change": 74,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-09-29 10:48",
+     "tickets_sold": 0
+    },
+    "value": 1.6341
    },
    "last_seen": "2026-09-29",
    "slug": "260-crossword-progressive",
