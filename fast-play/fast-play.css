@@ -64,3 +64,204 @@
 }
 
 .cta-band.fp h2 { max-width: 760px; margin-left: auto; margin-right: auto; }
+
+/* =====================================================================
+   CHARTS (fast_play_charts.py)
+   Colors were run through the dataviz palette validator on a white
+   surface: blue + gold pass as a two-series pair, and the three blues pass
+   as an ordinal ramp. Gold sits under 3:1 against white, so every gold
+   mark also carries a visible label or legend value.
+   ===================================================================== */
+.viz-card {
+  background: #fff; border: 2px solid var(--ink); border-radius: 16px;
+  padding: 20px 22px;
+}
+.viz-card + .viz-card { margin-top: 16px; }
+.viz-head { font-family: var(--display); font-weight: 800; font-size: 18px; letter-spacing: -0.01em; }
+.viz-sub { font-size: 14px; color: var(--ink-soft); margin: 2px 0 16px; max-width: 720px; }
+.viz {
+  --viz-blue: #0066ff; --viz-gold: #e0a100;
+  --viz-s1: #7fb0ff; --viz-s2: #3d82ee; --viz-s3: #0f4fb8;
+  --viz-gray: #8a8a8a; --viz-grid: #ece6cc;
+  margin: 0;
+}
+
+/* ---- line ---- */
+.viz-frame { position: relative; display: flex; }
+.viz-y { position: relative; flex: none; width: 54px; }
+.viz-y span, .viz-x span, .viz-axis span {
+  position: absolute; font-family: var(--mono); font-size: 11px; color: var(--muted);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.viz-y span { right: 10px; transform: translateY(-50%); }
+.viz-area { position: relative; flex: 1; min-width: 0; }
+.viz-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.viz-grid { stroke: var(--viz-grid); stroke-width: 1; }
+.viz-wash { fill: var(--viz-blue); opacity: 0.1; }
+.viz-stroke {
+  fill: none; stroke: var(--viz-blue); stroke-width: 2;
+  stroke-linejoin: round; stroke-linecap: round;
+}
+.viz-dot {
+  position: absolute; width: 10px; height: 10px; border-radius: 50%;
+  background: var(--viz-blue); box-shadow: 0 0 0 2px #fff;
+  transform: translate(-50%, -50%); pointer-events: none;
+}
+.viz-endlabel {
+  position: absolute; right: 0; transform: translateY(-170%);
+  font-family: var(--mono); font-size: 12.5px; font-weight: 700; color: var(--ink);
+  background: rgba(255, 255, 255, 0.85); padding: 0 3px; border-radius: 3px;
+  pointer-events: none;
+}
+.viz-endlabel.low { transform: translateY(70%); }
+.viz-slice { position: absolute; top: 0; bottom: 0; outline: none; cursor: crosshair; }
+.viz-cross {
+  position: absolute; top: 0; bottom: 0; width: 1px; margin-left: -0.5px;
+  background: var(--ink); opacity: 0;
+}
+.viz-slice .viz-dot { opacity: 0; }
+.viz-slice:hover .viz-cross, .viz-slice:focus .viz-cross { opacity: 0.3; }
+.viz-slice:hover .viz-dot, .viz-slice:focus .viz-dot { opacity: 1; }
+.viz-x { position: relative; height: 24px; margin-left: 54px; }
+.viz-x span { top: 7px; transform: translateX(-50%); }
+.viz-x span.first { transform: none; }
+.viz-x span.last { transform: translateX(-100%); }
+
+/* ---- tooltip (shared) ---- */
+.viz-tip {
+  position: absolute; z-index: 5; display: none; pointer-events: none;
+  background: var(--ink); color: #fff; border-radius: 8px; padding: 7px 11px;
+  font-size: 12px; line-height: 1.35; white-space: nowrap; text-align: left;
+  transform: translate(12px, -115%);
+}
+.viz-tip strong { display: block; font-size: 13.5px; font-weight: 700; }
+.viz-tip span { display: block; color: rgba(255, 255, 255, 0.75); }
+.viz-tip em { display: block; font-style: normal; color: var(--yellow); }
+.viz-tip.flip { transform: translate(calc(-100% - 12px), -115%); }
+.viz-tip.low { transform: translate(12px, 18px); }
+.viz-tip.flip.low { transform: translate(calc(-100% - 12px), 18px); }
+.viz-tip.up { left: 50%; bottom: calc(100% + 8px); transform: translateX(-50%); }
+.viz-slice:hover .viz-tip, .viz-slice:focus .viz-tip,
+.viz-seg:hover .viz-tip, .viz-seg:focus .viz-tip,
+.viz-track:hover > .viz-tip, .viz-track:focus > .viz-tip { display: block; }
+
+/* ---- sparkline (stat tiles) ---- */
+.viz-spark { position: relative; display: block; height: 30px; margin-top: 10px; }
+.viz-spark svg { position: absolute; inset: 0; width: calc(100% - 6px); height: 100%; overflow: visible; }
+.viz-spark path { fill: none; stroke: #8a8a8a; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.viz-spark i {
+  position: absolute; right: 1px; width: 9px; height: 9px; border-radius: 50%;
+  background: #0066ff; box-shadow: 0 0 0 2px #fff; transform: translateY(-50%);
+}
+.hero-card .viz-spark path { stroke: var(--ink); opacity: 0.55; }
+.hero-card .viz-spark i { box-shadow: 0 0 0 2px var(--yellow); }
+
+/* ---- legend ---- */
+.viz-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-soft); }
+.viz-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 7px; vertical-align: -1px; }
+.viz-legend.rows { display: block; margin-top: 14px; }
+.viz-legend.rows li {
+  display: flex; align-items: center; padding: 7px 0; border-top: 1px solid #f3eed8; font-size: 14px;
+}
+.viz-legend.rows li span { flex: 1; }
+.viz-legend.rows li strong { font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums; color: var(--ink); }
+.s-small { background: var(--viz-s1); }
+.s-mid { background: var(--viz-s2); }
+.s-big { background: var(--viz-s3); }
+.s-jackpot { background: var(--viz-gold); }
+.s-fixed { background: var(--viz-blue); }
+
+/* ---- part-to-whole ---- */
+.viz-stack { display: flex; gap: 2px; height: 22px; }
+.viz-seg {
+  position: relative; min-width: 3px; outline: none;
+  display: flex; align-items: center; justify-content: center;
+}
+.viz-seg:first-child { border-radius: 4px 0 0 4px; }
+.viz-seg:last-child { border-radius: 0 4px 4px 0; }
+.viz-seg:only-child { border-radius: 4px; }
+.viz-seg b { font-family: var(--mono); font-size: 11.5px; font-weight: 700; color: #fff; }
+.viz-seg.s-small b, .viz-seg.s-jackpot b { color: var(--ink); }
+.viz-seg:hover, .viz-seg:focus, .viz-track:hover .viz-bar, .viz-track:focus .viz-bar { filter: brightness(1.08); }
+
+/* ---- horizontal bars ---- */
+.viz-row { display: grid; grid-template-columns: minmax(120px, 240px) 1fr; gap: 14px; align-items: center; padding: 6px 0; }
+.viz-rowname { font-size: 14px; font-weight: 600; line-height: 1.25; min-width: 0; }
+.viz-rowname a { text-decoration: none; }
+.viz-rowname a:hover { text-decoration: underline; color: var(--red-deep); }
+.viz-rowname em {
+  font-style: normal; font-family: var(--mono); font-size: 11px; font-weight: 500;
+  color: var(--muted); margin-left: 7px; white-space: nowrap;
+}
+.viz-track { position: relative; display: flex; align-items: center; gap: 2px; height: 22px; outline: none; }
+.viz-bar { display: block; height: 18px; flex: none; }
+.viz-bars .viz-bar { background: var(--viz-gray); border-radius: 0 4px 4px 0; }
+.viz-bars .viz-row.cur .viz-bar { background: var(--viz-blue); }
+.viz-bars .viz-track { padding-right: 96px; }
+.viz-bars .viz-bar { max-width: 100%; }
+.viz-val {
+  margin-left: 8px; font-family: var(--mono); font-size: 12.5px; font-weight: 700;
+  font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink);
+}
+.viz-row.cur .viz-rowname { font-weight: 800; }
+.viz-board .viz-legend { margin-bottom: 10px; }
+.viz-board .viz-track { padding-right: 52px; }
+.viz-board .viz-bar.s-jackpot { border-radius: 0 4px 4px 0; }
+.viz-gridlines { position: absolute; inset: -6px 52px -6px 0; pointer-events: none; }
+.viz-gridlines span { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--viz-grid); }
+.viz-board .viz-bar, .viz-board .viz-val { position: relative; }
+.viz-row.axis { padding: 0; }
+.viz-axis { position: absolute; inset: 0 52px 0 0; }
+.viz-axis span { top: 2px; transform: translateX(-50%); }
+.viz-axis span:first-child { transform: none; }
+@media (max-width: 640px) {
+  .viz-card { padding: 16px 14px; }
+  .viz-row { grid-template-columns: 1fr; gap: 3px; padding: 8px 0; }
+  .viz-y { width: 46px; }
+  .viz-x { margin-left: 46px; }
+}
+
+/* ---- stat tiles ---- */
+.tile-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-top: 16px; }
+.tile { border: 1.5px solid var(--rule); border-radius: 12px; padding: 12px 14px; background: #fffdf4; }
+.tile .t-label { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.tile .t-val { font-family: var(--sans); font-weight: 800; font-size: 24px; line-height: 1.2; margin-top: 3px; }
+.tile .t-sub { font-size: 12.5px; color: var(--ink-soft); margin-top: 2px; }
+
+.since-strip {
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  background: var(--cream); border: 1.5px solid var(--ink); border-radius: 12px;
+  padding: 11px 16px; font-size: 14px; margin-top: 18px;
+}
+.since-strip .s-when { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.since-strip strong { font-weight: 800; }
+
+.pool-card .n-sub + .n-sub { margin-top: 2px; }
+.index-table .sub { display: block; font-size: 11px; color: var(--muted); font-weight: 500; }
+.prize-card td .trend { display: block; font-family: var(--mono); font-size: 10.5px; color: var(--muted); white-space: nowrap; }
+.prize-card td .trend.better { color: #0f7a35; }
+.prize-card td .trend.worse { color: var(--red-deep); }
+details.numbers { margin-top: 14px; }
+details.numbers summary {
+  cursor: pointer; font-family: var(--mono); font-size: 12px; color: var(--ink-soft);
+  font-weight: 700; list-style: none;
+}
+details.numbers summary::before { content: '+ '; }
+details.numbers[open] summary::before { content: '− '; }
+details.numbers .prize-card { margin-top: 10px; border-width: 1.5px; border-color: var(--rule); border-radius: 12px; }
+.daily-read.fp { padding-bottom: 6px; }
+
+.index-table td.g-name { min-width: 210px; }
+
+/* The Fast Play prize table has a fourth column; let it scroll rather than
+   clip on a narrow phone, and tighten the cells so it rarely has to. */
+.prize-card { overflow-x: auto; }
+@media (max-width: 640px) {
+  .prize-card th, .prize-card td { padding-left: 9px; padding-right: 9px; }
+  .prize-card td { font-size: 13.5px; }
+  .prize-card .jp-mark { display: none; }
+}
+@media (max-width: 640px) {
+  .prize-card td .trend.same { display: none; }
+  .prize-card td .trend { font-size: 9.5px; }
+}
