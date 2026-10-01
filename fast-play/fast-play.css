@@ -7,13 +7,21 @@
   letter-spacing: 1.5px; padding: 4px 10px; border-radius: 100px;
   vertical-align: middle; margin-right: 8px;
 }
-.beta-box {
-  background: var(--cream); border: 2px solid var(--ink); border-radius: 14px;
-  padding: 16px 20px; font-size: 14.5px; line-height: 1.55;
-  box-shadow: 4px 4px 0 var(--ink);
+/* Beta banner: a full-width band under the subnav on every Fast Play page. */
+.beta-banner { background: var(--yellow); border-bottom: 2px solid var(--ink); }
+.beta-banner-inner {
+  max-width: 1100px; margin: 0 auto; padding: 12px 5%;
+  display: flex; align-items: center; gap: 14px;
 }
-.beta-box strong { font-weight: 800; }
-.beta-box a { font-weight: 700; }
+.beta-banner .beta-tag { flex: none; margin-right: 0; font-size: 12px; padding: 5px 12px; }
+.beta-banner p { font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+.beta-banner strong { font-weight: 800; }
+.beta-banner a { font-weight: 700; color: var(--ink); }
+@media (max-width: 640px) {
+  .beta-banner-inner { align-items: flex-start; gap: 10px; padding: 10px 5%; }
+  .beta-banner p { font-size: 13.5px; }
+  .beta-banner .beta-tag { margin-top: 2px; }
+}
 
 /* Rating pill: score number + the app's rating word */
 .pill {

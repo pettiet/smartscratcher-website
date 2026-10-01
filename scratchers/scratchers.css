@@ -399,6 +399,23 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
   text-decoration: none; white-space: nowrap; transition: background 0.15s;
 }
 .bs-btn:hover { background: var(--ink-soft); color: var(--yellow); }
+/* Link across to a state's Fast Play pages (states that have them) */
+.fp-strip {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 14px 20px; flex-wrap: wrap; margin-top: 24px;
+  background: var(--cream); border: 2px solid var(--ink); border-radius: 16px;
+  padding: 16px 22px;
+}
+.fp-strip h2 {
+  font-family: var(--display); font-weight: 800; font-size: 19px;
+  letter-spacing: -0.01em; margin-bottom: 2px;
+}
+.fp-strip p { font-size: 14px; color: var(--ink-soft); max-width: 620px; line-height: 1.45; }
+.fp-beta {
+  display: inline-block; background: var(--ink); color: var(--yellow);
+  font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 1px;
+  padding: 2px 7px; border-radius: 100px; vertical-align: middle; margin-left: 4px;
+}
 .bs-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 @media (max-width: 820px) { .bs-row { grid-template-columns: 1fr; } }
 .bs-card {
