@@ -44,15 +44,15 @@
  ],
  "claimed_7d_money": 647946570,
  "claimed_7d_prizes": 30171834,
- "data_points": 219401,
- "face_value": 136044963512,
- "free_tickets_remaining": 116997905,
- "games": 1368,
+ "data_points": 219446,
+ "face_value": 136369923772,
+ "free_tickets_remaining": 118786416,
+ "games": 1413,
  "million_prizes_remaining": 1075,
  "million_prizes_total": 2684,
  "million_tiers": 475,
- "money_remaining": 37879876132,
- "money_total": 103997893822,
+ "money_remaining": 37998460340,
+ "money_total": 104229032107,
  "per_state": [
   {
    "code": "ca",
@@ -80,6 +80,15 @@
    "name": "Georgia",
    "prizes_remaining": 101938565,
    "tickets_printed": 2998914058
+  },
+  {
+   "code": "ks",
+   "face_value": 324960260,
+   "games": 45,
+   "money_remaining": 118584208,
+   "name": "Kansas",
+   "prizes_remaining": 5814439,
+   "tickets_printed": 44811381
   },
   {
    "code": "md",
@@ -190,11 +199,11 @@
    "tickets_printed": 143125820
   }
  ],
- "prizes_remaining": 1172029843,
- "prizes_total": 3760427434,
- "states": 15,
- "tickets_printed": 14915719850,
+ "prizes_remaining": 1177844282,
+ "prizes_total": 3772251427,
+ "states": 16,
+ "tickets_printed": 14960531231,
  "tier_snapshots": 1217097,
- "tiers": 14763,
+ "tiers": 15185,
  "tracking_since": "2024-11-25"
 }
