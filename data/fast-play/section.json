@@ -2,12 +2,18 @@
  "listed": true,
  "states": {
   "md": {
+   "blurb": "Fast Play tickets print at the counter, with nothing to scratch. We score all 27 Maryland Fast Play games and track every jackpot.",
    "count": 27,
+   "cta": "See Fast Play games",
+   "label": "Fast Play",
    "name": "Maryland",
    "path": "/fast-play/maryland/"
   },
   "ok": {
+   "blurb": "Fast Play tickets print at the counter, with nothing to scratch. We score all 18 Oklahoma Fast Play games and track every jackpot.",
    "count": 18,
+   "cta": "See Fast Play games",
+   "label": "Fast Play",
    "name": "Oklahoma",
    "path": "/fast-play/oklahoma/"
   }
