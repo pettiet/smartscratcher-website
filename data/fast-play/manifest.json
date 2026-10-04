@@ -1,4 +1,2350 @@
 {
+ "ks": {
+  "850": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0131,
+     "jackpot": 0.0,
+     "mid": 0.0659,
+     "small": 0.53,
+     "top": {
+      "big": 1500,
+      "mid": 100,
+      "small": 5
+     }
+    },
+    "cost": 1.0,
+    "est_left": 459757,
+    "fresh_value": 0.6144,
+    "history": [
+     {
+      "jackpot": 1500,
+      "left_pct": 47.9,
+      "score": 47,
+      "t": "2026-10-04 15:10",
+      "value": 0.6089
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/1jgHUvQ254PxlM9UhNH2n0/05aa7b5504437c0eecd07c71c8e14158/PiggyBankF_850.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 48,
+    "n": "850",
+    "name": "Piggy Bank Bucks",
+    "odds": 3.4,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 1500,
+      "left": 4,
+      "odds_now": 114939.25,
+      "odds_start": 80000.0,
+      "total": 12
+     },
+     {
+      "amt": 100,
+      "left": 30,
+      "odds_now": 15325.23,
+      "odds_start": 16000.0,
+      "total": 60
+     },
+     {
+      "amt": 50,
+      "left": 86,
+      "odds_now": 5346.01,
+      "odds_start": 5333.33,
+      "total": 180
+     },
+     {
+      "amt": 20,
+      "left": 460,
+      "odds_now": 999.47,
+      "odds_start": 1000.0,
+      "total": 960
+     },
+     {
+      "amt": 10,
+      "left": 1380,
+      "odds_now": 333.16,
+      "odds_start": 333.33,
+      "total": 2880
+     },
+     {
+      "amt": 5,
+      "left": 9196,
+      "odds_now": 50.0,
+      "odds_start": 50.0,
+      "total": 19200
+     },
+     {
+      "amt": 2,
+      "left": 73556,
+      "odds_now": 6.25,
+      "odds_start": 6.25,
+      "total": 153600
+     },
+     {
+      "amt": 1,
+      "left": 50577,
+      "odds_now": 9.09,
+      "odds_start": 9.09,
+      "total": 105600
+     }
+    ],
+    "rating": "Poor",
+    "score": 47,
+    "since": null,
+    "value": 0.6089,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 4
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "850-piggy-bank-bucks",
+   "status": "active"
+  },
+  "851": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0766,
+     "jackpot": 0.0,
+     "mid": 0.1507,
+     "small": 1.0298,
+     "top": {
+      "big": 2500,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 685134,
+    "fresh_value": 1.2535,
+    "history": [
+     {
+      "jackpot": 2500,
+      "left_pct": 71.4,
+      "score": 65,
+      "t": "2026-10-04 15:10",
+      "value": 0.6286
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/4HWF6oMS3cJ96wp7K7ahbN/64e8fc9f8ca59029fb7a6bf0268551c3/BucketsOfCashF_851.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 71,
+    "n": "851",
+    "name": "Buckets Of Cash",
+    "odds": 3.62,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 2500,
+      "left": 18,
+      "odds_now": 38063.0,
+      "odds_start": 40000.0,
+      "total": 24
+     },
+     {
+      "amt": 500,
+      "left": 15,
+      "odds_now": 45675.6,
+      "odds_start": 48000.0,
+      "total": 20
+     },
+     {
+      "amt": 200,
+      "left": 34,
+      "odds_now": 20151.0,
+      "odds_start": 20000.0,
+      "total": 48
+     },
+     {
+      "amt": 100,
+      "left": 86,
+      "odds_now": 7966.67,
+      "odds_start": 8000.0,
+      "total": 120
+     },
+     {
+      "amt": 50,
+      "left": 388,
+      "odds_now": 1765.81,
+      "odds_start": 1777.78,
+      "total": 540
+     },
+     {
+      "amt": 30,
+      "left": 342,
+      "odds_now": 2003.32,
+      "odds_start": 2000.0,
+      "total": 480
+     },
+     {
+      "amt": 20,
+      "left": 1369,
+      "odds_now": 500.46,
+      "odds_start": 500.0,
+      "total": 1920
+     },
+     {
+      "amt": 15,
+      "left": 2055,
+      "odds_now": 333.4,
+      "odds_start": 333.33,
+      "total": 2880
+     },
+     {
+      "amt": 10,
+      "left": 13698,
+      "odds_now": 50.02,
+      "odds_start": 50.0,
+      "total": 19200
+     },
+     {
+      "amt": 5,
+      "left": 34244,
+      "odds_now": 20.01,
+      "odds_start": 20.0,
+      "total": 48000
+     },
+     {
+      "amt": 4,
+      "left": 61636,
+      "odds_now": 11.12,
+      "odds_start": 11.11,
+      "total": 86400
+     },
+     {
+      "amt": 2,
+      "left": 75406,
+      "odds_now": 9.09,
+      "odds_start": 9.09,
+      "total": 105600
+     }
+    ],
+    "rating": "Fair",
+    "score": 65,
+    "since": null,
+    "value": 1.2572,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 4
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "851-buckets-of-cash",
+   "status": "active"
+  },
+  "852": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0768,
+     "jackpot": 0.0,
+     "mid": 0.2197,
+     "small": 0.96,
+     "top": {
+      "big": 2500,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 748301,
+    "fresh_value": 1.2528,
+    "history": [
+     {
+      "jackpot": 2500,
+      "left_pct": 77.9,
+      "score": 59,
+      "t": "2026-10-04 15:10",
+      "value": 0.6283
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/2XotXoNSqkeNZr3UOkKayo/d4c56a37852cb1e10e4d9c41ce5d1380/LuckyGemsF_852.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 78,
+    "n": "852",
+    "name": "Lucky Gems",
+    "odds": 3.59,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 2500,
+      "left": 20,
+      "odds_now": 37415.05,
+      "odds_start": 40000.0,
+      "total": 24
+     },
+     {
+      "amt": 500,
+      "left": 15,
+      "odds_now": 49886.73,
+      "odds_start": 48000.0,
+      "total": 20
+     },
+     {
+      "amt": 200,
+      "left": 46,
+      "odds_now": 16267.41,
+      "odds_start": 16000.0,
+      "total": 60
+     },
+     {
+      "amt": 100,
+      "left": 93,
+      "odds_now": 8046.25,
+      "odds_start": 8000.0,
+      "total": 120
+     },
+     {
+      "amt": 50,
+      "left": 811,
+      "odds_now": 922.69,
+      "odds_start": 923.08,
+      "total": 1040
+     },
+     {
+      "amt": 25,
+      "left": 1669,
+      "odds_now": 448.35,
+      "odds_start": 448.6,
+      "total": 2140
+     },
+     {
+      "amt": 20,
+      "left": 1497,
+      "odds_now": 499.87,
+      "odds_start": 500.0,
+      "total": 1920
+     },
+     {
+      "amt": 15,
+      "left": 2246,
+      "odds_now": 333.17,
+      "odds_start": 333.33,
+      "total": 2880
+     },
+     {
+      "amt": 10,
+      "left": 14967,
+      "odds_now": 50.0,
+      "odds_start": 50.0,
+      "total": 19200
+     },
+     {
+      "amt": 5,
+      "left": 44897,
+      "odds_now": 16.67,
+      "odds_start": 16.67,
+      "total": 57600
+     },
+     {
+      "amt": 3,
+      "left": 59869,
+      "odds_now": 12.5,
+      "odds_start": 12.5,
+      "total": 76800
+     },
+     {
+      "amt": 2,
+      "left": 82306,
+      "odds_now": 9.09,
+      "odds_start": 9.09,
+      "total": 105600
+     }
+    ],
+    "rating": "Poor",
+    "score": 59,
+    "since": null,
+    "value": 1.2566,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 4
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "852-lucky-gems",
+   "status": "active"
+  },
+  "853": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1922,
+     "jackpot": 0.0,
+     "mid": 1.3486,
+     "small": 1.8908,
+     "top": {
+      "big": 25000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 408382,
+    "fresh_value": 3.4879,
+    "history": [
+     {
+      "jackpot": 25000,
+      "left_pct": 68.1,
+      "score": 65,
+      "t": "2026-10-04 15:10",
+      "value": 0.6863
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/38B2uDYltJck1lxifXZLPL/a6dce0ee8db6af3b5656b4c451385ad8/LoadedDoublerF_853.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 68,
+    "n": "853",
+    "name": "Loaded Doubler",
+    "odds": 3.55,
+    "printed": 600000,
+    "prizes": [
+     {
+      "amt": 25000,
+      "left": 2,
+      "odds_now": 204191.0,
+      "odds_start": 150000.0,
+      "total": 4
+     },
+     {
+      "amt": 2500,
+      "left": 5,
+      "odds_now": 81676.4,
+      "odds_start": 120000.0,
+      "total": 5
+     },
+     {
+      "amt": 1000,
+      "left": 16,
+      "odds_now": 25523.88,
+      "odds_start": 37500.0,
+      "total": 16
+     },
+     {
+      "amt": 500,
+      "left": 12,
+      "odds_now": 34031.83,
+      "odds_start": 30000.0,
+      "total": 20
+     },
+     {
+      "amt": 250,
+      "left": 30,
+      "odds_now": 13612.73,
+      "odds_start": 10000.0,
+      "total": 60
+     },
+     {
+      "amt": 200,
+      "left": 124,
+      "odds_now": 3293.4,
+      "odds_start": 2666.67,
+      "total": 225
+     },
+     {
+      "amt": 125,
+      "left": 617,
+      "odds_now": 661.88,
+      "odds_start": 705.88,
+      "total": 850
+     },
+     {
+      "amt": 100,
+      "left": 1086,
+      "odds_now": 376.04,
+      "odds_start": 444.44,
+      "total": 1350
+     },
+     {
+      "amt": 50,
+      "left": 6534,
+      "odds_now": 62.5,
+      "odds_start": 57.14,
+      "total": 10500
+     },
+     {
+      "amt": 20,
+      "left": 7362,
+      "odds_now": 55.47,
+      "odds_start": 55.56,
+      "total": 10800
+     },
+     {
+      "amt": 10,
+      "left": 25728,
+      "odds_now": 15.87,
+      "odds_start": 16.13,
+      "total": 37200
+     },
+     {
+      "amt": 5,
+      "left": 73532,
+      "odds_now": 5.55,
+      "odds_start": 5.56,
+      "total": 108000
+     }
+    ],
+    "rating": "Fair",
+    "score": 65,
+    "since": null,
+    "value": 3.4316,
+    "vs_scratchers": {
+     "better": 1,
+     "of": 9
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "853-loaded-doubler",
+   "status": "active"
+  },
+  "854": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.307,
+     "jackpot": 0.0,
+     "mid": 1.324,
+     "small": 1.8566,
+     "top": {
+      "big": 25000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 377838,
+    "fresh_value": 3.4833,
+    "history": [
+     {
+      "jackpot": 25000,
+      "left_pct": 63.0,
+      "score": 76,
+      "t": "2026-10-04 15:10",
+      "value": 0.6975
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/3dEFyAYU2TRdfYCpnjFwil/f76db418940353b65da5eea628fa234a/CrazyWildCashF_854.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 63,
+    "n": "854",
+    "name": "Crazy Wild Cash",
+    "odds": 3.56,
+    "printed": 600000,
+    "prizes": [
+     {
+      "amt": 25000,
+      "left": 3,
+      "odds_now": 125946.0,
+      "odds_start": 150000.0,
+      "total": 4
+     },
+     {
+      "amt": 5000,
+      "left": 4,
+      "odds_now": 94459.5,
+      "odds_start": 150000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 21,
+      "odds_now": 17992.29,
+      "odds_start": 25000.0,
+      "total": 24
+     },
+     {
+      "amt": 500,
+      "left": 30,
+      "odds_now": 12594.6,
+      "odds_start": 13333.33,
+      "total": 45
+     },
+     {
+      "amt": 100,
+      "left": 678,
+      "odds_now": 557.28,
+      "odds_start": 444.44,
+      "total": 1350
+     },
+     {
+      "amt": 50,
+      "left": 3145,
+      "odds_now": 120.14,
+      "odds_start": 96.0,
+      "total": 6250
+     },
+     {
+      "amt": 30,
+      "left": 8673,
+      "odds_now": 43.56,
+      "odds_start": 50.0,
+      "total": 12000
+     },
+     {
+      "amt": 20,
+      "left": 6790,
+      "odds_now": 55.65,
+      "odds_start": 55.56,
+      "total": 10800
+     },
+     {
+      "amt": 15,
+      "left": 3772,
+      "odds_now": 100.17,
+      "odds_start": 100.0,
+      "total": 6000
+     },
+     {
+      "amt": 10,
+      "left": 18843,
+      "odds_now": 20.05,
+      "odds_start": 20.0,
+      "total": 30000
+     },
+     {
+      "amt": 5,
+      "left": 64136,
+      "odds_now": 5.89,
+      "odds_start": 5.88,
+      "total": 102000
+     }
+    ],
+    "rating": "Good",
+    "score": 76,
+    "since": null,
+    "value": 3.4876,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 9
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "854-crazy-wild-cash",
+   "status": "active"
+  },
+  "855": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1973,
+     "jackpot": 0.0,
+     "mid": 0.8876,
+     "small": 2.3677,
+     "top": {
+      "big": 25000,
+      "mid": 200,
+      "small": 25
+     }
+    },
+    "cost": 5.0,
+    "est_left": 329485,
+    "fresh_value": 3.4821,
+    "history": [
+     {
+      "jackpot": 25000,
+      "left_pct": 54.9,
+      "score": 66,
+      "t": "2026-10-04 15:10",
+      "value": 0.6905
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/77rNZcY40UPgfPRcoJifJs/b54da703223c07ad33df7c47d9376cd5/MoneyBagBonusF_855.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 55,
+    "n": "855",
+    "name": "Money Bag Bonus",
+    "odds": 3.53,
+    "printed": 600000,
+    "prizes": [
+     {
+      "amt": 25000,
+      "left": 2,
+      "odds_now": 164742.5,
+      "odds_start": 150000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 15,
+      "odds_now": 21965.67,
+      "odds_start": 28571.43,
+      "total": 21
+     },
+     {
+      "amt": 200,
+      "left": 140,
+      "odds_now": 2353.46,
+      "odds_start": 4285.71,
+      "total": 140
+     },
+     {
+      "amt": 100,
+      "left": 761,
+      "odds_now": 432.96,
+      "odds_start": 347.83,
+      "total": 1725
+     },
+     {
+      "amt": 50,
+      "left": 3767,
+      "odds_now": 87.47,
+      "odds_start": 84.21,
+      "total": 7125
+     },
+     {
+      "amt": 25,
+      "left": 10885,
+      "odds_now": 30.27,
+      "odds_start": 30.77,
+      "total": 19500
+     },
+     {
+      "amt": 15,
+      "left": 1978,
+      "odds_now": 166.57,
+      "odds_start": 166.67,
+      "total": 3600
+     },
+     {
+      "amt": 10,
+      "left": 19796,
+      "odds_now": 16.64,
+      "odds_start": 16.67,
+      "total": 36000
+     },
+     {
+      "amt": 5,
+      "left": 56073,
+      "odds_now": 5.88,
+      "odds_start": 5.88,
+      "total": 102000
+     }
+    ],
+    "rating": "Fair",
+    "score": 66,
+    "since": null,
+    "value": 3.4526,
+    "vs_scratchers": {
+     "better": 1,
+     "of": 9
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "855-money-bag-bonus",
+   "status": "active"
+  },
+  "856": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.7432,
+     "jackpot": 0.0,
+     "mid": 1.6476,
+     "small": 4.741,
+     "top": {
+      "big": 75000,
+      "mid": 500,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 337711,
+    "fresh_value": 7.0833,
+    "history": [
+     {
+      "jackpot": 75000,
+      "left_pct": 70.4,
+      "score": 79,
+      "t": "2026-10-04 15:10",
+      "value": 0.7132
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/429qwJHv0ceJaV015BS6a0/56d7be8ea6f0bcfd5e25d24434a45c6e/CrackTheSafeF_856.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 70,
+    "n": "856",
+    "name": "Crack The Safe",
+    "odds": 3.31,
+    "printed": 480000,
+    "prizes": [
+     {
+      "amt": 75000,
+      "left": 3,
+      "odds_now": 112570.33,
+      "odds_start": 120000.0,
+      "total": 4
+     },
+     {
+      "amt": 2000,
+      "left": 13,
+      "odds_now": 25977.77,
+      "odds_start": 30000.0,
+      "total": 16
+     },
+     {
+      "amt": 500,
+      "left": 16,
+      "odds_now": 21106.94,
+      "odds_start": 20000.0,
+      "total": 24
+     },
+     {
+      "amt": 200,
+      "left": 142,
+      "odds_now": 2378.25,
+      "odds_start": 2400.0,
+      "total": 200
+     },
+     {
+      "amt": 100,
+      "left": 5200,
+      "odds_now": 64.94,
+      "odds_start": 64.86,
+      "total": 7400
+     },
+     {
+      "amt": 50,
+      "left": 7033,
+      "odds_now": 48.02,
+      "odds_start": 48.0,
+      "total": 10000
+     },
+     {
+      "amt": 20,
+      "left": 35445,
+      "odds_now": 9.53,
+      "odds_start": 9.52,
+      "total": 50400
+     },
+     {
+      "amt": 10,
+      "left": 54055,
+      "odds_now": 6.25,
+      "odds_start": 6.25,
+      "total": 76800
+     }
+    ],
+    "rating": "Good",
+    "score": 79,
+    "since": null,
+    "value": 7.1318,
+    "vs_scratchers": {
+     "better": 2,
+     "of": 11
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "856-crack-the-safe",
+   "status": "active"
+  },
+  "857": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.4996,
+     "jackpot": 0.0,
+     "mid": 1.356,
+     "small": 5.0355,
+     "top": {
+      "big": 75000,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 300250,
+    "fresh_value": 7.0135,
+    "history": [
+     {
+      "jackpot": 75000,
+      "left_pct": 62.6,
+      "score": 70,
+      "t": "2026-10-04 15:10",
+      "value": 0.6891
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/bUGgLqmX9vYbIxagAOhlU/06da2ef80e539a88576e91c8ff7d0dd0/FatWalletF_857.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 63,
+    "n": "857",
+    "name": "Fat Wallet",
+    "odds": 3.31,
+    "printed": 480000,
+    "prizes": [
+     {
+      "amt": 75000,
+      "left": 2,
+      "odds_now": 150125.0,
+      "odds_start": 120000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 17,
+      "odds_now": 17661.76,
+      "odds_start": 17777.78,
+      "total": 27
+     },
+     {
+      "amt": 500,
+      "left": 189,
+      "odds_now": 1588.62,
+      "odds_start": 1600.0,
+      "total": 300
+     },
+     {
+      "amt": 250,
+      "left": 433,
+      "odds_now": 693.42,
+      "odds_start": 695.65,
+      "total": 690
+     },
+     {
+      "amt": 100,
+      "left": 1874,
+      "odds_now": 160.22,
+      "odds_start": 160.0,
+      "total": 3000
+     },
+     {
+      "amt": 50,
+      "left": 2817,
+      "odds_now": 106.59,
+      "odds_start": 106.67,
+      "total": 4500
+     },
+     {
+      "amt": 40,
+      "left": 6253,
+      "odds_now": 48.02,
+      "odds_start": 48.0,
+      "total": 10000
+     },
+     {
+      "amt": 25,
+      "left": 10006,
+      "odds_now": 30.01,
+      "odds_start": 30.0,
+      "total": 16000
+     },
+     {
+      "amt": 20,
+      "left": 9010,
+      "odds_now": 33.32,
+      "odds_start": 33.33,
+      "total": 14400
+     },
+     {
+      "amt": 15,
+      "left": 18018,
+      "odds_now": 16.66,
+      "odds_start": 16.67,
+      "total": 28800
+     },
+     {
+      "amt": 10,
+      "left": 42032,
+      "odds_now": 7.14,
+      "odds_start": 7.14,
+      "total": 67200
+     }
+    ],
+    "rating": "Good",
+    "score": 70,
+    "since": null,
+    "value": 6.8911,
+    "vs_scratchers": {
+     "better": 9,
+     "of": 11
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "857-fat-wallet",
+   "status": "active"
+  },
+  "858": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 1.3022,
+     "jackpot": 0.0,
+     "mid": 3.663,
+     "small": 9.7109,
+     "top": {
+      "big": 100000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 230382,
+    "fresh_value": 14.4597,
+    "history": [
+     {
+      "jackpot": 100000,
+      "left_pct": 64.0,
+      "score": 75,
+      "t": "2026-10-04 15:10",
+      "value": 0.7338
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/15NKUeiAiYTf3kupG12BqD/62e2dc992581f4a891e25052571c5ef4/DiamondMineF_858.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 64,
+    "n": "858",
+    "name": "Diamond Mine",
+    "odds": 2.68,
+    "printed": 360000,
+    "prizes": [
+     {
+      "amt": 100000,
+      "left": 3,
+      "odds_now": 76794.0,
+      "odds_start": 90000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 46,
+      "odds_now": 5008.3,
+      "odds_start": 2769.23,
+      "total": 130
+     },
+     {
+      "amt": 500,
+      "left": 427,
+      "odds_now": 539.54,
+      "odds_start": 510.64,
+      "total": 705
+     },
+     {
+      "amt": 200,
+      "left": 2922,
+      "odds_now": 78.84,
+      "odds_start": 88.89,
+      "total": 4050
+     },
+     {
+      "amt": 100,
+      "left": 5248,
+      "odds_now": 43.9,
+      "odds_start": 44.44,
+      "total": 8100
+     },
+     {
+      "amt": 50,
+      "left": 2564,
+      "odds_now": 89.85,
+      "odds_start": 85.71,
+      "total": 4200
+     },
+     {
+      "amt": 40,
+      "left": 3586,
+      "odds_now": 64.24,
+      "odds_start": 57.14,
+      "total": 6300
+     },
+     {
+      "amt": 30,
+      "left": 1921,
+      "odds_now": 119.93,
+      "odds_start": 133.33,
+      "total": 2700
+     },
+     {
+      "amt": 20,
+      "left": 69157,
+      "odds_now": 3.33,
+      "odds_start": 3.33,
+      "total": 108000
+     }
+    ],
+    "rating": "Good",
+    "score": 75,
+    "since": null,
+    "value": 14.6761,
+    "vs_scratchers": {
+     "better": 2,
+     "of": 7
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "858-diamond-mine",
+   "status": "active"
+  },
+  "859": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.9458,
+     "jackpot": 0.0,
+     "mid": 3.9997,
+     "small": 9.3609,
+     "top": {
+      "big": 100000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 211466,
+    "fresh_value": 14.4825,
+    "history": [
+     {
+      "jackpot": 100000,
+      "left_pct": 58.7,
+      "score": 65,
+      "t": "2026-10-04 15:10",
+      "value": 0.7153
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/3qSadEsG3B5DpiYiByYaUY/e6ade244c15f0c58b62cd02ba481ce17/CherryTwistF_859.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 59,
+    "n": "859",
+    "name": "Cherry Twist",
+    "odds": 2.6,
+    "printed": 360000,
+    "prizes": [
+     {
+      "amt": 100000,
+      "left": 2,
+      "odds_now": 105733.0,
+      "odds_start": 90000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 37,
+      "odds_now": 5715.3,
+      "odds_start": 3272.73,
+      "total": 110
+     },
+     {
+      "amt": 500,
+      "left": 442,
+      "odds_now": 478.43,
+      "odds_start": 533.33,
+      "total": 675
+     },
+     {
+      "amt": 300,
+      "left": 1056,
+      "odds_now": 200.25,
+      "odds_start": 266.67,
+      "total": 1350
+     },
+     {
+      "amt": 200,
+      "left": 1355,
+      "odds_now": 156.06,
+      "odds_start": 139.21,
+      "total": 2586
+     },
+     {
+      "amt": 100,
+      "left": 2938,
+      "odds_now": 71.98,
+      "odds_start": 60.0,
+      "total": 6000
+     },
+     {
+      "amt": 60,
+      "left": 2230,
+      "odds_now": 94.83,
+      "odds_start": 85.71,
+      "total": 4200
+     },
+     {
+      "amt": 40,
+      "left": 4462,
+      "odds_now": 47.39,
+      "odds_start": 57.14,
+      "total": 6300
+     },
+     {
+      "amt": 20,
+      "left": 68672,
+      "odds_now": 3.08,
+      "odds_start": 3.08,
+      "total": 117000
+     }
+    ],
+    "rating": "Fair",
+    "score": 65,
+    "since": null,
+    "value": 14.3064,
+    "vs_scratchers": {
+     "better": 4,
+     "of": 7
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "859-cherry-twist",
+   "status": "active"
+  },
+  "864": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0,
+     "jackpot": 0.16,
+     "mid": 0.3834,
+     "small": 5.615,
+     "top": {
+      "big": null,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 831431,
+    "fresh_value": 6.165,
+    "history": [
+     {
+      "jackpot": 12992,
+      "left_pct": 86.6,
+      "score": 56,
+      "t": "2026-10-04 15:10",
+      "value": 0.6158
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/6huw3cN9Db5GhF5Wsy1sFw/9b930a9fe44c51fdaf0a8252e18238f2/LightningFastCashProgressiveF_864.jpg?fm=jpg&q=85",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 13,
+     "odds_now": 63956,
+     "share_pct": 3,
+     "start": 10000,
+     "total": 16,
+     "value": 12992,
+     "value_at_start": 6.1548
+    },
+    "jackpot_log": [
+     {
+      "left": 13,
+      "t": "2026-10-04 15:10",
+      "v": 12992
+     }
+    ],
+    "left_pct": 87,
+    "n": "864",
+    "name": "Lightning Fast Cash",
+    "odds": 3.36,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 12992,
+      "jackpot": true,
+      "left": 13,
+      "odds_now": 63956.23,
+      "odds_start": 60000.0,
+      "total": 16
+     },
+     {
+      "amt": 1000,
+      "left": 139,
+      "odds_now": 5981.52,
+      "odds_start": 6000.0,
+      "total": 160
+     },
+     {
+      "amt": 100,
+      "left": 1798,
+      "odds_now": 462.42,
+      "odds_start": 461.54,
+      "total": 2080
+     },
+     {
+      "amt": 50,
+      "left": 14961,
+      "odds_now": 55.57,
+      "odds_start": 55.56,
+      "total": 17280
+     },
+     {
+      "amt": 40,
+      "left": 16631,
+      "odds_now": 49.99,
+      "odds_start": 50.0,
+      "total": 19200
+     },
+     {
+      "amt": 30,
+      "left": 24948,
+      "odds_now": 33.33,
+      "odds_start": 33.33,
+      "total": 28800
+     },
+     {
+      "amt": 20,
+      "left": 43235,
+      "odds_now": 19.23,
+      "odds_start": 19.23,
+      "total": 49920
+     },
+     {
+      "amt": 15,
+      "left": 37413,
+      "odds_now": 22.22,
+      "odds_start": 22.22,
+      "total": 43200
+     },
+     {
+      "amt": 10,
+      "left": 108088,
+      "odds_now": 7.69,
+      "odds_start": 7.69,
+      "total": 124800
+     }
+    ],
+    "rating": "Poor",
+    "score": 56,
+    "since": null,
+    "value": 6.1584,
+    "vs_scratchers": {
+     "better": 11,
+     "of": 11
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "864-lightning-fast-cash",
+   "status": "active"
+  },
+  "865": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0,
+     "jackpot": 0.3744,
+     "mid": 1.9262,
+     "small": 10.1174,
+     "top": {
+      "big": null,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 861994,
+    "fresh_value": 12.3811,
+    "history": [
+     {
+      "jackpot": 42700,
+      "left_pct": 89.8,
+      "score": 65,
+      "t": "2026-10-04 15:10",
+      "value": 0.6209
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/FGo6GdbXBMUD3to310NzP/44fce3167a6e857378afe1860e972926/MultiplierManiaProgessiveF_865.jpg?fm=jpg&q=85",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 15,
+     "odds_now": 57466,
+     "share_pct": 3,
+     "start": 20000,
+     "total": 16,
+     "value": 42700,
+     "value_at_start": 12.3917
+    },
+    "jackpot_log": [
+     {
+      "left": 15,
+      "t": "2026-10-04 15:10",
+      "v": 42700
+     }
+    ],
+    "left_pct": 90,
+    "n": "865",
+    "name": "Multiplier Mania",
+    "odds": 2.93,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 42700,
+      "jackpot": true,
+      "left": 15,
+      "odds_now": 57466.27,
+      "odds_start": 60000.0,
+      "total": 16
+     },
+     {
+      "amt": 1000,
+      "left": 504,
+      "odds_now": 1710.31,
+      "odds_start": 1696.11,
+      "total": 566
+     },
+     {
+      "amt": 500,
+      "left": 725,
+      "odds_now": 1188.96,
+      "odds_start": 1191.07,
+      "total": 806
+     },
+     {
+      "amt": 250,
+      "left": 1438,
+      "odds_now": 599.44,
+      "odds_start": 598.88,
+      "total": 1603
+     },
+     {
+      "amt": 200,
+      "left": 2172,
+      "odds_now": 396.87,
+      "odds_start": 396.86,
+      "total": 2419
+     },
+     {
+      "amt": 100,
+      "left": 4891,
+      "odds_now": 176.24,
+      "odds_start": 176.37,
+      "total": 5443
+     },
+     {
+      "amt": 50,
+      "left": 30169,
+      "odds_now": 28.57,
+      "odds_start": 28.57,
+      "total": 33600
+     },
+     {
+      "amt": 40,
+      "left": 64650,
+      "odds_now": 13.33,
+      "odds_start": 13.33,
+      "total": 72000
+     },
+     {
+      "amt": 25,
+      "left": 68960,
+      "odds_now": 12.5,
+      "odds_start": 12.5,
+      "total": 76800
+     },
+     {
+      "amt": 20,
+      "left": 120679,
+      "odds_now": 7.14,
+      "odds_start": 7.14,
+      "total": 134400
+     }
+    ],
+    "rating": "Fair",
+    "score": 65,
+    "since": null,
+    "value": 12.418,
+    "vs_scratchers": {
+     "better": 7,
+     "of": 7
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "865-multiplier-mania",
+   "status": "active"
+  },
+  "866": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0282,
+     "jackpot": 0.0,
+     "mid": 0.1418,
+     "small": 0.52,
+     "top": {
+      "big": 1500,
+      "mid": 100,
+      "small": 5
+     }
+    },
+    "cost": 1.0,
+    "est_left": 833936,
+    "fresh_value": 0.6892,
+    "history": [
+     {
+      "jackpot": 1500,
+      "left_pct": 86.9,
+      "score": 76,
+      "t": "2026-10-04 15:10",
+      "value": 0.69
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/4gARoLGowYdXKLgTbvjmI0/535a6f0175f68649eae81c7cac453266/WinPigsFlyF_866.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 87,
+    "n": "866",
+    "name": "Win Pigs Fly",
+    "odds": 3.4,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 1500,
+      "left": 11,
+      "odds_now": 75812.36,
+      "odds_start": 80000.0,
+      "total": 12
+     },
+     {
+      "amt": 500,
+      "left": 14,
+      "odds_now": 59566.86,
+      "odds_start": 60000.0,
+      "total": 16
+     },
+     {
+      "amt": 100,
+      "left": 63,
+      "odds_now": 13237.08,
+      "odds_start": 13333.33,
+      "total": 72
+     },
+     {
+      "amt": 50,
+      "left": 237,
+      "odds_now": 3518.72,
+      "odds_start": 3428.57,
+      "total": 280
+     },
+     {
+      "amt": 20,
+      "left": 3336,
+      "odds_now": 249.98,
+      "odds_start": 250.0,
+      "total": 3840
+     },
+     {
+      "amt": 10,
+      "left": 3336,
+      "odds_now": 249.98,
+      "odds_start": 250.0,
+      "total": 3840
+     },
+     {
+      "amt": 5,
+      "left": 5004,
+      "odds_now": 166.65,
+      "odds_start": 166.67,
+      "total": 5760
+     },
+     {
+      "amt": 4,
+      "left": 33358,
+      "odds_now": 25.0,
+      "odds_start": 25.0,
+      "total": 38400
+     },
+     {
+      "amt": 2,
+      "left": 75056,
+      "odds_now": 11.11,
+      "odds_start": 11.11,
+      "total": 86400
+     },
+     {
+      "amt": 1,
+      "left": 125092,
+      "odds_now": 6.67,
+      "odds_start": 6.67,
+      "total": 144000
+     }
+    ],
+    "rating": "Good",
+    "score": 76,
+    "since": null,
+    "value": 0.69,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 4
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "866-win-pigs-fly",
+   "status": "active"
+  },
+  "868": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0713,
+     "jackpot": 0.0,
+     "mid": 0.1693,
+     "small": 0.9,
+     "top": {
+      "big": 2500,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 947292,
+    "fresh_value": 1.1423,
+    "history": [
+     {
+      "jackpot": 2500,
+      "left_pct": 98.7,
+      "score": 47,
+      "t": "2026-10-04 15:10",
+      "value": 0.5703
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/6Y2edZWQqjbH8nPa789KCL/069bd867601f7bccd92abd2cc183f98a/SunnyMoneyF_868__1_.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 99,
+    "n": "868",
+    "name": "Sunny Money",
+    "odds": 3.67,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 2500,
+      "left": 23,
+      "odds_now": 41186.61,
+      "odds_start": 40000.0,
+      "total": 24
+     },
+     {
+      "amt": 500,
+      "left": 20,
+      "odds_now": 47364.6,
+      "odds_start": 48000.0,
+      "total": 20
+     },
+     {
+      "amt": 200,
+      "left": 47,
+      "odds_now": 20155.15,
+      "odds_start": 20000.0,
+      "total": 48
+     },
+     {
+      "amt": 100,
+      "left": 118,
+      "odds_now": 8027.9,
+      "odds_start": 8000.0,
+      "total": 120
+     },
+     {
+      "amt": 50,
+      "left": 416,
+      "odds_now": 2277.14,
+      "odds_start": 2285.71,
+      "total": 420
+     },
+     {
+      "amt": 30,
+      "left": 788,
+      "odds_now": 1202.15,
+      "odds_start": 1200.0,
+      "total": 800
+     },
+     {
+      "amt": 20,
+      "left": 4738,
+      "odds_now": 199.93,
+      "odds_start": 200.0,
+      "total": 4800
+     },
+     {
+      "amt": 10,
+      "left": 5684,
+      "odds_now": 166.66,
+      "odds_start": 166.67,
+      "total": 5760
+     },
+     {
+      "amt": 5,
+      "left": 37893,
+      "odds_now": 25.0,
+      "odds_start": 25.0,
+      "total": 38400
+     },
+     {
+      "amt": 4,
+      "left": 94727,
+      "odds_now": 10.0,
+      "odds_start": 10.0,
+      "total": 96000
+     },
+     {
+      "amt": 2,
+      "left": 113675,
+      "odds_now": 8.33,
+      "odds_start": 8.33,
+      "total": 115200
+     }
+    ],
+    "rating": "Poor",
+    "score": 47,
+    "since": null,
+    "value": 1.1406,
+    "vs_scratchers": {
+     "better": 4,
+     "of": 4
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "868-sunny-money",
+   "status": "active"
+  },
+  "869": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0716,
+     "jackpot": 0.0,
+     "mid": 0.1469,
+     "small": 1.034,
+     "top": {
+      "big": 2500,
+      "mid": 100,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 942804,
+    "fresh_value": 1.2536,
+    "history": [
+     {
+      "jackpot": 2500,
+      "left_pct": 98.2,
+      "score": 57,
+      "t": "2026-10-04 15:10",
+      "value": 0.6263
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/3qyHI4S8EMxkThFjAPfE1g/f59342d51bed664e4d0f7c9985b4be4f/BloominBucksF_869.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 98,
+    "n": "869",
+    "name": "Bloomin' Bucks",
+    "odds": 3.62,
+    "printed": 960000,
+    "prizes": [
+     {
+      "amt": 2500,
+      "left": 23,
+      "odds_now": 40991.48,
+      "odds_start": 40000.0,
+      "total": 24
+     },
+     {
+      "amt": 500,
+      "left": 20,
+      "odds_now": 47140.2,
+      "odds_start": 48000.0,
+      "total": 20
+     },
+     {
+      "amt": 100,
+      "left": 286,
+      "odds_now": 3296.52,
+      "odds_start": 3333.33,
+      "total": 288
+     },
+     {
+      "amt": 40,
+      "left": 1569,
+      "odds_now": 600.89,
+      "odds_start": 600.0,
+      "total": 1600
+     },
+     {
+      "amt": 20,
+      "left": 2357,
+      "odds_now": 400.0,
+      "odds_start": 400.0,
+      "total": 2400
+     },
+     {
+      "amt": 10,
+      "left": 18860,
+      "odds_now": 49.99,
+      "odds_start": 50.0,
+      "total": 19200
+     },
+     {
+      "amt": 5,
+      "left": 47134,
+      "odds_now": 20.0,
+      "odds_start": 20.0,
+      "total": 48000
+     },
+     {
+      "amt": 4,
+      "left": 84852,
+      "odds_now": 11.11,
+      "odds_start": 11.11,
+      "total": 86400
+     },
+     {
+      "amt": 2,
+      "left": 105596,
+      "odds_now": 8.93,
+      "odds_start": 8.93,
+      "total": 107520
+     }
+    ],
+    "rating": "Poor",
+    "score": 57,
+    "since": null,
+    "value": 1.2525,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 4
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "869-bloomin-bucks",
+   "status": "active"
+  },
+  "870": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0292,
+     "jackpot": 0.0487,
+     "mid": 0.3228,
+     "small": 2.64,
+     "top": {
+      "big": 1000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 547577,
+    "fresh_value": 3.0433,
+    "history": [
+     {
+      "jackpot": 6679,
+      "left_pct": 91.3,
+      "score": 46,
+      "t": "2026-10-04 15:10",
+      "value": 0.6081
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/45PyOIoOsXkdWISKDBoO7h/9248f9eeb859720170b5c39294f40727/KST870BWv5.jpg?fm=jpg&q=85",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 5,
+     "odds_now": 109515,
+     "share_pct": 2,
+     "start": 5000,
+     "total": 6,
+     "value": 6679,
+     "value_at_start": 3.0376
+    },
+    "jackpot_log": [
+     {
+      "left": 5,
+      "t": "2026-10-04 15:10",
+      "v": 6679
+     }
+    ],
+    "left_pct": 91,
+    "n": "870",
+    "name": "Home Run Riches Walk-Off Winnings",
+    "odds": 3.38,
+    "printed": 600000,
+    "prizes": [
+     {
+      "amt": 6679,
+      "jackpot": true,
+      "left": 5,
+      "odds_now": 109515.4,
+      "odds_start": 100000.0,
+      "total": 6
+     },
+     {
+      "amt": 1000,
+      "left": 16,
+      "odds_now": 34223.56,
+      "odds_start": 33333.33,
+      "total": 18
+     },
+     {
+      "amt": 500,
+      "left": 40,
+      "odds_now": 13689.42,
+      "odds_start": 13636.36,
+      "total": 44
+     },
+     {
+      "amt": 200,
+      "left": 53,
+      "odds_now": 10331.64,
+      "odds_start": 10000.0,
+      "total": 60
+     },
+     {
+      "amt": 100,
+      "left": 367,
+      "odds_now": 1492.04,
+      "odds_start": 1500.0,
+      "total": 400
+     },
+     {
+      "amt": 50,
+      "left": 2189,
+      "odds_now": 250.15,
+      "odds_start": 250.0,
+      "total": 2400
+     },
+     {
+      "amt": 20,
+      "left": 26286,
+      "odds_now": 20.83,
+      "odds_start": 20.83,
+      "total": 28800
+     },
+     {
+      "amt": 10,
+      "left": 50912,
+      "odds_now": 10.76,
+      "odds_start": 10.75,
+      "total": 55800
+     },
+     {
+      "amt": 5,
+      "left": 82149,
+      "odds_now": 6.67,
+      "odds_start": 6.67,
+      "total": 90000
+     }
+    ],
+    "rating": "Poor",
+    "score": 46,
+    "since": null,
+    "value": 3.0407,
+    "vs_scratchers": {
+     "better": 8,
+     "of": 9
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "870-home-run-riches-walk-off-winnings",
+   "status": "active"
+  },
+  "871": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.2982,
+     "jackpot": 0.0,
+     "mid": 0.5498,
+     "small": 2.64,
+     "top": {
+      "big": 25000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 586872,
+    "fresh_value": 3.483,
+    "history": [
+     {
+      "jackpot": 25000,
+      "left_pct": 97.8,
+      "score": 75,
+      "t": "2026-10-04 15:10",
+      "value": 0.6976
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/3aDddF4CmmotH5TpL7gUUb/714c1b395d580c438972ca815fef9c06/RakeItInF_871__2_.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 98,
+    "n": "871",
+    "name": "Rake It In",
+    "odds": 3.35,
+    "printed": 600000,
+    "prizes": [
+     {
+      "amt": 25000,
+      "left": 4,
+      "odds_now": 146718.0,
+      "odds_start": 150000.0,
+      "total": 4
+     },
+     {
+      "amt": 5000,
+      "left": 8,
+      "odds_now": 73359.0,
+      "odds_start": 75000.0,
+      "total": 8
+     },
+     {
+      "amt": 1000,
+      "left": 35,
+      "odds_now": 16767.77,
+      "odds_start": 16666.67,
+      "total": 36
+     },
+     {
+      "amt": 500,
+      "left": 71,
+      "odds_now": 8265.8,
+      "odds_start": 8333.33,
+      "total": 72
+     },
+     {
+      "amt": 200,
+      "left": 149,
+      "odds_now": 3938.74,
+      "odds_start": 3896.1,
+      "total": 154
+     },
+     {
+      "amt": 100,
+      "left": 960,
+      "odds_now": 611.33,
+      "odds_start": 612.24,
+      "total": 980
+     },
+     {
+      "amt": 50,
+      "left": 3227,
+      "odds_now": 181.86,
+      "odds_start": 181.82,
+      "total": 3300
+     },
+     {
+      "amt": 20,
+      "left": 28169,
+      "odds_now": 20.83,
+      "odds_start": 20.83,
+      "total": 28800
+     },
+     {
+      "amt": 10,
+      "left": 54577,
+      "odds_now": 10.75,
+      "odds_start": 10.75,
+      "total": 55800
+     },
+     {
+      "amt": 5,
+      "left": 88034,
+      "odds_now": 6.67,
+      "odds_start": 6.67,
+      "total": 90000
+     }
+    ],
+    "rating": "Good",
+    "score": 75,
+    "since": null,
+    "value": 3.4879,
+    "vs_scratchers": {
+     "better": 0,
+     "of": 9
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "871-rake-it-in",
+   "status": "active"
+  },
+  "873": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 1.1458,
+     "jackpot": 0.0,
+     "mid": 3.6636,
+     "small": 9.7053,
+     "top": {
+      "big": 100000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 349112,
+    "fresh_value": 14.475,
+    "history": [
+     {
+      "jackpot": 100000,
+      "left_pct": 97.0,
+      "score": 79,
+      "t": "2026-10-04 15:10",
+      "value": 0.7257
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/1xIitT7mc0QASqwf6ObgXR/b09614e8dd2f60cd5857e2e8be3de255/HighStakesLakeF_873__1_.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 97,
+    "n": "873",
+    "name": "High Stakes Lake",
+    "odds": 2.68,
+    "printed": 360000,
+    "prizes": [
+     {
+      "amt": 100000,
+      "left": 4,
+      "odds_now": 87278.0,
+      "odds_start": 90000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 70,
+      "odds_now": 4987.31,
+      "odds_start": 5142.86,
+      "total": 70
+     },
+     {
+      "amt": 500,
+      "left": 648,
+      "odds_now": 538.75,
+      "odds_start": 537.31,
+      "total": 670
+     },
+     {
+      "amt": 200,
+      "left": 4425,
+      "odds_now": 78.9,
+      "odds_start": 78.95,
+      "total": 4560
+     },
+     {
+      "amt": 100,
+      "left": 7952,
+      "odds_now": 43.9,
+      "odds_start": 43.9,
+      "total": 8200
+     },
+     {
+      "amt": 50,
+      "left": 3877,
+      "odds_now": 90.05,
+      "odds_start": 90.0,
+      "total": 4000
+     },
+     {
+      "amt": 40,
+      "left": 5431,
+      "odds_now": 64.28,
+      "odds_start": 64.29,
+      "total": 5600
+     },
+     {
+      "amt": 30,
+      "left": 2911,
+      "odds_now": 119.93,
+      "odds_start": 120.0,
+      "total": 3000
+     },
+     {
+      "amt": 20,
+      "left": 104730,
+      "odds_now": 3.33,
+      "odds_start": 3.33,
+      "total": 108000
+     }
+    ],
+    "rating": "Good",
+    "score": 79,
+    "since": null,
+    "value": 14.5146,
+    "vs_scratchers": {
+     "better": 2,
+     "of": 7
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "873-high-stakes-lake",
+   "status": "active"
+  },
+  "874": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.6302,
+     "jackpot": 0.0,
+     "mid": 1.6594,
+     "small": 4.7716,
+     "top": {
+      "big": 75000,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 476011,
+    "fresh_value": 7.0578,
+    "history": [
+     {
+      "jackpot": 75000,
+      "left_pct": 99.2,
+      "score": 70,
+      "t": "2026-10-04 15:10",
+      "value": 0.7061
+     }
+    ],
+    "img": "https://images.ctfassets.net/9rr74jcm47fc/gMKBVTVoKco1nmPMhl4r9/080a8757a182a142f8446254fcce98a1/Screamin7sF_874.jpg?fm=jpg&q=85",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 99,
+    "n": "874",
+    "name": "Screamin 7s",
+    "odds": 3.36,
+    "printed": 480000,
+    "prizes": [
+     {
+      "amt": 75000,
+      "left": 4,
+      "odds_now": 119002.75,
+      "odds_start": 120000.0,
+      "total": 4
+     },
+     {
+      "amt": 1000,
+      "left": 25,
+      "odds_now": 19040.44,
+      "odds_start": 18461.54,
+      "total": 26
+     },
+     {
+      "amt": 500,
+      "left": 297,
+      "odds_now": 1602.73,
+      "odds_start": 1600.0,
+      "total": 300
+     },
+     {
+      "amt": 250,
+      "left": 683,
+      "odds_now": 696.94,
+      "odds_start": 697.67,
+      "total": 688
+     },
+     {
+      "amt": 101,
+      "left": 833,
+      "odds_now": 571.44,
+      "odds_start": 571.43,
+      "total": 840
+     },
+     {
+      "amt": 100,
+      "left": 737,
+      "odds_now": 645.88,
+      "odds_start": 645.16,
+      "total": 744
+     },
+     {
+      "amt": 71,
+      "left": 794,
+      "odds_now": 599.51,
+      "odds_start": 600.0,
+      "total": 800
+     },
+     {
+      "amt": 70,
+      "left": 1428,
+      "odds_now": 333.34,
+      "odds_start": 333.33,
+      "total": 1440
+     },
+     {
+      "amt": 51,
+      "left": 2578,
+      "odds_now": 184.64,
+      "odds_start": 184.62,
+      "total": 2600
+     },
+     {
+      "amt": 50,
+      "left": 2033,
+      "odds_now": 234.14,
+      "odds_start": 234.15,
+      "total": 2050
+     },
+     {
+      "amt": 41,
+      "left": 3305,
+      "odds_now": 144.03,
+      "odds_start": 144.06,
+      "total": 3332
+     },
+     {
+      "amt": 40,
+      "left": 6348,
+      "odds_now": 74.99,
+      "odds_start": 75.0,
+      "total": 6400
+     },
+     {
+      "amt": 31,
+      "left": 7140,
+      "odds_now": 66.67,
+      "odds_start": 66.67,
+      "total": 7200
+     },
+     {
+      "amt": 30,
+      "left": 5950,
+      "odds_now": 80.0,
+      "odds_start": 80.0,
+      "total": 6000
+     },
+     {
+      "amt": 20,
+      "left": 14281,
+      "odds_now": 33.33,
+      "odds_start": 33.33,
+      "total": 14400
+     },
+     {
+      "amt": 15,
+      "left": 28560,
+      "odds_now": 16.67,
+      "odds_start": 16.67,
+      "total": 28800
+     },
+     {
+      "amt": 10,
+      "left": 66641,
+      "odds_now": 7.14,
+      "odds_start": 7.14,
+      "total": 67200
+     }
+    ],
+    "rating": "Good",
+    "score": 70,
+    "since": null,
+    "value": 7.0613,
+    "vs_scratchers": {
+     "better": 3,
+     "of": 11
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "874-screamin-7s",
+   "status": "active"
+  }
+ },
  "md": {
   "103": {
    "first_seen": "2026-10-04",
