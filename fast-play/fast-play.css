@@ -245,7 +245,12 @@
 .since-strip strong { font-weight: 800; }
 
 .pool-card .n-sub + .n-sub { margin-top: 2px; }
-.index-table .sub { display: block; font-size: 11px; color: var(--muted); font-weight: 500; }
+/* The small line under a figure may wrap. A long one ("$6,000 top prize is
+   gone") must not push the table wider than its card. */
+.index-table .sub {
+  display: block; font-size: 11px; color: var(--muted); font-weight: 500;
+  white-space: normal; line-height: 1.3;
+}
 .prize-card td .trend { display: block; font-family: var(--mono); font-size: 10.5px; color: var(--muted); white-space: nowrap; }
 .prize-card td .trend.better { color: #0f7a35; }
 .prize-card td .trend.worse { color: var(--red-deep); }
@@ -260,6 +265,10 @@ details.numbers .prize-card { margin-top: 10px; border-width: 1.5px; border-colo
 .daily-read.fp { padding-bottom: 6px; }
 
 .index-table td.g-name { min-width: 210px; }
+/* Column headings may wrap too, so six columns fit a small laptop window.
+   This file loads before scratchers.css, so the selector has to outrank
+   that file's `.index-table th`. */
+.index-card .index-table th { white-space: normal; vertical-align: bottom; line-height: 1.35; }
 
 /* The Fast Play prize table has a fourth column; let it scroll rather than
    clip on a narrow phone, and tighten the cells so it rarely has to. */
