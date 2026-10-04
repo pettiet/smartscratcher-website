@@ -1,4 +1,3931 @@
 {
+ "md": {
+  "103": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0101,
+     "jackpot": 0.0,
+     "mid": 0.1402,
+     "small": 0.4384,
+     "top": {
+      "big": 500,
+      "mid": 100,
+      "small": 5
+     }
+    },
+    "cost": 1.0,
+    "est_left": 788867,
+    "fresh_value": 0.589,
+    "history": [
+     {
+      "jackpot": 500,
+      "left_pct": 16.5,
+      "score": 31,
+      "t": "2026-10-04 10:58",
+      "value": 0.5887
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 16.5,
+      "score": 31,
+      "t": "2026-10-04 11:10",
+      "value": 0.5887
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp103.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 16,
+    "n": "103",
+    "name": "Maryland Lottery Pick 3 FAST PLAY Edition",
+    "odds": 4.29,
+    "printed": 4794435,
+    "prizes": [
+     {
+      "amt": 500,
+      "left": 16,
+      "odds_now": 49304.19,
+      "odds_start": 47944.35,
+      "total": 100
+     },
+     {
+      "amt": 100,
+      "left": 100,
+      "odds_now": 7888.67,
+      "odds_start": 7937.81,
+      "total": 604
+     },
+     {
+      "amt": 40,
+      "left": 537,
+      "odds_now": 1469.03,
+      "odds_start": 1461.72,
+      "total": 3280
+     },
+     {
+      "amt": 20,
+      "left": 1580,
+      "odds_now": 499.28,
+      "odds_start": 499.42,
+      "total": 9600
+     },
+     {
+      "amt": 10,
+      "left": 4748,
+      "odds_now": 166.15,
+      "odds_start": 166.47,
+      "total": 28800
+     },
+     {
+      "amt": 5,
+      "left": 13418,
+      "odds_now": 58.79,
+      "odds_start": 58.76,
+      "total": 81600
+     },
+     {
+      "amt": 4,
+      "left": 21315,
+      "odds_now": 37.01,
+      "odds_start": 36.99,
+      "total": 129600
+     },
+     {
+      "amt": 2,
+      "left": 51339,
+      "odds_now": 15.37,
+      "odds_start": 15.37,
+      "total": 312000
+     },
+     {
+      "amt": 1,
+      "left": 90832,
+      "odds_now": 8.68,
+      "odds_start": 8.69,
+      "total": 552000
+     }
+    ],
+    "rating": "Poor",
+    "score": 31,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 0.5887,
+    "vs_scratchers": {
+     "better": 2,
+     "of": 7
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "103-maryland-lottery-pick-3-fast-play-edition",
+   "status": "active"
+  },
+  "104": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0868,
+     "jackpot": 0.0,
+     "mid": 0.6352,
+     "small": 1.1261,
+     "top": {
+      "big": 30000,
+      "mid": 100,
+      "small": 10
+     }
+    },
+    "cost": 3.0,
+    "est_left": 4091397,
+    "fresh_value": 1.8447,
+    "history": [
+     {
+      "jackpot": 30000,
+      "left_pct": 85.3,
+      "score": 56,
+      "t": "2026-10-04 10:58",
+      "value": 0.616
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 85.3,
+      "score": 56,
+      "t": "2026-10-04 11:10",
+      "value": 0.616
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp104.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 85,
+    "n": "104",
+    "name": "Keno FAST PLAY Edition",
+    "odds": 3.22,
+    "printed": 4795256,
+    "prizes": [
+     {
+      "amt": 30000,
+      "left": 9,
+      "odds_now": 454599.67,
+      "odds_start": 479525.6,
+      "total": 10
+     },
+     {
+      "amt": 1000,
+      "left": 85,
+      "odds_now": 48134.08,
+      "odds_start": 47952.56,
+      "total": 100
+     },
+     {
+      "amt": 100,
+      "left": 4350,
+      "odds_now": 940.55,
+      "odds_start": 940.25,
+      "total": 5100
+     },
+     {
+      "amt": 50,
+      "left": 17065,
+      "odds_now": 239.75,
+      "odds_start": 239.76,
+      "total": 20000
+     },
+     {
+      "amt": 20,
+      "left": 65525,
+      "odds_now": 62.44,
+      "odds_start": 62.44,
+      "total": 76800
+     },
+     {
+      "amt": 10,
+      "left": 155636,
+      "odds_now": 26.29,
+      "odds_start": 26.29,
+      "total": 182400
+     },
+     {
+      "amt": 5,
+      "left": 331720,
+      "odds_now": 12.33,
+      "odds_start": 12.33,
+      "total": 388800
+     },
+     {
+      "amt": 2,
+      "left": 696230,
+      "odds_now": 5.88,
+      "odds_start": 5.88,
+      "total": 816000
+     }
+    ],
+    "rating": "Poor",
+    "score": 56,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.8481,
+    "vs_scratchers": {
+     "better": 8,
+     "of": 8
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "104-keno-fast-play-edition",
+   "status": "active"
+  },
+  "106": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1047,
+     "jackpot": 0.148,
+     "mid": 3.5157,
+     "small": 14.4572,
+     "top": {
+      "big": 10000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 30.0,
+    "est_left": 4394835,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 650223,
+      "left_pct": 91.4,
+      "score": 63,
+      "t": "2026-10-04 10:58",
+      "value": 0.642
+     },
+     {
+      "jackpot": 650237,
+      "left_pct": 91.4,
+      "score": 60,
+      "t": "2026-10-04 11:10",
+      "value": 0.6075
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp106.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 8,
+     "odds_now": 549354,
+     "share_pct": 1,
+     "start": null,
+     "total": 9,
+     "value": 650237,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 8,
+      "t": "2026-10-04 11:10",
+      "v": 650237
+     },
+     {
+      "left": 8,
+      "t": "2026-10-04 10:57",
+      "v": 650223
+     }
+    ],
+    "left_pct": 91,
+    "n": "106",
+    "name": "Ultimate Payday Progressive",
+    "odds": 2.77,
+    "printed": 4807637,
+    "prizes": [
+     {
+      "amt": 650237,
+      "jackpot": true,
+      "left": 8,
+      "odds_now": 549354.38,
+      "odds_start": 534181.89,
+      "total": 9
+     },
+     {
+      "amt": 10000,
+      "left": 46,
+      "odds_now": 95539.89,
+      "odds_start": 96152.74,
+      "total": 50
+     },
+     {
+      "amt": 1000,
+      "left": 687,
+      "odds_now": 6397.14,
+      "odds_start": 6410.18,
+      "total": 750
+     },
+     {
+      "amt": 500,
+      "left": 11430,
+      "odds_now": 384.5,
+      "odds_start": 384.61,
+      "total": 12500
+     },
+     {
+      "amt": 200,
+      "left": 45244,
+      "odds_now": 97.14,
+      "odds_start": 97.12,
+      "total": 49500
+     },
+     {
+      "amt": 100,
+      "left": 111898,
+      "odds_now": 39.28,
+      "odds_start": 39.28,
+      "total": 122400
+     },
+     {
+      "amt": 50,
+      "left": 289601,
+      "odds_now": 15.18,
+      "odds_start": 15.18,
+      "total": 316800
+     },
+     {
+      "amt": 40,
+      "left": 403688,
+      "odds_now": 10.89,
+      "odds_start": 10.89,
+      "total": 441600
+     },
+     {
+      "amt": 30,
+      "left": 723981,
+      "odds_now": 6.07,
+      "odds_start": 6.07,
+      "total": 792000
+     }
+    ],
+    "rating": "Fair",
+    "score": 60,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 14,
+     "jackpots_hit_here": 0,
+     "score_change": -3,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 18.2254,
+    "vs_scratchers": {
+     "better": 8,
+     "of": 8
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "106-ultimate-payday-progressive",
+   "status": "active"
+  },
+  "107": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0752,
+     "jackpot": 0.0,
+     "mid": 0.4237,
+     "small": 1.516,
+     "top": {
+      "big": 5000,
+      "mid": 100,
+      "small": 10
+     }
+    },
+    "cost": 3.0,
+    "est_left": 4599377,
+    "fresh_value": 2.0134,
+    "history": [
+     {
+      "jackpot": 5000,
+      "left_pct": 95.8,
+      "score": 63,
+      "t": "2026-10-04 10:58",
+      "value": 0.6717
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 95.8,
+      "score": 63,
+      "t": "2026-10-04 11:10",
+      "value": 0.6717
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp107.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 96,
+    "n": "107",
+    "name": "Fold & Win",
+    "odds": 3.08,
+    "printed": 4799955,
+    "prizes": [
+     {
+      "amt": 5000,
+      "left": 59,
+      "odds_now": 77955.54,
+      "odds_start": 79999.25,
+      "total": 60
+     },
+     {
+      "amt": 500,
+      "left": 102,
+      "odds_now": 45091.93,
+      "odds_start": 44859.39,
+      "total": 107
+     },
+     {
+      "amt": 100,
+      "left": 1551,
+      "odds_now": 2965.43,
+      "odds_start": 2962.94,
+      "total": 1620
+     },
+     {
+      "amt": 50,
+      "left": 10579,
+      "odds_now": 434.76,
+      "odds_start": 434.78,
+      "total": 11040
+     },
+     {
+      "amt": 25,
+      "left": 50593,
+      "odds_now": 90.91,
+      "odds_start": 90.91,
+      "total": 52800
+     },
+     {
+      "amt": 10,
+      "left": 142587,
+      "odds_now": 32.26,
+      "odds_start": 32.26,
+      "total": 148800
+     },
+     {
+      "amt": 7,
+      "left": 234570,
+      "odds_now": 19.61,
+      "odds_start": 19.61,
+      "total": 244800
+     },
+     {
+      "amt": 5,
+      "left": 372551,
+      "odds_now": 12.35,
+      "odds_start": 12.35,
+      "total": 388800
+     },
+     {
+      "amt": 3,
+      "left": 680712,
+      "odds_now": 6.76,
+      "odds_start": 6.76,
+      "total": 710400
+     }
+    ],
+    "rating": "Fair",
+    "score": 63,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 2.015,
+    "vs_scratchers": {
+     "better": 3,
+     "of": 8
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "107-fold-win",
+   "status": "active"
+  },
+  "108": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0363,
+     "jackpot": 0.0188,
+     "mid": 1.0219,
+     "small": 1.9464,
+     "top": {
+      "big": 5000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 3939836,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 74243,
+      "left_pct": 82.1,
+      "score": 55,
+      "t": "2026-10-04 10:58",
+      "value": 0.6424
+     },
+     {
+      "jackpot": 74254,
+      "left_pct": 82.1,
+      "score": 52,
+      "t": "2026-10-04 11:10",
+      "value": 0.6047
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp108.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 11,
+     "odds_now": 358167,
+     "share_pct": 1,
+     "start": null,
+     "total": 15,
+     "value": 74254,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 11,
+      "t": "2026-10-04 11:10",
+      "v": 74254
+     },
+     {
+      "left": 11,
+      "t": "2026-10-04 10:57",
+      "v": 74243
+     }
+    ],
+    "left_pct": 82,
+    "n": "108",
+    "name": "Cash Combination",
+    "odds": 4.23,
+    "printed": 4796482,
+    "prizes": [
+     {
+      "amt": 74254,
+      "jackpot": true,
+      "left": 11,
+      "odds_now": 358166.91,
+      "odds_start": 319765.47,
+      "total": 15
+     },
+     {
+      "amt": 5000,
+      "left": 13,
+      "odds_now": 303064.31,
+      "odds_start": 319765.47,
+      "total": 15
+     },
+     {
+      "amt": 1000,
+      "left": 78,
+      "odds_now": 50510.72,
+      "odds_start": 50489.28,
+      "total": 95
+     },
+     {
+      "amt": 500,
+      "left": 145,
+      "odds_now": 27171.28,
+      "odds_start": 27408.47,
+      "total": 175
+     },
+     {
+      "amt": 250,
+      "left": 673,
+      "odds_now": 5854.14,
+      "odds_start": 5849.37,
+      "total": 820
+     },
+     {
+      "amt": 100,
+      "left": 27601,
+      "odds_now": 142.74,
+      "odds_start": 142.75,
+      "total": 33600
+     },
+     {
+      "amt": 50,
+      "left": 7886,
+      "odds_now": 499.6,
+      "odds_start": 499.63,
+      "total": 9600
+     },
+     {
+      "amt": 40,
+      "left": 15771,
+      "odds_now": 249.82,
+      "odds_start": 249.82,
+      "total": 19200
+     },
+     {
+      "amt": 20,
+      "left": 55198,
+      "odds_now": 71.38,
+      "odds_start": 71.38,
+      "total": 67200
+     },
+     {
+      "amt": 15,
+      "left": 98562,
+      "odds_now": 39.97,
+      "odds_start": 39.97,
+      "total": 120000
+     },
+     {
+      "amt": 10,
+      "left": 291757,
+      "odds_now": 13.5,
+      "odds_start": 13.5,
+      "total": 355200
+     },
+     {
+      "amt": 5,
+      "left": 433708,
+      "odds_now": 9.08,
+      "odds_start": 9.08,
+      "total": 528000
+     }
+    ],
+    "rating": "Poor",
+    "score": 52,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 11,
+     "jackpots_hit_here": 0,
+     "score_change": -3,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.0234,
+    "vs_scratchers": {
+     "better": 23,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "108-cash-combination",
+   "status": "active"
+  },
+  "109": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1583,
+     "jackpot": 0.2623,
+     "mid": 1.6759,
+     "small": 9.753,
+     "top": {
+      "big": 10000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 4447525,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 1166520,
+      "left_pct": 92.7,
+      "score": 83,
+      "t": "2026-10-04 10:58",
+      "value": 0.8285
+     },
+     {
+      "jackpot": 1166582,
+      "left_pct": 92.7,
+      "score": 51,
+      "t": "2026-10-04 11:10",
+      "value": 0.5925
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp109.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 19,
+     "odds_now": 234080,
+     "share_pct": 2,
+     "start": null,
+     "total": 20,
+     "value": 1166582,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 19,
+      "t": "2026-10-04 11:10",
+      "v": 1166582
+     },
+     {
+      "left": 19,
+      "t": "2026-10-04 10:57",
+      "v": 1166520
+     }
+    ],
+    "left_pct": 93,
+    "n": "109",
+    "name": "20X Cash",
+    "odds": 4.79,
+    "printed": 4798584,
+    "prizes": [
+     {
+      "amt": 1166582,
+      "jackpot": true,
+      "left": 19,
+      "odds_now": 234080.26,
+      "odds_start": 239929.2,
+      "total": 20
+     },
+     {
+      "amt": 10000,
+      "left": 30,
+      "odds_now": 148250.83,
+      "odds_start": 145411.64,
+      "total": 33
+     },
+     {
+      "amt": 4000,
+      "left": 101,
+      "odds_now": 44034.9,
+      "odds_start": 44023.71,
+      "total": 109
+     },
+     {
+      "amt": 1000,
+      "left": 1528,
+      "odds_now": 2910.68,
+      "odds_start": 2908.23,
+      "total": 1650
+     },
+     {
+      "amt": 400,
+      "left": 5916,
+      "odds_now": 751.78,
+      "odds_start": 752.13,
+      "total": 6380
+     },
+     {
+      "amt": 200,
+      "left": 17796,
+      "odds_now": 249.92,
+      "odds_start": 249.93,
+      "total": 19200
+     },
+     {
+      "amt": 100,
+      "left": 80089,
+      "odds_now": 55.53,
+      "odds_start": 55.54,
+      "total": 86400
+     },
+     {
+      "amt": 50,
+      "left": 244671,
+      "odds_now": 18.18,
+      "odds_start": 18.18,
+      "total": 264000
+     },
+     {
+      "amt": 40,
+      "left": 578352,
+      "odds_now": 7.69,
+      "odds_start": 7.69,
+      "total": 624000
+     }
+    ],
+    "rating": "Poor",
+    "score": 51,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 62,
+     "jackpots_hit_here": 0,
+     "score_change": -32,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 11.8494,
+    "vs_scratchers": {
+     "better": 10,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "109-20x-cash",
+   "status": "active"
+  },
+  "110": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0938,
+     "jackpot": 0.0,
+     "mid": 0.5066,
+     "small": 1.4104,
+     "top": {
+      "big": 30000,
+      "mid": 111,
+      "small": 11
+     }
+    },
+    "cost": 3.0,
+    "est_left": 4407975,
+    "fresh_value": 2.0119,
+    "history": [
+     {
+      "jackpot": 30000,
+      "left_pct": 91.8,
+      "score": 58,
+      "t": "2026-10-04 10:58",
+      "value": 0.6702
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 91.8,
+      "score": 58,
+      "t": "2026-10-04 11:10",
+      "value": 0.6702
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp110.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 92,
+    "n": "110",
+    "name": "Craps",
+    "odds": 3.44,
+    "printed": 4802068,
+    "prizes": [
+     {
+      "amt": 30000,
+      "left": 9,
+      "odds_now": 489775.0,
+      "odds_start": 480206.8,
+      "total": 10
+     },
+     {
+      "amt": 1111,
+      "left": 129,
+      "odds_now": 34170.35,
+      "odds_start": 34300.49,
+      "total": 140
+     },
+     {
+      "amt": 111,
+      "left": 7891,
+      "odds_now": 558.61,
+      "odds_start": 558.38,
+      "total": 8600
+     },
+     {
+      "amt": 77,
+      "left": 17624,
+      "odds_now": 250.11,
+      "odds_start": 250.11,
+      "total": 19200
+     },
+     {
+      "amt": 11,
+      "left": 149787,
+      "odds_now": 29.43,
+      "odds_start": 29.42,
+      "total": 163200
+     },
+     {
+      "amt": 7,
+      "left": 312839,
+      "odds_now": 14.09,
+      "odds_start": 14.09,
+      "total": 340800
+     },
+     {
+      "amt": 3,
+      "left": 793109,
+      "odds_now": 5.56,
+      "odds_start": 5.56,
+      "total": 864000
+     }
+    ],
+    "rating": "Poor",
+    "score": 58,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 2.0107,
+    "vs_scratchers": {
+     "better": 3,
+     "of": 8
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "110-craps",
+   "status": "active"
+  },
+  "111": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0043,
+     "jackpot": 0.0037,
+     "mid": 0.353,
+     "small": 0.8366,
+     "top": {
+      "big": 500,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 4288013,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 15757,
+      "left_pct": 89.3,
+      "score": 51,
+      "t": "2026-10-04 10:58",
+      "value": 0.6393
+     },
+     {
+      "jackpot": 15759,
+      "left_pct": 89.3,
+      "score": 47,
+      "t": "2026-10-04 11:10",
+      "value": 0.5988
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp111.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 23,
+     "odds_now": 186435,
+     "share_pct": 0,
+     "start": null,
+     "total": 26,
+     "value": 15759,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 23,
+      "t": "2026-10-04 11:10",
+      "v": 15759
+     },
+     {
+      "left": 23,
+      "t": "2026-10-04 10:57",
+      "v": 15757
+     }
+    ],
+    "left_pct": 89,
+    "n": "111",
+    "name": "Baccarat",
+    "odds": 3.69,
+    "printed": 4802114,
+    "prizes": [
+     {
+      "amt": 15759,
+      "jackpot": true,
+      "left": 23,
+      "odds_now": 186435.35,
+      "odds_start": 184696.69,
+      "total": 26
+     },
+     {
+      "amt": 500,
+      "left": 37,
+      "odds_now": 115892.24,
+      "odds_start": 120052.85,
+      "total": 40
+     },
+     {
+      "amt": 200,
+      "left": 105,
+      "odds_now": 40838.22,
+      "odds_start": 40017.62,
+      "total": 120
+     },
+     {
+      "amt": 100,
+      "left": 356,
+      "odds_now": 12044.98,
+      "odds_start": 12005.28,
+      "total": 400
+     },
+     {
+      "amt": 40,
+      "left": 12858,
+      "odds_now": 333.49,
+      "odds_start": 333.48,
+      "total": 14400
+     },
+     {
+      "amt": 20,
+      "left": 47148,
+      "odds_now": 90.95,
+      "odds_start": 90.95,
+      "total": 52800
+     },
+     {
+      "amt": 10,
+      "left": 64295,
+      "odds_now": 66.69,
+      "odds_start": 66.7,
+      "total": 72000
+     },
+     {
+      "amt": 5,
+      "left": 175724,
+      "odds_now": 24.4,
+      "odds_start": 24.4,
+      "total": 196800
+     },
+     {
+      "amt": 3,
+      "left": 342893,
+      "odds_now": 12.51,
+      "odds_start": 12.51,
+      "total": 384000
+     },
+     {
+      "amt": 2,
+      "left": 518624,
+      "odds_now": 8.27,
+      "odds_start": 8.27,
+      "total": 580800
+     }
+    ],
+    "rating": "Poor",
+    "score": 47,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 2,
+     "jackpots_hit_here": 0,
+     "score_change": -4,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.1977,
+    "vs_scratchers": {
+     "better": 7,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "111-baccarat",
+   "status": "active"
+  },
+  "112": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0,
+     "jackpot": 0.0003,
+     "mid": 0.1074,
+     "small": 0.4456,
+     "top": {
+      "big": null,
+      "mid": 100,
+      "small": 5
+     }
+    },
+    "cost": 1.0,
+    "est_left": 3504903,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 933,
+      "left_pct": 73.0,
+      "score": 36,
+      "t": "2026-10-04 10:58",
+      "value": 0.5623
+     },
+     {
+      "jackpot": 936,
+      "left_pct": 73.0,
+      "score": 35,
+      "t": "2026-10-04 11:10",
+      "value": 0.5532
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp112.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 35,
+     "odds_now": 100140,
+     "share_pct": 0,
+     "start": null,
+     "total": 48,
+     "value": 936,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 35,
+      "t": "2026-10-04 11:10",
+      "v": 936
+     },
+     {
+      "left": 35,
+      "t": "2026-10-04 10:57",
+      "v": 933
+     }
+    ],
+    "left_pct": 73,
+    "n": "112",
+    "name": "Three Card Poker",
+    "odds": 4.05,
+    "printed": 4804515,
+    "prizes": [
+     {
+      "amt": 936,
+      "jackpot": true,
+      "left": 35,
+      "odds_now": 100140.09,
+      "odds_start": 100094.06,
+      "total": 48
+     },
+     {
+      "amt": 100,
+      "left": 123,
+      "odds_now": 28495.15,
+      "odds_start": 27933.23,
+      "total": 172
+     },
+     {
+      "amt": 40,
+      "left": 348,
+      "odds_now": 10071.56,
+      "odds_start": 10009.41,
+      "total": 480
+     },
+     {
+      "amt": 20,
+      "left": 7004,
+      "odds_now": 500.41,
+      "odds_start": 500.47,
+      "total": 9600
+     },
+     {
+      "amt": 10,
+      "left": 21009,
+      "odds_now": 166.83,
+      "odds_start": 166.82,
+      "total": 28800
+     },
+     {
+      "amt": 5,
+      "left": 52524,
+      "odds_now": 66.73,
+      "odds_start": 66.73,
+      "total": 72000
+     },
+     {
+      "amt": 4,
+      "left": 105054,
+      "odds_now": 33.36,
+      "odds_start": 33.36,
+      "total": 144000
+     },
+     {
+      "amt": 2,
+      "left": 199588,
+      "odds_now": 17.56,
+      "odds_start": 17.56,
+      "total": 273600
+     },
+     {
+      "amt": 1,
+      "left": 479723,
+      "odds_now": 7.31,
+      "odds_start": 7.31,
+      "total": 657600
+     }
+    ],
+    "rating": "Poor",
+    "score": 35,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 3,
+     "jackpots_hit_here": 0,
+     "score_change": -1,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 0.5532,
+    "vs_scratchers": {
+     "better": 4,
+     "of": 7
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "112-three-card-poker",
+   "status": "active"
+  },
+  "113": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0688,
+     "jackpot": 0.1215,
+     "mid": 1.1213,
+     "small": 10.6473,
+     "top": {
+      "big": 10000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 4654115,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 565272,
+      "left_pct": 97.1,
+      "score": 69,
+      "t": "2026-10-04 10:58",
+      "value": 0.6769
+     },
+     {
+      "jackpot": 565302,
+      "left_pct": 97.1,
+      "score": 59,
+      "t": "2026-10-04 11:10",
+      "value": 0.5979
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp113.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 14,
+     "odds_now": 332437,
+     "share_pct": 1,
+     "start": null,
+     "total": 14,
+     "value": 565302,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 14,
+      "t": "2026-10-04 11:10",
+      "v": 565302
+     },
+     {
+      "left": 14,
+      "t": "2026-10-04 10:57",
+      "v": 565272
+     }
+    ],
+    "left_pct": 97,
+    "n": "113",
+    "name": "Casino Cash",
+    "odds": 2.87,
+    "printed": 4792205,
+    "prizes": [
+     {
+      "amt": 565302,
+      "jackpot": true,
+      "left": 14,
+      "odds_now": 332436.79,
+      "odds_start": 342300.36,
+      "total": 14
+     },
+     {
+      "amt": 10000,
+      "left": 32,
+      "odds_now": 145441.09,
+      "odds_start": 145218.33,
+      "total": 33
+     },
+     {
+      "amt": 1000,
+      "left": 501,
+      "odds_now": 9289.65,
+      "odds_start": 9378.09,
+      "total": 511
+     },
+     {
+      "amt": 500,
+      "left": 4075,
+      "odds_now": 1142.11,
+      "odds_start": 1141.0,
+      "total": 4200
+     },
+     {
+      "amt": 200,
+      "left": 13401,
+      "odds_now": 347.3,
+      "odds_start": 347.26,
+      "total": 13800
+     },
+     {
+      "amt": 100,
+      "left": 46617,
+      "odds_now": 99.84,
+      "odds_start": 99.84,
+      "total": 48000
+     },
+     {
+      "amt": 50,
+      "left": 167815,
+      "odds_now": 27.73,
+      "odds_start": 27.73,
+      "total": 172800
+     },
+     {
+      "amt": 40,
+      "left": 251740,
+      "odds_now": 18.49,
+      "odds_start": 18.49,
+      "total": 259200
+     },
+     {
+      "amt": 30,
+      "left": 368268,
+      "odds_now": 12.64,
+      "odds_start": 12.64,
+      "total": 379200
+     },
+     {
+      "amt": 20,
+      "left": 769180,
+      "odds_now": 6.05,
+      "odds_start": 6.05,
+      "total": 792000
+     }
+    ],
+    "rating": "Poor",
+    "score": 59,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 30,
+     "jackpots_hit_here": 0,
+     "score_change": -10,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 11.9588,
+    "vs_scratchers": {
+     "better": 10,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "113-casino-cash",
+   "status": "active"
+  },
+  "117": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1726,
+     "jackpot": 0.0207,
+     "mid": 1.6336,
+     "small": 4.5423,
+     "top": {
+      "big": 50000,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 4518315,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 93589,
+      "left_pct": 94.1,
+      "score": 67,
+      "t": "2026-10-04 10:58",
+      "value": 0.6556
+     },
+     {
+      "jackpot": 93604,
+      "left_pct": 94.1,
+      "score": 64,
+      "t": "2026-10-04 11:10",
+      "value": 0.6369
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp117.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 10,
+     "odds_now": 451832,
+     "share_pct": 0,
+     "start": null,
+     "total": 12,
+     "value": 93604,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 10,
+      "t": "2026-10-04 11:10",
+      "v": 93604
+     },
+     {
+      "left": 10,
+      "t": "2026-10-04 10:57",
+      "v": 93589
+     }
+    ],
+    "left_pct": 94,
+    "n": "117",
+    "name": "Platinum Payout",
+    "odds": 3.62,
+    "printed": 4802810,
+    "prizes": [
+     {
+      "amt": 93604,
+      "jackpot": true,
+      "left": 10,
+      "odds_now": 451831.5,
+      "odds_start": 400234.17,
+      "total": 12
+     },
+     {
+      "amt": 50000,
+      "left": 6,
+      "odds_now": 753052.5,
+      "odds_start": 800468.33,
+      "total": 6
+     },
+     {
+      "amt": 10000,
+      "left": 48,
+      "odds_now": 94131.56,
+      "odds_start": 96056.2,
+      "total": 50
+     },
+     {
+      "amt": 1000,
+      "left": 976,
+      "odds_now": 4629.42,
+      "odds_start": 4640.4,
+      "total": 1035
+     },
+     {
+      "amt": 500,
+      "left": 2675,
+      "odds_now": 1689.09,
+      "odds_start": 1691.13,
+      "total": 2840
+     },
+     {
+      "amt": 200,
+      "left": 11925,
+      "odds_now": 378.89,
+      "odds_start": 378.77,
+      "total": 12680
+     },
+     {
+      "amt": 100,
+      "left": 26828,
+      "odds_now": 168.42,
+      "odds_start": 168.4,
+      "total": 28520
+     },
+     {
+      "amt": 50,
+      "left": 54187,
+      "odds_now": 83.38,
+      "odds_start": 83.38,
+      "total": 57600
+     },
+     {
+      "amt": 30,
+      "left": 153536,
+      "odds_now": 29.43,
+      "odds_start": 29.43,
+      "total": 163200
+     },
+     {
+      "amt": 20,
+      "left": 203203,
+      "odds_now": 22.24,
+      "odds_start": 22.24,
+      "total": 216000
+     },
+     {
+      "amt": 15,
+      "left": 239333,
+      "odds_now": 18.88,
+      "odds_start": 18.88,
+      "total": 254400
+     },
+     {
+      "amt": 10,
+      "left": 555426,
+      "odds_now": 8.13,
+      "odds_start": 8.13,
+      "total": 590400
+     }
+    ],
+    "rating": "Fair",
+    "score": 64,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 15,
+     "jackpots_hit_here": 0,
+     "score_change": -3,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 6.3693,
+    "vs_scratchers": {
+     "better": 23,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "117-platinum-payout",
+   "status": "active"
+  },
+  "118": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.3332,
+     "jackpot": 0.0,
+     "mid": 0.2467,
+     "small": 0.686,
+     "top": {
+      "big": 250,
+      "mid": 100,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 4198725,
+    "fresh_value": 1.266,
+    "history": [
+     {
+      "jackpot": 250,
+      "left_pct": 87.5,
+      "score": 67,
+      "t": "2026-10-04 10:58",
+      "value": 0.633
+     },
+     {
+      "jackpot": 250,
+      "left_pct": 87.5,
+      "score": 67,
+      "t": "2026-10-04 11:10",
+      "value": 0.633
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp118.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 87,
+    "n": "118",
+    "name": "Maryland 250",
+    "odds": 3.94,
+    "printed": 4799866,
+    "prizes": [
+     {
+      "amt": 250,
+      "left": 5596,
+      "odds_now": 750.31,
+      "odds_start": 749.98,
+      "total": 6400
+     },
+     {
+      "amt": 100,
+      "left": 1961,
+      "odds_now": 2141.11,
+      "odds_start": 2142.8,
+      "total": 2240
+     },
+     {
+      "amt": 40,
+      "left": 8398,
+      "odds_now": 499.97,
+      "odds_start": 499.99,
+      "total": 9600
+     },
+     {
+      "amt": 20,
+      "left": 25194,
+      "odds_now": 166.66,
+      "odds_start": 166.66,
+      "total": 28800
+     },
+     {
+      "amt": 10,
+      "left": 50388,
+      "odds_now": 83.33,
+      "odds_start": 83.33,
+      "total": 57600
+     },
+     {
+      "amt": 4,
+      "left": 214139,
+      "odds_now": 19.61,
+      "odds_start": 19.61,
+      "total": 244800
+     },
+     {
+      "amt": 2,
+      "left": 759990,
+      "odds_now": 5.52,
+      "odds_start": 5.52,
+      "total": 868800
+     }
+    ],
+    "rating": "Fair",
+    "score": 67,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.2659,
+    "vs_scratchers": {
+     "better": 3,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "118-maryland-250",
+   "status": "active"
+  },
+  "119": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0302,
+     "jackpot": 0.0,
+     "mid": 0.4084,
+     "small": 0.8251,
+     "top": {
+      "big": 10000,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 4374100,
+    "fresh_value": 1.2661,
+    "history": [
+     {
+      "jackpot": 10000,
+      "left_pct": 91.1,
+      "score": 54,
+      "t": "2026-10-04 10:58",
+      "value": 0.6318
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 91.1,
+      "score": 54,
+      "t": "2026-10-04 11:10",
+      "value": 0.6318
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp119.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 91,
+    "n": "119",
+    "name": "Racetrax™ FAST PLAY EDITION",
+    "odds": 3.73,
+    "printed": 4799678,
+    "prizes": [
+     {
+      "amt": 10000,
+      "left": 8,
+      "odds_now": 546762.5,
+      "odds_start": 479967.8,
+      "total": 10
+     },
+     {
+      "amt": 1000,
+      "left": 25,
+      "odds_now": 174964.0,
+      "odds_start": 177765.85,
+      "total": 27
+     },
+     {
+      "amt": 500,
+      "left": 54,
+      "odds_now": 81001.85,
+      "odds_start": 79994.63,
+      "total": 60
+     },
+     {
+      "amt": 200,
+      "left": 548,
+      "odds_now": 7981.93,
+      "odds_start": 7999.46,
+      "total": 600
+     },
+     {
+      "amt": 100,
+      "left": 1891,
+      "odds_now": 2313.11,
+      "odds_start": 2307.54,
+      "total": 2080
+     },
+     {
+      "amt": 40,
+      "left": 15316,
+      "odds_now": 285.59,
+      "odds_start": 285.7,
+      "total": 16800
+     },
+     {
+      "amt": 20,
+      "left": 43742,
+      "odds_now": 100.0,
+      "odds_start": 99.99,
+      "total": 48000
+     },
+     {
+      "amt": 10,
+      "left": 74361,
+      "odds_now": 58.82,
+      "odds_start": 58.82,
+      "total": 81600
+     },
+     {
+      "amt": 5,
+      "left": 140003,
+      "odds_now": 31.24,
+      "odds_start": 31.25,
+      "total": 153600
+     },
+     {
+      "amt": 3,
+      "left": 371817,
+      "odds_now": 11.76,
+      "odds_start": 11.76,
+      "total": 408000
+     },
+     {
+      "amt": 2,
+      "left": 524916,
+      "odds_now": 8.33,
+      "odds_start": 8.33,
+      "total": 576000
+     }
+    ],
+    "rating": "Poor",
+    "score": 54,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.2636,
+    "vs_scratchers": {
+     "better": 3,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "119-racetrax-fast-play-edition",
+   "status": "active"
+  },
+  "120": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1856,
+     "jackpot": 0.0,
+     "mid": 0.6513,
+     "small": 2.6666,
+     "top": {
+      "big": 50000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 4579073,
+    "fresh_value": 3.4957,
+    "history": [
+     {
+      "jackpot": 50000,
+      "left_pct": 95.3,
+      "score": 74,
+      "t": "2026-10-04 10:58",
+      "value": 0.7007
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 95.3,
+      "score": 74,
+      "t": "2026-10-04 11:10",
+      "value": 0.7007
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp120.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 95,
+    "n": "120",
+    "name": "CHA-CHING!®",
+    "odds": 3.77,
+    "printed": 4806068,
+    "prizes": [
+     {
+      "amt": 50000,
+      "left": 15,
+      "odds_now": 305271.53,
+      "odds_start": 320404.53,
+      "total": 15
+     },
+     {
+      "amt": 5000,
+      "left": 20,
+      "odds_now": 228953.65,
+      "odds_start": 228860.38,
+      "total": 21
+     },
+     {
+      "amt": 500,
+      "left": 460,
+      "odds_now": 9954.51,
+      "odds_start": 9950.45,
+      "total": 483
+     },
+     {
+      "amt": 400,
+      "left": 516,
+      "odds_now": 8874.17,
+      "odds_start": 8900.13,
+      "total": 540
+     },
+     {
+      "amt": 100,
+      "left": 1679,
+      "odds_now": 2727.26,
+      "odds_start": 2730.72,
+      "total": 1760
+     },
+     {
+      "amt": 50,
+      "left": 18293,
+      "odds_now": 250.32,
+      "odds_start": 250.32,
+      "total": 19200
+     },
+     {
+      "amt": 40,
+      "left": 36586,
+      "odds_now": 125.16,
+      "odds_start": 125.16,
+      "total": 38400
+     },
+     {
+      "amt": 20,
+      "left": 146348,
+      "odds_now": 31.29,
+      "odds_start": 31.29,
+      "total": 153600
+     },
+     {
+      "amt": 15,
+      "left": 160059,
+      "odds_now": 28.61,
+      "odds_start": 28.61,
+      "total": 168000
+     },
+     {
+      "amt": 10,
+      "left": 525934,
+      "odds_now": 8.71,
+      "odds_start": 8.71,
+      "total": 552000
+     },
+     {
+      "amt": 5,
+      "left": 324698,
+      "odds_now": 14.1,
+      "odds_start": 14.1,
+      "total": 340800
+     }
+    ],
+    "rating": "Good",
+    "score": 74,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.5036,
+    "vs_scratchers": {
+     "better": 17,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "120-cha-ching",
+   "status": "active"
+  },
+  "121": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.3707,
+     "jackpot": 0.0,
+     "mid": 1.9043,
+     "small": 5.1558,
+     "top": {
+      "big": 100000,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 4639938,
+    "fresh_value": 7.4416,
+    "history": [
+     {
+      "jackpot": 100000,
+      "left_pct": 96.8,
+      "score": 78,
+      "t": "2026-10-04 10:58",
+      "value": 0.7431
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 96.8,
+      "score": 78,
+      "t": "2026-10-04 11:10",
+      "value": 0.7431
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp121.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 97,
+    "n": "121",
+    "name": "Cash Tree",
+    "odds": 3.28,
+    "printed": 4794560,
+    "prizes": [
+     {
+      "amt": 100000,
+      "left": 11,
+      "odds_now": 421812.55,
+      "odds_start": 399546.67,
+      "total": 12
+     },
+     {
+      "amt": 50000,
+      "left": 6,
+      "odds_now": 773323.0,
+      "odds_start": 799093.33,
+      "total": 6
+     },
+     {
+      "amt": 10000,
+      "left": 32,
+      "odds_now": 144998.06,
+      "odds_start": 145289.7,
+      "total": 33
+     },
+     {
+      "amt": 1000,
+      "left": 1050,
+      "odds_now": 4418.99,
+      "odds_start": 4418.95,
+      "total": 1085
+     },
+     {
+      "amt": 500,
+      "left": 3100,
+      "odds_now": 1496.75,
+      "odds_start": 1498.3,
+      "total": 3200
+     },
+     {
+      "amt": 200,
+      "left": 12989,
+      "odds_now": 357.22,
+      "odds_start": 357.27,
+      "total": 13420
+     },
+     {
+      "amt": 100,
+      "left": 36382,
+      "odds_now": 127.53,
+      "odds_start": 127.51,
+      "total": 37600
+     },
+     {
+      "amt": 50,
+      "left": 83612,
+      "odds_now": 55.49,
+      "odds_start": 55.49,
+      "total": 86400
+     },
+     {
+      "amt": 30,
+      "left": 139357,
+      "odds_now": 33.3,
+      "odds_start": 33.3,
+      "total": 144000
+     },
+     {
+      "amt": 20,
+      "left": 232259,
+      "odds_now": 19.98,
+      "odds_start": 19.98,
+      "total": 240000
+     },
+     {
+      "amt": 15,
+      "left": 371617,
+      "odds_now": 12.49,
+      "odds_start": 12.49,
+      "total": 384000
+     },
+     {
+      "amt": 10,
+      "left": 534200,
+      "odds_now": 8.69,
+      "odds_start": 8.69,
+      "total": 552000
+     }
+    ],
+    "rating": "Good",
+    "score": 78,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 7.4309,
+    "vs_scratchers": {
+     "better": 18,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "121-cash-tree",
+   "status": "active"
+  },
+  "122": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 2.1444,
+     "jackpot": 0.0,
+     "mid": 1.2447,
+     "small": 11.9915,
+     "top": {
+      "big": 1000000,
+      "mid": 1000,
+      "small": 100
+     }
+    },
+    "cost": 20.0,
+    "est_left": 4728640,
+    "fresh_value": 15.3512,
+    "history": [
+     {
+      "jackpot": 1000000,
+      "left_pct": 98.6,
+      "score": 86,
+      "t": "2026-10-04 10:58",
+      "value": 0.769
+     },
+     {
+      "jackpot": 1000000,
+      "left_pct": 98.6,
+      "score": 86,
+      "t": "2026-10-04 11:10",
+      "value": 0.769
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp122.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 99,
+    "n": "122",
+    "name": "Diamond Spectacular",
+    "odds": 2.8,
+    "printed": 4795347,
+    "prizes": [
+     {
+      "amt": 1000000,
+      "left": 10,
+      "odds_now": 472864.0,
+      "odds_start": 479534.7,
+      "total": 10
+     },
+     {
+      "amt": 10000,
+      "left": 14,
+      "odds_now": 337760.0,
+      "odds_start": 342524.79,
+      "total": 14
+     },
+     {
+      "amt": 1000,
+      "left": 688,
+      "odds_now": 6873.02,
+      "odds_start": 6850.5,
+      "total": 700
+     },
+     {
+      "amt": 500,
+      "left": 2663,
+      "odds_now": 1775.68,
+      "odds_start": 1776.05,
+      "total": 2700
+     },
+     {
+      "amt": 200,
+      "left": 19331,
+      "odds_now": 244.61,
+      "odds_start": 244.66,
+      "total": 19600
+     },
+     {
+      "amt": 100,
+      "left": 80450,
+      "odds_now": 58.78,
+      "odds_start": 58.77,
+      "total": 81600
+     },
+     {
+      "amt": 50,
+      "left": 198820,
+      "odds_now": 23.78,
+      "odds_start": 23.79,
+      "total": 201600
+     },
+     {
+      "amt": 40,
+      "left": 397596,
+      "odds_now": 11.89,
+      "odds_start": 11.89,
+      "total": 403200
+     },
+     {
+      "amt": 30,
+      "left": 302927,
+      "odds_now": 15.61,
+      "odds_start": 15.61,
+      "total": 307200
+     },
+     {
+      "amt": 20,
+      "left": 686301,
+      "odds_now": 6.89,
+      "odds_start": 6.89,
+      "total": 696000
+     }
+    ],
+    "rating": "Great",
+    "score": 86,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 15.3806,
+    "vs_scratchers": {
+     "better": 5,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "122-diamond-spectacular",
+   "status": "active"
+  },
+  "123": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0,
+     "jackpot": 0.0,
+     "mid": 15.6082,
+     "small": 7.9039,
+     "top": {
+      "big": null,
+      "mid": 600,
+      "small": 100
+     }
+    },
+    "cost": 30.0,
+    "est_left": 4727439,
+    "fresh_value": 23.512,
+    "history": [
+     {
+      "jackpot": 600,
+      "left_pct": 98.5,
+      "score": 77,
+      "t": "2026-10-04 10:58",
+      "value": 0.7837
+     },
+     {
+      "jackpot": 600,
+      "left_pct": 98.5,
+      "score": 77,
+      "t": "2026-10-04 11:10",
+      "value": 0.7837
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp123.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 99,
+    "n": "123",
+    "name": "Win $100, $300 or $600",
+    "odds": 7.87,
+    "printed": 4797552,
+    "prizes": [
+     {
+      "amt": 600,
+      "left": 18919,
+      "odds_now": 249.88,
+      "odds_start": 249.87,
+      "total": 19200
+     },
+     {
+      "amt": 300,
+      "left": 208118,
+      "odds_now": 22.72,
+      "odds_start": 22.72,
+      "total": 211200
+     },
+     {
+      "amt": 100,
+      "left": 373654,
+      "odds_now": 12.65,
+      "odds_start": 12.65,
+      "total": 379200
+     }
+    ],
+    "rating": "Good",
+    "score": 77,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 23.5121,
+    "vs_scratchers": {
+     "better": 7,
+     "of": 8
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "123-win-100-300-or-600",
+   "status": "active"
+  },
+  "124": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.2643,
+     "jackpot": 0.0,
+     "mid": 0.91,
+     "small": 2.3277,
+     "top": {
+      "big": 50000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 4710068,
+    "fresh_value": 3.4978,
+    "history": [
+     {
+      "jackpot": 50000,
+      "left_pct": 98.0,
+      "score": 77,
+      "t": "2026-10-04 10:58",
+      "value": 0.7004
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 98.0,
+      "score": 77,
+      "t": "2026-10-04 11:10",
+      "value": 0.7004
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp124.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 98,
+    "n": "124",
+    "name": "Ca$h Cleanup",
+    "odds": 3.88,
+    "printed": 4804740,
+    "prizes": [
+     {
+      "amt": 50000,
+      "left": 15,
+      "odds_now": 314004.53,
+      "odds_start": 320316.0,
+      "total": 15
+     },
+     {
+      "amt": 5000,
+      "left": 40,
+      "odds_now": 117751.7,
+      "odds_start": 120118.5,
+      "total": 40
+     },
+     {
+      "amt": 1000,
+      "left": 295,
+      "odds_now": 15966.33,
+      "odds_start": 16015.8,
+      "total": 300
+     },
+     {
+      "amt": 500,
+      "left": 591,
+      "odds_now": 7969.66,
+      "odds_start": 8007.9,
+      "total": 600
+     },
+     {
+      "amt": 400,
+      "left": 1351,
+      "odds_now": 3486.36,
+      "odds_start": 3481.7,
+      "total": 1380
+     },
+     {
+      "amt": 200,
+      "left": 3921,
+      "odds_now": 1201.24,
+      "odds_start": 1201.18,
+      "total": 4000
+     },
+     {
+      "amt": 100,
+      "left": 7839,
+      "odds_now": 600.85,
+      "odds_start": 600.59,
+      "total": 8000
+     },
+     {
+      "amt": 50,
+      "left": 18822,
+      "odds_now": 250.24,
+      "odds_start": 250.25,
+      "total": 19200
+     },
+     {
+      "amt": 40,
+      "left": 23529,
+      "odds_now": 200.18,
+      "odds_start": 200.2,
+      "total": 24000
+     },
+     {
+      "amt": 20,
+      "left": 94100,
+      "odds_now": 50.05,
+      "odds_start": 50.05,
+      "total": 96000
+     },
+     {
+      "amt": 15,
+      "left": 188212,
+      "odds_now": 25.03,
+      "odds_start": 25.02,
+      "total": 192000
+     },
+     {
+      "amt": 10,
+      "left": 376450,
+      "odds_now": 12.51,
+      "odds_start": 12.51,
+      "total": 384000
+     },
+     {
+      "amt": 5,
+      "left": 498770,
+      "odds_now": 9.44,
+      "odds_start": 9.44,
+      "total": 508800
+     }
+    ],
+    "rating": "Good",
+    "score": 77,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.502,
+    "vs_scratchers": {
+     "better": 17,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "124-cash-cleanup",
+   "status": "active"
+  },
+  "125": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0605,
+     "jackpot": 0.0039,
+     "mid": 0.6897,
+     "small": 1.0496,
+     "top": {
+      "big": 1000,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 3.0,
+    "est_left": 4744173,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 18718,
+      "left_pct": 98.8,
+      "score": 63,
+      "t": "2026-10-04 10:58",
+      "value": 0.6394
+     },
+     {
+      "jackpot": 18722,
+      "left_pct": 98.8,
+      "score": 60,
+      "t": "2026-10-04 11:10",
+      "value": 0.6012
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp125.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 30,
+     "odds_now": 158139,
+     "share_pct": 0,
+     "start": null,
+     "total": 30,
+     "value": 18722,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 30,
+      "t": "2026-10-04 11:10",
+      "v": 18722
+     },
+     {
+      "left": 30,
+      "t": "2026-10-04 10:57",
+      "v": 18718
+     }
+    ],
+    "left_pct": 99,
+    "n": "125",
+    "name": "LOTERIA™",
+    "odds": 4.2,
+    "printed": 4801944,
+    "prizes": [
+     {
+      "amt": 18722,
+      "jackpot": true,
+      "left": 30,
+      "odds_now": 158139.1,
+      "odds_start": 160064.8,
+      "total": 30
+     },
+     {
+      "amt": 1000,
+      "left": 90,
+      "odds_now": 52713.03,
+      "odds_start": 53354.93,
+      "total": 90
+     },
+     {
+      "amt": 500,
+      "left": 394,
+      "odds_now": 12041.05,
+      "odds_start": 12004.86,
+      "total": 400
+     },
+     {
+      "amt": 200,
+      "left": 394,
+      "odds_now": 12041.05,
+      "odds_start": 12004.86,
+      "total": 400
+     },
+     {
+      "amt": 100,
+      "left": 7905,
+      "odds_now": 600.15,
+      "odds_start": 600.24,
+      "total": 8000
+     },
+     {
+      "amt": 50,
+      "left": 15807,
+      "odds_now": 300.13,
+      "odds_start": 300.12,
+      "total": 16000
+     },
+     {
+      "amt": 20,
+      "left": 80625,
+      "odds_now": 58.84,
+      "odds_start": 58.85,
+      "total": 81600
+     },
+     {
+      "amt": 10,
+      "left": 180196,
+      "odds_now": 26.33,
+      "odds_start": 26.33,
+      "total": 182400
+     },
+     {
+      "amt": 5,
+      "left": 322470,
+      "odds_now": 14.71,
+      "odds_start": 14.71,
+      "total": 326400
+     },
+     {
+      "amt": 3,
+      "left": 521654,
+      "odds_now": 9.09,
+      "odds_start": 9.09,
+      "total": 528000
+     }
+    ],
+    "rating": "Fair",
+    "score": 60,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 4,
+     "jackpots_hit_here": 0,
+     "score_change": -3,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.8037,
+    "vs_scratchers": {
+     "better": 8,
+     "of": 8
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "125-loteria",
+   "status": "active"
+  },
+  "18": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0639,
+     "jackpot": 0.0367,
+     "mid": 0.7984,
+     "small": 2.2374,
+     "top": {
+      "big": 5000,
+      "mid": 400,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 3253936,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 119469,
+      "left_pct": 67.7,
+      "score": 75,
+      "t": "2026-10-04 10:58",
+      "value": 0.7228
+     },
+     {
+      "jackpot": 119476,
+      "left_pct": 67.7,
+      "score": 62,
+      "t": "2026-10-04 11:10",
+      "value": 0.6273
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp18.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 14,
+     "odds_now": 232424,
+     "share_pct": 1,
+     "start": null,
+     "total": 19,
+     "value": 119476,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 14,
+      "t": "2026-10-04 11:10",
+      "v": 119476
+     },
+     {
+      "left": 14,
+      "t": "2026-10-04 10:57",
+      "v": 119469
+     }
+    ],
+    "left_pct": 68,
+    "n": "18",
+    "name": "Chili Pepper Payout",
+    "odds": 3.84,
+    "printed": 4805641,
+    "prizes": [
+     {
+      "amt": 119476,
+      "jackpot": true,
+      "left": 14,
+      "odds_now": 232424.0,
+      "odds_start": 252928.47,
+      "total": 19
+     },
+     {
+      "amt": 5000,
+      "left": 27,
+      "odds_now": 120516.15,
+      "odds_start": 120141.02,
+      "total": 40
+     },
+     {
+      "amt": 1000,
+      "left": 73,
+      "odds_now": 44574.47,
+      "odds_start": 43687.65,
+      "total": 110
+     },
+     {
+      "amt": 400,
+      "left": 813,
+      "odds_now": 4002.38,
+      "odds_start": 4004.7,
+      "total": 1200
+     },
+     {
+      "amt": 200,
+      "left": 1155,
+      "odds_now": 2817.26,
+      "odds_start": 2826.85,
+      "total": 1700
+     },
+     {
+      "amt": 100,
+      "left": 3517,
+      "odds_now": 925.2,
+      "odds_start": 924.16,
+      "total": 5200
+     },
+     {
+      "amt": 50,
+      "left": 13008,
+      "odds_now": 250.15,
+      "odds_start": 250.29,
+      "total": 19200
+     },
+     {
+      "amt": 40,
+      "left": 25994,
+      "odds_now": 125.18,
+      "odds_start": 125.15,
+      "total": 38400
+     },
+     {
+      "amt": 20,
+      "left": 71505,
+      "odds_now": 45.51,
+      "odds_start": 45.51,
+      "total": 105600
+     },
+     {
+      "amt": 15,
+      "left": 97510,
+      "odds_now": 33.37,
+      "odds_start": 33.37,
+      "total": 144000
+     },
+     {
+      "amt": 10,
+      "left": 243753,
+      "odds_now": 13.35,
+      "odds_start": 13.35,
+      "total": 360000
+     },
+     {
+      "amt": 5,
+      "left": 390010,
+      "odds_now": 8.34,
+      "odds_start": 8.34,
+      "total": 576000
+     }
+    ],
+    "rating": "Fair",
+    "score": 62,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 7,
+     "jackpots_hit_here": 0,
+     "score_change": -13,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.1365,
+    "vs_scratchers": {
+     "better": 23,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "18-chili-pepper-payout",
+   "status": "active"
+  },
+  "31": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0168,
+     "jackpot": 0.0963,
+     "mid": 0.1903,
+     "small": 2.9325,
+     "top": {
+      "big": 5000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 1663423,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 160114,
+      "left_pct": 34.7,
+      "score": 81,
+      "t": "2026-10-04 10:58",
+      "value": 0.7434
+     },
+     {
+      "jackpot": 160129,
+      "left_pct": 34.7,
+      "score": 66,
+      "t": "2026-10-04 11:10",
+      "value": 0.6472
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp31.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 6,
+     "odds_now": 277237,
+     "share_pct": 3,
+     "start": null,
+     "total": 15,
+     "value": 160129,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 6,
+      "t": "2026-10-04 11:10",
+      "v": 160129
+     },
+     {
+      "left": 6,
+      "t": "2026-10-04 10:57",
+      "v": 160114
+     }
+    ],
+    "left_pct": 35,
+    "n": "31",
+    "name": "WORLD CHAMPIONSHIP POKER®",
+    "odds": 3.48,
+    "printed": 4795854,
+    "prizes": [
+     {
+      "amt": 160129,
+      "jackpot": true,
+      "left": 6,
+      "odds_now": 277237.17,
+      "odds_start": 319723.6,
+      "total": 15
+     },
+     {
+      "amt": 5000,
+      "left": 3,
+      "odds_now": 554474.33,
+      "odds_start": 599481.75,
+      "total": 8
+     },
+     {
+      "amt": 1000,
+      "left": 13,
+      "odds_now": 127955.62,
+      "odds_start": 133218.17,
+      "total": 36
+     },
+     {
+      "amt": 500,
+      "left": 28,
+      "odds_now": 59407.96,
+      "odds_start": 59948.18,
+      "total": 80
+     },
+     {
+      "amt": 400,
+      "left": 21,
+      "odds_now": 79210.62,
+      "odds_start": 79930.9,
+      "total": 60
+     },
+     {
+      "amt": 100,
+      "left": 111,
+      "odds_now": 14985.79,
+      "odds_start": 14987.04,
+      "total": 320
+     },
+     {
+      "amt": 50,
+      "left": 1665,
+      "odds_now": 999.05,
+      "odds_start": 999.14,
+      "total": 4800
+     },
+     {
+      "amt": 40,
+      "left": 4995,
+      "odds_now": 333.02,
+      "odds_start": 333.05,
+      "total": 14400
+     },
+     {
+      "amt": 20,
+      "left": 58267,
+      "odds_now": 28.55,
+      "odds_start": 28.55,
+      "total": 168000
+     },
+     {
+      "amt": 15,
+      "left": 61599,
+      "odds_now": 27.0,
+      "odds_start": 27.0,
+      "total": 177600
+     },
+     {
+      "amt": 10,
+      "left": 206443,
+      "odds_now": 8.06,
+      "odds_start": 8.06,
+      "total": 595200
+     },
+     {
+      "amt": 5,
+      "left": 144844,
+      "odds_now": 11.48,
+      "odds_start": 11.48,
+      "total": 417600
+     }
+    ],
+    "rating": "Fair",
+    "score": 66,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 15,
+     "jackpots_hit_here": 0,
+     "score_change": -15,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.2359,
+    "vs_scratchers": {
+     "better": 21,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "31-world-championship-poker",
+   "status": "active"
+  },
+  "42": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.3679,
+     "jackpot": 0.0418,
+     "mid": 1.6786,
+     "small": 4.2846,
+     "top": {
+      "big": 50000,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 3860034,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 161495,
+      "left_pct": 80.4,
+      "score": 63,
+      "t": "2026-10-04 10:58",
+      "value": 0.7335
+     },
+     {
+      "jackpot": 161500,
+      "left_pct": 80.4,
+      "score": 49,
+      "t": "2026-10-04 11:10",
+      "value": 0.6373
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp42.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 24,
+     "odds_now": 160835,
+     "share_pct": 1,
+     "start": null,
+     "total": 30,
+     "value": 161500,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 24,
+      "t": "2026-10-04 11:10",
+      "v": 161500
+     },
+     {
+      "left": 24,
+      "t": "2026-10-04 10:57",
+      "v": 161495
+     }
+    ],
+    "left_pct": 80,
+    "n": "42",
+    "name": "High Roller Blackjack",
+    "odds": 4.44,
+    "printed": 4800430,
+    "prizes": [
+     {
+      "amt": 161500,
+      "jackpot": true,
+      "left": 24,
+      "odds_now": 160834.75,
+      "odds_start": 160014.33,
+      "total": 30
+     },
+     {
+      "amt": 50000,
+      "left": 14,
+      "odds_now": 275716.71,
+      "odds_start": 266690.56,
+      "total": 18
+     },
+     {
+      "amt": 10000,
+      "left": 72,
+      "odds_now": 53611.58,
+      "odds_start": 53338.11,
+      "total": 90
+     },
+     {
+      "amt": 1000,
+      "left": 723,
+      "odds_now": 5338.91,
+      "odds_start": 5333.81,
+      "total": 900
+     },
+     {
+      "amt": 500,
+      "left": 1690,
+      "odds_now": 2284.04,
+      "odds_start": 2285.92,
+      "total": 2100
+     },
+     {
+      "amt": 200,
+      "left": 8234,
+      "odds_now": 468.79,
+      "odds_start": 468.79,
+      "total": 10240
+     },
+     {
+      "amt": 100,
+      "left": 32646,
+      "odds_now": 118.24,
+      "odds_start": 118.24,
+      "total": 40600
+     },
+     {
+      "amt": 50,
+      "left": 65617,
+      "odds_now": 58.83,
+      "odds_start": 58.83,
+      "total": 81600
+     },
+     {
+      "amt": 30,
+      "left": 162110,
+      "odds_now": 23.81,
+      "odds_start": 23.81,
+      "total": 201600
+     },
+     {
+      "amt": 20,
+      "left": 154386,
+      "odds_now": 25.0,
+      "odds_start": 25.0,
+      "total": 192000
+     },
+     {
+      "amt": 15,
+      "left": 173680,
+      "odds_now": 22.22,
+      "odds_start": 22.22,
+      "total": 216000
+     },
+     {
+      "amt": 10,
+      "left": 270181,
+      "odds_now": 14.29,
+      "odds_start": 14.29,
+      "total": 336000
+     }
+    ],
+    "rating": "Poor",
+    "score": 49,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 5,
+     "jackpots_hit_here": 0,
+     "score_change": -14,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 6.3729,
+    "vs_scratchers": {
+     "better": 23,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "42-high-roller-blackjack",
+   "status": "active"
+  },
+  "70": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.1923,
+     "jackpot": 0.0,
+     "mid": 1.135,
+     "small": 2.1811,
+     "top": {
+      "big": 50000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 2769257,
+    "fresh_value": 3.5035,
+    "history": [
+     {
+      "jackpot": 50000,
+      "left_pct": 57.7,
+      "score": 76,
+      "t": "2026-10-04 10:58",
+      "value": 0.7017
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 57.7,
+      "score": 76,
+      "t": "2026-10-04 11:10",
+      "value": 0.7017
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp70.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 58,
+    "n": "70",
+    "name": "Lightning Cash",
+    "odds": 4.58,
+    "printed": 4797436,
+    "prizes": [
+     {
+      "amt": 50000,
+      "left": 9,
+      "odds_now": 307695.22,
+      "odds_start": 319829.07,
+      "total": 15
+     },
+     {
+      "amt": 2500,
+      "left": 33,
+      "odds_now": 83916.88,
+      "odds_start": 79957.27,
+      "total": 60
+     },
+     {
+      "amt": 500,
+      "left": 578,
+      "odds_now": 4791.1,
+      "odds_start": 4797.44,
+      "total": 1000
+     },
+     {
+      "amt": 100,
+      "left": 2771,
+      "odds_now": 999.37,
+      "odds_start": 999.47,
+      "total": 4800
+     },
+     {
+      "amt": 50,
+      "left": 24941,
+      "odds_now": 111.03,
+      "odds_start": 111.05,
+      "total": 43200
+     },
+     {
+      "amt": 30,
+      "left": 44328,
+      "odds_now": 62.47,
+      "odds_start": 62.47,
+      "total": 76800
+     },
+     {
+      "amt": 20,
+      "left": 72032,
+      "odds_now": 38.44,
+      "odds_start": 38.44,
+      "total": 124800
+     },
+     {
+      "amt": 10,
+      "left": 459949,
+      "odds_now": 6.02,
+      "odds_start": 6.02,
+      "total": 796800
+     }
+    ],
+    "rating": "Good",
+    "score": 76,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.5084,
+    "vs_scratchers": {
+     "better": 17,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "70-lightning-cash",
+   "status": "active"
+  },
+  "71": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.9403,
+     "jackpot": 0.0,
+     "mid": 1.6747,
+     "small": 4.8452,
+     "top": {
+      "big": 100000,
+      "mid": 1000,
+      "small": 50
+     }
+    },
+    "cost": 10.0,
+    "est_left": 3785846,
+    "fresh_value": 7.4231,
+    "history": [
+     {
+      "jackpot": 100000,
+      "left_pct": 78.8,
+      "score": 83,
+      "t": "2026-10-04 10:58",
+      "value": 0.746
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 78.8,
+      "score": 83,
+      "t": "2026-10-04 11:10",
+      "value": 0.746
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp71.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 79,
+    "n": "71",
+    "name": "Big Win",
+    "odds": 4.58,
+    "printed": 4804731,
+    "prizes": [
+     {
+      "amt": 100000,
+      "left": 20,
+      "odds_now": 189292.3,
+      "odds_start": 200197.12,
+      "total": 24
+     },
+     {
+      "amt": 50000,
+      "left": 16,
+      "odds_now": 236615.38,
+      "odds_start": 240236.55,
+      "total": 20
+     },
+     {
+      "amt": 20000,
+      "left": 24,
+      "odds_now": 157743.58,
+      "odds_start": 160157.7,
+      "total": 30
+     },
+     {
+      "amt": 10000,
+      "left": 28,
+      "odds_now": 135208.79,
+      "odds_start": 141315.62,
+      "total": 34
+     },
+     {
+      "amt": 1000,
+      "left": 317,
+      "odds_now": 11942.73,
+      "odds_start": 12011.83,
+      "total": 400
+     },
+     {
+      "amt": 500,
+      "left": 1573,
+      "odds_now": 2406.77,
+      "odds_start": 2402.37,
+      "total": 2000
+     },
+     {
+      "amt": 100,
+      "left": 27549,
+      "odds_now": 137.42,
+      "odds_start": 137.44,
+      "total": 34960
+     },
+     {
+      "amt": 75,
+      "left": 33090,
+      "odds_now": 114.41,
+      "odds_start": 114.4,
+      "total": 42000
+     },
+     {
+      "amt": 50,
+      "left": 34039,
+      "odds_now": 111.22,
+      "odds_start": 111.22,
+      "total": 43200
+     },
+     {
+      "amt": 40,
+      "left": 45384,
+      "odds_now": 83.42,
+      "odds_start": 83.42,
+      "total": 57600
+     },
+     {
+      "amt": 30,
+      "left": 113462,
+      "odds_now": 33.37,
+      "odds_start": 33.37,
+      "total": 144000
+     },
+     {
+      "amt": 20,
+      "left": 571102,
+      "odds_now": 6.63,
+      "odds_start": 6.63,
+      "total": 724800
+     }
+    ],
+    "rating": "Great",
+    "score": 83,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 7.4602,
+    "vs_scratchers": {
+     "better": 17,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "71-big-win",
+   "status": "active"
+  },
+  "74": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0017,
+     "jackpot": 0.0192,
+     "mid": 0.4027,
+     "small": 0.7743,
+     "top": {
+      "big": 1000,
+      "mid": 200,
+      "small": 7
+     }
+    },
+    "cost": 2.0,
+    "est_left": 1788655,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 34428,
+      "left_pct": 37.2,
+      "score": 44,
+      "t": "2026-10-04 10:58",
+      "value": 0.6278
+     },
+     {
+      "jackpot": 34431,
+      "left_pct": 37.2,
+      "score": 41,
+      "t": "2026-10-04 11:10",
+      "value": 0.599
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp74.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 4,
+     "odds_now": 447164,
+     "share_pct": 2,
+     "start": null,
+     "total": 12,
+     "value": 34431,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 4,
+      "t": "2026-10-04 11:10",
+      "v": 34431
+     },
+     {
+      "left": 4,
+      "t": "2026-10-04 10:57",
+      "v": 34428
+     }
+    ],
+    "left_pct": 37,
+    "n": "74",
+    "name": "7-11-21®",
+    "odds": 4.02,
+    "printed": 4804491,
+    "prizes": [
+     {
+      "amt": 34431,
+      "jackpot": true,
+      "left": 4,
+      "odds_now": 447163.75,
+      "odds_start": 400374.25,
+      "total": 12
+     },
+     {
+      "amt": 1000,
+      "left": 1,
+      "odds_now": 1788655.0,
+      "odds_start": 960898.2,
+      "total": 5
+     },
+     {
+      "amt": 500,
+      "left": 4,
+      "odds_now": 447163.75,
+      "odds_start": 480449.1,
+      "total": 10
+     },
+     {
+      "amt": 200,
+      "left": 31,
+      "odds_now": 57698.55,
+      "odds_start": 60056.14,
+      "total": 80
+     },
+     {
+      "amt": 100,
+      "left": 119,
+      "odds_now": 15030.71,
+      "odds_start": 15014.03,
+      "total": 320
+     },
+     {
+      "amt": 40,
+      "left": 1607,
+      "odds_now": 1113.04,
+      "odds_start": 1112.15,
+      "total": 4320
+     },
+     {
+      "amt": 21,
+      "left": 10721,
+      "odds_now": 166.84,
+      "odds_start": 166.82,
+      "total": 28800
+     },
+     {
+      "amt": 11,
+      "left": 37527,
+      "odds_now": 47.66,
+      "odds_start": 47.66,
+      "total": 100800
+     },
+     {
+      "amt": 7,
+      "left": 94710,
+      "odds_now": 18.89,
+      "odds_start": 18.89,
+      "total": 254400
+     },
+     {
+      "amt": 4,
+      "left": 60758,
+      "odds_now": 29.44,
+      "odds_start": 29.44,
+      "total": 163200
+     },
+     {
+      "amt": 2,
+      "left": 239457,
+      "odds_now": 7.47,
+      "odds_start": 7.47,
+      "total": 643200
+     }
+    ],
+    "rating": "Poor",
+    "score": 41,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 3,
+     "jackpots_hit_here": 0,
+     "score_change": -3,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.1979,
+    "vs_scratchers": {
+     "better": 7,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "74-7-11-21",
+   "status": "active"
+  },
+  "80": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0182,
+     "jackpot": 0.0,
+     "mid": 0.3737,
+     "small": 0.8762,
+     "top": {
+      "big": 5000,
+      "mid": 200,
+      "small": 10
+     }
+    },
+    "cost": 2.0,
+    "est_left": 4097889,
+    "fresh_value": 1.2665,
+    "history": [
+     {
+      "jackpot": 5000,
+      "left_pct": 85.4,
+      "score": 60,
+      "t": "2026-10-04 10:58",
+      "value": 0.634
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 85.4,
+      "score": 60,
+      "t": "2026-10-04 11:10",
+      "value": 0.634
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp80.jpg",
+    "jackpot": null,
+    "jackpot_log": [],
+    "left_pct": 85,
+    "n": "80",
+    "name": "Cobweb Cash",
+    "odds": 3.86,
+    "printed": 4799177,
+    "prizes": [
+     {
+      "amt": 5000,
+      "left": 10,
+      "odds_now": 409788.9,
+      "odds_start": 479917.7,
+      "total": 10
+     },
+     {
+      "amt": 1000,
+      "left": 16,
+      "odds_now": 256118.06,
+      "odds_start": 239958.85,
+      "total": 20
+     },
+     {
+      "amt": 500,
+      "left": 17,
+      "odds_now": 241052.29,
+      "odds_start": 239958.85,
+      "total": 20
+     },
+     {
+      "amt": 200,
+      "left": 1266,
+      "odds_now": 3236.88,
+      "odds_start": 3242.69,
+      "total": 1480
+     },
+     {
+      "amt": 100,
+      "left": 2987,
+      "odds_now": 1371.91,
+      "odds_start": 1371.19,
+      "total": 3500
+     },
+     {
+      "amt": 40,
+      "left": 8094,
+      "odds_now": 506.29,
+      "odds_start": 506.24,
+      "total": 9480
+     },
+     {
+      "amt": 20,
+      "left": 32788,
+      "odds_now": 124.98,
+      "odds_start": 124.98,
+      "total": 38400
+     },
+     {
+      "amt": 10,
+      "left": 73775,
+      "odds_now": 55.55,
+      "odds_start": 55.55,
+      "total": 86400
+     },
+     {
+      "amt": 5,
+      "left": 163949,
+      "odds_now": 24.99,
+      "odds_start": 25.0,
+      "total": 192000
+     },
+     {
+      "amt": 4,
+      "left": 237723,
+      "odds_now": 17.24,
+      "odds_start": 17.24,
+      "total": 278400
+     },
+     {
+      "amt": 2,
+      "left": 541004,
+      "odds_now": 7.57,
+      "odds_start": 7.57,
+      "total": 633600
+     }
+    ],
+    "rating": "Fair",
+    "score": 60,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 1.268,
+    "vs_scratchers": {
+     "better": 2,
+     "of": 10
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "80-cobweb-cash",
+   "status": "active"
+  },
+  "91": {
+   "first_seen": "2026-10-04",
+   "game": {
+    "bands": {
+     "big": 0.0414,
+     "jackpot": 0.0245,
+     "mid": 0.4647,
+     "small": 2.6234,
+     "top": {
+      "big": 5000,
+      "mid": 500,
+      "small": 20
+     }
+    },
+    "cost": 5.0,
+    "est_left": 3360493,
+    "fresh_value": null,
+    "history": [
+     {
+      "jackpot": 82316,
+      "left_pct": 70.0,
+      "score": 73,
+      "t": "2026-10-04 10:58",
+      "value": 0.6798
+     },
+     {
+      "jackpot": 82325,
+      "left_pct": 70.0,
+      "score": 66,
+      "t": "2026-10-04 11:10",
+      "value": 0.6308
+     }
+    ],
+    "img": "https://www.gamingdatasolutions.com/images/md/fp91.jpg",
+    "jackpot": {
+     "added_per_ticket": null,
+     "left": 11,
+     "odds_now": 305499,
+     "share_pct": 1,
+     "start": null,
+     "total": 15,
+     "value": 82325,
+     "value_at_start": null
+    },
+    "jackpot_log": [
+     {
+      "left": 11,
+      "t": "2026-10-04 11:10",
+      "v": 82325
+     },
+     {
+      "left": 11,
+      "t": "2026-10-04 10:57",
+      "v": 82316
+     }
+    ],
+    "left_pct": 70,
+    "n": "91",
+    "name": "Home Run Riches Walk-Off Winnings",
+    "odds": 3.81,
+    "printed": 4802943,
+    "prizes": [
+     {
+      "amt": 82325,
+      "jackpot": true,
+      "left": 11,
+      "odds_now": 305499.36,
+      "odds_start": 320196.2,
+      "total": 15
+     },
+     {
+      "amt": 5000,
+      "left": 14,
+      "odds_now": 240035.21,
+      "odds_start": 240147.15,
+      "total": 20
+     },
+     {
+      "amt": 1000,
+      "left": 69,
+      "odds_now": 48702.8,
+      "odds_start": 48029.43,
+      "total": 100
+     },
+     {
+      "amt": 500,
+      "left": 126,
+      "odds_now": 26670.58,
+      "odds_start": 26683.02,
+      "total": 180
+     },
+     {
+      "amt": 400,
+      "left": 560,
+      "odds_now": 6000.88,
+      "odds_start": 6003.68,
+      "total": 800
+     },
+     {
+      "amt": 100,
+      "left": 1329,
+      "odds_now": 2528.59,
+      "odds_start": 2527.86,
+      "total": 1900
+     },
+     {
+      "amt": 50,
+      "left": 6716,
+      "odds_now": 500.37,
+      "odds_start": 500.31,
+      "total": 9600
+     },
+     {
+      "amt": 40,
+      "left": 20152,
+      "odds_now": 166.76,
+      "odds_start": 166.77,
+      "total": 28800
+     },
+     {
+      "amt": 20,
+      "left": 94038,
+      "odds_now": 35.74,
+      "odds_start": 35.74,
+      "total": 134400
+     },
+     {
+      "amt": 15,
+      "left": 127621,
+      "odds_now": 26.33,
+      "odds_start": 26.33,
+      "total": 182400
+     },
+     {
+      "amt": 10,
+      "left": 372787,
+      "odds_now": 9.01,
+      "odds_start": 9.01,
+      "total": 532800
+     },
+     {
+      "amt": 5,
+      "left": 258596,
+      "odds_now": 13.0,
+      "odds_start": 12.99,
+      "total": 369600
+     }
+    ],
+    "rating": "Fair",
+    "score": 66,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 0.2,
+     "jackpot_change": 9,
+     "jackpots_hit_here": 0,
+     "score_change": -7,
+     "t": "2026-10-04 10:58",
+     "tickets_sold": 0
+    },
+    "value": 3.154,
+    "vs_scratchers": {
+     "better": 21,
+     "of": 23
+    }
+   },
+   "last_seen": "2026-10-04",
+   "slug": "91-home-run-riches-walk-off-winnings",
+   "status": "active"
+  }
+ },
  "ok": {
   "242": {
    "first_seen": "2026-09-29",
