@@ -1,5 +1,3809 @@
 {
  "states": {
+  "ar": {
+   "838": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/838.jpg",
+     "left_pct": 11,
+     "n": "838",
+     "name": "Xtreme Money",
+     "odds": 3.06,
+     "prizes": [
+      {
+       "amt": 300000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 9,
+       "total": 95
+      },
+      {
+       "amt": 500,
+       "left": 38,
+       "total": 376
+      },
+      {
+       "amt": 250,
+       "left": 25,
+       "total": 176
+      },
+      {
+       "amt": 200,
+       "left": 41,
+       "total": 398
+      },
+      {
+       "amt": 100,
+       "left": 2650,
+       "total": 26092
+      },
+      {
+       "amt": 50,
+       "left": 2946,
+       "total": 28572
+      },
+      {
+       "amt": 40,
+       "left": 1220,
+       "total": 12423
+      },
+      {
+       "amt": 30,
+       "left": 1093,
+       "total": 10588
+      },
+      {
+       "amt": 20,
+       "left": 9700,
+       "total": 78263
+      },
+      {
+       "amt": 15,
+       "left": 1931,
+       "total": 19530
+      },
+      {
+       "amt": 10,
+       "left": 34361,
+       "total": 302979
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "838-xtreme-money",
+    "status": "active"
+   },
+   "854": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/854.jpg",
+     "left_pct": 12,
+     "n": "854",
+     "name": "$10,000 Winnings",
+     "odds": 3.01,
+     "prizes": [
+      {
+       "amt": 10000,
+       "left": 16,
+       "total": 160
+      },
+      {
+       "amt": 1000,
+       "left": 2,
+       "total": 20
+      },
+      {
+       "amt": 500,
+       "left": 12,
+       "total": 105
+      },
+      {
+       "amt": 200,
+       "left": 17,
+       "total": 153
+      },
+      {
+       "amt": 100,
+       "left": 1812,
+       "total": 17335
+      },
+      {
+       "amt": 50,
+       "left": 2395,
+       "total": 21984
+      },
+      {
+       "amt": 20,
+       "left": 9701,
+       "total": 89542
+      },
+      {
+       "amt": 15,
+       "left": 4881,
+       "total": 40764
+      },
+      {
+       "amt": 10,
+       "left": 28450,
+       "total": 236335
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "854-10000-winnings",
+    "status": "active"
+   },
+   "855": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/855.jpg",
+     "left_pct": 21,
+     "n": "855",
+     "name": "$350,000 Jackpot",
+     "odds": 2.97,
+     "prizes": [
+      {
+       "amt": 350000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 25000,
+       "left": 0,
+       "total": 4
+      },
+      {
+       "amt": 10000,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 6
+      },
+      {
+       "amt": 1000,
+       "left": 28,
+       "total": 140
+      },
+      {
+       "amt": 500,
+       "left": 2194,
+       "total": 10965
+      },
+      {
+       "amt": 200,
+       "left": 1892,
+       "total": 9689
+      },
+      {
+       "amt": 100,
+       "left": 9488,
+       "total": 47515
+      },
+      {
+       "amt": 50,
+       "left": 7588,
+       "total": 36938
+      },
+      {
+       "amt": 40,
+       "left": 10061,
+       "total": 49229
+      },
+      {
+       "amt": 30,
+       "left": 41028,
+       "total": 197266
+      },
+      {
+       "amt": 20,
+       "left": 56143,
+       "total": 271382
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "855-350000-jackpot",
+    "status": "active"
+   },
+   "857": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/857.jpg",
+     "left_pct": 17,
+     "n": "857",
+     "name": "Bingo X20",
+     "odds": 3.66,
+     "prizes": [
+      {
+       "amt": 75000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 0,
+       "total": 5
+      },
+      {
+       "amt": 500,
+       "left": 19,
+       "total": 130
+      },
+      {
+       "amt": 200,
+       "left": 32,
+       "total": 170
+      },
+      {
+       "amt": 100,
+       "left": 149,
+       "total": 883
+      },
+      {
+       "amt": 60,
+       "left": 300,
+       "total": 1870
+      },
+      {
+       "amt": 50,
+       "left": 986,
+       "total": 5990
+      },
+      {
+       "amt": 30,
+       "left": 750,
+       "total": 4899
+      },
+      {
+       "amt": 20,
+       "left": 3244,
+       "total": 19654
+      },
+      {
+       "amt": 15,
+       "left": 5645,
+       "total": 35321
+      },
+      {
+       "amt": 10,
+       "left": 12314,
+       "total": 74617
+      },
+      {
+       "amt": 5,
+       "left": 12382,
+       "total": 70727
+      },
+      {
+       "amt": 3,
+       "left": 56623,
+       "total": 322030
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "857-bingo-x20",
+    "status": "active"
+   },
+   "859": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/859.jpg",
+     "left_pct": 13,
+     "n": "859",
+     "name": "777",
+     "odds": 2.97,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 0,
+       "total": 4
+      },
+      {
+       "amt": 1000,
+       "left": 5,
+       "total": 38
+      },
+      {
+       "amt": 500,
+       "left": 42,
+       "total": 364
+      },
+      {
+       "amt": 200,
+       "left": 166,
+       "total": 1552
+      },
+      {
+       "amt": 100,
+       "left": 1884,
+       "total": 19681
+      },
+      {
+       "amt": 80,
+       "left": 462,
+       "total": 4156
+      },
+      {
+       "amt": 60,
+       "left": 435,
+       "total": 4333
+      },
+      {
+       "amt": 50,
+       "left": 897,
+       "total": 8601
+      },
+      {
+       "amt": 40,
+       "left": 816,
+       "total": 7762
+      },
+      {
+       "amt": 20,
+       "left": 15826,
+       "total": 125822
+      },
+      {
+       "amt": 10,
+       "left": 36424,
+       "total": 251396
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "859-777",
+    "status": "active"
+   },
+   "861": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/861.jpg",
+     "left_pct": 35,
+     "n": "861",
+     "name": "Jumbo Bucks",
+     "odds": 4.07,
+     "prizes": [
+      {
+       "amt": 25000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 30,
+       "total": 89
+      },
+      {
+       "amt": 100,
+       "left": 206,
+       "total": 670
+      },
+      {
+       "amt": 50,
+       "left": 1049,
+       "total": 3382
+      },
+      {
+       "amt": 20,
+       "left": 4647,
+       "total": 14184
+      },
+      {
+       "amt": 10,
+       "left": 11107,
+       "total": 33697
+      },
+      {
+       "amt": 5,
+       "left": 18320,
+       "total": 53238
+      },
+      {
+       "amt": 4,
+       "left": 9169,
+       "total": 26559
+      },
+      {
+       "amt": 2,
+       "left": 71199,
+       "total": 195088
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "861-jumbo-bucks",
+    "status": "active"
+   },
+   "862": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/862.jpg",
+     "left_pct": 17,
+     "n": "862",
+     "name": "$1,000 Mayhem",
+     "odds": 3.7,
+     "prizes": [
+      {
+       "amt": 1000,
+       "left": 228,
+       "total": 1510
+      },
+      {
+       "amt": 500,
+       "left": 6,
+       "total": 25
+      },
+      {
+       "amt": 100,
+       "left": 92,
+       "total": 607
+      },
+      {
+       "amt": 50,
+       "left": 2057,
+       "total": 13968
+      },
+      {
+       "amt": 20,
+       "left": 4927,
+       "total": 31537
+      },
+      {
+       "amt": 10,
+       "left": 29272,
+       "total": 178934
+      },
+      {
+       "amt": 5,
+       "left": 37549,
+       "total": 200304
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "862-1000-mayhem",
+    "status": "active"
+   },
+   "868": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/868.jpg",
+     "left_pct": 31,
+     "n": "868",
+     "name": "Instant Million",
+     "odds": 2.96,
+     "prizes": [
+      {
+       "amt": 1000000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 50000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 10000,
+       "left": 2,
+       "total": 4
+      },
+      {
+       "amt": 5000,
+       "left": 3,
+       "total": 6
+      },
+      {
+       "amt": 1000,
+       "left": 79,
+       "total": 260
+      },
+      {
+       "amt": 500,
+       "left": 3718,
+       "total": 12315
+      },
+      {
+       "amt": 100,
+       "left": 24971,
+       "total": 83097
+      },
+      {
+       "amt": 50,
+       "left": 63022,
+       "total": 208485
+      },
+      {
+       "amt": 40,
+       "left": 50934,
+       "total": 166857
+      },
+      {
+       "amt": 30,
+       "left": 51042,
+       "total": 166916
+      },
+      {
+       "amt": 20,
+       "left": 129225,
+       "total": 417183
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "868-instant-million",
+    "status": "active"
+   },
+   "869": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/869.jpg",
+     "left_pct": 37,
+     "n": "869",
+     "name": "Money Multiplier",
+     "odds": 4.2,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 12,
+       "total": 35
+      },
+      {
+       "amt": 100,
+       "left": 138,
+       "total": 393
+      },
+      {
+       "amt": 50,
+       "left": 662,
+       "total": 1977
+      },
+      {
+       "amt": 20,
+       "left": 7094,
+       "total": 20474
+      },
+      {
+       "amt": 10,
+       "left": 7142,
+       "total": 20443
+      },
+      {
+       "amt": 5,
+       "left": 7414,
+       "total": 20426
+      },
+      {
+       "amt": 4,
+       "left": 21643,
+       "total": 58507
+      },
+      {
+       "amt": 2,
+       "left": 52883,
+       "total": 138670
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "869-money-multiplier",
+    "status": "active"
+   },
+   "870": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/870.jpg",
+     "left_pct": 45,
+     "n": "870",
+     "name": "X the Cash",
+     "odds": 3.78,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 5000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 5,
+       "total": 11
+      },
+      {
+       "amt": 500,
+       "left": 82,
+       "total": 200
+      },
+      {
+       "amt": 100,
+       "left": 1054,
+       "total": 2413
+      },
+      {
+       "amt": 75,
+       "left": 179,
+       "total": 430
+      },
+      {
+       "amt": 50,
+       "left": 9122,
+       "total": 21259
+      },
+      {
+       "amt": 40,
+       "left": 2812,
+       "total": 6601
+      },
+      {
+       "amt": 25,
+       "left": 1111,
+       "total": 2515
+      },
+      {
+       "amt": 20,
+       "left": 11646,
+       "total": 26417
+      },
+      {
+       "amt": 15,
+       "left": 13862,
+       "total": 31681
+      },
+      {
+       "amt": 10,
+       "left": 86986,
+       "total": 194922
+      },
+      {
+       "amt": 5,
+       "left": 59662,
+       "total": 131587
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "870-x-the-cash",
+    "status": "active"
+   },
+   "871": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/871.jpg",
+     "left_pct": 16,
+     "n": "871",
+     "name": "$200,000 Bonus Multiplier",
+     "odds": 3.06,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 14,
+       "total": 84
+      },
+      {
+       "amt": 500,
+       "left": 37,
+       "total": 283
+      },
+      {
+       "amt": 200,
+       "left": 41,
+       "total": 279
+      },
+      {
+       "amt": 100,
+       "left": 2781,
+       "total": 19370
+      },
+      {
+       "amt": 50,
+       "left": 3942,
+       "total": 25852
+      },
+      {
+       "amt": 40,
+       "left": 1087,
+       "total": 6905
+      },
+      {
+       "amt": 30,
+       "left": 1192,
+       "total": 8171
+      },
+      {
+       "amt": 20,
+       "left": 10324,
+       "total": 60385
+      },
+      {
+       "amt": 15,
+       "left": 6179,
+       "total": 37708
+      },
+      {
+       "amt": 10,
+       "left": 35021,
+       "total": 211277
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "871-200000-bonus-multiplier",
+    "status": "active"
+   },
+   "872": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/872.jpg",
+     "left_pct": 24,
+     "n": "872",
+     "name": "$50 or $100! 2026 Ed.",
+     "odds": 8.86,
+     "prizes": [
+      {
+       "amt": 100,
+       "left": 18977,
+       "total": 78608
+      },
+      {
+       "amt": 50,
+       "left": 35740,
+       "total": 145952
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "872-50-or-100-2026-ed",
+    "status": "active"
+   },
+   "873": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/873.jpg",
+     "left_pct": 33,
+     "n": "873",
+     "name": "$100 Stacked",
+     "odds": 4.56,
+     "prizes": [
+      {
+       "amt": 100,
+       "left": 548,
+       "total": 1891
+      },
+      {
+       "amt": 10,
+       "left": 2632,
+       "total": 8846
+      },
+      {
+       "amt": 5,
+       "left": 7701,
+       "total": 25143
+      },
+      {
+       "amt": 3,
+       "left": 6075,
+       "total": 18871
+      },
+      {
+       "amt": 2,
+       "left": 31649,
+       "total": 95795
+      },
+      {
+       "amt": 1,
+       "left": 43943,
+       "total": 126028
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "873-100-stacked",
+    "status": "active"
+   },
+   "874": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/874.jpg",
+     "left_pct": 39,
+     "n": "874",
+     "name": "$200 Stacked",
+     "odds": 4.1,
+     "prizes": [
+      {
+       "amt": 200,
+       "left": 573,
+       "total": 1619
+      },
+      {
+       "amt": 20,
+       "left": 2192,
+       "total": 5836
+      },
+      {
+       "amt": 10,
+       "left": 10809,
+       "total": 29023
+      },
+      {
+       "amt": 5,
+       "left": 26699,
+       "total": 69973
+      },
+      {
+       "amt": 3,
+       "left": 8646,
+       "total": 21885
+      },
+      {
+       "amt": 2,
+       "left": 55312,
+       "total": 138254
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "874-200-stacked",
+    "status": "active"
+   },
+   "875": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/875.jpg",
+     "left_pct": 24,
+     "n": "875",
+     "name": "$500 Stacked",
+     "odds": 3.84,
+     "prizes": [
+      {
+       "amt": 500,
+       "left": 843,
+       "total": 3887
+      },
+      {
+       "amt": 100,
+       "left": 52,
+       "total": 242
+      },
+      {
+       "amt": 50,
+       "left": 3702,
+       "total": 16524
+      },
+      {
+       "amt": 20,
+       "left": 8769,
+       "total": 38726
+      },
+      {
+       "amt": 10,
+       "left": 56994,
+       "total": 245255
+      },
+      {
+       "amt": 5,
+       "left": 50712,
+       "total": 200212
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "875-500-stacked",
+    "status": "active"
+   },
+   "876": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/876.jpg",
+     "left_pct": 31,
+     "n": "876",
+     "name": "$10,000 Stacked",
+     "odds": 2.98,
+     "prizes": [
+      {
+       "amt": 10000,
+       "left": 36,
+       "total": 120
+      },
+      {
+       "amt": 500,
+       "left": 25,
+       "total": 97
+      },
+      {
+       "amt": 100,
+       "left": 3929,
+       "total": 12912
+      },
+      {
+       "amt": 50,
+       "left": 6746,
+       "total": 22191
+      },
+      {
+       "amt": 20,
+       "left": 28568,
+       "total": 93881
+      },
+      {
+       "amt": 10,
+       "left": 65052,
+       "total": 206978
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "876-10000-stacked",
+    "status": "active"
+   },
+   "877": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/877.jpg",
+     "left_pct": 39,
+     "n": "877",
+     "name": "$50,000 Stacked",
+     "odds": 3.03,
+     "prizes": [
+      {
+       "amt": 50000,
+       "left": 27,
+       "total": 80
+      },
+      {
+       "amt": 10000,
+       "left": 7,
+       "total": 17
+      },
+      {
+       "amt": 5000,
+       "left": 19,
+       "total": 50
+      },
+      {
+       "amt": 1000,
+       "left": 24,
+       "total": 56
+      },
+      {
+       "amt": 500,
+       "left": 2806,
+       "total": 7238
+      },
+      {
+       "amt": 100,
+       "left": 10998,
+       "total": 28769
+      },
+      {
+       "amt": 50,
+       "left": 15925,
+       "total": 41875
+      },
+      {
+       "amt": 40,
+       "left": 16070,
+       "total": 41875
+      },
+      {
+       "amt": 30,
+       "left": 68649,
+       "total": 177688
+      },
+      {
+       "amt": 20,
+       "left": 85153,
+       "total": 219457
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "877-50000-stacked",
+    "status": "active"
+   },
+   "878": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/878.jpg",
+     "left_pct": 30,
+     "n": "878",
+     "name": "Lucky 7s",
+     "odds": 4.72,
+     "prizes": [
+      {
+       "amt": 7000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 100,
+       "left": 44,
+       "total": 167
+      },
+      {
+       "amt": 50,
+       "left": 101,
+       "total": 419
+      },
+      {
+       "amt": 40,
+       "left": 28,
+       "total": 116
+      },
+      {
+       "amt": 30,
+       "left": 84,
+       "total": 343
+      },
+      {
+       "amt": 20,
+       "left": 1080,
+       "total": 4141
+      },
+      {
+       "amt": 15,
+       "left": 356,
+       "total": 1394
+      },
+      {
+       "amt": 10,
+       "left": 3289,
+       "total": 12409
+      },
+      {
+       "amt": 5,
+       "left": 11459,
+       "total": 41474
+      },
+      {
+       "amt": 2,
+       "left": 34300,
+       "total": 113358
+      },
+      {
+       "amt": 1,
+       "left": 38351,
+       "total": 118698
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "878-lucky-7s",
+    "status": "active"
+   },
+   "879": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/879.jpg",
+     "left_pct": 11,
+     "n": "879",
+     "name": "Mega Cash Crossword",
+     "odds": 3.5,
+     "prizes": [
+      {
+       "amt": 75000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 2,
+       "total": 18
+      },
+      {
+       "amt": 500,
+       "left": 14,
+       "total": 143
+      },
+      {
+       "amt": 200,
+       "left": 14,
+       "total": 171
+      },
+      {
+       "amt": 100,
+       "left": 101,
+       "total": 1308
+      },
+      {
+       "amt": 50,
+       "left": 564,
+       "total": 6390
+      },
+      {
+       "amt": 30,
+       "left": 1225,
+       "total": 8688
+      },
+      {
+       "amt": 20,
+       "left": 2124,
+       "total": 24923
+      },
+      {
+       "amt": 10,
+       "left": 8583,
+       "total": 95504
+      },
+      {
+       "amt": 5,
+       "left": 16649,
+       "total": 166240
+      },
+      {
+       "amt": 3,
+       "left": 38198,
+       "total": 290780
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "879-mega-cash-crossword",
+    "status": "active"
+   },
+   "880": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/880.jpg",
+     "left_pct": 41,
+     "n": "880",
+     "name": "Fire and Ice",
+     "odds": 3.67,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 2,
+       "total": 9
+      },
+      {
+       "amt": 500,
+       "left": 34,
+       "total": 101
+      },
+      {
+       "amt": 100,
+       "left": 2122,
+       "total": 5457
+      },
+      {
+       "amt": 50,
+       "left": 8460,
+       "total": 21756
+      },
+      {
+       "amt": 40,
+       "left": 247,
+       "total": 605
+      },
+      {
+       "amt": 20,
+       "left": 11591,
+       "total": 29289
+      },
+      {
+       "amt": 15,
+       "left": 5779,
+       "total": 14621
+      },
+      {
+       "amt": 10,
+       "left": 72771,
+       "total": 180855
+      },
+      {
+       "amt": 5,
+       "left": 61678,
+       "total": 146472
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "880-fire-and-ice",
+    "status": "active"
+   },
+   "881": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/881.jpg",
+     "left_pct": 23,
+     "n": "881",
+     "name": "Diamonds & Gold",
+     "odds": 3.02,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 10,
+       "total": 40
+      },
+      {
+       "amt": 500,
+       "left": 81,
+       "total": 345
+      },
+      {
+       "amt": 200,
+       "left": 848,
+       "total": 3839
+      },
+      {
+       "amt": 100,
+       "left": 4101,
+       "total": 17633
+      },
+      {
+       "amt": 50,
+       "left": 7074,
+       "total": 30767
+      },
+      {
+       "amt": 40,
+       "left": 580,
+       "total": 2605
+      },
+      {
+       "amt": 20,
+       "left": 15501,
+       "total": 67011
+      },
+      {
+       "amt": 15,
+       "left": 9630,
+       "total": 41959
+      },
+      {
+       "amt": 10,
+       "left": 59194,
+       "total": 251175
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "881-diamonds-gold",
+    "status": "active"
+   },
+   "882": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/882.jpg",
+     "left_pct": 39,
+     "n": "882",
+     "name": "10X®",
+     "odds": 4.87,
+     "prizes": [
+      {
+       "amt": 5000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 8,
+       "total": 27
+      },
+      {
+       "amt": 100,
+       "left": 43,
+       "total": 134
+      },
+      {
+       "amt": 50,
+       "left": 133,
+       "total": 381
+      },
+      {
+       "amt": 20,
+       "left": 2134,
+       "total": 6041
+      },
+      {
+       "amt": 10,
+       "left": 9260,
+       "total": 25652
+      },
+      {
+       "amt": 5,
+       "left": 7690,
+       "total": 20975
+      },
+      {
+       "amt": 4,
+       "left": 2753,
+       "total": 7532
+      },
+      {
+       "amt": 2,
+       "left": 43182,
+       "total": 112844
+      },
+      {
+       "amt": 1,
+       "left": 54436,
+       "total": 135797
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "882-10x",
+    "status": "active"
+   },
+   "883": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/883.jpg",
+     "left_pct": 37,
+     "n": "883",
+     "name": "20X",
+     "odds": 4.23,
+     "prizes": [
+      {
+       "amt": 25000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 500,
+       "left": 14,
+       "total": 41
+      },
+      {
+       "amt": 100,
+       "left": 115,
+       "total": 335
+      },
+      {
+       "amt": 50,
+       "left": 561,
+       "total": 1684
+      },
+      {
+       "amt": 20,
+       "left": 5503,
+       "total": 15945
+      },
+      {
+       "amt": 10,
+       "left": 12388,
+       "total": 35013
+      },
+      {
+       "amt": 5,
+       "left": 8322,
+       "total": 23176
+      },
+      {
+       "amt": 4,
+       "left": 10767,
+       "total": 29113
+      },
+      {
+       "amt": 2,
+       "left": 57467,
+       "total": 152646
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "883-20x",
+    "status": "active"
+   },
+   "884": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/884.jpg",
+     "left_pct": 18,
+     "n": "884",
+     "name": "50X",
+     "odds": 3.81,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 3,
+       "total": 18
+      },
+      {
+       "amt": 500,
+       "left": 49,
+       "total": 303
+      },
+      {
+       "amt": 100,
+       "left": 637,
+       "total": 3792
+      },
+      {
+       "amt": 50,
+       "left": 5978,
+       "total": 36571
+      },
+      {
+       "amt": 20,
+       "left": 8666,
+       "total": 49172
+      },
+      {
+       "amt": 15,
+       "left": 4788,
+       "total": 28048
+      },
+      {
+       "amt": 10,
+       "left": 48285,
+       "total": 266853
+      },
+      {
+       "amt": 5,
+       "left": 32353,
+       "total": 168878
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "884-50x",
+    "status": "active"
+   },
+   "885": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/885.jpg",
+     "left_pct": 33,
+     "n": "885",
+     "name": "100X",
+     "odds": 3.02,
+     "prizes": [
+      {
+       "amt": 250000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 32,
+       "total": 80
+      },
+      {
+       "amt": 500,
+       "left": 218,
+       "total": 698
+      },
+      {
+       "amt": 200,
+       "left": 176,
+       "total": 543
+      },
+      {
+       "amt": 100,
+       "left": 12670,
+       "total": 39568
+      },
+      {
+       "amt": 50,
+       "left": 18098,
+       "total": 55105
+      },
+      {
+       "amt": 40,
+       "left": 4313,
+       "total": 13407
+      },
+      {
+       "amt": 30,
+       "left": 5478,
+       "total": 17069
+      },
+      {
+       "amt": 20,
+       "left": 38781,
+       "total": 117432
+      },
+      {
+       "amt": 15,
+       "left": 29234,
+       "total": 88088
+      },
+      {
+       "amt": 10,
+       "left": 131871,
+       "total": 395824
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "885-100x",
+    "status": "active"
+   },
+   "886": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/886.jpg",
+     "left_pct": 36,
+     "n": "886",
+     "name": "200X",
+     "odds": 2.98,
+     "prizes": [
+      {
+       "amt": 500000,
+       "left": 2,
+       "total": 4
+      },
+      {
+       "amt": 50000,
+       "left": 0,
+       "total": 1
+      },
+      {
+       "amt": 20000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 10000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 2,
+       "total": 4
+      },
+      {
+       "amt": 1000,
+       "left": 129,
+       "total": 324
+      },
+      {
+       "amt": 500,
+       "left": 3372,
+       "total": 9630
+      },
+      {
+       "amt": 200,
+       "left": 8832,
+       "total": 24986
+      },
+      {
+       "amt": 100,
+       "left": 29323,
+       "total": 82070
+      },
+      {
+       "amt": 50,
+       "left": 46977,
+       "total": 131691
+      },
+      {
+       "amt": 40,
+       "left": 85664,
+       "total": 241422
+      },
+      {
+       "amt": 30,
+       "left": 78115,
+       "total": 219489
+      },
+      {
+       "amt": 20,
+       "left": 142196,
+       "total": 395109
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "886-200x",
+    "status": "active"
+   },
+   "887": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/887.jpg",
+     "left_pct": 51,
+     "n": "887",
+     "name": "Triple Dynamite 777",
+     "odds": 4.12,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 19,
+       "total": 43
+      },
+      {
+       "amt": 100,
+       "left": 218,
+       "total": 460
+      },
+      {
+       "amt": 50,
+       "left": 1349,
+       "total": 2730
+      },
+      {
+       "amt": 20,
+       "left": 9556,
+       "total": 19463
+      },
+      {
+       "amt": 15,
+       "left": 2418,
+       "total": 4859
+      },
+      {
+       "amt": 10,
+       "left": 8867,
+       "total": 17782
+      },
+      {
+       "amt": 6,
+       "left": 4123,
+       "total": 8095
+      },
+      {
+       "amt": 5,
+       "left": 11371,
+       "total": 22648
+      },
+      {
+       "amt": 4,
+       "left": 20786,
+       "total": 40690
+      },
+      {
+       "amt": 2,
+       "left": 92782,
+       "total": 178290
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "887-triple-dynamite-777",
+    "status": "active"
+   },
+   "888": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/888.jpg",
+     "left_pct": 26,
+     "n": "888",
+     "name": "Super Hit",
+     "odds": 3.7,
+     "prizes": [
+      {
+       "amt": 200,
+       "left": 227,
+       "total": 1050
+      },
+      {
+       "amt": 100,
+       "left": 753,
+       "total": 3557
+      },
+      {
+       "amt": 50,
+       "left": 685,
+       "total": 3059
+      },
+      {
+       "amt": 30,
+       "left": 64,
+       "total": 297
+      },
+      {
+       "amt": 20,
+       "left": 945,
+       "total": 4014
+      },
+      {
+       "amt": 15,
+       "left": 1418,
+       "total": 6008
+      },
+      {
+       "amt": 10,
+       "left": 7193,
+       "total": 29955
+      },
+      {
+       "amt": 5,
+       "left": 20619,
+       "total": 81777
+      },
+      {
+       "amt": 3,
+       "left": 36968,
+       "total": 139955
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "888-super-hit",
+    "status": "active"
+   },
+   "889": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/889.jpg",
+     "left_pct": 37,
+     "n": "889",
+     "name": "Mega Cash",
+     "odds": 3.78,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 3,
+       "total": 10
+      },
+      {
+       "amt": 500,
+       "left": 72,
+       "total": 212
+      },
+      {
+       "amt": 100,
+       "left": 750,
+       "total": 2109
+      },
+      {
+       "amt": 50,
+       "left": 14758,
+       "total": 42078
+      },
+      {
+       "amt": 20,
+       "left": 3839,
+       "total": 10596
+      },
+      {
+       "amt": 15,
+       "left": 3851,
+       "total": 10599
+      },
+      {
+       "amt": 10,
+       "left": 68458,
+       "total": 190687
+      },
+      {
+       "amt": 5,
+       "left": 61841,
+       "total": 164162
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "889-mega-cash",
+    "status": "active"
+   },
+   "890": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/890.jpg",
+     "left_pct": 39,
+     "n": "890",
+     "name": "Triple Cash Payout",
+     "odds": 3.03,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 16,
+       "total": 36
+      },
+      {
+       "amt": 500,
+       "left": 109,
+       "total": 289
+      },
+      {
+       "amt": 200,
+       "left": 1253,
+       "total": 3203
+      },
+      {
+       "amt": 100,
+       "left": 5962,
+       "total": 15376
+      },
+      {
+       "amt": 50,
+       "left": 10517,
+       "total": 27286
+      },
+      {
+       "amt": 40,
+       "left": 1058,
+       "total": 2785
+      },
+      {
+       "amt": 20,
+       "left": 23250,
+       "total": 59687
+      },
+      {
+       "amt": 15,
+       "left": 14492,
+       "total": 37367
+      },
+      {
+       "amt": 10,
+       "left": 88895,
+       "total": 223941
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "890-triple-cash-payout",
+    "status": "active"
+   },
+   "891": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/891.jpg",
+     "left_pct": 41,
+     "n": "891",
+     "name": "$100,000 Platinum Crossword",
+     "odds": 3.1,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 3,
+       "total": 4
+      },
+      {
+       "amt": 10000,
+       "left": 5,
+       "total": 9
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 28,
+       "total": 60
+      },
+      {
+       "amt": 500,
+       "left": 228,
+       "total": 590
+      },
+      {
+       "amt": 200,
+       "left": 319,
+       "total": 834
+      },
+      {
+       "amt": 100,
+       "left": 5788,
+       "total": 14249
+      },
+      {
+       "amt": 60,
+       "left": 436,
+       "total": 1046
+      },
+      {
+       "amt": 50,
+       "left": 13026,
+       "total": 32335
+      },
+      {
+       "amt": 40,
+       "left": 2887,
+       "total": 7153
+      },
+      {
+       "amt": 30,
+       "left": 5766,
+       "total": 14369
+      },
+      {
+       "amt": 20,
+       "left": 54405,
+       "total": 133888
+      },
+      {
+       "amt": 10,
+       "left": 82781,
+       "total": 200851
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "891-100000-platinum-crossword",
+    "status": "active"
+   },
+   "892": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/892.jpg",
+     "left_pct": 55,
+     "n": "892",
+     "name": "Wild Doubler",
+     "odds": 4.55,
+     "prizes": [
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 100,
+       "left": 95,
+       "total": 169
+      },
+      {
+       "amt": 50,
+       "left": 179,
+       "total": 332
+      },
+      {
+       "amt": 40,
+       "left": 138,
+       "total": 261
+      },
+      {
+       "amt": 20,
+       "left": 1434,
+       "total": 2670
+      },
+      {
+       "amt": 10,
+       "left": 8467,
+       "total": 16102
+      },
+      {
+       "amt": 5,
+       "left": 14514,
+       "total": 26846
+      },
+      {
+       "amt": 4,
+       "left": 10879,
+       "total": 20133
+      },
+      {
+       "amt": 2,
+       "left": 62742,
+       "total": 114201
+      },
+      {
+       "amt": 1,
+       "left": 64413,
+       "total": 113951
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "892-wild-doubler",
+    "status": "active"
+   },
+   "893": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/893.jpg",
+     "left_pct": 57,
+     "n": "893",
+     "name": "Triple Win",
+     "odds": 4.1,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 18,
+       "total": 36
+      },
+      {
+       "amt": 500,
+       "left": 70,
+       "total": 120
+      },
+      {
+       "amt": 100,
+       "left": 211,
+       "total": 417
+      },
+      {
+       "amt": 50,
+       "left": 1462,
+       "total": 2806
+      },
+      {
+       "amt": 30,
+       "left": 1190,
+       "total": 2209
+      },
+      {
+       "amt": 20,
+       "left": 6313,
+       "total": 11584
+      },
+      {
+       "amt": 10,
+       "left": 9574,
+       "total": 17323
+      },
+      {
+       "amt": 5,
+       "left": 15126,
+       "total": 27592
+      },
+      {
+       "amt": 4,
+       "left": 23979,
+       "total": 43399
+      },
+      {
+       "amt": 2,
+       "left": 93061,
+       "total": 159141
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "893-triple-win",
+    "status": "active"
+   },
+   "894": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/894.jpg",
+     "left_pct": 53,
+     "n": "894",
+     "name": "Diamond 7s",
+     "odds": 3.63,
+     "prizes": [
+      {
+       "amt": 77777,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 7,
+       "total": 14
+      },
+      {
+       "amt": 500,
+       "left": 105,
+       "total": 192
+      },
+      {
+       "amt": 100,
+       "left": 2642,
+       "total": 5104
+      },
+      {
+       "amt": 75,
+       "left": 495,
+       "total": 999
+      },
+      {
+       "amt": 50,
+       "left": 12373,
+       "total": 24294
+      },
+      {
+       "amt": 25,
+       "left": 334,
+       "total": 682
+      },
+      {
+       "amt": 20,
+       "left": 19620,
+       "total": 38121
+      },
+      {
+       "amt": 15,
+       "left": 8566,
+       "total": 16332
+      },
+      {
+       "amt": 10,
+       "left": 93017,
+       "total": 179937
+      },
+      {
+       "amt": 5,
+       "left": 101224,
+       "total": 185420
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "894-diamond-7s",
+    "status": "active"
+   },
+   "895": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/895.jpg",
+     "left_pct": 23,
+     "n": "895",
+     "name": "$200,000 Bonus Cash",
+     "odds": 3.06,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 0,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 10,
+       "total": 36
+      },
+      {
+       "amt": 500,
+       "left": 108,
+       "total": 464
+      },
+      {
+       "amt": 200,
+       "left": 1340,
+       "total": 6014
+      },
+      {
+       "amt": 100,
+       "left": 2371,
+       "total": 10605
+      },
+      {
+       "amt": 50,
+       "left": 4986,
+       "total": 22123
+      },
+      {
+       "amt": 30,
+       "left": 1011,
+       "total": 4560
+      },
+      {
+       "amt": 20,
+       "left": 13238,
+       "total": 58546
+      },
+      {
+       "amt": 15,
+       "left": 8899,
+       "total": 36679
+      },
+      {
+       "amt": 10,
+       "left": 52090,
+       "total": 220064
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "895-200000-bonus-cash",
+    "status": "active"
+   },
+   "896": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/896.jpg",
+     "left_pct": 56,
+     "n": "896",
+     "name": "Crazy Dough",
+     "odds": 4.72,
+     "prizes": [
+      {
+       "amt": 5000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 100,
+       "left": 79,
+       "total": 135
+      },
+      {
+       "amt": 50,
+       "left": 173,
+       "total": 336
+      },
+      {
+       "amt": 40,
+       "left": 316,
+       "total": 547
+      },
+      {
+       "amt": 20,
+       "left": 2927,
+       "total": 5384
+      },
+      {
+       "amt": 10,
+       "left": 6535,
+       "total": 12004
+      },
+      {
+       "amt": 5,
+       "left": 21949,
+       "total": 40308
+      },
+      {
+       "amt": 2,
+       "left": 62133,
+       "total": 110017
+      },
+      {
+       "amt": 1,
+       "left": 66033,
+       "total": 115304
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "896-crazy-dough",
+    "status": "active"
+   },
+   "897": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/897.jpg",
+     "left_pct": 32,
+     "n": "897",
+     "name": "America's 250th",
+     "odds": 4.16,
+     "prizes": [
+      {
+       "amt": 250,
+       "left": 423,
+       "total": 1487
+      },
+      {
+       "amt": 20,
+       "left": 1159,
+       "total": 3907
+      },
+      {
+       "amt": 10,
+       "left": 6118,
+       "total": 20897
+      },
+      {
+       "amt": 5,
+       "left": 17263,
+       "total": 56112
+      },
+      {
+       "amt": 4,
+       "left": 7127,
+       "total": 22221
+      },
+      {
+       "amt": 2,
+       "left": 43905,
+       "total": 130575
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "897-americas-250th",
+    "status": "active"
+   },
+   "898": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/898.jpg",
+     "left_pct": 55,
+     "n": "898",
+     "name": "Win $500!",
+     "odds": 3.84,
+     "prizes": [
+      {
+       "amt": 500,
+       "left": 2384,
+       "total": 4410
+      },
+      {
+       "amt": 100,
+       "left": 145,
+       "total": 274
+      },
+      {
+       "amt": 50,
+       "left": 10129,
+       "total": 18867
+      },
+      {
+       "amt": 20,
+       "left": 23816,
+       "total": 44054
+      },
+      {
+       "amt": 10,
+       "left": 151698,
+       "total": 279058
+      },
+      {
+       "amt": 5,
+       "left": 126295,
+       "total": 227722
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "898-win-500",
+    "status": "active"
+   },
+   "899": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/899.jpg",
+     "left_pct": 39,
+     "n": "899",
+     "name": "Cash Mania",
+     "odds": 3.03,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 18,
+       "total": 45
+      },
+      {
+       "amt": 500,
+       "left": 137,
+       "total": 354
+      },
+      {
+       "amt": 200,
+       "left": 1378,
+       "total": 3630
+      },
+      {
+       "amt": 100,
+       "left": 6303,
+       "total": 16270
+      },
+      {
+       "amt": 50,
+       "left": 10206,
+       "total": 26391
+      },
+      {
+       "amt": 40,
+       "left": 960,
+       "total": 2443
+      },
+      {
+       "amt": 20,
+       "left": 26359,
+       "total": 67929
+      },
+      {
+       "amt": 10,
+       "left": 101916,
+       "total": 256533
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "899-cash-mania",
+    "status": "active"
+   },
+   "900": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/900.jpg",
+     "left_pct": 61,
+     "n": "900",
+     "name": "$50 Blast!",
+     "odds": 4.64,
+     "prizes": [
+      {
+       "amt": 50,
+       "left": 2639,
+       "total": 4617
+      },
+      {
+       "amt": 10,
+       "left": 4077,
+       "total": 6944
+      },
+      {
+       "amt": 5,
+       "left": 16200,
+       "total": 27718
+      },
+      {
+       "amt": 3,
+       "left": 16413,
+       "total": 27696
+      },
+      {
+       "amt": 2,
+       "left": 64180,
+       "total": 106686
+      },
+      {
+       "amt": 1,
+       "left": 77150,
+       "total": 124740
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "900-50-blast",
+    "status": "active"
+   },
+   "901": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/901.jpg",
+     "left_pct": 64,
+     "n": "901",
+     "name": "Money Cashword",
+     "odds": 3.61,
+     "prizes": [
+      {
+       "amt": 75000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 11,
+       "total": 16
+      },
+      {
+       "amt": 500,
+       "left": 92,
+       "total": 146
+      },
+      {
+       "amt": 200,
+       "left": 54,
+       "total": 86
+      },
+      {
+       "amt": 100,
+       "left": 1364,
+       "total": 2232
+      },
+      {
+       "amt": 50,
+       "left": 4625,
+       "total": 7321
+      },
+      {
+       "amt": 30,
+       "left": 6654,
+       "total": 10233
+      },
+      {
+       "amt": 20,
+       "left": 16394,
+       "total": 26436
+      },
+      {
+       "amt": 10,
+       "left": 62984,
+       "total": 101238
+      },
+      {
+       "amt": 5,
+       "left": 97313,
+       "total": 154011
+      },
+      {
+       "amt": 3,
+       "left": 199270,
+       "total": 308154
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "901-money-cashword",
+    "status": "active"
+   },
+   "902": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/902.jpg",
+     "left_pct": 59,
+     "n": "902",
+     "name": "Bonus Fortune",
+     "odds": 3.8,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 4,
+       "total": 10
+      },
+      {
+       "amt": 500,
+       "left": 120,
+       "total": 210
+      },
+      {
+       "amt": 100,
+       "left": 2345,
+       "total": 4134
+      },
+      {
+       "amt": 50,
+       "left": 22138,
+       "total": 38094
+      },
+      {
+       "amt": 20,
+       "left": 6252,
+       "total": 10616
+      },
+      {
+       "amt": 15,
+       "left": 6226,
+       "total": 10591
+      },
+      {
+       "amt": 10,
+       "left": 111186,
+       "total": 190570
+      },
+      {
+       "amt": 5,
+       "left": 97654,
+       "total": 164153
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "902-bonus-fortune",
+    "status": "active"
+   },
+   "903": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/903.jpg",
+     "left_pct": 52,
+     "n": "903",
+     "name": "Xtreme Multiplier",
+     "odds": 3.05,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 61,
+       "total": 100
+      },
+      {
+       "amt": 500,
+       "left": 154,
+       "total": 309
+      },
+      {
+       "amt": 200,
+       "left": 158,
+       "total": 306
+      },
+      {
+       "amt": 100,
+       "left": 10751,
+       "total": 20975
+      },
+      {
+       "amt": 50,
+       "left": 15002,
+       "total": 29031
+      },
+      {
+       "amt": 40,
+       "left": 4033,
+       "total": 7788
+      },
+      {
+       "amt": 30,
+       "left": 4624,
+       "total": 9016
+      },
+      {
+       "amt": 20,
+       "left": 34225,
+       "total": 65566
+      },
+      {
+       "amt": 15,
+       "left": 21525,
+       "total": 40986
+      },
+      {
+       "amt": 10,
+       "left": 120571,
+       "total": 229540
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "903-xtreme-multiplier",
+    "status": "active"
+   },
+   "904": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/904.jpg",
+     "left_pct": 67,
+     "n": "904",
+     "name": "X10 the Cash",
+     "odds": 4.73,
+     "prizes": [
+      {
+       "amt": 5000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 7,
+       "total": 13
+      },
+      {
+       "amt": 100,
+       "left": 44,
+       "total": 66
+      },
+      {
+       "amt": 50,
+       "left": 164,
+       "total": 263
+      },
+      {
+       "amt": 20,
+       "left": 2583,
+       "total": 4055
+      },
+      {
+       "amt": 10,
+       "left": 21125,
+       "total": 32025
+      },
+      {
+       "amt": 5,
+       "left": 12116,
+       "total": 18787
+      },
+      {
+       "amt": 2,
+       "left": 44466,
+       "total": 66694
+      },
+      {
+       "amt": 1,
+       "left": 108482,
+       "total": 160629
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "904-x10-the-cash",
+    "status": "active"
+   },
+   "905": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/905.jpg",
+     "left_pct": 73,
+     "n": "905",
+     "name": "X20 the Cash",
+     "odds": 4.21,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 26,
+       "total": 39
+      },
+      {
+       "amt": 100,
+       "left": 259,
+       "total": 365
+      },
+      {
+       "amt": 50,
+       "left": 1075,
+       "total": 1532
+      },
+      {
+       "amt": 20,
+       "left": 15524,
+       "total": 21681
+      },
+      {
+       "amt": 10,
+       "left": 22897,
+       "total": 31971
+      },
+      {
+       "amt": 5,
+       "left": 15708,
+       "total": 21708
+      },
+      {
+       "amt": 4,
+       "left": 21032,
+       "total": 29057
+      },
+      {
+       "amt": 2,
+       "left": 111501,
+       "total": 152045
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "905-x20-the-cash",
+    "status": "active"
+   },
+   "906": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/906.jpg",
+     "left_pct": 64,
+     "n": "906",
+     "name": "X50 the Cash",
+     "odds": 3.74,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 8,
+       "total": 13
+      },
+      {
+       "amt": 500,
+       "left": 115,
+       "total": 186
+      },
+      {
+       "amt": 200,
+       "left": 170,
+       "total": 272
+      },
+      {
+       "amt": 100,
+       "left": 1524,
+       "total": 2403
+      },
+      {
+       "amt": 75,
+       "left": 214,
+       "total": 345
+      },
+      {
+       "amt": 50,
+       "left": 18639,
+       "total": 29650
+      },
+      {
+       "amt": 20,
+       "left": 19880,
+       "total": 31458
+      },
+      {
+       "amt": 15,
+       "left": 6739,
+       "total": 10508
+      },
+      {
+       "amt": 10,
+       "left": 120056,
+       "total": 188829
+      },
+      {
+       "amt": 5,
+       "left": 102697,
+       "total": 157460
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "906-x50-the-cash",
+    "status": "active"
+   },
+   "907": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/907.jpg",
+     "left_pct": 65,
+     "n": "907",
+     "name": "$10,000 Burst",
+     "odds": 3.01,
+     "prizes": [
+      {
+       "amt": 10000,
+       "left": 107,
+       "total": 160
+      },
+      {
+       "amt": 1000,
+       "left": 19,
+       "total": 30
+      },
+      {
+       "amt": 500,
+       "left": 182,
+       "total": 270
+      },
+      {
+       "amt": 200,
+       "left": 66,
+       "total": 89
+      },
+      {
+       "amt": 100,
+       "left": 10608,
+       "total": 16397
+      },
+      {
+       "amt": 50,
+       "left": 14226,
+       "total": 21897
+      },
+      {
+       "amt": 20,
+       "left": 58230,
+       "total": 89453
+      },
+      {
+       "amt": 15,
+       "left": 26619,
+       "total": 40664
+      },
+      {
+       "amt": 10,
+       "left": 155103,
+       "total": 236134
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "907-10000-burst",
+    "status": "active"
+   },
+   "908": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/908.jpg",
+     "left_pct": 74,
+     "n": "908",
+     "name": "$350,000 Payout",
+     "odds": 2.97,
+     "prizes": [
+      {
+       "amt": 350000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 25000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 3,
+       "total": 4
+      },
+      {
+       "amt": 5000,
+       "left": 4,
+       "total": 6
+      },
+      {
+       "amt": 1000,
+       "left": 102,
+       "total": 130
+      },
+      {
+       "amt": 500,
+       "left": 7644,
+       "total": 10418
+      },
+      {
+       "amt": 200,
+       "left": 6771,
+       "total": 9152
+      },
+      {
+       "amt": 100,
+       "left": 33105,
+       "total": 45137
+      },
+      {
+       "amt": 50,
+       "left": 25913,
+       "total": 35165
+      },
+      {
+       "amt": 40,
+       "left": 34526,
+       "total": 46879
+      },
+      {
+       "amt": 30,
+       "left": 138117,
+       "total": 187410
+      },
+      {
+       "amt": 20,
+       "left": 190266,
+       "total": 257895
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "908-350000-payout",
+    "status": "active"
+   },
+   "911": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/911.jpg",
+     "left_pct": 78,
+     "n": "911",
+     "name": "Win It All",
+     "odds": 4.11,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 500,
+       "left": 41,
+       "total": 56
+      },
+      {
+       "amt": 100,
+       "left": 446,
+       "total": 589
+      },
+      {
+       "amt": 50,
+       "left": 2093,
+       "total": 2728
+      },
+      {
+       "amt": 40,
+       "left": 1542,
+       "total": 1958
+      },
+      {
+       "amt": 20,
+       "left": 10116,
+       "total": 13067
+      },
+      {
+       "amt": 10,
+       "left": 16555,
+       "total": 21788
+      },
+      {
+       "amt": 5,
+       "left": 39216,
+       "total": 50822
+      },
+      {
+       "amt": 2,
+       "left": 136133,
+       "total": 174205
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "911-win-it-all",
+    "status": "active"
+   },
+   "912": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/912.jpg",
+     "left_pct": 90,
+     "n": "912",
+     "name": "Bingo Extra",
+     "odds": 3.51,
+     "prizes": [
+      {
+       "amt": 75000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 500,
+       "left": 74,
+       "total": 80
+      },
+      {
+       "amt": 100,
+       "left": 1439,
+       "total": 1629
+      },
+      {
+       "amt": 90,
+       "left": 54,
+       "total": 59
+      },
+      {
+       "amt": 75,
+       "left": 289,
+       "total": 324
+      },
+      {
+       "amt": 50,
+       "left": 4363,
+       "total": 4869
+      },
+      {
+       "amt": 40,
+       "left": 630,
+       "total": 715
+      },
+      {
+       "amt": 30,
+       "left": 925,
+       "total": 1023
+      },
+      {
+       "amt": 25,
+       "left": 4279,
+       "total": 4788
+      },
+      {
+       "amt": 20,
+       "left": 20596,
+       "total": 22999
+      },
+      {
+       "amt": 15,
+       "left": 34185,
+       "total": 38345
+      },
+      {
+       "amt": 10,
+       "left": 30941,
+       "total": 34535
+      },
+      {
+       "amt": 6,
+       "left": 3441,
+       "total": 3836
+      },
+      {
+       "amt": 5,
+       "left": 137810,
+       "total": 153209
+      },
+      {
+       "amt": 3,
+       "left": 252000,
+       "total": 279832
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "912-bingo-extra",
+    "status": "active"
+   },
+   "913": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/913.jpg",
+     "left_pct": 83,
+     "n": "913",
+     "name": "Solid Gold",
+     "odds": 3.77,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 5000,
+       "left": 5,
+       "total": 5
+      },
+      {
+       "amt": 1000,
+       "left": 6,
+       "total": 7
+      },
+      {
+       "amt": 500,
+       "left": 83,
+       "total": 106
+      },
+      {
+       "amt": 150,
+       "left": 335,
+       "total": 401
+      },
+      {
+       "amt": 100,
+       "left": 1519,
+       "total": 1852
+      },
+      {
+       "amt": 75,
+       "left": 2715,
+       "total": 3271
+      },
+      {
+       "amt": 50,
+       "left": 18458,
+       "total": 22426
+      },
+      {
+       "amt": 30,
+       "left": 5567,
+       "total": 6732
+      },
+      {
+       "amt": 20,
+       "left": 47958,
+       "total": 58114
+      },
+      {
+       "amt": 10,
+       "left": 136018,
+       "total": 163853
+      },
+      {
+       "amt": 5,
+       "left": 136902,
+       "total": 163759
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "913-solid-gold",
+    "status": "active"
+   },
+   "914": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/914.jpg",
+     "left_pct": 78,
+     "n": "914",
+     "name": "The Price is Right™",
+     "odds": 2.99,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 1000,
+       "left": 41,
+       "total": 46
+      },
+      {
+       "amt": 500,
+       "left": 314,
+       "total": 408
+      },
+      {
+       "amt": 100,
+       "left": 16450,
+       "total": 21224
+      },
+      {
+       "amt": 50,
+       "left": 16097,
+       "total": 20849
+      },
+      {
+       "amt": 40,
+       "left": 3042,
+       "total": 3904
+      },
+      {
+       "amt": 20,
+       "left": 138535,
+       "total": 177938
+      },
+      {
+       "amt": 10,
+       "left": 174335,
+       "total": 222547
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "914-the-price-is-right",
+    "status": "active"
+   },
+   "915": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/915.jpg",
+     "left_pct": 95,
+     "n": "915",
+     "name": "Trip 7s",
+     "odds": 4.56,
+     "prizes": [
+      {
+       "amt": 7000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 300,
+       "left": 86,
+       "total": 91
+      },
+      {
+       "amt": 150,
+       "left": 89,
+       "total": 93
+      },
+      {
+       "amt": 100,
+       "left": 104,
+       "total": 114
+      },
+      {
+       "amt": 60,
+       "left": 102,
+       "total": 109
+      },
+      {
+       "amt": 50,
+       "left": 83,
+       "total": 87
+      },
+      {
+       "amt": 30,
+       "left": 90,
+       "total": 94
+      },
+      {
+       "amt": 20,
+       "left": 1252,
+       "total": 1336
+      },
+      {
+       "amt": 15,
+       "left": 7606,
+       "total": 8050
+      },
+      {
+       "amt": 10,
+       "left": 2517,
+       "total": 2676
+      },
+      {
+       "amt": 6,
+       "left": 6366,
+       "total": 6712
+      },
+      {
+       "amt": 5,
+       "left": 6335,
+       "total": 6714
+      },
+      {
+       "amt": 3,
+       "left": 76331,
+       "total": 80650
+      },
+      {
+       "amt": 2,
+       "left": 63649,
+       "total": 67134
+      },
+      {
+       "amt": 1,
+       "left": 114732,
+       "total": 120742
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "915-trip-7s",
+    "status": "active"
+   },
+   "916": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/916.jpg",
+     "left_pct": 94,
+     "n": "916",
+     "name": "Winner Winner Chicken Dinner",
+     "odds": 4.09,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 2,
+       "total": 2
+      },
+      {
+       "amt": 500,
+       "left": 45,
+       "total": 46
+      },
+      {
+       "amt": 100,
+       "left": 450,
+       "total": 480
+      },
+      {
+       "amt": 50,
+       "left": 2373,
+       "total": 2552
+      },
+      {
+       "amt": 40,
+       "left": 1523,
+       "total": 1649
+      },
+      {
+       "amt": 20,
+       "left": 15079,
+       "total": 16148
+      },
+      {
+       "amt": 10,
+       "left": 20671,
+       "total": 22001
+      },
+      {
+       "amt": 5,
+       "left": 19265,
+       "total": 20460
+      },
+      {
+       "amt": 4,
+       "left": 34586,
+       "total": 36675
+      },
+      {
+       "amt": 2,
+       "left": 159666,
+       "total": 168656
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "916-winner-winner-chicken-dinner",
+    "status": "active"
+   },
+   "917": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/917.jpg",
+     "left_pct": 94,
+     "n": "917",
+     "name": "$1,000 Rollout!",
+     "odds": 3.7,
+     "prizes": [
+      {
+       "amt": 1000,
+       "left": 1459,
+       "total": 1510
+      },
+      {
+       "amt": 100,
+       "left": 741,
+       "total": 796
+      },
+      {
+       "amt": 50,
+       "left": 13204,
+       "total": 14061
+      },
+      {
+       "amt": 20,
+       "left": 30040,
+       "total": 31845
+      },
+      {
+       "amt": 10,
+       "left": 169513,
+       "total": 179746
+      },
+      {
+       "amt": 5,
+       "left": 190623,
+       "total": 201322
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "917-1000-rollout",
+    "status": "active"
+   },
+   "918": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.gamingdatasolutions.com/images/ar/918.jpg",
+     "left_pct": 93,
+     "n": "918",
+     "name": "Triple Red 777",
+     "odds": 2.97,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 3,
+       "total": 4
+      },
+      {
+       "amt": 1000,
+       "left": 37,
+       "total": 38
+      },
+      {
+       "amt": 500,
+       "left": 339,
+       "total": 363
+      },
+      {
+       "amt": 200,
+       "left": 1400,
+       "total": 1524
+      },
+      {
+       "amt": 100,
+       "left": 18078,
+       "total": 19606
+      },
+      {
+       "amt": 80,
+       "left": 3891,
+       "total": 4206
+      },
+      {
+       "amt": 60,
+       "left": 3940,
+       "total": 4254
+      },
+      {
+       "amt": 50,
+       "left": 7907,
+       "total": 8578
+      },
+      {
+       "amt": 40,
+       "left": 7304,
+       "total": 7882
+      },
+      {
+       "amt": 20,
+       "left": 116086,
+       "total": 125264
+      },
+      {
+       "amt": 10,
+       "left": 232787,
+       "total": 250904
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "918-triple-red-777",
+    "status": "active"
+   }
+  },
   "ca": {
    "1555": {
     "data_changed": "2026-10-05",
@@ -26624,6 +30428,3914 @@
     "status": "active"
    }
   },
+  "il": {
+   "7575": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 50.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/10000000-bankroll/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1730468394132/25-0161-webapp-int-nov24-newticketassets-website-tickets-7575-green.png",
+     "left_pct": 28,
+     "n": "7575",
+     "name": "$10,000,000 Bankroll",
+     "odds": 4.08,
+     "prizes": [
+      {
+       "amt": 6000000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 600000,
+       "left": 5,
+       "total": 15
+      },
+      {
+       "amt": 50000,
+       "left": 28,
+       "total": 90
+      },
+      {
+       "amt": 10000,
+       "left": 131,
+       "total": 450
+      },
+      {
+       "amt": 5000,
+       "left": 677,
+       "total": 2250
+      },
+      {
+       "amt": 1000,
+       "left": 3380,
+       "total": 10788
+      },
+      {
+       "amt": 500,
+       "left": 78583,
+       "total": 278855
+      },
+      {
+       "amt": 400,
+       "left": 2024,
+       "total": 7187
+      },
+      {
+       "amt": 300,
+       "left": 2032,
+       "total": 7190
+      },
+      {
+       "amt": 200,
+       "left": 11731,
+       "total": 41799
+      },
+      {
+       "amt": 100,
+       "left": 648756,
+       "total": 2292173
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7575-10000000-bankroll",
+    "status": "active"
+   },
+   "7590": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 30.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/200x-the-cash/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1735577849965/25-0213-webapp-int-jan25-newticketassets-tickets-7590.png",
+     "left_pct": 23,
+     "n": "7590",
+     "name": "200X the Cash",
+     "odds": 3.18,
+     "prizes": [
+      {
+       "amt": 1800000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 3,
+       "total": 18
+      },
+      {
+       "amt": 10000,
+       "left": 6,
+       "total": 36
+      },
+      {
+       "amt": 2000,
+       "left": 115,
+       "total": 420
+      },
+      {
+       "amt": 1000,
+       "left": 910,
+       "total": 3570
+      },
+      {
+       "amt": 500,
+       "left": 5514,
+       "total": 24244
+      },
+      {
+       "amt": 200,
+       "left": 10109,
+       "total": 43606
+      },
+      {
+       "amt": 100,
+       "left": 57577,
+       "total": 251235
+      },
+      {
+       "amt": 90,
+       "left": 18900,
+       "total": 83890
+      },
+      {
+       "amt": 60,
+       "left": 38466,
+       "total": 167587
+      },
+      {
+       "amt": 50,
+       "left": 153320,
+       "total": 670296
+      },
+      {
+       "amt": 30,
+       "left": 76970,
+       "total": 335148
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7590-200x-the-cash",
+    "status": "active"
+   },
+   "7599": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 30.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/blowout-x/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1751026289158/25-0420-webapp-int-june25-newticketassets-tickets-7599.png",
+     "left_pct": 17,
+     "n": "7599",
+     "name": "Blowout X",
+     "odds": 6.61,
+     "prizes": [
+      {
+       "amt": 3000,
+       "left": 301,
+       "total": 1707
+      },
+      {
+       "amt": 900,
+       "left": 1710,
+       "total": 9315
+      },
+      {
+       "amt": 300,
+       "left": 11628,
+       "total": 68805
+      },
+      {
+       "amt": 150,
+       "left": 19237,
+       "total": 114843
+      },
+      {
+       "amt": 90,
+       "left": 52314,
+       "total": 313392
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7599-blowout-x",
+    "status": "active"
+   },
+   "7601": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/more-money/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1740710833463/25-0299-webapp-int-mar25-newticketassets-tickets-7601.png",
+     "left_pct": 22,
+     "n": "7601",
+     "name": "More Money",
+     "odds": 4.33,
+     "prizes": [
+      {
+       "amt": 400000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 50000,
+       "left": 1,
+       "total": 6
+      },
+      {
+       "amt": 20000,
+       "left": 1,
+       "total": 2
+      },
+      {
+       "amt": 10000,
+       "left": 2,
+       "total": 10
+      },
+      {
+       "amt": 5000,
+       "left": 2,
+       "total": 10
+      },
+      {
+       "amt": 1000,
+       "left": 9,
+       "total": 50
+      },
+      {
+       "amt": 500,
+       "left": 141,
+       "total": 639
+      },
+      {
+       "amt": 400,
+       "left": 48,
+       "total": 239
+      },
+      {
+       "amt": 300,
+       "left": 178,
+       "total": 879
+      },
+      {
+       "amt": 250,
+       "left": 170,
+       "total": 795
+      },
+      {
+       "amt": 200,
+       "left": 342,
+       "total": 1585
+      },
+      {
+       "amt": 100,
+       "left": 4585,
+       "total": 21510
+      },
+      {
+       "amt": 75,
+       "left": 1231,
+       "total": 5813
+      },
+      {
+       "amt": 50,
+       "left": 6975,
+       "total": 32577
+      },
+      {
+       "amt": 25,
+       "left": 9260,
+       "total": 44238
+      },
+      {
+       "amt": 20,
+       "left": 25536,
+       "total": 119580
+      },
+      {
+       "amt": 10,
+       "left": 96010,
+       "total": 438460
+      },
+      {
+       "amt": 5,
+       "left": 99805,
+       "total": 438460
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7601-more-money",
+    "status": "active"
+   },
+   "7611": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 50.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/millionaire-club-2025/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1746128437835/25-0400-webapp-int-may25-newticketassets-tickets-7611.png",
+     "left_pct": 42,
+     "n": "7611",
+     "name": "Millionaire Club",
+     "odds": 4.2,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 22,
+       "total": 50
+      },
+      {
+       "amt": 100000,
+       "left": 4,
+       "total": 10
+      },
+      {
+       "amt": 50000,
+       "left": 32,
+       "total": 70
+      },
+      {
+       "amt": 10000,
+       "left": 132,
+       "total": 280
+      },
+      {
+       "amt": 5000,
+       "left": 735,
+       "total": 1646
+      },
+      {
+       "amt": 1000,
+       "left": 2852,
+       "total": 6252
+      },
+      {
+       "amt": 500,
+       "left": 88501,
+       "total": 209386
+      },
+      {
+       "amt": 400,
+       "left": 2342,
+       "total": 5530
+      },
+      {
+       "amt": 300,
+       "left": 2330,
+       "total": 5503
+      },
+      {
+       "amt": 200,
+       "left": 13492,
+       "total": 31978
+      },
+      {
+       "amt": 100,
+       "left": 722019,
+       "total": 1710618
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7611-millionaire-club",
+    "status": "active"
+   },
+   "7616": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/1000000-cash-chaser/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1789490461700/25-0420-webapp-int-june25-newticketassets-tickets-7616-atpw.png",
+     "left_pct": 9,
+     "n": "7616",
+     "name": "$1,000,000 Ca$h Cha$er",
+     "odds": 4.15,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 5000,
+       "left": 0,
+       "total": 27
+      },
+      {
+       "amt": 1000,
+       "left": 40,
+       "total": 306
+      },
+      {
+       "amt": 500,
+       "left": 211,
+       "total": 2304
+      },
+      {
+       "amt": 250,
+       "left": 134,
+       "total": 1503
+      },
+      {
+       "amt": 200,
+       "left": 173,
+       "total": 1977
+      },
+      {
+       "amt": 100,
+       "left": 5937,
+       "total": 66199
+      },
+      {
+       "amt": 50,
+       "left": 13175,
+       "total": 141330
+      },
+      {
+       "amt": 30,
+       "left": 2498,
+       "total": 27667
+      },
+      {
+       "amt": 25,
+       "left": 1713,
+       "total": 18392
+      },
+      {
+       "amt": 20,
+       "left": 27122,
+       "total": 296380
+      },
+      {
+       "amt": 15,
+       "left": 6210,
+       "total": 65875
+      },
+      {
+       "amt": 10,
+       "left": 31917,
+       "total": 329490
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7616-1000000-cah-chaer",
+    "status": "active"
+   },
+   "7621": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/2000000-diamond-deluxe/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1790269180437/26-0062-webapp-int-aug25-newticketassets-tickets-7621-atpw.png",
+     "left_pct": 18,
+     "n": "7621",
+     "name": "$2,000,000 Diamond Deluxe",
+     "odds": 3.55,
+     "prizes": [
+      {
+       "amt": 1200000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 5
+      },
+      {
+       "amt": 25000,
+       "left": 5,
+       "total": 28
+      },
+      {
+       "amt": 5000,
+       "left": 12,
+       "total": 70
+      },
+      {
+       "amt": 1000,
+       "left": 310,
+       "total": 1430
+      },
+      {
+       "amt": 500,
+       "left": 1260,
+       "total": 7210
+      },
+      {
+       "amt": 400,
+       "left": 260,
+       "total": 1438
+      },
+      {
+       "amt": 300,
+       "left": 253,
+       "total": 1466
+      },
+      {
+       "amt": 200,
+       "left": 1371,
+       "total": 7536
+      },
+      {
+       "amt": 100,
+       "left": 31823,
+       "total": 179800
+      },
+      {
+       "amt": 60,
+       "left": 27597,
+       "total": 154390
+      },
+      {
+       "amt": 50,
+       "left": 25469,
+       "total": 143834
+      },
+      {
+       "amt": 40,
+       "left": 51293,
+       "total": 287668
+      },
+      {
+       "amt": 20,
+       "left": 79774,
+       "total": 431502
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7621-2000000-diamond-deluxe",
+    "status": "active"
+   },
+   "7622": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/golden-casino/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1756443052684/26-0091-webapp-int-sep25-newticketassets-tickets-7622.png",
+     "left_pct": 12,
+     "n": "7622",
+     "name": "Golden Casino",
+     "odds": 3.63,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 50000,
+       "left": 0,
+       "total": 6
+      },
+      {
+       "amt": 5000,
+       "left": 3,
+       "total": 27
+      },
+      {
+       "amt": 1000,
+       "left": 30,
+       "total": 180
+      },
+      {
+       "amt": 500,
+       "left": 178,
+       "total": 1627
+      },
+      {
+       "amt": 200,
+       "left": 383,
+       "total": 3457
+      },
+      {
+       "amt": 100,
+       "left": 4571,
+       "total": 39461
+      },
+      {
+       "amt": 75,
+       "left": 1312,
+       "total": 11848
+      },
+      {
+       "amt": 50,
+       "left": 14823,
+       "total": 133480
+      },
+      {
+       "amt": 40,
+       "left": 1316,
+       "total": 11841
+      },
+      {
+       "amt": 30,
+       "left": 3916,
+       "total": 34157
+      },
+      {
+       "amt": 25,
+       "left": 7052,
+       "total": 60953
+      },
+      {
+       "amt": 20,
+       "left": 38231,
+       "total": 329330
+      },
+      {
+       "amt": 10,
+       "left": 59369,
+       "total": 461062
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7622-golden-casino",
+    "status": "active"
+   },
+   "7623": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 30.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/royal-riches/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1761926688834/il-7623-itvm-royal-riches%402x.png",
+     "left_pct": 38,
+     "n": "7623",
+     "name": "Royal Riches",
+     "odds": 3.35,
+     "prizes": [
+      {
+       "amt": 1800000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 4,
+       "total": 8
+      },
+      {
+       "amt": 10000,
+       "left": 12,
+       "total": 24
+      },
+      {
+       "amt": 2000,
+       "left": 55,
+       "total": 134
+      },
+      {
+       "amt": 1000,
+       "left": 183,
+       "total": 437
+      },
+      {
+       "amt": 500,
+       "left": 3555,
+       "total": 9254
+      },
+      {
+       "amt": 400,
+       "left": 812,
+       "total": 2208
+      },
+      {
+       "amt": 300,
+       "left": 1282,
+       "total": 3349
+      },
+      {
+       "amt": 250,
+       "left": 1083,
+       "total": 2823
+      },
+      {
+       "amt": 200,
+       "left": 19673,
+       "total": 51706
+      },
+      {
+       "amt": 150,
+       "left": 2103,
+       "total": 5582
+      },
+      {
+       "amt": 100,
+       "left": 33097,
+       "total": 86732
+      },
+      {
+       "amt": 90,
+       "left": 21299,
+       "total": 55912
+      },
+      {
+       "amt": 60,
+       "left": 128239,
+       "total": 335614
+      },
+      {
+       "amt": 50,
+       "left": 127989,
+       "total": 335607
+      },
+      {
+       "amt": 30,
+       "left": 43114,
+       "total": 111869
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7623-royal-riches",
+    "status": "active"
+   },
+   "7624": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/2000000-maximum-multiplier/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1786456417882/26-0210-webapp-int-dec25-newticketassets-multiplierupdate-tickets-7624-atpw.png",
+     "left_pct": 29,
+     "n": "7624",
+     "name": "$2,000,000 Maximum Multiplier",
+     "odds": 3.85,
+     "prizes": [
+      {
+       "amt": 1200000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 2,
+       "total": 6
+      },
+      {
+       "amt": 20000,
+       "left": 10,
+       "total": 27
+      },
+      {
+       "amt": 5000,
+       "left": 26,
+       "total": 84
+      },
+      {
+       "amt": 1000,
+       "left": 283,
+       "total": 872
+      },
+      {
+       "amt": 500,
+       "left": 1467,
+       "total": 5034
+      },
+      {
+       "amt": 200,
+       "left": 5114,
+       "total": 17238
+      },
+      {
+       "amt": 100,
+       "left": 55001,
+       "total": 187261
+      },
+      {
+       "amt": 75,
+       "left": 12343,
+       "total": 43194
+      },
+      {
+       "amt": 60,
+       "left": 42829,
+       "total": 148373
+      },
+      {
+       "amt": 50,
+       "left": 42208,
+       "total": 143878
+      },
+      {
+       "amt": 40,
+       "left": 84249,
+       "total": 287756
+      },
+      {
+       "amt": 20,
+       "left": 85275,
+       "total": 287756
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7624-2000000-maximum-multiplier",
+    "status": "active"
+   },
+   "7631": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/bonus-blowout-2025/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1768415700951/il-7631-amazing-bonus-blowout-ticketimage.png",
+     "left_pct": 37,
+     "n": "7631",
+     "name": "Amazing Bonus Blowout",
+     "odds": 9.49,
+     "prizes": [
+      {
+       "amt": 500,
+       "left": 4802,
+       "total": 13160
+      },
+      {
+       "amt": 100,
+       "left": 128491,
+       "total": 347689
+      },
+      {
+       "amt": 50,
+       "left": 272324,
+       "total": 739328
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7631-amazing-bonus-blowout",
+    "status": "active"
+   },
+   "7632": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/monopoly/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1764029423794/26-0196-webapp-int-dec25-newticketassets-tickets-7632.png",
+     "left_pct": 47,
+     "n": "7632",
+     "name": "Monopoly™",
+     "odds": 4.45,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 3,
+       "total": 4
+      },
+      {
+       "amt": 2000,
+       "left": 19,
+       "total": 35
+      },
+      {
+       "amt": 500,
+       "left": 61,
+       "total": 150
+      },
+      {
+       "amt": 200,
+       "left": 492,
+       "total": 1095
+      },
+      {
+       "amt": 100,
+       "left": 1310,
+       "total": 3013
+      },
+      {
+       "amt": 50,
+       "left": 4561,
+       "total": 10453
+      },
+      {
+       "amt": 30,
+       "left": 2178,
+       "total": 4918
+      },
+      {
+       "amt": 25,
+       "left": 20137,
+       "total": 45065
+      },
+      {
+       "amt": 20,
+       "left": 14755,
+       "total": 32932
+      },
+      {
+       "amt": 15,
+       "left": 5017,
+       "total": 11006
+      },
+      {
+       "amt": 12,
+       "left": 15062,
+       "total": 32921
+      },
+      {
+       "amt": 10,
+       "left": 40256,
+       "total": 87854
+      },
+      {
+       "amt": 6,
+       "left": 20414,
+       "total": 43927
+      },
+      {
+       "amt": 5,
+       "left": 97413,
+       "total": 208682
+      },
+      {
+       "amt": 4,
+       "left": 217150,
+       "total": 461244
+      },
+      {
+       "amt": 2,
+       "left": 259086,
+       "total": 538109
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7632-monopoly",
+    "status": "active"
+   },
+   "7634": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/5x-xtra/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1766988243909/26-0227-webapp-int-newticketasset-jan26-tickets-7634.png",
+     "left_pct": 44,
+     "n": "7634",
+     "name": "5X Xtra",
+     "odds": 4.97,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 2,
+       "total": 6
+      },
+      {
+       "amt": 1000,
+       "left": 6,
+       "total": 12
+      },
+      {
+       "amt": 500,
+       "left": 22,
+       "total": 60
+      },
+      {
+       "amt": 100,
+       "left": 434,
+       "total": 1068
+      },
+      {
+       "amt": 50,
+       "left": 1648,
+       "total": 4142
+      },
+      {
+       "amt": 25,
+       "left": 10383,
+       "total": 25812
+      },
+      {
+       "amt": 20,
+       "left": 13285,
+       "total": 32342
+      },
+      {
+       "amt": 10,
+       "left": 40702,
+       "total": 97045
+      },
+      {
+       "amt": 5,
+       "left": 65247,
+       "total": 150961
+      },
+      {
+       "amt": 3,
+       "left": 44899,
+       "total": 107789
+      },
+      {
+       "amt": 2,
+       "left": 249318,
+       "total": 560744
+      },
+      {
+       "amt": 1,
+       "left": 342619,
+       "total": 754724
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7634-5x-xtra",
+    "status": "active"
+   },
+   "7635": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/10x-xtra/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1766989363503/26-0227-webapp-int-newticketasset-jan26-tickets-7635.png",
+     "left_pct": 48,
+     "n": "7635",
+     "name": "10X® Xtra",
+     "odds": 4.45,
+     "prizes": [
+      {
+       "amt": 50000,
+       "left": 3,
+       "total": 4
+      },
+      {
+       "amt": 5000,
+       "left": 10,
+       "total": 20
+      },
+      {
+       "amt": 500,
+       "left": 54,
+       "total": 120
+      },
+      {
+       "amt": 100,
+       "left": 1757,
+       "total": 3954
+      },
+      {
+       "amt": 50,
+       "left": 8589,
+       "total": 19184
+      },
+      {
+       "amt": 25,
+       "left": 21409,
+       "total": 47883
+      },
+      {
+       "amt": 20,
+       "left": 21766,
+       "total": 47929
+      },
+      {
+       "amt": 10,
+       "left": 55521,
+       "total": 119836
+      },
+      {
+       "amt": 6,
+       "left": 43927,
+       "total": 95858
+      },
+      {
+       "amt": 5,
+       "left": 100882,
+       "total": 215659
+      },
+      {
+       "amt": 4,
+       "left": 216953,
+       "total": 455320
+      },
+      {
+       "amt": 2,
+       "left": 301768,
+       "total": 611092
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7635-10x-xtra",
+    "status": "active"
+   },
+   "7636": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/25x-xtra/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1766990420244/26-0227-webapp-int-newticketasset-jan26-tickets-7636.png",
+     "left_pct": 37,
+     "n": "7636",
+     "name": "25X Xtra",
+     "odds": 4.28,
+     "prizes": [
+      {
+       "amt": 500000,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 10000,
+       "left": 4,
+       "total": 11
+      },
+      {
+       "amt": 1000,
+       "left": 36,
+       "total": 90
+      },
+      {
+       "amt": 500,
+       "left": 390,
+       "total": 1155
+      },
+      {
+       "amt": 125,
+       "left": 773,
+       "total": 2178
+      },
+      {
+       "amt": 100,
+       "left": 9506,
+       "total": 26991
+      },
+      {
+       "amt": 75,
+       "left": 5075,
+       "total": 14602
+      },
+      {
+       "amt": 50,
+       "left": 33159,
+       "total": 94825
+      },
+      {
+       "amt": 25,
+       "left": 48922,
+       "total": 138690
+      },
+      {
+       "amt": 20,
+       "left": 71159,
+       "total": 200472
+      },
+      {
+       "amt": 15,
+       "left": 52240,
+       "total": 145877
+      },
+      {
+       "amt": 10,
+       "left": 225286,
+       "total": 619771
+      },
+      {
+       "amt": 5,
+       "left": 303348,
+       "total": 801979
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7636-25x-xtra",
+    "status": "active"
+   },
+   "7637": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/50x-xtra/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1766990641032/26-0227-webapp-int-newticketasset-jan26-tickets-7637.png",
+     "left_pct": 39,
+     "n": "7637",
+     "name": "50X Xtra",
+     "odds": 3.64,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 50000,
+       "left": 4,
+       "total": 10
+      },
+      {
+       "amt": 5000,
+       "left": 16,
+       "total": 36
+      },
+      {
+       "amt": 1000,
+       "left": 140,
+       "total": 330
+      },
+      {
+       "amt": 500,
+       "left": 1558,
+       "total": 4122
+      },
+      {
+       "amt": 250,
+       "left": 2235,
+       "total": 5943
+      },
+      {
+       "amt": 200,
+       "left": 4608,
+       "total": 12012
+      },
+      {
+       "amt": 100,
+       "left": 30758,
+       "total": 80760
+      },
+      {
+       "amt": 50,
+       "left": 82425,
+       "total": 215775
+      },
+      {
+       "amt": 30,
+       "left": 59689,
+       "total": 156158
+      },
+      {
+       "amt": 20,
+       "left": 254480,
+       "total": 659209
+      },
+      {
+       "amt": 10,
+       "left": 333915,
+       "total": 838882
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7637-50x-xtra",
+    "status": "active"
+   },
+   "7638": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/100x-xtra/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1766990881790/26-0227-webapp-int-newticketasset-jan26-tickets-7638.png",
+     "left_pct": 43,
+     "n": "7638",
+     "name": "100X Xtra",
+     "odds": 3.58,
+     "prizes": [
+      {
+       "amt": 1200000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 2,
+       "total": 5
+      },
+      {
+       "amt": 25000,
+       "left": 8,
+       "total": 16
+      },
+      {
+       "amt": 5000,
+       "left": 48,
+       "total": 110
+      },
+      {
+       "amt": 1000,
+       "left": 878,
+       "total": 1883
+      },
+      {
+       "amt": 500,
+       "left": 3946,
+       "total": 9232
+      },
+      {
+       "amt": 300,
+       "left": 1711,
+       "total": 4010
+      },
+      {
+       "amt": 200,
+       "left": 6876,
+       "total": 15959
+      },
+      {
+       "amt": 100,
+       "left": 81198,
+       "total": 188606
+      },
+      {
+       "amt": 60,
+       "left": 68706,
+       "total": 159627
+      },
+      {
+       "amt": 50,
+       "left": 69168,
+       "total": 159883
+      },
+      {
+       "amt": 40,
+       "left": 138282,
+       "total": 319766
+      },
+      {
+       "amt": 20,
+       "left": 209776,
+       "total": 479649
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7638-100x-xtra",
+    "status": "active"
+   },
+   "7639": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 25.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/1000000-crossword-50x/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1764133155036/26-0196-webapp-int-dec25-newticketassets-tickets-7639.png",
+     "left_pct": 34,
+     "n": "7639",
+     "name": "$1,000,000 Crossword 50X",
+     "odds": 2.97,
+     "prizes": [
+      {
+       "amt": 1000000,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 50000,
+       "left": 4,
+       "total": 12
+      },
+      {
+       "amt": 10000,
+       "left": 21,
+       "total": 64
+      },
+      {
+       "amt": 5000,
+       "left": 14,
+       "total": 36
+      },
+      {
+       "amt": 2500,
+       "left": 50,
+       "total": 143
+      },
+      {
+       "amt": 1250,
+       "left": 135,
+       "total": 364
+      },
+      {
+       "amt": 1000,
+       "left": 401,
+       "total": 1143
+      },
+      {
+       "amt": 500,
+       "left": 3942,
+       "total": 11468
+      },
+      {
+       "amt": 300,
+       "left": 991,
+       "total": 2863
+      },
+      {
+       "amt": 250,
+       "left": 1448,
+       "total": 4348
+      },
+      {
+       "amt": 200,
+       "left": 5171,
+       "total": 15143
+      },
+      {
+       "amt": 150,
+       "left": 4826,
+       "total": 14364
+      },
+      {
+       "amt": 125,
+       "left": 3216,
+       "total": 9312
+      },
+      {
+       "amt": 100,
+       "left": 26825,
+       "total": 79218
+      },
+      {
+       "amt": 75,
+       "left": 67063,
+       "total": 197617
+      },
+      {
+       "amt": 50,
+       "left": 159258,
+       "total": 467319
+      },
+      {
+       "amt": 25,
+       "left": 223544,
+       "total": 647448
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7639-1000000-crossword-50x",
+    "status": "active"
+   },
+   "7641": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/100000-crossword/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1764099412643/26-0196-webapp-int-dec25-newticketassets-tickets-7641.png",
+     "left_pct": 11,
+     "n": "7641",
+     "name": "$100,000 Crossword",
+     "odds": 3.92,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 0,
+       "total": 6
+      },
+      {
+       "amt": 10000,
+       "left": 3,
+       "total": 18
+      },
+      {
+       "amt": 1000,
+       "left": 8,
+       "total": 84
+      },
+      {
+       "amt": 500,
+       "left": 101,
+       "total": 1114
+      },
+      {
+       "amt": 300,
+       "left": 50,
+       "total": 610
+      },
+      {
+       "amt": 200,
+       "left": 104,
+       "total": 1214
+      },
+      {
+       "amt": 100,
+       "left": 2090,
+       "total": 26256
+      },
+      {
+       "amt": 75,
+       "left": 846,
+       "total": 10530
+      },
+      {
+       "amt": 50,
+       "left": 9219,
+       "total": 103515
+      },
+      {
+       "amt": 25,
+       "left": 11596,
+       "total": 126074
+      },
+      {
+       "amt": 20,
+       "left": 13263,
+       "total": 149808
+      },
+      {
+       "amt": 15,
+       "left": 27979,
+       "total": 299616
+      },
+      {
+       "amt": 10,
+       "left": 69300,
+       "total": 674136
+      },
+      {
+       "amt": 5,
+       "left": 113066,
+       "total": 898848
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7641-100000-crossword",
+    "status": "active"
+   },
+   "7642": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/loose-change-boost/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1776885087414/26-0227-webapp-int-newticketasset-jan26-tickets-7642.png",
+     "left_pct": 49,
+     "n": "7642",
+     "name": "Loose Change® Boost",
+     "odds": 4.76,
+     "prizes": [
+      {
+       "amt": 1000,
+       "left": 13,
+       "total": 25
+      },
+      {
+       "amt": 500,
+       "left": 24,
+       "total": 50
+      },
+      {
+       "amt": 100,
+       "left": 298,
+       "total": 634
+      },
+      {
+       "amt": 75,
+       "left": 92,
+       "total": 197
+      },
+      {
+       "amt": 50,
+       "left": 953,
+       "total": 2008
+      },
+      {
+       "amt": 25,
+       "left": 8952,
+       "total": 19001
+      },
+      {
+       "amt": 15,
+       "left": 10721,
+       "total": 22481
+      },
+      {
+       "amt": 10,
+       "left": 21318,
+       "total": 45003
+      },
+      {
+       "amt": 6,
+       "left": 18113,
+       "total": 37459
+      },
+      {
+       "amt": 5,
+       "left": 46544,
+       "total": 97435
+      },
+      {
+       "amt": 4,
+       "left": 32537,
+       "total": 67478
+      },
+      {
+       "amt": 3,
+       "left": 39660,
+       "total": 82497
+      },
+      {
+       "amt": 2,
+       "left": 178718,
+       "total": 367424
+      },
+      {
+       "amt": 1,
+       "left": 252793,
+       "total": 517267
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7642-loose-change-boost",
+    "status": "active"
+   },
+   "7643": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/7-11-21-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1776884713083/26-0227-webapp-int-newticketasset-jan26-tickets-7643.png",
+     "left_pct": 34,
+     "n": "7643",
+     "name": "7-11-21®",
+     "odds": 4.8,
+     "prizes": [
+      {
+       "amt": 3000,
+       "left": 25,
+       "total": 75
+      },
+      {
+       "amt": 200,
+       "left": 125,
+       "total": 453
+      },
+      {
+       "amt": 100,
+       "left": 143,
+       "total": 457
+      },
+      {
+       "amt": 50,
+       "left": 2003,
+       "total": 6778
+      },
+      {
+       "amt": 25,
+       "left": 29571,
+       "total": 99034
+      },
+      {
+       "amt": 10,
+       "left": 62091,
+       "total": 202429
+      },
+      {
+       "amt": 5,
+       "left": 100979,
+       "total": 315046
+      },
+      {
+       "amt": 4,
+       "left": 94975,
+       "total": 292523
+      },
+      {
+       "amt": 2,
+       "left": 382306,
+       "total": 1124726
+      },
+      {
+       "amt": 1,
+       "left": 613798,
+       "total": 1709772
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7643-7-11-21",
+    "status": "active"
+   },
+   "7645": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/electric-cash/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1769373544431/26-0245-webapp-int-newticketasset-feb26-tickets-7645.png",
+     "left_pct": 28,
+     "n": "7645",
+     "name": "Electric Cash",
+     "odds": 4.28,
+     "prizes": [
+      {
+       "amt": 400000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 3,
+       "total": 9
+      },
+      {
+       "amt": 1000,
+       "left": 19,
+       "total": 80
+      },
+      {
+       "amt": 500,
+       "left": 163,
+       "total": 644
+      },
+      {
+       "amt": 125,
+       "left": 305,
+       "total": 1204
+      },
+      {
+       "amt": 100,
+       "left": 3627,
+       "total": 13985
+      },
+      {
+       "amt": 75,
+       "left": 2438,
+       "total": 9601
+      },
+      {
+       "amt": 50,
+       "left": 12048,
+       "total": 46149
+      },
+      {
+       "amt": 25,
+       "left": 21087,
+       "total": 79821
+      },
+      {
+       "amt": 20,
+       "left": 29362,
+       "total": 109757
+      },
+      {
+       "amt": 15,
+       "left": 21571,
+       "total": 79842
+      },
+      {
+       "amt": 10,
+       "left": 93617,
+       "total": 339188
+      },
+      {
+       "amt": 5,
+       "left": 126753,
+       "total": 438975
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7645-electric-cash",
+    "status": "active"
+   },
+   "7646": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/gold-rush-supreme/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1769375298522/26-0245-webapp-int-newticketasset-feb26-tickets-7646.png",
+     "left_pct": 19,
+     "n": "7646",
+     "name": "Gold Rush Supreme",
+     "odds": 3.81,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 6,
+       "total": 20
+      },
+      {
+       "amt": 10000,
+       "left": 3,
+       "total": 10
+      },
+      {
+       "amt": 5000,
+       "left": 8,
+       "total": 36
+      },
+      {
+       "amt": 1000,
+       "left": 46,
+       "total": 202
+      },
+      {
+       "amt": 500,
+       "left": 390,
+       "total": 2019
+      },
+      {
+       "amt": 300,
+       "left": 292,
+       "total": 1669
+      },
+      {
+       "amt": 200,
+       "left": 823,
+       "total": 4711
+      },
+      {
+       "amt": 100,
+       "left": 10027,
+       "total": 55863
+      },
+      {
+       "amt": 50,
+       "left": 15598,
+       "total": 84675
+      },
+      {
+       "amt": 40,
+       "left": 3719,
+       "total": 20327
+      },
+      {
+       "amt": 30,
+       "left": 12557,
+       "total": 67855
+      },
+      {
+       "amt": 20,
+       "left": 87598,
+       "total": 457815
+      },
+      {
+       "amt": 10,
+       "left": 75679,
+       "total": 373235
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7646-gold-rush-supreme",
+    "status": "active"
+   },
+   "7647": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 1.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/emeralds/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1772046759346/26-0293-webapp-int-newticketasset-mar26-tickets-7647.png",
+     "left_pct": 35,
+     "n": "7647",
+     "name": "Emeralds",
+     "odds": 4.97,
+     "prizes": [
+      {
+       "amt": 50000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 1000,
+       "left": 4,
+       "total": 12
+      },
+      {
+       "amt": 500,
+       "left": 15,
+       "total": 60
+      },
+      {
+       "amt": 100,
+       "left": 319,
+       "total": 1159
+      },
+      {
+       "amt": 50,
+       "left": 1124,
+       "total": 3967
+      },
+      {
+       "amt": 25,
+       "left": 8512,
+       "total": 29150
+      },
+      {
+       "amt": 20,
+       "left": 13502,
+       "total": 45531
+      },
+      {
+       "amt": 10,
+       "left": 28121,
+       "total": 91062
+      },
+      {
+       "amt": 5,
+       "left": 59863,
+       "total": 182124
+      },
+      {
+       "amt": 2,
+       "left": 230398,
+       "total": 660240
+      },
+      {
+       "amt": 1,
+       "left": 297633,
+       "total": 819477
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7647-emeralds",
+    "status": "active"
+   },
+   "7648": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/rubies/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1772046469140/26-0293-webapp-int-newticketasset-mar26-tickets-7648.png",
+     "left_pct": 25,
+     "n": "7648",
+     "name": "Rubies",
+     "odds": 4.49,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 3000,
+       "left": 3,
+       "total": 30
+      },
+      {
+       "amt": 500,
+       "left": 19,
+       "total": 90
+      },
+      {
+       "amt": 100,
+       "left": 727,
+       "total": 3265
+      },
+      {
+       "amt": 50,
+       "left": 4085,
+       "total": 18750
+      },
+      {
+       "amt": 25,
+       "left": 7469,
+       "total": 34243
+      },
+      {
+       "amt": 20,
+       "left": 8940,
+       "total": 39943
+      },
+      {
+       "amt": 10,
+       "left": 26118,
+       "total": 109726
+      },
+      {
+       "amt": 6,
+       "left": 19099,
+       "total": 79832
+      },
+      {
+       "amt": 5,
+       "left": 24718,
+       "total": 99768
+      },
+      {
+       "amt": 4,
+       "left": 102429,
+       "total": 409094
+      },
+      {
+       "amt": 2,
+       "left": 143707,
+       "total": 538956
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7648-rubies",
+    "status": "active"
+   },
+   "7649": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/onyx/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1789489598183/26-0293-webapp-int-newticketasset-mar26-tickets-7649-atpw.png",
+     "left_pct": 24,
+     "n": "7649",
+     "name": "Onyx",
+     "odds": 4.2,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 4,
+       "total": 11
+      },
+      {
+       "amt": 1000,
+       "left": 22,
+       "total": 90
+      },
+      {
+       "amt": 500,
+       "left": 128,
+       "total": 609
+      },
+      {
+       "amt": 250,
+       "left": 222,
+       "total": 1005
+      },
+      {
+       "amt": 125,
+       "left": 224,
+       "total": 1005
+      },
+      {
+       "amt": 100,
+       "left": 3973,
+       "total": 17530
+      },
+      {
+       "amt": 75,
+       "left": 1648,
+       "total": 7502
+      },
+      {
+       "amt": 50,
+       "left": 14044,
+       "total": 61943
+      },
+      {
+       "amt": 25,
+       "left": 20317,
+       "total": 88508
+      },
+      {
+       "amt": 20,
+       "left": 34160,
+       "total": 149766
+      },
+      {
+       "amt": 10,
+       "left": 132162,
+       "total": 549142
+      },
+      {
+       "amt": 5,
+       "left": 137398,
+       "total": 549142
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7649-onyx",
+    "status": "active"
+   },
+   "7650": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/diamonds/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1771348109471/26-0293-webapp-int-newticketasset-mar26-tickets-7650.png",
+     "left_pct": 23,
+     "n": "7650",
+     "name": "Diamonds",
+     "odds": 3.63,
+     "prizes": [
+      {
+       "amt": 1200000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 5000,
+       "left": 4,
+       "total": 16
+      },
+      {
+       "amt": 1000,
+       "left": 63,
+       "total": 185
+      },
+      {
+       "amt": 500,
+       "left": 494,
+       "total": 2274
+      },
+      {
+       "amt": 250,
+       "left": 588,
+       "total": 2589
+      },
+      {
+       "amt": 200,
+       "left": 1324,
+       "total": 5955
+      },
+      {
+       "amt": 100,
+       "left": 11490,
+       "total": 50716
+      },
+      {
+       "amt": 50,
+       "left": 28733,
+       "total": 127935
+      },
+      {
+       "amt": 30,
+       "left": 20668,
+       "total": 93852
+      },
+      {
+       "amt": 20,
+       "left": 90979,
+       "total": 399365
+      },
+      {
+       "amt": 10,
+       "left": 151722,
+       "total": 638984
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7650-diamonds",
+    "status": "active"
+   },
+   "7651": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/loteria-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1777428316499/26-0355-webapp-int-newticketassets-may26-tickets-7657.png",
+     "left_pct": 29,
+     "n": "7651",
+     "name": "Loteria™",
+     "odds": 3.85,
+     "prizes": [
+      {
+       "amt": 80000,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 1000,
+       "left": 13,
+       "total": 32
+      },
+      {
+       "amt": 500,
+       "left": 32,
+       "total": 104
+      },
+      {
+       "amt": 250,
+       "left": 97,
+       "total": 338
+      },
+      {
+       "amt": 100,
+       "left": 534,
+       "total": 2014
+      },
+      {
+       "amt": 50,
+       "left": 3470,
+       "total": 13609
+      },
+      {
+       "amt": 35,
+       "left": 444,
+       "total": 1710
+      },
+      {
+       "amt": 30,
+       "left": 3407,
+       "total": 13586
+      },
+      {
+       "amt": 25,
+       "left": 7780,
+       "total": 28892
+      },
+      {
+       "amt": 20,
+       "left": 7966,
+       "total": 30558
+      },
+      {
+       "amt": 15,
+       "left": 19051,
+       "total": 71317
+      },
+      {
+       "amt": 10,
+       "left": 22907,
+       "total": 81534
+      },
+      {
+       "amt": 8,
+       "left": 19450,
+       "total": 71306
+      },
+      {
+       "amt": 5,
+       "left": 82434,
+       "total": 285277
+      },
+      {
+       "amt": 3,
+       "left": 136314,
+       "total": 458496
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7651-loteria",
+    "status": "active"
+   },
+   "7652": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/money-rush/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1774022167613/26-0330-02-webapp-int-newticketassets-apr26-tickets-7652.png",
+     "left_pct": 24,
+     "n": "7652",
+     "name": "Money Rush",
+     "odds": 5.23,
+     "prizes": [
+      {
+       "amt": 400000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 5000,
+       "left": 1,
+       "total": 15
+      },
+      {
+       "amt": 1000,
+       "left": 28,
+       "total": 100
+      },
+      {
+       "amt": 500,
+       "left": 167,
+       "total": 687
+      },
+      {
+       "amt": 250,
+       "left": 87,
+       "total": 395
+      },
+      {
+       "amt": 200,
+       "left": 788,
+       "total": 3589
+      },
+      {
+       "amt": 150,
+       "left": 441,
+       "total": 1988
+      },
+      {
+       "amt": 125,
+       "left": 496,
+       "total": 2012
+      },
+      {
+       "amt": 100,
+       "left": 1761,
+       "total": 7578
+      },
+      {
+       "amt": 75,
+       "left": 876,
+       "total": 3984
+      },
+      {
+       "amt": 50,
+       "left": 6556,
+       "total": 27773
+      },
+      {
+       "amt": 25,
+       "left": 23678,
+       "total": 99856
+      },
+      {
+       "amt": 20,
+       "left": 26183,
+       "total": 109782
+      },
+      {
+       "amt": 15,
+       "left": 18622,
+       "total": 79822
+      },
+      {
+       "amt": 10,
+       "left": 143472,
+       "total": 578656
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7652-money-rush",
+    "status": "active"
+   },
+   "7653": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 30.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/blowout-x-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1774021534206/26-0330-02-webapp-int-newticketassets-apr26-tickets-7653.png",
+     "left_pct": 53,
+     "n": "7653",
+     "name": "Blowout X",
+     "odds": 6.91,
+     "prizes": [
+      {
+       "amt": 3000,
+       "left": 851,
+       "total": 1513
+      },
+      {
+       "amt": 900,
+       "left": 5152,
+       "total": 8827
+      },
+      {
+       "amt": 300,
+       "left": 45788,
+       "total": 85920
+      },
+      {
+       "amt": 150,
+       "left": 79194,
+       "total": 148533
+      },
+      {
+       "amt": 90,
+       "left": 146068,
+       "total": 275862
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7653-blowout-x",
+    "status": "active"
+   },
+   "7654": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/sapphire-10s/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1785449146050/27-0079-webapp-int-newticketassets-aug26-tickets-7654.png",
+     "left_pct": 73,
+     "n": "7654",
+     "name": "Sapphire 10s",
+     "odds": 3.49,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 50000,
+       "left": 2,
+       "total": 6
+      },
+      {
+       "amt": 5000,
+       "left": 12,
+       "total": 18
+      },
+      {
+       "amt": 1000,
+       "left": 140,
+       "total": 180
+      },
+      {
+       "amt": 500,
+       "left": 1698,
+       "total": 2364
+      },
+      {
+       "amt": 200,
+       "left": 3557,
+       "total": 4912
+      },
+      {
+       "amt": 100,
+       "left": 33916,
+       "total": 46791
+      },
+      {
+       "amt": 50,
+       "left": 56926,
+       "total": 78254
+      },
+      {
+       "amt": 40,
+       "left": 20888,
+       "total": 28597
+      },
+      {
+       "amt": 30,
+       "left": 39553,
+       "total": 54291
+      },
+      {
+       "amt": 25,
+       "left": 50572,
+       "total": 69485
+      },
+      {
+       "amt": 20,
+       "left": 296970,
+       "total": 407328
+      },
+      {
+       "amt": 10,
+       "left": 347940,
+       "total": 475216
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7654-sapphire-10s",
+    "status": "active"
+   },
+   "7655": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 2.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/add-it-up/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1785449787169/27-0079-webapp-int-newticketassets-aug26-tickets-7655.png",
+     "left_pct": 46,
+     "n": "7655",
+     "name": "Add It Up",
+     "odds": 4.62,
+     "prizes": [
+      {
+       "amt": 20000,
+       "left": 3,
+       "total": 4
+      },
+      {
+       "amt": 1000,
+       "left": 11,
+       "total": 23
+      },
+      {
+       "amt": 500,
+       "left": 23,
+       "total": 59
+      },
+      {
+       "amt": 100,
+       "left": 772,
+       "total": 1872
+      },
+      {
+       "amt": 75,
+       "left": 920,
+       "total": 2090
+      },
+      {
+       "amt": 50,
+       "left": 2784,
+       "total": 6585
+      },
+      {
+       "amt": 25,
+       "left": 10795,
+       "total": 25154
+      },
+      {
+       "amt": 20,
+       "left": 7765,
+       "total": 17973
+      },
+      {
+       "amt": 15,
+       "left": 13073,
+       "total": 29917
+      },
+      {
+       "amt": 10,
+       "left": 23560,
+       "total": 53862
+      },
+      {
+       "amt": 5,
+       "left": 51092,
+       "total": 113753
+      },
+      {
+       "amt": 4,
+       "left": 108853,
+       "total": 239463
+      },
+      {
+       "amt": 2,
+       "left": 135051,
+       "total": 287314
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7655-add-it-up",
+    "status": "active"
+   },
+   "7656": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/power-up-multiplier/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1788283098352/26-0405--webapp-int-newticketassets-june26-tickets-7656-atpw.png",
+     "left_pct": 38,
+     "n": "7656",
+     "name": "Power Up! Multiplier",
+     "odds": 4.24,
+     "prizes": [
+      {
+       "amt": 400000,
+       "left": 0,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 3,
+       "total": 6
+      },
+      {
+       "amt": 1000,
+       "left": 14,
+       "total": 40
+      },
+      {
+       "amt": 500,
+       "left": 417,
+       "total": 1181
+      },
+      {
+       "amt": 300,
+       "left": 138,
+       "total": 340
+      },
+      {
+       "amt": 250,
+       "left": 146,
+       "total": 336
+      },
+      {
+       "amt": 125,
+       "left": 127,
+       "total": 345
+      },
+      {
+       "amt": 100,
+       "left": 2882,
+       "total": 7821
+      },
+      {
+       "amt": 80,
+       "left": 1190,
+       "total": 3370
+      },
+      {
+       "amt": 50,
+       "left": 13337,
+       "total": 35623
+      },
+      {
+       "amt": 30,
+       "left": 3594,
+       "total": 9502
+      },
+      {
+       "amt": 25,
+       "left": 26390,
+       "total": 71348
+      },
+      {
+       "amt": 20,
+       "left": 34930,
+       "total": 93309
+      },
+      {
+       "amt": 15,
+       "left": 25407,
+       "total": 67940
+      },
+      {
+       "amt": 10,
+       "left": 106422,
+       "total": 280049
+      },
+      {
+       "amt": 5,
+       "left": 149758,
+       "total": 390416
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7656-power-up-multiplier",
+    "status": "active"
+   },
+   "7657": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/double-the-luck/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1774021708174/26-0330-02-webapp-int-newticketassets-apr26-tickets-7657.png",
+     "left_pct": 50,
+     "n": "7657",
+     "name": "Double the Luck",
+     "odds": 3.71,
+     "prizes": [
+      {
+       "amt": 1800000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 25000,
+       "left": 8,
+       "total": 16
+      },
+      {
+       "amt": 5000,
+       "left": 58,
+       "total": 110
+      },
+      {
+       "amt": 2000,
+       "left": 117,
+       "total": 223
+      },
+      {
+       "amt": 1000,
+       "left": 533,
+       "total": 953
+      },
+      {
+       "amt": 500,
+       "left": 3917,
+       "total": 7739
+      },
+      {
+       "amt": 400,
+       "left": 1784,
+       "total": 3612
+      },
+      {
+       "amt": 200,
+       "left": 7203,
+       "total": 14360
+      },
+      {
+       "amt": 100,
+       "left": 92375,
+       "total": 183549
+      },
+      {
+       "amt": 60,
+       "left": 45070,
+       "total": 89844
+      },
+      {
+       "amt": 50,
+       "left": 72561,
+       "total": 143900
+      },
+      {
+       "amt": 40,
+       "left": 144929,
+       "total": 287800
+      },
+      {
+       "amt": 20,
+       "left": 219107,
+       "total": 431700
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7657-double-the-luck",
+    "status": "active"
+   },
+   "7658": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/7x-bingo-multiplier-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1774021853250/26-0330-02-webapp-int-newticketassets-apr26-tickets-7658.png",
+     "left_pct": 62,
+     "n": "7658",
+     "name": "7X Bingo Multiplier",
+     "odds": 3.99,
+     "prizes": [
+      {
+       "amt": 200000,
+       "left": 5,
+       "total": 8
+      },
+      {
+       "amt": 20000,
+       "left": 11,
+       "total": 18
+      },
+      {
+       "amt": 1000,
+       "left": 78,
+       "total": 123
+      },
+      {
+       "amt": 500,
+       "left": 1057,
+       "total": 1708
+      },
+      {
+       "amt": 350,
+       "left": 421,
+       "total": 677
+      },
+      {
+       "amt": 200,
+       "left": 2845,
+       "total": 4598
+      },
+      {
+       "amt": 150,
+       "left": 2825,
+       "total": 4603
+      },
+      {
+       "amt": 125,
+       "left": 2803,
+       "total": 4615
+      },
+      {
+       "amt": 100,
+       "left": 15298,
+       "total": 24710
+      },
+      {
+       "amt": 75,
+       "left": 5269,
+       "total": 8599
+      },
+      {
+       "amt": 60,
+       "left": 14204,
+       "total": 23000
+      },
+      {
+       "amt": 50,
+       "left": 58276,
+       "total": 94693
+      },
+      {
+       "amt": 30,
+       "left": 22646,
+       "total": 36633
+      },
+      {
+       "amt": 25,
+       "left": 142175,
+       "total": 231424
+      },
+      {
+       "amt": 20,
+       "left": 177305,
+       "total": 287033
+      },
+      {
+       "amt": 15,
+       "left": 159964,
+       "total": 258354
+      },
+      {
+       "amt": 10,
+       "left": 695709,
+       "total": 1119520
+      },
+      {
+       "amt": 5,
+       "left": 846426,
+       "total": 1349174
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7658-7x-bingo-multiplier",
+    "status": "active"
+   },
+   "7659": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/money-match-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1777427807569/26-0355-webapp-int-newticketassets-may26-tickets-7653.png",
+     "left_pct": 49,
+     "n": "7659",
+     "name": "Money Match",
+     "odds": 3.65,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 50000,
+       "left": 3,
+       "total": 6
+      },
+      {
+       "amt": 5000,
+       "left": 17,
+       "total": 27
+      },
+      {
+       "amt": 1000,
+       "left": 97,
+       "total": 180
+      },
+      {
+       "amt": 500,
+       "left": 888,
+       "total": 1865
+      },
+      {
+       "amt": 200,
+       "left": 1590,
+       "total": 3274
+      },
+      {
+       "amt": 100,
+       "left": 21518,
+       "total": 44396
+      },
+      {
+       "amt": 75,
+       "left": 7974,
+       "total": 16496
+      },
+      {
+       "amt": 50,
+       "left": 49039,
+       "total": 101647
+      },
+      {
+       "amt": 40,
+       "left": 9567,
+       "total": 19795
+      },
+      {
+       "amt": 30,
+       "left": 23931,
+       "total": 49482
+      },
+      {
+       "amt": 25,
+       "left": 27243,
+       "total": 55961
+      },
+      {
+       "amt": 20,
+       "left": 160116,
+       "total": 329430
+      },
+      {
+       "amt": 10,
+       "left": 228961,
+       "total": 461202
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7659-money-match",
+    "status": "active"
+   },
+   "7660": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/millionaire-7/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1780026532010/26-0405--webapp-int-newticketassets-june26-tickets-7660.png",
+     "left_pct": 50,
+     "n": "7660",
+     "name": "Millionaire 7",
+     "odds": 3.59,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 77777,
+       "left": 1,
+       "total": 4
+      },
+      {
+       "amt": 7777,
+       "left": 7,
+       "total": 12
+      },
+      {
+       "amt": 5000,
+       "left": 21,
+       "total": 36
+      },
+      {
+       "amt": 1000,
+       "left": 99,
+       "total": 180
+      },
+      {
+       "amt": 500,
+       "left": 763,
+       "total": 1563
+      },
+      {
+       "amt": 250,
+       "left": 2598,
+       "total": 5253
+      },
+      {
+       "amt": 200,
+       "left": 3233,
+       "total": 6571
+      },
+      {
+       "amt": 100,
+       "left": 18445,
+       "total": 37739
+      },
+      {
+       "amt": 50,
+       "left": 38769,
+       "total": 78757
+      },
+      {
+       "amt": 30,
+       "left": 39328,
+       "total": 80180
+      },
+      {
+       "amt": 25,
+       "left": 32626,
+       "total": 65604
+      },
+      {
+       "amt": 20,
+       "left": 178146,
+       "total": 361096
+      },
+      {
+       "amt": 10,
+       "left": 231486,
+       "total": 459436
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7660-millionaire-7",
+    "status": "active"
+   },
+   "7661": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/3-million-vault/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1780025542728/26-0405--webapp-int-newticketassets-june26-tickets-7661.png",
+     "left_pct": 56,
+     "n": "7661",
+     "name": "$3 Million Vault",
+     "odds": 3.2,
+     "prizes": [
+      {
+       "amt": 1800000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 1,
+       "total": 3
+      },
+      {
+       "amt": 25000,
+       "left": 6,
+       "total": 14
+      },
+      {
+       "amt": 5000,
+       "left": 43,
+       "total": 70
+      },
+      {
+       "amt": 1000,
+       "left": 698,
+       "total": 1141
+      },
+      {
+       "amt": 500,
+       "left": 3530,
+       "total": 6324
+      },
+      {
+       "amt": 400,
+       "left": 745,
+       "total": 1321
+      },
+      {
+       "amt": 200,
+       "left": 3856,
+       "total": 6924
+      },
+      {
+       "amt": 100,
+       "left": 88668,
+       "total": 158346
+      },
+      {
+       "amt": 60,
+       "left": 77780,
+       "total": 138603
+      },
+      {
+       "amt": 50,
+       "left": 73769,
+       "total": 131898
+      },
+      {
+       "amt": 30,
+       "left": 147928,
+       "total": 263796
+      },
+      {
+       "amt": 20,
+       "left": 297761,
+       "total": 527592
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7661-3-million-vault",
+    "status": "active"
+   },
+   "7662": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 3.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/bonus-word-crossword/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1782412742169/27-0015-webapp-int-newticketassets-july26-tickets-7662.png",
+     "left_pct": 74,
+     "n": "7662",
+     "name": "Bonus Word Crossword",
+     "odds": 3.49,
+     "prizes": [
+      {
+       "amt": 50000,
+       "left": 8,
+       "total": 8
+      },
+      {
+       "amt": 2000,
+       "left": 60,
+       "total": 80
+      },
+      {
+       "amt": 1000,
+       "left": 65,
+       "total": 77
+      },
+      {
+       "amt": 200,
+       "left": 1453,
+       "total": 2009
+      },
+      {
+       "amt": 100,
+       "left": 4069,
+       "total": 5607
+      },
+      {
+       "amt": 50,
+       "left": 21703,
+       "total": 29543
+      },
+      {
+       "amt": 30,
+       "left": 35146,
+       "total": 48032
+      },
+      {
+       "amt": 25,
+       "left": 69762,
+       "total": 95955
+      },
+      {
+       "amt": 20,
+       "left": 52882,
+       "total": 71944
+      },
+      {
+       "amt": 10,
+       "left": 140939,
+       "total": 191940
+      },
+      {
+       "amt": 8,
+       "left": 69863,
+       "total": 95959
+      },
+      {
+       "amt": 6,
+       "left": 210350,
+       "total": 287877
+      },
+      {
+       "amt": 5,
+       "left": 493223,
+       "total": 671770
+      },
+      {
+       "amt": 3,
+       "left": 926752,
+       "total": 1247467
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7662-bonus-word-crossword",
+    "status": "active"
+   },
+   "7663": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/100000-crossword-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1782412481069/27-0015-webapp-int-newticketassets-july26-tickets-7663.png",
+     "left_pct": 76,
+     "n": "7663",
+     "name": "$100,000 Crossword",
+     "odds": 3.93,
+     "prizes": [
+      {
+       "amt": 100000,
+       "left": 9,
+       "total": 12
+      },
+      {
+       "amt": 10000,
+       "left": 19,
+       "total": 24
+      },
+      {
+       "amt": 1000,
+       "left": 96,
+       "total": 120
+      },
+      {
+       "amt": 500,
+       "left": 1372,
+       "total": 1816
+      },
+      {
+       "amt": 300,
+       "left": 726,
+       "total": 966
+      },
+      {
+       "amt": 200,
+       "left": 1438,
+       "total": 1922
+      },
+      {
+       "amt": 100,
+       "left": 31524,
+       "total": 41918
+      },
+      {
+       "amt": 75,
+       "left": 12683,
+       "total": 16815
+      },
+      {
+       "amt": 50,
+       "left": 120417,
+       "total": 159386
+      },
+      {
+       "amt": 25,
+       "left": 152199,
+       "total": 201562
+      },
+      {
+       "amt": 20,
+       "left": 180843,
+       "total": 239736
+      },
+      {
+       "amt": 15,
+       "left": 362506,
+       "total": 479472
+      },
+      {
+       "amt": 10,
+       "left": 818528,
+       "total": 1078812
+      },
+      {
+       "amt": 5,
+       "left": 1100521,
+       "total": 1438416
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7663-100000-crossword",
+    "status": "active"
+   },
+   "7664": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/250000-crossword-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1782412353868/27-0015-webapp-int-newticketassets-july26-tickets-7664.png",
+     "left_pct": 74,
+     "n": "7664",
+     "name": "$250,000 Crossword",
+     "odds": 3.69,
+     "prizes": [
+      {
+       "amt": 250000,
+       "left": 15,
+       "total": 20
+      },
+      {
+       "amt": 25000,
+       "left": 37,
+       "total": 48
+      },
+      {
+       "amt": 1000,
+       "left": 1316,
+       "total": 1680
+      },
+      {
+       "amt": 500,
+       "left": 5982,
+       "total": 8153
+      },
+      {
+       "amt": 200,
+       "left": 7094,
+       "total": 9639
+      },
+      {
+       "amt": 150,
+       "left": 10617,
+       "total": 14422
+      },
+      {
+       "amt": 100,
+       "left": 176435,
+       "total": 239641
+      },
+      {
+       "amt": 60,
+       "left": 17596,
+       "total": 23987
+      },
+      {
+       "amt": 50,
+       "left": 377983,
+       "total": 512671
+      },
+      {
+       "amt": 40,
+       "left": 88144,
+       "total": 119813
+      },
+      {
+       "amt": 30,
+       "left": 258479,
+       "total": 351707
+      },
+      {
+       "amt": 20,
+       "left": 1588705,
+       "total": 2156928
+      },
+      {
+       "amt": 10,
+       "left": 1301308,
+       "total": 1757651
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7664-250000-crossword",
+    "status": "active"
+   },
+   "7665": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 25.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/1000000-crossword-50x-2026/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1782408136202/27-0015-webapp-int-newticketassets-july26-tickets-7665.png",
+     "left_pct": 78,
+     "n": "7665",
+     "name": "$1,000,000 Crossword 50X",
+     "odds": 2.96,
+     "prizes": [
+      {
+       "amt": 1000000,
+       "left": 5,
+       "total": 5
+      },
+      {
+       "amt": 50000,
+       "left": 12,
+       "total": 15
+      },
+      {
+       "amt": 10000,
+       "left": 40,
+       "total": 48
+      },
+      {
+       "amt": 5000,
+       "left": 36,
+       "total": 42
+      },
+      {
+       "amt": 2500,
+       "left": 152,
+       "total": 186
+      },
+      {
+       "amt": 1250,
+       "left": 360,
+       "total": 445
+      },
+      {
+       "amt": 1000,
+       "left": 933,
+       "total": 1144
+      },
+      {
+       "amt": 500,
+       "left": 9095,
+       "total": 11618
+      },
+      {
+       "amt": 300,
+       "left": 2801,
+       "total": 3591
+      },
+      {
+       "amt": 250,
+       "left": 4263,
+       "total": 5429
+      },
+      {
+       "amt": 200,
+       "left": 14830,
+       "total": 18934
+      },
+      {
+       "amt": 150,
+       "left": 14043,
+       "total": 18012
+      },
+      {
+       "amt": 125,
+       "left": 14113,
+       "total": 18044
+      },
+      {
+       "amt": 100,
+       "left": 89610,
+       "total": 114676
+      },
+      {
+       "amt": 75,
+       "left": 185408,
+       "total": 237384
+      },
+      {
+       "amt": 50,
+       "left": 456614,
+       "total": 584659
+      },
+      {
+       "amt": 25,
+       "left": 633531,
+       "total": 809769
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7665-1000000-crossword-50x",
+    "status": "active"
+   },
+   "7668": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/big-time-blowout/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1787087983312/27-0132-webapp-int-newticketassets-aug26-updatetickets-7668.png",
+     "left_pct": 78,
+     "n": "7668",
+     "name": "Big Time Blowout",
+     "odds": 9.68,
+     "prizes": [
+      {
+       "amt": 2000,
+       "left": 953,
+       "total": 1152
+      },
+      {
+       "amt": 500,
+       "left": 4701,
+       "total": 5984
+      },
+      {
+       "amt": 300,
+       "left": 11282,
+       "total": 14400
+      },
+      {
+       "amt": 200,
+       "left": 60161,
+       "total": 76714
+      },
+      {
+       "amt": 100,
+       "left": 155375,
+       "total": 199136
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7668-big-time-blowout",
+    "status": "active"
+   },
+   "7669": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/galaxy-blast/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1785449512944/27-0079-webapp-int-newticketassets-aug26-tickets-7669.png",
+     "left_pct": 61,
+     "n": "7669",
+     "name": "Galaxy Blast",
+     "odds": 3.99,
+     "prizes": [
+      {
+       "amt": 555555,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 10,
+       "total": 12
+      },
+      {
+       "amt": 1000,
+       "left": 34,
+       "total": 55
+      },
+      {
+       "amt": 500,
+       "left": 409,
+       "total": 690
+      },
+      {
+       "amt": 250,
+       "left": 537,
+       "total": 899
+      },
+      {
+       "amt": 125,
+       "left": 2692,
+       "total": 4480
+      },
+      {
+       "amt": 100,
+       "left": 8149,
+       "total": 13548
+      },
+      {
+       "amt": 75,
+       "left": 7536,
+       "total": 12757
+      },
+      {
+       "amt": 50,
+       "left": 28730,
+       "total": 47900
+      },
+      {
+       "amt": 25,
+       "left": 52479,
+       "total": 86352
+      },
+      {
+       "amt": 20,
+       "left": 90545,
+       "total": 149803
+      },
+      {
+       "amt": 10,
+       "left": 342251,
+       "total": 561699
+      },
+      {
+       "amt": 5,
+       "left": 387435,
+       "total": 624147
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7669-galaxy-blast",
+    "status": "active"
+   },
+   "7670": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 30.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/5000000-jackpot/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1785448556677/27-0079-webapp-int-newticketassets-aug26-tickets-7670.png",
+     "left_pct": 84,
+     "n": "7670",
+     "name": "$5,000,000 Jackpot",
+     "odds": 3.64,
+     "prizes": [
+      {
+       "amt": 3000000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 6,
+       "total": 6
+      },
+      {
+       "amt": 10000,
+       "left": 23,
+       "total": 24
+      },
+      {
+       "amt": 5000,
+       "left": 60,
+       "total": 72
+      },
+      {
+       "amt": 1000,
+       "left": 1805,
+       "total": 2079
+      },
+      {
+       "amt": 500,
+       "left": 11925,
+       "total": 14224
+      },
+      {
+       "amt": 300,
+       "left": 10949,
+       "total": 13030
+      },
+      {
+       "amt": 150,
+       "left": 6294,
+       "total": 7502
+      },
+      {
+       "amt": 100,
+       "left": 130894,
+       "total": 156061
+      },
+      {
+       "amt": 90,
+       "left": 62676,
+       "total": 74887
+      },
+      {
+       "amt": 60,
+       "left": 200973,
+       "total": 239944
+      },
+      {
+       "amt": 50,
+       "left": 401783,
+       "total": 479568
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7670-5000000-jackpot",
+    "status": "active"
+   },
+   "7671": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 5.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/in-the-green/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1787888818744/7671%402x.png",
+     "left_pct": 76,
+     "n": "7671",
+     "name": "In the Green",
+     "odds": 4.24,
+     "prizes": [
+      {
+       "amt": 500000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 6,
+       "total": 6
+      },
+      {
+       "amt": 1000,
+       "left": 33,
+       "total": 40
+      },
+      {
+       "amt": 500,
+       "left": 1059,
+       "total": 1357
+      },
+      {
+       "amt": 300,
+       "left": 297,
+       "total": 387
+      },
+      {
+       "amt": 250,
+       "left": 305,
+       "total": 401
+      },
+      {
+       "amt": 125,
+       "left": 300,
+       "total": 396
+      },
+      {
+       "amt": 100,
+       "left": 6695,
+       "total": 8779
+      },
+      {
+       "amt": 75,
+       "left": 3008,
+       "total": 3987
+      },
+      {
+       "amt": 50,
+       "left": 31694,
+       "total": 41874
+      },
+      {
+       "amt": 30,
+       "left": 8393,
+       "total": 11141
+      },
+      {
+       "amt": 25,
+       "left": 64041,
+       "total": 84500
+      },
+      {
+       "amt": 20,
+       "left": 83352,
+       "total": 109732
+      },
+      {
+       "amt": 15,
+       "left": 60735,
+       "total": 79759
+      },
+      {
+       "amt": 10,
+       "left": 251278,
+       "total": 329326
+      },
+      {
+       "amt": 5,
+       "left": 352450,
+       "total": 459048
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7671-in-the-green",
+    "status": "active"
+   },
+   "7672": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 10.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/liquid-assets/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1787888257775/7672%402x.png",
+     "left_pct": 79,
+     "n": "7672",
+     "name": "Liquid Assets",
+     "odds": 3.85,
+     "prizes": [
+      {
+       "amt": 600000,
+       "left": 2,
+       "total": 3
+      },
+      {
+       "amt": 10000,
+       "left": 7,
+       "total": 10
+      },
+      {
+       "amt": 5000,
+       "left": 35,
+       "total": 36
+      },
+      {
+       "amt": 1000,
+       "left": 143,
+       "total": 166
+      },
+      {
+       "amt": 500,
+       "left": 1576,
+       "total": 2022
+      },
+      {
+       "amt": 300,
+       "left": 1303,
+       "total": 1685
+      },
+      {
+       "amt": 200,
+       "left": 3754,
+       "total": 4752
+      },
+      {
+       "amt": 100,
+       "left": 43808,
+       "total": 55927
+      },
+      {
+       "amt": 50,
+       "left": 71228,
+       "total": 90873
+      },
+      {
+       "amt": 30,
+       "left": 108104,
+       "total": 137606
+      },
+      {
+       "amt": 20,
+       "left": 306889,
+       "total": 390610
+      },
+      {
+       "amt": 10,
+       "left": 295144,
+       "total": 373590
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7672-liquid-assets",
+    "status": "active"
+   },
+   "7673": {
+    "data_changed": "2026-10-05",
+    "first_seen": "2026-10-05",
+    "game": {
+     "cost": 20.0,
+     "img": "https://www.illinoislottery.com/games-hub/instant-tickets/2000000-multiplier-bonanza/_jcr_content/main/responsivegrid_1214035270/responsivegrid/itgdetailsblock/image.coreimg.png/1787886525791/7673%402x.png",
+     "left_pct": 82,
+     "n": "7673",
+     "name": "$2,000,000 Multiplier Bonanza",
+     "odds": 3.88,
+     "prizes": [
+      {
+       "amt": 1200000,
+       "left": 3,
+       "total": 3
+      },
+      {
+       "amt": 100000,
+       "left": 5,
+       "total": 6
+      },
+      {
+       "amt": 20000,
+       "left": 22,
+       "total": 27
+      },
+      {
+       "amt": 5000,
+       "left": 75,
+       "total": 84
+      },
+      {
+       "amt": 1000,
+       "left": 622,
+       "total": 718
+      },
+      {
+       "amt": 500,
+       "left": 3436,
+       "total": 4181
+      },
+      {
+       "amt": 200,
+       "left": 11017,
+       "total": 13511
+      },
+      {
+       "amt": 100,
+       "left": 122165,
+       "total": 149838
+      },
+      {
+       "amt": 75,
+       "left": 28085,
+       "total": 34433
+      },
+      {
+       "amt": 60,
+       "left": 100795,
+       "total": 123754
+      },
+      {
+       "amt": 50,
+       "left": 97755,
+       "total": 119900
+      },
+      {
+       "amt": 40,
+       "left": 195552,
+       "total": 239800
+      },
+      {
+       "amt": 20,
+       "left": 195725,
+       "total": 239800
+      }
+     ]
+    },
+    "last_seen": "2026-10-05",
+    "slug": "7673-2000000-multiplier-bonanza",
+    "status": "active"
+   }
+  },
   "ks": {
    "257": {
     "data_changed": "2026-10-05",
@@ -28685,7 +36397,7 @@
     "game": {
      "cost": 5.0,
      "img": "https://www.gamingdatasolutions.com/images/ks/478.jpg",
-     "left_pct": 31,
+     "left_pct": 30,
      "n": "478",
      "name": "50x",
      "odds": 3.94,
@@ -28757,7 +36469,7 @@
     "game": {
      "cost": 10.0,
      "img": "https://www.gamingdatasolutions.com/images/ks/479.jpg",
-     "left_pct": 44,
+     "left_pct": 43,
      "n": "479",
      "name": "100x",
      "odds": 3.15,
@@ -28943,7 +36655,7 @@
     "game": {
      "cost": 10.0,
      "img": "https://www.gamingdatasolutions.com/images/ks/482.jpg",
-     "left_pct": 44,
+     "left_pct": 43,
      "n": "482",
      "name": "$100,000 Crossword Multiplier",
      "odds": 3.05,
@@ -29382,7 +37094,7 @@
     "game": {
      "cost": 5.0,
      "img": "https://www.gamingdatasolutions.com/images/ks/490.jpg",
-     "left_pct": 90,
+     "left_pct": 89,
      "n": "490",
      "name": "Rivalry Riches",
      "odds": 3.35,

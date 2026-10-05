@@ -44,16 +44,25 @@
  ],
  "claimed_7d_money": 662085916,
  "claimed_7d_prizes": 30702615,
- "data_points": 221003,
- "face_value": 142522889250,
+ "data_points": 221107,
+ "face_value": 146687209435,
  "free_tickets_remaining": 118768643,
- "games": 1493,
- "million_prizes_remaining": 1225,
- "million_prizes_total": 3016,
- "million_tiers": 499,
- "money_remaining": 39879279847,
- "money_total": 109191131830,
+ "games": 1597,
+ "million_prizes_remaining": 1250,
+ "million_prizes_total": 3061,
+ "million_tiers": 513,
+ "money_remaining": 41277062814,
+ "money_total": 112399209406,
  "per_state": [
+  {
+   "code": "ar",
+   "face_value": 606521684,
+   "games": 56,
+   "money_remaining": 184174570,
+   "name": "Arkansas",
+   "prizes_remaining": 10400451,
+   "tickets_printed": 84431843
+  },
   {
    "code": "ca",
    "face_value": 12918291385,
@@ -80,6 +89,15 @@
    "name": "Georgia",
    "prizes_remaining": 101693824,
    "tickets_printed": 2998914058
+  },
+  {
+   "code": "il",
+   "face_value": 3557798501,
+   "games": 48,
+   "money_remaining": 1213608397,
+   "name": "Illinois",
+   "prizes_remaining": 34335773,
+   "tickets_printed": 305348962
   },
   {
    "code": "ks",
@@ -208,11 +226,11 @@
    "tickets_printed": 143125820
   }
  ],
- "prizes_remaining": 1226719367,
- "prizes_total": 3897383244,
- "states": 17,
- "tickets_printed": 15459488057,
+ "prizes_remaining": 1271455591,
+ "prizes_total": 3994965469,
+ "states": 19,
+ "tickets_printed": 15849268862,
  "tier_snapshots": 1232932,
- "tiers": 15969,
+ "tiers": 17157,
  "tracking_since": "2024-11-25"
 }
