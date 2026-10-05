@@ -35,24 +35,24 @@
   },
   {
    "amount": 20000000,
-   "left": 1,
-   "n": "433",
-   "name": "Lifetime Millions",
-   "state": "ma",
-   "total": 3
+   "left": 2,
+   "n": "762",
+   "name": "Billion",
+   "state": "oh",
+   "total": 4
   }
  ],
  "claimed_7d_money": 662085916,
  "claimed_7d_prizes": 30702615,
- "data_points": 220932,
- "face_value": 136617505407,
- "free_tickets_remaining": 118769600,
- "games": 1422,
- "million_prizes_remaining": 1079,
- "million_prizes_total": 2688,
- "million_tiers": 476,
- "money_remaining": 38111583521,
- "money_total": 104414739659,
+ "data_points": 221003,
+ "face_value": 142522889250,
+ "free_tickets_remaining": 118768643,
+ "games": 1493,
+ "million_prizes_remaining": 1225,
+ "million_prizes_total": 3016,
+ "million_tiers": 499,
+ "money_remaining": 39879279847,
+ "money_total": 109191131830,
  "per_state": [
   {
    "code": "ca",
@@ -83,12 +83,12 @@
   },
   {
    "code": "ks",
-   "face_value": 344004145,
+   "face_value": 344001945,
    "games": 50,
-   "money_remaining": 129632430,
+   "money_remaining": 129563752,
    "name": "Kansas",
-   "prizes_remaining": 7315710,
-   "tickets_printed": 50851955
+   "prizes_remaining": 7311030,
+   "tickets_printed": 50851845
   },
   {
    "code": "md",
@@ -154,6 +154,15 @@
    "tickets_printed": 655928066
   },
   {
+   "code": "oh",
+   "face_value": 5905386043,
+   "games": 71,
+   "money_remaining": 1767765004,
+   "name": "Ohio",
+   "prizes_remaining": 44163240,
+   "tickets_printed": 473566787
+  },
+  {
    "code": "ok",
    "face_value": 585724580,
    "games": 50,
@@ -199,11 +208,11 @@
    "tickets_printed": 143125820
   }
  ],
- "prizes_remaining": 1182560807,
- "prizes_total": 3780039889,
- "states": 16,
- "tickets_printed": 14985921380,
+ "prizes_remaining": 1226719367,
+ "prizes_total": 3897383244,
+ "states": 17,
+ "tickets_printed": 15459488057,
  "tier_snapshots": 1232932,
- "tiers": 15264,
+ "tiers": 15969,
  "tracking_since": "2024-11-25"
 }
