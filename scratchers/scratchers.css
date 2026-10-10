@@ -215,6 +215,12 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
   padding: 14px 18px; margin-top: 20px;
 }
 
+.state-notice {
+  background: var(--yellow); border: 2px solid var(--ink); border-radius: 14px;
+  color: #000; font-weight: 600; font-size: 14.5px; line-height: 1.5;
+  padding: 14px 18px; margin-top: 20px;
+}
+
 /* ---------- PRIZE TABLE (game page) ---------- */
 .prize-card {
   background: #fff; border: 2px solid var(--ink); border-radius: 16px; overflow: hidden;
