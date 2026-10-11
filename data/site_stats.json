@@ -51,16 +51,16 @@
  "million_prizes_remaining": 1247,
  "million_prizes_total": 3074,
  "million_tiers": 516,
- "money_remaining": 41560562744,
+ "money_remaining": 41555583326,
  "money_total": 113143516031,
  "per_state": [
   {
    "code": "ar",
    "face_value": 606521684,
    "games": 56,
-   "money_remaining": 184174570,
+   "money_remaining": 179195152,
    "name": "Arkansas",
-   "prizes_remaining": 10400451,
+   "prizes_remaining": 10132222,
    "tickets_printed": 84431843
   },
   {
@@ -226,11 +226,11 @@
    "tickets_printed": 145813220
   }
  ],
- "prizes_remaining": 1272672661,
+ "prizes_remaining": 1272404432,
  "prizes_total": 4010902918,
  "states": 19,
  "tickets_printed": 15917390887,
- "tier_snapshots": 1337802,
+ "tier_snapshots": 1338372,
  "tiers": 17256,
  "tracking_since": "2024-11-25"
 }
