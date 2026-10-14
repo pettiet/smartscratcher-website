@@ -44,15 +44,15 @@
  ],
  "claimed_7d_money": 621119235,
  "claimed_7d_prizes": 24208429,
- "data_points": 236209,
- "face_value": 145517117082,
+ "data_points": 236213,
+ "face_value": 145684933364,
  "free_tickets_remaining": 112551062,
- "games": 1596,
- "million_prizes_remaining": 1232,
- "million_prizes_total": 3017,
- "million_tiers": 511,
- "money_remaining": 41022053535,
- "money_total": 111516801372,
+ "games": 1600,
+ "million_prizes_remaining": 1231,
+ "million_prizes_total": 3020,
+ "million_tiers": 512,
+ "money_remaining": 41105832000,
+ "money_total": 111640409745,
  "per_state": [
   {
    "code": "ar",
@@ -173,12 +173,12 @@
   },
   {
    "code": "oh",
-   "face_value": 5920010295,
-   "games": 72,
-   "money_remaining": 1760331504,
+   "face_value": 6087826577,
+   "games": 76,
+   "money_remaining": 1844109969,
    "name": "Ohio",
-   "prizes_remaining": 47152293,
-   "tickets_printed": 488191039
+   "prizes_remaining": 53906818,
+   "tickets_printed": 516238741
   },
   {
    "code": "ok",
@@ -226,11 +226,11 @@
    "tickets_printed": 145813220
   }
  ],
- "prizes_remaining": 1260270202,
- "prizes_total": 3969927108,
+ "prizes_remaining": 1267024727,
+ "prizes_total": 3977614785,
  "states": 19,
- "tickets_printed": 15765910685,
+ "tickets_printed": 15793958387,
  "tier_snapshots": 1391289,
- "tiers": 17139,
+ "tiers": 17180,
  "tracking_since": "2024-11-25"
 }
