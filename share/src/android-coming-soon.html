@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800;12..96,900&family=JetBrains+Mono:wght@700&family=Inter:wght@500;600&display=swap">
+<style>
+html,body{margin:0;padding:0}
+body{width:1200px;height:630px;background:#fff9e6;color:#111111;font-family:'Inter',sans-serif;position:relative;overflow:hidden}
+.blob{position:absolute;right:-140px;top:-160px;width:520px;height:520px;border-radius:50%;background:#ffd60a;opacity:.55}
+.wrap{position:absolute;inset:0;box-sizing:border-box;padding:64px;display:flex;flex-direction:column;justify-content:flex-start;gap:40px}
+.brand{display:flex;align-items:center;gap:18px}
+.badge{width:64px;height:64px;flex:none}
+.word{font-family:'Bricolage Grotesque';font-weight:800;font-size:36px;letter-spacing:-1px;line-height:1;display:inline-flex;align-items:baseline}
+.hl{background:#ffd60a;padding:0 8px 3px 8px;display:inline-block;transform:rotate(-1.5deg)}
+.tail{padding-left:5px}
+h1{font-family:'Bricolage Grotesque';font-weight:900;font-size:132px;line-height:.92;letter-spacing:-0.045em;margin:0}
+h1 .mark{position:relative;display:inline-block;z-index:1}
+h1 .mark::before{content:"";position:absolute;inset:14px -8px -6px -8px;background:#ffd60a;z-index:-1;transform:rotate(-.6deg)}
+.sub{font-size:26px;font-weight:500;color:#2a2a2a;margin-top:28px;max-width:1000px;line-height:1.35}
+.foot{position:absolute;left:64px;right:64px;bottom:64px;font-family:'Inter',sans-serif;font-size:16px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#6a6a6a;border-top:3px solid #111111;padding-top:18px}
+.foot span{color:#111111}
+</style></head><body>
+<div class="blob"></div>
+<div class="wrap">
+  <div class="brand"><svg class="badge" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="hbi" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#111111" stroke-width="1.7"></line></pattern></defs>
+  <circle cx="60" cy="60" r="44" fill="#ffd60a"></circle>
+  <text x="55" y="91" font-family="Bricolage Grotesque" font-size="74" font-weight="800" fill="url(#hbi)" text-anchor="middle">S</text>
+  <text x="61" y="85" font-family="Bricolage Grotesque" font-size="74" font-weight="800" fill="#111111" text-anchor="middle">S</text>
+</svg><div class="word"><span class="hl">Smart</span><span class="tail">Scratcher</span></div></div>
+  <div><h1>Android.<br><span class="mark">It’s almost here.</span></h1><div class="sub">The Android app is built, tested, and in review at Google Play. Same 17 states, same games, same free tier as iPhone.</div></div>
+  <div class="foot"><span>In review at Google Play</span> · 17 states · smartscratcherapp.com</div>
+</div>
+</body></html>
