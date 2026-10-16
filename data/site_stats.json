@@ -42,8 +42,8 @@
    "total": 4
   }
  ],
- "claimed_7d_money": 648298950,
- "claimed_7d_prizes": 24554755,
+ "claimed_7d_money": 648552407,
+ "claimed_7d_prizes": 24569364,
  "data_points": 239595,
  "face_value": 144709205864,
  "free_tickets_remaining": 107643504,
@@ -51,16 +51,16 @@
  "million_prizes_remaining": 1226,
  "million_prizes_total": 3013,
  "million_tiers": 510,
- "money_remaining": 40999063108,
+ "money_remaining": 40995718775,
  "money_total": 110946327809,
  "per_state": [
   {
    "code": "ar",
    "face_value": 606521684,
    "games": 56,
-   "money_remaining": 178941695,
+   "money_remaining": 175597362,
    "name": "Arkansas",
-   "prizes_remaining": 10117613,
+   "prizes_remaining": 9945774,
    "tickets_printed": 84431843
   },
   {
@@ -226,11 +226,11 @@
    "tickets_printed": 145813220
   }
  ],
- "prizes_remaining": 1254608219,
+ "prizes_remaining": 1254436380,
  "prizes_total": 3889595783,
  "states": 19,
  "tickets_printed": 15418852584,
- "tier_snapshots": 1426327,
+ "tier_snapshots": 1426897,
  "tiers": 17026,
  "tracking_since": "2024-11-25"
 }
