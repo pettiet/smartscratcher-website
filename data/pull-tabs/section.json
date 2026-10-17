@@ -5,17 +5,23 @@
    "blurb": "Pull tabs are the paper tickets you open at bars and restaurants. We score all 3 Kansas pull tab games and show which ones still have their top prizes.",
    "count": 3,
    "cta": "See pull tab games",
+   "kind": "pull-tabs",
    "label": "Pull Tabs",
    "name": "Kansas",
-   "path": "/pull-tabs/kansas/"
+   "path": "/pull-tabs/kansas/",
+   "updated": "2026-10-17",
+   "updated_nice": "Oct 17, 2026"
   },
   "mi": {
    "blurb": "Pull tabs are the paper tickets you open at bars and restaurants. We score all 46 Michigan pull tab games and show which ones still have their top prizes.",
    "count": 46,
    "cta": "See pull tab games",
+   "kind": "pull-tabs",
    "label": "Pull Tabs",
    "name": "Michigan",
-   "path": "/pull-tabs/michigan/"
+   "path": "/pull-tabs/michigan/",
+   "updated": "2026-10-17",
+   "updated_nice": "Oct 17, 2026"
   }
  }
 }
