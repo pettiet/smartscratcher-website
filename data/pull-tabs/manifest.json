@@ -4,10 +4,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0114,
+     "big": 0.0116,
      "jackpot": 0.0,
-     "mid": 0.2368,
-     "small": 0.3381,
+     "mid": 0.2361,
+     "small": 0.338,
      "top": {
       "big": 1000,
       "mid": 100,
@@ -15,7 +15,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 787620,
+    "est_left": 778298,
     "fresh_value": 0.6138,
     "history": [
      {
@@ -192,12 +192,26 @@
       "score": 52,
       "t": "2026-10-16 09:50",
       "value": 0.5863
+     },
+     {
+      "jackpot": 1000,
+      "left_pct": 43.5,
+      "score": 52,
+      "t": "2026-10-16 16:15",
+      "value": 0.5859
+     },
+     {
+      "jackpot": 1000,
+      "left_pct": 43.2,
+      "score": 52,
+      "t": "2026-10-17 09:50",
+      "value": 0.5857
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/pt419.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 44,
+    "left_pct": 43,
     "n": "419",
     "name": "Cash Tab",
     "odds": 4.19,
@@ -206,62 +220,62 @@
      {
       "amt": 1000,
       "left": 9,
-      "odds_now": 87513.33,
+      "odds_now": 86477.56,
       "odds_start": 100000.0,
       "total": 18
      },
      {
       "amt": 100,
-      "left": 104,
-      "odds_now": 7573.27,
+      "left": 103,
+      "odds_now": 7556.29,
       "odds_start": 6666.67,
       "total": 270
      },
      {
       "amt": 35,
-      "left": 483,
-      "odds_now": 1630.68,
+      "left": 474,
+      "odds_now": 1641.98,
       "odds_start": 1500.0,
       "total": 1200
      },
      {
       "amt": 25,
-      "left": 953,
-      "odds_now": 826.46,
+      "left": 935,
+      "odds_now": 832.4,
       "odds_start": 750.0,
       "total": 2400
      },
      {
       "amt": 15,
-      "left": 1835,
-      "odds_now": 429.22,
+      "left": 1816,
+      "odds_now": 428.58,
       "odds_start": 384.62,
       "total": 4680
      },
      {
       "amt": 10,
-      "left": 3813,
-      "odds_now": 206.56,
+      "left": 3749,
+      "odds_now": 207.6,
       "odds_start": 187.5,
       "total": 9600
      },
      {
       "amt": 6,
-      "left": 11616,
-      "odds_now": 67.8,
+      "left": 11462,
+      "odds_now": 67.9,
       "odds_start": 63.29,
       "total": 28440
      },
      {
       "amt": 5,
-      "left": 24244,
-      "odds_now": 32.49,
+      "left": 23920,
+      "odds_now": 32.54,
       "odds_start": 30.3,
       "total": 59400
      },
      {
       "amt": 1,
-      "left": 145100,
+      "left": 143462,
       "odds_now": 5.43,
       "odds_start": 5.56,
       "total": 324000
@@ -270,22 +284,22 @@
     "rating": "Poor",
     "score": 52,
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
+     "biggest_claimed": 100,
+     "claimed": 1093,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:15",
-     "tickets_sold": 0
+     "t": "2026-10-16 16:15",
+     "tickets_sold": 4575
     },
-    "value": 0.5863,
+    "value": 0.5857,
     "vs_scratchers": {
      "better": 1,
      "of": 5
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "419-cash-tab",
    "status": "active"
   },
@@ -293,10 +307,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0249,
+     "big": 0.0252,
      "jackpot": 0.0,
-     "mid": 0.1963,
-     "small": 0.9714,
+     "mid": 0.1952,
+     "small": 0.9709,
      "top": {
       "big": 2500,
       "mid": 100,
@@ -304,7 +318,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 261475,
+    "est_left": 258049,
     "fresh_value": 1.287,
     "history": [
      {
@@ -481,12 +495,26 @@
       "score": 41,
       "t": "2026-10-16 09:50",
       "value": 0.5963
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 14.5,
+      "score": 41,
+      "t": "2026-10-16 16:15",
+      "value": 0.5963
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 14.3,
+      "score": 41,
+      "t": "2026-10-17 09:50",
+      "value": 0.5956
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/pt421.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 15,
+    "left_pct": 14,
     "n": "421",
     "name": "That's Wild",
     "odds": 3.61,
@@ -495,76 +523,76 @@
      {
       "amt": 2500,
       "left": 2,
-      "odds_now": 130737.5,
+      "odds_now": 129024.5,
       "odds_start": 150000.0,
       "total": 12
      },
      {
       "amt": 250,
       "left": 6,
-      "odds_now": 43579.17,
+      "odds_now": 43008.17,
       "odds_start": 50000.0,
       "total": 36
      },
      {
       "amt": 100,
       "left": 23,
-      "odds_now": 11368.48,
+      "odds_now": 11219.52,
       "odds_start": 15000.0,
       "total": 120
      },
      {
       "amt": 50,
       "left": 47,
-      "odds_now": 5563.3,
+      "odds_now": 5490.4,
       "odds_start": 3750.0,
       "total": 480
      },
      {
       "amt": 35,
-      "left": 290,
-      "odds_now": 901.64,
+      "left": 284,
+      "odds_now": 908.62,
       "odds_start": 652.17,
       "total": 2760
      },
      {
       "amt": 25,
-      "left": 1461,
-      "odds_now": 178.97,
+      "left": 1431,
+      "odds_now": 180.33,
       "odds_start": 134.65,
       "total": 13368
      },
      {
       "amt": 10,
-      "left": 3204,
-      "odds_now": 81.61,
+      "left": 3154,
+      "odds_now": 81.82,
       "odds_start": 71.43,
       "total": 25200
      },
      {
       "amt": 7,
-      "left": 6285,
-      "odds_now": 41.6,
+      "left": 6188,
+      "odds_now": 41.7,
       "odds_start": 37.5,
       "total": 48000
      },
      {
       "amt": 5,
-      "left": 10600,
+      "left": 10461,
       "odds_now": 24.67,
       "odds_start": 23.08,
       "total": 78000
      },
      {
       "amt": 4,
-      "left": 11882,
-      "odds_now": 22.01,
+      "left": 11719,
+      "odds_now": 22.02,
       "odds_start": 21.13,
       "total": 85200
      },
      {
       "amt": 2,
-      "left": 38712,
+      "left": 38247,
       "odds_now": 6.75,
       "odds_start": 7.32,
       "total": 246000
@@ -574,21 +602,21 @@
     "score": 41,
     "since": {
      "biggest_claimed": 35,
-     "claimed": 807,
+     "claimed": 950,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:15",
-     "tickets_sold": 2910
+     "t": "2026-10-16 16:15",
+     "tickets_sold": 3426
     },
-    "value": 1.1925,
+    "value": 1.1912,
     "vs_scratchers": {
      "better": 4,
      "of": 5
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "421-thats-wild",
    "status": "active"
   },
@@ -615,6 +643,20 @@
       "left_pct": 98.8,
       "score": 65,
       "t": "2026-10-16 09:50",
+      "value": 0.6428
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 98.8,
+      "score": 65,
+      "t": "2026-10-16 16:15",
+      "value": 0.6428
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 98.8,
+      "score": 65,
+      "t": "2026-10-17 09:50",
       "value": 0.6428
      }
     ],
@@ -707,14 +749,23 @@
     ],
     "rating": "Fair",
     "score": 65,
-    "since": null,
+    "since": {
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 17.6,
+     "jackpot_change": null,
+     "jackpots_hit_here": 0,
+     "score_change": 0,
+     "t": "2026-10-16 16:15",
+     "tickets_sold": 0
+    },
     "value": 1.2857,
     "vs_scratchers": {
      "better": 0,
      "of": 5
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "493-high-stakes-series",
    "status": "active"
   }
@@ -912,6 +963,20 @@
       "score": 12,
       "t": "2026-10-16 09:45",
       "value": 0.4553
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 2.9,
+      "score": 12,
+      "t": "2026-10-16 16:10",
+      "value": 0.4553
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 2.9,
+      "score": 12,
+      "t": "2026-10-17 09:45",
+      "value": 0.4553
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt500.jpg",
@@ -982,7 +1047,7 @@
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
+     "t": "2026-10-16 16:10",
      "tickets_sold": 0
     },
     "value": 0.4553,
@@ -991,7 +1056,7 @@
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "500-detroit-tigers",
    "status": "active"
   },
@@ -1001,8 +1066,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 1.6764,
-     "small": 1.5819,
+     "mid": 1.6771,
+     "small": 1.5817,
      "top": {
       "big": null,
       "mid": 200,
@@ -1010,7 +1075,7 @@
      }
     },
     "cost": 5.0,
-    "est_left": 80125,
+    "est_left": 80093,
     "fresh_value": 3.7432,
     "history": [
      {
@@ -1187,6 +1252,20 @@
       "score": 26,
       "t": "2026-10-16 09:45",
       "value": 0.6517
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 12.2,
+      "score": 26,
+      "t": "2026-10-16 16:10",
+      "value": 0.6517
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 12.2,
+      "score": 26,
+      "t": "2026-10-17 09:45",
+      "value": 0.6518
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt501.jpg",
@@ -1208,41 +1287,41 @@
      {
       "amt": 200,
       "left": 411,
-      "odds_now": 194.95,
+      "odds_now": 194.87,
       "odds_start": 156.09,
       "total": 4200
      },
      {
       "amt": 75,
       "left": 421,
-      "odds_now": 190.32,
+      "odds_now": 190.24,
       "odds_start": 156.09,
       "total": 4200
      },
      {
       "amt": 50,
       "left": 411,
-      "odds_now": 194.95,
+      "odds_now": 194.87,
       "odds_start": 156.09,
       "total": 4200
      },
      {
       "amt": 15,
-      "left": 1454,
-      "odds_now": 55.11,
+      "left": 1452,
+      "odds_now": 55.16,
       "odds_start": 52.03,
       "total": 12600
      },
      {
       "amt": 10,
       "left": 1612,
-      "odds_now": 49.71,
+      "odds_now": 49.69,
       "odds_start": 52.03,
       "total": 12600
      },
      {
       "amt": 5,
-      "left": 17764,
+      "left": 17757,
       "odds_now": 4.51,
       "odds_start": 4.59,
       "total": 142800
@@ -1251,22 +1330,22 @@
     "rating": "Poor",
     "score": 26,
     "since": {
-     "biggest_claimed": 5,
-     "claimed": 2,
+     "biggest_claimed": 15,
+     "claimed": 9,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 8
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 32
     },
-    "value": 3.2583,
+    "value": 3.2588,
     "vs_scratchers": {
      "better": 28,
      "of": 31
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "501-2000000-casino-nights",
    "status": "active"
   },
@@ -1276,8 +1355,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.8014,
-     "small": 0.5734,
+     "mid": 0.8009,
+     "small": 0.5733,
      "top": {
       "big": null,
       "mid": 150,
@@ -1285,7 +1364,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 215427,
+    "est_left": 215015,
     "fresh_value": 1.4664,
     "history": [
      {
@@ -1462,6 +1541,20 @@
       "score": 25,
       "t": "2026-10-16 09:45",
       "value": 0.6874
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 18.8,
+      "score": 25,
+      "t": "2026-10-16 16:10",
+      "value": 0.6874
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 18.8,
+      "score": 25,
+      "t": "2026-10-17 09:45",
+      "value": 0.6871
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt502.jpg",
@@ -1482,43 +1575,43 @@
      },
      {
       "amt": 150,
-      "left": 637,
-      "odds_now": 338.19,
+      "left": 636,
+      "odds_now": 338.07,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 75,
-      "left": 640,
-      "odds_now": 336.6,
+      "left": 637,
+      "odds_now": 337.54,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 15,
-      "left": 1940,
-      "odds_now": 111.04,
+      "left": 1936,
+      "odds_now": 111.06,
       "odds_start": 103.92,
       "total": 11025
      },
      {
       "amt": 5,
-      "left": 3405,
-      "odds_now": 63.27,
+      "left": 3399,
+      "odds_now": 63.26,
       "odds_start": 62.35,
       "total": 18375
      },
      {
       "amt": 4,
-      "left": 10116,
-      "odds_now": 21.3,
+      "left": 10088,
+      "odds_now": 21.31,
       "odds_start": 20.78,
       "total": 55125
      },
      {
       "amt": 2,
-      "left": 33014,
-      "odds_now": 6.53,
+      "left": 32961,
+      "odds_now": 6.52,
       "odds_start": 6.63,
       "total": 172725
      }
@@ -1526,22 +1619,22 @@
     "rating": "Poor",
     "score": 25,
     "since": {
-     "biggest_claimed": 75,
-     "claimed": 63,
+     "biggest_claimed": 150,
+     "claimed": 95,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 273
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 412
     },
-    "value": 1.3748,
+    "value": 1.3742,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "502-777",
    "status": "active"
   },
@@ -1551,7 +1644,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.1648,
+     "mid": 0.1649,
      "small": 0.2665,
      "top": {
       "big": null,
@@ -1560,7 +1653,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 107845,
+    "est_left": 107780,
     "fresh_value": 0.7287,
     "history": [
      {
@@ -1737,6 +1830,20 @@
       "score": 7,
       "t": "2026-10-16 09:45",
       "value": 0.4313
+     },
+     {
+      "jackpot": 8000,
+      "left_pct": 3.3,
+      "score": 7,
+      "t": "2026-10-16 16:10",
+      "value": 0.4313
+     },
+     {
+      "jackpot": 8000,
+      "left_pct": 3.2,
+      "score": 7,
+      "t": "2026-10-17 09:45",
+      "value": 0.4314
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt505.jpg",
@@ -1758,41 +1865,41 @@
      {
       "amt": 100,
       "left": 67,
-      "odds_now": 1609.63,
+      "odds_now": 1608.66,
       "odds_start": 540.54,
       "total": 6136
      },
      {
       "amt": 50,
       "left": 131,
-      "odds_now": 823.24,
+      "odds_now": 822.75,
       "odds_start": 270.27,
       "total": 12272
      },
      {
       "amt": 10,
       "left": 452,
-      "odds_now": 238.6,
+      "odds_now": 238.45,
       "odds_start": 135.14,
       "total": 24544
      },
      {
       "amt": 5,
       "left": 663,
-      "odds_now": 162.66,
+      "odds_now": 162.56,
       "odds_start": 108.11,
       "total": 30680
      },
      {
       "amt": 2,
-      "left": 3394,
-      "odds_now": 31.78,
+      "left": 3392,
+      "odds_now": 31.77,
       "odds_start": 27.03,
       "total": 122720
      },
      {
       "amt": 1,
-      "left": 18636,
+      "left": 18624,
       "odds_now": 5.79,
       "odds_start": 6.36,
       "total": 521560
@@ -1801,22 +1908,22 @@
     "rating": "Poor",
     "score": 7,
     "since": {
-     "biggest_claimed": 1,
-     "claimed": 4,
+     "biggest_claimed": 2,
+     "claimed": 14,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 19
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 65
     },
-    "value": 0.4313,
+    "value": 0.4314,
     "vs_scratchers": {
      "better": 6,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "505-detroit-lions-multiplier",
    "status": "active"
   },
@@ -1826,7 +1933,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.8043,
+     "mid": 0.8036,
      "small": 0.5727,
      "top": {
       "big": null,
@@ -1835,7 +1942,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 232500,
+    "est_left": 231469,
     "fresh_value": 1.4668,
     "history": [
      {
@@ -2012,6 +2119,20 @@
       "score": 25,
       "t": "2026-10-16 09:45",
       "value": 0.6885
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 20.6,
+      "score": 25,
+      "t": "2026-10-16 16:10",
+      "value": 0.6885
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 20.5,
+      "score": 25,
+      "t": "2026-10-17 09:45",
+      "value": 0.6881
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt506.jpg",
@@ -2032,42 +2153,42 @@
      },
      {
       "amt": 150,
-      "left": 689,
-      "odds_now": 337.45,
+      "left": 684,
+      "odds_now": 338.4,
       "odds_start": 311.76,
       "total": 3619
      },
      {
       "amt": 75,
-      "left": 691,
-      "odds_now": 336.47,
+      "left": 690,
+      "odds_now": 335.46,
       "odds_start": 311.76,
       "total": 3619
      },
      {
       "amt": 15,
-      "left": 2121,
-      "odds_now": 109.62,
+      "left": 2110,
+      "odds_now": 109.7,
       "odds_start": 103.92,
       "total": 10857
      },
      {
       "amt": 5,
-      "left": 3666,
-      "odds_now": 63.42,
+      "left": 3647,
+      "odds_now": 63.47,
       "odds_start": 62.35,
       "total": 18095
      },
      {
       "amt": 4,
-      "left": 10886,
+      "left": 10838,
       "odds_now": 21.36,
       "odds_start": 20.78,
       "total": 54285
      },
      {
       "amt": 2,
-      "left": 35642,
+      "left": 35488,
       "odds_now": 6.52,
       "odds_start": 6.63,
       "total": 170093
@@ -2077,21 +2198,21 @@
     "score": 25,
     "since": {
      "biggest_claimed": 150,
-     "claimed": 284,
+     "claimed": 238,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1230
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 1031
     },
-    "value": 1.377,
+    "value": 1.3763,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "506-disco-dollars",
    "status": "active"
   },
@@ -2101,8 +2222,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 1.7955,
-     "small": 1.575,
+     "mid": 1.79,
+     "small": 1.5751,
      "top": {
       "big": null,
       "mid": 200,
@@ -2110,7 +2231,7 @@
      }
     },
     "cost": 5.0,
-    "est_left": 100239,
+    "est_left": 100054,
     "fresh_value": 3.7432,
     "history": [
      {
@@ -2287,6 +2408,20 @@
       "score": 29,
       "t": "2026-10-16 09:45",
       "value": 0.6741
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 15.3,
+      "score": 29,
+      "t": "2026-10-16 16:10",
+      "value": 0.6741
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 15.3,
+      "score": 29,
+      "t": "2026-10-17 09:45",
+      "value": 0.673
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt507.jpg",
@@ -2307,42 +2442,42 @@
      },
      {
       "amt": 200,
-      "left": 549,
-      "odds_now": 182.58,
+      "left": 546,
+      "odds_now": 183.25,
       "odds_start": 156.09,
       "total": 4200
      },
      {
       "amt": 75,
-      "left": 563,
-      "odds_now": 178.04,
+      "left": 560,
+      "odds_now": 178.67,
       "odds_start": 156.09,
       "total": 4200
      },
      {
       "amt": 50,
-      "left": 559,
-      "odds_now": 179.32,
+      "left": 558,
+      "odds_now": 179.31,
       "odds_start": 156.09,
       "total": 4200
      },
      {
       "amt": 15,
-      "left": 1833,
-      "odds_now": 54.69,
+      "left": 1829,
+      "odds_now": 54.7,
       "odds_start": 52.03,
       "total": 12600
      },
      {
       "amt": 10,
-      "left": 1967,
-      "odds_now": 50.96,
+      "left": 1963,
+      "odds_now": 50.97,
       "odds_start": 52.03,
       "total": 12600
      },
      {
       "amt": 5,
-      "left": 22143,
+      "left": 22107,
       "odds_now": 4.53,
       "odds_start": 4.59,
       "total": 142800
@@ -2351,22 +2486,22 @@
     "rating": "Poor",
     "score": 29,
     "since": {
-     "biggest_claimed": 75,
-     "claimed": 32,
+     "biggest_claimed": 200,
+     "claimed": 51,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 116
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 185
     },
-    "value": 3.3705,
+    "value": 3.3652,
     "vs_scratchers": {
      "better": 28,
      "of": 31
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "507-30000-thrill",
    "status": "active"
   },
@@ -2376,7 +2511,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.0718,
+     "mid": 0.0715,
      "small": 0.2317,
      "top": {
       "big": null,
@@ -2385,7 +2520,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 83085,
+    "est_left": 82893,
     "fresh_value": 0.3508,
     "history": [
      {
@@ -2562,6 +2697,20 @@
       "score": 15,
       "t": "2026-10-16 09:45",
       "value": 0.607
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 4.1,
+      "score": 15,
+      "t": "2026-10-16 16:10",
+      "value": 0.607
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 4.1,
+      "score": 15,
+      "t": "2026-10-17 09:45",
+      "value": 0.6066
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt508.jpg",
@@ -2583,35 +2732,35 @@
      {
       "amt": 40,
       "left": 67,
-      "odds_now": 1240.07,
+      "odds_now": 1237.21,
       "odds_start": 756.0,
       "total": 2700
      },
      {
       "amt": 20,
       "left": 54,
-      "odds_now": 1538.61,
+      "odds_now": 1535.06,
       "odds_start": 756.0,
       "total": 2700
      },
      {
       "amt": 5,
-      "left": 441,
-      "odds_now": 188.4,
+      "left": 434,
+      "odds_now": 191.0,
       "odds_start": 151.2,
       "total": 13500
      },
      {
       "amt": 2,
-      "left": 3329,
-      "odds_now": 24.96,
+      "left": 3318,
+      "odds_now": 24.98,
       "odds_start": 21.6,
       "total": 94500
      },
      {
       "amt": 1,
-      "left": 12594,
-      "odds_now": 6.6,
+      "left": 12574,
+      "odds_now": 6.59,
       "odds_start": 7.0,
       "total": 291600
      }
@@ -2619,19 +2768,19 @@
     "rating": "Poor",
     "score": 15,
     "since": {
-     "biggest_claimed": 40,
-     "claimed": 47,
+     "biggest_claimed": 5,
+     "claimed": 38,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 237
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 192
     },
-    "value": 0.3035,
+    "value": 0.3033,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "508-cash-a-pillar",
    "status": "active"
   },
@@ -2650,7 +2799,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 967340,
+    "est_left": 966648,
     "fresh_value": 0.7108,
     "history": [
      {
@@ -2827,6 +2976,20 @@
       "score": 57,
       "t": "2026-10-16 09:45",
       "value": 0.6949
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 31.0,
+      "score": 57,
+      "t": "2026-10-16 16:10",
+      "value": 0.6949
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 31.0,
+      "score": 57,
+      "t": "2026-10-17 09:45",
+      "value": 0.6949
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt509.jpg",
@@ -2841,48 +3004,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 967340.0,
+      "odds_now": 966648.0,
       "odds_start": 1040738.0,
       "total": 3
      },
      {
       "amt": 100,
-      "left": 1716,
-      "odds_now": 563.72,
+      "left": 1715,
+      "odds_now": 563.64,
       "odds_start": 540.36,
       "total": 5778
      },
      {
       "amt": 50,
-      "left": 1735,
-      "odds_now": 557.54,
+      "left": 1732,
+      "odds_now": 558.11,
       "odds_start": 540.36,
       "total": 5778
      },
      {
       "amt": 10,
-      "left": 8674,
-      "odds_now": 111.52,
+      "left": 8666,
+      "odds_now": 111.54,
       "odds_start": 108.07,
       "total": 28890
      },
      {
       "amt": 5,
-      "left": 26097,
-      "odds_now": 37.07,
+      "left": 26080,
+      "odds_now": 37.06,
       "odds_start": 36.02,
       "total": 86670
      },
      {
       "amt": 2,
-      "left": 24820,
+      "left": 24806,
       "odds_now": 38.97,
       "odds_start": 38.6,
       "total": 80892
      },
      {
       "amt": 1,
-      "left": 141037,
+      "left": 140934,
       "odds_now": 6.86,
       "odds_start": 6.93,
       "total": 450684
@@ -2891,14 +3054,14 @@
     "rating": "Poor",
     "score": 57,
     "since": {
-     "biggest_claimed": 10,
-     "claimed": 56,
+     "biggest_claimed": 100,
+     "claimed": 146,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 265
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 692
     },
     "value": 0.6949,
     "vs_scratchers": {
@@ -2906,7 +3069,7 @@
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "509-jolly-roger",
    "status": "active"
   },
@@ -2916,8 +3079,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.6919,
-     "small": 0.5704,
+     "mid": 0.6929,
+     "small": 0.5702,
      "top": {
       "big": null,
       "mid": 150,
@@ -2925,7 +3088,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 91428,
+    "est_left": 89714,
     "fresh_value": 1.4666,
     "history": [
      {
@@ -3102,6 +3265,20 @@
       "score": 22,
       "t": "2026-10-16 09:45",
       "value": 0.6312
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 8.1,
+      "score": 22,
+      "t": "2026-10-16 16:10",
+      "value": 0.6312
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 7.9,
+      "score": 22,
+      "t": "2026-10-17 09:45",
+      "value": 0.6315
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt510.jpg",
@@ -3122,43 +3299,43 @@
      },
      {
       "amt": 150,
-      "left": 232,
-      "odds_now": 394.09,
+      "left": 230,
+      "odds_now": 390.06,
       "odds_start": 311.76,
       "total": 3643
      },
      {
       "amt": 75,
-      "left": 231,
-      "odds_now": 395.79,
+      "left": 224,
+      "odds_now": 400.51,
       "odds_start": 311.76,
       "total": 3643
      },
      {
       "amt": 15,
-      "left": 742,
-      "odds_now": 123.22,
+      "left": 724,
+      "odds_now": 123.91,
       "odds_start": 103.92,
       "total": 10929
      },
      {
       "amt": 5,
-      "left": 1355,
-      "odds_now": 67.47,
+      "left": 1321,
+      "odds_now": 67.91,
       "odds_start": 62.35,
       "total": 18215
      },
      {
       "amt": 4,
-      "left": 4135,
-      "odds_now": 22.11,
+      "left": 4054,
+      "odds_now": 22.13,
       "odds_start": 20.78,
       "total": 54645
      },
      {
       "amt": 2,
-      "left": 14420,
-      "odds_now": 6.34,
+      "left": 14166,
+      "odds_now": 6.33,
       "odds_start": 6.63,
       "total": 171221
      }
@@ -3167,21 +3344,21 @@
     "score": 22,
     "since": {
      "biggest_claimed": 150,
-     "claimed": 225,
+     "claimed": 396,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 975
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 1714
     },
-    "value": 1.2623,
+    "value": 1.263,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "510-suit-up",
    "status": "active"
   },
@@ -3189,9 +3366,9 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0826,
+     "big": 0.0828,
      "jackpot": 0.0,
-     "mid": 1.9872,
+     "mid": 1.9874,
      "small": 1.5707,
      "top": {
       "big": 30000,
@@ -3200,7 +3377,7 @@
      }
     },
     "cost": 5.0,
-    "est_left": 363055,
+    "est_left": 362529,
     "fresh_value": 3.7391,
     "history": [
      {
@@ -3377,6 +3554,20 @@
       "score": 48,
       "t": "2026-10-16 09:45",
       "value": 0.7281
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 35.2,
+      "score": 48,
+      "t": "2026-10-16 16:10",
+      "value": 0.7281
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 35.2,
+      "score": 48,
+      "t": "2026-10-17 09:45",
+      "value": 0.7282
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt511.jpg",
@@ -3391,48 +3582,48 @@
      {
       "amt": 30000,
       "left": 1,
-      "odds_now": 363055.0,
+      "odds_now": 362529.0,
       "odds_start": 343349.67,
       "total": 3
      },
      {
       "amt": 200,
-      "left": 2217,
-      "odds_now": 163.76,
+      "left": 2214,
+      "odds_now": 163.74,
       "odds_start": 156.09,
       "total": 6599
      },
      {
       "amt": 75,
-      "left": 2224,
-      "odds_now": 163.24,
+      "left": 2221,
+      "odds_now": 163.23,
       "odds_start": 156.09,
       "total": 6599
      },
      {
       "amt": 50,
-      "left": 2225,
-      "odds_now": 163.17,
+      "left": 2222,
+      "odds_now": 163.15,
       "odds_start": 156.09,
       "total": 6599
      },
      {
       "amt": 15,
-      "left": 6870,
-      "odds_now": 52.85,
+      "left": 6861,
+      "odds_now": 52.84,
       "odds_start": 52.03,
       "total": 19797
      },
      {
       "amt": 10,
-      "left": 6962,
+      "left": 6951,
       "odds_now": 52.15,
       "odds_start": 52.03,
       "total": 19797
      },
      {
       "amt": 5,
-      "left": 79516,
+      "left": 79400,
       "odds_now": 4.57,
       "odds_start": 4.59,
       "total": 224366
@@ -3442,21 +3633,21 @@
     "score": 48,
     "since": {
      "biggest_claimed": 200,
-     "claimed": 129,
+     "claimed": 145,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 468
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 526
     },
-    "value": 3.6405,
+    "value": 3.6408,
     "vs_scratchers": {
      "better": 3,
      "of": 31
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "511-bonus-money",
    "status": "active"
   },
@@ -3466,8 +3657,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.183,
-     "small": 0.2965,
+     "mid": 0.1822,
+     "small": 0.2962,
      "top": {
       "big": null,
       "mid": 100,
@@ -3475,7 +3666,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 69399,
+    "est_left": 68825,
     "fresh_value": 0.7107,
     "history": [
      {
@@ -3652,6 +3843,20 @@
       "score": 13,
       "t": "2026-10-16 09:45",
       "value": 0.4795
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.3,
+      "score": 13,
+      "t": "2026-10-16 16:10",
+      "value": 0.4795
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.2,
+      "score": 13,
+      "t": "2026-10-17 09:45",
+      "value": 0.4784
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt512.jpg",
@@ -3672,43 +3877,43 @@
      },
      {
       "amt": 100,
-      "left": 56,
-      "odds_now": 1239.27,
+      "left": 55,
+      "odds_now": 1251.36,
       "odds_start": 540.36,
       "total": 3928
      },
      {
       "amt": 50,
       "left": 61,
-      "odds_now": 1137.69,
+      "odds_now": 1128.28,
       "odds_start": 540.36,
       "total": 3928
      },
      {
       "amt": 10,
-      "left": 405,
-      "odds_now": 171.36,
+      "left": 399,
+      "odds_now": 172.49,
       "odds_start": 108.07,
       "total": 19640
      },
      {
       "amt": 5,
-      "left": 1220,
-      "odds_now": 56.88,
+      "left": 1208,
+      "odds_now": 56.97,
       "odds_start": 36.02,
       "total": 58920
      },
      {
       "amt": 2,
-      "left": 1578,
-      "odds_now": 43.98,
+      "left": 1552,
+      "odds_now": 44.35,
       "odds_start": 38.6,
       "total": 54992
      },
      {
       "amt": 1,
-      "left": 11321,
-      "odds_now": 6.13,
+      "left": 11245,
+      "odds_now": 6.12,
       "odds_start": 6.93,
       "total": 306384
      }
@@ -3716,22 +3921,22 @@
     "rating": "Poor",
     "score": 13,
     "since": {
-     "biggest_claimed": 10,
-     "claimed": 47,
+     "biggest_claimed": 100,
+     "claimed": 121,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 223
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 574
     },
-    "value": 0.4795,
+    "value": 0.4784,
     "vs_scratchers": {
      "better": 6,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "512-dice-n-daggers",
    "status": "active"
   },
@@ -3741,7 +3946,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.4133,
+     "mid": 0.413,
      "small": 0.57,
      "top": {
       "big": null,
@@ -3750,7 +3955,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 49401,
+    "est_left": 49211,
     "fresh_value": 1.4664,
     "history": [
      {
@@ -3927,6 +4132,20 @@
       "score": 13,
       "t": "2026-10-16 09:45",
       "value": 0.4916
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 4.3,
+      "score": 13,
+      "t": "2026-10-16 16:10",
+      "value": 0.4916
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 4.3,
+      "score": 13,
+      "t": "2026-10-17 09:45",
+      "value": 0.4915
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt513.jpg",
@@ -3948,42 +4167,42 @@
      {
       "amt": 150,
       "left": 71,
-      "odds_now": 695.79,
+      "odds_now": 693.11,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 75,
-      "left": 70,
-      "odds_now": 705.73,
+      "left": 69,
+      "odds_now": 713.2,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 15,
-      "left": 301,
-      "odds_now": 164.12,
+      "left": 300,
+      "odds_now": 164.04,
       "odds_start": 103.92,
       "total": 11025
      },
      {
       "amt": 5,
-      "left": 690,
-      "odds_now": 71.6,
+      "left": 685,
+      "odds_now": 71.84,
       "odds_start": 62.35,
       "total": 18375
      },
      {
       "amt": 4,
-      "left": 2077,
-      "odds_now": 23.78,
+      "left": 2073,
+      "odds_now": 23.74,
       "odds_start": 20.78,
       "total": 55125
      },
      {
       "amt": 2,
-      "left": 8200,
-      "odds_now": 6.02,
+      "left": 8167,
+      "odds_now": 6.03,
       "odds_start": 6.63,
       "total": 172725
      }
@@ -3991,22 +4210,22 @@
     "rating": "Poor",
     "score": 13,
     "since": {
-     "biggest_claimed": 5,
-     "claimed": 22,
+     "biggest_claimed": 75,
+     "claimed": 44,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 96
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 190
     },
-    "value": 0.9832,
+    "value": 0.983,
     "vs_scratchers": {
      "better": 15,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "513-buck-wild",
    "status": "active"
   },
@@ -4016,7 +4235,7 @@
     "bands": {
      "big": 0.0057,
      "jackpot": 0.0,
-     "mid": 0.354,
+     "mid": 0.3541,
      "small": 0.332,
      "top": {
       "big": 6000,
@@ -4025,7 +4244,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 1051669,
+    "est_left": 1050982,
     "fresh_value": 0.7108,
     "history": [
      {
@@ -4202,6 +4421,20 @@
       "score": 45,
       "t": "2026-10-16 09:45",
       "value": 0.6918
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 33.2,
+      "score": 45,
+      "t": "2026-10-16 16:10",
+      "value": 0.6918
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 33.1,
+      "score": 45,
+      "t": "2026-10-17 09:45",
+      "value": 0.6918
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt514.jpg",
@@ -4216,48 +4449,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 1051669.0,
+      "odds_now": 1050982.0,
       "odds_start": 1056949.0,
       "total": 3
      },
      {
       "amt": 100,
-      "left": 1855,
-      "odds_now": 566.94,
+      "left": 1854,
+      "odds_now": 566.87,
       "odds_start": 540.36,
       "total": 5868
      },
      {
       "amt": 50,
       "left": 1857,
-      "odds_now": 566.33,
+      "odds_now": 565.96,
       "odds_start": 540.36,
       "total": 5868
      },
      {
       "amt": 10,
-      "left": 9397,
-      "odds_now": 111.92,
+      "left": 9387,
+      "odds_now": 111.96,
       "odds_start": 108.07,
       "total": 29340
      },
      {
       "amt": 5,
-      "left": 28385,
-      "odds_now": 37.05,
+      "left": 28362,
+      "odds_now": 37.06,
       "odds_start": 36.02,
       "total": 88020
      },
      {
       "amt": 2,
-      "left": 26876,
-      "odds_now": 39.13,
+      "left": 26863,
+      "odds_now": 39.12,
       "odds_start": 38.6,
       "total": 82152
      },
      {
       "amt": 1,
-      "left": 153500,
+      "left": 153402,
       "odds_now": 6.85,
       "odds_start": 6.93,
       "total": 457704
@@ -4266,14 +4499,14 @@
     "rating": "Poor",
     "score": 45,
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 96,
+     "biggest_claimed": 100,
+     "claimed": 145,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": -11,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 455
+     "score_change": 0,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 687
     },
     "value": 0.6918,
     "vs_scratchers": {
@@ -4281,7 +4514,7 @@
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "514-silver-gold",
    "status": "active"
   },
@@ -4291,8 +4524,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.4262,
-     "small": 0.5655,
+     "mid": 0.427,
+     "small": 0.5656,
      "top": {
       "big": null,
       "mid": 150,
@@ -4300,7 +4533,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 45327,
+    "est_left": 45106,
     "fresh_value": 1.4664,
     "history": [
      {
@@ -4477,6 +4710,20 @@
       "score": 13,
       "t": "2026-10-16 09:45",
       "value": 0.4959
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 4.0,
+      "score": 13,
+      "t": "2026-10-16 16:10",
+      "value": 0.4959
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 3.9,
+      "score": 13,
+      "t": "2026-10-17 09:45",
+      "value": 0.4963
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt515.jpg",
@@ -4498,41 +4745,41 @@
      {
       "amt": 150,
       "left": 62,
-      "odds_now": 731.08,
+      "odds_now": 727.52,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 75,
       "left": 74,
-      "odds_now": 612.53,
+      "odds_now": 609.54,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 15,
-      "left": 298,
-      "odds_now": 152.1,
+      "left": 294,
+      "odds_now": 153.42,
       "odds_start": 103.92,
       "total": 11025
      },
      {
       "amt": 5,
-      "left": 625,
-      "odds_now": 72.52,
+      "left": 624,
+      "odds_now": 72.29,
       "odds_start": 62.35,
       "total": 18375
      },
      {
       "amt": 4,
-      "left": 1844,
-      "odds_now": 24.58,
+      "left": 1832,
+      "odds_now": 24.62,
       "odds_start": 20.78,
       "total": 55125
      },
      {
       "amt": 2,
-      "left": 7565,
+      "left": 7531,
       "odds_now": 5.99,
       "odds_start": 6.63,
       "total": 172725
@@ -4541,22 +4788,22 @@
     "rating": "Poor",
     "score": 13,
     "since": {
-     "biggest_claimed": 150,
-     "claimed": 37,
+     "biggest_claimed": 15,
+     "claimed": 51,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 160
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 221
     },
-    "value": 0.9917,
+    "value": 0.9926,
     "vs_scratchers": {
      "better": 15,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "515-radiant-rubies",
    "status": "active"
   },
@@ -4566,7 +4813,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.2175,
+     "mid": 0.2177,
      "small": 0.2895,
      "top": {
       "big": null,
@@ -4575,7 +4822,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 73731,
+    "est_left": 73670,
     "fresh_value": 0.7108,
     "history": [
      {
@@ -4752,6 +4999,20 @@
       "score": 13,
       "t": "2026-10-16 09:45",
       "value": 0.507
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.5,
+      "score": 13,
+      "t": "2026-10-16 16:10",
+      "value": 0.507
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.5,
+      "score": 13,
+      "t": "2026-10-17 09:45",
+      "value": 0.5072
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt516.jpg",
@@ -4773,41 +5034,41 @@
      {
       "amt": 100,
       "left": 65,
-      "odds_now": 1134.32,
+      "odds_now": 1133.38,
       "odds_start": 540.36,
       "total": 3883
      },
      {
       "amt": 50,
       "left": 108,
-      "odds_now": 682.69,
+      "odds_now": 682.13,
       "odds_start": 540.36,
       "total": 3883
      },
      {
       "amt": 10,
       "left": 414,
-      "odds_now": 178.09,
+      "odds_now": 177.95,
       "odds_start": 108.07,
       "total": 19415
      },
      {
       "amt": 5,
       "left": 1176,
-      "odds_now": 62.7,
+      "odds_now": 62.64,
       "odds_start": 36.02,
       "total": 58245
      },
      {
       "amt": 2,
-      "left": 1670,
-      "odds_now": 44.15,
+      "left": 1668,
+      "odds_now": 44.17,
       "odds_start": 38.6,
       "total": 54362
      },
      {
       "amt": 1,
-      "left": 12122,
+      "left": 12111,
       "odds_now": 6.08,
       "odds_start": 6.93,
       "total": 302874
@@ -4816,22 +5077,22 @@
     "rating": "Poor",
     "score": 13,
     "since": {
-     "biggest_claimed": 1,
-     "claimed": 3,
+     "biggest_claimed": 2,
+     "claimed": 13,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 14
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 61
     },
-    "value": 0.507,
+    "value": 0.5072,
     "vs_scratchers": {
      "better": 6,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "516-cash-cannon",
    "status": "active"
   },
@@ -4839,10 +5100,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0801,
+     "big": 0.0807,
      "jackpot": 0.0,
-     "mid": 2.0584,
-     "small": 1.5703,
+     "mid": 2.0589,
+     "small": 1.5702,
      "top": {
       "big": 30000,
       "mid": 200,
@@ -4850,7 +5111,7 @@
      }
     },
     "cost": 5.0,
-    "est_left": 749418,
+    "est_left": 743453,
     "fresh_value": 3.7413,
     "history": [
      {
@@ -5027,12 +5288,26 @@
       "score": 58,
       "t": "2026-10-16 09:45",
       "value": 0.7418
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 74.6,
+      "score": 58,
+      "t": "2026-10-16 16:10",
+      "value": 0.7418
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 74.0,
+      "score": 58,
+      "t": "2026-10-17 09:45",
+      "value": 0.742
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt518.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 75,
+    "left_pct": 74,
     "n": "518",
     "name": "Cash Roll",
     "odds": 3.63,
@@ -5041,48 +5316,48 @@
      {
       "amt": 30000,
       "left": 2,
-      "odds_now": 374709.0,
+      "odds_now": 371726.5,
       "odds_start": 334868.67,
       "total": 3
      },
      {
       "amt": 200,
-      "left": 4737,
-      "odds_now": 158.21,
+      "left": 4701,
+      "odds_now": 158.15,
       "odds_start": 156.09,
       "total": 6436
      },
      {
       "amt": 75,
-      "left": 4759,
-      "odds_now": 157.47,
+      "left": 4725,
+      "odds_now": 157.34,
       "odds_start": 156.09,
       "total": 6436
      },
      {
       "amt": 50,
-      "left": 4766,
-      "odds_now": 157.24,
+      "left": 4722,
+      "odds_now": 157.44,
       "odds_start": 156.09,
       "total": 6436
      },
      {
       "amt": 15,
-      "left": 14371,
-      "odds_now": 52.15,
+      "left": 14250,
+      "odds_now": 52.17,
       "odds_start": 52.03,
       "total": 19308
      },
      {
       "amt": 10,
-      "left": 14429,
+      "left": 14314,
       "odds_now": 51.94,
       "odds_start": 52.03,
       "total": 19308
      },
      {
       "amt": 5,
-      "left": 163387,
+      "left": 162094,
       "odds_now": 4.59,
       "odds_start": 4.59,
       "total": 218824
@@ -5092,21 +5367,21 @@
     "score": 58,
     "since": {
      "biggest_claimed": 200,
-     "claimed": 1210,
+     "claimed": 1643,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 4392
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 5965
     },
-    "value": 3.7088,
+    "value": 3.7098,
     "vs_scratchers": {
      "better": 2,
      "of": 31
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "518-cash-roll",
    "status": "active"
   },
@@ -5116,8 +5391,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.5087,
-     "small": 0.5699,
+     "mid": 0.5063,
+     "small": 0.5701,
      "top": {
       "big": null,
       "mid": 150,
@@ -5125,7 +5400,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 47743,
+    "est_left": 47609,
     "fresh_value": 1.4664,
     "history": [
      {
@@ -5302,6 +5577,20 @@
       "score": 19,
       "t": "2026-10-16 09:45",
       "value": 0.5393
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 4.2,
+      "score": 19,
+      "t": "2026-10-16 16:10",
+      "value": 0.5393
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 4.2,
+      "score": 19,
+      "t": "2026-10-17 09:45",
+      "value": 0.5382
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt519.jpg",
@@ -5323,41 +5612,41 @@
      {
       "amt": 150,
       "left": 94,
-      "odds_now": 507.9,
+      "odds_now": 506.48,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 75,
-      "left": 71,
-      "odds_now": 672.44,
+      "left": 69,
+      "odds_now": 689.99,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 15,
-      "left": 324,
-      "odds_now": 147.35,
+      "left": 322,
+      "odds_now": 147.85,
       "odds_start": 103.92,
       "total": 11025
      },
      {
       "amt": 5,
       "left": 779,
-      "odds_now": 61.29,
+      "odds_now": 61.12,
       "odds_start": 62.35,
       "total": 18375
      },
      {
       "amt": 4,
-      "left": 1899,
-      "odds_now": 25.14,
+      "left": 1892,
+      "odds_now": 25.16,
       "odds_start": 20.78,
       "total": 55125
      },
      {
       "amt": 2,
-      "left": 7859,
+      "left": 7839,
       "odds_now": 6.07,
       "odds_start": 6.63,
       "total": 172725
@@ -5366,22 +5655,22 @@
     "rating": "Poor",
     "score": 19,
     "since": {
-     "biggest_claimed": 150,
-     "claimed": 16,
+     "biggest_claimed": 75,
+     "claimed": 31,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 69
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 134
     },
-    "value": 1.0786,
+    "value": 1.0764,
     "vs_scratchers": {
      "better": 15,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "519-reel-lucky",
    "status": "active"
   },
@@ -5400,7 +5689,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 770620,
+    "est_left": 768682,
     "fresh_value": 0.7105,
     "history": [
      {
@@ -5577,6 +5866,20 @@
       "score": 57,
       "t": "2026-10-16 09:45",
       "value": 0.6845
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 23.3,
+      "score": 57,
+      "t": "2026-10-16 16:10",
+      "value": 0.6845
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 23.2,
+      "score": 57,
+      "t": "2026-10-17 09:45",
+      "value": 0.6845
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt520.jpg",
@@ -5591,48 +5894,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 770620.0,
+      "odds_now": 768682.0,
       "odds_start": 1104140.33,
       "total": 3
      },
      {
       "amt": 100,
-      "left": 1307,
-      "odds_now": 589.61,
+      "left": 1304,
+      "odds_now": 589.48,
       "odds_start": 540.36,
       "total": 6130
      },
      {
       "amt": 50,
-      "left": 1370,
-      "odds_now": 562.5,
+      "left": 1366,
+      "odds_now": 562.72,
       "odds_start": 540.36,
       "total": 6130
      },
      {
       "amt": 10,
-      "left": 6743,
-      "odds_now": 114.28,
+      "left": 6725,
+      "odds_now": 114.3,
       "odds_start": 108.07,
       "total": 30650
      },
      {
       "amt": 5,
-      "left": 20492,
-      "odds_now": 37.61,
+      "left": 20445,
+      "odds_now": 37.6,
       "odds_start": 36.02,
       "total": 91950
      },
      {
       "amt": 2,
-      "left": 19722,
+      "left": 19673,
       "odds_now": 39.07,
       "odds_start": 38.6,
       "total": 85820
      },
      {
       "amt": 1,
-      "left": 112943,
+      "left": 112655,
       "odds_now": 6.82,
       "odds_start": 6.93,
       "total": 478140
@@ -5642,13 +5945,13 @@
     "score": 57,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 201,
+     "claimed": 409,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 953
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 1938
     },
     "value": 0.6845,
     "vs_scratchers": {
@@ -5656,7 +5959,7 @@
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "520-serious-cheddar",
    "status": "active"
   },
@@ -5664,10 +5967,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0758,
+     "big": 0.0759,
      "jackpot": 0.0,
      "mid": 0.1602,
-     "small": 0.3,
+     "small": 0.3001,
      "top": {
       "big": 6000,
       "mid": 100,
@@ -5675,7 +5978,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 79173,
+    "est_left": 79064,
     "fresh_value": 0.7104,
     "history": [
      {
@@ -5852,6 +6155,20 @@
       "score": 57,
       "t": "2026-10-16 09:45",
       "value": 0.5359
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.5,
+      "score": 57,
+      "t": "2026-10-16 16:10",
+      "value": 0.5359
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.5,
+      "score": 57,
+      "t": "2026-10-17 09:45",
+      "value": 0.5362
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt521.jpg",
@@ -5866,48 +6183,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 79173.0,
+      "odds_now": 79064.0,
       "odds_start": 1134760.5,
       "total": 2
      },
      {
       "amt": 100,
       "left": 64,
-      "odds_now": 1237.08,
+      "odds_now": 1235.38,
       "odds_start": 540.36,
       "total": 4200
      },
      {
       "amt": 50,
       "left": 51,
-      "odds_now": 1552.41,
+      "odds_now": 1550.27,
       "odds_start": 540.36,
       "total": 4200
      },
      {
       "amt": 10,
-      "left": 373,
-      "odds_now": 212.26,
+      "left": 372,
+      "odds_now": 212.54,
       "odds_start": 108.07,
       "total": 21000
      },
      {
       "amt": 5,
       "left": 1419,
-      "odds_now": 55.79,
+      "odds_now": 55.72,
       "odds_start": 36.02,
       "total": 63000
      },
      {
       "amt": 2,
-      "left": 1862,
-      "odds_now": 42.52,
+      "left": 1857,
+      "odds_now": 42.58,
       "odds_start": 38.6,
       "total": 58800
      },
      {
       "amt": 1,
-      "left": 12933,
+      "left": 12916,
       "odds_now": 6.12,
       "odds_start": 6.93,
       "total": 327600
@@ -5917,21 +6234,21 @@
     "score": 57,
     "since": {
      "biggest_claimed": 10,
-     "claimed": 29,
+     "claimed": 23,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 137
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 109
     },
-    "value": 0.5359,
+    "value": 0.5362,
     "vs_scratchers": {
      "better": 6,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "521-talk-birdie-to-me",
    "status": "active"
   },
@@ -5939,9 +6256,9 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0334,
+     "big": 0.0337,
      "jackpot": 0.0,
-     "mid": 0.8552,
+     "mid": 0.8558,
      "small": 0.5741,
      "top": {
       "big": 15000,
@@ -5950,7 +6267,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 898463,
+    "est_left": 890123,
     "fresh_value": 1.4664,
     "history": [
      {
@@ -6127,6 +6444,20 @@
       "score": 76,
       "t": "2026-10-16 09:45",
       "value": 0.7313
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 78.4,
+      "score": 76,
+      "t": "2026-10-16 16:10",
+      "value": 0.7313
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 77.7,
+      "score": 76,
+      "t": "2026-10-17 09:45",
+      "value": 0.7318
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt522.jpg",
@@ -6141,48 +6472,48 @@
      {
       "amt": 15000,
       "left": 2,
-      "odds_now": 449231.5,
+      "odds_now": 445061.5,
       "odds_start": 572863.5,
       "total": 2
      },
      {
       "amt": 150,
-      "left": 2833,
-      "odds_now": 317.14,
+      "left": 2810,
+      "odds_now": 316.77,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 75,
-      "left": 2861,
-      "odds_now": 314.04,
+      "left": 2836,
+      "odds_now": 313.87,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 15,
-      "left": 8587,
-      "odds_now": 104.63,
+      "left": 8505,
+      "odds_now": 104.66,
       "odds_start": 103.92,
       "total": 11025
      },
      {
       "amt": 5,
-      "left": 14361,
-      "odds_now": 62.56,
+      "left": 14216,
+      "odds_now": 62.61,
       "odds_start": 62.35,
       "total": 18375
      },
      {
       "amt": 4,
-      "left": 43170,
-      "odds_now": 20.81,
+      "left": 42759,
+      "odds_now": 20.82,
       "odds_start": 20.78,
       "total": 55125
      },
      {
       "amt": 2,
-      "left": 135683,
+      "left": 134443,
       "odds_now": 6.62,
       "odds_start": 6.63,
       "total": 172725
@@ -6192,21 +6523,21 @@
     "score": 76,
     "since": {
      "biggest_claimed": 150,
-     "claimed": 1161,
+     "claimed": 1926,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 9,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 5027
+     "score_change": 0,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 8340
     },
-    "value": 1.4627,
+    "value": 1.4636,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "522-jackpot-2s",
    "status": "active"
   },
@@ -6214,9 +6545,9 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0755,
+     "big": 0.0757,
      "jackpot": 0.0,
-     "mid": 1.999,
+     "mid": 1.9997,
      "small": 1.5702,
      "top": {
       "big": 30000,
@@ -6225,7 +6556,7 @@
      }
     },
     "cost": 5.0,
-    "est_left": 397449,
+    "est_left": 396204,
     "fresh_value": 3.7375,
     "history": [
      {
@@ -6402,6 +6733,20 @@
       "score": 48,
       "t": "2026-10-16 09:45",
       "value": 0.7289
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 37.9,
+      "score": 48,
+      "t": "2026-10-16 16:10",
+      "value": 0.7289
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 37.8,
+      "score": 48,
+      "t": "2026-10-17 09:45",
+      "value": 0.7291
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt523.jpg",
@@ -6416,48 +6761,48 @@
      {
       "amt": 30000,
       "left": 1,
-      "odds_now": 397449.0,
+      "odds_now": 396204.0,
       "odds_start": 349645.33,
       "total": 3
      },
      {
       "amt": 200,
-      "left": 2441,
-      "odds_now": 162.82,
+      "left": 2436,
+      "odds_now": 162.65,
       "odds_start": 156.09,
       "total": 6720
      },
      {
       "amt": 75,
-      "left": 2446,
-      "odds_now": 162.49,
+      "left": 2437,
+      "odds_now": 162.58,
       "odds_start": 156.09,
       "total": 6720
      },
      {
       "amt": 50,
-      "left": 2457,
-      "odds_now": 161.76,
+      "left": 2446,
+      "odds_now": 161.98,
       "odds_start": 156.09,
       "total": 6720
      },
      {
       "amt": 15,
-      "left": 7505,
+      "left": 7481,
       "odds_now": 52.96,
       "odds_start": 52.03,
       "total": 20160
      },
      {
       "amt": 10,
-      "left": 7656,
-      "odds_now": 51.91,
+      "left": 7638,
+      "odds_now": 51.87,
       "odds_start": 52.03,
       "total": 20160
      },
      {
       "amt": 5,
-      "left": 86984,
+      "left": 86708,
       "odds_now": 4.57,
       "odds_start": 4.59,
       "total": 228480
@@ -6467,21 +6812,21 @@
     "score": 48,
     "since": {
      "biggest_claimed": 200,
-     "claimed": 297,
+     "claimed": 343,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1078
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 1245
     },
-    "value": 3.6446,
+    "value": 3.6456,
     "vs_scratchers": {
      "better": 2,
      "of": 31
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "523-3000000-payout",
    "status": "active"
   },
@@ -6491,8 +6836,8 @@
     "bands": {
      "big": 0.0063,
      "jackpot": 0.0,
-     "mid": 0.3514,
-     "small": 0.3326,
+     "mid": 0.3511,
+     "small": 0.3327,
      "top": {
       "big": 6000,
       "mid": 100,
@@ -6500,7 +6845,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 952783,
+    "est_left": 949773,
     "fresh_value": 0.7104,
     "history": [
      {
@@ -6677,6 +7022,20 @@
       "score": 57,
       "t": "2026-10-16 09:45",
       "value": 0.6903
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 28.1,
+      "score": 57,
+      "t": "2026-10-16 16:10",
+      "value": 0.6903
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 28.0,
+      "score": 57,
+      "t": "2026-10-17 09:45",
+      "value": 0.6901
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt525.jpg",
@@ -6691,48 +7050,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 952783.0,
+      "odds_now": 949773.0,
       "odds_start": 1130438.0,
       "total": 3
      },
      {
       "amt": 100,
-      "left": 1657,
-      "odds_now": 575.0,
+      "left": 1649,
+      "odds_now": 575.97,
       "odds_start": 540.36,
       "total": 6276
      },
      {
       "amt": 50,
-      "left": 1680,
-      "odds_now": 567.13,
+      "left": 1674,
+      "odds_now": 567.37,
       "odds_start": 540.36,
       "total": 6276
      },
      {
       "amt": 10,
-      "left": 8511,
-      "odds_now": 111.95,
+      "left": 8487,
+      "odds_now": 111.91,
       "odds_start": 108.07,
       "total": 31380
      },
      {
       "amt": 5,
-      "left": 25838,
-      "odds_now": 36.88,
+      "left": 25776,
+      "odds_now": 36.85,
       "odds_start": 36.02,
       "total": 94140
      },
      {
       "amt": 2,
-      "left": 24408,
-      "odds_now": 39.04,
+      "left": 24338,
+      "odds_now": 39.02,
       "odds_start": 38.6,
       "total": 87864
      },
      {
       "amt": 1,
-      "left": 138914,
+      "left": 138449,
       "odds_now": 6.86,
       "odds_start": 6.93,
       "total": 489528
@@ -6742,21 +7101,21 @@
     "score": 57,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 247,
+     "claimed": 635,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1171
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 3010
     },
-    "value": 0.6903,
+    "value": 0.6901,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "525-whoa-nelly",
    "status": "active"
   },
@@ -6766,7 +7125,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.0657,
+     "mid": 0.0653,
      "small": 0.23,
      "top": {
       "big": null,
@@ -6775,7 +7134,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 78367,
+    "est_left": 78226,
     "fresh_value": 0.3507,
     "history": [
      {
@@ -6952,6 +7311,20 @@
       "score": 14,
       "t": "2026-10-16 09:45",
       "value": 0.5914
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 3.7,
+      "score": 14,
+      "t": "2026-10-16 16:10",
+      "value": 0.5914
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 3.7,
+      "score": 14,
+      "t": "2026-10-17 09:45",
+      "value": 0.5905
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt526.jpg",
@@ -6972,35 +7345,35 @@
      },
      {
       "amt": 40,
-      "left": 51,
-      "odds_now": 1536.61,
+      "left": 50,
+      "odds_now": 1564.52,
       "odds_start": 756.0,
       "total": 2782
      },
      {
       "amt": 20,
       "left": 53,
-      "odds_now": 1478.62,
+      "odds_now": 1475.96,
       "odds_start": 756.0,
       "total": 2782
      },
      {
       "amt": 5,
-      "left": 410,
-      "odds_now": 191.14,
+      "left": 409,
+      "odds_now": 191.26,
       "odds_start": 151.2,
       "total": 13910
      },
      {
       "amt": 2,
-      "left": 2989,
+      "left": 2984,
       "odds_now": 26.22,
       "odds_start": 21.6,
       "total": 97370
      },
      {
       "amt": 1,
-      "left": 12046,
+      "left": 12025,
       "odds_now": 6.51,
       "odds_start": 7.0,
       "total": 300456
@@ -7009,19 +7382,19 @@
     "rating": "Poor",
     "score": 14,
     "since": {
-     "biggest_claimed": 2,
-     "claimed": 48,
+     "biggest_claimed": 40,
+     "claimed": 28,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 242
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 141
     },
-    "value": 0.2957,
+    "value": 0.2953,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "526-taco-bout-winning",
    "status": "active"
   },
@@ -7032,7 +7405,7 @@
      "big": 0.0,
      "jackpot": 0.0,
      "mid": 0.0,
-     "small": 1.4431,
+     "small": 1.4429,
      "top": {
       "big": null,
       "mid": null,
@@ -7040,7 +7413,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 173754,
+    "est_left": 170921,
     "fresh_value": 1.4751,
     "history": [
      {
@@ -7217,6 +7590,20 @@
       "score": 38,
       "t": "2026-10-16 09:45",
       "value": 0.7216
+     },
+     {
+      "jackpot": 10,
+      "left_pct": 15.9,
+      "score": 38,
+      "t": "2026-10-16 16:10",
+      "value": 0.7216
+     },
+     {
+      "jackpot": 10,
+      "left_pct": 15.7,
+      "score": 37,
+      "t": "2026-10-17 09:45",
+      "value": 0.7214
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt527.jpg",
@@ -7230,45 +7617,45 @@
     "prizes": [
      {
       "amt": 10,
-      "left": 10559,
-      "odds_now": 16.46,
+      "left": 10395,
+      "odds_now": 16.44,
       "odds_start": 15.59,
       "total": 70040
      },
      {
       "amt": 5,
-      "left": 16423,
-      "odds_now": 10.58,
+      "left": 16119,
+      "odds_now": 10.6,
       "odds_start": 10.4,
       "total": 105060
      },
      {
       "amt": 2,
-      "left": 31521,
+      "left": 31035,
       "odds_now": 5.51,
       "odds_start": 5.67,
       "total": 192610
      }
     ],
     "rating": "Poor",
-    "score": 38,
+    "score": 37,
     "since": {
      "biggest_claimed": 10,
-     "claimed": 547,
+     "claimed": 954,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1625
+     "score_change": -1,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 2833
     },
-    "value": 1.4431,
+    "value": 1.4429,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "527-blowout-bonanza",
    "status": "active"
   },
@@ -7278,8 +7665,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.2453,
-     "small": 0.3169,
+     "mid": 0.2427,
+     "small": 0.3165,
      "top": {
       "big": null,
       "mid": 100,
@@ -7287,7 +7674,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 135460,
+    "est_left": 133104,
     "fresh_value": 0.7107,
     "history": [
      {
@@ -7464,6 +7851,20 @@
       "score": 16,
       "t": "2026-10-16 09:45",
       "value": 0.5622
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 6.3,
+      "score": 16,
+      "t": "2026-10-16 16:10",
+      "value": 0.5622
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 6.2,
+      "score": 16,
+      "t": "2026-10-17 09:45",
+      "value": 0.5591
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt528.jpg",
@@ -7484,43 +7885,43 @@
      },
      {
       "amt": 100,
-      "left": 153,
-      "odds_now": 885.36,
+      "left": 149,
+      "odds_now": 893.32,
       "odds_start": 540.36,
       "total": 3955
      },
      {
       "amt": 50,
-      "left": 167,
-      "odds_now": 811.14,
+      "left": 160,
+      "odds_now": 831.9,
       "odds_start": 540.36,
       "total": 3955
      },
      {
       "amt": 10,
-      "left": 958,
-      "odds_now": 141.4,
+      "left": 940,
+      "odds_now": 141.6,
       "odds_start": 108.07,
       "total": 19775
      },
      {
       "amt": 5,
-      "left": 3080,
-      "odds_now": 43.98,
+      "left": 3011,
+      "odds_now": 44.21,
       "odds_start": 36.02,
       "total": 59325
      },
      {
       "amt": 2,
-      "left": 3310,
-      "odds_now": 40.92,
+      "left": 3246,
+      "odds_now": 41.01,
       "odds_start": 38.6,
       "total": 55370
      },
      {
       "amt": 1,
-      "left": 20910,
-      "odds_now": 6.48,
+      "left": 20575,
+      "odds_now": 6.47,
       "odds_start": 6.93,
       "total": 308490
      }
@@ -7529,21 +7930,21 @@
     "score": 16,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 396,
+     "claimed": 497,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1877
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 2356
     },
-    "value": 0.5622,
+    "value": 0.5591,
     "vs_scratchers": {
      "better": 6,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "528-its-intermission-time",
    "status": "active"
   },
@@ -7553,8 +7954,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.3543,
-     "small": 0.3326,
+     "mid": 0.3545,
+     "small": 0.3327,
      "top": {
       "big": null,
       "mid": 100,
@@ -7562,7 +7963,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 1279815,
+    "est_left": 1270543,
     "fresh_value": 0.7105,
     "history": [
      {
@@ -7739,6 +8140,20 @@
       "score": 25,
       "t": "2026-10-16 09:45",
       "value": 0.6869
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 38.4,
+      "score": 25,
+      "t": "2026-10-16 16:10",
+      "value": 0.6869
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 38.1,
+      "score": 25,
+      "t": "2026-10-17 09:45",
+      "value": 0.6871
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt529.jpg",
@@ -7759,42 +8174,42 @@
      },
      {
       "amt": 100,
-      "left": 2257,
-      "odds_now": 567.04,
+      "left": 2242,
+      "odds_now": 566.7,
       "odds_start": 540.36,
       "total": 6174
      },
      {
       "amt": 50,
-      "left": 2267,
-      "odds_now": 564.54,
+      "left": 2252,
+      "odds_now": 564.18,
       "odds_start": 540.36,
       "total": 6174
      },
      {
       "amt": 10,
-      "left": 11441,
+      "left": 11358,
       "odds_now": 111.86,
       "odds_start": 108.07,
       "total": 30870
      },
      {
       "amt": 5,
-      "left": 34638,
-      "odds_now": 36.95,
+      "left": 34412,
+      "odds_now": 36.92,
       "odds_start": 36.02,
       "total": 92610
      },
      {
       "amt": 2,
-      "left": 33091,
-      "odds_now": 38.68,
+      "left": 32817,
+      "odds_now": 38.72,
       "odds_start": 38.6,
       "total": 86436
      },
      {
       "amt": 1,
-      "left": 186309,
+      "left": 184966,
       "odds_now": 6.87,
       "odds_start": 6.93,
       "total": 481572
@@ -7804,21 +8219,21 @@
     "score": 25,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 1092,
+     "claimed": 1956,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 5176
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 9272
     },
-    "value": 0.6869,
+    "value": 0.6871,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "529-sip-em-rip-em",
    "status": "active"
   },
@@ -7826,10 +8241,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0578,
+     "big": 0.0581,
      "jackpot": 0.0,
-     "mid": 2.0254,
-     "small": 1.5702,
+     "mid": 2.029,
+     "small": 1.5701,
      "top": {
       "big": 30000,
       "mid": 200,
@@ -7837,7 +8252,7 @@
      }
     },
     "cost": 5.0,
-    "est_left": 519091,
+    "est_left": 516459,
     "fresh_value": 3.7374,
     "history": [
      {
@@ -8014,6 +8429,20 @@
       "score": 48,
       "t": "2026-10-16 09:45",
       "value": 0.7307
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 49.4,
+      "score": 48,
+      "t": "2026-10-16 16:10",
+      "value": 0.7307
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 49.2,
+      "score": 48,
+      "t": "2026-10-17 09:45",
+      "value": 0.7314
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt530.jpg",
@@ -8028,48 +8457,48 @@
      {
       "amt": 30000,
       "left": 1,
-      "odds_now": 519091.0,
+      "odds_now": 516459.0,
       "odds_start": 350217.67,
       "total": 3
      },
      {
       "amt": 200,
-      "left": 3231,
-      "odds_now": 160.66,
+      "left": 3224,
+      "odds_now": 160.19,
       "odds_start": 156.09,
       "total": 6731
      },
      {
       "amt": 75,
-      "left": 3251,
-      "odds_now": 159.67,
+      "left": 3233,
+      "odds_now": 159.75,
       "odds_start": 156.09,
       "total": 6731
      },
      {
       "amt": 50,
-      "left": 3227,
-      "odds_now": 160.86,
+      "left": 3212,
+      "odds_now": 160.79,
       "odds_start": 156.09,
       "total": 6731
      },
      {
       "amt": 15,
-      "left": 9866,
-      "odds_now": 52.61,
+      "left": 9815,
+      "odds_now": 52.62,
       "odds_start": 52.03,
       "total": 20193
      },
      {
       "amt": 10,
-      "left": 9998,
-      "odds_now": 51.92,
+      "left": 9940,
+      "odds_now": 51.96,
       "odds_start": 52.03,
       "total": 20193
      },
      {
       "amt": 5,
-      "left": 113426,
+      "left": 112850,
       "odds_now": 4.58,
       "odds_start": 4.59,
       "total": 228854
@@ -8079,21 +8508,21 @@
     "score": 48,
     "since": {
      "biggest_claimed": 200,
-     "claimed": 486,
+     "claimed": 725,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1764
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 2632
     },
-    "value": 3.6535,
+    "value": 3.6571,
     "vs_scratchers": {
      "better": 2,
      "of": 31
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "530-wild-win",
    "status": "active"
   },
@@ -8101,10 +8530,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0071,
+     "big": 0.0072,
      "jackpot": 0.0,
-     "mid": 0.3517,
-     "small": 0.3322,
+     "mid": 0.351,
+     "small": 0.3321,
      "top": {
       "big": 6000,
       "mid": 100,
@@ -8112,7 +8541,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 847673,
+    "est_left": 835975,
     "fresh_value": 0.7105,
     "history": [
      {
@@ -8289,12 +8718,26 @@
       "score": 65,
       "t": "2026-10-16 09:45",
       "value": 0.6909
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 37.9,
+      "score": 65,
+      "t": "2026-10-16 16:10",
+      "value": 0.6909
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 37.4,
+      "score": 65,
+      "t": "2026-10-17 09:45",
+      "value": 0.6903
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt531.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 38,
+    "left_pct": 37,
     "n": "531",
     "name": "Dollar Daze",
     "odds": 4.74,
@@ -8303,48 +8746,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 847673.0,
+      "odds_now": 835975.0,
       "odds_start": 1117469.0,
       "total": 2
      },
      {
       "amt": 100,
-      "left": 1487,
-      "odds_now": 570.06,
+      "left": 1465,
+      "odds_now": 570.63,
       "odds_start": 540.36,
       "total": 4136
      },
      {
       "amt": 50,
-      "left": 1473,
-      "odds_now": 575.47,
+      "left": 1446,
+      "odds_now": 578.13,
       "odds_start": 540.36,
       "total": 4136
      },
      {
       "amt": 10,
-      "left": 7574,
-      "odds_now": 111.92,
+      "left": 7465,
+      "odds_now": 111.99,
       "odds_start": 108.07,
       "total": 20680
      },
      {
       "amt": 5,
-      "left": 22882,
-      "odds_now": 37.05,
+      "left": 22543,
+      "odds_now": 37.08,
       "odds_start": 36.02,
       "total": 62040
      },
      {
       "amt": 2,
-      "left": 21734,
-      "odds_now": 39.0,
+      "left": 21451,
+      "odds_now": 38.97,
       "odds_start": 38.6,
       "total": 57904
      },
      {
       "amt": 1,
-      "left": 123683,
+      "left": 121995,
       "odds_now": 6.85,
       "odds_start": 6.93,
       "total": 322608
@@ -8354,21 +8797,21 @@
     "score": 65,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 1692,
+     "claimed": 2468,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 8021
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 11698
     },
-    "value": 0.6909,
+    "value": 0.6903,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "531-dollar-daze",
    "status": "active"
   },
@@ -8378,7 +8821,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.1069,
+     "mid": 0.1067,
      "small": 0.2351,
      "top": {
       "big": null,
@@ -8387,7 +8830,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 635670,
+    "est_left": 625711,
     "fresh_value": 0.3507,
     "history": [
      {
@@ -8564,6 +9007,20 @@
       "score": 25,
       "t": "2026-10-16 09:45",
       "value": 0.6841
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 30.2,
+      "score": 25,
+      "t": "2026-10-16 16:10",
+      "value": 0.6841
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 29.8,
+      "score": 25,
+      "t": "2026-10-17 09:45",
+      "value": 0.6836
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt532.jpg",
@@ -8584,35 +9041,35 @@
      },
      {
       "amt": 40,
-      "left": 790,
-      "odds_now": 804.65,
+      "left": 774,
+      "odds_now": 808.41,
       "odds_start": 756.0,
       "total": 2782
      },
      {
       "amt": 20,
-      "left": 798,
-      "odds_now": 796.58,
+      "left": 785,
+      "odds_now": 797.08,
       "odds_start": 756.0,
       "total": 2782
      },
      {
       "amt": 5,
-      "left": 4080,
-      "odds_now": 155.8,
+      "left": 4018,
+      "odds_now": 155.73,
       "odds_start": 151.2,
       "total": 13910
      },
      {
       "amt": 2,
-      "left": 29016,
-      "odds_now": 21.91,
+      "left": 28550,
+      "odds_now": 21.92,
       "odds_start": 21.6,
       "total": 97370
      },
      {
       "amt": 1,
-      "left": 91441,
+      "left": 90022,
       "odds_now": 6.95,
       "odds_start": 7.0,
       "total": 300456
@@ -8622,18 +9079,18 @@
     "score": 25,
     "since": {
      "biggest_claimed": 40,
-     "claimed": 1211,
+     "claimed": 1976,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 6104
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 9959
     },
-    "value": 0.3421,
+    "value": 0.3418,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "532-feelin-ducky",
    "status": "active"
   },
@@ -8643,7 +9100,7 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.2377,
+     "mid": 0.2379,
      "small": 0.3127,
      "top": {
       "big": null,
@@ -8652,7 +9109,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 104750,
+    "est_left": 103916,
     "fresh_value": 0.7107,
     "history": [
      {
@@ -8829,6 +9286,20 @@
       "score": 15,
       "t": "2026-10-16 09:45",
       "value": 0.5504
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 4.9,
+      "score": 15,
+      "t": "2026-10-16 16:10",
+      "value": 0.5504
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 4.9,
+      "score": 15,
+      "t": "2026-10-17 09:45",
+      "value": 0.5506
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt533.jpg",
@@ -8850,41 +9321,41 @@
      {
       "amt": 100,
       "left": 129,
-      "odds_now": 812.02,
+      "odds_now": 805.55,
       "odds_start": 540.36,
       "total": 3938
      },
      {
       "amt": 50,
-      "left": 100,
-      "odds_now": 1047.5,
+      "left": 98,
+      "odds_now": 1060.37,
       "odds_start": 540.36,
       "total": 3938
      },
      {
       "amt": 10,
-      "left": 700,
-      "odds_now": 149.64,
+      "left": 692,
+      "odds_now": 150.17,
       "odds_start": 108.07,
       "total": 19690
      },
      {
       "amt": 5,
-      "left": 2273,
-      "odds_now": 46.08,
+      "left": 2258,
+      "odds_now": 46.02,
       "odds_start": 36.02,
       "total": 59070
      },
      {
       "amt": 2,
-      "left": 2489,
-      "odds_now": 42.09,
+      "left": 2457,
+      "odds_now": 42.29,
       "odds_start": 38.6,
       "total": 55132
      },
      {
       "amt": 1,
-      "left": 16408,
+      "left": 16289,
       "odds_now": 6.38,
       "odds_start": 6.93,
       "total": 307164
@@ -8893,22 +9364,22 @@
     "rating": "Poor",
     "score": 15,
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 203,
+     "biggest_claimed": 50,
+     "claimed": 176,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 962
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 834
     },
-    "value": 0.5504,
+    "value": 0.5506,
     "vs_scratchers": {
      "better": 6,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "533-let-freedom-ring",
    "status": "active"
   },
@@ -8916,10 +9387,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0268,
+     "big": 0.0273,
      "jackpot": 0.0,
-     "mid": 0.0819,
-     "small": 0.2341,
+     "mid": 0.0817,
+     "small": 0.234,
      "top": {
       "big": 3000,
       "mid": 40,
@@ -8927,7 +9398,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 111773,
+    "est_left": 109943,
     "fresh_value": 0.3507,
     "history": [
      {
@@ -9104,6 +9575,20 @@
       "score": 70,
       "t": "2026-10-16 09:45",
       "value": 0.6856
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 5.3,
+      "score": 70,
+      "t": "2026-10-16 16:10",
+      "value": 0.6856
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 5.2,
+      "score": 70,
+      "t": "2026-10-17 09:45",
+      "value": 0.6861
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt534.jpg",
@@ -9118,42 +9603,42 @@
      {
       "amt": 3000,
       "left": 1,
-      "odds_now": 111773.0,
+      "odds_now": 109943.0,
       "odds_start": 1051601.0,
       "total": 2
      },
      {
       "amt": 40,
       "left": 84,
-      "odds_now": 1330.63,
+      "odds_now": 1308.85,
       "odds_start": 756.0,
       "total": 2782
      },
      {
       "amt": 20,
-      "left": 120,
-      "odds_now": 931.44,
+      "left": 115,
+      "odds_now": 956.03,
       "odds_start": 756.0,
       "total": 2782
      },
      {
       "amt": 5,
-      "left": 679,
-      "odds_now": 164.61,
+      "left": 665,
+      "odds_now": 165.33,
       "odds_start": 151.2,
       "total": 13910
      },
      {
       "amt": 2,
-      "left": 4868,
-      "odds_now": 22.96,
+      "left": 4781,
+      "odds_now": 23.0,
       "odds_start": 21.6,
       "total": 97370
      },
      {
       "amt": 1,
-      "left": 16425,
-      "odds_now": 6.81,
+      "left": 16168,
+      "odds_now": 6.8,
       "odds_start": 7.0,
       "total": 300456
      }
@@ -9161,19 +9646,19 @@
     "rating": "Good",
     "score": 70,
     "since": {
-     "biggest_claimed": 5,
-     "claimed": 168,
+     "biggest_claimed": 20,
+     "claimed": 363,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 846
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 1830
     },
-    "value": 0.3428,
+    "value": 0.343,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "534-loggin-loot",
    "status": "active"
   },
@@ -9181,10 +9666,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0343,
+     "big": 0.0348,
      "jackpot": 0.0,
-     "mid": 0.8262,
-     "small": 0.574,
+     "mid": 0.8261,
+     "small": 0.5739,
      "top": {
       "big": 15000,
       "mid": 150,
@@ -9192,7 +9677,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 437746,
+    "est_left": 431303,
     "fresh_value": 1.4664,
     "history": [
      {
@@ -9369,6 +9854,20 @@
       "score": 70,
       "t": "2026-10-16 09:45",
       "value": 0.7172
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 38.2,
+      "score": 70,
+      "t": "2026-10-16 16:10",
+      "value": 0.7172
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 37.6,
+      "score": 70,
+      "t": "2026-10-17 09:45",
+      "value": 0.7174
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt535.jpg",
@@ -9383,48 +9882,48 @@
      {
       "amt": 15000,
       "left": 1,
-      "odds_now": 437746.0,
+      "odds_now": 431303.0,
       "odds_start": 572863.5,
       "total": 2
      },
      {
       "amt": 150,
-      "left": 1336,
-      "odds_now": 327.65,
+      "left": 1315,
+      "odds_now": 327.99,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 75,
-      "left": 1330,
-      "odds_now": 329.13,
+      "left": 1313,
+      "odds_now": 328.49,
       "odds_start": 311.76,
       "total": 3675
      },
      {
       "amt": 15,
-      "left": 4101,
-      "odds_now": 106.74,
+      "left": 4038,
+      "odds_now": 106.81,
       "odds_start": 103.92,
       "total": 11025
      },
      {
       "amt": 5,
-      "left": 7012,
-      "odds_now": 62.43,
+      "left": 6901,
+      "odds_now": 62.5,
       "odds_start": 62.35,
       "total": 18375
      },
      {
       "amt": 4,
-      "left": 20792,
-      "odds_now": 21.05,
+      "left": 20471,
+      "odds_now": 21.07,
       "odds_start": 20.78,
       "total": 55125
      },
      {
       "amt": 2,
-      "left": 66524,
+      "left": 65569,
       "odds_now": 6.58,
       "odds_start": 6.63,
       "total": 172725
@@ -9434,21 +9933,21 @@
     "score": 70,
     "since": {
      "biggest_claimed": 150,
-     "claimed": 1112,
+     "claimed": 1488,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 4815
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 6443
     },
-    "value": 1.4345,
+    "value": 1.4348,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "535-pinball-party",
    "status": "active"
   },
@@ -9456,7 +9955,7 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0085,
+     "big": 0.0086,
      "jackpot": 0.0,
      "mid": 0.3641,
      "small": 0.3339,
@@ -9467,7 +9966,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 2105888,
+    "est_left": 2084837,
     "fresh_value": 0.7107,
     "history": [
      {
@@ -9644,6 +10143,20 @@
       "score": 65,
       "t": "2026-10-16 09:45",
       "value": 0.7066
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 65.4,
+      "score": 65,
+      "t": "2026-10-16 16:10",
+      "value": 0.7066
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 64.7,
+      "score": 65,
+      "t": "2026-10-17 09:45",
+      "value": 0.7067
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt536.jpg",
@@ -9658,48 +10171,48 @@
      {
       "amt": 6000,
       "left": 3,
-      "odds_now": 701962.67,
+      "odds_now": 694945.67,
       "odds_start": 1074060.33,
       "total": 3
      },
      {
       "amt": 100,
-      "left": 3834,
-      "odds_now": 549.27,
+      "left": 3799,
+      "odds_now": 548.79,
       "odds_start": 540.36,
       "total": 5963
      },
      {
       "amt": 50,
-      "left": 3816,
-      "odds_now": 551.86,
+      "left": 3773,
+      "odds_now": 552.57,
       "odds_start": 540.36,
       "total": 5963
      },
      {
       "amt": 10,
-      "left": 19263,
-      "odds_now": 109.32,
+      "left": 19058,
+      "odds_now": 109.39,
       "odds_start": 108.07,
       "total": 29815
      },
      {
       "amt": 5,
-      "left": 57881,
-      "odds_now": 36.38,
+      "left": 57336,
+      "odds_now": 36.36,
       "odds_start": 36.02,
       "total": 89445
      },
      {
       "amt": 2,
-      "left": 54259,
-      "odds_now": 38.81,
+      "left": 53663,
+      "odds_now": 38.85,
       "odds_start": 38.6,
       "total": 83482
      },
      {
       "amt": 1,
-      "left": 305224,
+      "left": 302207,
       "odds_now": 6.9,
       "odds_start": 6.93,
       "total": 465114
@@ -9709,21 +10222,21 @@
     "score": 65,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 2742,
+     "claimed": 4441,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 12997
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 21051
     },
-    "value": 0.7066,
+    "value": 0.7067,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "536-tailgator",
    "status": "active"
   },
@@ -9731,10 +10244,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0038,
+     "big": 0.0039,
      "jackpot": 0.0,
      "mid": 0.1114,
-     "small": 0.2355,
+     "small": 0.2354,
      "top": {
       "big": 3000,
       "mid": 40,
@@ -9742,7 +10255,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 1576472,
+    "est_left": 1554730,
     "fresh_value": 0.3509,
     "history": [
      {
@@ -9919,12 +10432,26 @@
       "score": 72,
       "t": "2026-10-16 09:45",
       "value": 0.7013
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 79.3,
+      "score": 72,
+      "t": "2026-10-16 16:10",
+      "value": 0.7013
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 78.2,
+      "score": 72,
+      "t": "2026-10-17 09:45",
+      "value": 0.7014
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt537.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 79,
+    "left_pct": 78,
     "n": "537",
     "name": "Trollin' Gnomes",
     "odds": 5.04,
@@ -9933,41 +10460,41 @@
      {
       "amt": 3000,
       "left": 2,
-      "odds_now": 788236.0,
+      "odds_now": 777365.0,
       "odds_start": 994523.0,
       "total": 2
      },
      {
       "amt": 40,
-      "left": 2055,
-      "odds_now": 767.14,
+      "left": 2027,
+      "odds_now": 767.01,
       "odds_start": 756.0,
       "total": 2631
      },
      {
       "amt": 20,
-      "left": 2077,
-      "odds_now": 759.01,
+      "left": 2044,
+      "odds_now": 760.63,
       "odds_start": 756.0,
       "total": 2631
      },
      {
       "amt": 5,
-      "left": 10372,
-      "odds_now": 151.99,
+      "left": 10249,
+      "odds_now": 151.7,
       "odds_start": 151.2,
       "total": 13155
      },
      {
       "amt": 2,
-      "left": 72906,
-      "odds_now": 21.62,
+      "left": 71869,
+      "odds_now": 21.63,
       "odds_start": 21.6,
       "total": 92085
      },
      {
       "amt": 1,
-      "left": 225380,
+      "left": 222287,
       "odds_now": 6.99,
       "odds_start": 7.0,
       "total": 284148
@@ -9977,18 +10504,18 @@
     "score": 72,
     "since": {
      "biggest_claimed": 40,
-     "claimed": 2558,
+     "claimed": 4314,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 7,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 12892
+     "score_change": 0,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 21742
     },
     "value": 0.3507,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "537-trollin-gnomes",
    "status": "active"
   },
@@ -9996,10 +10523,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.0071,
+     "big": 0.0072,
      "jackpot": 0.0,
-     "mid": 0.3659,
-     "small": 0.3344,
+     "mid": 0.3656,
+     "small": 0.3345,
      "top": {
       "big": 6000,
       "mid": 100,
@@ -10007,7 +10534,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 1700115,
+    "est_left": 1676913,
     "fresh_value": 0.7104,
     "history": [
      {
@@ -10184,12 +10711,26 @@
       "score": 68,
       "t": "2026-10-16 09:45",
       "value": 0.7074
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 74.9,
+      "score": 68,
+      "t": "2026-10-16 16:10",
+      "value": 0.7074
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 73.9,
+      "score": 68,
+      "t": "2026-10-17 09:45",
+      "value": 0.7072
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt538.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 75,
+    "left_pct": 74,
     "n": "538",
     "name": "Raining Ca$h & Dogs",
     "odds": 4.74,
@@ -10198,48 +10739,48 @@
      {
       "amt": 6000,
       "left": 2,
-      "odds_now": 850057.5,
+      "odds_now": 838456.5,
       "odds_start": 1134760.5,
       "total": 2
      },
      {
       "amt": 100,
-      "left": 3105,
-      "odds_now": 547.54,
+      "left": 3059,
+      "odds_now": 548.19,
       "odds_start": 540.36,
       "total": 4200
      },
      {
       "amt": 50,
-      "left": 3110,
-      "odds_now": 546.66,
+      "left": 3064,
+      "odds_now": 547.3,
       "odds_start": 540.36,
       "total": 4200
      },
      {
       "amt": 10,
-      "left": 15600,
-      "odds_now": 108.98,
+      "left": 15393,
+      "odds_now": 108.94,
       "odds_start": 108.07,
       "total": 21000
      },
      {
       "amt": 5,
-      "left": 46966,
-      "odds_now": 36.2,
+      "left": 46345,
+      "odds_now": 36.18,
       "odds_start": 36.02,
       "total": 63000
      },
      {
       "amt": 2,
-      "left": 43864,
-      "odds_now": 38.76,
+      "left": 43270,
+      "odds_now": 38.75,
       "odds_start": 38.6,
       "total": 58800
      },
      {
       "amt": 1,
-      "left": 246027,
+      "left": 242646,
       "odds_now": 6.91,
       "odds_start": 6.93,
       "total": 327600
@@ -10249,21 +10790,21 @@
     "score": 68,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 2741,
+     "claimed": 4895,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 2,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 12992
+     "score_change": 0,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 23202
     },
-    "value": 0.7074,
+    "value": 0.7072,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "538-raining-cash-dogs",
    "status": "active"
   },
@@ -10271,10 +10812,10 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.028,
+     "big": 0.0283,
      "jackpot": 0.0,
-     "mid": 0.8624,
-     "small": 0.5743,
+     "mid": 0.8612,
+     "small": 0.5744,
      "top": {
       "big": 15000,
       "mid": 150,
@@ -10282,7 +10823,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 1070428,
+    "est_left": 1060326,
     "fresh_value": 1.4667,
     "history": [
      {
@@ -10459,12 +11000,26 @@
       "score": 82,
       "t": "2026-10-16 09:45",
       "value": 0.7324
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 94.6,
+      "score": 82,
+      "t": "2026-10-16 16:10",
+      "value": 0.7324
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 93.7,
+      "score": 81,
+      "t": "2026-10-17 09:45",
+      "value": 0.7319
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt540.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 95,
+    "left_pct": 94,
     "n": "540",
     "name": "Good Luck!",
     "odds": 4.33,
@@ -10473,72 +11028,72 @@
      {
       "amt": 15000,
       "left": 2,
-      "odds_now": 535214.0,
+      "odds_now": 530163.0,
       "odds_start": 566004.5,
       "total": 2
      },
      {
       "amt": 150,
-      "left": 3410,
-      "odds_now": 313.91,
+      "left": 3370,
+      "odds_now": 314.64,
       "odds_start": 311.76,
       "total": 3631
      },
      {
       "amt": 75,
-      "left": 3429,
-      "odds_now": 312.17,
+      "left": 3396,
+      "odds_now": 312.23,
       "odds_start": 311.76,
       "total": 3631
      },
      {
       "amt": 15,
-      "left": 10296,
-      "odds_now": 103.97,
+      "left": 10197,
+      "odds_now": 103.98,
       "odds_start": 103.92,
       "total": 10893
      },
      {
       "amt": 5,
-      "left": 17169,
-      "odds_now": 62.35,
+      "left": 17026,
+      "odds_now": 62.28,
       "odds_start": 62.35,
       "total": 18155
      },
      {
       "amt": 4,
-      "left": 51545,
-      "odds_now": 20.77,
+      "left": 51074,
+      "odds_now": 20.76,
       "odds_start": 20.78,
       "total": 54465
      },
      {
       "amt": 2,
-      "left": 161361,
+      "left": 159814,
       "odds_now": 6.63,
       "odds_start": 6.63,
       "total": 170657
      }
     ],
     "rating": "Great",
-    "score": 82,
+    "score": 81,
     "since": {
      "biggest_claimed": 150,
-     "claimed": 1452,
+     "claimed": 2333,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 5,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 6287
+     "score_change": -1,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 10102
     },
-    "value": 1.4647,
+    "value": 1.4639,
     "vs_scratchers": {
      "better": 0,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "540-good-luck",
    "status": "active"
   },
@@ -10548,7 +11103,7 @@
     "bands": {
      "big": 0.0062,
      "jackpot": 0.0,
-     "mid": 0.3686,
+     "mid": 0.3682,
      "small": 0.3349,
      "top": {
       "big": 6000,
@@ -10557,7 +11112,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 2924609,
+    "est_left": 2888671,
     "fresh_value": 0.7108,
     "history": [
      {
@@ -10734,12 +11289,26 @@
       "score": 78,
       "t": "2026-10-16 09:45",
       "value": 0.7096
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 92.7,
+      "score": 78,
+      "t": "2026-10-16 16:10",
+      "value": 0.7096
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 91.5,
+      "score": 78,
+      "t": "2026-10-17 09:45",
+      "value": 0.7093
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt544.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 93,
+    "left_pct": 92,
     "n": "544",
     "name": "One Nightstand",
     "odds": 4.74,
@@ -10748,48 +11317,48 @@
      {
       "amt": 6000,
       "left": 3,
-      "odds_now": 974869.67,
+      "odds_now": 962890.33,
       "odds_start": 1051905.67,
       "total": 3
      },
      {
       "amt": 100,
-      "left": 5384,
-      "odds_now": 543.2,
+      "left": 5310,
+      "odds_now": 544.01,
       "odds_start": 540.36,
       "total": 5840
      },
      {
       "amt": 50,
-      "left": 5389,
-      "odds_now": 542.7,
+      "left": 5314,
+      "odds_now": 543.6,
       "odds_start": 540.36,
       "total": 5840
      },
      {
       "amt": 10,
-      "left": 27011,
-      "odds_now": 108.27,
+      "left": 26686,
+      "odds_now": 108.25,
       "odds_start": 108.07,
       "total": 29200
      },
      {
       "amt": 5,
-      "left": 81118,
+      "left": 80120,
       "odds_now": 36.05,
       "odds_start": 36.02,
       "total": 87600
      },
      {
       "amt": 2,
-      "left": 75688,
-      "odds_now": 38.64,
+      "left": 74684,
+      "odds_now": 38.68,
       "odds_start": 38.6,
       "total": 81760
      },
      {
       "amt": 1,
-      "left": 422413,
+      "left": 417307,
       "odds_now": 6.92,
       "odds_start": 6.93,
       "total": 455520
@@ -10799,21 +11368,21 @@
     "score": 78,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 4423,
+     "claimed": 7582,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 10,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 20965
+     "score_change": 0,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 35938
     },
-    "value": 0.7096,
+    "value": 0.7093,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "544-one-nightstand",
    "status": "active"
   },
@@ -10823,8 +11392,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.0989,
-     "small": 0.2336,
+     "mid": 0.0983,
+     "small": 0.2335,
      "top": {
       "big": null,
       "mid": 40,
@@ -10832,7 +11401,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 192090,
+    "est_left": 186601,
     "fresh_value": 0.3508,
     "history": [
      {
@@ -11009,6 +11578,20 @@
       "score": 30,
       "t": "2026-10-16 09:45",
       "value": 0.6651
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 9.3,
+      "score": 30,
+      "t": "2026-10-16 16:10",
+      "value": 0.6651
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 9.0,
+      "score": 29,
+      "t": "2026-10-17 09:45",
+      "value": 0.6635
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt573.jpg",
@@ -11029,56 +11612,56 @@
      },
      {
       "amt": 40,
-      "left": 196,
-      "odds_now": 980.05,
+      "left": 187,
+      "odds_now": 997.87,
       "odds_start": 756.0,
       "total": 2730
      },
      {
       "amt": 20,
-      "left": 231,
-      "odds_now": 831.56,
+      "left": 226,
+      "odds_now": 825.67,
       "odds_start": 756.0,
       "total": 2730
      },
      {
       "amt": 5,
-      "left": 1309,
-      "odds_now": 146.75,
+      "left": 1268,
+      "odds_now": 147.16,
       "odds_start": 151.2,
       "total": 13650
      },
      {
       "amt": 2,
-      "left": 8501,
-      "odds_now": 22.6,
+      "left": 8226,
+      "odds_now": 22.68,
       "odds_start": 21.6,
       "total": 95550
      },
      {
       "amt": 1,
-      "left": 27876,
-      "odds_now": 6.89,
+      "left": 27117,
+      "odds_now": 6.88,
       "odds_start": 7.0,
       "total": 294840
      }
     ],
     "rating": "Poor",
-    "score": 30,
+    "score": 29,
     "since": {
      "biggest_claimed": 40,
-     "claimed": 767,
+     "claimed": 1089,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 1,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 3866
+     "score_change": -1,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 5489
     },
-    "value": 0.3326,
+    "value": 0.3318,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "573-when-pigs-fry",
    "status": "active"
   },
@@ -11097,7 +11680,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 311632,
+    "est_left": 311371,
     "fresh_value": 0.7168,
     "history": [
      {
@@ -11274,6 +11857,20 @@
       "score": 22,
       "t": "2026-10-16 09:45",
       "value": 0.6614
+     },
+     {
+      "jackpot": 6500,
+      "left_pct": 14.7,
+      "score": 22,
+      "t": "2026-10-16 16:10",
+      "value": 0.6614
+     },
+     {
+      "jackpot": 6500,
+      "left_pct": 14.7,
+      "score": 22,
+      "t": "2026-10-17 09:45",
+      "value": 0.6615
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt574.jpg",
@@ -11295,41 +11892,41 @@
      {
       "amt": 100,
       "left": 504,
-      "odds_now": 618.32,
+      "odds_now": 617.8,
       "odds_start": 540.36,
       "total": 3927
      },
      {
       "amt": 50,
-      "left": 518,
-      "odds_now": 601.61,
+      "left": 517,
+      "odds_now": 602.26,
       "odds_start": 540.36,
       "total": 3927
      },
      {
       "amt": 10,
-      "left": 2644,
-      "odds_now": 117.86,
+      "left": 2642,
+      "odds_now": 117.85,
       "odds_start": 108.07,
       "total": 19635
      },
      {
       "amt": 5,
-      "left": 8503,
-      "odds_now": 36.65,
+      "left": 8499,
+      "odds_now": 36.64,
       "odds_start": 33.77,
       "total": 62832
      },
      {
       "amt": 2,
-      "left": 7281,
-      "odds_now": 42.8,
+      "left": 7272,
+      "odds_now": 42.82,
       "odds_start": 41.57,
       "total": 51051
      },
      {
       "amt": 1,
-      "left": 46295,
+      "left": 46256,
       "odds_now": 6.73,
       "odds_start": 6.93,
       "total": 306306
@@ -11338,22 +11935,22 @@
     "rating": "Poor",
     "score": 22,
     "since": {
-     "biggest_claimed": 5,
-     "claimed": 33,
+     "biggest_claimed": 50,
+     "claimed": 55,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 156
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 261
     },
-    "value": 0.6614,
+    "value": 0.6615,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "574-stampede-payout",
    "status": "active"
   },
@@ -11363,8 +11960,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.6429,
-     "small": 0.569,
+     "mid": 0.6348,
+     "small": 0.5693,
      "top": {
       "big": null,
       "mid": 150,
@@ -11372,7 +11969,7 @@
      }
     },
     "cost": 2.0,
-    "est_left": 74641,
+    "est_left": 73342,
     "fresh_value": 1.47,
     "history": [
      {
@@ -11549,6 +12146,20 @@
       "score": 20,
       "t": "2026-10-16 09:45",
       "value": 0.6059
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 7.4,
+      "score": 20,
+      "t": "2026-10-16 16:10",
+      "value": 0.6059
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 7.3,
+      "score": 20,
+      "t": "2026-10-17 09:45",
+      "value": 0.6021
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt576.jpg",
@@ -11569,43 +12180,43 @@
      },
      {
       "amt": 150,
-      "left": 175,
-      "odds_now": 426.52,
+      "left": 169,
+      "odds_now": 433.98,
       "odds_start": 311.76,
       "total": 3230
      },
      {
       "amt": 75,
-      "left": 171,
-      "odds_now": 436.5,
+      "left": 167,
+      "odds_now": 439.17,
       "odds_start": 311.76,
       "total": 3230
      },
      {
       "amt": 15,
-      "left": 594,
-      "odds_now": 125.66,
+      "left": 579,
+      "odds_now": 126.67,
       "odds_start": 103.92,
       "total": 9690
      },
      {
       "amt": 5,
-      "left": 1099,
-      "odds_now": 67.92,
+      "left": 1086,
+      "odds_now": 67.53,
       "odds_start": 62.35,
       "total": 16150
      },
      {
       "amt": 4,
-      "left": 3287,
-      "odds_now": 22.71,
+      "left": 3224,
+      "odds_now": 22.75,
       "odds_start": 20.78,
       "total": 48450
      },
      {
       "amt": 2,
-      "left": 11912,
-      "odds_now": 6.27,
+      "left": 11713,
+      "odds_now": 6.26,
       "odds_start": 6.63,
       "total": 151810
      }
@@ -11614,21 +12225,21 @@
     "score": 20,
     "since": {
      "biggest_claimed": 150,
-     "claimed": 140,
+     "claimed": 300,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 606
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 1299
     },
-    "value": 1.2118,
+    "value": 1.2041,
     "vs_scratchers": {
      "better": 14,
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "576-15000-cash-blast",
    "status": "active"
   },
@@ -11824,6 +12435,20 @@
       "score": 13,
       "t": "2026-10-16 09:45",
       "value": 0.4622
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.2,
+      "score": 13,
+      "t": "2026-10-16 16:10",
+      "value": 0.4622
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 3.2,
+      "score": 13,
+      "t": "2026-10-17 09:45",
+      "value": 0.4622
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt586.jpg",
@@ -11888,14 +12513,14 @@
     "rating": "Poor",
     "score": 13,
     "since": {
-     "biggest_claimed": 1,
-     "claimed": 1,
+     "biggest_claimed": null,
+     "claimed": 0,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 5
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 0
     },
     "value": 0.4622,
     "vs_scratchers": {
@@ -11903,7 +12528,7 @@
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "586-9s-in-a-line",
    "status": "active"
   },
@@ -11911,9 +12536,9 @@
    "first_seen": "2026-10-04",
    "game": {
     "bands": {
-     "big": 0.023,
+     "big": 0.0232,
      "jackpot": 0.0,
-     "mid": 0.3124,
+     "mid": 0.311,
      "small": 0.3268,
      "top": {
       "big": 6000,
@@ -11922,7 +12547,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 260378,
+    "est_left": 258198,
     "fresh_value": 0.7107,
     "history": [
      {
@@ -12099,6 +12724,20 @@
       "score": 65,
       "t": "2026-10-16 09:45",
       "value": 0.6623
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 12.2,
+      "score": 65,
+      "t": "2026-10-16 16:10",
+      "value": 0.6623
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 12.1,
+      "score": 65,
+      "t": "2026-10-17 09:45",
+      "value": 0.661
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt590.jpg",
@@ -12113,48 +12752,48 @@
      {
       "amt": 6000,
       "left": 1,
-      "odds_now": 260378.0,
+      "odds_now": 258198.0,
       "odds_start": 1063163.0,
       "total": 2
      },
      {
       "amt": 100,
-      "left": 395,
-      "odds_now": 659.18,
+      "left": 390,
+      "odds_now": 662.05,
       "odds_start": 540.36,
       "total": 3935
      },
      {
       "amt": 50,
-      "left": 409,
-      "odds_now": 636.62,
+      "left": 402,
+      "odds_now": 642.28,
       "odds_start": 540.36,
       "total": 3935
      },
      {
       "amt": 10,
-      "left": 2140,
-      "odds_now": 121.67,
+      "left": 2120,
+      "odds_now": 121.79,
       "odds_start": 108.07,
       "total": 19675
      },
      {
       "amt": 5,
-      "left": 6660,
-      "odds_now": 39.1,
+      "left": 6600,
+      "odds_now": 39.12,
       "odds_start": 36.02,
       "total": 59025
      },
      {
       "amt": 2,
-      "left": 6473,
-      "odds_now": 40.23,
+      "left": 6410,
+      "odds_now": 40.28,
       "odds_start": 38.6,
       "total": 55090
      },
      {
       "amt": 1,
-      "left": 38854,
+      "left": 38549,
       "odds_now": 6.7,
       "odds_start": 6.93,
       "total": 306930
@@ -12164,21 +12803,21 @@
     "score": 65,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 257,
+     "claimed": 460,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 1218
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 2180
     },
-    "value": 0.6623,
+    "value": 0.661,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "590-goatload-of-cash",
    "status": "active"
   },
@@ -12840,6 +13479,20 @@
       "score": 13,
       "t": "2026-10-16 09:45",
       "value": 0.4748
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 3.1,
+      "score": 13,
+      "t": "2026-10-16 16:10",
+      "value": 0.4748
+     },
+     {
+      "jackpot": 15000,
+      "left_pct": 3.1,
+      "score": 13,
+      "t": "2026-10-17 09:45",
+      "value": 0.4748
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt596.jpg",
@@ -12904,14 +13557,14 @@
     "rating": "Poor",
     "score": 13,
     "since": {
-     "biggest_claimed": 15,
-     "claimed": 6,
+     "biggest_claimed": null,
+     "claimed": 0,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 26
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 0
     },
     "value": 0.9495,
     "vs_scratchers": {
@@ -12919,7 +13572,7 @@
      "of": 15
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "596-game-of-riches",
    "status": "active"
   },
@@ -12938,7 +13591,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 206480,
+    "est_left": 206432,
     "fresh_value": 0.711,
     "history": [
      {
@@ -13115,6 +13768,20 @@
       "score": 16,
       "t": "2026-10-16 09:45",
       "value": 0.6172
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 10.1,
+      "score": 16,
+      "t": "2026-10-16 16:10",
+      "value": 0.6172
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 10.1,
+      "score": 16,
+      "t": "2026-10-17 09:45",
+      "value": 0.6173
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt597.jpg",
@@ -13136,27 +13803,27 @@
      {
       "amt": 100,
       "left": 297,
-      "odds_now": 695.22,
+      "odds_now": 695.06,
       "odds_start": 540.36,
       "total": 3769
      },
      {
       "amt": 50,
       "left": 303,
-      "odds_now": 681.45,
+      "odds_now": 681.29,
       "odds_start": 540.36,
       "total": 3769
      },
      {
       "amt": 10,
       "left": 1632,
-      "odds_now": 126.52,
+      "odds_now": 126.49,
       "odds_start": 108.07,
       "total": 18845
      },
      {
       "amt": 5,
-      "left": 4962,
+      "left": 4961,
       "odds_now": 41.61,
       "odds_start": 36.02,
       "total": 56535
@@ -13164,13 +13831,13 @@
      {
       "amt": 2,
       "left": 5102,
-      "odds_now": 40.47,
+      "odds_now": 40.46,
       "odds_start": 38.6,
       "total": 52766
      },
      {
       "amt": 1,
-      "left": 31265,
+      "left": 31256,
       "odds_now": 6.6,
       "odds_start": 6.93,
       "total": 293982
@@ -13179,22 +13846,22 @@
     "rating": "Poor",
     "score": 16,
     "since": {
-     "biggest_claimed": 1,
-     "claimed": 3,
+     "biggest_claimed": 5,
+     "claimed": 10,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 14
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 48
     },
-    "value": 0.6172,
+    "value": 0.6173,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "597-riddle-me-this",
    "status": "active"
   },
@@ -13204,8 +13871,8 @@
     "bands": {
      "big": 0.0,
      "jackpot": 0.0,
-     "mid": 0.3179,
-     "small": 0.3269,
+     "mid": 0.3165,
+     "small": 0.3267,
      "top": {
       "big": null,
       "mid": 100,
@@ -13213,7 +13880,7 @@
      }
     },
     "cost": 1.0,
-    "est_left": 211803,
+    "est_left": 210964,
     "fresh_value": 0.7108,
     "history": [
      {
@@ -13390,6 +14057,20 @@
       "score": 19,
       "t": "2026-10-16 09:45",
       "value": 0.6448
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 10.0,
+      "score": 19,
+      "t": "2026-10-16 16:10",
+      "value": 0.6448
+     },
+     {
+      "jackpot": 6000,
+      "left_pct": 10.0,
+      "score": 18,
+      "t": "2026-10-17 09:45",
+      "value": 0.6433
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt598.jpg",
@@ -13410,66 +14091,66 @@
      },
      {
       "amt": 100,
-      "left": 325,
-      "odds_now": 651.7,
+      "left": 320,
+      "odds_now": 659.26,
       "odds_start": 540.36,
       "total": 3907
      },
      {
       "amt": 50,
-      "left": 340,
-      "odds_now": 622.95,
+      "left": 339,
+      "odds_now": 622.31,
       "odds_start": 540.36,
       "total": 3907
      },
      {
       "amt": 10,
-      "left": 1784,
-      "odds_now": 118.72,
+      "left": 1783,
+      "odds_now": 118.32,
       "odds_start": 108.07,
       "total": 19535
      },
      {
       "amt": 5,
-      "left": 5418,
-      "odds_now": 39.09,
+      "left": 5391,
+      "odds_now": 39.13,
       "odds_start": 36.02,
       "total": 58605
      },
      {
       "amt": 2,
-      "left": 5325,
-      "odds_now": 39.78,
+      "left": 5302,
+      "odds_now": 39.79,
       "odds_start": 38.6,
       "total": 54698
      },
      {
       "amt": 1,
-      "left": 31492,
-      "odds_now": 6.73,
+      "left": 31372,
+      "odds_now": 6.72,
       "odds_start": 6.93,
       "total": 304746
      }
     ],
     "rating": "Poor",
-    "score": 19,
+    "score": 18,
     "since": {
      "biggest_claimed": 100,
-     "claimed": 87,
+     "claimed": 177,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 412
+     "score_change": -1,
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 839
     },
-    "value": 0.6448,
+    "value": 0.6433,
     "vs_scratchers": {
      "better": 0,
      "of": 6
     }
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "598-you-bet-your-bass",
    "status": "active"
   },
@@ -13488,7 +14169,7 @@
      }
     },
     "cost": 0.5,
-    "est_left": 73922,
+    "est_left": 73902,
     "fresh_value": 0.3508,
     "history": [
      {
@@ -13665,6 +14346,20 @@
       "score": 18,
       "t": "2026-10-16 09:45",
       "value": 0.6408
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 3.6,
+      "score": 18,
+      "t": "2026-10-16 16:10",
+      "value": 0.6408
+     },
+     {
+      "jackpot": 3000,
+      "left_pct": 3.6,
+      "score": 18,
+      "t": "2026-10-17 09:45",
+      "value": 0.6409
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/mi/pt599.jpg",
@@ -13686,21 +14381,21 @@
      {
       "amt": 40,
       "left": 85,
-      "odds_now": 869.67,
+      "odds_now": 869.44,
       "odds_start": 756.0,
       "total": 2705
      },
      {
       "amt": 20,
       "left": 60,
-      "odds_now": 1232.03,
+      "odds_now": 1231.7,
       "odds_start": 756.0,
       "total": 2705
      },
      {
       "amt": 5,
       "left": 404,
-      "odds_now": 182.98,
+      "odds_now": 182.93,
       "odds_start": 151.2,
       "total": 13525
      },
@@ -13713,7 +14408,7 @@
      },
      {
       "amt": 1,
-      "left": 11171,
+      "left": 11167,
       "odds_now": 6.62,
       "odds_start": 7.0,
       "total": 292140
@@ -13722,19 +14417,19 @@
     "rating": "Poor",
     "score": 18,
     "since": {
-     "biggest_claimed": 2,
-     "claimed": 2,
+     "biggest_claimed": 1,
+     "claimed": 4,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-15 16:10",
-     "tickets_sold": 10
+     "t": "2026-10-16 16:10",
+     "tickets_sold": 20
     },
     "value": 0.3204,
     "vs_scratchers": null
    },
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "slug": "599-some-like-it-hot",
    "status": "active"
   }
