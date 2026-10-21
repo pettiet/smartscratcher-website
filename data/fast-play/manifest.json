@@ -8336,6 +8336,13 @@
       "score": 50,
       "t": "2026-10-21 09:40",
       "value": 0.5894
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 14.4,
+      "score": 50,
+      "t": "2026-10-21 16:05",
+      "value": 0.5894
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp103.jpg",
@@ -8414,14 +8421,14 @@
     "rating": "Poor",
     "score": 50,
     "since": {
-     "biggest_claimed": 40,
-     "claimed": 1146,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 4916
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 0.5894,
     "vs_scratchers": {
@@ -8702,6 +8709,13 @@
       "score": 61,
       "t": "2026-10-21 09:40",
       "value": 0.6161
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 84.9,
+      "score": 61,
+      "t": "2026-10-21 16:05",
+      "value": 0.6161
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp104.jpg",
@@ -8773,14 +8787,14 @@
     "rating": "Fair",
     "score": 61,
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 319,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1027
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.8483,
     "vs_scratchers": {
@@ -8797,7 +8811,7 @@
    "game": {
     "bands": {
      "big": 0.1026,
-     "jackpot": 0.1553,
+     "jackpot": 0.1555,
      "mid": 3.5156,
      "small": 14.4571,
      "top": {
@@ -9061,6 +9075,13 @@
       "score": 40,
       "t": "2026-10-21 09:40",
       "value": 0.6077
+     },
+     {
+      "jackpot": 682457,
+      "left_pct": 91.3,
+      "score": 40,
+      "t": "2026-10-21 16:05",
+      "value": 0.6077
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp106.jpg",
@@ -9071,10 +9092,15 @@
      "share_pct": 1,
      "start": null,
      "total": 9,
-     "value": 681372,
+     "value": 682457,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 8,
+      "t": "2026-10-21 16:05",
+      "v": 682457
+     },
      {
       "left": 8,
       "t": "2026-10-21 09:40",
@@ -9263,7 +9289,7 @@
     "printed": 4807637,
     "prizes": [
      {
-      "amt": 681372,
+      "amt": 682457,
       "jackpot": true,
       "left": 8,
       "odds_now": 548483.25,
@@ -9330,16 +9356,16 @@
     "rating": "Poor",
     "score": 40,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 134,
-     "hours": 17.6,
-     "jackpot_change": 895,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 1085,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 371
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 18.2306,
+    "value": 18.2308,
     "vs_scratchers": {
      "better": 8,
      "of": 8
@@ -9618,6 +9644,13 @@
       "score": 73,
       "t": "2026-10-21 09:40",
       "value": 0.6714
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 95.6,
+      "score": 73,
+      "t": "2026-10-21 16:05",
+      "value": 0.6714
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp107.jpg",
@@ -9696,14 +9729,14 @@
     "rating": "Good",
     "score": 73,
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 165,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 508
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 2.0141,
     "vs_scratchers": {
@@ -9984,6 +10017,13 @@
       "score": 55,
       "t": "2026-10-21 09:40",
       "value": 0.6052
+     },
+     {
+      "jackpot": 84600,
+      "left_pct": 81.6,
+      "score": 55,
+      "t": "2026-10-21 16:05",
+      "value": 0.6052
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp108.jpg",
@@ -9994,10 +10034,15 @@
      "share_pct": 1,
      "start": null,
      "total": 15,
-     "value": 84363,
+     "value": 84600,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 11,
+      "t": "2026-10-21 16:05",
+      "v": 84600
+     },
      {
       "left": 11,
       "t": "2026-10-21 09:40",
@@ -10186,7 +10231,7 @@
     "printed": 4796482,
     "prizes": [
      {
-      "amt": 84363,
+      "amt": 84600,
       "jackpot": true,
       "left": 11,
       "odds_now": 355860.36,
@@ -10274,16 +10319,16 @@
     "rating": "Poor",
     "score": 55,
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 336,
-     "hours": 17.6,
-     "jackpot_change": 279,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 237,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1421
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 3.0261,
+    "value": 3.0262,
     "vs_scratchers": {
      "better": 24,
      "of": 24
@@ -10298,7 +10343,7 @@
    "game": {
     "bands": {
      "big": 0.1608,
-     "jackpot": 1.2541,
+     "jackpot": 1.2543,
      "mid": 1.6755,
      "small": 9.7529,
      "top": {
@@ -10562,6 +10607,13 @@
       "score": 56,
       "t": "2026-10-21 09:40",
       "value": 0.6422
+     },
+     {
+      "jackpot": 312825,
+      "left_pct": 90.2,
+      "score": 56,
+      "t": "2026-10-21 16:05",
+      "value": 0.6422
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp109.jpg",
@@ -10572,10 +10624,15 @@
      "share_pct": 10,
      "start": 300935,
      "total": 20,
-     "value": 312037,
+     "value": 312825,
      "value_at_start": 12.8407
     },
     "jackpot_log": [
+     {
+      "left": 18,
+      "t": "2026-10-21 16:05",
+      "v": 312825
+     },
      {
       "left": 18,
       "t": "2026-10-21 09:40",
@@ -10764,7 +10821,7 @@
     "printed": 4798584,
     "prizes": [
      {
-      "amt": 312037,
+      "amt": 312825,
       "jackpot": true,
       "left": 18,
       "odds_now": 240454.61,
@@ -10831,16 +10888,16 @@
     "rating": "Poor",
     "score": 56,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 105,
-     "hours": 17.6,
-     "jackpot_change": 720,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 788,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 502
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 12.8433,
+    "value": 12.8435,
     "vs_scratchers": {
      "better": 11,
      "of": 11
@@ -11119,6 +11176,13 @@
       "score": 48,
       "t": "2026-10-21 09:40",
       "value": 0.6702
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 91.4,
+      "score": 48,
+      "t": "2026-10-21 16:05",
+      "value": 0.6702
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp110.jpg",
@@ -11183,14 +11247,14 @@
     "rating": "Poor",
     "score": 48,
     "since": {
-     "biggest_claimed": 111,
-     "claimed": 292,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1004
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 2.0107,
     "vs_scratchers": {
@@ -11471,6 +11535,13 @@
       "score": 54,
       "t": "2026-10-21 09:40",
       "value": 0.599
+     },
+     {
+      "jackpot": 17124,
+      "left_pct": 88.8,
+      "score": 54,
+      "t": "2026-10-21 16:05",
+      "value": 0.599
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp111.jpg",
@@ -11481,10 +11552,15 @@
      "share_pct": 0,
      "start": null,
      "total": 26,
-     "value": 17092,
+     "value": 17124,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 23,
+      "t": "2026-10-21 16:05",
+      "v": 17124
+     },
      {
       "left": 23,
       "t": "2026-10-21 09:40",
@@ -11673,7 +11749,7 @@
     "printed": 4802114,
     "prizes": [
      {
-      "amt": 17092,
+      "amt": 17124,
       "jackpot": true,
       "left": 23,
       "odds_now": 185463.91,
@@ -11747,14 +11823,14 @@
     "rating": "Poor",
     "score": 54,
     "since": {
-     "biggest_claimed": 40,
-     "claimed": 295,
-     "hours": 17.6,
-     "jackpot_change": 38,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 32,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1088
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.198,
     "vs_scratchers": {
@@ -12035,6 +12111,13 @@
       "score": 48,
       "t": "2026-10-21 09:40",
       "value": 0.5586
+     },
+     {
+      "jackpot": 2226,
+      "left_pct": 71.0,
+      "score": 48,
+      "t": "2026-10-21 16:05",
+      "value": 0.5586
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp112.jpg",
@@ -12045,10 +12128,15 @@
      "share_pct": 1,
      "start": 512,
      "total": 48,
-     "value": 2158,
+     "value": 2226,
      "value_at_start": 0.5581
     },
     "jackpot_log": [
+     {
+      "left": 34,
+      "t": "2026-10-21 16:05",
+      "v": 2226
+     },
      {
       "left": 34,
       "t": "2026-10-21 09:40",
@@ -12237,7 +12325,7 @@
     "printed": 4804515,
     "prizes": [
      {
-      "amt": 2158,
+      "amt": 2226,
       "jackpot": true,
       "left": 34,
       "odds_now": 100379.5,
@@ -12304,14 +12392,14 @@
     "rating": "Poor",
     "score": 48,
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 1144,
-     "hours": 17.6,
-     "jackpot_change": 77,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 68,
      "jackpots_hit_here": 0,
-     "score_change": 12,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 4633
+     "score_change": 0,
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 0.5586,
     "vs_scratchers": {
@@ -12328,7 +12416,7 @@
    "game": {
     "bands": {
      "big": 0.0689,
-     "jackpot": 0.1263,
+     "jackpot": 0.1264,
      "mid": 1.1213,
      "small": 10.6473,
      "top": {
@@ -12592,6 +12680,13 @@
       "score": 64,
       "t": "2026-10-21 09:40",
       "value": 0.5982
+     },
+     {
+      "jackpot": 587565,
+      "left_pct": 97.0,
+      "score": 64,
+      "t": "2026-10-21 16:05",
+      "value": 0.5982
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp113.jpg",
@@ -12602,10 +12697,15 @@
      "share_pct": 1,
      "start": null,
      "total": 14,
-     "value": 586914,
+     "value": 587565,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 14,
+      "t": "2026-10-21 16:05",
+      "v": 587565
+     },
      {
       "left": 14,
       "t": "2026-10-21 09:40",
@@ -12794,7 +12894,7 @@
     "printed": 4792205,
     "prizes": [
      {
-      "amt": 586914,
+      "amt": 587565,
       "jackpot": true,
       "left": 14,
       "odds_now": 331920.43,
@@ -12868,16 +12968,16 @@
     "rating": "Fair",
     "score": 64,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 156,
-     "hours": 17.6,
-     "jackpot_change": 723,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 651,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 448
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 11.9638,
+    "value": 11.964,
     "vs_scratchers": {
      "better": 11,
      "of": 11
@@ -12892,7 +12992,7 @@
    "game": {
     "bands": {
      "big": 0.1733,
-     "jackpot": 0.024,
+     "jackpot": 0.0241,
      "mid": 1.6335,
      "small": 4.5423,
      "top": {
@@ -13156,6 +13256,13 @@
       "score": 61,
       "t": "2026-10-21 09:40",
       "value": 0.6373
+     },
+     {
+      "jackpot": 108440,
+      "left_pct": 93.7,
+      "score": 61,
+      "t": "2026-10-21 16:05",
+      "value": 0.6373
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp117.jpg",
@@ -13166,10 +13273,15 @@
      "share_pct": 0,
      "start": null,
      "total": 12,
-     "value": 108056,
+     "value": 108440,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 10,
+      "t": "2026-10-21 16:05",
+      "v": 108440
+     },
      {
       "left": 10,
       "t": "2026-10-21 09:40",
@@ -13358,7 +13470,7 @@
     "printed": 4802810,
     "prizes": [
      {
-      "amt": 108056,
+      "amt": 108440,
       "jackpot": true,
       "left": 10,
       "odds_now": 450215.9,
@@ -13446,14 +13558,14 @@
     "rating": "Fair",
     "score": 61,
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 232,
-     "hours": 17.6,
-     "jackpot_change": 387,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 384,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 839
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 6.3731,
     "vs_scratchers": {
@@ -13734,6 +13846,13 @@
       "score": 55,
       "t": "2026-10-21 09:40",
       "value": 0.633
+     },
+     {
+      "jackpot": 250,
+      "left_pct": 86.9,
+      "score": 55,
+      "t": "2026-10-21 16:05",
+      "value": 0.633
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp118.jpg",
@@ -13798,14 +13917,14 @@
     "rating": "Poor",
     "score": 55,
     "since": {
-     "biggest_claimed": 250,
-     "claimed": 358,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1411
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.2659,
     "vs_scratchers": {
@@ -14086,6 +14205,13 @@
       "score": 57,
       "t": "2026-10-21 09:40",
       "value": 0.6319
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 90.3,
+      "score": 57,
+      "t": "2026-10-21 16:05",
+      "value": 0.6319
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp119.jpg",
@@ -14178,14 +14304,14 @@
     "rating": "Poor",
     "score": 57,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 525,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1958
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.2639,
     "vs_scratchers": {
@@ -14466,6 +14592,13 @@
       "score": 77,
       "t": "2026-10-21 09:40",
       "value": 0.7009
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 94.7,
+      "score": 77,
+      "t": "2026-10-21 16:05",
+      "value": 0.7009
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp120.jpg",
@@ -14558,14 +14691,14 @@
     "rating": "Good",
     "score": 77,
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 327,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1232
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 3.5047,
     "vs_scratchers": {
@@ -14846,6 +14979,13 @@
       "score": 68,
       "t": "2026-10-21 09:40",
       "value": 0.743
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 96.4,
+      "score": 68,
+      "t": "2026-10-21 16:05",
+      "value": 0.743
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp121.jpg",
@@ -14945,14 +15085,14 @@
     "rating": "Fair",
     "score": 68,
     "since": {
-     "biggest_claimed": 1000,
-     "claimed": 281,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 921
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 7.4299,
     "vs_scratchers": {
@@ -15233,6 +15373,13 @@
       "score": 88,
       "t": "2026-10-21 09:40",
       "value": 0.7693
+     },
+     {
+      "jackpot": 1000000,
+      "left_pct": 98.4,
+      "score": 88,
+      "t": "2026-10-21 16:05",
+      "value": 0.7693
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp122.jpg",
@@ -15318,14 +15465,14 @@
     "rating": "Great",
     "score": 88,
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 164,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 459
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 15.3852,
     "vs_scratchers": {
@@ -15606,6 +15753,13 @@
       "score": 77,
       "t": "2026-10-21 09:40",
       "value": 0.7837
+     },
+     {
+      "jackpot": 600,
+      "left_pct": 97.6,
+      "score": 77,
+      "t": "2026-10-21 16:05",
+      "value": 0.7837
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp123.jpg",
@@ -15642,14 +15796,14 @@
     "rating": "Good",
     "score": 77,
     "since": {
-     "biggest_claimed": 600,
-     "claimed": 290,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 2283
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 23.512,
     "vs_scratchers": {
@@ -15930,6 +16084,13 @@
       "score": 77,
       "t": "2026-10-21 09:40",
       "value": 0.7007
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 97.1,
+      "score": 77,
+      "t": "2026-10-21 16:05",
+      "value": 0.7007
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp124.jpg",
@@ -16036,14 +16197,14 @@
     "rating": "Good",
     "score": 77,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 516,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 2002
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 3.5037,
     "vs_scratchers": {
@@ -16324,6 +16485,13 @@
       "score": 65,
       "t": "2026-10-21 09:40",
       "value": 0.6015
+     },
+     {
+      "jackpot": 23190,
+      "left_pct": 98.2,
+      "score": 65,
+      "t": "2026-10-21 16:05",
+      "value": 0.6015
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp125.jpg",
@@ -16334,10 +16502,15 @@
      "share_pct": 0,
      "start": null,
      "total": 30,
-     "value": 23076,
+     "value": 23190,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 30,
+      "t": "2026-10-21 16:05",
+      "v": 23190
+     },
      {
       "left": 30,
       "t": "2026-10-21 09:40",
@@ -16526,7 +16699,7 @@
     "printed": 4801944,
     "prizes": [
      {
-      "amt": 23076,
+      "amt": 23190,
       "jackpot": true,
       "left": 30,
       "odds_now": 157165.97,
@@ -16600,14 +16773,14 @@
     "rating": "Fair",
     "score": 65,
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 340,
-     "hours": 17.6,
-     "jackpot_change": 116,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 114,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1428
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.8046,
     "vs_scratchers": {
@@ -16624,7 +16797,7 @@
    "game": {
     "bands": {
      "big": 0.0646,
-     "jackpot": 0.0396,
+     "jackpot": 0.0397,
      "mid": 0.7982,
      "small": 2.2374,
      "top": {
@@ -16888,6 +17061,13 @@
       "score": 62,
       "t": "2026-10-21 09:40",
       "value": 0.628
+     },
+     {
+      "jackpot": 127797,
+      "left_pct": 67.0,
+      "score": 62,
+      "t": "2026-10-21 16:05",
+      "value": 0.628
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp18.jpg",
@@ -16898,10 +17078,15 @@
      "share_pct": 1,
      "start": null,
      "total": 19,
-     "value": 127579,
+     "value": 127797,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 14,
+      "t": "2026-10-21 16:05",
+      "v": 127797
+     },
      {
       "left": 14,
       "t": "2026-10-21 09:40",
@@ -17090,7 +17275,7 @@
     "printed": 4805641,
     "prizes": [
      {
-      "amt": 127579,
+      "amt": 127797,
       "jackpot": true,
       "left": 14,
       "odds_now": 230090.93,
@@ -17178,16 +17363,16 @@
     "rating": "Fair",
     "score": 62,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 406,
-     "hours": 17.6,
-     "jackpot_change": 216,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 218,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1559
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 3.1398,
+    "value": 3.1399,
     "vs_scratchers": {
      "better": 23,
      "of": 24
@@ -17202,7 +17387,7 @@
    "game": {
     "bands": {
      "big": 0.0173,
-     "jackpot": 0.1064,
+     "jackpot": 0.1066,
      "mid": 0.1907,
      "small": 2.9325,
      "top": {
@@ -17466,6 +17651,13 @@
       "score": 67,
       "t": "2026-10-21 09:40",
       "value": 0.6494
+     },
+     {
+      "jackpot": 172278,
+      "left_pct": 33.7,
+      "score": 67,
+      "t": "2026-10-21 16:05",
+      "value": 0.6494
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp31.jpg",
@@ -17476,10 +17668,15 @@
      "share_pct": 3,
      "start": null,
      "total": 15,
-     "value": 171924,
+     "value": 172278,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 6,
+      "t": "2026-10-21 16:05",
+      "v": 172278
+     },
      {
       "left": 6,
       "t": "2026-10-21 09:40",
@@ -17668,7 +17865,7 @@
     "printed": 4795854,
     "prizes": [
      {
-      "amt": 171924,
+      "amt": 172278,
       "jackpot": true,
       "left": 6,
       "odds_now": 269362.5,
@@ -17756,16 +17953,16 @@
     "rating": "Fair",
     "score": 67,
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 758,
-     "hours": 17.6,
-     "jackpot_change": 350,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 354,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 2638
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 3.2469,
+    "value": 3.2471,
     "vs_scratchers": {
      "better": 22,
      "of": 24
@@ -17780,7 +17977,7 @@
    "game": {
     "bands": {
      "big": 0.3693,
-     "jackpot": 0.0439,
+     "jackpot": 0.044,
      "mid": 1.6789,
      "small": 4.2846,
      "top": {
@@ -18044,6 +18241,13 @@
       "score": 43,
       "t": "2026-10-21 09:40",
       "value": 0.6377
+     },
+     {
+      "jackpot": 169052,
+      "left_pct": 80.1,
+      "score": 43,
+      "t": "2026-10-21 16:05",
+      "value": 0.6377
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp42.jpg",
@@ -18054,10 +18258,15 @@
      "share_pct": 1,
      "start": null,
      "total": 30,
-     "value": 168874,
+     "value": 169052,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 24,
+      "t": "2026-10-21 16:05",
+      "v": 169052
+     },
      {
       "left": 24,
       "t": "2026-10-21 09:40",
@@ -18246,7 +18455,7 @@
     "printed": 4800430,
     "prizes": [
      {
-      "amt": 168874,
+      "amt": 169052,
       "jackpot": true,
       "left": 24,
       "odds_now": 160217.42,
@@ -18334,16 +18543,16 @@
     "rating": "Poor",
     "score": 43,
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 194,
-     "hours": 17.6,
-     "jackpot_change": 215,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 178,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 861
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
-    "value": 6.3767,
+    "value": 6.3768,
     "vs_scratchers": {
      "better": 24,
      "of": 24
@@ -18622,6 +18831,13 @@
       "score": 52,
       "t": "2026-10-21 09:40",
       "value": 0.6984
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 57.2,
+      "score": 52,
+      "t": "2026-10-21 16:05",
+      "value": 0.6984
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp70.jpg",
@@ -18693,14 +18909,14 @@
     "rating": "Poor",
     "score": 52,
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 266,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1218
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 3.492,
     "vs_scratchers": {
@@ -18981,6 +19197,13 @@
       "score": 84,
       "t": "2026-10-21 09:40",
       "value": 0.7465
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 78.5,
+      "score": 84,
+      "t": "2026-10-21 16:05",
+      "value": 0.7465
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp71.jpg",
@@ -19080,14 +19303,14 @@
     "rating": "Great",
     "score": 84,
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 147,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 673
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 7.4645,
     "vs_scratchers": {
@@ -19104,7 +19327,7 @@
    "game": {
     "bands": {
      "big": 0.0017,
-     "jackpot": 0.022,
+     "jackpot": 0.0221,
      "mid": 0.4026,
      "small": 0.7743,
      "top": {
@@ -19368,6 +19591,13 @@
       "score": 41,
       "t": "2026-10-21 09:40",
       "value": 0.6003
+     },
+     {
+      "jackpot": 38473,
+      "left_pct": 36.3,
+      "score": 41,
+      "t": "2026-10-21 16:05",
+      "value": 0.6003
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp74.jpg",
@@ -19378,10 +19608,15 @@
      "share_pct": 2,
      "start": null,
      "total": 12,
-     "value": 38378,
+     "value": 38473,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 4,
+      "t": "2026-10-21 16:05",
+      "v": 38473
+     },
      {
       "left": 4,
       "t": "2026-10-21 09:40",
@@ -19570,7 +19805,7 @@
     "printed": 4804491,
     "prizes": [
      {
-      "amt": 38378,
+      "amt": 38473,
       "jackpot": true,
       "left": 4,
       "odds_now": 436157.0,
@@ -19651,14 +19886,14 @@
     "rating": "Poor",
     "score": 41,
     "since": {
-     "biggest_claimed": 40,
-     "claimed": 625,
-     "hours": 17.6,
-     "jackpot_change": 108,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 95,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 2513
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.2006,
     "vs_scratchers": {
@@ -19939,6 +20174,13 @@
       "score": 58,
       "t": "2026-10-21 09:40",
       "value": 0.6336
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 83.2,
+      "score": 58,
+      "t": "2026-10-21 16:05",
+      "value": 0.6336
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp80.jpg",
@@ -20031,14 +20273,14 @@
     "rating": "Poor",
     "score": 58,
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 1556,
-     "hours": 17.6,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 6006
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 1.2671,
     "vs_scratchers": {
@@ -20055,7 +20297,7 @@
    "game": {
     "bands": {
      "big": 0.0402,
-     "jackpot": 0.0268,
+     "jackpot": 0.0269,
      "mid": 0.4647,
      "small": 2.6234,
      "top": {
@@ -20319,6 +20561,13 @@
       "score": 62,
       "t": "2026-10-21 09:40",
       "value": 0.631
+     },
+     {
+      "jackpot": 89571,
+      "left_pct": 69.4,
+      "score": 62,
+      "t": "2026-10-21 16:05",
+      "value": 0.631
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp91.jpg",
@@ -20329,10 +20578,15 @@
      "share_pct": 1,
      "start": null,
      "total": 15,
-     "value": 89395,
+     "value": 89571,
      "value_at_start": null
     },
     "jackpot_log": [
+     {
+      "left": 11,
+      "t": "2026-10-21 16:05",
+      "v": 89571
+     },
      {
       "left": 11,
       "t": "2026-10-21 09:40",
@@ -20521,7 +20775,7 @@
     "printed": 4802943,
     "prizes": [
      {
-      "amt": 89395,
+      "amt": 89571,
       "jackpot": true,
       "left": 11,
       "odds_now": 302904.73,
@@ -20609,14 +20863,14 @@
     "rating": "Fair",
     "score": 62,
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 356,
-     "hours": 17.6,
-     "jackpot_change": 179,
+     "biggest_claimed": null,
+     "claimed": 0,
+     "hours": 6.4,
+     "jackpot_change": 176,
      "jackpots_hit_here": 0,
      "score_change": 0,
-     "t": "2026-10-20 16:05",
-     "tickets_sold": 1356
+     "t": "2026-10-21 09:40",
+     "tickets_sold": 0
     },
     "value": 3.1552,
     "vs_scratchers": {
