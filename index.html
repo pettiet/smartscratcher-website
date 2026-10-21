@@ -7,11 +7,11 @@
 <meta name="description" content="SmartScratcher shows you which scratch-off games still have real prizes worth winning. Always-current data for California, Florida, Georgia, Maryland, Massachusetts, Michigan, Missouri, New Jersey, New York, North Carolina, Oklahoma, South Carolina, Texas, Virginia, and Washington. Free to try." />
 <link rel="canonical" href="https://www.smartscratcherapp.com/">
 <meta property="og:title" content="SmartScratcher — Stop buying dead scratchers." />
-<meta property="og:description" content="Which scratch-offs still have real prizes? We do the math when the lottery updates. Now in 15 states." />
+<meta property="og:description" content="Which scratch-offs still have real prizes? We do the math when the lottery updates. Now in 19 states, on iPhone and Android." />
 <meta property="og:image" content="https://www.smartscratcherapp.com/share/home.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="SmartScratcher — stop buying dead scratchers. Lottery scratch-off intelligence for Now in 15 states." />
+<meta property="og:image:alt" content="SmartScratcher — stop buying dead scratchers. Lottery scratch-off intelligence, now in 19 states." />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://www.smartscratcherapp.com/share/home.png" />
 
@@ -939,6 +939,9 @@
   }
   .plan.featured li::before { color: var(--yellow); }
   .plan li strong { color: white; }
+  .plan .get-app { display: block; }
+  .plan .get-app > summary { display: flex; justify-content: center; }
+  .plan .get-app-menu { right: auto; left: 0; }
   .plan .cta-btn {
     display: inline-flex;
     align-items: center;
@@ -1422,14 +1425,26 @@
     }
     .launch-banner .lb-msg { flex: 1 1 auto; min-width: 0; }
   }
+
+  /* Get the App: one button, two stores (App Store / Google Play) */
+  .get-app { position: relative; display: inline-block; }
+  .get-app > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; user-select: none; }
+  .get-app > summary::-webkit-details-marker { display: none; }
+  .get-app > summary::after { content: '\25BE'; font-size: 0.85em; }
+  .get-app-pill { background: #ffd60a; color: #1a1a1a; padding: 9px 18px; border-radius: 100px; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+  .get-app-pill:hover { background: #ffe44d; }
+  .get-app-menu { position: absolute; right: 0; top: calc(100% + 8px); background: #1a1a1a; border: 2px solid #ffd60a; border-radius: 14px; padding: 6px; min-width: 200px; z-index: 60; box-shadow: 5px 5px 0 #ff3b30; text-align: left; }
+  .get-app-menu a { display: block !important; padding: 10px 14px; border-radius: 10px; color: #fff9e6 !important; font-family: inherit; font-size: 14px !important; font-weight: 600; line-height: 1.3; letter-spacing: 0 !important; text-transform: none !important; text-decoration: none !important; white-space: nowrap; opacity: 1 !important; margin: 0 !important; }
+  .get-app-menu a:hover { background: #2a2a2a; color: #ffd60a !important; }
+  .get-app-menu a small { display: block; font-size: 11px; font-weight: 500; color: #9a9a9a; }
 </style>
 </head>
 <body>
 
 <!-- LAUNCH BANNER -->
-<a href="articles/six-new-states.html" class="launch-banner">
+<a href="articles/now-on-android.html" class="launch-banner">
   <span class="lb-pill">New</span>
-  <span class="lb-msg"><strong>Six new states just joined the app</strong> — SmartScratcher 5.0 is out with Maryland, Michigan, Missouri, South Carolina, Virginia &amp; Washington</span>
+  <span class="lb-msg"><strong>SmartScratcher is now on Android</strong> — plus Arkansas, Illinois, Kansas &amp; Ohio, Fast Play and pull tabs. 19 states, two app stores</span>
   <span class="lb-arrow">Read the story →</span>
 </a>
 
@@ -1443,7 +1458,7 @@
     <a href="numbers/">The Numbers</a>
     <a href="#pricing">Pricing</a>
     <a href="#faq">FAQ</a>
-    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-nav&amp;mt=8" class="cta-btn">Get the App</a>
+    <details class="get-app"><summary class="cta-btn">Get the App</summary><div class="get-app-menu"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-nav&amp;mt=8">App Store<small>iPhone and iPad</small></a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-nav">Google Play<small>Android</small></a></div></details>
   </div>
 </nav>
 
@@ -1451,7 +1466,7 @@
 <section class="hero">
   <div class="eyebrow">
     <span class="dot"></span>
-    <span>Always current · now in 15 states</span>
+    <span>Always current · now in 19 states · iPhone and Android</span>
   </div>
   <h1>
     Stop buying <span class="strike">dead</span> scratchers.<br>
@@ -1675,10 +1690,10 @@
           <li>View all active scratch-off games</li>
           <li>See ticket prices and remaining prizes</li>
           <li>View all prize tiers for every game</li>
-          <li>Switch between all 15 states, coast to coast</li>
+          <li>Switch between all 19 states, coast to coast</li>
           <li>Games sorted alphabetically</li>
         </ul>
-        <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-pricing-free&amp;mt=8" class="cta-btn">Get the free app →</a>
+        <details class="get-app"><summary class="cta-btn">Get the free app</summary><div class="get-app-menu"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-pricing-free&amp;mt=8">App Store<small>iPhone and iPad</small></a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-pricing-free">Google Play<small>Android</small></a></div></details>
       </div>
 
       <div class="plan featured">
@@ -1700,7 +1715,7 @@
           <li><strong>Detailed odds table</strong> — initial vs current</li>
           <li><strong>Daily Summaries</strong> — what changed overnight</li>
         </ul>
-        <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-pricing-trial&amp;mt=8" class="cta-btn">Start free trial →</a>
+        <details class="get-app"><summary class="cta-btn">Start free trial</summary><div class="get-app-menu"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-pricing-trial&amp;mt=8">App Store<small>iPhone and iPad</small></a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-pricing-trial">Google Play<small>Android</small></a></div></details>
       </div>
     </div>
     <div class="pricing-fine">No hidden fees. Cancel anytime through the App Store or Google Play. You can always downgrade back to free.</div>
@@ -1710,17 +1725,16 @@
 <!-- STATES -->
 <section class="states" id="states">
   <div class="section-kicker">· States we cover ·</div>
-  <h2>Fifteen states. <em>Illinois, Kansas and Ohio on the way, Arkansas in progress.</em></h2>
-  <p class="states-deck">We currently track every active scratch-off in these states. Data refreshes whenever each state lottery posts an update. Illinois, Kansas and Ohio are coming to the app soon — we're already tracking their games, so go ahead and browse. Arkansas is a work in progress: its games are listed, but we're still working with the lottery on daily updates.</p>
+  <h2>Nineteen states. <em>Arkansas, Illinois, Kansas and Ohio just joined.</em></h2>
+  <p class="states-deck">We track every active scratch-off in these states, and the numbers refresh whenever each state lottery posts an update. The four newest are in the Android app today and reach the iPhone app with its 5.1 update; their pages here are live right now.</p>
 
   <div class="states-grid">
-    <a class="state-card soon" href="/scratchers/arkansas/">
-      <span class="soon-chip">IN PROGRESS</span>
+    <a class="state-card" href="/scratchers/arkansas/">
       <div class="s-flag">💎</div>
       <div class="s-abbr">AR</div>
       <div class="s-name">Arkansas</div>
-      <div class="s-stats">Games listed · daily updates not set up yet</div>
-      <div class="s-go">Peek at the games →</div>
+      <div class="s-stats">Just added · every active game</div>
+      <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/california/">
       <div class="s-flag">🐻</div>
@@ -1743,27 +1757,25 @@
       <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
-    <a class="state-card soon" href="/scratchers/illinois/">
-      <span class="soon-chip">APP SOON</span>
+    <a class="state-card" href="/scratchers/illinois/">
       <div class="s-flag">🌽</div>
       <div class="s-abbr">IL</div>
       <div class="s-name">Illinois</div>
-      <div class="s-stats">Coming to the app soon · data's live</div>
-      <div class="s-go">Peek at the games →</div>
+      <div class="s-stats">Just added · every active game</div>
+      <div class="s-go">See every game →</div>
     </a>
-    <a class="state-card soon" href="/scratchers/kansas/">
-      <span class="soon-chip">APP SOON</span>
+    <a class="state-card" href="/scratchers/kansas/">
       <div class="s-flag">🌻</div>
       <div class="s-abbr">KS</div>
       <div class="s-name">Kansas</div>
-      <div class="s-stats">Coming to the app soon · data's live</div>
-      <div class="s-go">Peek at the games →</div>
+      <div class="s-stats">Just added · every active game</div>
+      <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/maryland/">
       <div class="s-flag">🦀</div>
       <div class="s-abbr">MD</div>
       <div class="s-name">Maryland</div>
-      <div class="s-stats">Just added · every active game</div>
+      <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/massachusetts/">
@@ -1777,14 +1789,14 @@
       <div class="s-flag">🚗</div>
       <div class="s-abbr">MI</div>
       <div class="s-name">Michigan</div>
-      <div class="s-stats">Just added · every active game</div>
+      <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/missouri/">
       <div class="s-flag">⚜️</div>
       <div class="s-abbr">MO</div>
       <div class="s-name">Missouri</div>
-      <div class="s-stats">Just added · every active game</div>
+      <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/new-jersey/">
@@ -1808,13 +1820,12 @@
       <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
-    <a class="state-card soon" href="/scratchers/ohio/">
-      <span class="soon-chip">APP SOON</span>
+    <a class="state-card" href="/scratchers/ohio/">
       <div class="s-flag">🌰</div>
       <div class="s-abbr">OH</div>
       <div class="s-name">Ohio</div>
-      <div class="s-stats">Coming to the app soon · data's live</div>
-      <div class="s-go">Peek at the games →</div>
+      <div class="s-stats">Just added · every active game</div>
+      <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/oklahoma/">
       <div class="s-flag">🌾</div>
@@ -1827,7 +1838,7 @@
       <div class="s-flag">🎓</div>
       <div class="s-abbr">SC</div>
       <div class="s-name">South Carolina</div>
-      <div class="s-stats">Just added · every active game</div>
+      <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/texas/">
@@ -1841,14 +1852,14 @@
       <div class="s-flag">❤️</div>
       <div class="s-abbr">VA</div>
       <div class="s-name">Virginia</div>
-      <div class="s-stats">Just added · every active game</div>
+      <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
     <a class="state-card" href="/scratchers/washington/">
       <div class="s-flag">🏔️</div>
       <div class="s-abbr">WA</div>
       <div class="s-name">Washington</div>
-      <div class="s-stats">Just added · every active game</div>
+      <div class="s-stats">Every active game · always current</div>
       <div class="s-go">See every game →</div>
     </a>
   </div>
@@ -1856,7 +1867,7 @@
   <div class="live-peek">
     <div>
       <h3>Don't take our word for it — <em>peek at the data.</em></h3>
-      <p>Every active game in all fifteen states we track, with real remaining-prize counts straight from official lottery data. Free to browse, updated daily.</p>
+      <p>Every active game in all nineteen states we track, with real remaining-prize counts straight from official lottery data. Free to browse, updated daily.</p>
     </div>
     <a href="scratchers/" class="lp-btn">Browse the live game data →</a>
   </div>
@@ -1941,7 +1952,7 @@
         <span class="toggle">+</span>
       </button>
       <div class="faq-a">
-        <p>Fifteen states: California, Florida, Georgia, Maryland, Massachusetts, Michigan, Missouri, New Jersey, New York, North Carolina, Oklahoma, South Carolina, Texas, Virginia, and Washington — all live in the app as of version 5.0. If your state isn't covered, <a href="#contact">let us know</a> and we'll add it to the queue.</p>
+        <p>Nineteen states: Arkansas, California, Florida, Georgia, Illinois, Kansas, Maryland, Massachusetts, Michigan, Missouri, New Jersey, New York, North Carolina, Ohio, Oklahoma, South Carolina, Texas, Virginia, and Washington. All nineteen are in the Android app today; the iPhone app adds Arkansas, Illinois, Kansas and Ohio with its 5.1 update. If your state isn't covered, <a href="#contact">let us know</a> and we'll add it to the queue.</p>
       </div>
     </div>
 
@@ -2183,5 +2194,6 @@
 })();
 </script>
 
+<script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
 </body>
 </html>

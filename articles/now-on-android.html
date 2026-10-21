@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>Now on Android. Plus four new states. — SmartScratcher</title>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Now on Android. Plus four new states.">
+<meta property="og:description" content="SmartScratcher is on Google Play, and Arkansas, Illinois, Kansas and Ohio join the lineup. Nineteen states, two app stores, every scratcher counted daily.">
+<meta property="og:image" content="https://www.smartscratcherapp.com/share/now-on-android.png">
+<meta property="og:url" content="https://www.smartscratcherapp.com/articles/now-on-android.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    color-scheme: light !important;
+    --yellow: #ffd60a;
+    --yellow-soft: #fff3cc;
+    --cream: #fff9e6;
+    --ink: #1a1a1a;
+    --ink-soft: #2a2a2a;
+    --red: #ff3b30;
+    --green: #16a34a;
+    --blue: #0066ff;
+    --muted: #6a6a6a;
+    --rule: #e8e2d1;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--cream) !important;
+    color: var(--ink) !important;
+    color-scheme: light !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ============ NAV ============ */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--ink);
+    color: var(--cream);
+    padding: 14px 0;
+    border-bottom: 4px solid var(--yellow);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wordmark {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    text-decoration: none;
+  }
+  .wordmark span { color: var(--yellow); }
+  .nav-links {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+  }
+  .nav-links a {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 249, 230, 0.85);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--yellow); }
+  .nav-links .nav-cta {
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 9px 18px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .nav-links .nav-cta:hover {
+    background: #ffe44d;
+    color: var(--ink);
+  }
+  @media (max-width: 720px) {
+    .nav-links a:not(.nav-cta) { display: none; }
+    .nav { padding: 12px 0; }
+  }
+
+  /* ============ TICKER ============ */
+  .ticker {
+    background: var(--red);
+    color: white;
+    overflow: hidden;
+    border-bottom: 2px solid var(--ink);
+    padding: 10px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .ticker-inner {
+    display: inline-block;
+    animation: scroll 30s linear infinite;
+    padding-left: 100%;
+  }
+  .ticker-inner span { margin: 0 24px; }
+  .ticker-inner .dot { color: var(--yellow); }
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  /* ============ HERO ============ */
+  .hero {
+    background: var(--cream);
+    padding: 80px 24px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: var(--yellow);
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 0;
+  }
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    display: inline-block;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 8px 16px;
+    transform: rotate(-1deg);
+    box-shadow: 4px 4px 0 var(--red);
+  }
+  .hero h1 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(48px, 8vw, 104px);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    margin-bottom: 32px;
+    max-width: 1000px;
+  }
+  .hero h1 .state-name {
+    display: inline-block;
+    color: var(--ink);
+  }
+  .hero h1 .state-name:nth-of-type(1) { color: var(--ink); }
+  .hero h1 .state-name:nth-of-type(2) { color: var(--ink); }
+  .hero h1 .state-name:nth-of-type(3) { color: var(--ink); }
+  .hero h1 .highlight {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .hero h1 .highlight::before {
+    content: "";
+    position: absolute;
+    inset: 12px -6px -8px -6px;
+    background: var(--yellow);
+    z-index: -1;
+    transform: rotate(-0.5deg);
+  }
+  .hero-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(18px, 2vw, 22px);
+    color: var(--ink-soft);
+    max-width: 720px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+  }
+  .hero-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 24px;
+    border-top: 2px solid var(--ink);
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  /* ============ MAP REVEAL ============ */
+  .map-section {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 100px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .map-section::before {
+    content: "MORE STATES. MORE GAMES. MORE STATES. MORE GAMES. ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: 180px;
+    color: var(--ink-soft);
+    opacity: 0.4;
+    line-height: 1;
+    pointer-events: none;
+  }
+  .map-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .map-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .map-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--yellow);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .map-headline {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 5vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--cream);
+    margin-bottom: 24px;
+  }
+  .map-headline .num {
+    color: var(--yellow);
+    font-size: 1.2em;
+    display: inline-block;
+    transform: translateY(8px);
+  }
+  .map-text {
+    font-size: 17px;
+    color: rgba(255, 249, 230, 0.85);
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+
+  .map-viz {
+    background: var(--cream);
+    color: var(--ink);
+    padding: 40px 32px;
+    border: 4px solid var(--yellow);
+    box-shadow: 8px 8px 0 var(--red);
+    transform: rotate(-1deg);
+  }
+  .map-viz svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .map-viz-caption {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 16px;
+    color: var(--ink);
+  }
+  .map-viz-caption .arrow {
+    color: var(--red);
+    font-weight: 700;
+  }
+
+  /* ============ STATES STACK ============ */
+  .states-section {
+    background: var(--cream);
+    padding: 100px 24px;
+  }
+  .states-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .states-eyebrow {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .states-eyebrow .kicker-small {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .states-eyebrow h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 5vw, 56px);
+    letter-spacing: -0.03em;
+    color: var(--ink);
+    line-height: 1;
+  }
+
+  .state-card {
+    background: white;
+    border: 3px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--ink);
+    padding: 40px;
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    gap: 32px;
+    align-items: center;
+    position: relative;
+  }
+  .state-card:nth-child(2) { transform: rotate(-0.4deg); }
+  .state-card:nth-child(3) { transform: rotate(0.5deg); }
+  .state-card:nth-child(4) { transform: rotate(-0.3deg); }
+
+  .state-number {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: 88px;
+    line-height: 1;
+    color: var(--yellow);
+    text-shadow: 3px 3px 0 var(--ink);
+  }
+  .state-body h3 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 3vw, 40px);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  .state-body .state-abbr {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .state-body p {
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    max-width: 480px;
+  }
+  .state-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  @media (max-width: 720px) {
+    .state-card {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .state-number { font-size: 64px; }
+    .state-icon { width: 60px; height: 60px; font-size: 32px; }
+  }
+
+  /* ============ WHAT YOU GET ============ */
+  .features-section {
+    background: var(--yellow);
+    padding: 100px 24px;
+    border-top: 4px solid var(--ink);
+    border-bottom: 4px solid var(--ink);
+  }
+  .features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .features-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .features-headline {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 5vw, 64px);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: var(--ink);
+    margin-bottom: 60px;
+    max-width: 800px;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+  .feature {
+    background: var(--cream);
+    border: 3px solid var(--ink);
+    padding: 28px;
+    position: relative;
+  }
+  .feature-num {
+    position: absolute;
+    top: -16px;
+    left: 20px;
+    background: var(--red);
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    letter-spacing: 0.1em;
+  }
+  .feature h4 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    color: var(--ink);
+  }
+  .feature p {
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  /* ============ CTA ============ */
+  .cta-section {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 100px 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .cta-eyebrow {
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    color: var(--yellow);
+    margin-bottom: 16px;
+    transform: rotate(-2deg);
+    display: inline-block;
+  }
+  .cta-headline {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: clamp(40px, 6vw, 72px);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+  .cta-headline .yellow { color: var(--yellow); }
+  .cta-sub {
+    font-size: 18px;
+    color: rgba(255, 249, 230, 0.85);
+    margin-bottom: 40px;
+    line-height: 1.55;
+  }
+  .cta-button {
+    display: inline-block;
+    background: var(--yellow);
+    color: var(--ink);
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    padding: 22px 48px;
+    border: 4px solid var(--cream);
+    box-shadow: 8px 8px 0 var(--red);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .cta-button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 var(--red);
+  }
+  .cta-fineprint {
+    margin-top: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: rgba(255, 249, 230, 0.5);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ============ FOOTER ============ */
+  .site-footer {
+    background: var(--ink);
+    color: rgba(255, 249, 230, 0.85);
+    padding: 60px 24px 30px;
+    border-top: 4px solid var(--yellow);
+  }
+  .site-footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 249, 230, 0.12);
+  }
+  .site-footer .f-brand .f-logo {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .site-footer .f-brand .f-logo span { color: var(--yellow); }
+  .site-footer .f-brand p {
+    font-size: 14px;
+    color: rgba(255, 249, 230, 0.6);
+    line-height: 1.55;
+    max-width: 320px;
+  }
+  .site-footer .f-col h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .site-footer .f-col a {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 249, 230, 0.78);
+    text-decoration: none;
+    padding: 4px 0;
+  }
+  .site-footer .f-col a:hover { color: var(--yellow); }
+  .site-footer-bottom {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: rgba(255, 249, 230, 0.5);
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+  }
+  .site-footer-bottom a {
+    color: var(--yellow);
+    text-decoration: none;
+  }
+  @media (max-width: 880px) {
+    .site-footer-inner { grid-template-columns: 1fr 1fr; gap: 28px; }
+  }
+  @media (max-width: 480px) {
+    .site-footer-inner { grid-template-columns: 1fr; gap: 22px; }
+  }
+
+  /* ============ MOBILE ============ */
+  @media (max-width: 720px) {
+    .map-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .hero { padding: 60px 24px 40px; }
+    .map-section, .states-section, .features-section, .cta-section {
+      padding: 60px 20px;
+    }
+    .map-section::before { font-size: 80px; }
+    .hero-meta { gap: 16px; flex-direction: column; }
+  }
+
+  /* Get the App: one button, two stores (App Store / Google Play) */
+  .get-app { position: relative; display: inline-block; }
+  .get-app > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; user-select: none; }
+  .get-app > summary::-webkit-details-marker { display: none; }
+  .get-app > summary::after { content: '\25BE'; font-size: 0.85em; }
+  .get-app-pill { background: #ffd60a; color: #1a1a1a; padding: 9px 18px; border-radius: 100px; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+  .get-app-pill:hover { background: #ffe44d; }
+  .get-app-menu { position: absolute; right: 0; top: calc(100% + 8px); background: #1a1a1a; border: 2px solid #ffd60a; border-radius: 14px; padding: 6px; min-width: 200px; z-index: 60; box-shadow: 5px 5px 0 #ff3b30; text-align: left; }
+  .get-app-menu a { display: block !important; padding: 10px 14px; border-radius: 10px; color: #fff9e6 !important; font-family: inherit; font-size: 14px !important; font-weight: 600; line-height: 1.3; letter-spacing: 0 !important; text-transform: none !important; text-decoration: none !important; white-space: nowrap; opacity: 1 !important; margin: 0 !important; }
+  .get-app-menu a:hover { background: #2a2a2a; color: #ffd60a !important; }
+  .get-app-menu a small { display: block; font-size: 11px; font-weight: 500; color: #9a9a9a; }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="wordmark">Smart<span>Scratcher</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../scratchers/">Live Games</a>
+      <a href="../numbers/">The Numbers</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#faq">FAQ</a>
+      <details class="get-app"><summary class="nav-cta">Get the App</summary><div class="get-app-menu"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8">App Store<small>iPhone and iPad</small></a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-article">Google Play<small>Android</small></a></div></details>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>🟡 NEW</span><span class="dot">●</span>
+    <span>NOW ON ANDROID</span><span class="dot">●</span>
+    <span>ARKANSAS IS LIVE</span><span class="dot">●</span>
+    <span>ILLINOIS IS LIVE</span><span class="dot">●</span>
+    <span>KANSAS IS LIVE</span><span class="dot">●</span>
+    <span>OHIO IS LIVE</span><span class="dot">●</span>
+    <span>NINETEEN STATES TOTAL</span><span class="dot">●</span>
+    <span>FAST PLAY AND PULL TABS</span><span class="dot">●</span>
+    <span>🟡 NEW</span><span class="dot">●</span>
+    <span>NOW ON ANDROID</span><span class="dot">●</span>
+    <span>ARKANSAS IS LIVE</span><span class="dot">●</span>
+    <span>ILLINOIS IS LIVE</span><span class="dot">●</span>
+    <span>KANSAS IS LIVE</span><span class="dot">●</span>
+    <span>OHIO IS LIVE</span><span class="dot">●</span>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="kicker">🤖 Two big ones in one day</div>
+    <h1><span class="state-name">SmartScratcher is on Android.</span> <span class="highlight">And four more states just walked in.</span></h1>
+    <p class="hero-sub">The Android app is on Google Play today, with the same prize counts, printed odds, SmartScratcher Scores and daily notes as the iPhone app. And Arkansas, Illinois, Kansas and Ohio join the lineup, nineteen states in all. Android players get all nineteen right away; the iPhone app picks up the four new ones with its 5.1 update.</p>
+    <div class="hero-meta">
+      <span>📅 Announcement</span>
+      <span>🤖 Now on Google Play</span>
+      <span>🆕 AR · IL · KS · OH</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAP ============ -->
+<section class="map-section">
+  <div class="map-inner">
+    <div class="map-grid">
+      <div>
+        <div class="map-label">The new math</div>
+        <h2 class="map-headline">From <span class="num">15</span> → <span class="num">19</span></h2>
+        <p class="map-text">This summer SmartScratcher went from nine states to fifteen in one jump. Today it goes to nineteen, and for the first time it runs on Android phones too.</p>
+        <p class="map-text">The four new ones are <strong style="color: var(--yellow);">Arkansas, Illinois, Kansas and Ohio</strong>. Each is tracked the same way as the rest: every active scratch-off, every prize level, refreshed whenever the state lottery posts new numbers, with a SmartScratcher Score and a short daily note per game.</p>
+        <p class="map-text">If you have been waiting on your state or your phone, this may be the day.</p>
+      </div>
+      <div class="map-viz">
+        <!-- Stylized US map highlighting states -->
+        <svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30,80 Q40,40 90,40 L150,35 Q200,30 250,40 L340,45 Q380,50 380,90 L375,140 Q370,180 320,190 L260,200 Q200,210 140,205 L80,195 Q35,180 30,140 Z"
+                fill="#fff9e6" stroke="#1a1a1a" stroke-width="2"/>
+
+          <!-- Already tracking (yellow) -->
+          <circle cx="78" cy="128" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="78" y="132" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">CA</text>
+          <circle cx="178" cy="162" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="178" y="166" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">TX</text>
+          <circle cx="192" cy="128" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="192" y="132" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">OK</text>
+          <circle cx="309" cy="188" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="309" y="192" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">FL</text>
+          <circle cx="330" cy="74" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="330" y="78" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">NY</text>
+          <circle cx="291" cy="140" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="291" y="144" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">NC</text>
+          <circle cx="356" cy="62" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="356" y="66" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">MA</text>
+          <circle cx="282" cy="172" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="282" y="176" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">GA</text>
+          <circle cx="344" cy="96" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="344" y="100" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">NJ</text>
+          <circle cx="257" cy="72" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="257" y="76" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">MI</text>
+          <circle cx="318" cy="112" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="318" y="116" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">MD</text>
+          <circle cx="62" cy="58" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="62" y="62" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">WA</text>
+          <circle cx="298" cy="158" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="298" y="162" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">SC</text>
+          <circle cx="304" cy="126" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="304" y="130" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">VA</text>
+          <circle cx="222" cy="124" r="12" fill="#ffd60a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="222" y="128" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="#1a1a1a">MO</text>
+
+          <!-- Just added (red, pulsing) -->
+          <circle cx="218" cy="150" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="0s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="0s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="218" cy="150" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="218" y="154" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">AR</text>
+          <circle cx="240" cy="104" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="240" cy="104" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="240" y="108" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">IL</text>
+          <circle cx="180" cy="110" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="180" cy="110" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="180" y="114" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">KS</text>
+          <circle cx="270" cy="100" r="18" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" values="12;22;12" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="270" cy="100" r="12" fill="#ff3b30" stroke="#1a1a1a" stroke-width="2.5"/>
+          <text x="270" y="104" text-anchor="middle" font-family="JetBrains Mono" font-size="8" font-weight="700" fill="white">OH</text>
+        </svg>
+        <div class="map-viz-caption">
+          🟡 = already tracking <span class="arrow">→</span> 🔴 = just added
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE THREE STATES ============ -->
+<section class="states-section">
+  <div class="states-inner">
+    <div class="states-eyebrow">
+      <div class="kicker-small">Now Tracking</div>
+      <h2>The four new ones.</h2>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">01</div>
+      <div class="state-body">
+        <h3>Arkansas</h3>
+        <div class="state-abbr">AR · Arkansas Scholarship Lottery</div>
+        <p>Arkansas publishes a prize table for every scratch-off, and now every one of those tables is in the app, counted prize by prize and refreshed each morning. Browse <a href="../scratchers/arkansas/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Arkansas game and its remaining prizes</a> free.</p>
+      </div>
+      <div class="state-icon">💎</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">02</div>
+      <div class="state-body">
+        <h3>Illinois</h3>
+        <div class="state-abbr">IL · Illinois Lottery</div>
+        <p>A big catalog with some of the largest top prizes in the Midwest. Illinois posts unclaimed prizes for every game on one page, and the app turns that page into a ranked list every day. Here is <a href="../scratchers/illinois/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Illinois game and what is still out there</a>.</p>
+      </div>
+      <div class="state-icon">🌽</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">03</div>
+      <div class="state-body">
+        <h3>Kansas</h3>
+        <div class="state-abbr">KS · Kansas Lottery</div>
+        <p>Kansas is the first state where the app covers three kinds of ticket at once: scratchers, Fast Play and pull tabs. Flip the switch at the top of the Kansas screen to move between them. Start with <a href="../scratchers/kansas/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Kansas scratch-off and its prize counts</a>.</p>
+      </div>
+      <div class="state-icon">🌻</div>
+    </div>
+
+    <div class="state-card">
+      <div class="state-number">04</div>
+      <div class="state-body">
+        <h3>Ohio</h3>
+        <div class="state-abbr">OH · Ohio Lottery</div>
+        <p>One of the busiest scratch-off states in the country, with new games landing most weeks. Ohio's prize counts update daily and the app grabs them each morning. See <a href="../scratchers/ohio/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">every Ohio game, counted prize by prize</a>.</p>
+      </div>
+      <div class="state-icon">🌰</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT YOU GET ============ -->
+<section class="features-section">
+  <div class="features-inner">
+    <div class="features-eyebrow">New since 5.0, on both phones</div>
+    <h2 class="features-headline">What else changed while we were at it.</h2>
+
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-num">01</div>
+        <h4>The Android app</h4>
+        <p>Same app, same data, now on Google Play. The free tier shows prize counts and odds for every game; the $2.99 a month subscription adds SmartScratcher Scores, rankings and deep dives, with a 3-day free trial.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">02</div>
+        <h4>Fast Play and pull tabs</h4>
+        <p>In Oklahoma, Maryland and Kansas, flip the switch at the top of the screen to see Fast Play games. In Michigan and Kansas it shows pull tabs. Same scores, same prize counts, different ticket.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">03</div>
+        <h4>Restock marks on the chart</h4>
+        <p>When a lottery prints more of a game, its value chart now shows a mark on that day, so a jump in remaining prizes reads as a restock and not a mystery.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">04</div>
+        <h4>New states without the wait</h4>
+        <p>The app now learns about new states and schedule changes on its own. The next state we add shows up in your state menu without an app update.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Android, Arkansas, Illinois, Kansas, Ohio —</div>
+    <h2 class="cta-headline">Open the app. <span class="yellow">Pick your state.</span> Stop buying dead scratchers.</h2>
+    <p class="cta-sub">Free to download on either phone. Premium features include a 3-day free trial. If you already have the app, open the state menu; on Android the new ones are right there, and on iPhone they arrive with the 5.1 update.</p>
+    <span class="store-pair" style="display:inline-flex;flex-wrap:wrap;gap:12px;vertical-align:top;max-width:100%"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-button">Get it on the App Store</a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-article" class="cta-button">Get it on Google Play</a></span>
+    <div class="cta-fineprint">$2.99/mo after trial · Cancel anytime · iOS and Android</div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="f-brand">
+      <a href="../index.html" class="f-logo">Smart<span>Scratcher</span></a>
+      <p>Make data-driven scratch-off decisions. Available in AR, CA, FL, GA, IL, KS, MA, MD, MI, MO, NC, NJ, NY, OH, OK, SC, TX, VA, and WA.</p>
+    </div>
+    <div class="f-col">
+      <h4>The site</h4>
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">The Pages</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="../index.html#states">States</a>
+    </div>
+    <div class="f-col">
+      <h4>Fine print</h4>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../privacy-policy.html">Privacy</a>
+      <a href="../terms-of-service.html">Terms</a>
+    </div>
+    <div class="f-col">
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/profile.php?id=61572364804170">Facebook</a>
+      <a href="https://twitter.com/SmartScratcher">Twitter / X</a>
+      <a href="https://www.instagram.com/smartscratcher/">Instagram</a>
+      <a href="https://www.tiktok.com/@smartscratcher">TikTok</a>
+      <a href="https://www.youtube.com/@SmartScratcherApp">YouTube</a>
+    </div>
+  </div>
+  <div class="site-footer-bottom">
+    © 2026 SmartScratcher · A product of <a href="https://www.gamingdatasolutions.com">Gaming Data Solutions LLC</a>. Play responsibly. Must be 18+ (21+ in some states). SmartScratcher is an information tool and does not guarantee winnings. If the lottery stops being fun, call <a href="tel:1-800-426-2537">1-800-GAMBLER</a>.
+  </div>
+</footer>
+
+<script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+</body>
+</html>

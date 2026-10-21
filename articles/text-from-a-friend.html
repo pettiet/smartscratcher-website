@@ -1254,6 +1254,18 @@ h1.headline em{
 .mf-bottom a:hover { text-decoration: underline; }
 @media (max-width: 880px){ .mf-grid{ grid-template-columns: 1fr 1fr; gap: 28px; } }
 @media (max-width: 480px){ .mf-grid{ grid-template-columns: 1fr; gap: 22px; } }
+
+  /* Get the App: one button, two stores (App Store / Google Play) */
+  .get-app { position: relative; display: inline-block; }
+  .get-app > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; user-select: none; }
+  .get-app > summary::-webkit-details-marker { display: none; }
+  .get-app > summary::after { content: '\25BE'; font-size: 0.85em; }
+  .get-app-pill { background: #ffd60a; color: #1a1a1a; padding: 9px 18px; border-radius: 100px; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+  .get-app-pill:hover { background: #ffe44d; }
+  .get-app-menu { position: absolute; right: 0; top: calc(100% + 8px); background: #1a1a1a; border: 2px solid #ffd60a; border-radius: 14px; padding: 6px; min-width: 200px; z-index: 60; box-shadow: 5px 5px 0 #ff3b30; text-align: left; }
+  .get-app-menu a { display: block !important; padding: 10px 14px; border-radius: 10px; color: #fff9e6 !important; font-family: inherit; font-size: 14px !important; font-weight: 600; line-height: 1.3; letter-spacing: 0 !important; text-transform: none !important; text-decoration: none !important; white-space: nowrap; opacity: 1 !important; margin: 0 !important; }
+  .get-app-menu a:hover { background: #2a2a2a; color: #ffd60a !important; }
+  .get-app-menu a small { display: block; font-size: 11px; font-weight: 500; color: #9a9a9a; }
 </style>
 </head>
 <body>
@@ -1267,7 +1279,7 @@ h1.headline em{
     <a href="../numbers/">The Numbers</a>
     <a href="../index.html#pricing">Pricing</a>
     <a href="../index.html#faq">FAQ</a>
-    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="msg-cta">Get the App</a>
+    <details class="get-app"><summary class="msg-cta">Get the App</summary><div class="get-app-menu"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8">App Store<small>iPhone and iPad</small></a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-article">Google Play<small>Android</small></a></div></details>
   </div>
 </nav>
 
@@ -1431,12 +1443,17 @@ h1.headline em{
       <span class="cta-tag"><span class="dot"></span>FYI · The App Is Real</span>
       <h2>Yes, you can <em>actually</em> download it.</h2>
       <p>SmartScratcher tells you which scratch-offs in Oklahoma, Texas, and California still have real prizes worth chasing. Free to start, with deeper rankings and analysis on the $2.99/month tier (3-day free trial). The conversation above is fictional — but the app is on the App Store right now.</p>
-      <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-btn">
-        Download on iOS
+      <span class="store-pair" style="display:inline-flex;flex-wrap:wrap;gap:12px;vertical-align:top;max-width:100%"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-btn">
+        Download on App Store
         <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3 8 H13 M9 4 L13 8 L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-      </a>
+      </a><a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-article" class="cta-btn">
+        Get it on Google Play
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 8 H13 M9 4 L13 8 L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a></span>
     </div>
   </div>
 
@@ -1468,7 +1485,7 @@ h1.headline em{
   <div class="mf-grid">
     <div class="mf-brand">
       <a href="../index.html" class="mf-logo"><span class="mf-bubble"></span>SmartScratcher</a>
-      <p>Make data-driven scratch-off decisions. Available in CA, FL, GA, MA, MD, MI, MO, NC, NJ, NY, OK, SC, TX, VA, and WA.</p>
+      <p>Make data-driven scratch-off decisions. Available in AR, CA, FL, GA, IL, KS, MA, MD, MI, MO, NC, NJ, NY, OH, OK, SC, TX, VA, and WA.</p>
     </div>
     <div class="mf-col">
       <h4>The site</h4>
@@ -1843,5 +1860,6 @@ function startWhenVisible(){
 window.addEventListener('load', startWhenVisible);
 </script>
 
+<script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
 </body>
 </html>
