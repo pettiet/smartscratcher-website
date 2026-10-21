@@ -1,9 +1,8 @@
 # Android launch kit — Now on Android, plus four new states (Oct 21, 2026)
 
 **What shipped:** the Android app went live on Google Play on Oct 21, 2026 (version 1.0, package
-`com.gamingdatasolutions.smartscratcher`, US only). Arkansas, Illinois, Kansas and Ohio are live
-in the server roster, so the Android app shows all 19 states today; the iPhone app shows them once
-5.1 is approved. Fast Play (OK, MD, KS) and pull tabs (MI, KS) are in both new builds.
+`com.gamingdatasolutions.smartscratcher`, US only), and iOS 5.1 was released the same afternoon.
+Arkansas, Illinois, Kansas and Ohio are live in the server roster, so both apps show all 19 states today. Fast Play (OK, MD, KS) and pull tabs (MI, KS) are in both new builds.
 
 **Links:** article https://www.smartscratcherapp.com/articles/now-on-android.html ·
 Google Play https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher ·
@@ -25,7 +24,7 @@ House rules for every caption: no "hot", "due" or "lucky", no promise of winning
 > and a short daily note on each game.
 >
 > And while we were at it, four states joined the lineup: Arkansas, Illinois, Kansas and Ohio.
-> That makes 19. Android has all 19 today; iPhone gets the four new ones with the 5.1 update.
+> That makes 19, and both apps have them today: Android from day one, iPhone with version 5.1, out this afternoon.
 >
 > Free to start. The $2.99/month subscription adds scores and rankings, with a 3-day free trial.
 >
@@ -46,7 +45,7 @@ House rules for every caption: no "hot", "due" or "lucky", no promise of winning
 > how many prizes are still out there at every level, the printed odds, and a short daily note per
 > game.
 >
-> New to the lineup: Arkansas 💎 Illinois 🌽 Kansas 🌻 Ohio 🌰. That's 19 states.
+> New to the lineup: Arkansas 💎 Illinois 🌽 Kansas 🌻 Ohio 🌰. That's 19 states. iPhone users: update to 5.1 and they're in your state menu.
 >
 > Free to start. Link in bio.
 >
@@ -61,8 +60,8 @@ House rules for every caption: no "hot", "due" or "lucky", no promise of winning
 ## X / Twitter
 
 > SmartScratcher is on Android. 🤖 Google Play has it as of today: prize counts, odds and a daily
-> note for every scratch-off in your state. Plus four new states: AR, IL, KS, OH. 19 total.
-> smartscratcherapp.com/articles/now-on-android.html
+> note for every scratch-off in your state. Plus four new states: AR, IL, KS, OH. 19 total, in both
+> apps today (iOS 5.1 is out too). smartscratcherapp.com/articles/now-on-android.html
 
 ## TikTok / Reels (video idea + caption)
 
@@ -77,10 +76,15 @@ House rules for every caption: no "hot", "due" or "lucky", no promise of winning
 
 ## Posting checklist
 
-1. Google Play listing: the description still says "17 states" and lists them; update it to 19 and
-   add Arkansas, Illinois, Kansas and Ohio (Play Console → Store listing). Nick.
+1. Google Play listing: the description still says "17 states" and lists them. Play Console → Grow
+   users → Store presence → Main store listing → Full description: change "every day for 17 states"
+   to "every day for 19 states" and the States line to "States: Arkansas, California, Florida,
+   Georgia, Illinois, Kansas, Maryland, Massachusetts, Michigan, Missouri, New Jersey, New York,
+   North Carolina, Ohio, Oklahoma, South Carolina, Texas, Virginia and Washington. Oklahoma, Maryland
+   and Kansas also include Fast Play games. Michigan and Kansas include pull tabs." Save → Publishing
+   overview → Send for review. The "What's new" text (17 states) belongs to the released build and
+   is corrected with the next upload. Nick.
 2. Facebook first (the 1200x630 image), then Instagram (square image, link in bio → the article),
    then X. Keep the Google Play link in the Facebook comments too; Facebook trims long posts.
-3. After iOS 5.1 is approved: a one-line follow-up on each channel ("iPhone has the four new states
-   now too") and drop the "with the 5.1 update" clause from the homepage FAQ, the states section
-   and the article.
+3. iOS 5.1 shipped the same day (Oct 21, 4 PM Central), so no follow-up post is needed; the website
+   copy already says both apps have all 19.
