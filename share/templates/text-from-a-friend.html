@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #111111;
+    --cream: #fff9e6;
+    --cream-dim: rgba(255,249,230,0.72);
+    --yellow: #ffd60a;
+    --blue: #4d7cff;
+    --green: #30d158;
+    --imessage-gray: #e9e9eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: #161616;
+    background-image:
+      radial-gradient(ellipse at 15% 20%, rgba(255,255,255,0.06), transparent 55%),
+      radial-gradient(ellipse at 90% 100%, rgba(255,214,10,0.10), transparent 50%),
+      linear-gradient(160deg, #1d1d1d 0%, #0f0f0f 100%);
+    color: var(--cream);
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* ---------- phone ---------- */
+  .phone {
+    position: absolute;
+    left: 92px; top: 48px;
+    width: 356px; height: 560px;
+    background: #0b0b0b;
+    border-radius: 48px;
+    padding: 12px;
+    transform: rotate(-5deg);
+    transform-origin: 50% 40%;
+    box-shadow:
+      0 40px 80px rgba(0,0,0,0.6),
+      0 0 0 1px rgba(255,255,255,0.08) inset;
+  }
+  .screen {
+    width: 100%; height: 100%;
+    background: #fff;
+    border-radius: 38px;
+    overflow: hidden;
+    position: relative;
+    color: #000;
+    font-family: -apple-system, 'Inter', sans-serif;
+  }
+  .island {
+    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+    width: 100px; height: 30px; border-radius: 20px; background: #000;
+  }
+  .status {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 16px 26px 0;
+    font-size: 14px; font-weight: 600;
+  }
+  .status .right { display: flex; gap: 6px; align-items: center; }
+  .status .bars { display: inline-flex; align-items: flex-end; gap: 1.5px; }
+  .status .bars i { display: block; width: 3px; background: #000; border-radius: 1px; }
+  .status .batt {
+    width: 24px; height: 11px; border: 1.5px solid #000; border-radius: 3px; position: relative;
+  }
+  .status .batt::after { content: ''; position: absolute; inset: 1.5px; background: #000; border-radius: 1px; }
+  .chat-head {
+    margin-top: 10px;
+    padding: 6px 16px 10px;
+    background: rgba(247,247,247,0.95);
+    border-bottom: 0.5px solid #d1d1d6;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .chat-head .back { color: #007aff; font-size: 24px; font-weight: 500; line-height: 1; }
+  .chat-head .who { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .avatar {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--yellow); color: #111;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px;
+  }
+  .chat-head .name { font-size: 11px; color: #000; }
+  .chat-head .cam { width: 24px; height: 16px; border: 2px solid #007aff; border-radius: 4px; position: relative; }
+  .chat-head .cam::after { content: ''; position: absolute; right: -8px; top: 1px; border: 6px solid transparent; border-left: 7px solid #007aff; }
+  .thread { padding: 10px 14px 0; display: flex; flex-direction: column; gap: 5px; }
+  .ts { text-align: center; font-size: 11px; color: #8e8e93; margin: 2px 0 6px; }
+  .bubble {
+    background: var(--imessage-gray); color: #000;
+    border-radius: 18px; border-bottom-left-radius: 6px;
+    padding: 8px 12px; font-size: 14.5px; line-height: 1.3;
+    max-width: 82%; align-self: flex-start;
+  }
+  .typing { display: inline-flex; gap: 4px; padding: 11px 13px; }
+  .typing i { width: 7px; height: 7px; border-radius: 50%; background: #8e8e93; display: block; }
+  .typing i:nth-child(2) { opacity: 0.7; } .typing i:nth-child(3) { opacity: 0.45; }
+
+  /* ---------- copy ---------- */
+  .copy {
+    position: absolute; left: 530px; top: 106px; width: 600px;
+  }
+  .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--yellow);
+    display: inline-flex; align-items: center; gap: 14px;
+  }
+  .kicker .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px var(--green); }
+  .kicker .sep { color: rgba(255,249,230,0.4); }
+  h1 {
+    margin-top: 28px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 800; font-size: 74px; line-height: 0.96; letter-spacing: -2px;
+    color: var(--cream);
+  }
+  .sub {
+    margin-top: 26px;
+    font-size: 24px; line-height: 1.3; font-weight: 500;
+    color: var(--cream-dim);
+    max-width: 380px;
+  }
+  .btn {
+    margin-top: 30px;
+    display: inline-flex; align-items: center; gap: 18px;
+  }
+  .btn .pill {
+    font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: #111; background: var(--yellow);
+    padding: 11px 16px 10px; border-radius: 3px;
+  }
+  .btn .arrow { color: var(--yellow); font-size: 26px; line-height: 1; }
+
+  /* ---------- brand ---------- */
+  .brand {
+    position: absolute; left: 530px; top: 562px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .brand .tile {
+    width: 44px; height: 44px; border-radius: 10px; overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.45);
+    background: #111;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .brand .words {
+    font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 0.02em;
+    display: inline-flex; gap: 10px;
+  }
+  .brand .words .a { color: var(--cream); }
+  .brand .words .b { color: var(--blue); }
+</style>
+</head>
+<body>
+
+<div class="phone">
+  <div class="screen">
+    <div class="island"></div>
+    <div class="status">
+      <span>9:41</span>
+      <span class="right">
+        <span class="bars"><i style="height:4px"></i><i style="height:6px"></i><i style="height:8px"></i><i style="height:10px"></i></span>
+        <span class="batt"></span>
+      </span>
+    </div>
+    <div class="chat-head">
+      <span class="back">‹</span>
+      <span class="who"><span class="avatar">F</span><span class="name">Friend</span></span>
+      <span class="cam"></span>
+    </div>
+    <div class="thread">
+      <div class="ts">Today 9:41 AM</div>
+      <div class="bubble">dude</div>
+      <div class="bubble">so I'm at the gas station this morning grabbing coffee</div>
+      <div class="bubble">the guy in front of me at the counter is buying like 4 different scratchers</div>
+      <div class="bubble">but he's got his phone out and is staring at some app</div>
+      <div class="bubble typing"><i></i><i></i><i></i></div>
+    </div>
+  </div>
+</div>
+
+<div class="copy">
+  <div class="kicker"><span class="dot"></span> Live <span class="sep">·</span> Scratcher Stories <span class="sep">·</span> 2026</div>
+  <h1>So I'm at the gas station this morning…</h1>
+  <div class="sub">A friend texted me. Tap through the conversation.</div>
+  <div class="btn"><span class="pill">Interactive text thread</span><span class="arrow">⟶</span></div>
+</div>
+
+<div class="brand">
+  <span class="tile"><svg width="44" height="44" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="120" height="120" fill="#111111"/><defs><pattern id="hbl" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#111111" stroke-width="1.7"/></pattern></defs><circle cx="60" cy="60" r="44" fill="#ffd60a"/><text x="55" y="91" font-family="Bricolage Grotesque" font-size="74" font-weight="800" fill="url(#hbl)" text-anchor="middle">S</text><text x="61" y="85" font-family="Bricolage Grotesque" font-size="74" font-weight="800" fill="#111111" text-anchor="middle">S</text></svg></span>
+  <span class="words"><span class="a">SMART</span><span class="b">SCRATCHER</span></span>
+</div>
+
+</body>
+</html>

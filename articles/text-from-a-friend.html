@@ -1442,7 +1442,7 @@ h1.headline em{
     <div class="cta-row">
       <span class="cta-tag"><span class="dot"></span>FYI · The App Is Real</span>
       <h2>Yes, you can <em>actually</em> download it.</h2>
-      <p>SmartScratcher tells you which scratch-offs in Oklahoma, Texas, and California still have real prizes worth chasing. Free to start, with deeper rankings and analysis on the $2.99/month tier (3-day free trial). The conversation above is fictional — but the app is on the App Store right now.</p>
+      <p>SmartScratcher tells you which scratch-offs in 19 states still have real prizes worth chasing. Free to start, with deeper rankings and analysis on the $2.99/month tier (3-day free trial). The conversation above is fictional — but the app is on the App Store and Google Play right now.</p>
       <span class="store-pair" style="display:inline-flex;flex-wrap:wrap;gap:12px;vertical-align:top;max-width:100%"><a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8" class="cta-btn">
         Download on App Store
         <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1612,8 +1612,39 @@ const SCRIPT = {
     messages: [
       { from:'them', text:"anyway, I downloaded it on the drive home lol" },
       { from:'them', text:"wanted to send it to you because I know you play sometimes" },
+    ],
+    next: 'pickStore',
+  },
+  // The friend sends the link for the reader's phone. On an iPhone or an Android
+  // phone we already know which; anywhere else (a laptop) the friend just asks.
+  pickStore: {
+    type: 'auto',
+    resolve: () => ({ ios:'sendAppStore', android:'sendPlay' }[detectStore()] || 'askPhone'),
+  },
+  askPhone: {
+    messages: [
+      { from:'them', text:"wait, are you on iphone or android?" },
+    ],
+    next: 'phoneChoice',
+  },
+  phoneChoice: {
+    type: 'choice',
+    options: [
+      { label:'iPhone', text:'iphone', next:'sendAppStore' },
+      { label:'Android', text:'android', next:'sendPlay' },
+    ],
+  },
+  sendAppStore: {
+    messages: [
       { from:'them', text:'here 👇' },
-      { from:'them', type:'link-card' },
+      { from:'them', type:'link-card', store:'ios' },
+    ],
+    next: 'end',
+  },
+  sendPlay: {
+    messages: [
+      { from:'them', text:'here 👇' },
+      { from:'them', type:'link-card', store:'android' },
     ],
     next: 'end',
   },
@@ -1624,7 +1655,21 @@ const SCRIPT = {
 // ENGINE
 // ============================================================
 
-const APP_STORE_URL = 'https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-article&amp;mt=8';
+const APP_STORE_URL = 'https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&ct=web-article&mt=8';
+const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-article';
+const STORES = {
+  ios:     { url: APP_STORE_URL, domain: 'apps.apple.com',  icon: '../favicon/web-app-manifest-192x192.png' },
+  android: { url: PLAY_URL,      domain: 'play.google.com', icon: '../favicon/web-app-manifest-192x192.png' },
+};
+
+// 'ios' / 'android' from the reader's browser, or null when we can't tell.
+function detectStore(){
+  const ua = navigator.userAgent || '';
+  if (/android/i.test(ua)) return 'android';
+  if (/iphone|ipad|ipod/i.test(ua)) return 'ios';
+  if (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) return 'ios'; // iPadOS reports as a Mac
+  return null;
+}
 
 const thread = document.getElementById('thread');
 const replyZone = document.getElementById('reply-zone');
@@ -1658,17 +1703,18 @@ function makeBubble(message, isTail){
   if (lastSender !== message.from) row.classList.add('group-start');
 
   if (message.type === 'link-card'){
+    const store = STORES[message.store] || STORES.ios;
     const card = document.createElement('a');
     card.className = 'link-card';
-    card.href = APP_STORE_URL;
+    card.href = store.url;
     card.target = '_blank';
     card.rel = 'noopener noreferrer';
     card.innerHTML = `
       <div class="link-image">
-        <img class="app-icon-real" src="../favicon/web-app-manifest-192x192.png" width="192" height="192" alt="SmartScratcher app icon">
+        <img class="app-icon-real" src="${store.icon}" width="192" height="192" alt="SmartScratcher app icon">
       </div>
       <div class="link-text">
-        <div class="link-domain">apps.apple.com</div>
+        <div class="link-domain">${store.domain}</div>
         <div class="link-title">SmartScratcher: Lottery Odds</div>
         <div class="link-subtitle">Scratch Ticket Odds &amp; Ratings</div>
       </div>
@@ -1732,6 +1778,11 @@ async function playNode(nodeKey){
   existingChoices.forEach(el => el.remove());
 
   const node = SCRIPT[nodeKey];
+
+  if (node.type === 'auto'){
+    isPlaying = false;
+    return playNode(node.resolve());
+  }
 
   if (node.messages){
     for (let i = 0; i < node.messages.length; i++){
