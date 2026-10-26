@@ -575,7 +575,7 @@
   <p class="data-note">
     Prize counts come straight from the Michigan Lottery. "Tickets left" is our estimate
     of how much of each pool is still unsold. Tap any game for its full prize table.
-    Which game to pick is <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-pt-state-table&amp;mt=8">in the app</a>.
+    Which game to pick is <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-pt-state-table&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-pt-state-table">in the app</a>.
   </p>
 </section>
 
@@ -670,5 +670,6 @@
   </div>
 </footer>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+<script>if(/android/i.test(navigator.userAgent)){document.querySelectorAll("a[data-play]").forEach(function(a){a.href=a.dataset.play;});}</script>
 </body>
 </html>
