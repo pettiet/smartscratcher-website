@@ -1320,5 +1320,6 @@
   </div>
 </footer>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+<script>if(/android/i.test(navigator.userAgent)){document.querySelectorAll("a[data-play]").forEach(function(a){a.href=a.dataset.play;});}</script>
 </body>
 </html>

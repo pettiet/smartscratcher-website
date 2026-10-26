@@ -152,7 +152,7 @@
         <tr class="lock-row"><td colspan="3">    <div class="locked">
       <div class="lock-line"><span>🔒</span><span>
         <strong>Was this one worth buying?</strong> Ticket value, SmartScratcher Score,
-        and best-in-state rankings for every live Oklahoma game are <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-game-prizetable&amp;mt=8">in the app</a>.
+        and best-in-state rankings for every live Oklahoma game are <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-game-prizetable&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-game-prizetable">in the app</a>.
       </span></div>
     </div>
 </td></tr>
@@ -279,5 +279,6 @@
   </div>
 </footer>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+<script>if(/android/i.test(navigator.userAgent)){document.querySelectorAll("a[data-play]").forEach(function(a){a.href=a.dataset.play;});}</script>
 </body>
 </html>

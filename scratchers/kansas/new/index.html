@@ -201,7 +201,7 @@
     <p class="story-kicker">
       SmartScratcher re-scores every Kansas game each morning from the prizes
       actually left — a ticket value, a 0–100 score, and where each new game lands against
-      the rest of the state — <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-new-story&amp;mt=8">see today's ranking in the app</a>.
+      the rest of the state — <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-new-story&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-new-story">see today's ranking in the app</a>.
     </p>
   </div>
 </section>
@@ -288,5 +288,6 @@
   </div>
 </footer>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+<script>if(/android/i.test(navigator.userAgent)){document.querySelectorAll("a[data-play]").forEach(function(a){a.href=a.dataset.play;});}</script>
 </body>
 </html>

@@ -246,7 +246,7 @@
         <strong>Printed odds are day-one odds.</strong> The app re-ranks every $3
         game in your state each morning by what's actually left — ticket value, the
         SmartScratcher Score, and a straight buy-or-skip answer.
-        <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-pricehub-table&amp;mt=8">Get the app</a>.
+        <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-pricehub-table&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-pricehub-table">Get the app</a>.
       </span></div>
     </div>
   </div>
@@ -348,5 +348,6 @@
   </div>
 </footer>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+<script>if(/android/i.test(navigator.userAgent)){document.querySelectorAll("a[data-play]").forEach(function(a){a.href=a.dataset.play;});}</script>
 </body>
 </html>
