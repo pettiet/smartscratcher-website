@@ -2194,6 +2194,8 @@
 })();
 </script>
 
+<!-- AI-referred visits (ChatGPT, Claude, Perplexity, Copilot, Gemini, Meta AI, You.com) get their own store campaign names: web-* becomes ai-*. Same script as site_templates/_ai_ref.html in the ScratchSmart repo; keep the two identical. -->
+<script>(function(){var k="ai-referred",on=false;try{on=sessionStorage.getItem(k)==="1";}catch(e){}if(!on&&document.referrer){try{var h=new URL(document.referrer).hostname;if(/(^|\.)(chatgpt\.com|openai\.com|claude\.ai|anthropic\.com|perplexity\.ai|copilot\.microsoft\.com|gemini\.google\.com|meta\.ai|you\.com)$/i.test(h)){on=true;try{sessionStorage.setItem(k,"1");}catch(e){}}}catch(e){}}if(!on)return;var f=function(u){return u.replace(/([?&]ct=)web-/,"$1ai-").replace(/utm_campaign%3Dweb-/,"utm_campaign%3Dai-");};document.querySelectorAll('a[href*="ct=web-"],a[href*="utm_campaign%3Dweb-"],a[data-play]').forEach(function(a){a.href=f(a.href);if(a.dataset.play)a.dataset.play=f(a.dataset.play);});})();</script>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
 </body>
 </html>
