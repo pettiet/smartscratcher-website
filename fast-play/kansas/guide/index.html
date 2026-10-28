@@ -58,7 +58,7 @@
 </nav>
 
 <header class="page tight">
-  <div class="eyebrow"><span>A 2-minute guide · Examples updated Oct 27, 2026 at 9:55 AM</span></div>
+  <div class="eyebrow"><span>A 2-minute guide · Examples updated Oct 27, 2026 at 4:20 PM</span></div>
   <h1>How Fast Play works,<br>and <span class="yellow-hl">what to look at</span></h1>
   <p class="deck">
     Fast Play looks simple: pay, print, find out. But the jackpots work in a way most
@@ -73,7 +73,239 @@
     You buy a Fast Play ticket at the counter or a lottery machine. It prints on the spot
     and tells you right away if you won. No drawing, no waiting.
   </p>
-  <p>
+<div class="fpd" id="fpDemo">
+  <div class="td-label">Try one · pick a game, press print, then tear the ticket off</div>
+  <div class="td-stage">
+    <div class="fpd-unit">
+      <div class="fpd-term" role="group" aria-label="Practice Fast Play terminal">
+        <div class="fpd-head"><span class="fpd-led" aria-hidden="true"></span><span>Practice Fast Play</span><span class="fpd-head-r">2 games</span></div>
+        <div class="fpd-lights" aria-hidden="true"></div>
+        <div class="fpd-screen">
+          <div class="fpd-screen-top"><span data-gname>Match 2 · jackpot</span><span class="fpd-status" data-status>Ready</span></div>
+          <div class="fpd-jackpot" data-jackpot>$12,480.00</div>
+          <div class="fpd-screen-sub" data-rule></div>
+        </div>
+        <div class="fpd-games" role="group" aria-label="Pick a game">
+          <button class="fpd-game is-on" type="button" data-game="match" aria-pressed="true">
+            <span class="fpd-art fpd-art-match" aria-hidden="true"><b>08</b><b>21</b></span>
+            <span class="fpd-gtitle">Match 2</span><span class="fpd-gprice">$2</span>
+          </button>
+          <button class="fpd-game" type="button" data-game="stars" aria-pressed="false">
+            <span class="fpd-art fpd-art-stars" aria-hidden="true"><b>★</b><i>✦</i><i>✦</i></span>
+            <span class="fpd-gtitle">Star Catch</span><span class="fpd-gprice">$5</span>
+          </button>
+        </div>
+        <button class="fpd-print" type="button">Print Match 2 · $2</button>
+        <div class="fpd-slot" aria-hidden="true"><span>Tickets</span></div>
+      </div>
+      <div class="fpd-out">
+        <div class="fpd-paper" hidden>
+          <div class="fpd-paper-in" aria-live="polite">
+            <div class="fpd-l fpd-title"><span data-ptitle>MATCH 2</span><span data-pprice>$2</span></div>
+            <div class="fpd-l fpd-dim">JACKPOT <b data-pj>$12,480.00</b></div>
+            <div class="fpd-rule"></div>
+            <div class="fpd-body" data-body></div>
+            <div class="fpd-rule"></div>
+            <div class="fpd-l fpd-result" data-result></div>
+            <div class="fpd-l fpd-dim">TICKET <b data-no></b> OF <b data-of></b></div>
+            <div class="fpd-bar" aria-hidden="true"></div>
+          </div>
+          <button class="fpd-tear" type="button">Tear it off ↓</button>
+        </div>
+      </div>
+    </div>
+    <aside class="td-count">
+      <div class="td-count-label" data-ctitle>Match 2 · this game's count</div>
+      <table>
+        <thead><tr><th>Prize</th><th>Left</th><th>Started with</th></tr></thead>
+        <tbody data-rows></tbody>
+      </table>
+      <p class="td-note">Made-up numbers for two practice games. The real counts for every Kansas game are on the game pages.</p>
+    </aside>
+  </div>
+  <p class="td-say" aria-live="polite">Pick a game and press print to get the next ticket from its set.</p>
+</div>
+<script>
+(function () {
+  var demo = document.getElementById('fpDemo');
+  if (!demo) return;
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var J = 'J';
+  var GAMES = {
+    match: {
+      name: 'Match 2', price: 2, add: 0.20, jackpot: 12480.00, total: 8000, sold: 4860,
+      rule: 'Match either winning number and win the prize under it. The jackpot number wins the jackpot.',
+      tiers: [{ k: J, label: 'Jackpot', left: 0, total: 3 }, { k: 100, label: '$100', left: 7, total: 20 },
+              { k: 5, label: '$5', left: 150, total: 400 }, { k: 2, label: '$2', left: 620, total: 1600 }],
+      win: [8, 21],
+      prints: [
+        { nums: [[3, 2], [14, 5], [27, 100], [33, J], [40, 2], [12, 5], [19, 2], [25, 100], [36, 2], [44, 5]], prize: 0,
+          say: 'No match. Nothing. The machine did not roll anything: it handed you ticket 4,861 from a set of 8,000 that was printed before the game went on sale.' },
+        { nums: [[5, 2], [21, 5], [30, 100], [11, J], [42, 2], [17, 5], [23, 2], [38, 100], [2, 2], [46, 5]], prize: 5,
+          say: '21 matches, so the $5 under it is yours. The count moved: one fewer $5 prize in the set, and the jackpot went up 20 cents, because every ticket sold adds to it.' },
+        { nums: [[6, 2], [15, 5], [29, 100], [37, J], [41, 2], [10, 5], [24, 2], [31, 100], [1, 2], [45, 5]], prize: 0,
+          say: 'No match. Now look at the jackpot printed on the ticket: all three of this game\'s jackpot tickets were won already, so no Match 2 ticket can win it now. The count is the only place that shows it.' }
+      ]
+    },
+    stars: {
+      name: 'Star Catch', price: 5, add: 0.50, jackpot: 3250.00, total: 10000, sold: 600,
+      rule: 'Find a ★ and win the prize next to it. A ★ next to the jackpot wins the jackpot.',
+      tiers: [{ k: J, label: 'Jackpot', left: 2, total: 2 }, { k: 500, label: '$500', left: 4, total: 4 },
+              { k: 50, label: '$50', left: 38, total: 40 }, { k: 10, label: '$10', left: 480, total: 500 },
+              { k: 5, label: '$5', left: 1880, total: 2000 }],
+      prints: [
+        { cells: [['♦', 5], ['♥', 10], ['●', 50], ['7', 500], ['♣', 5], ['♠', 10], ['♦', 50], ['♥', J], ['●', 5], ['♣', 10], ['♠', 500], ['♦', 5]], prize: 0,
+          say: 'No star. Nothing. Same idea as Match 2: this is ticket 601 from a set of 10,000, already printed and already decided.' },
+        { cells: [['♣', 5], ['●', 50], ['★', 10], ['♠', 500], ['♦', 5], ['♥', 10], ['♣', 50], ['●', J], ['♠', 5], ['♦', 10], ['♥', 500], ['●', 5]], prize: 10,
+          say: 'One star, next to $10. That is the prize. The count moved: one fewer $10 prize in the set, and the jackpot grew 50 cents.' },
+        { cells: [['♠', 5], ['♦', 10], ['♥', 50], ['●', 500], ['♣', 5], ['♦', 10], ['♠', 50], ['♥', J], ['♣', 5], ['●', 10], ['♦', 500], ['♠', 5]], prize: 0,
+          say: 'No star. Here is the difference between the two games: Star Catch still has both of its jackpot tickets in the set, so a jackpot star can still print. Match 2 shows a bigger jackpot on the screen and has no jackpot tickets left. The count is the only thing that tells them apart.' }
+      ]
+    }
+  };
+  var cur = 'match', busy = false, hanging = false;
+  var q = function (s) { return demo.querySelector(s); };
+  var btn = q('.fpd-print'), paper = q('.fpd-paper'), tearBtn = q('.fpd-tear'), say = q('.td-say');
+  var status = q('[data-status]'), screenJ = q('[data-jackpot]'), gname = q('[data-gname]'), ruleEl = q('[data-rule]');
+  var pTitle = q('[data-ptitle]'), pPrice = q('[data-pprice]'), paperJ = q('[data-pj]'), body = q('[data-body]');
+  var resEl = q('[data-result]'), noEl = q('[data-no]'), ofEl = q('[data-of]'), rows = q('[data-rows]'), ctitle = q('[data-ctitle]');
+  var lights = q('.fpd-lights');
+  for (var i = 0; i < 16; i++) { var d = document.createElement('i'); d.style.setProperty('--i', i); lights.appendChild(d); }
+  function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+  function money(n) { var s = n.toFixed(2); return '$' + fmt(s.slice(0, -3)) + s.slice(-3); }
+  function two(n) { return n < 10 ? '0' + n : String(n); }
+  function prizeLabel(k) { return k === J ? 'JACKPOT' : '$' + fmt(k); }
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  function tick(cell) { var row = cell.parentNode; row.classList.remove('tick'); void row.offsetWidth; row.classList.add('tick'); }
+  function renderRows(g, changed) {
+    rows.textContent = '';
+    g.tiers.concat([{ k: 'T', label: 'Tickets', left: g.total - g.sold, total: g.total }]).forEach(function (t) {
+      var tr = el('tr', t.k === J && t.left === 0 ? 'gone' : '');
+      tr.appendChild(el('td', 'amt', t.label));
+      var left = el('td', 'left', fmt(t.left));
+      if (t.k === J && t.left === 0) { left.appendChild(el('span', 'was', ' · gone')); }
+      tr.appendChild(left); tr.appendChild(el('td', null, fmt(t.total)));
+      rows.appendChild(tr);
+      if (changed && changed.indexOf(t.k) >= 0) tick(left);
+    });
+  }
+  function showGame() {
+    var g = GAMES[cur];
+    gname.textContent = g.name + ' · jackpot';
+    screenJ.textContent = money(g.jackpot);
+    ruleEl.textContent = g.rule;
+    ctitle.textContent = g.name + ' · this game\'s count';
+    [].forEach.call(demo.querySelectorAll('.fpd-game'), function (b) {
+      var on = b.getAttribute('data-game') === cur;
+      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    if (!busy && !hanging) btn.textContent = 'Print ' + g.name + ' · $' + g.price;
+    renderRows(g);
+  }
+  function buildBody(g, p) {
+    body.textContent = '';
+    var hits = [];
+    if (g.win) {
+      body.appendChild(el('div', 'fpd-k', 'WINNING NUMBERS'));
+      var wn = el('div', 'fpd-wn'); g.win.forEach(function (n) { wn.appendChild(el('b', null, two(n))); }); body.appendChild(wn);
+      body.appendChild(el('div', 'fpd-k', 'YOUR NUMBERS'));
+      var grid = el('div', 'fpd-grid fpd-grid-5');
+      p.nums.forEach(function (c) {
+        var hit = g.win.indexOf(c[0]) >= 0; if (hit) hits.push(c);
+        var s = el('span', 'c' + (hit ? ' m' : '')); s.appendChild(el('b', null, two(c[0]))); s.appendChild(el('i', null, prizeLabel(c[1]))); grid.appendChild(s);
+      });
+      body.appendChild(grid);
+    } else {
+      body.appendChild(el('div', 'fpd-k', 'FIND A ★ · WIN THE PRIZE NEXT TO IT'));
+      var g2 = el('div', 'fpd-grid fpd-grid-4');
+      p.cells.forEach(function (c) {
+        var hit = c[0] === '★'; if (hit) hits.push(c);
+        var s = el('span', 'c' + (hit ? ' m' : '')); var b = el('b', null, c[0]); b.setAttribute('data-s', c[0]); s.appendChild(b); s.appendChild(el('i', null, prizeLabel(c[1]))); g2.appendChild(s);
+      });
+      body.appendChild(g2);
+    }
+    return hits;
+  }
+  function printed(g, p) {
+    paper.classList.remove('printing'); paper.classList.add('printed');
+    demo.classList.remove('printing');
+    status.textContent = 'Ready';
+    hanging = true;
+    screenJ.textContent = money(g.jackpot);
+    var changed = ['T'];
+    if (p.prize) { g.tiers.forEach(function (t) { if (t.k === p.prize) { t.left--; changed.push(t.k); } }); }
+    renderRows(g, changed);
+    say.textContent = p.say;
+    btn.textContent = 'Tear the ticket off first';
+  }
+  function print() {
+    if (busy || hanging) return;
+    busy = true;
+    var g = GAMES[cur]; g.idx = g.idx || 0;
+    var p = g.prints[g.idx]; g.idx = (g.idx + 1) % g.prints.length;
+    g.sold++; g.jackpot += g.add;
+    pTitle.textContent = g.name.toUpperCase(); pPrice.textContent = '$' + g.price;
+    paperJ.textContent = money(g.jackpot);
+    var hits = buildBody(g, p);
+    resEl.textContent = p.prize ? (g.win ? 'MATCH ' + two(hits[0][0]) : hits.length + ' ★') + ' · WIN $' + p.prize : (g.win ? 'NO MATCH' : 'NO ★') + ' · NO PRIZE';
+    resEl.classList.toggle('fpd-win', !!p.prize);
+    noEl.textContent = fmt(g.sold); ofEl.textContent = fmt(g.total);
+    paper.hidden = false;
+    paper.classList.remove('printed', 'torn', 'out');
+    paper.style.transform = '';
+    btn.disabled = true; btn.textContent = 'Printing…';
+    status.textContent = 'Printing';
+    demo.classList.add('printing', 'has-paper'); paper.classList.add('printing');
+    void paper.offsetWidth;
+    if (reduce) { paper.classList.add('out'); printed(g, p); busy = false; return; }
+    var done = false;
+    function finish() { if (done) return; done = true; printed(g, p); busy = false; }
+    paper.addEventListener('transitionend', function h(e) { if (e.propertyName === 'transform') { paper.removeEventListener('transitionend', h); finish(); } });
+    paper.classList.add('out');
+    setTimeout(finish, 2400);
+  }
+  function tear() {
+    if (!hanging || busy) return;
+    busy = true; hanging = false;
+    paper.classList.remove('printed'); paper.classList.add('torn');
+    btn.disabled = false; btn.textContent = 'Print ' + GAMES[cur].name + ' · $' + GAMES[cur].price;
+    setTimeout(function () {
+      paper.hidden = true; paper.classList.remove('torn', 'out'); paper.style.transform = '';
+      demo.classList.remove('has-paper');
+      busy = false;
+    }, reduce ? 0 : 600);
+  }
+  [].forEach.call(demo.querySelectorAll('.fpd-game'), function (b) {
+    b.addEventListener('click', function () {
+      if (busy && !hanging) return;
+      cur = b.getAttribute('data-game'); showGame();
+    });
+  });
+  btn.addEventListener('click', print);
+  tearBtn.addEventListener('click', function (e) { e.stopPropagation(); tear(); });
+  var y0 = null, dy = 0;
+  paper.addEventListener('pointerdown', function (e) {
+    if (!hanging || busy || e.target === tearBtn) return;
+    y0 = e.clientY; dy = 0; paper.classList.add('dragging');
+    try { paper.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  paper.addEventListener('pointermove', function (e) {
+    if (y0 === null) return;
+    dy = Math.max(0, e.clientY - y0);
+    paper.style.transform = 'translateY(' + (dy * 0.6) + 'px) rotate(' + (dy * 0.04) + 'deg)';
+  });
+  function end(e) {
+    if (y0 === null) return;
+    y0 = null; paper.classList.remove('dragging');
+    if (e.type !== 'pointercancel' && dy >= 40) { tear(); }
+    else { paper.style.transform = ''; if (dy < 6 && e.type !== 'pointercancel') tear(); }
+  }
+  paper.addEventListener('pointerup', end);
+  paper.addEventListener('pointercancel', end);
+  btn.disabled = false;
+  showGame();
+})();
+</script>  <p>
     Here's the part that matters: <strong>the machine is not rolling dice.</strong> Every
     Fast Play game is a set number of tickets, with a set number of winners already
     decided. When you buy one, you get the next ticket from that set. It works just like a
@@ -96,7 +328,7 @@
     <p>
       The biggest jackpot today is on <a href="/fast-play/kansas/864-lightning-fast-cash/">Lightning Fast Cash</a>,
       a $10 game. It stands at
-      <strong>$16,012</strong>.
+      <strong>$16,081</strong>.
     </p>
   </div>
   <p>

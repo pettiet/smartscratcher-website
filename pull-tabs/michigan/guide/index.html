@@ -74,7 +74,151 @@
     tabs are sold at bars, restaurants and other places licensed to sell Lottery products.
     You find out right away if you won.
   </p>
-  <p>
+<div class="tab-demo" id="tabDemo">
+  <div class="td-label">Try one · swipe a tab from right to left, or tap it</div>
+  <div class="td-stage">
+    <div class="tk" role="group" aria-label="Practice pull tab ticket">
+      <div class="tk-top"><span>SmartScratcher</span><span>Practice · $1</span></div>
+      <div class="tk-title">Pull Tab</div>
+      <div class="tk-sub"><span>★★★ $500</span><span>777 $50</span><span>♦♦♦ $5</span><span>♥♥♥ $2</span></div>
+      <div class="tk-wins">
+        <button class="win sealed" type="button" aria-label="Tab 1 of 5, sealed. Pull it open."><span class="win-in"><b></b><b></b><b></b></span><span class="flap" aria-hidden="true"><span class="ff"></span><span class="fc"></span></span><span class="win-label">◂ PULL</span></button>
+        <button class="win sealed" type="button" aria-label="Tab 2 of 5, sealed. Pull it open."><span class="win-in"><b></b><b></b><b></b></span><span class="flap" aria-hidden="true"><span class="ff"></span><span class="fc"></span></span><span class="win-label">◂ PULL</span></button>
+        <button class="win sealed" type="button" aria-label="Tab 3 of 5, sealed. Pull it open."><span class="win-in"><b></b><b></b><b></b></span><span class="flap" aria-hidden="true"><span class="ff"></span><span class="fc"></span></span><span class="win-label">◂ PULL</span></button>
+        <button class="win sealed" type="button" aria-label="Tab 4 of 5, sealed. Pull it open."><span class="win-in"><b></b><b></b><b></b></span><span class="flap" aria-hidden="true"><span class="ff"></span><span class="fc"></span></span><span class="win-label">◂ PULL</span></button>
+        <button class="win sealed" type="button" aria-label="Tab 5 of 5, sealed. Pull it open."><span class="win-in"><b></b><b></b><b></b></span><span class="flap" aria-hidden="true"><span class="ff"></span><span class="fc"></span></span><span class="win-label">◂ PULL</span></button>
+      </div>
+      <div class="tk-foot">Practice ticket · not a real game</div>
+    </div>
+    <aside class="td-count">
+      <div class="td-count-label">This game's prize count</div>
+      <table>
+        <tr><th>Prize</th><th>Left</th><th>Started with</th></tr>
+        <tr class="gone"><td class="amt">$500</td><td class="left">0 <span class="was">· gone</span></td><td>2</td></tr>
+        <tr><td class="amt">$50</td><td class="left">3</td><td>40</td></tr>
+        <tr><td class="amt">$5</td><td class="left">118</td><td>500</td></tr>
+        <tr><td class="amt">$2</td><td class="left" data-left="2">2,310</td><td>5,000</td></tr>
+      </table>
+      <p class="td-note">Made-up numbers for this practice game. The real counts for every Michigan game are on the game pages.</p>
+    </aside>
+  </div>
+  <p class="td-say" aria-live="polite">Open all five tabs to see what this one paid.</p>
+  <button class="td-next" type="button" hidden>Try another tab →</button>
+</div>
+<script>
+(function () {
+  var demo = document.getElementById('tabDemo');
+  if (!demo) return;
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var TICKETS = [
+    { w: [['7','★','♥'], ['♦','♦','7'], ['★','♥','●'], ['●','7','♦'], ['♥','★','★']], hit: -1,
+      done: 'Nothing lines up. Most pull tabs look like this one: in a typical game, about three of every four tabs pay nothing.' },
+    { w: [['★','7','●'], ['♦','♥','7'], ['♥','♥','♥'], ['7','●','★'], ['●','♦','★']], hit: 2,
+      hitSay: 'Three hearts in a row. That tab pays $2.',
+      done: 'A $2 prize. Small prizes like this one are almost all of a game\'s winners, and a game keeps them for a long time. The few big prizes are the ones that run out.' },
+    { w: [['★','7','♦'], ['♥','●','♥'], ['7','7','♦'], ['★','●','●'], ['♦','★','♥']], hit: -1,
+      done: 'Nothing again. Here is what the ticket can\'t tell you: both $500 prizes in this game were already won, so there is no ★ ★ ★ tab left anywhere. The front still prints $500. The lottery\'s count is the only place that shows it.' }
+  ];
+  var idx = 0, opened = 0;
+  var ticket = demo.querySelector('.tk');
+  var wins = [].slice.call(demo.querySelectorAll('.win'));
+  var say = demo.querySelector('.td-say');
+  var next = demo.querySelector('.td-next');
+  var leftCell = demo.querySelector('[data-left="2"]');
+  var left2 = 2310;
+  function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+  function setP(flap, p) { flap.style.setProperty('--p', p.toFixed(4)); }
+  function load(i) {
+    var t = TICKETS[i];
+    opened = 0;
+    next.hidden = true;
+    ticket.classList.add('td-reset');
+    wins.forEach(function (w, k) {
+      w.classList.remove('open', 'off', 'hit');
+      w.classList.add('sealed');
+      w.setAttribute('aria-label', 'Tab ' + (k + 1) + ' of 5, sealed. Pull it open.');
+      var bs = w.querySelectorAll('.win-in b');
+      for (var j = 0; j < 3; j++) { bs[j].textContent = t.w[k][j]; bs[j].setAttribute('data-s', t.w[k][j]); }
+      w.querySelector('.flap').style.removeProperty('--p');
+    });
+    say.textContent = i === 0 ? 'Open all five tabs to see what this one paid.' : 'A fresh tab. Open all five.';
+    void ticket.offsetWidth;
+    ticket.classList.remove('td-reset');
+  }
+  function revealed(w, k) {
+    var t = TICKETS[idx];
+    opened++;
+    if (k === t.hit) {
+      w.classList.add('hit');
+      say.textContent = t.hitSay;
+      left2--;
+      leftCell.textContent = fmt(left2);
+      var row = leftCell.parentNode;
+      row.classList.remove('tick'); void row.offsetWidth; row.classList.add('tick');
+    }
+    if (opened === wins.length) { say.textContent = t.done; next.hidden = false; }
+  }
+  function rip(w, k, from) {
+    if (!w.classList.contains('sealed')) return;
+    w.classList.remove('sealed'); w.classList.add('open');
+    w.setAttribute('aria-label', 'Tab ' + (k + 1) + ' of 5, open.');
+    var flap = w.querySelector('.flap');
+    if (reduce) { setP(flap, 1); w.classList.add('off'); revealed(w, k); return; }
+    var p0 = from || 0, t0 = null, D = 520 * (1 - p0);
+    function step(t) {
+      if (t0 === null) t0 = t;
+      var x = D > 0 ? Math.min(1, (t - t0) / D) : 1;
+      var e = 1 - Math.pow(1 - x, 3);
+      setP(flap, p0 + (1 - p0) * e);
+      if (x < 1) requestAnimationFrame(step);
+      else { w.classList.add('off'); revealed(w, k); }
+    }
+    requestAnimationFrame(step);
+  }
+  function snapBack(flap, from) {
+    var t0 = null, D = 180 * from;
+    function step(t) {
+      if (t0 === null) t0 = t;
+      var x = D > 0 ? Math.min(1, (t - t0) / D) : 1;
+      setP(flap, from * (1 - x));
+      if (x < 1) requestAnimationFrame(step); else flap.style.removeProperty('--p');
+    }
+    requestAnimationFrame(step);
+  }
+  wins.forEach(function (w, k) {
+    var flap = w.querySelector('.flap');
+    var x0 = null, prog = 0, moved = false, width = 1;
+    w.addEventListener('pointerdown', function (e) {
+      if (!w.classList.contains('sealed')) return;
+      x0 = e.clientX; prog = 0; moved = false; width = w.offsetWidth || 1;
+      w.classList.add('dragging');
+      try { w.setPointerCapture(e.pointerId); } catch (err) {}
+    });
+    w.addEventListener('pointermove', function (e) {
+      if (x0 === null) return;
+      var d = x0 - e.clientX;
+      if (Math.abs(d) > 4) moved = true;
+      prog = Math.max(0, Math.min(1, d / (width * 0.7)));
+      setP(flap, prog);
+    });
+    function end(e) {
+      if (x0 === null) return;
+      x0 = null;
+      w.classList.remove('dragging');
+      var cancelled = e && e.type === 'pointercancel';
+      if (!cancelled && (!moved || prog >= 0.35)) rip(w, k, prog);
+      else snapBack(flap, prog);
+    }
+    w.addEventListener('pointerup', end);
+    w.addEventListener('pointercancel', end);
+    w.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); rip(w, k, 0); }
+    });
+  });
+  next.addEventListener('click', function () { idx = (idx + 1) % TICKETS.length; load(idx); });
+  load(0);
+})();
+</script>  <p>
     Here's the part that matters: <strong>each game is a set number of tickets, with a
     set number of winners already decided.</strong> It works just like a scratcher. The
     lottery knows how many prizes are left in every game, and it publishes those numbers.
