@@ -74,96 +74,11 @@
 .cta-band.fp h2 { max-width: 760px; margin-left: auto; margin-right: auto; }
 
 /* =====================================================================
-   CHARTS (fast_play_charts.py)
-   Colors were run through the dataviz palette validator on a white
-   surface: blue + gold pass as a two-series pair, and the three blues pass
-   as an ordinal ramp. Gold sits under 3:1 against white, so every gold
-   mark also carries a visible label or legend value.
+   CHARTS: the card, line, tooltip and sparkline rules live in
+   scratchers.css (loaded on every page) since Oct 31, 2026, when the
+   scratcher game pages got a chart too. Only the Fast Play-specific
+   pieces stay here.
    ===================================================================== */
-.viz-card {
-  background: #fff; border: 2px solid var(--ink); border-radius: 16px;
-  padding: 20px 22px;
-}
-.viz-card + .viz-card { margin-top: 16px; }
-.viz-head { font-family: var(--display); font-weight: 800; font-size: 18px; letter-spacing: -0.01em; }
-.viz-sub { font-size: 14px; color: var(--ink-soft); margin: 2px 0 16px; max-width: 720px; }
-.viz {
-  --viz-blue: #0066ff; --viz-gold: #e0a100;
-  --viz-s1: #7fb0ff; --viz-s2: #3d82ee; --viz-s3: #0f4fb8;
-  --viz-gray: #8a8a8a; --viz-grid: #ece6cc;
-  margin: 0;
-}
-
-/* ---- line ---- */
-.viz-frame { position: relative; display: flex; }
-.viz-y { position: relative; flex: none; width: 54px; }
-.viz-y span, .viz-x span, .viz-axis span {
-  position: absolute; font-family: var(--mono); font-size: 11px; color: var(--muted);
-  font-variant-numeric: tabular-nums; white-space: nowrap;
-}
-.viz-y span { right: 10px; transform: translateY(-50%); }
-.viz-area { position: relative; flex: 1; min-width: 0; }
-.viz-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-.viz-grid { stroke: var(--viz-grid); stroke-width: 1; }
-.viz-wash { fill: var(--viz-blue); opacity: 0.1; }
-.viz-stroke {
-  fill: none; stroke: var(--viz-blue); stroke-width: 2;
-  stroke-linejoin: round; stroke-linecap: round;
-}
-.viz-dot {
-  position: absolute; width: 10px; height: 10px; border-radius: 50%;
-  background: var(--viz-blue); box-shadow: 0 0 0 2px #fff;
-  transform: translate(-50%, -50%); pointer-events: none;
-}
-.viz-endlabel {
-  position: absolute; right: 0; transform: translateY(-170%);
-  font-family: var(--mono); font-size: 12.5px; font-weight: 700; color: var(--ink);
-  background: rgba(255, 255, 255, 0.85); padding: 0 3px; border-radius: 3px;
-  pointer-events: none;
-}
-.viz-endlabel.low { transform: translateY(70%); }
-.viz-slice { position: absolute; top: 0; bottom: 0; outline: none; cursor: crosshair; }
-.viz-cross {
-  position: absolute; top: 0; bottom: 0; width: 1px; margin-left: -0.5px;
-  background: var(--ink); opacity: 0;
-}
-.viz-slice .viz-dot { opacity: 0; }
-.viz-slice:hover .viz-cross, .viz-slice:focus .viz-cross { opacity: 0.3; }
-.viz-slice:hover .viz-dot, .viz-slice:focus .viz-dot { opacity: 1; }
-.viz-x { position: relative; height: 24px; margin-left: 54px; }
-.viz-x span { top: 7px; transform: translateX(-50%); }
-.viz-x span.first { transform: none; }
-.viz-x span.last { transform: translateX(-100%); }
-
-/* ---- tooltip (shared) ---- */
-.viz-tip {
-  position: absolute; z-index: 5; display: none; pointer-events: none;
-  background: var(--ink); color: #fff; border-radius: 8px; padding: 7px 11px;
-  font-size: 12px; line-height: 1.35; white-space: nowrap; text-align: left;
-  transform: translate(12px, -115%);
-}
-.viz-tip strong { display: block; font-size: 13.5px; font-weight: 700; }
-.viz-tip span { display: block; color: rgba(255, 255, 255, 0.75); }
-.viz-tip em { display: block; font-style: normal; color: var(--yellow); }
-.viz-tip.flip { transform: translate(calc(-100% - 12px), -115%); }
-.viz-tip.low { transform: translate(12px, 18px); }
-.viz-tip.flip.low { transform: translate(calc(-100% - 12px), 18px); }
-.viz-tip.up { left: 50%; bottom: calc(100% + 8px); transform: translateX(-50%); }
-.viz-slice:hover .viz-tip, .viz-slice:focus .viz-tip,
-.viz-seg:hover .viz-tip, .viz-seg:focus .viz-tip,
-.viz-track:hover > .viz-tip, .viz-track:focus > .viz-tip { display: block; }
-
-/* ---- sparkline (stat tiles) ---- */
-.viz-spark { position: relative; display: block; height: 30px; margin-top: 10px; }
-.viz-spark svg { position: absolute; inset: 0; width: calc(100% - 6px); height: 100%; overflow: visible; }
-.viz-spark path { fill: none; stroke: #8a8a8a; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
-.viz-spark i {
-  position: absolute; right: 1px; width: 9px; height: 9px; border-radius: 50%;
-  background: #0066ff; box-shadow: 0 0 0 2px #fff; transform: translateY(-50%);
-}
-.hero-card .viz-spark path { stroke: var(--ink); opacity: 0.55; }
-.hero-card .viz-spark i { box-shadow: 0 0 0 2px var(--yellow); }
-
 /* ---- legend ---- */
 .viz-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-soft); }
 .viz-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 7px; vertical-align: -1px; }
