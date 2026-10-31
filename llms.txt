@@ -50,11 +50,11 @@ How to read the numbers here:
 
 Terminal-printed and pull tab games where the lottery publishes remaining counts, counted twice a day.
 
-- [Kansas Fast Play](https://www.smartscratcherapp.com/fast-play/kansas/): 24 games, prize counts and the lottery's jackpot amounts, as of Oct 30, 2026.
-- [Kansas Pull Tabs](https://www.smartscratcherapp.com/pull-tabs/kansas/): 3 games, prize counts and the lottery's jackpot amounts, as of Oct 30, 2026.
-- [Maryland Fast Play](https://www.smartscratcherapp.com/fast-play/maryland/): 27 games, prize counts and the lottery's jackpot amounts, as of Oct 30, 2026.
-- [Michigan Pull Tabs](https://www.smartscratcherapp.com/pull-tabs/michigan/): 49 games, prize counts and the lottery's jackpot amounts, as of Oct 30, 2026.
-- [Oklahoma Fast Play](https://www.smartscratcherapp.com/fast-play/oklahoma/): 18 games, prize counts and the lottery's jackpot amounts, as of Oct 30, 2026.
+- [Kansas Fast Play](https://www.smartscratcherapp.com/fast-play/kansas/): 24 games, prize counts and the lottery's jackpot amounts, as of Oct 31, 2026.
+- [Kansas Pull Tabs](https://www.smartscratcherapp.com/pull-tabs/kansas/): 3 games, prize counts and the lottery's jackpot amounts, as of Oct 31, 2026.
+- [Maryland Fast Play](https://www.smartscratcherapp.com/fast-play/maryland/): 27 games, prize counts and the lottery's jackpot amounts, as of Oct 31, 2026.
+- [Michigan Pull Tabs](https://www.smartscratcherapp.com/pull-tabs/michigan/): 49 games, prize counts and the lottery's jackpot amounts, as of Oct 31, 2026.
+- [Oklahoma Fast Play](https://www.smartscratcherapp.com/fast-play/oklahoma/): 18 games, prize counts and the lottery's jackpot amounts, as of Oct 31, 2026.
 
 ## Data files (JSON)
 
@@ -78,6 +78,25 @@ Terminal-printed and pull tab games where the lottery publishes remaining counts
 - [Texas games](https://www.smartscratcherapp.com/data/games/tx.json)
 - [Virginia games](https://www.smartscratcherapp.com/data/games/va.json)
 - [Washington games](https://www.smartscratcherapp.com/data/games/wa.json)
+- [Arkansas sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ar.json)
+- [California sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ca.json)
+- [Florida sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/fl.json)
+- [Georgia sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ga.json)
+- [Illinois sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/il.json)
+- [Kansas sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ks.json)
+- [Massachusetts sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ma.json)
+- [Maryland sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/md.json)
+- [Michigan sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/mi.json)
+- [Missouri sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/mo.json)
+- [North Carolina sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/nc.json)
+- [New Jersey sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/nj.json)
+- [New York sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ny.json)
+- [Ohio sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/oh.json)
+- [Oklahoma sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/ok.json)
+- [South Carolina sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/sc.json)
+- [Texas sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/tx.json)
+- [Virginia sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/va.json)
+- [Washington sales trends (share of tickets left, by day)](https://www.smartscratcherapp.com/data/trends/wa.json)
 - [Kansas Fast Play](https://www.smartscratcherapp.com/data/fast-play/ks.json)
 - [Kansas Pull Tabs](https://www.smartscratcherapp.com/data/pull-tabs/ks.json)
 - [Maryland Fast Play](https://www.smartscratcherapp.com/data/fast-play/md.json)
