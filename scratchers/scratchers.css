@@ -597,6 +597,9 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
 .faq-item p {
   padding: 0 18px 14px; color: var(--ink-soft); font-size: 14.5px;
 }
+/* The "no longer shipped" list on a state index: a table inside a closed box */
+.stopped-games summary { color: var(--muted); }
+.stopped-games .index-card { margin: 0 18px 16px; }
 
 /* ---------- RELATED CHIPS ---------- */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }

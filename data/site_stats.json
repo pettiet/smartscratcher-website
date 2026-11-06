@@ -45,14 +45,14 @@
  "claimed_7d_money": 687444270,
  "claimed_7d_prizes": 26037172,
  "data_points": 274160,
- "face_value": 143506055625,
- "free_tickets_remaining": 108402909,
- "games": 1594,
- "million_prizes_remaining": 1210,
- "million_prizes_total": 2969,
- "million_tiers": 507,
- "money_remaining": 40376475831,
- "money_total": 110066963006,
+ "face_value": 141414270525,
+ "free_tickets_remaining": 103182758,
+ "games": 1535,
+ "million_prizes_remaining": 1206,
+ "million_prizes_total": 2944,
+ "million_tiers": 504,
+ "money_remaining": 40244531476,
+ "money_total": 108482089387,
  "per_state": [
   {
    "code": "ar",
@@ -83,12 +83,12 @@
   },
   {
    "code": "ga",
-   "face_value": 17852020500,
-   "games": 202,
-   "money_remaining": 2593294032,
+   "face_value": 15760235400,
+   "games": 143,
+   "money_remaining": 2461349677,
    "name": "Georgia",
-   "prizes_remaining": 93068080,
-   "tickets_printed": 2702066403
+   "prizes_remaining": 81209375,
+   "tickets_printed": 2206279297
   },
   {
    "code": "il",
@@ -226,11 +226,11 @@
    "tickets_printed": 144079480
   }
  ],
- "prizes_remaining": 1245294066,
- "prizes_total": 3824268886,
+ "prizes_remaining": 1233435361,
+ "prizes_total": 3697286579,
  "states": 19,
- "tickets_printed": 15173849571,
+ "tickets_printed": 14678062465,
  "tier_snapshots": 1796485,
- "tiers": 17091,
+ "tiers": 16403,
  "tracking_since": "2024-11-25"
 }
