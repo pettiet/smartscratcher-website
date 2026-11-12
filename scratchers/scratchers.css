@@ -107,6 +107,22 @@ nav.top .menu .cta-btn:hover { background: #ffe44d; color: #000; }
 .subnav-tab.hubl { margin-left: auto; background: transparent; border-style: dashed; }
 .subnav-tab.hubl:hover { background: var(--yellow); border-style: solid; }
 
+/* Phones: only the black bar stays pinned, and it is slimmer. The chip rows
+   wrap to three lines on a phone, and pinned together with the bar they
+   covered 228 of 812 pixels (28% of the screen) on every scroll position.
+   They now scroll away with the page. Since Nov 11, 2026. */
+@media (max-width: 720px) {
+  .subnav { position: static; }
+  nav.top { padding: 10px 16px; }
+  nav.top .logo img { height: 30px; }
+  nav.top .menu .cta-btn { white-space: nowrap; padding: 9px 16px; }
+}
+@media (max-width: 360px) { /* small phones: logo and button still fit on one row */
+  nav.top { padding: 10px 12px; }
+  nav.top .logo img { height: 26px; }
+  nav.top .menu .cta-btn { padding: 8px 12px; font-size: 12px; }
+}
+
 /* ---------- BREADCRUMBS ---------- */
 .crumbs {
   max-width: 1100px; margin: 18px auto 0; padding: 0 5%;
@@ -171,7 +187,8 @@ header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margin
 .sc-of { color: #d7d2bd; font-size: 22px; }
 .sc-rank { font-family: var(--mono); font-size: 12.5px; color: #d7d2bd; }
 .sc-q { font-size: 14.5px; color: #f1ecd9; margin: 10px 0 12px; line-height: 1.45; }
-.sc-badges { display: flex; gap: 10px; align-items: center; }
+.sc-badges { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.answer-row > * { min-width: 0; }
 .sc-badges .store-badge img { height: 44px; }
 .sc-badges .store-badge.gp img { height: 65px; margin: -10.5px -11px; }
 .sc-fine { font-family: var(--mono); font-size: 11px; color: #a39e8a; margin-top: 10px; }
@@ -180,6 +197,11 @@ header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margin
   .big-bar, .big-foot { display: none; } /* keeps the score card's badges on a phone's first screen */
   .big-title { margin-bottom: 4px; }
   .sc-badges { justify-content: center; }
+}
+@media (max-width: 380px) { /* small phones: the two badges fit side by side inside the card (it ran 23px past a 320px screen) */
+  .score-card { padding: 16px 14px; }
+  .sc-badges .store-badge img { height: 38px; }
+  .sc-badges .store-badge.gp img { height: 56.5px; margin: -9.25px -9.5px; }
 }
 
 /* ---------- SHARED LAYOUT ---------- */
