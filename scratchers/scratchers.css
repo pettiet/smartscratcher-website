@@ -158,6 +158,10 @@ header.page.tight h1:last-child { margin-bottom: 4px; } /* the title is the head
 header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margins further down; a notice can sit right above this row */
 .answer-row.solo { grid-template-columns: 1fr; max-width: 640px; }
 .answer-row .big-stat { margin: 0; display: flex; flex-direction: column; justify-content: center; }
+.big-title { font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }
+.big-bar { height: 10px; border-radius: 100px; background: rgba(26, 26, 26, 0.14); border: 1.5px solid var(--ink); margin-top: 14px; overflow: hidden; }
+.big-bar span { display: block; height: 100%; background: var(--ink); }
+.big-foot { font-family: var(--mono); font-size: 11.5px; margin-top: 6px; opacity: 0.8; }
 .score-card { background: var(--ink); color: #fff; border-radius: 16px; padding: 18px 20px; }
 .sc-label { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--yellow); }
 .sc-nums { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; margin-top: 6px; }
@@ -173,6 +177,8 @@ header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margin
 .sc-fine { font-family: var(--mono); font-size: 11px; color: #a39e8a; margin-top: 10px; }
 @media (max-width: 760px) {
   .answer-row { grid-template-columns: 1fr; gap: 12px; }
+  .big-bar, .big-foot { display: none; } /* keeps the score card's badges on a phone's first screen */
+  .big-title { margin-bottom: 4px; }
   .sc-badges { justify-content: center; }
 }
 
