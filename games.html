@@ -61,6 +61,20 @@
     letter-spacing: 0.5px; text-decoration: none;
   }
   nav.top .menu .cta-btn:hover { background: #ffe44d; color: #000; }
+  /* Phones: the Get the App button stays on one line and the bar is slimmer
+     (it wrapped to two lines and made the pinned bar 112px tall). Matches the
+     generated pages. */
+  nav.top .menu .cta-btn { white-space: nowrap; }
+  @media (max-width: 720px) {
+    nav.top { padding: 10px 16px; }
+    nav.top .logo img { height: 30px; }
+    nav.top .menu .cta-btn { padding: 9px 16px; }
+  }
+  @media (max-width: 360px) {
+    nav.top { padding: 10px 12px; }
+    nav.top .logo img { height: 26px; }
+    nav.top .menu .cta-btn { padding: 8px 12px; font-size: 12px; }
+  }
   @media (max-width: 720px) {
     nav.top .menu a:not(.cta-btn) { display: none; }
   }
