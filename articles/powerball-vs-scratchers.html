@@ -308,6 +308,12 @@
     .masthead-nav { gap: 18px; font-size: 9px; }
     footer { padding: 32px 24px 48px; }
   }
+  /* Phones: the brand sits above the nav and the nav wraps, so the page no
+     longer runs wider than the screen (it scrolled sideways before). */
+  @media (max-width: 640px) {
+    .masthead { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .masthead-nav { flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+  }
 
   /* Get the App: one button, two stores (App Store / Google Play) */
   .get-app { position: relative; display: inline-block; }
