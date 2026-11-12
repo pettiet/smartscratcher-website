@@ -149,6 +149,32 @@ header.page h1 .h1-sub {
   letter-spacing: 0; margin-top: 10px;
 }
 header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
+/* Game page, answer first: the count box, the locked score card, then the
+   write-up (which used to sit in the header). */
+.deck.verdict.below { max-width: 720px; margin: 24px auto 8px; text-align: center; font-size: 17px; line-height: 1.55; color: var(--ink-soft); }
+.answer-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: stretch; }
+.wrap.answer-row { margin-top: 16px; }
+header.page.tight h1:last-child { margin-bottom: 4px; } /* the title is the header's last line on a game page now */
+header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margins further down; a notice can sit right above this row */
+.answer-row.solo { grid-template-columns: 1fr; max-width: 640px; }
+.answer-row .big-stat { margin: 0; display: flex; flex-direction: column; justify-content: center; }
+.score-card { background: var(--ink); color: #fff; border-radius: 16px; padding: 18px 20px; }
+.sc-label { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--yellow); }
+.sc-nums { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; margin-top: 6px; }
+.sc-num { font-family: var(--display); font-weight: 800; font-size: 34px; line-height: 1; display: flex; align-items: baseline; gap: 6px; }
+.sc-lock { font-size: 26px; }
+.sc-lock.sm { font-size: 13px; }
+.sc-of { color: #d7d2bd; font-size: 22px; }
+.sc-rank { font-family: var(--mono); font-size: 12.5px; color: #d7d2bd; }
+.sc-q { font-size: 14.5px; color: #f1ecd9; margin: 10px 0 12px; line-height: 1.45; }
+.sc-badges { display: flex; gap: 10px; align-items: center; }
+.sc-badges .store-badge img { height: 44px; }
+.sc-badges .store-badge.gp img { height: 65px; margin: -10.5px -11px; }
+.sc-fine { font-family: var(--mono); font-size: 11px; color: #a39e8a; margin-top: 10px; }
+@media (max-width: 760px) {
+  .answer-row { grid-template-columns: 1fr; gap: 12px; }
+  .sc-badges { justify-content: center; }
+}
 
 /* ---------- SHARED LAYOUT ---------- */
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 5%; }
