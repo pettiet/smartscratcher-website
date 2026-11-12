@@ -1437,6 +1437,17 @@
   .get-app-menu a { display: block !important; padding: 10px 14px; border-radius: 10px; color: #fff9e6 !important; font-family: inherit; font-size: 14px !important; font-weight: 600; line-height: 1.3; letter-spacing: 0 !important; text-transform: none !important; text-decoration: none !important; white-space: nowrap; opacity: 1 !important; margin: 0 !important; }
   .get-app-menu a:hover { background: #2a2a2a; color: #ffd60a !important; }
   .get-app-menu a small { display: block; font-size: 11px; font-weight: 500; color: #9a9a9a; }
+/* Official store badges (hero and final CTA), unaltered. Google's file has
+   built-in clear space; the negative margin trims it so both match in height. */
+.store-badges { align-items: center; }
+.store-badge { display: block; line-height: 0; transition: transform 0.1s; }
+.store-badge:hover { transform: translateY(-2px); }
+.store-badge img { display: block; height: 54px; width: auto; }
+.store-badge.gp img { height: 80px; margin: -13px -13.5px; }
+@media (max-width: 600px) {
+  .store-badge img { height: 44px; }
+  .store-badge.gp img { height: 65px; margin: -10.5px -11px; }
+}
 </style>
 </head>
 <body>
@@ -1475,15 +1486,9 @@
   <p class="deck">
     Half the scratch-offs on the shelf have already had their big prizes claimed — they just keep selling. SmartScratcher tells you which ones still have real prizes worth chasing.
   </p>
-  <div class="buttons">
-    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-hero&amp;mt=8" class="btn-primary">
-      <span>Download on App Store</span>
-      <span class="arrow">→</span>
-    </a>
-    <a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-hero" class="btn-primary">
-      <span>Get it on Google Play</span>
-      <span class="arrow">→</span>
-    </a>
+  <div class="buttons store-badges">
+    <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-hero&amp;mt=8"><img src="/scratchers/badges/app-store-badge.svg" alt="Download on the App Store" width="162" height="54" /></a>
+    <a class="store-badge gp" href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-hero"><img src="/scratchers/badges/google-play-badge.png" alt="Get it on Google Play" width="208" height="80" /></a>
   </div>
   <div class="mini-proof">Free to try · <strong>$2.99/mo</strong> premium · 3-day free trial · cancel anytime</div>
   <div class="trust">
@@ -1973,15 +1978,9 @@
   <div class="stickers">🎟️ 💰 🍀</div>
   <h2>Ready to stop playing <em>dead</em> <span class="hl">scratchers?</span></h2>
   <p>Download SmartScratcher free. See the data for yourself. Upgrade if you want the rankings done for you — $2.99/month with a 3-day free trial.</p>
-  <div class="buttons">
-    <a href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-cta&amp;mt=8" class="btn-big">
-      <span>Download on App Store</span>
-      <span>→</span>
-    </a>
-    <a href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-cta" class="btn-big">
-      <span>Get it on Google Play</span>
-      <span>→</span>
-    </a>
+  <div class="buttons store-badges">
+    <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-cta&amp;mt=8"><img src="/scratchers/badges/app-store-badge.svg" alt="Download on the App Store" width="162" height="54" /></a>
+    <a class="store-badge gp" href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-cta"><img src="/scratchers/badges/google-play-badge.png" alt="Get it on Google Play" width="208" height="80" /></a>
   </div>
   <div class="fine">Available on iPhone, iPad and Android · No credit card required to start</div>
 </section>
