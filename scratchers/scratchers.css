@@ -689,6 +689,32 @@ header.page .deck.verdict { max-width: 720px; line-height: 1.55; }
 .cta-inner .btn-primary { margin: 4px 6px; } /* two store buttons sit side by side, wrap on phones */
 .cta-inner .fine { font-family: var(--mono); font-size: 11.5px; color: #a39e8a; margin-top: 14px; }
 
+/* ---------- TOP APP BAND (state pages, under the stats) ---------- */
+.cta-top { max-width: 1100px; margin: 22px auto 6px; padding: 0 5%; }
+.cta-top-inner {
+  background: var(--ink); color: #fff; border-radius: 16px; padding: 18px 22px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px 24px; flex-wrap: wrap;
+}
+.cta-top-copy { flex: 1 1 320px; }
+.cta-top-copy strong {
+  display: block; font-family: var(--display); font-weight: 800; font-size: 20px; line-height: 1.2;
+}
+.cta-top-copy strong .y { color: var(--yellow); }
+.cta-top-copy .sub { display: block; color: #d7d2bd; font-size: 14px; margin-top: 4px; }
+.cta-top-btns { display: flex; gap: 10px; align-items: center; }
+.store-badge { display: block; line-height: 0; transition: transform 0.1s; }
+.store-badge:hover { transform: translateY(-2px); }
+.store-badge img { display: block; height: 48px; width: auto; }
+/* Google's file has built-in clear space around the badge; trim it so both badges match in height */
+.store-badge.gp img { height: 71px; margin: -11.5px -12px; }
+.cta-top .fine { flex-basis: 100%; font-family: var(--mono); font-size: 11px; color: #a39e8a; }
+@media (max-width: 600px) {
+  .cta-top-inner { padding: 16px; }
+  .cta-top-btns { width: 100%; justify-content: center; }
+  .store-badge img { height: 44px; }
+  .store-badge.gp img { height: 65px; margin: -10.5px -11px; }
+}
+
 /* ---------- FOOTER (matches homepage) ---------- */
 footer.site {
   background: var(--ink); color: white; padding: 60px 24px 30px; margin-top: 20px;
