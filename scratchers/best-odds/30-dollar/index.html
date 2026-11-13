@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/scratchers/scratchers.css?v=d587447b" />
+<link rel="stylesheet" href="/scratchers/scratchers.css?v=8adab7f5" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.smartscratcherapp.com/"},{"@type":"ListItem","position":2,"name":"Scratchers","item":"https://www.smartscratcherapp.com/scratchers/"},{"@type":"ListItem","position":3,"name":"Best $30 by state","item":"https://www.smartscratcherapp.com/scratchers/best-odds/30-dollar/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Best $30 Scratch-Off Tickets by State: Remaining Prizes","url":"https://www.smartscratcherapp.com/scratchers/best-odds/30-dollar/","dateModified":"2026-11-13"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which state has the best $30 scratch-off odds right now?","acceptedAnswer":{"@type":"Answer","text":"As of Nov 13, 2026, Arizona's Million Dollar Crossword has the best printed overall odds of any $30 game in the 20 states we track — 1 in 2.3. The table above lists the leader in every state."}},{"@type":"Question","name":"Why do $30 scratch-off odds differ from state to state?","acceptedAnswer":{"@type":"Answer","text":"Each state lottery designs its own games and decides how many prizes to print per ticket. The overall odds are printed on the ticket and never change after launch; what changes is how many prizes are left, which is the other column on this page."}},{"@type":"Question","name":"Which $30 scratch-off should I buy?","acceptedAnswer":{"@type":"Answer","text":"Printed odds say how a game started; the prizes still left say what it is now. Pick your state above for every $30 game ranked, and the SmartScratcher app turns what is left today into a ticket value and a 0–100 score for each one, by our math."}},{"@type":"Question","name":"How fresh is this data?","acceptedAnswer":{"@type":"Answer","text":"Prize counts come straight from each state lottery's official data, last refreshed on Nov 13, 2026. SmartScratcher updates every morning."}}]}</script>
@@ -73,12 +73,12 @@
 </div>
 <section class="wrap">
   <div class="index-card">
-    <table class="index-table rank-table">
+    <table class="index-table cards rank-table">
       <thead>
         <tr>
           <th class="th-rank">#</th>
-          <th>State</th>
-          <th>Best $30 game</th>
+          <th class="th-name">State</th>
+          <th class="th-name">Best $30 game</th>
           <th>Printed odds</th>
           <th>Top prizes left</th>
         </tr>
@@ -90,12 +90,12 @@
             <a href="/scratchers/arizona/best-odds/30-dollar/">Arizona</a>
             <span class="overall">all 3 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/arizona/1531-million-dollar-crossword/">Million Dollar Crossword</a>
             <span class="num">#1531</span>
           </td>
-          <td class="mono">1 in 2.3</td>
-          <td class="mono">6 of 7<div class="sub">$1,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.3</td>
+          <td class="mono" data-label="Top prizes left">6 of 7<div class="sub">$1,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num medal">2</td>
@@ -103,12 +103,12 @@
             <a href="/scratchers/georgia/best-odds/30-dollar/">Georgia</a>
             <span class="overall">all 5 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/georgia/1843-millionaire-maker/">Millionaire Maker</a>
             <span class="num">#1843</span>
           </td>
-          <td class="mono">1 in 2.53</td>
-          <td class="mono">9 of 19<div class="sub">$1,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.53</td>
+          <td class="mono" data-label="Top prizes left">9 of 19<div class="sub">$1,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num medal">3</td>
@@ -116,12 +116,12 @@
             <a href="/scratchers/florida/best-odds/30-dollar/">Florida</a>
             <span class="overall">all 3 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/florida/1608-15mm-diamond-spectacular/">$15MM Diamond Spectacular</a>
             <span class="num">#1608</span>
           </td>
-          <td class="mono">1 in 2.61</td>
-          <td class="mono zero">gone<div class="sub dead-amt">$15,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.61</td>
+          <td class="mono zero" data-label="Top prizes left">gone<div class="sub dead-amt">$15,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">4</td>
@@ -129,12 +129,12 @@
             <a href="/scratchers/maryland/best-odds/30-dollar/">Maryland</a>
             <span class="overall">all 8 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/maryland/712-5000-large/">$5,000 Large</a>
             <span class="num">#712</span>
           </td>
-          <td class="mono">1 in 2.64</td>
-          <td class="mono">792 of 1,057<div class="sub">$5,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.64</td>
+          <td class="mono" data-label="Top prizes left">792 of 1,057<div class="sub">$5,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">5</td>
@@ -142,12 +142,12 @@
             <a href="/scratchers/oklahoma/best-odds/30-dollar/">Oklahoma</a>
             <span class="overall">all 3 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/oklahoma/802-million-dollar-payday/">Million Dollar Payday</a>
             <span class="num">#802</span>
           </td>
-          <td class="mono">1 in 2.64</td>
-          <td class="mono">2 of 3<div class="sub">$1,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.64</td>
+          <td class="mono" data-label="Top prizes left">2 of 3<div class="sub">$1,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">6</td>
@@ -155,12 +155,12 @@
             <a href="/scratchers/california/best-odds/30-dollar/">California</a>
             <span class="overall">all 3 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/california/1740-200x/">200X</a>
             <span class="num">#1740</span>
           </td>
-          <td class="mono">1 in 2.71</td>
-          <td class="mono">3 of 5<div class="sub">$10,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.71</td>
+          <td class="mono" data-label="Top prizes left">3 of 5<div class="sub">$10,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">7</td>
@@ -168,12 +168,12 @@
             <a href="/scratchers/connecticut/best-odds/30-dollar/">Connecticut</a>
             <span class="overall">all 6 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/connecticut/1774-millionaire-maker/">Millionaire Maker</a>
             <span class="num">#1774</span>
           </td>
-          <td class="mono">1 in 2.72</td>
-          <td class="mono">2 of 3<div class="sub">$1,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.72</td>
+          <td class="mono" data-label="Top prizes left">2 of 3<div class="sub">$1,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">8</td>
@@ -181,12 +181,12 @@
             <a href="/scratchers/massachusetts/best-odds/30-dollar/">Massachusetts</a>
             <span class="overall">all 6 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/massachusetts/373-millions/">Millions</a>
             <span class="num">#373</span>
           </td>
-          <td class="mono">1 in 2.76</td>
-          <td class="mono zero">gone<div class="sub dead-amt">$15,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.76</td>
+          <td class="mono zero" data-label="Top prizes left">gone<div class="sub dead-amt">$15,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">9</td>
@@ -194,12 +194,12 @@
             <a href="/scratchers/virginia/best-odds/30-dollar/">Virginia</a>
             <span class="overall">all 9 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/virginia/2149-100x-the-money/">100X The Money</a>
             <span class="num">#2149</span>
           </td>
-          <td class="mono">1 in 2.82</td>
-          <td class="mono">1 of 3<div class="sub">$5,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.82</td>
+          <td class="mono" data-label="Top prizes left">1 of 3<div class="sub">$5,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">10</td>
@@ -207,12 +207,12 @@
             <a href="/scratchers/washington/best-odds/30-dollar/">Washington</a>
             <span class="overall">all 4 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/washington/1801-serious-money/">Serious Money</a>
             <span class="num">#1801</span>
           </td>
-          <td class="mono">1 in 2.86</td>
-          <td class="mono zero">gone<div class="sub dead-amt">$2,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.86</td>
+          <td class="mono zero" data-label="Top prizes left">gone<div class="sub dead-amt">$2,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">11</td>
@@ -220,12 +220,12 @@
             <a href="/scratchers/north-carolina/best-odds/30-dollar/">North Carolina</a>
             <span class="overall">all 10 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/north-carolina/925-200x-the-cash/">200X The Cash</a>
             <span class="num">#925</span>
           </td>
-          <td class="mono">1 in 2.93</td>
-          <td class="mono">3 of 5<div class="sub">$5,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.93</td>
+          <td class="mono" data-label="Top prizes left">3 of 5<div class="sub">$5,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">12</td>
@@ -233,12 +233,12 @@
             <a href="/scratchers/kansas/best-odds/30-dollar/">Kansas</a>
             <span class="overall">all 4 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/kansas/380-sizzling-riches/">Sizzling Riches</a>
             <span class="num">#380</span>
           </td>
-          <td class="mono">1 in 2.97</td>
-          <td class="mono">1 of 4<div class="sub">$300,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.97</td>
+          <td class="mono" data-label="Top prizes left">1 of 4<div class="sub">$300,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">13</td>
@@ -246,12 +246,12 @@
             <a href="/scratchers/washington-dc/best-odds/30-dollar/">Washington DC</a>
             <span class="overall">all 4 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/washington-dc/1583-300x/">300X</a>
             <span class="num">#1583</span>
           </td>
-          <td class="mono">1 in 2.97</td>
-          <td class="mono">1 of 2<div class="sub">$1,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 2.97</td>
+          <td class="mono" data-label="Top prizes left">1 of 2<div class="sub">$1,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">14</td>
@@ -259,12 +259,12 @@
             <a href="/scratchers/missouri/best-odds/30-dollar/">Missouri</a>
             <span class="overall">all 3 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/missouri/494-3-million-supreme/">$3 Million* Supreme</a>
             <span class="num">#494</span>
           </td>
-          <td class="mono">1 in 3.04</td>
-          <td class="mono">1 of 3<div class="sub">$3,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.04</td>
+          <td class="mono" data-label="Top prizes left">1 of 3<div class="sub">$3,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">15</td>
@@ -272,12 +272,12 @@
             <a href="/scratchers/michigan/best-odds/30-dollar/">Michigan</a>
             <span class="overall">all 7 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/michigan/755-diamond-7s/">Diamond 7s</a>
             <span class="num">#755</span>
           </td>
-          <td class="mono">1 in 3.11</td>
-          <td class="mono">3 of 3<div class="sub">$4,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.11</td>
+          <td class="mono" data-label="Top prizes left">3 of 3<div class="sub">$4,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">16</td>
@@ -285,12 +285,12 @@
             <a href="/scratchers/ohio/best-odds/30-dollar/">Ohio</a>
             <span class="overall">all 5 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/ohio/1079-wild-cash-tripler/">Wild Cash Tripler</a>
             <span class="num">#1079</span>
           </td>
-          <td class="mono">1 in 3.13</td>
-          <td class="mono">2 of 4<div class="sub">$3,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.13</td>
+          <td class="mono" data-label="Top prizes left">2 of 4<div class="sub">$3,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">17</td>
@@ -298,12 +298,12 @@
             <a href="/scratchers/illinois/best-odds/30-dollar/">Illinois</a>
             <span class="overall">all 5 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/illinois/7590-200x-the-cash/">200X The Cash</a>
             <span class="num">#7590</span>
           </td>
-          <td class="mono">1 in 3.18</td>
-          <td class="mono">1 of 3<div class="sub">$1,800,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.18</td>
+          <td class="mono" data-label="Top prizes left">1 of 3<div class="sub">$1,800,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">18</td>
@@ -311,12 +311,12 @@
             <a href="/scratchers/new-jersey/best-odds/30-dollar/">New Jersey</a>
             <span class="overall">all 11 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/new-jersey/01921-colossal-crossword/">Colossal Crossword</a>
             <span class="num">#01921</span>
           </td>
-          <td class="mono">1 in 3.4</td>
-          <td class="mono zero">gone<div class="sub dead-amt">$600,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.4</td>
+          <td class="mono zero" data-label="Top prizes left">gone<div class="sub dead-amt">$600,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">19</td>
@@ -324,12 +324,12 @@
             <a href="/scratchers/texas/best-odds/30-dollar/">Texas</a>
             <span class="overall">all 2 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/texas/2730-millionaires-club/">Millionaire&#39;s Club</a>
             <span class="num">#2730</span>
           </td>
-          <td class="mono">1 in 3.54</td>
-          <td class="mono">2 of 4<div class="sub">$2,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.54</td>
+          <td class="mono" data-label="Top prizes left">2 of 4<div class="sub">$2,000,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">20</td>
@@ -337,12 +337,12 @@
             <a href="/scratchers/new-york/best-odds/30-dollar/">New York</a>
             <span class="overall">all 7 $30 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $30 game">
             <a href="/scratchers/new-york/1546-vip-millions/">Vip Millions</a>
             <span class="num">#1546</span>
           </td>
-          <td class="mono">1 in 3.59</td>
-          <td class="mono">1 of 4<div class="sub">$5,000,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.59</td>
+          <td class="mono" data-label="Top prizes left">1 of 4<div class="sub">$5,000,000</div></td>
         </tr>
       </tbody>
     </table>

@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/scratchers/scratchers.css?v=d587447b" />
+<link rel="stylesheet" href="/scratchers/scratchers.css?v=8adab7f5" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.smartscratcherapp.com/"},{"@type":"ListItem","position":2,"name":"Scratchers","item":"https://www.smartscratcherapp.com/scratchers/"},{"@type":"ListItem","position":3,"name":"Ohio","item":"https://www.smartscratcherapp.com/scratchers/ohio/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Ohio Lottery Scratch-Offs: Remaining Prizes Today","url":"https://www.smartscratcherapp.com/scratchers/ohio/","dateModified":"2026-11-13"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many scratch-off games does Ohio have right now?","acceptedAnswer":{"@type":"Answer","text":"Ohio currently has 79 active scratch-off games in our data, as of Nov 13, 2026. Each one links to a full prize table on this page."}},{"@type":"Question","name":"What's the biggest prize still left on a Ohio scratcher?","acceptedAnswer":{"@type":"Answer","text":"As of Nov 13, 2026, the biggest prize still unclaimed in Ohio is $20,000,000, on Billion (a $50 ticket). The tables above track every prize in every game, refreshed each morning."}},{"@type":"Question","name":"Which Ohio scratch-offs have the biggest prizes left?","acceptedAnswer":{"@type":"Answer","text":"As of Nov 13, 2026: Billion (#762, $50): $20,000,000, 2 of 4 left; 50th Anniversary (#827, $50): $15,000,000, 1 of 3 left; Ultimate $5,000,000 (#1067, $50): $5,000,000, 3 of 6 left; Monopoly 200X (#696, $30): $5,000,000, 2 of 10 left; Set For Life (#1073, $20): $5,000,000, 2 of 2 left. 67 of the 79 active games still have a top prize to win. The full ranking is on the top prizes page."}},{"@type":"Question","name":"How many Ohio scratchers have already lost their top prize?","acceptedAnswer":{"@type":"Answer","text":"12 of the 79 active games have had every top prize claimed — they're still on sale, but the jackpot printed on the ticket can't be won anymore. They're marked with a struck-through top prize in the tables above."}},{"@type":"Question","name":"Where does this data come from?","acceptedAnswer":{"@type":"Answer","text":"Straight from official Ohio lottery data. SmartScratcher pulls fresh prize counts every morning and updates these pages automatically."}}]}</script>
@@ -151,7 +151,7 @@
 <section class="wrap">
   <h2 class="sec-h">Biggest prizes still left in Ohio</h2>
   <div class="index-card">
-    <table class="index-table rank-table">
+    <table class="index-table cards rank-table">
       <thead>
         <tr>
           <th>Game</th>
@@ -165,40 +165,40 @@
             <a href="/scratchers/ohio/762-billion/">Billion</a>
             <span class="num">#762 · $50</span>
           </td>
-          <td class="mono amt-cell">$20,000,000</td>
-          <td class="mono">2 of 4</td>
+          <td class="mono amt-cell" data-label="Prize still unclaimed">$20,000,000</td>
+          <td class="mono" data-label="Left">2 of 4</td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/827-50th-anniversary/">50th Anniversary</a>
             <span class="num">#827 · $50</span>
           </td>
-          <td class="mono amt-cell">$15,000,000</td>
-          <td class="mono">1 of 3</td>
+          <td class="mono amt-cell" data-label="Prize still unclaimed">$15,000,000</td>
+          <td class="mono" data-label="Left">1 of 3</td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1067-ultimate-5000000/">Ultimate $5,000,000</a>
             <span class="num">#1067 · $50</span>
           </td>
-          <td class="mono amt-cell">$5,000,000</td>
-          <td class="mono">3 of 6</td>
+          <td class="mono amt-cell" data-label="Prize still unclaimed">$5,000,000</td>
+          <td class="mono" data-label="Left">3 of 6</td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/696-monopoly-200x/">Monopoly 200X</a>
             <span class="num">#696 · $30</span>
           </td>
-          <td class="mono amt-cell">$5,000,000</td>
-          <td class="mono">2 of 10</td>
+          <td class="mono amt-cell" data-label="Prize still unclaimed">$5,000,000</td>
+          <td class="mono" data-label="Left">2 of 10</td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1073-set-for-life/">Set For Life</a>
             <span class="num">#1073 · $20</span>
           </td>
-          <td class="mono amt-cell">$5,000,000</td>
-          <td class="mono">2 of 2 · none claimed yet</td>
+          <td class="mono amt-cell" data-label="Prize still unclaimed">$5,000,000</td>
+          <td class="mono" data-label="Left">2 of 2 · none claimed yet</td>
         </tr>
       </tbody>
     </table>
@@ -209,11 +209,11 @@
 <section class="wrap">
   <h2 class="sec-h">What's selling in Ohio right now</h2>
   <div class="index-card">
-    <table class="index-table rank-table">
+    <table class="index-table cards rank-table">
       <thead>
         <tr>
           <th class="th-rank">#</th>
-          <th>Game</th>
+          <th class="th-name">Game</th>
           <th>Est. tickets a week</th>
           <th>Est. sales a week</th>
           <th>Pace</th>
@@ -226,9 +226,9 @@
             <a href="/scratchers/ohio/1109-holiday-50x-the-money/">Holiday 50X The Money</a>
             <span class="num">#1109 · $10</span>
           </td>
-          <td class="mono">~320,000</td>
-          <td class="mono amt-cell">~$3.2M</td>
-          <td class="mono">—</td>
+          <td class="mono" data-label="Est. tickets a week">~320,000</td>
+          <td class="mono amt-cell" data-label="Est. sales a week">~$3.2M</td>
+          <td class="mono" data-label="Pace">—</td>
         </tr>
         <tr>
           <td class="mono rank-num medal">2</td>
@@ -236,9 +236,9 @@
             <a href="/scratchers/ohio/1110-1000000-merry-multiplier/">$1,000,000 Merry Multiplier</a>
             <span class="num">#1110 · $20</span>
           </td>
-          <td class="mono">~160,000</td>
-          <td class="mono amt-cell">~$3.2M</td>
-          <td class="mono">—</td>
+          <td class="mono" data-label="Est. tickets a week">~160,000</td>
+          <td class="mono amt-cell" data-label="Est. sales a week">~$3.2M</td>
+          <td class="mono" data-label="Pace">—</td>
         </tr>
         <tr>
           <td class="mono rank-num medal">3</td>
@@ -246,9 +246,9 @@
             <a href="/scratchers/ohio/1111-merry-money-match/">Merry Money Match</a>
             <span class="num">#1111 · $30</span>
           </td>
-          <td class="mono">~86,000</td>
-          <td class="mono amt-cell">~$2.6M</td>
-          <td class="mono">—</td>
+          <td class="mono" data-label="Est. tickets a week">~86,000</td>
+          <td class="mono amt-cell" data-label="Est. sales a week">~$2.6M</td>
+          <td class="mono" data-label="Pace">—</td>
         </tr>
         <tr>
           <td class="mono rank-num">4</td>
@@ -256,9 +256,9 @@
             <a href="/scratchers/ohio/1028-300-million-diamond-dazzler/">$300 Million Diamond Dazzler</a>
             <span class="num">#1028 · $20</span>
           </td>
-          <td class="mono">~120,000</td>
-          <td class="mono amt-cell">~$2.3M</td>
-          <td class="mono">—</td>
+          <td class="mono" data-label="Est. tickets a week">~120,000</td>
+          <td class="mono amt-cell" data-label="Est. sales a week">~$2.3M</td>
+          <td class="mono" data-label="Pace">—</td>
         </tr>
         <tr>
           <td class="mono rank-num">5</td>
@@ -266,9 +266,9 @@
             <a href="/scratchers/ohio/762-billion/">Billion</a>
             <span class="num">#762 · $50</span>
           </td>
-          <td class="mono">~39,000</td>
-          <td class="mono amt-cell">~$1.9M</td>
-          <td class="mono">—</td>
+          <td class="mono" data-label="Est. tickets a week">~39,000</td>
+          <td class="mono amt-cell" data-label="Est. sales a week">~$1.9M</td>
+          <td class="mono" data-label="Pace">—</td>
         </tr>
       </tbody>
     </table>
@@ -328,7 +328,7 @@
     <span class="price-count">· 5 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/50-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -343,45 +343,45 @@
             <a href="/scratchers/ohio/827-50th-anniversary/">50th Anniversary</a>
             <span class="num">#827</span>
           </td>
-          <td class="mono">$15,000,000</td>
-          <td class="mono">1 of 3</td>
-          <td class="mono">≈14%<div class="tbar"><span style="width:14%"></span></div></td>
+          <td class="mono" data-label="Top prize">$15,000,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 3</td>
+          <td class="mono" data-label="Est. tickets left">≈14%<div class="tbar"><span style="width:14%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/762-billion/">Billion</a>
             <span class="num">#762</span>
           </td>
-          <td class="mono">$20,000,000</td>
-          <td class="mono">2 of 4</td>
-          <td class="mono">≈33%<div class="tbar"><span style="width:33%"></span></div></td>
+          <td class="mono" data-label="Top prize">$20,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈33%<div class="tbar"><span style="width:33%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1091-millionaire-blowout/">Millionaire Blowout</a>
             <span class="num">#1091</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">50 of 60</td>
-          <td class="mono">≈82%<div class="tbar"><span style="width:82%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">50 of 60</td>
+          <td class="mono" data-label="Est. tickets left">≈82%<div class="tbar"><span style="width:82%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1067-ultimate-5000000/">Ultimate $5,000,000</a>
             <span class="num">#1067</span>
           </td>
-          <td class="mono">$5,000,000</td>
-          <td class="mono">3 of 6</td>
-          <td class="mono">≈60%<div class="tbar"><span style="width:60%"></span></div></td>
+          <td class="mono" data-label="Top prize">$5,000,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 6</td>
+          <td class="mono" data-label="Est. tickets left">≈60%<div class="tbar"><span style="width:60%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1008-vip-millions/">Vip Millions</a>
             <span class="num">#1008</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">4 of 50</td>
-          <td class="mono">≈8%<div class="tbar"><span style="width:8%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">4 of 50</td>
+          <td class="mono" data-label="Est. tickets left">≈8%<div class="tbar"><span style="width:8%"></span></div></td>
         </tr>
       </tbody>
     </table>
@@ -390,7 +390,7 @@
     <span class="price-count">· 5 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/30-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -405,45 +405,45 @@
             <a href="/scratchers/ohio/1051-2000000-cashword/">$2,000,000 Cashword</a>
             <span class="num">#1051</span>
           </td>
-          <td class="mono">$2,000,000</td>
-          <td class="mono">1 of 4</td>
-          <td class="mono">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
+          <td class="mono" data-label="Top prize">$2,000,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1111-merry-money-match/">Merry Money Match</a>
             <span class="num">#1111</span>
           </td>
-          <td class="mono">$2,000,000</td>
-          <td class="mono">2 of 2</td>
-          <td class="mono">≈73%<div class="tbar"><span style="width:73%"></span></div></td>
+          <td class="mono" data-label="Top prize">$2,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 2</td>
+          <td class="mono" data-label="Est. tickets left">≈73%<div class="tbar"><span style="width:73%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/696-monopoly-200x/">Monopoly 200X</a>
             <span class="num">#696</span>
           </td>
-          <td class="mono">$5,000,000</td>
-          <td class="mono">2 of 10</td>
-          <td class="mono">≈15%<div class="tbar"><span style="width:15%"></span></div></td>
+          <td class="mono" data-label="Top prize">$5,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈15%<div class="tbar"><span style="width:15%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1024-royal-riches/">Royal Riches</a>
             <span class="num">#1024</span>
           </td>
-          <td class="mono">$2,000,000</td>
-          <td class="mono">3 of 8</td>
-          <td class="mono">≈43%<div class="tbar"><span style="width:43%"></span></div></td>
+          <td class="mono" data-label="Top prize">$2,000,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 8</td>
+          <td class="mono" data-label="Est. tickets left">≈43%<div class="tbar"><span style="width:43%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1079-wild-cash-tripler/">Wild Cash Tripler</a>
             <span class="num">#1079</span>
           </td>
-          <td class="mono">$3,000,000</td>
-          <td class="mono">2 of 4</td>
-          <td class="mono">≈48%<div class="tbar"><span style="width:48%"></span></div></td>
+          <td class="mono" data-label="Top prize">$3,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈48%<div class="tbar"><span style="width:48%"></span></div></td>
         </tr>
       </tbody>
     </table>
@@ -452,7 +452,7 @@
     <span class="price-count">· 9 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/20-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -467,81 +467,81 @@
             <a href="/scratchers/ohio/1032-1000000-cash-payout/">$1,000,000 Cash Payout</a>
             <span class="num">#1032</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">2 of 4</td>
-          <td class="mono">≈28%<div class="tbar"><span style="width:28%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈28%<div class="tbar"><span style="width:28%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1056-1000000-cashword/">$1,000,000 Cashword</a>
             <span class="num">#1056</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">1 of 4</td>
-          <td class="mono">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1110-1000000-merry-multiplier/">$1,000,000 Merry Multiplier</a>
             <span class="num">#1110</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">3 of 3</td>
-          <td class="mono">≈74%<div class="tbar"><span style="width:74%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 3</td>
+          <td class="mono" data-label="Est. tickets left">≈74%<div class="tbar"><span style="width:74%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1084-1000000-stacked/">$1,000,000 Stacked</a>
             <span class="num">#1084</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">3 of 8</td>
-          <td class="mono">≈24%<div class="tbar"><span style="width:24%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 8</td>
+          <td class="mono" data-label="Est. tickets left">≈24%<div class="tbar"><span style="width:24%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1028-300-million-diamond-dazzler/">$300 Million Diamond Dazzler</a>
             <span class="num">#1028</span>
           </td>
-          <td class="mono">$2,000,000</td>
-          <td class="mono">5 of 10</td>
-          <td class="mono">≈54%<div class="tbar"><span style="width:54%"></span></div></td>
+          <td class="mono" data-label="Top prize">$2,000,000</td>
+          <td class="mono" data-label="Top prizes left">5 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈54%<div class="tbar"><span style="width:54%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1043-ohio-millionaires-club/">Ohio Millionaire&#39;s Club</a>
             <span class="num">#1043</span>
           </td>
-          <td class="mono dead-amt">$1,000,000</td>
-          <td class="mono zero">All 6 gone</td>
-          <td class="mono">≈17%<div class="tbar"><span style="width:17%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$1,000,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 6 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈17%<div class="tbar"><span style="width:17%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1073-set-for-life/">Set For Life</a>
             <span class="num">#1073</span>
           </td>
-          <td class="mono">$5,000,000</td>
-          <td class="mono">2 of 2</td>
-          <td class="mono">≈18%<div class="tbar"><span style="width:18%"></span></div></td>
+          <td class="mono" data-label="Top prize">$5,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 2</td>
+          <td class="mono" data-label="Est. tickets left">≈18%<div class="tbar"><span style="width:18%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1124-spectacular-riches/">Spectacular Riches</a>
             <span class="num">#1124</span>
           </td>
-          <td class="mono">$2,000,000</td>
-          <td class="mono">2 of 2</td>
-          <td class="mono">≈36%<div class="tbar"><span style="width:36%"></span></div></td>
+          <td class="mono" data-label="Top prize">$2,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 2</td>
+          <td class="mono" data-label="Est. tickets left">≈36%<div class="tbar"><span style="width:36%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1102-ultimate-triple-777/">Ultimate Triple 777</a>
             <span class="num">#1102</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">2 of 3</td>
-          <td class="mono">≈60%<div class="tbar"><span style="width:60%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 3</td>
+          <td class="mono" data-label="Est. tickets left">≈60%<div class="tbar"><span style="width:60%"></span></div></td>
         </tr>
       </tbody>
     </table>
@@ -550,7 +550,7 @@
     <span class="price-count">· 21 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/10-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -565,189 +565,189 @@
             <a href="/scratchers/ohio/1125-1000000-black-titanium/">$1,000,000 Black Titanium</a>
             <span class="num">#1125</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">3 of 5</td>
-          <td class="mono">≈66%<div class="tbar"><span style="width:66%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 5</td>
+          <td class="mono" data-label="Est. tickets left">≈66%<div class="tbar"><span style="width:66%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1055-50-100-or-500/">$50, $100 Or $500</a>
             <span class="num">#1055</span>
           </td>
-          <td class="mono">$500</td>
-          <td class="mono">1,487 of 4,870</td>
-          <td class="mono">≈31%<div class="tbar"><span style="width:31%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500</td>
+          <td class="mono" data-label="Top prizes left">1,487 of 4,870</td>
+          <td class="mono" data-label="Est. tickets left">≈31%<div class="tbar"><span style="width:31%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1031-500000-bankroll/">$500,000 Bankroll</a>
             <span class="num">#1031</span>
           </td>
-          <td class="mono dead-amt">$500,000</td>
-          <td class="mono zero">All 4 gone</td>
-          <td class="mono">≈4%<div class="tbar"><span style="width:4%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$500,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 4 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈4%<div class="tbar"><span style="width:4%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1053-500000-cashword/">$500,000 Cashword</a>
             <span class="num">#1053</span>
           </td>
-          <td class="mono dead-amt">$500,000</td>
-          <td class="mono zero">All 4 gone</td>
-          <td class="mono">≈7%<div class="tbar"><span style="width:7%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$500,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 4 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈7%<div class="tbar"><span style="width:7%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1118-500000-cashword/">$500,000 Cashword</a>
             <span class="num">#1118</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">2 of 4</td>
-          <td class="mono">≈36%<div class="tbar"><span style="width:36%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈36%<div class="tbar"><span style="width:36%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/847-bingo-50x/">Bingo 50X</a>
             <span class="num">#847</span>
           </td>
-          <td class="mono dead-amt">$500,000</td>
-          <td class="mono zero">All 4 gone</td>
-          <td class="mono">≈9%<div class="tbar"><span style="width:9%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$500,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 4 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈9%<div class="tbar"><span style="width:9%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1092-bingo-x50/">Bingo X50</a>
             <span class="num">#1092</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">3 of 4</td>
-          <td class="mono">≈78%<div class="tbar"><span style="width:78%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈78%<div class="tbar"><span style="width:78%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1007-cash-plus/">Cash Plus</a>
             <span class="num">#1007</span>
           </td>
-          <td class="mono">$300,000</td>
-          <td class="mono">2 of 4</td>
-          <td class="mono">≈23%<div class="tbar"><span style="width:23%"></span></div></td>
+          <td class="mono" data-label="Top prize">$300,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈23%<div class="tbar"><span style="width:23%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1101-casino-cash/">Casino Cash</a>
             <span class="num">#1101</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">4 of 4</td>
-          <td class="mono">≈67%<div class="tbar"><span style="width:67%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">4 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈67%<div class="tbar"><span style="width:67%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1023-casino-nights/">Casino Nights</a>
             <span class="num">#1023</span>
           </td>
-          <td class="mono">$1,000,000</td>
-          <td class="mono">1 of 3</td>
-          <td class="mono">≈15%<div class="tbar"><span style="width:15%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 3</td>
+          <td class="mono" data-label="Est. tickets left">≈15%<div class="tbar"><span style="width:15%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1078-cross-match-bingo/">Cross Match Bingo</a>
             <span class="num">#1078</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">3 of 6</td>
-          <td class="mono">≈46%<div class="tbar"><span style="width:46%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 6</td>
+          <td class="mono" data-label="Est. tickets left">≈46%<div class="tbar"><span style="width:46%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1017-feeling-lucky/">Feeling Lucky</a>
             <span class="num">#1017</span>
           </td>
-          <td class="mono">$300,000</td>
-          <td class="mono">2 of 10</td>
-          <td class="mono">≈4%<div class="tbar"><span style="width:4%"></span></div></td>
+          <td class="mono" data-label="Top prize">$300,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈4%<div class="tbar"><span style="width:4%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1097-gold-rush/">Gold Rush</a>
             <span class="num">#1097</span>
           </td>
-          <td class="mono dead-amt">$500,000</td>
-          <td class="mono zero">All 3 gone</td>
-          <td class="mono">≈12%<div class="tbar"><span style="width:12%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$500,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 3 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈12%<div class="tbar"><span style="width:12%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1109-holiday-50x-the-money/">Holiday 50X The Money</a>
             <span class="num">#1109</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">3 of 4</td>
-          <td class="mono">≈73%<div class="tbar"><span style="width:73%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈73%<div class="tbar"><span style="width:73%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1090-instant-jackpot/">Instant Jackpot</a>
             <span class="num">#1090</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">2 of 5</td>
-          <td class="mono">≈54%<div class="tbar"><span style="width:54%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 5</td>
+          <td class="mono" data-label="Est. tickets left">≈54%<div class="tbar"><span style="width:54%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1066-lucky-no-7/">Lucky No. 7</a>
             <span class="num">#1066</span>
           </td>
-          <td class="mono dead-amt">$500,000</td>
-          <td class="mono zero">All 4 gone</td>
-          <td class="mono">≈5%<div class="tbar"><span style="width:5%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$500,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 4 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈5%<div class="tbar"><span style="width:5%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1083-money-money-money/">Money, Money, Money</a>
             <span class="num">#1083</span>
           </td>
-          <td class="mono">$500,000</td>
-          <td class="mono">4 of 5</td>
-          <td class="mono">≈51%<div class="tbar"><span style="width:51%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500,000</td>
+          <td class="mono" data-label="Top prizes left">4 of 5</td>
+          <td class="mono" data-label="Est. tickets left">≈51%<div class="tbar"><span style="width:51%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1012-monopoly-bonus-spectacular-50x/">Monopoly Bonus Spectacular 50X</a>
             <span class="num">#1012</span>
           </td>
-          <td class="mono dead-amt">$500,000</td>
-          <td class="mono zero">All 6 gone</td>
-          <td class="mono">≈7%<div class="tbar"><span style="width:7%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$500,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 6 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈7%<div class="tbar"><span style="width:7%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1042-mystery-multiplier/">Mystery Multiplier</a>
             <span class="num">#1042</span>
           </td>
-          <td class="mono dead-amt">$300,000</td>
-          <td class="mono zero">All 12 gone</td>
-          <td class="mono">≈12%<div class="tbar"><span style="width:12%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$300,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 12 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈12%<div class="tbar"><span style="width:12%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1072-set-for-life/">Set For Life</a>
             <span class="num">#1072</span>
           </td>
-          <td class="mono">$2,400,000</td>
-          <td class="mono">1 of 2</td>
-          <td class="mono">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
+          <td class="mono" data-label="Top prize">$2,400,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 2</td>
+          <td class="mono" data-label="Est. tickets left">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1036-white-diamonds/">White Diamonds</a>
             <span class="num">#1036</span>
           </td>
-          <td class="mono dead-amt">$300,000</td>
-          <td class="mono zero">All 4 gone</td>
-          <td class="mono">≈10%<div class="tbar"><span style="width:10%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$300,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 4 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈10%<div class="tbar"><span style="width:10%"></span></div></td>
         </tr>
       </tbody>
     </table>
@@ -756,7 +756,7 @@
     <span class="price-count">· 15 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/5-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -771,135 +771,135 @@
             <a href="/scratchers/ohio/1050-25-50-or-250/">$25, $50 Or $250</a>
             <span class="num">#1050</span>
           </td>
-          <td class="mono">$250</td>
-          <td class="mono">78 of 3,586</td>
-          <td class="mono">≈3%<div class="tbar"><span style="width:3%"></span></div></td>
+          <td class="mono" data-label="Top prize">$250</td>
+          <td class="mono" data-label="Top prizes left">78 of 3,586</td>
+          <td class="mono" data-label="Est. tickets left">≈3%<div class="tbar"><span style="width:3%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1087-25-50-or-250/">$25, $50 Or $250</a>
             <span class="num">#1087</span>
           </td>
-          <td class="mono">$250</td>
-          <td class="mono">302 of 3,719</td>
-          <td class="mono">≈9%<div class="tbar"><span style="width:9%"></span></div></td>
+          <td class="mono" data-label="Top prize">$250</td>
+          <td class="mono" data-label="Top prizes left">302 of 3,719</td>
+          <td class="mono" data-label="Est. tickets left">≈9%<div class="tbar"><span style="width:9%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1140-25-50-or-250/">$25, $50 Or $250</a>
             <span class="num">#1140</span>
           </td>
-          <td class="mono">$250</td>
-          <td class="mono">3,644 of 3,675</td>
-          <td class="mono">≈99%<div class="tbar"><span style="width:99%"></span></div></td>
+          <td class="mono" data-label="Top prize">$250</td>
+          <td class="mono" data-label="Top prizes left">3,644 of 3,675</td>
+          <td class="mono" data-label="Est. tickets left">≈99%<div class="tbar"><span style="width:99%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1096-5-times-lucky/">5 Times Lucky</a>
             <span class="num">#1096</span>
           </td>
-          <td class="mono">$250,000</td>
-          <td class="mono">2 of 4</td>
-          <td class="mono">≈44%<div class="tbar"><span style="width:44%"></span></div></td>
+          <td class="mono" data-label="Top prize">$250,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈44%<div class="tbar"><span style="width:44%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1077-aces-and-8s/">Aces And 8s</a>
             <span class="num">#1077</span>
           </td>
-          <td class="mono">$150,000</td>
-          <td class="mono">1 of 8</td>
-          <td class="mono">≈9%<div class="tbar"><span style="width:9%"></span></div></td>
+          <td class="mono" data-label="Top prize">$150,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 8</td>
+          <td class="mono" data-label="Est. tickets left">≈9%<div class="tbar"><span style="width:9%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1038-bingo-times-25/">Bingo Times 25</a>
             <span class="num">#1038</span>
           </td>
-          <td class="mono">$100,000</td>
-          <td class="mono">4 of 12</td>
-          <td class="mono">≈42%<div class="tbar"><span style="width:42%"></span></div></td>
+          <td class="mono" data-label="Top prize">$100,000</td>
+          <td class="mono" data-label="Top prizes left">4 of 12</td>
+          <td class="mono" data-label="Est. tickets left">≈42%<div class="tbar"><span style="width:42%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1089-bonus-cash-wheel/">Bonus Cash Wheel</a>
             <span class="num">#1089</span>
           </td>
-          <td class="mono">$150,000</td>
-          <td class="mono">3 of 4</td>
-          <td class="mono">≈60%<div class="tbar"><span style="width:60%"></span></div></td>
+          <td class="mono" data-label="Top prize">$150,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈60%<div class="tbar"><span style="width:60%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1093-cash-explosion-25x/">Cash Explosion 25X</a>
             <span class="num">#1093</span>
           </td>
-          <td class="mono">$150,000</td>
-          <td class="mono">7 of 10</td>
-          <td class="mono">≈78%<div class="tbar"><span style="width:78%"></span></div></td>
+          <td class="mono" data-label="Top prize">$150,000</td>
+          <td class="mono" data-label="Top prizes left">7 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈78%<div class="tbar"><span style="width:78%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/891-cash-explosion-25x/">Cash Explosion 25X</a>
             <span class="num">#891</span>
           </td>
-          <td class="mono">$150,000</td>
-          <td class="mono">2 of 10</td>
-          <td class="mono">≈7%<div class="tbar"><span style="width:7%"></span></div></td>
+          <td class="mono" data-label="Top prize">$150,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈7%<div class="tbar"><span style="width:7%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1082-fun-5s/">Fun 5s</a>
             <span class="num">#1082</span>
           </td>
-          <td class="mono">$150,000</td>
-          <td class="mono">1 of 4</td>
-          <td class="mono">≈24%<div class="tbar"><span style="width:24%"></span></div></td>
+          <td class="mono" data-label="Top prize">$150,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 4</td>
+          <td class="mono" data-label="Est. tickets left">≈24%<div class="tbar"><span style="width:24%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1108-holiday-lucky-times-10/">Holiday Lucky Times 10</a>
             <span class="num">#1108</span>
           </td>
-          <td class="mono">$100,000</td>
-          <td class="mono">5 of 6</td>
-          <td class="mono">≈78%<div class="tbar"><span style="width:78%"></span></div></td>
+          <td class="mono" data-label="Top prize">$100,000</td>
+          <td class="mono" data-label="Top prizes left">5 of 6</td>
+          <td class="mono" data-label="Est. tickets left">≈78%<div class="tbar"><span style="width:78%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1065-jackpot-party/">Jackpot Party</a>
             <span class="num">#1065</span>
           </td>
-          <td class="mono">$250,000</td>
-          <td class="mono">1 of 8</td>
-          <td class="mono">≈21%<div class="tbar"><span style="width:21%"></span></div></td>
+          <td class="mono" data-label="Top prize">$250,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 8</td>
+          <td class="mono" data-label="Est. tickets left">≈21%<div class="tbar"><span style="width:21%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1030-jokers-wild/">Joker&#39;s Wild</a>
             <span class="num">#1030</span>
           </td>
-          <td class="mono dead-amt">$100,000</td>
-          <td class="mono zero">All 8 gone</td>
-          <td class="mono">≈11%<div class="tbar"><span style="width:11%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$100,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 8 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈11%<div class="tbar"><span style="width:11%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1099-lucky-streak/">Lucky Streak</a>
             <span class="num">#1099</span>
           </td>
-          <td class="mono">$100,000</td>
-          <td class="mono">4 of 6</td>
-          <td class="mono">≈59%<div class="tbar"><span style="width:59%"></span></div></td>
+          <td class="mono" data-label="Top prize">$100,000</td>
+          <td class="mono" data-label="Top prizes left">4 of 6</td>
+          <td class="mono" data-label="Est. tickets left">≈59%<div class="tbar"><span style="width:59%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1086-special-edition-cashword/">Special Edition Cashword</a>
             <span class="num">#1086</span>
           </td>
-          <td class="mono">$300,000</td>
-          <td class="mono">5 of 12</td>
-          <td class="mono">≈47%<div class="tbar"><span style="width:47%"></span></div></td>
+          <td class="mono" data-label="Top prize">$300,000</td>
+          <td class="mono" data-label="Top prizes left">5 of 12</td>
+          <td class="mono" data-label="Est. tickets left">≈47%<div class="tbar"><span style="width:47%"></span></div></td>
         </tr>
       </tbody>
     </table>
@@ -908,7 +908,7 @@
     <span class="price-count">· 14 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/2-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -923,126 +923,126 @@
             <a href="/scratchers/ohio/1100-100-in-a-flash/">$100 In A Flash</a>
             <span class="num">#1100</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">6 of 10</td>
-          <td class="mono">≈65%<div class="tbar"><span style="width:65%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">6 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈65%<div class="tbar"><span style="width:65%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1040-5-20-or-100/">$5, $20 Or $100</a>
             <span class="num">#1040</span>
           </td>
-          <td class="mono">$100</td>
-          <td class="mono">311 of 5,485</td>
-          <td class="mono">≈8%<div class="tbar"><span style="width:8%"></span></div></td>
+          <td class="mono" data-label="Top prize">$100</td>
+          <td class="mono" data-label="Top prizes left">311 of 5,485</td>
+          <td class="mono" data-label="Est. tickets left">≈8%<div class="tbar"><span style="width:8%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1103-5-20-or-100/">$5, $20 Or $100</a>
             <span class="num">#1103</span>
           </td>
-          <td class="mono">$100</td>
-          <td class="mono">4,246 of 5,504</td>
-          <td class="mono">≈77%<div class="tbar"><span style="width:77%"></span></div></td>
+          <td class="mono" data-label="Top prize">$100</td>
+          <td class="mono" data-label="Top prizes left">4,246 of 5,504</td>
+          <td class="mono" data-label="Est. tickets left">≈77%<div class="tbar"><span style="width:77%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1080-bingo-multiplier/">Bingo Multiplier</a>
             <span class="num">#1080</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">6 of 20</td>
-          <td class="mono">≈24%<div class="tbar"><span style="width:24%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">6 of 20</td>
+          <td class="mono" data-label="Est. tickets left">≈24%<div class="tbar"><span style="width:24%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1068-cash-explosion-10x/">Cash Explosion 10X</a>
             <span class="num">#1068</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">7 of 18</td>
-          <td class="mono">≈47%<div class="tbar"><span style="width:47%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">7 of 18</td>
+          <td class="mono" data-label="Est. tickets left">≈47%<div class="tbar"><span style="width:47%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1054-cash-explosion-cashword/">Cash Explosion Cashword</a>
             <span class="num">#1054</span>
           </td>
-          <td class="mono">$20,000</td>
-          <td class="mono">10 of 28</td>
-          <td class="mono">≈43%<div class="tbar"><span style="width:43%"></span></div></td>
+          <td class="mono" data-label="Top prize">$20,000</td>
+          <td class="mono" data-label="Top prizes left">10 of 28</td>
+          <td class="mono" data-label="Est. tickets left">≈43%<div class="tbar"><span style="width:43%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1064-gnomebody-is-luckier/">Gnomebody Is Luckier</a>
             <span class="num">#1064</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">1 of 5</td>
-          <td class="mono">≈27%<div class="tbar"><span style="width:27%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 5</td>
+          <td class="mono" data-label="Est. tickets left">≈27%<div class="tbar"><span style="width:27%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1029-lucky-gems-multiplier/">Lucky Gems Multiplier</a>
             <span class="num">#1029</span>
           </td>
-          <td class="mono">$5,000</td>
-          <td class="mono">6 of 10</td>
-          <td class="mono">≈61%<div class="tbar"><span style="width:61%"></span></div></td>
+          <td class="mono" data-label="Top prize">$5,000</td>
+          <td class="mono" data-label="Top prizes left">6 of 10</td>
+          <td class="mono" data-label="Est. tickets left">≈61%<div class="tbar"><span style="width:61%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1095-magic-8-ball/">Magic 8 Ball</a>
             <span class="num">#1095</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">3 of 8</td>
-          <td class="mono">≈52%<div class="tbar"><span style="width:52%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 8</td>
+          <td class="mono" data-label="Est. tickets left">≈52%<div class="tbar"><span style="width:52%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1034-pink-diamond/">Pink Diamond</a>
             <span class="num">#1034</span>
           </td>
-          <td class="mono dead-amt">$10,000</td>
-          <td class="mono zero">All 10 gone</td>
-          <td class="mono">≈28%<div class="tbar"><span style="width:28%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$10,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 10 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈28%<div class="tbar"><span style="width:28%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1070-set-for-life/">Set For Life</a>
             <span class="num">#1070</span>
           </td>
-          <td class="mono">$730,000</td>
-          <td class="mono">1 of 2</td>
-          <td class="mono">≈33%<div class="tbar"><span style="width:33%"></span></div></td>
+          <td class="mono" data-label="Top prize">$730,000</td>
+          <td class="mono" data-label="Top prizes left">1 of 2</td>
+          <td class="mono" data-label="Est. tickets left">≈33%<div class="tbar"><span style="width:33%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1107-sweet-riches/">Sweet Riches</a>
             <span class="num">#1107</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">12 of 12</td>
-          <td class="mono">≈82%<div class="tbar"><span style="width:82%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">12 of 12</td>
+          <td class="mono" data-label="Est. tickets left">≈82%<div class="tbar"><span style="width:82%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1081-triple-7s/">Triple 7s</a>
             <span class="num">#1081</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">2 of 9</td>
-          <td class="mono">≈33%<div class="tbar"><span style="width:33%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">2 of 9</td>
+          <td class="mono" data-label="Est. tickets left">≈33%<div class="tbar"><span style="width:33%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1021-win-it-all/">Win It All</a>
             <span class="num">#1021</span>
           </td>
-          <td class="mono">$10,000</td>
-          <td class="mono">3 of 6</td>
-          <td class="mono">≈26%<div class="tbar"><span style="width:26%"></span></div></td>
+          <td class="mono" data-label="Top prize">$10,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 6</td>
+          <td class="mono" data-label="Est. tickets left">≈26%<div class="tbar"><span style="width:26%"></span></div></td>
         </tr>
       </tbody>
     </table>
@@ -1051,7 +1051,7 @@
     <span class="price-count">· 10 games</span>
 <a class="rank-link" href="/scratchers/ohio/best-odds/1-dollar/">Ranked by odds →</a></h2>
   <div class="index-card">
-    <table class="index-table">
+    <table class="index-table cards">
       <thead>
         <tr>
           <th>Game</th>
@@ -1066,90 +1066,90 @@
             <a href="/scratchers/ohio/1094-crazy-cash/">Crazy Cash</a>
             <span class="num">#1094</span>
           </td>
-          <td class="mono">$1,000</td>
-          <td class="mono">6 of 40</td>
-          <td class="mono">≈25%<div class="tbar"><span style="width:25%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000</td>
+          <td class="mono" data-label="Top prizes left">6 of 40</td>
+          <td class="mono" data-label="Est. tickets left">≈25%<div class="tbar"><span style="width:25%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1134-crazy-cash/">Crazy Cash</a>
             <span class="num">#1134</span>
           </td>
-          <td class="mono">$1,000</td>
-          <td class="mono">38 of 40</td>
-          <td class="mono">≈95%<div class="tbar"><span style="width:95%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000</td>
+          <td class="mono" data-label="Top prizes left">38 of 40</td>
+          <td class="mono" data-label="Est. tickets left">≈95%<div class="tbar"><span style="width:95%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1076-electric-8s/">Electric 8s</a>
             <span class="num">#1076</span>
           </td>
-          <td class="mono">$500</td>
-          <td class="mono">6 of 31</td>
-          <td class="mono">≈26%<div class="tbar"><span style="width:26%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500</td>
+          <td class="mono" data-label="Top prizes left">6 of 31</td>
+          <td class="mono" data-label="Est. tickets left">≈26%<div class="tbar"><span style="width:26%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1106-holiday-cash/">Holiday Cash</a>
             <span class="num">#1106</span>
           </td>
-          <td class="mono">$500</td>
-          <td class="mono">621 of 742</td>
-          <td class="mono">≈85%<div class="tbar"><span style="width:85%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500</td>
+          <td class="mono" data-label="Top prizes left">621 of 742</td>
+          <td class="mono" data-label="Est. tickets left">≈85%<div class="tbar"><span style="width:85%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1020-hot-7s/">Hot 7s</a>
             <span class="num">#1020</span>
           </td>
-          <td class="mono">$500</td>
-          <td class="mono">4 of 98</td>
-          <td class="mono">≈14%<div class="tbar"><span style="width:14%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500</td>
+          <td class="mono" data-label="Top prizes left">4 of 98</td>
+          <td class="mono" data-label="Est. tickets left">≈14%<div class="tbar"><span style="width:14%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1063-luck-of-the-irish-tripler/">Luck Of The Irish Tripler</a>
             <span class="num">#1063</span>
           </td>
-          <td class="mono">$1,000</td>
-          <td class="mono">3 of 25</td>
-          <td class="mono">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,000</td>
+          <td class="mono" data-label="Top prizes left">3 of 25</td>
+          <td class="mono" data-label="Est. tickets left">≈16%<div class="tbar"><span style="width:16%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1088-sapphire-blue-7/">Sapphire Blue 7</a>
             <span class="num">#1088</span>
           </td>
-          <td class="mono">$777</td>
-          <td class="mono">15 of 62</td>
-          <td class="mono">≈28%<div class="tbar"><span style="width:28%"></span></div></td>
+          <td class="mono" data-label="Top prize">$777</td>
+          <td class="mono" data-label="Top prizes left">15 of 62</td>
+          <td class="mono" data-label="Est. tickets left">≈28%<div class="tbar"><span style="width:28%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1069-set-for-life/">Set For Life</a>
             <span class="num">#1069</span>
           </td>
-          <td class="mono dead-amt">$365,000</td>
-          <td class="mono zero">All 2 gone</td>
-          <td class="mono">≈19%<div class="tbar"><span style="width:19%"></span></div></td>
+          <td class="mono dead-amt" data-label="Top prize">$365,000</td>
+          <td class="mono zero" data-label="Top prizes left">All 2 gone</td>
+          <td class="mono" data-label="Est. tickets left">≈19%<div class="tbar"><span style="width:19%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1052-triple-tripler/">Triple Tripler</a>
             <span class="num">#1052</span>
           </td>
-          <td class="mono">$1,800</td>
-          <td class="mono">15 of 40</td>
-          <td class="mono">≈34%<div class="tbar"><span style="width:34%"></span></div></td>
+          <td class="mono" data-label="Top prize">$1,800</td>
+          <td class="mono" data-label="Top prizes left">15 of 40</td>
+          <td class="mono" data-label="Est. tickets left">≈34%<div class="tbar"><span style="width:34%"></span></div></td>
         </tr>
         <tr>
           <td class="g-name">
             <a href="/scratchers/ohio/1033-winner-winner-chicken-dinner/">Winner Winner Chicken Dinner</a>
             <span class="num">#1033</span>
           </td>
-          <td class="mono">$500</td>
-          <td class="mono">64 of 491</td>
-          <td class="mono">≈21%<div class="tbar"><span style="width:21%"></span></div></td>
+          <td class="mono" data-label="Top prize">$500</td>
+          <td class="mono" data-label="Top prizes left">64 of 491</td>
+          <td class="mono" data-label="Est. tickets left">≈21%<div class="tbar"><span style="width:21%"></span></div></td>
         </tr>
       </tbody>
     </table>

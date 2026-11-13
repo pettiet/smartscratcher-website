@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/scratchers/scratchers.css?v=d587447b" />
+<link rel="stylesheet" href="/scratchers/scratchers.css?v=8adab7f5" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.smartscratcherapp.com/"},{"@type":"ListItem","position":2,"name":"Scratchers","item":"https://www.smartscratcherapp.com/scratchers/"},{"@type":"ListItem","position":3,"name":"Best $2 by state","item":"https://www.smartscratcherapp.com/scratchers/best-odds/2-dollar/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Best $2 Scratch-Off Tickets by State: Remaining Prizes","url":"https://www.smartscratcherapp.com/scratchers/best-odds/2-dollar/","dateModified":"2026-11-13"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which state has the best $2 scratch-off odds right now?","acceptedAnswer":{"@type":"Answer","text":"As of Nov 13, 2026, Washington's Loteria 29TH Edition has the best printed overall odds of any $2 game in the 25 states we track — 1 in 3.63. The table above lists the leader in every state."}},{"@type":"Question","name":"Why do $2 scratch-off odds differ from state to state?","acceptedAnswer":{"@type":"Answer","text":"Each state lottery designs its own games and decides how many prizes to print per ticket. The overall odds are printed on the ticket and never change after launch; what changes is how many prizes are left, which is the other column on this page."}},{"@type":"Question","name":"Which $2 scratch-off should I buy?","acceptedAnswer":{"@type":"Answer","text":"Printed odds say how a game started; the prizes still left say what it is now. Pick your state above for every $2 game ranked, and the SmartScratcher app turns what is left today into a ticket value and a 0–100 score for each one, by our math."}},{"@type":"Question","name":"How fresh is this data?","acceptedAnswer":{"@type":"Answer","text":"Prize counts come straight from each state lottery's official data, last refreshed on Nov 13, 2026. SmartScratcher updates every morning."}}]}</script>
@@ -73,12 +73,12 @@
 </div>
 <section class="wrap">
   <div class="index-card">
-    <table class="index-table rank-table">
+    <table class="index-table cards rank-table">
       <thead>
         <tr>
           <th class="th-rank">#</th>
-          <th>State</th>
-          <th>Best $2 game</th>
+          <th class="th-name">State</th>
+          <th class="th-name">Best $2 game</th>
           <th>Printed odds</th>
           <th>Top prizes left</th>
         </tr>
@@ -90,12 +90,12 @@
             <a href="/scratchers/washington/best-odds/2-dollar/">Washington</a>
             <span class="overall">all 6 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/washington/1972-loteria-29th-edition/">Loteria 29TH Edition</a>
             <span class="num">#1972</span>
           </td>
-          <td class="mono">1 in 3.63</td>
-          <td class="mono">1 of 5<div class="sub">$20,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.63</td>
+          <td class="mono" data-label="Top prizes left">1 of 5<div class="sub">$20,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num medal">2</td>
@@ -103,12 +103,12 @@
             <a href="/scratchers/arizona/best-odds/2-dollar/">Arizona</a>
             <span class="overall">all 7 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/arizona/1510-crossword/">Crossword</a>
             <span class="num">#1510</span>
           </td>
-          <td class="mono">1 in 3.68</td>
-          <td class="mono">10 of 20<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.68</td>
+          <td class="mono" data-label="Top prizes left">10 of 20<div class="sub">$10,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num medal">3</td>
@@ -116,12 +116,12 @@
             <a href="/scratchers/minnesota/best-odds/2-dollar/">Minnesota</a>
             <span class="overall">all 5 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/minnesota/2079-area-code-cash/">Area Code Cash</a>
             <span class="num">#2079</span>
           </td>
-          <td class="mono">1 in 3.69</td>
-          <td class="mono">4 of 9<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.69</td>
+          <td class="mono" data-label="Top prizes left">4 of 9<div class="sub">$10,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">4</td>
@@ -129,12 +129,12 @@
             <a href="/scratchers/new-york/best-odds/2-dollar/">New York</a>
             <span class="overall">all 16 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/new-york/1453-win-for-life/">Win For Life</a>
             <span class="num">#1453</span>
           </td>
-          <td class="mono">1 in 3.75</td>
-          <td class="mono">1 of 25<div class="sub">$2,500</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.75</td>
+          <td class="mono" data-label="Top prizes left">1 of 25<div class="sub">$2,500</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">5</td>
@@ -142,12 +142,12 @@
             <a href="/scratchers/georgia/best-odds/2-dollar/">Georgia</a>
             <span class="overall">all 14 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/georgia/1869-cah-payout/">Ca$h Payout</a>
             <span class="num">#1869</span>
           </td>
-          <td class="mono">1 in 3.81</td>
-          <td class="mono">1 of 6<div class="sub">$50,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.81</td>
+          <td class="mono" data-label="Top prizes left">1 of 6<div class="sub">$50,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">6</td>
@@ -155,12 +155,12 @@
             <a href="/scratchers/new-mexico/best-odds/2-dollar/">New Mexico</a>
             <span class="overall">all 11 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/new-mexico/656-creepy-cash/">Creepy Cash</a>
             <span class="num">#656</span>
           </td>
-          <td class="mono">1 in 3.81</td>
-          <td class="mono">1 of 20<div class="sub">$500</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.81</td>
+          <td class="mono" data-label="Top prizes left">1 of 20<div class="sub">$500</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">7</td>
@@ -168,12 +168,12 @@
             <a href="/scratchers/connecticut/best-odds/2-dollar/">Connecticut</a>
             <span class="overall">all 8 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/connecticut/1725-20000-a-year-for-life-2nd-ed/">$20,000 A Year For Life 2ND Ed</a>
             <span class="num">#1725</span>
           </td>
-          <td class="mono">1 in 3.82</td>
-          <td class="mono">1 of 3<div class="sub">$575,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.82</td>
+          <td class="mono" data-label="Top prizes left">1 of 3<div class="sub">$575,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">8</td>
@@ -181,12 +181,12 @@
             <a href="/scratchers/maryland/best-odds/2-dollar/">Maryland</a>
             <span class="overall">all 10 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/maryland/774-harlem-globetrotters/">Harlem Globetrotters®</a>
             <span class="num">#774</span>
           </td>
-          <td class="mono">1 in 3.83</td>
-          <td class="mono">5 of 6<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.83</td>
+          <td class="mono" data-label="Top prizes left">5 of 6<div class="sub">$10,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">9</td>
@@ -194,12 +194,12 @@
             <a href="/scratchers/ohio/best-odds/2-dollar/">Ohio</a>
             <span class="overall">all 14 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/ohio/1107-sweet-riches/">Sweet Riches</a>
             <span class="num">#1107</span>
           </td>
-          <td class="mono">1 in 3.88</td>
-          <td class="mono">12 of 12<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.88</td>
+          <td class="mono" data-label="Top prizes left">12 of 12<div class="sub">$10,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">10</td>
@@ -207,12 +207,12 @@
             <a href="/scratchers/oklahoma/best-odds/2-dollar/">Oklahoma</a>
             <span class="overall">all 7 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/oklahoma/840-cash-stash/">Cash Stash</a>
             <span class="num">#840</span>
           </td>
-          <td class="mono">1 in 3.9</td>
-          <td class="mono">1 of 3<div class="sub">$12,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.9</td>
+          <td class="mono" data-label="Top prizes left">1 of 3<div class="sub">$12,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">11</td>
@@ -220,12 +220,12 @@
             <a href="/scratchers/arkansas/best-odds/2-dollar/">Arkansas</a>
             <span class="overall">all 9 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/arkansas/920-secret-santa/">Secret Santa</a>
             <span class="num">#920</span>
           </td>
-          <td class="mono">1 in 3.96</td>
-          <td class="mono">13 of 15<div class="sub">$2,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.96</td>
+          <td class="mono" data-label="Top prizes left">13 of 15<div class="sub">$2,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">12</td>
@@ -233,12 +233,12 @@
             <a href="/scratchers/florida/best-odds/2-dollar/">Florida</a>
             <span class="overall">all 15 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/florida/1591-add-it-up/">Add It Up</a>
             <span class="num">#1591</span>
           </td>
-          <td class="mono">1 in 3.97</td>
-          <td class="mono">2 of 8<div class="sub">$50,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 3.97</td>
+          <td class="mono" data-label="Top prizes left">2 of 8<div class="sub">$50,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">13</td>
@@ -246,12 +246,12 @@
             <a href="/scratchers/kansas/best-odds/2-dollar/">Kansas</a>
             <span class="overall">all 5 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/kansas/477-20x/">20x</a>
             <span class="num">#477</span>
           </td>
-          <td class="mono">1 in 4</td>
-          <td class="mono">1 of 4<div class="sub">$20,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4</td>
+          <td class="mono" data-label="Top prizes left">1 of 4<div class="sub">$20,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">14</td>
@@ -259,12 +259,12 @@
             <a href="/scratchers/virginia/best-odds/2-dollar/">Virginia</a>
             <span class="overall">all 11 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/virginia/2365-win-win-win/">Win Win Win</a>
             <span class="num">#2365</span>
           </td>
-          <td class="mono">1 in 4.03</td>
-          <td class="mono zero">gone<div class="sub dead-amt">$15,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.03</td>
+          <td class="mono zero" data-label="Top prizes left">gone<div class="sub dead-amt">$15,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">15</td>
@@ -272,12 +272,12 @@
             <a href="/scratchers/texas/best-odds/2-dollar/">Texas</a>
             <span class="overall">all 8 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/texas/2776-patriotic-payout/">Patriotic Payout</a>
             <span class="num">#2776</span>
           </td>
-          <td class="mono">1 in 4.07</td>
-          <td class="mono">8 of 8<div class="sub">$30,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.07</td>
+          <td class="mono" data-label="Top prizes left">8 of 8<div class="sub">$30,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">16</td>
@@ -285,12 +285,12 @@
             <a href="/scratchers/california/best-odds/2-dollar/">California</a>
             <span class="overall">all 7 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/california/1728-goooaaal/">Goooaaal!</a>
             <span class="num">#1728</span>
           </td>
-          <td class="mono">1 in 4.09</td>
-          <td class="mono">11 of 20<div class="sub">$20,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.09</td>
+          <td class="mono" data-label="Top prizes left">11 of 20<div class="sub">$20,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">17</td>
@@ -298,12 +298,12 @@
             <a href="/scratchers/north-carolina/best-odds/2-dollar/">North Carolina</a>
             <span class="overall">all 11 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/north-carolina/64-2-holiday-gold/">$2 Holiday Gold</a>
             <span class="num">#64</span>
           </td>
-          <td class="mono">1 in 4.14</td>
-          <td class="mono">4 of 4<div class="sub">$20,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.14</td>
+          <td class="mono" data-label="Top prizes left">4 of 4<div class="sub">$20,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">18</td>
@@ -311,12 +311,12 @@
             <a href="/scratchers/new-jersey/best-odds/2-dollar/">New Jersey</a>
             <span class="overall">all 18 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/new-jersey/02003-nutcracker-cash/">Nutcracker Cash</a>
             <span class="num">#02003</span>
           </td>
-          <td class="mono">1 in 4.22</td>
-          <td class="mono">4 of 4<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.22</td>
+          <td class="mono" data-label="Top prizes left">4 of 4<div class="sub">$10,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">19</td>
@@ -324,12 +324,12 @@
             <a href="/scratchers/massachusetts/best-odds/2-dollar/">Massachusetts</a>
             <span class="overall">all 27 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/massachusetts/414-50000-star-cashword/">$50,000 Star Cashword</a>
             <span class="num">#414</span>
           </td>
-          <td class="mono">1 in 4.23</td>
-          <td class="mono">1 of 15<div class="sub">$50,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.23</td>
+          <td class="mono" data-label="Top prizes left">1 of 15<div class="sub">$50,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">20</td>
@@ -337,12 +337,12 @@
             <a href="/scratchers/illinois/best-odds/2-dollar/">Illinois</a>
             <span class="overall">all 5 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/illinois/7676-reindeer-riches/">Reindeer Riches</a>
             <span class="num">#7676</span>
           </td>
-          <td class="mono">1 in 4.27</td>
-          <td class="mono">3 of 4<div class="sub">$50,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.27</td>
+          <td class="mono" data-label="Top prizes left">3 of 4<div class="sub">$50,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">21</td>
@@ -350,12 +350,12 @@
             <a href="/scratchers/missouri/best-odds/2-dollar/">Missouri</a>
             <span class="overall">all 5 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/missouri/572-gnome-for-the-holidays/">Gnome For The Holidays</a>
             <span class="num">#572</span>
           </td>
-          <td class="mono">1 in 4.32</td>
-          <td class="mono">3 of 4<div class="sub">$25,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.32</td>
+          <td class="mono" data-label="Top prizes left">3 of 4<div class="sub">$25,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">22</td>
@@ -363,12 +363,12 @@
             <a href="/scratchers/south-carolina/best-odds/2-dollar/">South Carolina</a>
             <span class="overall">all 10 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/south-carolina/1626-jumbo-bucks/">Jumbo Bucks</a>
             <span class="num">#1626</span>
           </td>
-          <td class="mono">1 in 4.33</td>
-          <td class="mono">1 of 8<div class="sub">$50,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.33</td>
+          <td class="mono" data-label="Top prizes left">1 of 8<div class="sub">$50,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">23</td>
@@ -376,12 +376,12 @@
             <a href="/scratchers/washington-dc/best-odds/2-dollar/">Washington DC</a>
             <span class="overall">all 5 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/washington-dc/1662-100-loaded/">$100 Loaded!</a>
             <span class="num">#1662</span>
           </td>
-          <td class="mono">1 in 4.34</td>
-          <td class="mono">1 of 2<div class="sub">$5,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.34</td>
+          <td class="mono" data-label="Top prizes left">1 of 2<div class="sub">$5,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">24</td>
@@ -389,12 +389,12 @@
             <a href="/scratchers/louisiana/best-odds/2-dollar/">Louisiana</a>
             <span class="overall">all 11 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/louisiana/1699-gumbo-holiday-bucks/">Gumbo Holiday Bucks</a>
             <span class="num">#1699</span>
           </td>
-          <td class="mono">1 in 4.42</td>
-          <td class="mono">5 of 5<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.42</td>
+          <td class="mono" data-label="Top prizes left">5 of 5<div class="sub">$10,000</div></td>
         </tr>
         <tr>
           <td class="mono rank-num">25</td>
@@ -402,12 +402,12 @@
             <a href="/scratchers/michigan/best-odds/2-dollar/">Michigan</a>
             <span class="overall">all 15 $2 games ranked →</span>
           </td>
-          <td class="g-name">
+          <td class="g-name" data-label="Best $2 game">
             <a href="/scratchers/michigan/774-freezin-greetings/">Freezin&#39; Greetings</a>
             <span class="num">#774</span>
           </td>
-          <td class="mono">1 in 4.46</td>
-          <td class="mono">3 of 3<div class="sub">$10,000</div></td>
+          <td class="mono" data-label="Printed odds">1 in 4.46</td>
+          <td class="mono" data-label="Top prizes left">3 of 3<div class="sub">$10,000</div></td>
         </tr>
       </tbody>
     </table>

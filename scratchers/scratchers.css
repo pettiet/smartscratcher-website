@@ -502,7 +502,11 @@ header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margin
 .pod-catch.bad { background: #ffe9e7; color: var(--red-deep); }
 
 .rank-table th.th-rank { text-align: center; }
-.rank-table th:nth-child(2) { text-align: left; }
+/* A heading sits on the same side as its cells: name columns are marked in the
+   template (th-name), never guessed from the column's position (Nov 13, 2026:
+   the top-prizes, price-hub and state "biggest prizes" tables had it wrong). */
+.index-table th.th-name { text-align: left; }
+.index-table th.th-tight { width: 1%; }
 .rank-table td.rank-num { font-weight: 700; color: var(--muted); text-align: center; }
 .rank-table td.rank-num.medal { color: var(--ink); background: var(--yellow); }
 
@@ -870,4 +874,47 @@ footer .f-col a:hover { color: var(--yellow); }
 .state-tools .jump-label {
   font-family: var(--mono); font-size: 11.5px; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-right: 4px;
+}
+
+/* ---------- LIST TABLES ON PHONES (Nov 13, 2026) ----------
+   A table with class "cards" stops being a grid at 640px and under: each row
+   becomes a block with the game name on top and the other cells underneath in
+   two columns, each under its own small label (the cell's data-label, which
+   repeats the column heading). Nothing scrolls sideways. */
+@media (max-width: 640px) {
+  .index-card:has(> .index-table.cards) { overflow-x: visible; }
+  .index-table.cards { display: block; min-width: 0; }
+  .index-table.cards thead {
+    position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%);
+  }
+  .index-table.cards tbody { display: block; }
+  .index-table.cards tr {
+    display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 10px 14px;
+    padding: 14px 16px; border-top: 1px solid #f3eed8; position: relative;
+  }
+  .index-table.cards tbody tr:first-child { border-top: 0; }
+  .index-table.cards tr:hover td { background: none; }
+  .index-table.cards td {
+    display: block; padding: 0; border: 0; text-align: left;
+    white-space: normal; min-width: 0;
+  }
+  .index-table.cards td[data-label]::before {
+    content: attr(data-label); display: block; margin-bottom: 2px;
+    font-family: var(--mono); font-size: 10px; font-weight: 500; line-height: 1.3;
+    text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
+    text-decoration: none;
+  }
+  .index-table.cards td.mono { font-size: 13.5px; }
+  .index-table.cards td.g-name { grid-column: 1 / -1; min-width: 0; }
+  .index-table.cards td.g-name:not([data-label]) { order: -1; }
+  .index-table.cards td.g-name a { font-size: 16px; }
+  /* ranked lists: the rank sits in the corner, beside the name */
+  .rank-table.cards tr:has(> .rank-num) { padding-left: 54px; }
+  .rank-table.cards td.rank-num {
+    position: absolute; left: 14px; top: 13px; width: 28px; height: 28px;
+    line-height: 28px; text-align: center; border-radius: 8px; font-size: 13px;
+    background: var(--cream);
+  }
+  .rank-table.cards td.rank-num.medal { background: var(--yellow); }
+  .index-table.cards .tbar { width: 56px; }
 }
