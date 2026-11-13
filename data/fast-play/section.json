@@ -1,6 +1,17 @@
 {
  "listed": true,
  "states": {
+  "az": {
+   "blurb": "Fast Play tickets print at the counter, with nothing to scratch. We track the prizes left in all 26 Arizona Fast Play games and every jackpot.",
+   "count": 26,
+   "cta": "See Fast Play games",
+   "kind": "fast-play",
+   "label": "Fast Play",
+   "name": "Arizona",
+   "path": "/fast-play/arizona/",
+   "updated": "2026-11-13",
+   "updated_nice": "Nov 13, 2026"
+  },
   "ks": {
    "blurb": "Fast Play tickets print at the counter, with nothing to scratch. We track the prizes left in all 24 Kansas Fast Play games and every jackpot.",
    "count": 24,
