@@ -44,16 +44,25 @@
  ],
  "claimed_7d_money": 661076598,
  "claimed_7d_prizes": 25518009,
- "data_points": 288306,
- "face_value": 140810034736,
- "free_tickets_remaining": 100699876,
- "games": 1537,
- "million_prizes_remaining": 1195,
- "million_prizes_total": 2946,
- "million_tiers": 505,
- "money_remaining": 39826654386,
- "money_total": 108343650000,
+ "data_points": 288615,
+ "face_value": 145959481553,
+ "free_tickets_remaining": 105401928,
+ "games": 1846,
+ "million_prizes_remaining": 1237,
+ "million_prizes_total": 3026,
+ "million_tiers": 528,
+ "money_remaining": 41629687418,
+ "money_total": 112154305766,
  "per_state": [
+  {
+   "code": "az",
+   "face_value": 2288782190,
+   "games": 60,
+   "money_remaining": 819769615,
+   "name": "Arizona",
+   "prizes_remaining": 27332156,
+   "tickets_printed": 203674427
+  },
   {
    "code": "ar",
    "face_value": 612270347,
@@ -71,6 +80,15 @@
    "name": "California",
    "prizes_remaining": 133564248,
    "tickets_printed": 1133357211
+  },
+  {
+   "code": "ct",
+   "face_value": 1529905200,
+   "games": 56,
+   "money_remaining": 491291501,
+   "name": "Connecticut",
+   "prizes_remaining": 21945111,
+   "tickets_printed": 165823670
   },
   {
    "code": "fl",
@@ -109,6 +127,15 @@
    "tickets_printed": 50240974
   },
   {
+   "code": "la",
+   "face_value": 336691087,
+   "games": 44,
+   "money_remaining": 97578289,
+   "name": "Louisiana",
+   "prizes_remaining": 8965226,
+   "tickets_printed": 97808054
+  },
+  {
    "code": "md",
    "face_value": 3288389151,
    "games": 93,
@@ -136,6 +163,15 @@
    "tickets_printed": 832905253
   },
   {
+   "code": "mn",
+   "face_value": 692979603,
+   "games": 40,
+   "money_remaining": 277065961,
+   "name": "Minnesota",
+   "prizes_remaining": 17448364,
+   "tickets_printed": 100039226
+  },
+  {
    "code": "mo",
    "face_value": 2710605132,
    "games": 48,
@@ -152,6 +188,15 @@
    "name": "New Jersey",
    "prizes_remaining": 53011725,
    "tickets_printed": 712257530
+  },
+  {
+   "code": "nm",
+   "face_value": 140104817,
+   "games": 58,
+   "money_remaining": 35348835,
+   "name": "New Mexico",
+   "prizes_remaining": 3318400,
+   "tickets_printed": 31450703
   },
   {
    "code": "ny",
@@ -224,13 +269,22 @@
    "name": "Washington",
    "prizes_remaining": 15298269,
    "tickets_printed": 144079480
+  },
+  {
+   "code": "dc",
+   "face_value": 160983920,
+   "games": 51,
+   "money_remaining": 81978831,
+   "name": "Washington DC",
+   "prizes_remaining": 2246855,
+   "tickets_printed": 13820727
   }
  ],
- "prizes_remaining": 1225233497,
- "prizes_total": 3710354000,
- "states": 19,
- "tickets_printed": 14695155145,
- "tier_snapshots": 1948033,
- "tiers": 16421,
+ "prizes_remaining": 1306489609,
+ "prizes_total": 3874944298,
+ "states": 25,
+ "tickets_printed": 15307771952,
+ "tier_snapshots": 1948552,
+ "tiers": 19512,
  "tracking_since": "2024-11-25"
 }
