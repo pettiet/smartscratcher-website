@@ -388,6 +388,53 @@
   .get-app-menu a.store-badge { display: flex !important; justify-content: center; padding: 7px 10px; line-height: 0; }
   .get-app-menu a.store-badge img { display: block; height: 44px; width: auto; }
   .get-app-menu a.store-badge.gp img { height: 65px; margin: -10.5px -11px; }
+
+  /* Phone menu (Nov 14, 2026): under 980px the banner links fold into a
+     three-line button after Get the App. Matches the generated pages
+     (scratchers.css); keep the two in step. */
+  nav.top .menu a { white-space: nowrap; }
+  .nav-more { display: none; position: relative; order: 2; }
+  .nav-more > summary {
+    list-style: none; cursor: pointer; width: 40px; height: 36px; border-radius: 10px;
+    border: 2px solid #3a3a3a; display: flex; align-items: center; justify-content: center;
+    user-select: none;
+  }
+  .nav-more > summary::-webkit-details-marker { display: none; }
+  .nav-more > summary span, .nav-more > summary span::before, .nav-more > summary span::after {
+    content: ''; display: block; width: 18px; height: 2px; border-radius: 2px; background: #fff9e6;
+  }
+  .nav-more > summary span { position: relative; }
+  .nav-more > summary span::before { position: absolute; top: -6px; }
+  .nav-more > summary span::after { position: absolute; top: 6px; }
+  .nav-more[open] > summary { border-color: #ffd60a; }
+  .nav-more[open] > summary span, .nav-more[open] > summary span::before,
+  .nav-more[open] > summary span::after { background: #ffd60a; }
+  .nav-more-list {
+    position: absolute; right: 0; top: calc(100% + 10px); background: #1a1a1a;
+    border: 2px solid #ffd60a; border-radius: 14px; padding: 6px; min-width: 210px;
+    z-index: 60; box-shadow: 5px 5px 0 #ff3b30; text-align: left;
+  }
+  nav.top .menu .nav-more-list a {
+    display: block; padding: 12px 14px; border-radius: 10px; color: #fff9e6;
+    font-size: 15px; font-weight: 600; text-decoration: none; white-space: nowrap;
+  }
+  nav.top .menu .nav-more-list a:hover { background: #2a2a2a; color: #ffd60a; }
+  @media (max-width: 1080px) { nav.top .menu { gap: 18px; } }
+  @media (max-width: 980px) {
+    nav.top .menu > a:not(.cta-btn) { display: none; }
+    .nav-more { display: block; }
+    nav.top .menu { gap: 10px; flex-shrink: 0; }
+  }
+  @media (max-width: 480px) {
+    nav.top .logo img { height: 24px; }
+    nav.top .menu { gap: 8px; }
+    .nav-more > summary { width: 38px; }
+  }
+  @media (max-width: 360px) {
+    nav.top .logo img { height: 20px; }
+    nav.top .menu { gap: 6px; }
+    .nav-more > summary { width: 36px; height: 34px; }
+  }
 </style>
 </head>
 <body>
@@ -402,6 +449,14 @@
     <a href="numbers/">The Numbers</a>
     <a href="index.html#pricing">Pricing</a>
     <a href="index.html#faq">FAQ</a>
+    <details class="nav-more"><summary aria-label="Menu"><span></span></summary><div class="nav-more-list">
+      <a href="index.html#how">How it works</a>
+      <a href="blog-index.html">The Pages</a>
+      <a href="scratchers/">Live Games</a>
+      <a href="numbers/">The Numbers</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+    </div></details>
     <details class="get-app"><summary class="cta-btn">Get the App</summary><div class="get-app-menu"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-bloglist&amp;mt=8"><img src="/scratchers/badges/app-store-badge.svg" alt="Download on the App Store" width="132" height="44" /></a><a class="store-badge gp" href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-bloglist"><img src="/scratchers/badges/google-play-badge.png" alt="Get it on Google Play" width="168" height="65" /></a></div></details>
   </div>
 </nav>
@@ -713,7 +768,7 @@
   </div>
 </footer>
 
-<script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});</script>
+<script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open],details.nav-more[open]").forEach(function(d){if(!d.contains(e.target)||(e.target.closest&&e.target.closest(".nav-more-list a")))d.removeAttribute("open");});});</script>
 <script>/* keep the Get the App menu on screen when its button sits near the left edge (phones) */document.addEventListener("toggle",function(e){var d=e.target;if(!d.matches||!d.matches("details.get-app")||!d.open)return;var m=d.querySelector(".get-app-menu");m.style.left="";m.style.right="";if(m.getBoundingClientRect().left<8){m.style.left="0";m.style.right="auto";}},true);</script>
 </body>
 </html>
