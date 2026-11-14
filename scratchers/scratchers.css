@@ -49,6 +49,41 @@ nav.top .menu .cta-btn:hover { background: #ffe44d; color: #000; }
 
 
 /* Get the App: one button, two stores (App Store / Google Play) */
+/* Phone menu (Nov 14, 2026). At 720px and under the banner links are hidden
+   to fit the bar, which left a phone with no way to reach them. A three-line
+   button now sits after Get the App and opens the same links as a list. It
+   is a <details>, so it works without script; the script in base.html only
+   closes it on a tap elsewhere. Above 720px the button is not shown. */
+.nav-more { display: none; position: relative; order: 2; }
+.nav-more > summary {
+  list-style: none; cursor: pointer; width: 40px; height: 36px; border-radius: 10px;
+  border: 2px solid #3a3a3a; display: flex; align-items: center; justify-content: center;
+  user-select: none;
+}
+.nav-more > summary::-webkit-details-marker { display: none; }
+.nav-more > summary span, .nav-more > summary span::before, .nav-more > summary span::after {
+  content: ''; display: block; width: 18px; height: 2px; border-radius: 2px; background: #fff9e6;
+}
+.nav-more > summary span { position: relative; }
+.nav-more > summary span::before { position: absolute; top: -6px; }
+.nav-more > summary span::after { position: absolute; top: 6px; }
+.nav-more[open] > summary { border-color: #ffd60a; }
+.nav-more[open] > summary span, .nav-more[open] > summary span::before,
+.nav-more[open] > summary span::after { background: #ffd60a; }
+.nav-more-list {
+  position: absolute; right: 0; top: calc(100% + 10px); background: #1a1a1a;
+  border: 2px solid #ffd60a; border-radius: 14px; padding: 6px; min-width: 210px;
+  z-index: 60; box-shadow: 5px 5px 0 #ff3b30;
+}
+nav.top .menu .nav-more-list a {
+  display: block; padding: 12px 14px; border-radius: 10px; color: #fff9e6;
+  font-size: 15px; font-weight: 600; text-decoration: none; white-space: nowrap;
+}
+nav.top .menu .nav-more-list a:hover { background: #2a2a2a; color: #ffd60a; }
+@media (max-width: 720px) {
+  .nav-more { display: block; }
+  nav.top .menu { gap: 10px; flex-shrink: 0; }
+}
 .get-app { position: relative; display: inline-block; }
 .get-app > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; user-select: none; }
 .get-app > summary::-webkit-details-marker { display: none; }
@@ -121,6 +156,18 @@ nav.top .menu .cta-btn:hover { background: #ffe44d; color: #000; }
   nav.top { padding: 10px 12px; }
   nav.top .logo img { height: 26px; }
   nav.top .menu .cta-btn { padding: 8px 12px; font-size: 12px; }
+}
+/* With the menu button in the bar (Nov 14, 2026) the logo gives up a little
+   height so logo, Get the App and the button fit one row down to 320px. */
+@media (max-width: 480px) {
+  nav.top .logo img { height: 24px; }
+  nav.top .menu { gap: 8px; }
+  .nav-more > summary { width: 38px; }
+}
+@media (max-width: 360px) {
+  nav.top .logo img { height: 20px; }
+  nav.top .menu { gap: 6px; }
+  .nav-more > summary { width: 36px; height: 34px; }
 }
 
 /* ---------- BREADCRUMBS ---------- */
@@ -455,6 +502,22 @@ header.page.tight + .wrap.answer-row { margin-top: 6px; } /* .wrap resets margin
   overflow: hidden; display: inline-block; margin-left: 8px; vertical-align: middle;
 }
 .index-table tr:hover td { background: #fffdf4; }
+/* The whole row is the link (Nov 14, 2026). A bold name alone did not read as
+   something to tap, so the name carries a yellow underline and an arrow, and a
+   click anywhere on a row opens its game. The script at the foot of base.html
+   marks each row that has a name link with "row-link" and follows that link;
+   without the script the name is still an ordinary link. */
+.index-table td.g-name a {
+  text-decoration: underline; text-decoration-color: var(--yellow);
+  text-decoration-thickness: 2.5px; text-underline-offset: 3px;
+}
+.index-table tr.row-link { cursor: pointer; }
+.index-table tr.row-link:hover td { background: var(--cream); }
+.index-table tr.row-link td.g-name a::after {
+  /* a no-break space keeps the arrow on the name's last line */
+  content: '\00a0\203A'; color: var(--red); font-weight: 800;
+}
+.index-table tr.row-link:hover td.g-name a { color: var(--red-deep); }
 
 /* ---------- BEST-ODDS PAGE ---------- */
 .podium {
@@ -894,6 +957,8 @@ footer .f-col a:hover { color: var(--yellow); }
   }
   .index-table.cards tbody tr:first-child { border-top: 0; }
   .index-table.cards tr:hover td { background: none; }
+  .index-table.cards tr.row-link:hover td { background: none; }
+  .index-table.cards tr.row-link:active { background: var(--cream); }
   .index-table.cards td {
     display: block; padding: 0; border: 0; text-align: left;
     white-space: normal; min-width: 0;
@@ -918,3 +983,175 @@ footer .f-col a:hover { color: var(--yellow); }
   .rank-table.cards td.rank-num.medal { background: var(--yellow); }
   .index-table.cards .tbar { width: 56px; }
 }
+
+/* ---------- HOLIDAY LINK IN THE BANNER (Nov 14, 2026) ----------
+   Seasonal: base.html prints it only while holiday_hub is set (Oct 1 to
+   Jan 1). The homepage carries the same rules inline. */
+nav.top .menu a.holiday-link {
+  color: #fff; background: var(--red-deep); border: 2px solid var(--red);
+  padding: 6px 13px; border-radius: 100px; font-weight: 800; white-space: nowrap;
+}
+nav.top .menu a.holiday-link:hover { background: var(--red); color: #fff; }
+.holiday-link .hl-e { display: inline-block; animation: hl-wiggle 2.6s ease-in-out infinite; }
+.holiday-link .hl-e:last-child { animation-delay: 1.3s; }
+@keyframes hl-wiggle {
+  0%, 70%, 100% { transform: rotate(0) scale(1); }
+  76% { transform: rotate(-14deg) scale(1.2); }
+  84% { transform: rotate(12deg) scale(1.2); }
+  92% { transform: rotate(-6deg) scale(1.08); }
+}
+nav.top .menu .nav-more-list a.holiday-link { margin-bottom: 4px; text-align: center; }
+/* Seven items need about 1000px in one row, so the links fold into the menu
+   button at 980px (it was 720px, phones only). The holiday link stays in the
+   bar down to 600px, then lives at the top of the menu list. */
+nav.top .menu a { white-space: nowrap; }
+@media (max-width: 1080px) { nav.top .menu { gap: 18px; } }
+@media (max-width: 980px) {
+  nav.top .menu > a:not(.cta-btn) { display: none; }
+  nav.top .menu > a.holiday-link { display: inline-block; }
+  .nav-more { display: block; }
+  nav.top .menu { gap: 10px; flex-shrink: 0; }
+}
+@media (max-width: 600px) { nav.top .menu > a.holiday-link { display: none; } }
+@media (max-width: 480px) { nav.top .menu { gap: 8px; } }
+@media (max-width: 360px) { nav.top .menu { gap: 6px; } }
+@media (prefers-reduced-motion: reduce) { .holiday-link .hl-e { animation: none; } }
+
+/* ---------- ALL-STATES HOLIDAY PAGE (/scratchers/holiday/, Nov 14, 2026) ---------- */
+.hol-hero {
+  position: relative; overflow: hidden; color: #fff9e6; text-align: center;
+  background: radial-gradient(120% 90% at 50% 0%, #1c6a48 0%, #0f3d2e 55%, #0a2a20 100%);
+  border-bottom: 3px solid var(--ink); padding: 0 0 34px;
+}
+.hol-lights {
+  height: 26px;
+  background:
+    radial-gradient(circle at 12px 15px, #ff3b30 0 6px, transparent 7px) 0 0 / 96px 26px repeat-x,
+    radial-gradient(circle at 36px 19px, #ffd60a 0 6px, transparent 7px) 0 0 / 96px 26px repeat-x,
+    radial-gradient(circle at 60px 15px, #4ade80 0 6px, transparent 7px) 0 0 / 96px 26px repeat-x,
+    radial-gradient(circle at 84px 19px, #60a5fa 0 6px, transparent 7px) 0 0 / 96px 26px repeat-x,
+    linear-gradient(#06180f, #06180f) 0 6px / 100% 2px no-repeat;
+  animation: hol-twinkle 1.8s steps(2, jump-none) infinite;
+}
+@keyframes hol-twinkle { 50% { filter: brightness(0.62) saturate(0.8); } }
+.hol-snow { position: absolute; inset: 0; pointer-events: none; }
+.hol-snow span {
+  position: absolute; top: -8%; color: #fff; opacity: 0.5; font-size: 16px;
+  animation: hol-fall 11s linear infinite;
+}
+.hol-snow span:nth-child(1) { left: 4%; animation-duration: 12s; }
+.hol-snow span:nth-child(2) { left: 11%; animation-delay: -4s; font-size: 12px; }
+.hol-snow span:nth-child(3) { left: 19%; animation-delay: -8s; animation-duration: 14s; }
+.hol-snow span:nth-child(4) { left: 27%; animation-delay: -2s; font-size: 20px; opacity: 0.35; }
+.hol-snow span:nth-child(5) { left: 35%; animation-delay: -6s; animation-duration: 9s; }
+.hol-snow span:nth-child(6) { left: 43%; animation-delay: -10s; font-size: 12px; }
+.hol-snow span:nth-child(7) { left: 51%; animation-delay: -1s; animation-duration: 13s; }
+.hol-snow span:nth-child(8) { left: 59%; animation-delay: -7s; font-size: 20px; opacity: 0.35; }
+.hol-snow span:nth-child(9) { left: 67%; animation-delay: -3s; animation-duration: 10s; }
+.hol-snow span:nth-child(10) { left: 74%; animation-delay: -9s; font-size: 12px; }
+.hol-snow span:nth-child(11) { left: 81%; animation-delay: -5s; animation-duration: 15s; }
+.hol-snow span:nth-child(12) { left: 88%; animation-delay: -11s; }
+.hol-snow span:nth-child(13) { left: 94%; animation-delay: -2.5s; font-size: 20px; opacity: 0.35; }
+.hol-snow span:nth-child(14) { left: 98%; animation-delay: -6.5s; animation-duration: 12s; }
+@keyframes hol-fall {
+  0% { transform: translate(0, 0) rotate(0); }
+  50% { transform: translate(18px, 60vh) rotate(160deg); }
+  100% { transform: translate(-8px, 120vh) rotate(320deg); }
+}
+.hol-hero-inner { position: relative; max-width: 900px; margin: 0 auto; padding: 0 5%; }
+.hol-hero .crumbs { color: rgba(255, 249, 230, 0.6); padding-left: 0; padding-right: 0; text-align: left; }
+.hol-hero .crumbs a { color: rgba(255, 249, 230, 0.75); }
+.hol-hero .crumbs a:hover { color: var(--yellow); }
+.hol-hero .crumbs > span:last-child { color: #fff9e6; }
+.hol-eyebrow {
+  display: inline-block; margin: 20px 0 14px; font-family: var(--mono); font-size: 12px;
+  font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  background: var(--red-deep); border: 2px solid #fff9e6; border-radius: 999px; padding: 6px 16px;
+}
+.hol-hero h1 {
+  font-family: var(--display); font-weight: 800; letter-spacing: -0.02em; line-height: 1.02;
+  font-size: clamp(38px, 7.2vw, 76px); margin: 0 0 18px; color: #fff;
+  text-shadow: 3px 3px 0 #06180f;
+}
+.hol-hl { color: var(--yellow); display: inline-block; transform: rotate(-1.5deg); }
+.hol-deck { font-size: 18px; line-height: 1.55; max-width: 680px; margin: 0 auto 26px; color: rgba(255, 249, 230, 0.92); }
+.hol-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; text-align: left; }
+.hol-stat {
+  background: #fff9e6; color: var(--ink); border: 2px solid var(--ink); border-radius: 14px;
+  padding: 14px 16px; box-shadow: 4px 4px 0 var(--red);
+}
+.hol-stat:nth-child(even) { box-shadow: 4px 4px 0 var(--yellow); }
+.hol-stat b { display: block; font-family: var(--display); font-size: 28px; font-weight: 800; line-height: 1.1; }
+.hol-stat span { display: block; margin-top: 4px; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft); }
+.hol-wall {
+  position: relative; display: flex; gap: 14px; padding: 30px 5% 12px; overflow-x: auto;
+  scrollbar-width: none; justify-content: safe center;
+}
+.hol-wall::-webkit-scrollbar { display: none; }
+.hol-ticket {
+  flex: 0 0 auto; display: block; background: #fff; padding: 5px; border-radius: 8px;
+  border: 2px solid var(--ink); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.45);
+  transform: rotate(-3deg); transition: transform 0.15s;
+}
+.hol-ticket:nth-child(even) { transform: rotate(2.5deg) translateY(6px); }
+.hol-ticket:nth-child(3n) { transform: rotate(-1deg) translateY(-4px); }
+.hol-ticket:hover { transform: rotate(0) scale(1.08); z-index: 2; }
+.hol-ticket img { display: block; width: 92px; height: 124px; object-fit: cover; border-radius: 4px; }
+.hol-jump { margin-top: 20px; }
+.hol-jump .chips { align-items: center; justify-content: center; }
+.hol-sub { color: var(--ink-soft); font-size: 15.5px; margin: -6px 0 16px; }
+.hol-awards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.hol-award, .hol-state {
+  display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--ink);
+  background: #fff; border: 2px solid var(--ink); border-radius: 16px; padding: 18px;
+  box-shadow: 5px 5px 0 var(--ink); transition: transform 0.12s, box-shadow 0.12s;
+}
+.hol-award:hover, .hol-state:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--red); }
+.hol-ribbon {
+  align-self: flex-start; font-family: var(--mono); font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.04em; background: var(--yellow);
+  border: 1.5px solid var(--ink); border-radius: 999px; padding: 4px 10px; margin-bottom: 4px;
+}
+.hol-award:nth-child(2) .hol-ribbon { background: #d6f5e0; }
+.hol-award:nth-child(3) .hol-ribbon { background: #ffe1de; }
+.hol-award:nth-child(4) .hol-ribbon { background: #dbe8ff; }
+.hol-award strong { font-family: var(--display); font-size: 22px; font-weight: 800; line-height: 1.12; overflow-wrap: break-word; }
+.hol-award-fact { font-size: 13.5px; color: var(--ink-soft); line-height: 1.4; }
+.hol-go { margin-top: auto; padding-top: 8px; font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--red-deep); }
+.hol-states { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.hol-state { position: relative; padding: 16px 18px; gap: 5px; box-shadow: 4px 4px 0 var(--ink); }
+.hol-rank {
+  position: absolute; top: 12px; right: 14px; font-family: var(--mono); font-size: 13px;
+  font-weight: 700; color: var(--muted); min-width: 28px; text-align: center;
+}
+.hol-state:nth-child(-n+3) .hol-rank { font-size: 24px; top: 8px; right: 10px; }
+.hol-state-name { font-family: var(--display); font-size: 21px; font-weight: 800; padding-right: 36px; }
+.hol-state-count { font-family: var(--mono); font-size: 12px; color: var(--ink-soft); margin-bottom: 4px; }
+.hol-state-count b { font-size: 14px; color: var(--ink); }
+.hol-state-line { font-size: 13.5px; line-height: 1.35; }
+.hol-state-line i { font-style: normal; font-family: var(--mono); font-size: 12px; color: var(--muted); white-space: nowrap; }
+.hol-banner {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; text-decoration: none;
+  background: #0f3d2e; color: #fff9e6; border: 2px solid var(--ink); border-radius: 14px;
+  padding: 12px 18px; margin-bottom: 18px; box-shadow: 4px 4px 0 var(--red); font-size: 15px;
+}
+.hol-banner strong { font-family: var(--display); font-size: 17px; color: var(--yellow); }
+.hol-banner-sub { font-family: var(--mono); font-size: 12px; }
+.hol-banner:hover { background: #14503c; }
+@media (max-width: 1040px) {
+  .hol-awards { grid-template-columns: 1fr 1fr; }
+  .hol-states { grid-template-columns: 1fr 1fr; }
+  .hol-stats { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .hol-awards, .hol-states { grid-template-columns: 1fr; }
+  .hol-deck { font-size: 16px; }
+  .hol-stat b { font-size: 23px; }
+  .hol-wall { justify-content: flex-start; }
+  .hol-jump .chips { justify-content: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hol-snow, .hol-lights { animation: none; }
+  .hol-snow span { animation: none; display: none; }
+}
+
