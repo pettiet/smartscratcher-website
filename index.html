@@ -1483,11 +1483,20 @@
     font-size: 15px; font-weight: 600; text-decoration: none; white-space: nowrap;
   }
   nav.top .menu .nav-more-list a:hover { background: #2a2a2a; color: #ffd60a; }
-  @media (max-width: 1080px) { nav.top .menu { gap: 18px; } }
-  @media (max-width: 980px) {
+  @media (max-width: 1160px) { nav.top .menu { gap: 18px; } }
+  @media (max-width: 1080px) {
     nav.top .menu > a:not(.cta-btn) { display: none; }
     .nav-more { display: block; }
     nav.top .menu { gap: 10px; flex-shrink: 0; }
+  }
+  /* Eight links since Nov 18, 2026 (State Showdown). While the seasonal holiday
+     link is in the bar too, the row needs about 1260px, so it tightens and
+     folds earlier; the rest of the year the rules below are enough. */
+  @media (min-width: 1161px) and (max-width: 1360px) { nav.top .menu:has(> .holiday-link) { gap: 18px; } }
+  @media (min-width: 1081px) and (max-width: 1270px) {
+    nav.top .menu:has(> .holiday-link) > a:not(.cta-btn):not(.holiday-link) { display: none; }
+    nav.top .menu:has(> .holiday-link) .nav-more { display: block; }
+    nav.top .menu:has(> .holiday-link) { gap: 10px; flex-shrink: 0; }
   }
   @media (max-width: 480px) {
     nav.top .logo img { height: 24px; }
@@ -1517,7 +1526,7 @@
     92% { transform: rotate(-6deg) scale(1.08); }
   }
   nav.top .menu .nav-more-list a.holiday-link { margin-bottom: 4px; text-align: center; }
-  @media (max-width: 980px) { nav.top .menu > a.holiday-link { display: inline-block; } }
+  @media (max-width: 1080px) { nav.top .menu > a.holiday-link { display: inline-block; } }
   @media (max-width: 600px) { nav.top .menu > a.holiday-link { display: none; } }
   @media (prefers-reduced-motion: reduce) { .holiday-link .hl-e { animation: none; } }
 </style>
@@ -1540,6 +1549,7 @@
     <a href="blog-index.html">The Pages</a>
     <a href="scratchers/">Live Games</a>
     <a href="numbers/">The Numbers</a>
+    <a href="scratchers/compare-states/">State Showdown</a>
     <a href="#pricing">Pricing</a>
     <a href="#faq">FAQ</a>
     <details class="nav-more"><summary aria-label="Menu"><span></span></summary><div class="nav-more-list">
@@ -1548,6 +1558,7 @@
       <a href="blog-index.html">The Pages</a>
       <a href="scratchers/">Live Games</a>
       <a href="numbers/">The Numbers</a>
+      <a href="scratchers/compare-states/">State Showdown</a>
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
     </div></details>
