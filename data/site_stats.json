@@ -45,14 +45,14 @@
  "claimed_7d_money": 651345006,
  "claimed_7d_prizes": 25633410,
  "data_points": 299077,
- "face_value": 148426231446,
+ "face_value": 148593965038,
  "free_tickets_remaining": 111948323,
- "games": 1866,
- "million_prizes_remaining": 1250,
- "million_prizes_total": 3042,
- "million_tiers": 531,
- "money_remaining": 42933350725,
- "money_total": 113867596793,
+ "games": 1871,
+ "million_prizes_remaining": 1253,
+ "million_prizes_total": 3046,
+ "million_tiers": 532,
+ "money_remaining": 43017132512,
+ "money_total": 113977374471,
  "per_state": [
   {
    "code": "az",
@@ -200,12 +200,12 @@
   },
   {
    "code": "ny",
-   "face_value": 16115695010,
-   "games": 107,
-   "money_remaining": 4283671240,
+   "face_value": 16283428602,
+   "games": 112,
+   "money_remaining": 4367453027,
    "name": "New York",
-   "prizes_remaining": 170829324,
-   "tickets_printed": 2535991445
+   "prizes_remaining": 178240154,
+   "tickets_printed": 2580417353
   },
   {
    "code": "nc",
@@ -280,11 +280,11 @@
    "tickets_printed": 13820727
   }
  ],
- "prizes_remaining": 1355464262,
- "prizes_total": 3939847373,
+ "prizes_remaining": 1362875092,
+ "prizes_total": 3949888067,
  "states": 25,
- "tickets_printed": 15566954902,
+ "tickets_printed": 15611380810,
  "tier_snapshots": 2059316,
- "tiers": 19714,
+ "tiers": 19772,
  "tracking_since": "2024-11-25"
 }
