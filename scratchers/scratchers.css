@@ -1001,16 +1001,25 @@ nav.top .menu a.holiday-link:hover { background: var(--red); color: #fff; }
   92% { transform: rotate(-6deg) scale(1.08); }
 }
 nav.top .menu .nav-more-list a.holiday-link { margin-bottom: 4px; text-align: center; }
-/* Seven items need about 1000px in one row, so the links fold into the menu
-   button at 980px (it was 720px, phones only). The holiday link stays in the
+/* Eight items need about 1075px in one row, so the links fold into the menu
+   button at 1080px (980px with seven items; 720px, phones only, before that). The holiday link stays in the
    bar down to 600px, then lives at the top of the menu list. */
 nav.top .menu a { white-space: nowrap; }
-@media (max-width: 1080px) { nav.top .menu { gap: 18px; } }
-@media (max-width: 980px) {
+@media (max-width: 1160px) { nav.top .menu { gap: 18px; } }
+@media (max-width: 1080px) {
   nav.top .menu > a:not(.cta-btn) { display: none; }
   nav.top .menu > a.holiday-link { display: inline-block; }
   .nav-more { display: block; }
   nav.top .menu { gap: 10px; flex-shrink: 0; }
+}
+/* Eight links since Nov 18, 2026 (State Showdown). While the seasonal holiday
+   link is in the bar too, the row needs about 1260px, so it tightens and
+   folds earlier; the rest of the year the rules below are enough. */
+@media (min-width: 1161px) and (max-width: 1360px) { nav.top .menu:has(> .holiday-link) { gap: 18px; } }
+@media (min-width: 1081px) and (max-width: 1270px) {
+  nav.top .menu:has(> .holiday-link) > a:not(.cta-btn):not(.holiday-link) { display: none; }
+  nav.top .menu:has(> .holiday-link) .nav-more { display: block; }
+  nav.top .menu:has(> .holiday-link) { gap: 10px; flex-shrink: 0; }
 }
 @media (max-width: 600px) { nav.top .menu > a.holiday-link { display: none; } }
 @media (max-width: 480px) { nav.top .menu { gap: 8px; } }
@@ -1212,7 +1221,22 @@ nav.top .menu a { white-space: nowrap; }
 .sd-bar.first .sd-bar-name, .sd-bar.first .sd-bar-val { font-weight: 800; }
 .sd-bar-val { font-family: var(--mono); font-size: 12.5px; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
 .sd-scroll { overflow-x: auto; }
-.sd-table th, .sd-table td { white-space: nowrap; }
+/* Nine columns in a 950px card: headings wrap onto two lines and the side
+   padding is trimmed, so the table fits with no sideways scroll on a desktop
+   (nowrap headings alone needed 1190px). .sd-scroll stays as the fallback. */
+@media (min-width: 641px) {   /* below that the table is cards, with its own spacing */
+  .sd-table { min-width: 0; }
+  .sd-table th { white-space: normal; vertical-align: bottom; line-height: 1.35; padding: 14px 10px 8px; }
+  .sd-table td { white-space: nowrap; padding: 10px 10px; }
+  .sd-table th:first-child, .sd-table td:first-child { padding-left: 16px; }
+  .sd-table th:last-child, .sd-table td:last-child { padding-right: 16px; }
+}
+@media (min-width: 641px) and (max-width: 1000px) {
+  .sd-table th { padding: 12px 6px 7px; font-size: 10px; letter-spacing: 0.02em; }
+  .sd-table td { padding: 9px 6px; font-size: 13.5px; }
+  .sd-table th:first-child, .sd-table td:first-child { padding-left: 12px; }
+  .sd-table th:last-child, .sd-table td:last-child { padding-right: 12px; }
+}
 .sd-table th[data-sort] { cursor: pointer; user-select: none; }
 .sd-table th[data-sort]:hover { text-decoration: underline; }
 .sd-table th.asc::after { content: " ▲"; font-size: 9px; }
