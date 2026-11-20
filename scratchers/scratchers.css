@@ -1192,7 +1192,7 @@ nav.top .menu a { white-space: nowrap; }
 .sd-deck { font-size: 18px; line-height: 1.55; max-width: 680px; margin: 0 auto 26px; color: rgba(255, 249, 230, 0.92); }
 .sd-hero-note { max-width: 680px; margin: 18px auto 0; font-size: 14px; line-height: 1.5; color: rgba(255, 249, 230, 0.78); }
 .sd-awards { grid-template-columns: repeat(3, 1fr); }
-.sd-minis { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.sd-minis { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
 .sd-mini-card {
   display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: var(--ink);
   border: 1.5px solid var(--ink); border-radius: 12px; padding: 10px 12px; background: #fffdf5;
