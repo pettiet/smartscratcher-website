@@ -1002,11 +1002,11 @@ nav.top .menu a.holiday-link:hover { background: var(--red); color: #fff; }
 }
 nav.top .menu .nav-more-list a.holiday-link { margin-bottom: 4px; text-align: center; }
 /* Eight items need about 1075px in one row, so the links fold into the menu
-   button at 1080px (980px with seven items; 720px, phones only, before that). The holiday link stays in the
+   button at 1110px (980px with seven items; 720px, phones only, before that). The holiday link stays in the
    bar down to 600px, then lives at the top of the menu list. */
 nav.top .menu a { white-space: nowrap; }
-@media (max-width: 1160px) { nav.top .menu { gap: 18px; } }
-@media (max-width: 1080px) {
+@media (max-width: 1190px) { nav.top .menu { gap: 18px; } }
+@media (max-width: 1110px) {
   nav.top .menu > a:not(.cta-btn) { display: none; }
   nav.top .menu > a.holiday-link { display: inline-block; }
   .nav-more { display: block; }
@@ -1015,8 +1015,8 @@ nav.top .menu a { white-space: nowrap; }
 /* Eight links since Nov 18, 2026 (State Showdown). While the seasonal holiday
    link is in the bar too, the row needs about 1260px, so it tightens and
    folds earlier; the rest of the year the rules below are enough. */
-@media (min-width: 1161px) and (max-width: 1360px) { nav.top .menu:has(> .holiday-link) { gap: 18px; } }
-@media (min-width: 1081px) and (max-width: 1270px) {
+@media (min-width: 1191px) and (max-width: 1390px) { nav.top .menu:has(> .holiday-link) { gap: 18px; } }
+@media (min-width: 1111px) and (max-width: 1300px) {
   nav.top .menu:has(> .holiday-link) > a:not(.cta-btn):not(.holiday-link) { display: none; }
   nav.top .menu:has(> .holiday-link) .nav-more { display: block; }
   nav.top .menu:has(> .holiday-link) { gap: 10px; flex-shrink: 0; }
@@ -1257,3 +1257,24 @@ nav.top .menu a { white-space: nowrap; }
   .sd-bar-val { font-size: 11.5px; }
   .sd-table th, .sd-table td { white-space: normal; }
 }
+
+/* Holiday lights across the whole nav bar (Nov 21, 2026; first on the logo
+   only, then Nick asked for the full bar). The SVG is in _nav_lights.html and
+   is only in the page while the Holiday Games link is (Oct 1 to Jan 1).
+   Still under Reduce Motion. Same rules as the homepage. */
+nav.top .nav-lights { position: absolute; left: 0; top: -1px; width: 100%; height: 24px; overflow: hidden; pointer-events: none; }
+.nav-lights .lb0, .nav-lights .lb1, .nav-lights .lb2, .nav-lights .lb3 { animation: lights-twinkle 2.4s ease-in-out infinite; }
+.nav-lights .lb1 { animation-delay: .6s; }
+.nav-lights .lb2 { animation-delay: 1.2s; }
+.nav-lights .lb3 { animation-delay: 1.8s; }
+@keyframes lights-twinkle { 0%, 55%, 100% { opacity: 1; } 75% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .nav-lights g { animation: none !important; } }
+
+/* State Showdown link as a yellow outlined pill (Nov 21, 2026; Nick wanted it
+   to stand out like the holiday link). About 30px wider, so every fold width
+   of the bar above moved up by 30px the same day. */
+nav.top .menu a.showdown-link {
+  color: var(--yellow); border: 2px solid var(--yellow); padding: 6px 13px; border-radius: 100px; font-weight: 800; white-space: nowrap;
+}
+nav.top .menu a.showdown-link:hover { background: var(--yellow); color: #111; }
+nav.top .menu .nav-more-list a.showdown-link { margin-bottom: 4px; text-align: center; }
