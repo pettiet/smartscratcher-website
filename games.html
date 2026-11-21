@@ -350,8 +350,13 @@
     font-size: 15px; font-weight: 600; text-decoration: none; white-space: nowrap;
   }
   nav.top .menu .nav-more-list a:hover { background: #2a2a2a; color: #ffd60a; }
-  @media (max-width: 1160px) { nav.top .menu { gap: 18px; } }
-  @media (max-width: 1080px) {
+  nav.top .menu a.showdown-link {
+    color: #ffd60a; border: 2px solid #ffd60a; padding: 6px 13px; border-radius: 100px; font-weight: 800; white-space: nowrap;
+  }
+  nav.top .menu a.showdown-link:hover { background: #ffd60a; color: #111; }
+  nav.top .menu .nav-more-list a.showdown-link { margin-bottom: 4px; text-align: center; }
+  @media (max-width: 1190px) { nav.top .menu { gap: 18px; } }
+  @media (max-width: 1110px) {
     nav.top .menu > a:not(.cta-btn) { display: none; }
     .nav-more { display: block; }
     nav.top .menu { gap: 10px; flex-shrink: 0; }
@@ -377,7 +382,7 @@
     <a href="blog-index.html">The Pages</a>
     <a href="scratchers/">Live Games</a>
     <a href="numbers/">The Numbers</a>
-    <a href="scratchers/compare-states/">State Showdown</a>
+    <a class="showdown-link" href="scratchers/compare-states/">State Showdown</a>
     <a href="index.html#pricing">Pricing</a>
     <a href="index.html#faq">FAQ</a>
     <details class="nav-more"><summary aria-label="Menu"><span></span></summary><div class="nav-more-list">
@@ -385,7 +390,7 @@
       <a href="blog-index.html">The Pages</a>
       <a href="scratchers/">Live Games</a>
       <a href="numbers/">The Numbers</a>
-      <a href="scratchers/compare-states/">State Showdown</a>
+      <a class="showdown-link" href="scratchers/compare-states/">State Showdown</a>
       <a href="index.html#pricing">Pricing</a>
       <a href="index.html#faq">FAQ</a>
     </div></details>
