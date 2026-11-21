@@ -142,25 +142,30 @@
     position: relative;
     overflow: hidden;
   }
-  .hero::before {
-    content: "🎟️";
-    position: absolute;
-    top: 40px;
-    right: 5%;
-    font-size: 80px;
-    transform: rotate(15deg);
-    opacity: 0.15;
-    pointer-events: none;
+  /* Holiday edition card (Nov 21, 2026): the wreath app icon and what the
+     holiday release added. In the open space right of the headline on wide
+     screens, a strip under the store buttons otherwise. Shown only while the
+     daily build has the Holiday Games link in the bar (Oct 1 to Jan 1). */
+  .holiday-card { display: none; }
+  body:has(nav.top a.holiday-link) .holiday-card { display: flex; }
+  .holiday-card {
+    align-items: center; gap: 16px; margin-top: 28px; max-width: 520px;
+    background: var(--ink); color: #fff9e6; border-radius: 20px; padding: 16px 18px;
+    border: 2px solid var(--ink); box-shadow: 6px 6px 0 var(--yellow);
   }
-  .hero::after {
-    content: "🪦";
-    position: absolute;
-    bottom: 30px;
-    left: 3%;
-    font-size: 60px;
-    transform: rotate(-12deg);
-    opacity: 0.15;
-    pointer-events: none;
+  .holiday-card img { width: 84px; height: 84px; border-radius: 19px; flex: none; display: block; }
+  .holiday-card .hc-kicker { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--yellow); }
+  .holiday-card .hc-title { font-family: var(--display); font-size: 22px; font-weight: 800; line-height: 1.1; margin: 4px 0 6px; }
+  .holiday-card .hc-text { font-size: 14px; line-height: 1.45; color: rgba(255,249,230,0.85); }
+  .holiday-card .hc-note { font-family: var(--mono); font-size: 11px; margin-top: 8px; color: rgba(255,249,230,0.6); }
+  @media (min-width: 1200px) {
+    .holiday-card {
+      position: absolute; top: 84px; right: 30px; width: 272px; margin: 0;
+      flex-direction: column; align-items: flex-start; padding: 22px 22px 20px;
+      transform: rotate(1.5deg);
+    }
+    .holiday-card img { width: 132px; height: 132px; border-radius: 30px; margin-bottom: 4px; }
+    .holiday-card .hc-title { font-size: 26px; }
   }
   .hero .eyebrow {
     display: inline-flex;
@@ -1607,6 +1612,15 @@
     <a class="store-badge gp" href="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-hero"><img src="/scratchers/badges/google-play-badge.png" alt="Get it on Google Play" width="208" height="80" /></a>
   </div>
   <div class="mini-proof">Free to try · <strong>$2.99/mo</strong> premium · 3-day free trial · cancel anytime</div>
+  <div class="holiday-card">
+    <img src="holiday-icon.png" alt="SmartScratcher's holiday app icon: the yellow S inside a wreath with lights" width="132" height="132">
+    <div>
+      <div class="hc-kicker">Holiday edition · out now</div>
+      <div class="hc-title">The app is dressed for the holidays</div>
+      <div class="hc-text">Tap the new tree button to see every holiday scratcher in your state. Six new states, too.</div>
+      <div class="hc-note">Free update · iPhone and Android</div>
+    </div>
+  </div>
 </section>
 
 <!-- BY THE NUMBERS — live totals from our database, rewritten daily by the
