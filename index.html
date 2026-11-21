@@ -1554,6 +1554,20 @@
   .nav-lights .lb3 { animation-delay: 1.8s; }
   @keyframes lights-twinkle { 0%, 55%, 100% { opacity: 1; } 75% { opacity: .35; } }
   @media (prefers-reduced-motion: reduce) { .nav-lights g { animation: none !important; } }
+  /* Pinned app bar on phones. Same bar as site_templates/base.html in the ScratchSmart repo; keep the two alike. Since Nov 21, 2026. */
+  .app-bar { display: none; }
+  @media (max-width: 720px) {
+    .app-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; display: flex; align-items: stretch; background: var(--ink); color: #fff; border-top: 2px solid var(--yellow); padding-bottom: env(safe-area-inset-bottom); }
+    .app-bar[hidden] { display: none; }
+    .app-bar-go { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; padding: 10px 2px 10px 12px; color: #fff; text-decoration: none; }
+    .app-bar-go img { width: 36px; height: 36px; border-radius: 8px; flex: none; }
+    .app-bar-copy { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.25; }
+    .app-bar-copy strong { font-size: 13.5px; font-weight: 700; }
+    .app-bar-copy span { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: #a39e8a; }
+    .app-bar-btn { flex: none; background: var(--yellow); color: var(--ink); font-weight: 800; font-size: 13px; padding: 9px 12px; border-radius: 100px; white-space: nowrap; }
+    .app-bar-x { flex: none; width: 38px; background: none; border: 0; color: #a39e8a; font-size: 22px; line-height: 1; cursor: pointer; }
+    body.has-app-bar { padding-bottom: 62px; }
+  }
 </style>
 </head>
 <body>
@@ -2359,9 +2373,21 @@
 })();
 </script>
 
+<!-- Pinned app bar on phones (720px and under): shows after a little scrolling, steps aside at the final store band, stays closed for a week once closed. Same as site_templates/base.html in the ScratchSmart repo. -->
+<div class="app-bar" id="app-bar" hidden>
+  <a class="app-bar-go" href="https://apps.apple.com/app/apple-store/id6737247458?pt=127399951&amp;ct=web-home-bar&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=com.gamingdatasolutions.smartscratcher&amp;referrer=utm_source%3Dsmartscratcherapp.com%26utm_campaign%3Dweb-home-bar">
+    <img src="/favicon/favicon-96x96.png" alt="" width="36" height="36" />
+    <span class="app-bar-copy"><strong>See which games are worth buying</strong><span>Free to try</span></span>
+    <span class="app-bar-btn">Get the app</span>
+  </a>
+  <button type="button" class="app-bar-x" aria-label="Hide this bar">×</button>
+</div>
+<script>(function(){var b=document.getElementById("app-bar");if(!b||!window.matchMedia("(max-width:720px)").matches)return;var K="app-bar-closed";try{var t=+localStorage.getItem(K);if(t&&Date.now()-t<6048e5)return;}catch(e){}var band=document.querySelector(".final-cta"),near=false,on=false;function set(){var show=window.scrollY>200&&!near;if(show!==on){on=show;b.hidden=!show;document.body.classList.toggle("has-app-bar",show);}}if(band&&"IntersectionObserver"in window)new IntersectionObserver(function(es){near=es[0].isIntersecting;set();}).observe(band);window.addEventListener("scroll",set,{passive:true});set();b.querySelector(".app-bar-x").addEventListener("click",function(){window.removeEventListener("scroll",set);near=true;b.remove();document.body.classList.remove("has-app-bar");try{localStorage.setItem(K,Date.now());}catch(e){}});})();</script>
+
 <!-- AI-referred visits (ChatGPT, Claude, Perplexity, Copilot, Gemini, Meta AI, You.com) get their own store campaign names: web-* becomes ai-*. Same script as site_templates/_ai_ref.html in the ScratchSmart repo; keep the two identical. -->
 <script>(function(){var k="ref-source",p=null,q=null;try{p=sessionStorage.getItem(k)||null;}catch(e){}var m=/[?&]from=([a-z]+)/i.exec(location.search);if(m){var s=m[1].toLowerCase(),t={instagram:"ig",ig:"ig",threads:"ig",facebook:"fb",fb:"fb",youtube:"yt",yt:"yt",ai:"ai"};q=t[s]||"social";}if(!q&&document.referrer){try{var h=new URL(document.referrer).hostname;if(/(^|\.)(chatgpt\.com|openai\.com|claude\.ai|anthropic\.com|perplexity\.ai|copilot\.microsoft\.com|gemini\.google\.com|meta\.ai|you\.com)$/i.test(h))q="ai";else if(/(^|\.)(instagram\.com|threads\.net|threads\.com)$/i.test(h))q="ig";else if(/(^|\.)(facebook\.com|fb\.com|fb\.me|messenger\.com)$/i.test(h))q="fb";else if(/(^|\.)(youtube\.com|youtu\.be)$/i.test(h))q="yt";else if(/(^|\.)(t\.co|twitter\.com|x\.com|reddit\.com|pinterest\.com|linkedin\.com|tiktok\.com|snapchat\.com)$/i.test(h))q="social";}catch(e){}}if(q){try{sessionStorage.setItem(k,q);}catch(e){}}else q=p;if(!q)return;var f=function(u){return u.replace(/([?&]ct=)web-/,"$1"+q+"-").replace(/utm_campaign%3Dweb-/,"utm_campaign%3D"+q+"-");};document.querySelectorAll('a[href*="ct=web-"],a[href*="utm_campaign%3Dweb-"],a[data-play]').forEach(function(a){a.href=f(a.href);if(a.dataset.play)a.dataset.play=f(a.dataset.play);});})();</script>
 <script>document.addEventListener("click",function(e){document.querySelectorAll("details.get-app[open],details.nav-more[open]").forEach(function(d){if(!d.contains(e.target)||(e.target.closest&&e.target.closest(".nav-more-list a")))d.removeAttribute("open");});});</script>
 <script>/* keep the Get the App menu on screen when its button sits near the left edge (phones) */document.addEventListener("toggle",function(e){var d=e.target;if(!d.matches||!d.matches("details.get-app")||!d.open)return;var m=d.querySelector(".get-app-menu");m.style.left="";m.style.right="";if(m.getBoundingClientRect().left<8){m.style.left="0";m.style.right="auto";}},true);</script>
+<script>if(/android/i.test(navigator.userAgent)){document.querySelectorAll("a[data-play]").forEach(function(a){a.href=a.dataset.play;});}</script>
 </body>
 </html>
