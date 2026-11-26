@@ -213,6 +213,16 @@
       "jackpot": 282118,
       "left_pct": 60.4,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 282547,
+      "left_pct": 60.4,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 283046,
+      "left_pct": 60.3,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp169.jpg",
@@ -221,9 +231,19 @@
      "left": 7,
      "start": null,
      "total": 12,
-     "value": 282118
+     "value": 283046
     },
     "jackpot_log": [
+     {
+      "left": 7,
+      "t": "2026-11-26 09:58",
+      "v": 283046
+     },
+     {
+      "left": 7,
+      "t": "2026-11-25 16:25",
+      "v": 282547
+     },
      {
       "left": 7,
       "t": "2026-11-25 09:58",
@@ -356,7 +376,7 @@
     "odds": 2.93,
     "prizes": [
      {
-      "amt": 282118,
+      "amt": 283046,
       "jackpot": true,
       "left": 7,
       "total": 12
@@ -373,50 +393,50 @@
      },
      {
       "amt": 250,
-      "left": 1695,
+      "left": 1692,
       "total": 2800
      },
      {
       "amt": 200,
-      "left": 2537,
+      "left": 2535,
       "total": 4200
      },
      {
       "amt": 100,
-      "left": 5742,
+      "left": 5737,
       "total": 9520
      },
      {
       "amt": 50,
-      "left": 35503,
+      "left": 35478,
       "total": 58800
      },
      {
       "amt": 40,
-      "left": 76063,
+      "left": 76023,
       "total": 126000
      },
      {
       "amt": 25,
-      "left": 81132,
+      "left": 81080,
       "total": 134400
      },
      {
       "amt": 20,
-      "left": 141985,
+      "left": 141896,
       "total": 235200
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 179,
-     "hours": 17.6,
-     "jackpot_change": 470,
+     "biggest_claimed": 250,
+     "claimed": 216,
+     "hours": 17.5,
+     "jackpot_change": 499,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "169-multiplier-mania-progressive",
    "status": "active"
   },
@@ -549,6 +569,16 @@
       "jackpot": 10859,
       "left_pct": 21.7,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 10899,
+      "left_pct": 21.7,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 10958,
+      "left_pct": 21.7,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp171.jpg",
@@ -557,9 +587,19 @@
      "left": 3,
      "start": null,
      "total": 9,
-     "value": 10859
+     "value": 10958
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:58",
+      "v": 10958
+     },
+     {
+      "left": 3,
+      "t": "2026-11-25 16:25",
+      "v": 10899
+     },
      {
       "left": 3,
       "t": "2026-11-25 09:58",
@@ -692,7 +732,7 @@
     "odds": 3.92,
     "prizes": [
      {
-      "amt": 10859,
+      "amt": 10958,
       "jackpot": true,
       "left": 3,
       "total": 9
@@ -709,35 +749,35 @@
      },
      {
       "amt": 20,
-      "left": 1875,
+      "left": 1872,
       "total": 8640
      },
      {
       "amt": 10,
-      "left": 6462,
+      "left": 6446,
       "total": 29760
      },
      {
       "amt": 4,
-      "left": 13350,
+      "left": 13309,
       "total": 61440
      },
      {
       "amt": 2,
-      "left": 31285,
+      "left": 31190,
       "total": 144000
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 121,
-     "hours": 17.6,
-     "jackpot_change": 40,
+     "biggest_claimed": 20,
+     "claimed": 155,
+     "hours": 17.5,
+     "jackpot_change": 59,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "171-lucky-gems-progressive",
    "status": "active"
   },
@@ -870,6 +910,16 @@
       "jackpot": 10000,
       "left_pct": 34.9,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 34.9,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 34.8,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp175.jpg",
@@ -887,7 +937,7 @@
      },
      {
       "amt": 250,
-      "left": 122,
+      "left": 121,
       "total": 360
      },
      {
@@ -897,45 +947,45 @@
      },
      {
       "amt": 100,
-      "left": 393,
+      "left": 392,
       "total": 1136
      },
      {
       "amt": 50,
-      "left": 3458,
+      "left": 3447,
       "total": 9920
      },
      {
       "amt": 25,
-      "left": 5358,
+      "left": 5345,
       "total": 15360
      },
      {
       "amt": 20,
-      "left": 10048,
+      "left": 10021,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 18423,
+      "left": 18372,
       "total": 52800
      },
      {
       "amt": 5,
-      "left": 60293,
+      "left": 60127,
       "total": 172800
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 191,
-     "hours": 17.6,
+     "biggest_claimed": 250,
+     "claimed": 270,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "175-monopoly",
    "status": "active"
   },
@@ -1068,6 +1118,16 @@
       "jackpot": 500,
       "left_pct": 36.4,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 36.4,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 36.3,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp178.jpg",
@@ -1095,45 +1155,45 @@
      },
      {
       "amt": 50,
-      "left": 328,
+      "left": 326,
       "total": 900
      },
      {
       "amt": 20,
-      "left": 1181,
+      "left": 1177,
       "total": 3240
      },
      {
       "amt": 10,
-      "left": 3932,
+      "left": 3921,
       "total": 10800
      },
      {
       "amt": 5,
-      "left": 7865,
+      "left": 7844,
       "total": 21600
      },
      {
       "amt": 2,
-      "left": 25558,
+      "left": 25490,
       "total": 70200
      },
      {
       "amt": 1,
-      "left": 55844,
+      "left": 55691,
       "total": 153360
      }
     ],
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 232,
-     "hours": 17.6,
+     "biggest_claimed": 50,
+     "claimed": 259,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "178-cash-connect",
    "status": "active"
   },
@@ -1266,6 +1326,16 @@
       "jackpot": 513002,
       "left_pct": 73.1,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 513794,
+      "left_pct": 73.1,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 514565,
+      "left_pct": 73.0,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp179.jpg",
@@ -1274,9 +1344,19 @@
      "left": 6,
      "start": 500453,
      "total": 10,
-     "value": 513002
+     "value": 514565
     },
     "jackpot_log": [
+     {
+      "left": 6,
+      "t": "2026-11-26 09:58",
+      "v": 514565
+     },
+     {
+      "left": 6,
+      "t": "2026-11-25 16:25",
+      "v": 513794
+     },
      {
       "left": 6,
       "t": "2026-11-25 09:58",
@@ -1409,7 +1489,7 @@
     "odds": 2.59,
     "prizes": [
      {
-      "amt": 513002,
+      "amt": 514565,
       "jackpot": true,
       "left": 6,
       "total": 10
@@ -1426,45 +1506,45 @@
      },
      {
       "amt": 500,
-      "left": 2222,
+      "left": 2220,
       "total": 3040
      },
      {
       "amt": 200,
-      "left": 5146,
+      "left": 5144,
       "total": 7040
      },
      {
       "amt": 100,
-      "left": 28058,
+      "left": 28049,
       "total": 38400
      },
      {
       "amt": 50,
-      "left": 70149,
+      "left": 70122,
       "total": 96000
      },
      {
       "amt": 40,
-      "left": 147314,
+      "left": 147256,
       "total": 201600
      },
      {
       "amt": 30,
-      "left": 287612,
+      "left": 287502,
       "total": 393600
      }
     ],
     "since": {
      "biggest_claimed": 500,
-     "claimed": 146,
-     "hours": 17.6,
-     "jackpot_change": 696,
+     "claimed": 208,
+     "hours": 17.5,
+     "jackpot_change": 771,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "179-arizona-gold-rush-progressive",
    "status": "active"
   },
@@ -1597,12 +1677,22 @@
       "jackpot": 100000,
       "left_pct": 51.5,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 51.5,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 51.4,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp180.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 52,
+    "left_pct": 51,
     "n": "180",
     "name": "Big Bankroll",
     "odds": 3.23,
@@ -1619,50 +1709,50 @@
      },
      {
       "amt": 200,
-      "left": 617,
+      "left": 615,
       "total": 1200
      },
      {
       "amt": 100,
-      "left": 3711,
+      "left": 3703,
       "total": 7200
      },
      {
       "amt": 50,
-      "left": 4944,
+      "left": 4940,
       "total": 9600
      },
      {
       "amt": 40,
-      "left": 9891,
+      "left": 9878,
       "total": 19200
      },
      {
       "amt": 25,
-      "left": 19784,
+      "left": 19751,
       "total": 38400
      },
      {
       "amt": 20,
-      "left": 44510,
+      "left": 44441,
       "total": 86400
      },
      {
       "amt": 10,
-      "left": 69235,
+      "left": 69138,
       "total": 134400
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 198,
-     "hours": 17.6,
+     "biggest_claimed": 200,
+     "claimed": 226,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "180-big-bankroll",
    "status": "active"
   },
@@ -1795,6 +1885,16 @@
       "jackpot": 5000,
       "left_pct": 41.8,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 41.8,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 41.7,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp181.jpg",
@@ -1822,50 +1922,50 @@
      },
      {
       "amt": 100,
-      "left": 335,
+      "left": 334,
       "total": 800
      },
      {
       "amt": 50,
-      "left": 835,
+      "left": 834,
       "total": 2000
      },
      {
       "amt": 20,
-      "left": 4008,
+      "left": 4001,
       "total": 9600
      },
      {
       "amt": 10,
-      "left": 8017,
+      "left": 8004,
       "total": 19200
      },
      {
       "amt": 5,
-      "left": 14035,
+      "left": 14004,
       "total": 33600
      },
      {
       "amt": 4,
-      "left": 18040,
+      "left": 18008,
       "total": 43200
      },
      {
       "amt": 2,
-      "left": 56130,
+      "left": 56017,
       "total": 134400
      }
     ],
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 161,
-     "hours": 17.6,
+     "biggest_claimed": 100,
+     "claimed": 198,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "181-double-win",
    "status": "active"
   },
@@ -1998,6 +2098,16 @@
       "jackpot": 5360,
       "left_pct": 45.0,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 5400,
+      "left_pct": 45.0,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 5448,
+      "left_pct": 44.9,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp182.jpg",
@@ -2006,9 +2116,19 @@
      "left": 4,
      "start": 5026,
      "total": 10,
-     "value": 5360
+     "value": 5448
     },
     "jackpot_log": [
+     {
+      "left": 4,
+      "t": "2026-11-26 09:58",
+      "v": 5448
+     },
+     {
+      "left": 4,
+      "t": "2026-11-25 16:25",
+      "v": 5400
+     },
      {
       "left": 4,
       "t": "2026-11-25 09:58",
@@ -2141,7 +2261,7 @@
     "odds": 3.89,
     "prizes": [
      {
-      "amt": 5360,
+      "amt": 5448,
       "jackpot": true,
       "left": 4,
       "total": 10
@@ -2158,40 +2278,40 @@
      },
      {
       "amt": 50,
-      "left": 271,
+      "left": 270,
       "total": 600
      },
      {
       "amt": 20,
-      "left": 4755,
+      "left": 4748,
       "total": 10560
      },
      {
       "amt": 10,
-      "left": 13406,
+      "left": 13375,
       "total": 29760
      },
      {
       "amt": 4,
-      "left": 27668,
+      "left": 27610,
       "total": 61440
      },
      {
       "amt": 2,
-      "left": 64858,
+      "left": 64727,
       "total": 144000
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 172,
-     "hours": 17.6,
-     "jackpot_change": 38,
+     "biggest_claimed": 50,
+     "claimed": 228,
+     "hours": 17.5,
+     "jackpot_change": 48,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "182-money-vault-progressive",
    "status": "active"
   },
@@ -2324,6 +2444,16 @@
       "jackpot": 32436,
       "left_pct": 39.6,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 32561,
+      "left_pct": 39.6,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 32734,
+      "left_pct": 39.5,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp183.jpg",
@@ -2332,9 +2462,19 @@
      "left": 2,
      "start": null,
      "total": 6,
-     "value": 32436
+     "value": 32734
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-11-26 09:58",
+      "v": 32734
+     },
+     {
+      "left": 2,
+      "t": "2026-11-25 16:25",
+      "v": 32561
+     },
      {
       "left": 2,
       "t": "2026-11-25 09:58",
@@ -2461,13 +2601,13 @@
       "v": 29614
      }
     ],
-    "left_pct": 40,
+    "left_pct": 39,
     "n": "183",
     "name": "Double Money Vault Progressive",
     "odds": 3.38,
     "prizes": [
      {
-      "amt": 32436,
+      "amt": 32734,
       "jackpot": true,
       "left": 2,
       "total": 6
@@ -2484,7 +2624,7 @@
      },
      {
       "amt": 200,
-      "left": 156,
+      "left": 155,
       "total": 400
      },
      {
@@ -2494,40 +2634,40 @@
      },
      {
       "amt": 50,
-      "left": 1033,
+      "left": 1031,
       "total": 2600
      },
      {
       "amt": 25,
-      "left": 7602,
+      "left": 7583,
       "total": 19200
      },
      {
       "amt": 20,
-      "left": 11404,
+      "left": 11372,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 23564,
+      "left": 23513,
       "total": 59520
      },
      {
       "amt": 5,
-      "left": 68413,
+      "left": 68254,
       "total": 172800
      }
     ],
     "since": {
      "biggest_claimed": 200,
-     "claimed": 199,
-     "hours": 17.6,
-     "jackpot_change": 131,
+     "claimed": 264,
+     "hours": 17.5,
+     "jackpot_change": 173,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "183-double-money-vault-progressive",
    "status": "active"
   },
@@ -2660,6 +2800,16 @@
       "jackpot": 135918,
       "left_pct": 55.1,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 136398,
+      "left_pct": 55.1,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 136931,
+      "left_pct": 54.9,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp184.jpg",
@@ -2668,9 +2818,19 @@
      "left": 3,
      "start": null,
      "total": 5,
-     "value": 135918
+     "value": 136931
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:58",
+      "v": 136931
+     },
+     {
+      "left": 3,
+      "t": "2026-11-25 16:25",
+      "v": 136398
+     },
      {
       "left": 3,
       "t": "2026-11-25 09:58",
@@ -2803,57 +2963,57 @@
     "odds": 3.27,
     "prizes": [
      {
-      "amt": 135918,
+      "amt": 136931,
       "jackpot": true,
       "left": 3,
       "total": 5
      },
      {
       "amt": 900,
-      "left": 160,
+      "left": 159,
       "total": 300
      },
      {
       "amt": 300,
-      "left": 1433,
+      "left": 1429,
       "total": 2600
      },
      {
       "amt": 100,
-      "left": 2207,
+      "left": 2203,
       "total": 4000
      },
      {
       "amt": 60,
-      "left": 6607,
+      "left": 6593,
       "total": 12000
      },
      {
       "amt": 30,
-      "left": 26426,
+      "left": 26374,
       "total": 48000
      },
      {
       "amt": 20,
-      "left": 59460,
+      "left": 59343,
       "total": 108000
      },
      {
       "amt": 10,
-      "left": 105711,
+      "left": 105487,
       "total": 192000
      }
     ],
     "since": {
-     "biggest_claimed": 300,
-     "claimed": 339,
-     "hours": 17.6,
-     "jackpot_change": 470,
+     "biggest_claimed": 900,
+     "claimed": 416,
+     "hours": 17.5,
+     "jackpot_change": 533,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "184-triple-money-vault-progressive",
    "status": "active"
   },
@@ -2986,6 +3146,16 @@
       "jackpot": 1000,
       "left_pct": 45.3,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 1000,
+      "left_pct": 45.3,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 1000,
+      "left_pct": 45.2,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp185.jpg",
@@ -3008,45 +3178,45 @@
      },
      {
       "amt": 50,
-      "left": 450,
+      "left": 449,
       "total": 990
      },
      {
       "amt": 20,
-      "left": 490,
+      "left": 489,
       "total": 1080
      },
      {
       "amt": 10,
-      "left": 3918,
+      "left": 3906,
       "total": 8640
      },
      {
       "amt": 5,
-      "left": 19589,
+      "left": 19547,
       "total": 43200
      },
      {
       "amt": 2,
-      "left": 24485,
+      "left": 24423,
       "total": 54000
      },
      {
       "amt": 1,
-      "left": 63655,
+      "left": 63520,
       "total": 140400
      }
     ],
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 231,
-     "hours": 17.6,
+     "biggest_claimed": 50,
+     "claimed": 253,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "185-sunny-money",
    "status": "active"
   },
@@ -3179,6 +3349,16 @@
       "jackpot": 7000,
       "left_pct": 62.3,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 7000,
+      "left_pct": 62.3,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 7000,
+      "left_pct": 62.3,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp187.jpg",
@@ -3206,60 +3386,60 @@
      },
      {
       "amt": 100,
-      "left": 499,
+      "left": 498,
       "total": 800
      },
      {
       "amt": 50,
-      "left": 999,
+      "left": 997,
       "total": 1600
      },
      {
       "amt": 30,
-      "left": 1198,
+      "left": 1196,
       "total": 1920
      },
      {
       "amt": 20,
-      "left": 6582,
+      "left": 6574,
       "total": 10560
      },
      {
       "amt": 10,
-      "left": 8975,
+      "left": 8966,
       "total": 14400
      },
      {
       "amt": 5,
-      "left": 11968,
+      "left": 11959,
       "total": 19200
      },
      {
       "amt": 4,
-      "left": 14961,
+      "left": 14944,
       "total": 24000
      },
      {
       "amt": 3,
-      "left": 26925,
+      "left": 26901,
       "total": 43200
      },
      {
       "amt": 2,
-      "left": 80789,
+      "left": 80699,
       "total": 129600
      }
     ],
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 108,
-     "hours": 17.6,
+     "biggest_claimed": 100,
+     "claimed": 162,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "187-match-for-cash",
    "status": "active"
   },
@@ -3392,6 +3572,16 @@
       "jackpot": 5000,
       "left_pct": 47.8,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 47.8,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 47.8,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp189.jpg",
@@ -3451,13 +3641,13 @@
     "since": {
      "biggest_claimed": null,
      "claimed": 0,
-     "hours": 17.6,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "189-fast-cash-bingo",
    "status": "active"
   },
@@ -3590,6 +3780,16 @@
       "jackpot": 45612,
       "left_pct": 43.8,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 46112,
+      "left_pct": 43.8,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 46713,
+      "left_pct": 43.7,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp192.jpg",
@@ -3598,9 +3798,19 @@
      "left": 2,
      "start": null,
      "total": 5,
-     "value": 45612
+     "value": 46713
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-11-26 09:58",
+      "v": 46713
+     },
+     {
+      "left": 2,
+      "t": "2026-11-25 16:25",
+      "v": 46112
+     },
      {
       "left": 2,
       "t": "2026-11-25 09:58",
@@ -3733,14 +3943,14 @@
     "odds": 3.1,
     "prizes": [
      {
-      "amt": 45612,
+      "amt": 46713,
       "jackpot": true,
       "left": 2,
       "total": 5
      },
      {
       "amt": 1000,
-      "left": 138,
+      "left": 137,
       "total": 300
      },
      {
@@ -3750,45 +3960,45 @@
      },
      {
       "amt": 150,
-      "left": 439,
+      "left": 438,
       "total": 1000
      },
      {
       "amt": 100,
-      "left": 659,
+      "left": 656,
       "total": 1500
      },
      {
       "amt": 50,
-      "left": 13141,
+      "left": 13099,
       "total": 30000
      },
      {
       "amt": 30,
-      "left": 23654,
+      "left": 23570,
       "total": 54000
      },
      {
       "amt": 20,
-      "left": 42054,
+      "left": 41899,
       "total": 96000
      },
      {
       "amt": 10,
-      "left": 89365,
+      "left": 89048,
       "total": 204000
      }
     ],
     "since": {
      "biggest_claimed": 1000,
-     "claimed": 492,
-     "hours": 17.6,
-     "jackpot_change": 444,
+     "claimed": 603,
+     "hours": 17.5,
+     "jackpot_change": 601,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "192-triple-red-7s-progressive",
    "status": "active"
   },
@@ -3921,6 +4131,16 @@
       "jackpot": 500,
       "left_pct": 27.4,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 27.4,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 27.1,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp193.jpg",
@@ -3933,30 +4153,30 @@
     "prizes": [
      {
       "amt": 500,
-      "left": 987,
+      "left": 976,
       "total": 3600
      },
      {
       "amt": 200,
-      "left": 1642,
+      "left": 1625,
       "total": 6000
      },
      {
       "amt": 100,
-      "left": 41096,
+      "left": 40689,
       "total": 150000
      }
     ],
     "since": {
      "biggest_claimed": 500,
-     "claimed": 345,
-     "hours": 17.6,
+     "claimed": 435,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "193-100-200-500-blowout",
    "status": "active"
   },
@@ -4089,12 +4309,22 @@
       "jackpot": 10000,
       "left_pct": 80.5,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 80.5,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 80.5,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp196.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 81,
+    "left_pct": 80,
     "n": "196",
     "name": "Slingo",
     "odds": 3.38,
@@ -4116,7 +4346,7 @@
      },
      {
       "amt": 200,
-      "left": 219,
+      "left": 218,
       "total": 270
      },
      {
@@ -4131,45 +4361,45 @@
      },
      {
       "amt": 50,
-      "left": 4350,
+      "left": 4346,
       "total": 5400
      },
      {
       "amt": 25,
-      "left": 7830,
+      "left": 7826,
       "total": 9720
      },
      {
       "amt": 20,
-      "left": 26099,
+      "left": 26080,
       "total": 32400
      },
      {
       "amt": 15,
-      "left": 34793,
+      "left": 34772,
       "total": 43200
      },
      {
       "amt": 10,
-      "left": 52190,
+      "left": 52157,
       "total": 64800
      },
      {
       "amt": 5,
-      "left": 130487,
+      "left": 130397,
       "total": 162000
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 181,
-     "hours": 17.6,
+     "biggest_claimed": 200,
+     "claimed": 172,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "196-slingo",
    "status": "active"
   },
@@ -4302,6 +4532,16 @@
       "jackpot": 261442,
       "left_pct": 77.6,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 262114,
+      "left_pct": 77.6,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 262872,
+      "left_pct": 77.6,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp198.jpg",
@@ -4310,9 +4550,19 @@
      "left": 9,
      "start": null,
      "total": 10,
-     "value": 261442
+     "value": 262872
     },
     "jackpot_log": [
+     {
+      "left": 9,
+      "t": "2026-11-26 09:58",
+      "v": 262872
+     },
+     {
+      "left": 9,
+      "t": "2026-11-25 16:25",
+      "v": 262114
+     },
      {
       "left": 9,
       "t": "2026-11-25 09:58",
@@ -4445,7 +4695,7 @@
     "odds": 2.93,
     "prizes": [
      {
-      "amt": 261442,
+      "amt": 262872,
       "jackpot": true,
       "left": 9,
       "total": 10
@@ -4457,55 +4707,55 @@
      },
      {
       "amt": 500,
-      "left": 1085,
+      "left": 1084,
       "total": 1400
      },
      {
       "amt": 250,
-      "left": 2177,
+      "left": 2175,
       "total": 2800
      },
      {
       "amt": 200,
-      "left": 3262,
+      "left": 3261,
       "total": 4200
      },
      {
       "amt": 100,
-      "left": 7389,
+      "left": 7384,
       "total": 9520
      },
      {
       "amt": 50,
-      "left": 45661,
+      "left": 45634,
       "total": 58800
      },
      {
       "amt": 40,
-      "left": 97840,
+      "left": 97780,
       "total": 126000
      },
      {
       "amt": 25,
-      "left": 104360,
+      "left": 104302,
       "total": 134400
      },
      {
       "amt": 20,
-      "left": 182628,
+      "left": 182526,
       "total": 235200
      }
     ],
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 211,
-     "hours": 17.6,
-     "jackpot_change": 692,
+     "biggest_claimed": 500,
+     "claimed": 256,
+     "hours": 17.5,
+     "jackpot_change": 758,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "198-jumbo-bucks-progressive",
    "status": "active"
   },
@@ -4638,6 +4888,16 @@
       "jackpot": 1776,
       "left_pct": 37.0,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 1776,
+      "left_pct": 37.0,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 1776,
+      "left_pct": 36.7,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp199.jpg",
@@ -4660,40 +4920,40 @@
      },
      {
       "amt": 50,
-      "left": 133,
+      "left": 132,
       "total": 360
      },
      {
       "amt": 20,
-      "left": 1066,
+      "left": 1056,
       "total": 2880
      },
      {
       "amt": 5,
-      "left": 2661,
+      "left": 2642,
       "total": 7200
      },
      {
       "amt": 2,
-      "left": 8648,
+      "left": 8580,
       "total": 23400
      },
      {
       "amt": 1,
-      "left": 18891,
+      "left": 18749,
       "total": 51120
      }
     ],
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 178,
-     "hours": 17.6,
+     "biggest_claimed": 50,
+     "claimed": 240,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "199-stars-and-stripes",
    "status": "active"
   },
@@ -4826,6 +5086,16 @@
       "jackpot": 103305,
       "left_pct": 93.7,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 103529,
+      "left_pct": 93.7,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 103791,
+      "left_pct": 93.6,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp200.jpg",
@@ -4834,9 +5104,19 @@
      "left": 5,
      "start": null,
      "total": 5,
-     "value": 103305
+     "value": 103791
     },
     "jackpot_log": [
+     {
+      "left": 5,
+      "t": "2026-11-26 09:58",
+      "v": 103791
+     },
+     {
+      "left": 5,
+      "t": "2026-11-25 16:25",
+      "v": 103529
+     },
      {
       "left": 5,
       "t": "2026-11-25 09:58",
@@ -4969,57 +5249,57 @@
     "odds": 3.21,
     "prizes": [
      {
-      "amt": 103305,
+      "amt": 103791,
       "jackpot": true,
       "left": 5,
       "total": 5
      },
      {
       "amt": 1000,
-      "left": 281,
+      "left": 280,
       "total": 300
      },
      {
       "amt": 250,
-      "left": 2436,
+      "left": 2434,
       "total": 2600
      },
      {
       "amt": 100,
-      "left": 4688,
+      "left": 4686,
       "total": 5000
      },
      {
       "amt": 50,
-      "left": 16858,
+      "left": 16847,
       "total": 18000
      },
      {
       "amt": 30,
-      "left": 33717,
+      "left": 33697,
       "total": 36000
      },
      {
       "amt": 20,
-      "left": 112395,
+      "left": 112319,
       "total": 120000
      },
      {
       "amt": 10,
-      "left": 179829,
+      "left": 179722,
       "total": 192000
      }
     ],
     "since": {
-     "biggest_claimed": 250,
-     "claimed": 176,
-     "hours": 17.6,
-     "jackpot_change": 242,
+     "biggest_claimed": 1000,
+     "claimed": 219,
+     "hours": 17.5,
+     "jackpot_change": 262,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "200-crossword-jackpot-progressive",
    "status": "active"
   },
@@ -5152,6 +5432,16 @@
       "jackpot": 500,
       "left_pct": 86.7,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 86.7,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 86.6,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp201.jpg",
@@ -5174,45 +5464,45 @@
      },
      {
       "amt": 50,
-      "left": 866,
+      "left": 864,
       "total": 1000
      },
      {
       "amt": 20,
-      "left": 5200,
+      "left": 5194,
       "total": 6000
      },
      {
       "amt": 10,
-      "left": 10400,
+      "left": 10389,
       "total": 12000
      },
      {
       "amt": 5,
-      "left": 23396,
+      "left": 23378,
       "total": 27000
      },
      {
       "amt": 4,
-      "left": 25995,
+      "left": 25982,
       "total": 30000
      },
      {
       "amt": 2,
-      "left": 72800,
+      "left": 72749,
       "total": 84000
      }
     ],
     "since": {
      "biggest_claimed": 50,
-     "claimed": 82,
-     "hours": 17.6,
+     "claimed": 101,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "201-goal-for-cash",
    "status": "active"
   },
@@ -5345,6 +5635,16 @@
       "jackpot": 50044,
       "left_pct": 81.3,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 50474,
+      "left_pct": 81.3,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 50913,
+      "left_pct": 81.1,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp202.jpg",
@@ -5353,9 +5653,19 @@
      "left": 9,
      "start": null,
      "total": 10,
-     "value": 50044
+     "value": 50913
     },
     "jackpot_log": [
+     {
+      "left": 9,
+      "t": "2026-11-26 09:58",
+      "v": 50913
+     },
+     {
+      "left": 9,
+      "t": "2026-11-25 16:25",
+      "v": 50474
+     },
      {
       "left": 9,
       "t": "2026-11-25 09:58",
@@ -5488,7 +5798,7 @@
     "odds": 3.49,
     "prizes": [
      {
-      "amt": 50044,
+      "amt": 50913,
       "jackpot": true,
       "left": 9,
       "total": 10
@@ -5515,55 +5825,55 @@
      },
      {
       "amt": 200,
-      "left": 391,
+      "left": 390,
       "total": 480
      },
      {
       "amt": 140,
-      "left": 583,
+      "left": 582,
       "total": 720
      },
      {
       "amt": 100,
-      "left": 1024,
+      "left": 1022,
       "total": 1260
      },
      {
       "amt": 70,
-      "left": 3511,
+      "left": 3503,
       "total": 4320
      },
      {
       "amt": 35,
-      "left": 29263,
+      "left": 29186,
       "total": 36000
      },
      {
       "amt": 20,
-      "left": 2340,
+      "left": 2336,
       "total": 2880
      },
      {
       "amt": 10,
-      "left": 79582,
+      "left": 79378,
       "total": 97920
      },
      {
       "amt": 5,
-      "left": 218851,
+      "left": 218300,
       "total": 269280
      }
     ],
     "since": {
      "biggest_claimed": 200,
-     "claimed": 693,
-     "hours": 17.6,
-     "jackpot_change": 416,
+     "claimed": 848,
+     "hours": 17.5,
+     "jackpot_change": 439,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "202-xtreme-multiplier-progressive",
    "status": "active"
   },
@@ -5696,6 +6006,16 @@
       "jackpot": 2000,
       "left_pct": 80.2,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 2000,
+      "left_pct": 80.2,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 2000,
+      "left_pct": 80.0,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp204.jpg",
@@ -5723,30 +6043,30 @@
      },
      {
       "amt": 20,
-      "left": 15393,
+      "left": 15356,
       "total": 19200
      },
      {
       "amt": 2,
-      "left": 57721,
+      "left": 57590,
       "total": 72000
      },
      {
       "amt": 1,
-      "left": 139499,
+      "left": 139180,
       "total": 174000
      }
     ],
     "since": {
      "biggest_claimed": 20,
-     "claimed": 424,
-     "hours": 17.6,
+     "claimed": 487,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "204-20-on-the-spot",
    "status": "active"
   },
@@ -5879,6 +6199,16 @@
       "jackpot": 5000,
       "left_pct": 81.1,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 81.1,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 5000,
+      "left_pct": 80.7,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp205.jpg",
@@ -5891,7 +6221,7 @@
     "prizes": [
      {
       "amt": 5000,
-      "left": 2,
+      "left": 1,
       "total": 2
      },
      {
@@ -5906,45 +6236,45 @@
      },
      {
       "amt": 100,
-      "left": 209,
+      "left": 208,
       "total": 260
      },
      {
       "amt": 50,
-      "left": 482,
+      "left": 480,
       "total": 600
      },
      {
       "amt": 20,
-      "left": 3893,
+      "left": 3873,
       "total": 4800
      },
      {
       "amt": 10,
-      "left": 7787,
+      "left": 7749,
       "total": 9600
      },
      {
       "amt": 5,
-      "left": 33088,
+      "left": 32923,
       "total": 40800
      },
      {
       "amt": 2,
-      "left": 54507,
+      "left": 54226,
       "total": 67200
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 388,
-     "hours": 17.6,
+     "biggest_claimed": 5000,
+     "claimed": 508,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "205-winter-fast-cash-bingo",
    "status": "active"
   },
@@ -6077,6 +6407,16 @@
       "jackpot": 1000,
       "left_pct": 83.3,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 1000,
+      "left_pct": 83.3,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 1000,
+      "left_pct": 82.9,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp206.jpg",
@@ -6089,55 +6429,55 @@
     "prizes": [
      {
       "amt": 1000,
-      "left": 310,
+      "left": 308,
       "total": 372
      },
      {
       "amt": 200,
-      "left": 498,
+      "left": 496,
       "total": 600
      },
      {
       "amt": 100,
-      "left": 999,
+      "left": 996,
       "total": 1200
      },
      {
       "amt": 50,
-      "left": 2997,
+      "left": 2982,
       "total": 3600
      },
      {
       "amt": 40,
-      "left": 5997,
+      "left": 5968,
       "total": 7200
      },
      {
       "amt": 25,
-      "left": 11990,
+      "left": 11938,
       "total": 14400
      },
      {
       "amt": 20,
-      "left": 26973,
+      "left": 26857,
       "total": 32400
      },
      {
       "amt": 10,
-      "left": 41968,
+      "left": 41784,
       "total": 50400
      }
     ],
     "since": {
      "biggest_claimed": 1000,
-     "claimed": 336,
-     "hours": 17.6,
+     "claimed": 403,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "206-holiday-blowout",
    "status": "active"
   },
@@ -6270,6 +6610,16 @@
       "jackpot": 30000,
       "left_pct": 96.4,
       "t": "2026-11-25 09:58"
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 96.4,
+      "t": "2026-11-25 16:25"
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 96.2,
+      "t": "2026-11-26 09:58"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/az/fp207.jpg",
@@ -6297,55 +6647,55 @@
      },
      {
       "amt": 150,
-      "left": 231,
+      "left": 230,
       "total": 240
      },
      {
       "amt": 100,
-      "left": 911,
+      "left": 909,
       "total": 944
      },
      {
       "amt": 50,
-      "left": 4628,
+      "left": 4620,
       "total": 4800
      },
      {
       "amt": 25,
-      "left": 8332,
+      "left": 8316,
       "total": 8640
      },
      {
       "amt": 20,
-      "left": 27765,
+      "left": 27719,
       "total": 28800
      },
      {
       "amt": 15,
-      "left": 37022,
+      "left": 36956,
       "total": 38400
      },
      {
       "amt": 10,
-      "left": 55533,
+      "left": 55437,
       "total": 57600
      },
      {
       "amt": 5,
-      "left": 138836,
+      "left": 138596,
       "total": 144000
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 370,
-     "hours": 17.6,
+     "biggest_claimed": 150,
+     "claimed": 475,
+     "hours": 17.5,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:25"
+     "t": "2026-11-25 16:25"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "207-prize-pyramid",
    "status": "active"
   }
@@ -6880,6 +7230,16 @@
       "jackpot": 1500,
       "left_pct": 46.6,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 1500,
+      "left_pct": 46.6,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 1500,
+      "left_pct": 46.6,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp850.jpg",
@@ -6907,40 +7267,40 @@
      },
      {
       "amt": 20,
-      "left": 448,
+      "left": 447,
       "total": 960
      },
      {
       "amt": 10,
-      "left": 1344,
+      "left": 1342,
       "total": 2880
      },
      {
       "amt": 5,
-      "left": 8956,
+      "left": 8953,
       "total": 19200
      },
      {
       "amt": 2,
-      "left": 71639,
+      "left": 71610,
       "total": 153600
      },
      {
       "amt": 1,
-      "left": 49252,
+      "left": 49230,
       "total": 105600
      }
     ],
     "since": {
-     "biggest_claimed": 5,
-     "claimed": 60,
+     "biggest_claimed": 20,
+     "claimed": 57,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "850-piggy-bank-bucks",
    "status": "active"
   },
@@ -7473,6 +7833,16 @@
       "jackpot": 2500,
       "left_pct": 70.7,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 70.7,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 70.7,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp851.jpg",
@@ -7525,35 +7895,35 @@
      },
      {
       "amt": 10,
-      "left": 13578,
+      "left": 13575,
       "total": 19200
      },
      {
       "amt": 5,
-      "left": 33945,
+      "left": 33935,
       "total": 48000
      },
      {
       "amt": 4,
-      "left": 61102,
+      "left": 61091,
       "total": 86400
      },
      {
       "amt": 2,
-      "left": 74749,
+      "left": 74729,
       "total": 105600
      }
     ],
     "since": {
      "biggest_claimed": 10,
-     "claimed": 34,
+     "claimed": 44,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "851-buckets-of-cash",
    "status": "active"
   },
@@ -8086,6 +8456,16 @@
       "jackpot": 2500,
       "left_pct": 77.4,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 77.4,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 77.4,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp852.jpg",
@@ -8138,35 +8518,35 @@
      },
      {
       "amt": 10,
-      "left": 14862,
+      "left": 14860,
       "total": 19200
      },
      {
       "amt": 5,
-      "left": 44597,
+      "left": 44589,
       "total": 57600
      },
      {
       "amt": 3,
-      "left": 59452,
+      "left": 59448,
       "total": 76800
      },
      {
       "amt": 2,
-      "left": 81753,
+      "left": 81736,
       "total": 105600
      }
     ],
     "since": {
-     "biggest_claimed": 15,
-     "claimed": 21,
+     "biggest_claimed": 10,
+     "claimed": 31,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "852-lucky-gems",
    "status": "active"
   },
@@ -8699,6 +9079,16 @@
       "jackpot": 25000,
       "left_pct": 67.0,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 67.0,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 67.0,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp853.jpg",
@@ -8751,35 +9141,35 @@
      },
      {
       "amt": 50,
-      "left": 6440,
+      "left": 6439,
       "total": 10500
      },
      {
       "amt": 20,
-      "left": 7250,
+      "left": 7247,
       "total": 10800
      },
      {
       "amt": 10,
-      "left": 25332,
+      "left": 25324,
       "total": 37200
      },
      {
       "amt": 5,
-      "left": 72429,
+      "left": 72403,
       "total": 108000
      }
     ],
     "since": {
-     "biggest_claimed": 125,
-     "claimed": 21,
+     "biggest_claimed": 50,
+     "claimed": 38,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "853-loaded-doubler",
    "status": "active"
   },
@@ -9312,6 +9702,16 @@
       "jackpot": 25000,
       "left_pct": 61.9,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 61.9,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 61.9,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp854.jpg",
@@ -9344,50 +9744,50 @@
      },
      {
       "amt": 100,
-      "left": 666,
+      "left": 665,
       "total": 1350
      },
      {
       "amt": 50,
-      "left": 3094,
+      "left": 3092,
       "total": 6250
      },
      {
       "amt": 30,
-      "left": 8532,
+      "left": 8531,
       "total": 12000
      },
      {
       "amt": 20,
-      "left": 6674,
+      "left": 6673,
       "total": 10800
      },
      {
       "amt": 15,
-      "left": 3710,
+      "left": 3709,
       "total": 6000
      },
      {
       "amt": 10,
-      "left": 18534,
+      "left": 18528,
       "total": 30000
      },
      {
       "amt": 5,
-      "left": 63067,
+      "left": 63053,
       "total": 102000
      }
     ],
     "since": {
-     "biggest_claimed": 30,
+     "biggest_claimed": 100,
      "claimed": 26,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "854-crazy-wild-cash",
    "status": "active"
   },
@@ -9920,6 +10320,16 @@
       "jackpot": 25000,
       "left_pct": 53.3,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 53.3,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 53.3,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp855.jpg",
@@ -9947,45 +10357,45 @@
      },
      {
       "amt": 100,
-      "left": 739,
+      "left": 737,
       "total": 1725
      },
      {
       "amt": 50,
-      "left": 3657,
+      "left": 3654,
       "total": 7125
      },
      {
       "amt": 25,
-      "left": 10567,
+      "left": 10564,
       "total": 19500
      },
      {
       "amt": 15,
-      "left": 1923,
+      "left": 1921,
       "total": 3600
      },
      {
       "amt": 10,
-      "left": 19216,
+      "left": 19206,
       "total": 36000
      },
      {
       "amt": 5,
-      "left": 54438,
+      "left": 54408,
       "total": 102000
      }
     ],
     "since": {
-     "biggest_claimed": 25,
-     "claimed": 35,
+     "biggest_claimed": 100,
+     "claimed": 50,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "855-money-bag-bonus",
    "status": "active"
   },
@@ -10518,6 +10928,16 @@
       "jackpot": 75000,
       "left_pct": 69.5,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 69.5,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 69.5,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp856.jpg",
@@ -10555,30 +10975,30 @@
      },
      {
       "amt": 50,
-      "left": 6945,
+      "left": 6942,
       "total": 10000
      },
      {
       "amt": 20,
-      "left": 35010,
+      "left": 35004,
       "total": 50400
      },
      {
       "amt": 10,
-      "left": 53392,
+      "left": 53383,
       "total": 76800
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 21,
+     "biggest_claimed": 50,
+     "claimed": 18,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "856-crack-the-safe",
    "status": "active"
   },
@@ -11111,6 +11531,16 @@
       "jackpot": 75000,
       "left_pct": 61.4,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 61.4,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 61.3,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp857.jpg",
@@ -11143,50 +11573,50 @@
      },
      {
       "amt": 100,
-      "left": 1837,
+      "left": 1836,
       "total": 3000
      },
      {
       "amt": 50,
-      "left": 2760,
+      "left": 2759,
       "total": 4500
      },
      {
       "amt": 40,
-      "left": 6137,
+      "left": 6136,
       "total": 10000
      },
      {
       "amt": 25,
-      "left": 9816,
+      "left": 9810,
       "total": 16000
      },
      {
       "amt": 20,
-      "left": 8829,
+      "left": 8828,
       "total": 14400
      },
      {
       "amt": 15,
-      "left": 17674,
+      "left": 17669,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 41229,
+      "left": 41215,
       "total": 67200
      }
     ],
     "since": {
-     "biggest_claimed": 250,
-     "claimed": 28,
+     "biggest_claimed": 100,
+     "claimed": 29,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "857-fat-wallet",
    "status": "active"
   },
@@ -11664,6 +12094,16 @@
       "jackpot": 100000,
       "left_pct": 62.5,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 62.5,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 62.4,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp858.jpg",
@@ -11691,12 +12131,12 @@
      },
      {
       "amt": 200,
-      "left": 2852,
+      "left": 2849,
       "total": 4050
      },
      {
       "amt": 100,
-      "left": 5124,
+      "left": 5123,
       "total": 8100
      },
      {
@@ -11706,30 +12146,30 @@
      },
      {
       "amt": 40,
-      "left": 3501,
+      "left": 3499,
       "total": 6300
      },
      {
       "amt": 30,
-      "left": 1874,
+      "left": 1873,
       "total": 2700
      },
      {
       "amt": 20,
-      "left": 67513,
+      "left": 67478,
       "total": 108000
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 33,
+     "biggest_claimed": 200,
+     "claimed": 42,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "858-diamond-mine",
    "status": "active"
   },
@@ -12177,6 +12617,16 @@
       "jackpot": 100000,
       "left_pct": 56.8,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 56.8,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 56.7,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp859.jpg",
@@ -12199,7 +12649,7 @@
      },
      {
       "amt": 500,
-      "left": 427,
+      "left": 426,
       "total": 675
      },
      {
@@ -12209,40 +12659,40 @@
      },
      {
       "amt": 200,
-      "left": 1307,
+      "left": 1306,
       "total": 2586
      },
      {
       "amt": 100,
-      "left": 2833,
+      "left": 2832,
       "total": 6000
      },
      {
       "amt": 60,
-      "left": 2158,
+      "left": 2155,
       "total": 4200
      },
      {
       "amt": 40,
-      "left": 4310,
+      "left": 4306,
       "total": 6300
      },
      {
       "amt": 20,
-      "left": 66350,
+      "left": 66290,
       "total": 117000
      }
     ],
     "since": {
-     "biggest_claimed": 300,
-     "claimed": 63,
+     "biggest_claimed": 500,
+     "claimed": 70,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "859-cherry-twist",
    "status": "active"
   },
@@ -12775,6 +13225,16 @@
       "jackpot": 19797,
       "left_pct": 85.9,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 19856,
+      "left_pct": 85.9,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 19931,
+      "left_pct": 85.9,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp864.jpg",
@@ -12783,9 +13243,19 @@
      "left": 13,
      "start": 10000,
      "total": 16,
-     "value": 19797
+     "value": 19931
     },
     "jackpot_log": [
+     {
+      "left": 13,
+      "t": "2026-11-26 09:55",
+      "v": 19931
+     },
+     {
+      "left": 13,
+      "t": "2026-11-25 16:20",
+      "v": 19856
+     },
      {
       "left": 13,
       "t": "2026-11-25 09:55",
@@ -13323,7 +13793,7 @@
     "odds": 3.36,
     "prizes": [
      {
-      "amt": 19797,
+      "amt": 19931,
       "jackpot": true,
       "left": 13,
       "total": 16
@@ -13340,45 +13810,45 @@
      },
      {
       "amt": 50,
-      "left": 14845,
+      "left": 14843,
       "total": 17280
      },
      {
       "amt": 40,
-      "left": 16494,
+      "left": 16489,
       "total": 19200
      },
      {
       "amt": 30,
-      "left": 24736,
+      "left": 24731,
       "total": 28800
      },
      {
       "amt": 20,
-      "left": 42878,
+      "left": 42872,
       "total": 49920
      },
      {
       "amt": 15,
-      "left": 37113,
+      "left": 37104,
       "total": 43200
      },
      {
       "amt": 10,
-      "left": 107196,
+      "left": 107175,
       "total": 124800
      }
     ],
     "since": {
      "biggest_claimed": 50,
-     "claimed": 41,
+     "claimed": 48,
      "hours": 17.6,
-     "jackpot_change": 99,
+     "jackpot_change": 75,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "864-lightning-fast-cash",
    "status": "active"
   },
@@ -13826,6 +14296,16 @@
       "jackpot": 52850,
       "left_pct": 89.3,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 52944,
+      "left_pct": 89.3,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 53066,
+      "left_pct": 89.2,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp865.jpg",
@@ -13834,9 +14314,19 @@
      "left": 15,
      "start": 20000,
      "total": 16,
-     "value": 52850
+     "value": 53066
     },
     "jackpot_log": [
+     {
+      "left": 15,
+      "t": "2026-11-26 09:55",
+      "v": 53066
+     },
+     {
+      "left": 15,
+      "t": "2026-11-25 16:20",
+      "v": 52944
+     },
      {
       "left": 15,
       "t": "2026-11-25 09:55",
@@ -14289,14 +14779,14 @@
     "odds": 2.93,
     "prizes": [
      {
-      "amt": 52850,
+      "amt": 53066,
       "jackpot": true,
       "left": 15,
       "total": 16
      },
      {
       "amt": 1000,
-      "left": 503,
+      "left": 502,
       "total": 566
      },
      {
@@ -14306,12 +14796,12 @@
      },
      {
       "amt": 250,
-      "left": 1428,
+      "left": 1427,
       "total": 1603
      },
      {
       "amt": 200,
-      "left": 2160,
+      "left": 2159,
       "total": 2419
      },
      {
@@ -14321,35 +14811,35 @@
      },
      {
       "amt": 50,
-      "left": 29992,
+      "left": 29987,
       "total": 33600
      },
      {
       "amt": 40,
-      "left": 64268,
+      "left": 64259,
       "total": 72000
      },
      {
       "amt": 25,
-      "left": 68552,
+      "left": 68545,
       "total": 76800
      },
      {
       "amt": 20,
-      "left": 119963,
+      "left": 119949,
       "total": 134400
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 31,
+     "biggest_claimed": 1000,
+     "claimed": 38,
      "hours": 17.6,
-     "jackpot_change": 72,
+     "jackpot_change": 122,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "865-multiplier-mania",
    "status": "active"
   },
@@ -14882,6 +15372,16 @@
       "jackpot": 1500,
       "left_pct": 85.1,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 1500,
+      "left_pct": 85.1,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 1500,
+      "left_pct": 85.1,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp866.jpg",
@@ -14914,45 +15414,45 @@
      },
      {
       "amt": 20,
-      "left": 3268,
+      "left": 3267,
       "total": 3840
      },
      {
       "amt": 10,
-      "left": 3268,
+      "left": 3267,
       "total": 3840
      },
      {
       "amt": 5,
-      "left": 4902,
+      "left": 4900,
       "total": 5760
      },
      {
       "amt": 4,
-      "left": 32683,
+      "left": 32670,
       "total": 38400
      },
      {
       "amt": 2,
-      "left": 73536,
+      "left": 73508,
       "total": 86400
      },
      {
       "amt": 1,
-      "left": 122562,
+      "left": 122513,
       "total": 144000
      }
     ],
     "since": {
      "biggest_claimed": 20,
-     "claimed": 72,
+     "claimed": 94,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "866-win-pigs-fly",
    "status": "active"
   },
@@ -15485,6 +15985,16 @@
       "jackpot": 2500,
       "left_pct": 98.3,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 98.3,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 98.3,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp868.jpg",
@@ -15522,7 +16032,7 @@
      },
      {
       "amt": 30,
-      "left": 785,
+      "left": 784,
       "total": 800
      },
      {
@@ -15537,30 +16047,30 @@
      },
      {
       "amt": 5,
-      "left": 37735,
+      "left": 37731,
       "total": 38400
      },
      {
       "amt": 4,
-      "left": 94336,
+      "left": 94328,
       "total": 96000
      },
      {
       "amt": 2,
-      "left": 113196,
+      "left": 113191,
       "total": 115200
      }
     ],
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 22,
+     "biggest_claimed": 30,
+     "claimed": 18,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "868-sunny-money",
    "status": "active"
   },
@@ -16093,6 +16603,16 @@
       "jackpot": 2500,
       "left_pct": 97.8,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 97.8,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 97.8,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp869.jpg",
@@ -16120,7 +16640,7 @@
      },
      {
       "amt": 40,
-      "left": 1562,
+      "left": 1561,
       "total": 1600
      },
      {
@@ -16130,22 +16650,22 @@
      },
      {
       "amt": 10,
-      "left": 18772,
+      "left": 18771,
       "total": 19200
      },
      {
       "amt": 5,
-      "left": 46933,
+      "left": 46931,
       "total": 48000
      },
      {
       "amt": 4,
-      "left": 84481,
+      "left": 84474,
       "total": 86400
      },
      {
       "amt": 2,
-      "left": 105130,
+      "left": 105125,
       "total": 107520
      }
     ],
@@ -16155,10 +16675,10 @@
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "869-bloomin-bucks",
    "status": "active"
   },
@@ -16691,6 +17211,16 @@
       "jackpot": 10648,
       "left_pct": 89.9,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 10694,
+      "left_pct": 89.9,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 10734,
+      "left_pct": 89.9,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp870.jpg",
@@ -16699,9 +17229,19 @@
      "left": 5,
      "start": 5000,
      "total": 6,
-     "value": 10648
+     "value": 10734
     },
     "jackpot_log": [
+     {
+      "left": 5,
+      "t": "2026-11-26 09:55",
+      "v": 10734
+     },
+     {
+      "left": 5,
+      "t": "2026-11-25 16:20",
+      "v": 10694
+     },
      {
       "left": 5,
       "t": "2026-11-25 09:55",
@@ -17239,7 +17779,7 @@
     "odds": 3.38,
     "prizes": [
      {
-      "amt": 10648,
+      "amt": 10734,
       "jackpot": true,
       "left": 5,
       "total": 6
@@ -17266,35 +17806,35 @@
      },
      {
       "amt": 50,
-      "left": 2159,
+      "left": 2158,
       "total": 2400
      },
      {
       "amt": 20,
-      "left": 25900,
+      "left": 25891,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 50183,
+      "left": 50162,
       "total": 55800
      },
      {
       "amt": 5,
-      "left": 80936,
+      "left": 80910,
       "total": 90000
      }
     ],
     "since": {
      "biggest_claimed": 50,
-     "claimed": 31,
+     "claimed": 57,
      "hours": 17.6,
-     "jackpot_change": 35,
+     "jackpot_change": 40,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "870-home-run-riches-walk-off-winnings",
    "status": "active"
   },
@@ -17827,6 +18367,16 @@
       "jackpot": 25000,
       "left_pct": 96.4,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 96.4,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 96.3,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp871.jpg",
@@ -17844,7 +18394,7 @@
      },
      {
       "amt": 5000,
-      "left": 7,
+      "left": 6,
       "total": 8
      },
      {
@@ -17874,30 +18424,30 @@
      },
      {
       "amt": 20,
-      "left": 27755,
+      "left": 27746,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 53773,
+      "left": 53762,
       "total": 55800
      },
      {
       "amt": 5,
-      "left": 86740,
+      "left": 86715,
       "total": 90000
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 40,
+     "biggest_claimed": 5000,
+     "claimed": 46,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "871-rake-it-in",
    "status": "active"
   },
@@ -18325,6 +18875,16 @@
       "jackpot": 100000,
       "left_pct": 96.0,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 96.0,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 96.0,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp873.jpg",
@@ -18342,7 +18902,7 @@
      },
      {
       "amt": 1000,
-      "left": 69,
+      "left": 68,
       "total": 70
      },
      {
@@ -18357,7 +18917,7 @@
      },
      {
       "amt": 100,
-      "left": 7872,
+      "left": 7871,
       "total": 8200
      },
      {
@@ -18377,20 +18937,20 @@
      },
      {
       "amt": 20,
-      "left": 103698,
+      "left": 103670,
       "total": 108000
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 24,
+     "biggest_claimed": 1000,
+     "claimed": 30,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "873-high-stakes-lake",
    "status": "active"
   },
@@ -18923,6 +19483,16 @@
       "jackpot": 75000,
       "left_pct": 97.4,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 97.4,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 97.3,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp874.jpg",
@@ -18975,12 +19545,12 @@
      },
      {
       "amt": 51,
-      "left": 2533,
+      "left": 2532,
       "total": 2600
      },
      {
       "amt": 50,
-      "left": 1996,
+      "left": 1995,
       "total": 2050
      },
      {
@@ -18990,45 +19560,45 @@
      },
      {
       "amt": 40,
-      "left": 6233,
+      "left": 6230,
       "total": 6400
      },
      {
       "amt": 31,
-      "left": 7012,
+      "left": 7008,
       "total": 7200
      },
      {
       "amt": 30,
-      "left": 5843,
+      "left": 5840,
       "total": 6000
      },
      {
       "amt": 20,
-      "left": 14024,
+      "left": 14018,
       "total": 14400
      },
      {
       "amt": 15,
-      "left": 28046,
+      "left": 28041,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 65427,
+      "left": 65419,
       "total": 67200
      }
     ],
     "since": {
-     "biggest_claimed": 101,
-     "claimed": 32,
+     "biggest_claimed": 51,
+     "claimed": 31,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "874-screamin-7s",
    "status": "active"
   },
@@ -19411,6 +19981,16 @@
       "jackpot": 1500,
       "left_pct": 98.1,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 1500,
+      "left_pct": 98.1,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 1500,
+      "left_pct": 98.1,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp875.jpg",
@@ -19448,45 +20028,45 @@
      },
      {
       "amt": 20,
-      "left": 1409,
+      "left": 1408,
       "total": 1440
      },
      {
       "amt": 10,
-      "left": 4707,
+      "left": 4706,
       "total": 4800
      },
      {
       "amt": 5,
-      "left": 11309,
+      "left": 11297,
       "total": 11520
      },
      {
       "amt": 4,
-      "left": 33910,
+      "left": 33884,
       "total": 34560
      },
      {
       "amt": 2,
-      "left": 58397,
+      "left": 58357,
       "total": 59520
      },
      {
       "amt": 1,
-      "left": 133752,
+      "left": 133670,
       "total": 136320
      }
     ],
     "since": {
      "biggest_claimed": 20,
-     "claimed": 101,
+     "claimed": 162,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "875-candy-cane-lane",
    "status": "active"
   },
@@ -19869,6 +20449,16 @@
       "jackpot": 2500,
       "left_pct": 99.0,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 99.0,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 2500,
+      "left_pct": 98.9,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp876.jpg",
@@ -19901,7 +20491,7 @@
      },
      {
       "amt": 50,
-      "left": 462,
+      "left": 461,
       "total": 468
      },
      {
@@ -19911,40 +20501,40 @@
      },
      {
       "amt": 20,
-      "left": 5700,
+      "left": 5698,
       "total": 5760
      },
      {
       "amt": 10,
-      "left": 17099,
+      "left": 17094,
       "total": 17280
      },
      {
       "amt": 5,
-      "left": 38946,
+      "left": 38931,
       "total": 39360
      },
      {
       "amt": 4,
-      "left": 76010,
+      "left": 75987,
       "total": 76800
      },
      {
       "amt": 2,
-      "left": 127296,
+      "left": 127247,
       "total": 128640
      }
     ],
     "since": {
-     "biggest_claimed": 20,
-     "claimed": 71,
+     "biggest_claimed": 50,
+     "claimed": 95,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "876-gnome-for-the-holidays",
    "status": "active"
   },
@@ -20327,12 +20917,22 @@
       "jackpot": 25000,
       "left_pct": 97.5,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 97.5,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 25000,
+      "left_pct": 97.4,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp877.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 98,
+    "left_pct": 97,
     "n": "877",
     "name": "National Lampoons Christmas Vacation",
     "odds": 3.51,
@@ -20369,45 +20969,45 @@
      },
      {
       "amt": 50,
-      "left": 3121,
+      "left": 3120,
       "total": 3200
      },
      {
       "amt": 40,
-      "left": 5458,
+      "left": 5455,
       "total": 5600
      },
      {
       "amt": 20,
-      "left": 12287,
+      "left": 12280,
       "total": 12600
      },
      {
       "amt": 15,
-      "left": 20479,
+      "left": 20460,
       "total": 21000
      },
      {
       "amt": 10,
-      "left": 32763,
+      "left": 32734,
       "total": 33600
      },
      {
       "amt": 5,
-      "left": 91275,
+      "left": 91203,
       "total": 93600
      }
     ],
     "since": {
      "biggest_claimed": 50,
-     "claimed": 91,
+     "claimed": 131,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "877-national-lampoons-christmas-vacation",
    "status": "active"
   },
@@ -20790,6 +21390,16 @@
       "jackpot": 75000,
       "left_pct": 98.4,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 98.4,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 75000,
+      "left_pct": 98.3,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp878.jpg",
@@ -20817,7 +21427,7 @@
      },
      {
       "amt": 250,
-      "left": 628,
+      "left": 627,
       "total": 640
      },
      {
@@ -20827,45 +21437,45 @@
      },
      {
       "amt": 50,
-      "left": 5905,
+      "left": 5902,
       "total": 6000
      },
      {
       "amt": 40,
-      "left": 8262,
+      "left": 8256,
       "total": 8400
      },
      {
       "amt": 25,
-      "left": 14166,
+      "left": 14159,
       "total": 14400
      },
      {
       "amt": 20,
-      "left": 21248,
+      "left": 21237,
       "total": 21600
      },
      {
       "amt": 15,
-      "left": 31638,
+      "left": 31623,
       "total": 32160
      },
      {
       "amt": 10,
-      "left": 64222,
+      "left": 64188,
       "total": 65280
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 60,
+     "biggest_claimed": 250,
+     "claimed": 77,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "878-holiday-money-drop",
    "status": "active"
   },
@@ -21158,6 +21768,16 @@
       "jackpot": 100000,
       "left_pct": 98.0,
       "t": "2026-11-25 09:55"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 98.0,
+      "t": "2026-11-25 16:20"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 97.9,
+      "t": "2026-11-26 09:55"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ks/fp879.jpg",
@@ -21185,50 +21805,50 @@
      },
      {
       "amt": 200,
-      "left": 4468,
+      "left": 4464,
       "total": 4560
      },
      {
       "amt": 100,
-      "left": 8034,
+      "left": 8029,
       "total": 8200
      },
      {
       "amt": 50,
-      "left": 3919,
+      "left": 3918,
       "total": 4000
      },
      {
       "amt": 40,
-      "left": 5486,
+      "left": 5483,
       "total": 5600
      },
      {
       "amt": 30,
-      "left": 2940,
+      "left": 2939,
       "total": 3000
      },
      {
       "amt": 25,
-      "left": 42325,
+      "left": 42305,
       "total": 43200
      },
      {
       "amt": 20,
-      "left": 52904,
+      "left": 52872,
       "total": 54000
      }
     ],
     "since": {
      "biggest_claimed": 200,
-     "claimed": 64,
+     "claimed": 66,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:20"
+     "t": "2026-11-25 16:20"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "879-treemendous-winnings",
    "status": "active"
   }
@@ -21768,6 +22388,16 @@
       "jackpot": 500,
       "left_pct": 10.5,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 10.5,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 500,
+      "left_pct": 10.4,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp103.jpg",
@@ -21785,55 +22415,55 @@
      },
      {
       "amt": 100,
-      "left": 64,
+      "left": 62,
       "total": 604
      },
      {
       "amt": 40,
-      "left": 344,
+      "left": 341,
       "total": 3280
      },
      {
       "amt": 20,
-      "left": 1006,
+      "left": 996,
       "total": 9600
      },
      {
       "amt": 10,
-      "left": 3010,
+      "left": 2984,
       "total": 28800
      },
      {
       "amt": 5,
-      "left": 8547,
+      "left": 8453,
       "total": 81600
      },
      {
       "amt": 4,
-      "left": 13592,
+      "left": 13443,
       "total": 129600
      },
      {
       "amt": 2,
-      "left": 32693,
+      "left": 32347,
       "total": 312000
      },
      {
       "amt": 1,
-      "left": 57834,
+      "left": 57219,
       "total": 552000
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 1104,
+     "biggest_claimed": 100,
+     "claimed": 1245,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "103-maryland-lottery-pick-3-fast-play-edition",
    "status": "active"
   },
@@ -22371,6 +23001,16 @@
       "jackpot": 30000,
       "left_pct": 84.0,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 84.0,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 84.0,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp104.jpg",
@@ -22393,45 +23033,45 @@
      },
      {
       "amt": 100,
-      "left": 4288,
+      "left": 4285,
       "total": 5100
      },
      {
       "amt": 50,
-      "left": 16811,
+      "left": 16806,
       "total": 20000
      },
      {
       "amt": 20,
-      "left": 64537,
+      "left": 64511,
       "total": 76800
      },
      {
       "amt": 10,
-      "left": 153310,
+      "left": 153252,
       "total": 182400
      },
      {
       "amt": 5,
-      "left": 326757,
+      "left": 326638,
       "total": 388800
      },
      {
       "amt": 2,
-      "left": 685797,
+      "left": 685541,
       "total": 816000
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 366,
+     "biggest_claimed": 100,
+     "claimed": 467,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "104-keno-fast-play-edition",
    "status": "active"
   },
@@ -22969,6 +23609,16 @@
       "jackpot": 754839,
       "left_pct": 90.9,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 756081,
+      "left_pct": 90.9,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 757143,
+      "left_pct": 90.9,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp106.jpg",
@@ -22977,9 +23627,19 @@
      "left": 8,
      "start": null,
      "total": 9,
-     "value": 754839
+     "value": 757143
     },
     "jackpot_log": [
+     {
+      "left": 8,
+      "t": "2026-11-26 09:40",
+      "v": 757143
+     },
+     {
+      "left": 8,
+      "t": "2026-11-25 16:05",
+      "v": 756081
+     },
      {
       "left": 8,
       "t": "2026-11-25 09:40",
@@ -23517,7 +24177,7 @@
     "odds": 2.77,
     "prizes": [
      {
-      "amt": 754839,
+      "amt": 757143,
       "jackpot": true,
       "left": 8,
       "total": 9
@@ -23534,45 +24194,45 @@
      },
      {
       "amt": 500,
-      "left": 11365,
+      "left": 11364,
       "total": 12500
      },
      {
       "amt": 200,
-      "left": 45007,
+      "left": 45000,
       "total": 49500
      },
      {
       "amt": 100,
-      "left": 111301,
+      "left": 111288,
       "total": 122400
      },
      {
       "amt": 50,
-      "left": 288062,
+      "left": 288027,
       "total": 316800
      },
      {
       "amt": 40,
-      "left": 401548,
+      "left": 401495,
       "total": 441600
      },
      {
       "amt": 30,
-      "left": 720149,
+      "left": 720062,
       "total": 792000
      }
     ],
     "since": {
      "biggest_claimed": 500,
-     "claimed": 178,
+     "claimed": 196,
      "hours": 17.6,
-     "jackpot_change": 1233,
+     "jackpot_change": 1062,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "106-ultimate-payday-progressive",
    "status": "active"
   },
@@ -24463,6 +25123,16 @@
       "jackpot": 106938,
       "left_pct": 80.4,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 107447,
+      "left_pct": 80.4,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 107944,
+      "left_pct": 80.4,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp108.jpg",
@@ -24471,9 +25141,19 @@
      "left": 11,
      "start": null,
      "total": 15,
-     "value": 106938
+     "value": 107944
     },
     "jackpot_log": [
+     {
+      "left": 11,
+      "t": "2026-11-26 09:40",
+      "v": 107944
+     },
+     {
+      "left": 11,
+      "t": "2026-11-25 16:05",
+      "v": 107447
+     },
      {
       "left": 11,
       "t": "2026-11-25 09:40",
@@ -25011,7 +25691,7 @@
     "odds": 4.23,
     "prizes": [
      {
-      "amt": 106938,
+      "amt": 107944,
       "jackpot": true,
       "left": 11,
       "total": 15
@@ -25038,50 +25718,50 @@
      },
      {
       "amt": 100,
-      "left": 27028,
+      "left": 27011,
       "total": 33600
      },
      {
       "amt": 50,
-      "left": 7722,
+      "left": 7717,
       "total": 9600
      },
      {
       "amt": 40,
-      "left": 15445,
+      "left": 15434,
       "total": 19200
      },
      {
       "amt": 20,
-      "left": 54055,
+      "left": 54017,
       "total": 67200
      },
      {
       "amt": 15,
-      "left": 96531,
+      "left": 96462,
       "total": 120000
      },
      {
       "amt": 10,
-      "left": 285720,
+      "left": 285529,
       "total": 355200
      },
      {
       "amt": 5,
-      "left": 424733,
+      "left": 424438,
       "total": 528000
      }
     ],
     "since": {
      "biggest_claimed": 100,
-     "claimed": 507,
+     "claimed": 626,
      "hours": 17.6,
-     "jackpot_change": 493,
+     "jackpot_change": 497,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "108-cash-combination",
    "status": "active"
   },
@@ -25619,6 +26299,16 @@
       "jackpot": 366812,
       "left_pct": 89.7,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 367715,
+      "left_pct": 89.7,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 368532,
+      "left_pct": 89.7,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp109.jpg",
@@ -25627,9 +26317,19 @@
      "left": 18,
      "start": 300935,
      "total": 20,
-     "value": 366812
+     "value": 368532
     },
     "jackpot_log": [
+     {
+      "left": 18,
+      "t": "2026-11-26 09:40",
+      "v": 368532
+     },
+     {
+      "left": 18,
+      "t": "2026-11-25 16:05",
+      "v": 367715
+     },
      {
       "left": 18,
       "t": "2026-11-25 09:40",
@@ -26167,7 +26867,7 @@
     "odds": 4.79,
     "prizes": [
      {
-      "amt": 366812,
+      "amt": 368532,
       "jackpot": true,
       "left": 18,
       "total": 20
@@ -26189,40 +26889,40 @@
      },
      {
       "amt": 400,
-      "left": 5727,
+      "left": 5725,
       "total": 6380
      },
      {
       "amt": 200,
-      "left": 17232,
+      "left": 17228,
       "total": 19200
      },
      {
       "amt": 100,
-      "left": 77544,
+      "left": 77530,
       "total": 86400
      },
      {
       "amt": 50,
-      "left": 236909,
+      "left": 236865,
       "total": 264000
      },
      {
       "amt": 40,
-      "left": 559992,
+      "left": 559892,
       "total": 624000
      }
     ],
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 118,
+     "biggest_claimed": 400,
+     "claimed": 164,
      "hours": 17.6,
-     "jackpot_change": 965,
+     "jackpot_change": 817,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "109-20x-cash",
    "status": "active"
   },
@@ -26760,12 +27460,22 @@
       "jackpot": 30000,
       "left_pct": 90.5,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 90.5,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 30000,
+      "left_pct": 90.5,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp110.jpg",
     "jackpot": null,
     "jackpot_log": [],
-    "left_pct": 91,
+    "left_pct": 90,
     "n": "110",
     "name": "Craps",
     "odds": 3.44,
@@ -26782,40 +27492,40 @@
      },
      {
       "amt": 111,
-      "left": 7783,
+      "left": 7781,
       "total": 8600
      },
      {
       "amt": 77,
-      "left": 17377,
+      "left": 17369,
       "total": 19200
      },
      {
       "amt": 11,
-      "left": 147689,
+      "left": 147640,
       "total": 163200
      },
      {
       "amt": 7,
-      "left": 308456,
+      "left": 308349,
       "total": 340800
      },
      {
       "amt": 3,
-      "left": 781985,
+      "left": 781722,
       "total": 864000
      }
     ],
     "since": {
      "biggest_claimed": 111,
-     "claimed": 382,
+     "claimed": 429,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "110-craps",
    "status": "active"
   },
@@ -27353,6 +28063,16 @@
       "jackpot": 3574,
       "left_pct": 87.9,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 3614,
+      "left_pct": 87.9,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 3654,
+      "left_pct": 87.9,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp111.jpg",
@@ -27361,9 +28081,19 @@
      "left": 22,
      "start": 2014,
      "total": 26,
-     "value": 3574
+     "value": 3654
     },
     "jackpot_log": [
+     {
+      "left": 22,
+      "t": "2026-11-26 09:40",
+      "v": 3654
+     },
+     {
+      "left": 22,
+      "t": "2026-11-25 16:05",
+      "v": 3614
+     },
      {
       "left": 22,
       "t": "2026-11-25 09:40",
@@ -27901,7 +28631,7 @@
     "odds": 3.69,
     "prizes": [
      {
-      "amt": 3574,
+      "amt": 3654,
       "jackpot": true,
       "left": 22,
       "total": 26
@@ -27923,45 +28653,45 @@
      },
      {
       "amt": 40,
-      "left": 12660,
+      "left": 12656,
       "total": 14400
      },
      {
       "amt": 20,
-      "left": 46420,
+      "left": 46404,
       "total": 52800
      },
      {
       "amt": 10,
-      "left": 63297,
+      "left": 63278,
       "total": 72000
      },
      {
       "amt": 5,
-      "left": 173016,
+      "left": 172960,
       "total": 196800
      },
      {
       "amt": 3,
-      "left": 337593,
+      "left": 337483,
       "total": 384000
      },
      {
       "amt": 2,
-      "left": 510610,
+      "left": 510438,
       "total": 580800
      }
     ],
     "since": {
      "biggest_claimed": 40,
-     "claimed": 332,
+     "claimed": 377,
      "hours": 17.6,
-     "jackpot_change": 45,
+     "jackpot_change": 40,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "111-baccarat",
    "status": "active"
   },
@@ -28499,6 +29229,16 @@
       "jackpot": 3302,
       "left_pct": 67.3,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 3383,
+      "left_pct": 67.3,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 3473,
+      "left_pct": 67.2,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp112.jpg",
@@ -28507,9 +29247,19 @@
      "left": 32,
      "start": 512,
      "total": 48,
-     "value": 3302
+     "value": 3473
     },
     "jackpot_log": [
+     {
+      "left": 32,
+      "t": "2026-11-26 09:40",
+      "v": 3473
+     },
+     {
+      "left": 32,
+      "t": "2026-11-25 16:05",
+      "v": 3383
+     },
      {
       "left": 32,
       "t": "2026-11-25 09:40",
@@ -29047,7 +29797,7 @@
     "odds": 4.05,
     "prizes": [
      {
-      "amt": 3302,
+      "amt": 3473,
       "jackpot": true,
       "left": 32,
       "total": 48
@@ -29064,45 +29814,45 @@
      },
      {
       "amt": 20,
-      "left": 6464,
+      "left": 6452,
       "total": 9600
      },
      {
       "amt": 10,
-      "left": 19391,
+      "left": 19353,
       "total": 28800
      },
      {
       "amt": 5,
-      "left": 48474,
+      "left": 48381,
       "total": 72000
      },
      {
       "amt": 4,
-      "left": 96956,
+      "left": 96778,
       "total": 144000
      },
      {
       "amt": 2,
-      "left": 184201,
+      "left": 183864,
       "total": 273600
      },
      {
       "amt": 1,
-      "left": 442756,
+      "left": 441922,
       "total": 657600
      }
     ],
     "since": {
      "biggest_claimed": 20,
-     "claimed": 1383,
+     "claimed": 1492,
      "hours": 17.6,
-     "jackpot_change": 96,
+     "jackpot_change": 90,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "112-three-card-poker",
    "status": "active"
   },
@@ -29640,6 +30390,16 @@
       "jackpot": 642057,
       "left_pct": 96.6,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 642960,
+      "left_pct": 96.6,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 643929,
+      "left_pct": 96.6,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp113.jpg",
@@ -29648,9 +30408,19 @@
      "left": 14,
      "start": null,
      "total": 14,
-     "value": 642057
+     "value": 643929
     },
     "jackpot_log": [
+     {
+      "left": 14,
+      "t": "2026-11-26 09:40",
+      "v": 643929
+     },
+     {
+      "left": 14,
+      "t": "2026-11-25 16:05",
+      "v": 642960
+     },
      {
       "left": 14,
       "t": "2026-11-25 09:40",
@@ -30188,7 +30958,7 @@
     "odds": 2.87,
     "prizes": [
      {
-      "amt": 642057,
+      "amt": 643929,
       "jackpot": true,
       "left": 14,
       "total": 14
@@ -30205,7 +30975,7 @@
      },
      {
       "amt": 500,
-      "left": 4053,
+      "left": 4052,
       "total": 4200
      },
      {
@@ -30215,40 +30985,40 @@
      },
      {
       "amt": 100,
-      "left": 46363,
+      "left": 46354,
       "total": 48000
      },
      {
       "amt": 50,
-      "left": 166895,
+      "left": 166873,
       "total": 172800
      },
      {
       "amt": 40,
-      "left": 250351,
+      "left": 250315,
       "total": 259200
      },
      {
       "amt": 30,
-      "left": 366241,
+      "left": 366198,
       "total": 379200
      },
      {
       "amt": 20,
-      "left": 764985,
+      "left": 764868,
       "total": 792000
      }
     ],
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 192,
+     "biggest_claimed": 500,
+     "claimed": 228,
      "hours": 17.6,
-     "jackpot_change": 1095,
+     "jackpot_change": 969,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "113-casino-cash",
    "status": "active"
   },
@@ -30786,6 +31556,16 @@
       "jackpot": 136192,
       "left_pct": 93.1,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 136650,
+      "left_pct": 93.1,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 137063,
+      "left_pct": 93.1,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp117.jpg",
@@ -30794,9 +31574,19 @@
      "left": 10,
      "start": null,
      "total": 12,
-     "value": 136192
+     "value": 137063
     },
     "jackpot_log": [
+     {
+      "left": 10,
+      "t": "2026-11-26 09:40",
+      "v": 137063
+     },
+     {
+      "left": 10,
+      "t": "2026-11-25 16:05",
+      "v": 136650
+     },
      {
       "left": 10,
       "t": "2026-11-25 09:40",
@@ -31334,7 +32124,7 @@
     "odds": 3.62,
     "prizes": [
      {
-      "amt": 136192,
+      "amt": 137063,
       "jackpot": true,
       "left": 10,
       "total": 12
@@ -31351,7 +32141,7 @@
      },
      {
       "amt": 1000,
-      "left": 962,
+      "left": 961,
       "total": 1035
      },
      {
@@ -31361,50 +32151,50 @@
      },
      {
       "amt": 200,
-      "left": 11796,
+      "left": 11793,
       "total": 12680
      },
      {
       "amt": 100,
-      "left": 26549,
+      "left": 26543,
       "total": 28520
      },
      {
       "amt": 50,
-      "left": 53623,
+      "left": 53610,
       "total": 57600
      },
      {
       "amt": 30,
-      "left": 151913,
+      "left": 151879,
       "total": 163200
      },
      {
       "amt": 20,
-      "left": 201079,
+      "left": 201033,
       "total": 216000
      },
      {
       "amt": 15,
-      "left": 236806,
+      "left": 236753,
       "total": 254400
      },
      {
       "amt": 10,
-      "left": 549603,
+      "left": 549480,
       "total": 590400
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 265,
+     "biggest_claimed": 1000,
+     "claimed": 279,
      "hours": 17.6,
-     "jackpot_change": 467,
+     "jackpot_change": 413,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "117-platinum-payout",
    "status": "active"
   },
@@ -31942,6 +32732,16 @@
       "jackpot": 250,
       "left_pct": 85.6,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 250,
+      "left_pct": 85.6,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 250,
+      "left_pct": 85.5,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp118.jpg",
@@ -31954,50 +32754,50 @@
     "prizes": [
      {
       "amt": 250,
-      "left": 5479,
+      "left": 5476,
       "total": 6400
      },
      {
       "amt": 100,
-      "left": 1915,
+      "left": 1914,
       "total": 2240
      },
      {
       "amt": 40,
-      "left": 8217,
+      "left": 8213,
       "total": 9600
      },
      {
       "amt": 20,
-      "left": 24649,
+      "left": 24639,
       "total": 28800
      },
      {
       "amt": 10,
-      "left": 49298,
+      "left": 49274,
       "total": 57600
      },
      {
       "amt": 4,
-      "left": 209508,
+      "left": 209416,
       "total": 244800
      },
      {
       "amt": 2,
-      "left": 743597,
+      "left": 743267,
       "total": 868800
      }
     ],
     "since": {
      "biggest_claimed": 250,
-     "claimed": 425,
+     "claimed": 464,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "118-maryland-250",
    "status": "active"
   },
@@ -32535,6 +33335,16 @@
       "jackpot": 10000,
       "left_pct": 88.6,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 88.6,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 10000,
+      "left_pct": 88.5,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp119.jpg",
@@ -32567,50 +33377,50 @@
      },
      {
       "amt": 100,
-      "left": 1837,
+      "left": 1835,
       "total": 2080
      },
      {
       "amt": 40,
-      "left": 14887,
+      "left": 14879,
       "total": 16800
      },
      {
       "amt": 20,
-      "left": 42513,
+      "left": 42489,
       "total": 48000
      },
      {
       "amt": 10,
-      "left": 72299,
+      "left": 72258,
       "total": 81600
      },
      {
       "amt": 5,
-      "left": 136068,
+      "left": 135993,
       "total": 153600
      },
      {
       "amt": 3,
-      "left": 361415,
+      "left": 361203,
       "total": 408000
      },
      {
       "amt": 2,
-      "left": 510234,
+      "left": 509944,
       "total": 576000
      }
     ],
     "since": {
      "biggest_claimed": 100,
-     "claimed": 623,
+     "claimed": 652,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "119-racetrax-fast-play-edition",
    "status": "active"
   },
@@ -33148,6 +33958,16 @@
       "jackpot": 50000,
       "left_pct": 93.7,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 93.7,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 93.7,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp120.jpg",
@@ -33180,50 +34000,50 @@
      },
      {
       "amt": 100,
-      "left": 1647,
+      "left": 1646,
       "total": 1760
      },
      {
       "amt": 50,
-      "left": 17991,
+      "left": 17984,
       "total": 19200
      },
      {
       "amt": 40,
-      "left": 35984,
+      "left": 35968,
       "total": 38400
      },
      {
       "amt": 20,
-      "left": 143922,
+      "left": 143866,
       "total": 153600
      },
      {
       "amt": 15,
-      "left": 157441,
+      "left": 157379,
       "total": 168000
      },
      {
       "amt": 10,
-      "left": 517238,
+      "left": 517028,
       "total": 552000
      },
      {
       "amt": 5,
-      "left": 319351,
+      "left": 319221,
       "total": 340800
      }
     ],
     "since": {
-     "biggest_claimed": 50,
-     "claimed": 369,
+     "biggest_claimed": 100,
+     "claimed": 482,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "120-cha-ching",
    "status": "active"
   },
@@ -33761,6 +34581,16 @@
       "jackpot": 100000,
       "left_pct": 95.8,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 95.8,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 95.7,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp121.jpg",
@@ -33798,50 +34628,50 @@
      },
      {
       "amt": 200,
-      "left": 12850,
+      "left": 12848,
       "total": 13420
      },
      {
       "amt": 100,
-      "left": 36002,
+      "left": 35996,
       "total": 37600
      },
      {
       "amt": 50,
-      "left": 82733,
+      "left": 82712,
       "total": 86400
      },
      {
       "amt": 30,
-      "left": 137894,
+      "left": 137862,
       "total": 144000
      },
      {
       "amt": 20,
-      "left": 229819,
+      "left": 229776,
       "total": 240000
      },
      {
       "amt": 15,
-      "left": 367711,
+      "left": 367629,
       "total": 384000
      },
      {
       "amt": 10,
-      "left": 528569,
+      "left": 528439,
       "total": 552000
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 269,
+     "biggest_claimed": 200,
+     "claimed": 316,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "121-cash-tree",
    "status": "active"
   },
@@ -34379,6 +35209,16 @@
       "jackpot": 1000000,
       "left_pct": 98.0,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 1000000,
+      "left_pct": 98.0,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 1000000,
+      "left_pct": 98.0,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp122.jpg",
@@ -34411,45 +35251,45 @@
      },
      {
       "amt": 200,
-      "left": 19208,
+      "left": 19206,
       "total": 19600
      },
      {
       "amt": 100,
-      "left": 79941,
+      "left": 79929,
       "total": 81600
      },
      {
       "amt": 50,
-      "left": 197558,
+      "left": 197531,
       "total": 201600
      },
      {
       "amt": 40,
-      "left": 395073,
+      "left": 395013,
       "total": 403200
      },
      {
       "amt": 30,
-      "left": 300998,
+      "left": 300960,
       "total": 307200
      },
      {
       "amt": 20,
-      "left": 681944,
+      "left": 681846,
       "total": 696000
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 200,
+     "biggest_claimed": 200,
+     "claimed": 237,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "122-diamond-spectacular",
    "status": "active"
   },
@@ -34987,6 +35827,16 @@
       "jackpot": 600,
       "left_pct": 95.7,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 600,
+      "left_pct": 95.7,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 600,
+      "left_pct": 95.6,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp123.jpg",
@@ -34999,30 +35849,30 @@
     "prizes": [
      {
       "amt": 600,
-      "left": 18376,
+      "left": 18362,
       "total": 19200
      },
      {
       "amt": 300,
-      "left": 202130,
+      "left": 201980,
       "total": 211200
      },
      {
       "amt": 100,
-      "left": 362917,
+      "left": 362641,
       "total": 379200
      }
     ],
     "since": {
      "biggest_claimed": 600,
-     "claimed": 350,
+     "claimed": 440,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "123-win-100-300-or-600",
    "status": "active"
   },
@@ -35560,6 +36410,16 @@
       "jackpot": 50000,
       "left_pct": 95.8,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 95.8,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 95.8,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp124.jpg",
@@ -35592,7 +36452,7 @@
      },
      {
       "amt": 400,
-      "left": 1324,
+      "left": 1323,
       "total": 1380
      },
      {
@@ -35602,50 +36462,50 @@
      },
      {
       "amt": 100,
-      "left": 7661,
+      "left": 7658,
       "total": 8000
      },
      {
       "amt": 50,
-      "left": 18396,
+      "left": 18389,
       "total": 19200
      },
      {
       "amt": 40,
-      "left": 22998,
+      "left": 22987,
       "total": 24000
      },
      {
       "amt": 20,
-      "left": 91971,
+      "left": 91942,
       "total": 96000
      },
      {
       "amt": 15,
-      "left": 183951,
+      "left": 183887,
       "total": 192000
      },
      {
       "amt": 10,
-      "left": 367911,
+      "left": 367771,
       "total": 384000
      },
      {
       "amt": 5,
-      "left": 487488,
+      "left": 487310,
       "total": 508800
      }
     ],
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 350,
+     "biggest_claimed": 400,
+     "claimed": 433,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "124-cash-cleanup",
    "status": "active"
   },
@@ -36183,6 +37043,16 @@
       "jackpot": 13516,
       "left_pct": 97.2,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 13629,
+      "left_pct": 97.2,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 13739,
+      "left_pct": 97.1,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp125.jpg",
@@ -36191,9 +37061,19 @@
      "left": 28,
      "start": 10038,
      "total": 30,
-     "value": 13516
+     "value": 13739
     },
     "jackpot_log": [
+     {
+      "left": 28,
+      "t": "2026-11-26 09:40",
+      "v": 13739
+     },
+     {
+      "left": 28,
+      "t": "2026-11-25 16:05",
+      "v": 13629
+     },
      {
       "left": 28,
       "t": "2026-11-25 09:40",
@@ -36731,7 +37611,7 @@
     "odds": 4.2,
     "prizes": [
      {
-      "amt": 13516,
+      "amt": 13739,
       "jackpot": true,
       "left": 28,
       "total": 30
@@ -36753,45 +37633,45 @@
      },
      {
       "amt": 100,
-      "left": 7770,
+      "left": 7768,
       "total": 8000
      },
      {
       "amt": 50,
-      "left": 15555,
+      "left": 15549,
       "total": 16000
      },
      {
       "amt": 20,
-      "left": 79303,
+      "left": 79272,
       "total": 81600
      },
      {
       "amt": 10,
-      "left": 177250,
+      "left": 177192,
       "total": 182400
      },
      {
       "amt": 5,
-      "left": 317203,
+      "left": 317103,
       "total": 326400
      },
      {
       "amt": 3,
-      "left": 513109,
+      "left": 512952,
       "total": 528000
      }
     ],
     "since": {
-     "biggest_claimed": 200,
-     "claimed": 277,
+     "biggest_claimed": 100,
+     "claimed": 354,
      "hours": 17.6,
-     "jackpot_change": 99,
+     "jackpot_change": 110,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "125-loteria",
    "status": "active"
   },
@@ -37034,17 +37914,37 @@
       "jackpot": 704,
       "left_pct": 85.6,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 1022,
+      "left_pct": 85.6,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 200,
+      "left_pct": 84.9,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp126.jpg",
     "jackpot": {
      "added_per_ticket": null,
      "left": 204,
-     "start": 263,
+     "start": 200,
      "total": 240,
-     "value": 704
+     "value": 200
     },
     "jackpot_log": [
+     {
+      "left": 204,
+      "t": "2026-11-26 09:40",
+      "v": 200
+     },
+     {
+      "left": 204,
+      "t": "2026-11-25 16:05",
+      "v": 1022
+     },
      {
       "left": 204,
       "t": "2026-11-25 09:40",
@@ -37281,68 +38181,68 @@
       "v": 246
      }
     ],
-    "left_pct": 86,
+    "left_pct": 85,
     "n": "126",
     "name": "Jingle Jangle",
     "odds": 4.32,
     "prizes": [
      {
-      "amt": 704,
+      "amt": 200,
       "jackpot": true,
       "left": 204,
       "total": 240
      },
      {
       "amt": 100,
-      "left": 172,
+      "left": 170,
       "total": 200
      },
      {
       "amt": 40,
-      "left": 1025,
+      "left": 1019,
       "total": 1200
      },
      {
       "amt": 20,
-      "left": 12329,
+      "left": 12229,
       "total": 14400
      },
      {
       "amt": 10,
-      "left": 32875,
+      "left": 32615,
       "total": 38400
      },
      {
       "amt": 5,
-      "left": 73970,
+      "left": 73378,
       "total": 86400
      },
      {
       "amt": 4,
-      "left": 82191,
+      "left": 81533,
       "total": 96000
      },
      {
       "amt": 2,
-      "left": 213689,
+      "left": 211979,
       "total": 249600
      },
      {
       "amt": 1,
-      "left": 534239,
+      "left": 529948,
       "total": 624000
      }
     ],
     "since": {
      "biggest_claimed": 100,
-     "claimed": 6468,
+     "claimed": 7619,
      "hours": 17.6,
-     "jackpot_change": 317,
-     "jackpots_hit_here": 1,
-     "t": "2026-11-24 16:05"
+     "jackpot_change": -822,
+     "jackpots_hit_here": 0,
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "126-jingle-jangle",
    "status": "active"
   },
@@ -37585,6 +38485,16 @@
       "jackpot": 50000,
       "left_pct": 97.8,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 97.8,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 97.7,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp127.jpg",
@@ -37612,60 +38522,60 @@
      },
      {
       "amt": 400,
-      "left": 593,
+      "left": 592,
       "total": 600
      },
      {
       "amt": 100,
-      "left": 2954,
+      "left": 2951,
       "total": 3020
      },
      {
       "amt": 75,
-      "left": 14091,
+      "left": 14075,
       "total": 14400
      },
      {
       "amt": 50,
-      "left": 28180,
+      "left": 28151,
       "total": 28800
      },
      {
       "amt": 40,
-      "left": 37576,
+      "left": 37533,
       "total": 38400
      },
      {
       "amt": 20,
-      "left": 112710,
+      "left": 112592,
       "total": 115200
      },
      {
       "amt": 15,
-      "left": 159698,
+      "left": 159529,
       "total": 163200
      },
      {
       "amt": 10,
-      "left": 375753,
+      "left": 375359,
       "total": 384000
      },
      {
       "amt": 5,
-      "left": 446182,
+      "left": 445721,
       "total": 456000
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 1073,
+     "biggest_claimed": 400,
+     "claimed": 1234,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "127-merry-money-multiplier",
    "status": "active"
   },
@@ -37908,6 +38818,16 @@
       "jackpot": 100000,
       "left_pct": 99.1,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 99.1,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 99.0,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp128.jpg",
@@ -37940,7 +38860,7 @@
      },
      {
       "amt": 1000,
-      "left": 755,
+      "left": 754,
       "total": 760
      },
      {
@@ -37950,70 +38870,70 @@
      },
      {
       "amt": 250,
-      "left": 4459,
+      "left": 4456,
       "total": 4500
      },
      {
       "amt": 200,
-      "left": 7430,
+      "left": 7424,
       "total": 7500
      },
      {
       "amt": 100,
-      "left": 15847,
+      "left": 15841,
       "total": 16000
      },
      {
       "amt": 75,
-      "left": 20293,
+      "left": 20284,
       "total": 20480
      },
      {
       "amt": 50,
-      "left": 38041,
+      "left": 38024,
       "total": 38400
      },
      {
       "amt": 40,
-      "left": 61817,
+      "left": 61785,
       "total": 62400
      },
      {
       "amt": 30,
-      "left": 142658,
+      "left": 142587,
       "total": 144000
      },
      {
       "amt": 25,
-      "left": 95096,
+      "left": 95053,
       "total": 96000
      },
      {
       "amt": 20,
-      "left": 142655,
+      "left": 142587,
       "total": 144000
      },
      {
       "amt": 15,
-      "left": 247262,
+      "left": 247144,
       "total": 249600
      },
      {
       "amt": 10,
-      "left": 589643,
+      "left": 589351,
       "total": 595200
      }
     ],
     "since": {
-     "biggest_claimed": 2000,
-     "claimed": 568,
+     "biggest_claimed": 1000,
+     "claimed": 666,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "128-holiday-countdown",
    "status": "active"
   },
@@ -39387,6 +40307,16 @@
       "jackpot": 45943,
       "left_pct": 32.4,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 46093,
+      "left_pct": 32.4,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 46242,
+      "left_pct": 32.3,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp31.jpg",
@@ -39395,9 +40325,19 @@
      "left": 5,
      "start": 40075,
      "total": 15,
-     "value": 45943
+     "value": 46242
     },
     "jackpot_log": [
+     {
+      "left": 5,
+      "t": "2026-11-26 09:40",
+      "v": 46242
+     },
+     {
+      "left": 5,
+      "t": "2026-11-25 16:05",
+      "v": 46093
+     },
      {
       "left": 5,
       "t": "2026-11-25 09:40",
@@ -39935,7 +40875,7 @@
     "odds": 3.48,
     "prizes": [
      {
-      "amt": 45943,
+      "amt": 46242,
       "jackpot": true,
       "left": 5,
       "total": 15
@@ -39967,45 +40907,45 @@
      },
      {
       "amt": 50,
-      "left": 1554,
+      "left": 1552,
       "total": 4800
      },
      {
       "amt": 40,
-      "left": 4662,
+      "left": 4657,
       "total": 14400
      },
      {
       "amt": 20,
-      "left": 54378,
+      "left": 54333,
       "total": 168000
      },
      {
       "amt": 15,
-      "left": 57478,
+      "left": 57435,
       "total": 177600
      },
      {
       "amt": 10,
-      "left": 192646,
+      "left": 192493,
       "total": 595200
      },
      {
       "amt": 5,
-      "left": 135161,
+      "left": 135052,
       "total": 417600
      }
     ],
     "since": {
-     "biggest_claimed": 40,
-     "claimed": 306,
+     "biggest_claimed": 50,
+     "claimed": 357,
      "hours": 17.6,
-     "jackpot_change": 134,
+     "jackpot_change": 149,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "31-world-championship-poker",
    "status": "active"
   },
@@ -40543,6 +41483,16 @@
       "jackpot": 186760,
       "left_pct": 79.4,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 187112,
+      "left_pct": 79.4,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 187403,
+      "left_pct": 79.3,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp42.jpg",
@@ -40551,9 +41501,19 @@
      "left": 24,
      "start": null,
      "total": 30,
-     "value": 186760
+     "value": 187403
     },
     "jackpot_log": [
+     {
+      "left": 24,
+      "t": "2026-11-26 09:40",
+      "v": 187403
+     },
+     {
+      "left": 24,
+      "t": "2026-11-25 16:05",
+      "v": 187112
+     },
      {
       "left": 24,
       "t": "2026-11-25 09:40",
@@ -41091,7 +42051,7 @@
     "odds": 4.44,
     "prizes": [
      {
-      "amt": 186760,
+      "amt": 187403,
       "jackpot": true,
       "left": 24,
       "total": 30
@@ -41108,7 +42068,7 @@
      },
      {
       "amt": 1000,
-      "left": 717,
+      "left": 716,
       "total": 900
      },
      {
@@ -41118,50 +42078,50 @@
      },
      {
       "amt": 200,
-      "left": 8127,
+      "left": 8125,
       "total": 10240
      },
      {
       "amt": 100,
-      "left": 32220,
+      "left": 32208,
       "total": 40600
      },
      {
       "amt": 50,
-      "left": 64757,
+      "left": 64732,
       "total": 81600
      },
      {
       "amt": 30,
-      "left": 159988,
+      "left": 159930,
       "total": 201600
      },
      {
       "amt": 20,
-      "left": 152368,
+      "left": 152311,
       "total": 192000
      },
      {
       "amt": 15,
-      "left": 171414,
+      "left": 171353,
       "total": 216000
      },
      {
       "amt": 10,
-      "left": 266640,
+      "left": 266545,
       "total": 336000
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 259,
+     "biggest_claimed": 1000,
+     "claimed": 311,
      "hours": 17.6,
-     "jackpot_change": 358,
+     "jackpot_change": 291,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "42-high-roller-blackjack",
    "status": "active"
   },
@@ -41699,6 +42659,16 @@
       "jackpot": 50000,
       "left_pct": 56.1,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 56.1,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 50000,
+      "left_pct": 56.1,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp70.jpg",
@@ -41726,40 +42696,40 @@
      },
      {
       "amt": 100,
-      "left": 2693,
+      "left": 2691,
       "total": 4800
      },
      {
       "amt": 50,
-      "left": 24237,
+      "left": 24220,
       "total": 43200
      },
      {
       "amt": 30,
-      "left": 43097,
+      "left": 43068,
       "total": 76800
      },
      {
       "amt": 20,
-      "left": 70015,
+      "left": 69963,
       "total": 124800
      },
      {
       "amt": 10,
-      "left": 447054,
+      "left": 446724,
       "total": 796800
      }
     ],
     "since": {
-     "biggest_claimed": 500,
-     "claimed": 316,
+     "biggest_claimed": 100,
+     "claimed": 430,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "70-lightning-cash",
    "status": "active"
   },
@@ -42297,6 +43267,16 @@
       "jackpot": 100000,
       "left_pct": 77.8,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 77.8,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 100000,
+      "left_pct": 77.8,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp71.jpg",
@@ -42334,50 +43314,50 @@
      },
      {
       "amt": 500,
-      "left": 1554,
+      "left": 1553,
       "total": 2000
      },
      {
       "amt": 100,
-      "left": 27199,
+      "left": 27191,
       "total": 34960
      },
      {
       "amt": 75,
-      "left": 32670,
+      "left": 32661,
       "total": 42000
      },
      {
       "amt": 50,
-      "left": 33607,
+      "left": 33596,
       "total": 43200
      },
      {
       "amt": 40,
-      "left": 44809,
+      "left": 44796,
       "total": 57600
      },
      {
       "amt": 30,
-      "left": 112022,
+      "left": 111986,
       "total": 144000
      },
      {
       "amt": 20,
-      "left": 563844,
+      "left": 563670,
       "total": 724800
      }
     ],
     "since": {
-     "biggest_claimed": 100,
-     "claimed": 197,
+     "biggest_claimed": 500,
+     "claimed": 252,
      "hours": 17.6,
      "jackpot_change": null,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "71-big-win",
    "status": "active"
   },
@@ -42915,6 +43895,16 @@
       "jackpot": 48201,
       "left_pct": 34.0,
       "t": "2026-11-25 09:40"
+     },
+     {
+      "jackpot": 48370,
+      "left_pct": 34.0,
+      "t": "2026-11-25 16:05"
+     },
+     {
+      "jackpot": 48571,
+      "left_pct": 34.0,
+      "t": "2026-11-26 09:40"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/md/fp74.jpg",
@@ -42923,9 +43913,19 @@
      "left": 4,
      "start": null,
      "total": 12,
-     "value": 48201
+     "value": 48571
     },
     "jackpot_log": [
+     {
+      "left": 4,
+      "t": "2026-11-26 09:40",
+      "v": 48571
+     },
+     {
+      "left": 4,
+      "t": "2026-11-25 16:05",
+      "v": 48370
+     },
      {
       "left": 4,
       "t": "2026-11-25 09:40",
@@ -43463,7 +44463,7 @@
     "odds": 4.02,
     "prizes": [
      {
-      "amt": 48201,
+      "amt": 48571,
       "jackpot": true,
       "left": 4,
       "total": 12
@@ -43485,50 +44485,50 @@
      },
      {
       "amt": 100,
-      "left": 107,
+      "left": 106,
       "total": 320
      },
      {
       "amt": 40,
-      "left": 1472,
+      "left": 1468,
       "total": 4320
      },
      {
       "amt": 21,
-      "left": 9807,
+      "left": 9779,
       "total": 28800
      },
      {
       "amt": 11,
-      "left": 34324,
+      "left": 34230,
       "total": 100800
      },
      {
       "amt": 7,
-      "left": 86623,
+      "left": 86388,
       "total": 254400
      },
      {
       "amt": 4,
-      "left": 55567,
+      "left": 55419,
       "total": 163200
      },
      {
       "amt": 2,
-      "left": 219008,
+      "left": 218416,
       "total": 643200
      }
     ],
     "since": {
-     "biggest_claimed": 40,
-     "claimed": 891,
+     "biggest_claimed": 100,
+     "claimed": 1102,
      "hours": 17.6,
-     "jackpot_change": 186,
+     "jackpot_change": 201,
      "jackpots_hit_here": 0,
-     "t": "2026-11-24 16:05"
+     "t": "2026-11-25 16:05"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "74-7-11-21",
    "status": "active"
   },
@@ -45522,6 +46522,11 @@
       "jackpot": 33394,
       "left_pct": 68.2,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 33455,
+      "left_pct": 68.1,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp242.jpg",
@@ -45530,9 +46535,14 @@
      "left": 3,
      "start": 4000,
      "total": 3,
-     "value": 33394
+     "value": 33455
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 33455
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -46135,7 +47145,7 @@
     "odds": 3.89,
     "prizes": [
      {
-      "amt": 33394,
+      "amt": 33455,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -46157,12 +47167,12 @@
      },
      {
       "amt": 20,
-      "left": 197,
+      "left": 196,
       "total": 300
      },
      {
       "amt": 14,
-      "left": 196,
+      "left": 194,
       "total": 300
      },
      {
@@ -46177,7 +47187,7 @@
      },
      {
       "amt": 5,
-      "left": 1392,
+      "left": 1391,
       "total": 2100
      },
      {
@@ -46187,25 +47197,25 @@
      },
      {
       "amt": 2,
-      "left": 4264,
+      "left": 4260,
       "total": 6300
      },
      {
       "amt": 1,
-      "left": 45101,
+      "left": 45050,
       "total": 66000
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 62,
+     "biggest_claimed": 20,
+     "claimed": 59,
+     "hours": 17.6,
+     "jackpot_change": 61,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "242-blazin-bucks-progressive",
    "status": "active"
   },
@@ -46798,6 +47808,11 @@
       "jackpot": 36982,
       "left_pct": 89.7,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 37050,
+      "left_pct": 89.7,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp243.jpg",
@@ -46806,9 +47821,14 @@
      "left": 3,
      "start": 8000,
      "total": 3,
-     "value": 36982
+     "value": 37050
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 37050
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -47406,7 +48426,7 @@
     "odds": 3.63,
     "prizes": [
      {
-      "amt": 36982,
+      "amt": 37050,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -47463,25 +48483,25 @@
      },
      {
       "amt": 4,
-      "left": 30454,
+      "left": 30448,
       "total": 34000
      },
      {
       "amt": 2,
-      "left": 86598,
+      "left": 86578,
       "total": 96500
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 63,
+     "biggest_claimed": 4,
+     "claimed": 26,
+     "hours": 17.6,
+     "jackpot_change": 68,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "243-cash-spot-progressive",
    "status": "active"
   },
@@ -48074,6 +49094,11 @@
       "jackpot": 36982,
       "left_pct": 85.6,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 37050,
+      "left_pct": 85.5,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp244.jpg",
@@ -48082,9 +49107,14 @@
      "left": 3,
      "start": 8000,
      "total": 3,
-     "value": 36982
+     "value": 37050
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 37050
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -48687,7 +49717,7 @@
     "odds": 3.82,
     "prizes": [
      {
-      "amt": 36982,
+      "amt": 37050,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -48719,35 +49749,35 @@
      },
      {
       "amt": 10,
-      "left": 821,
+      "left": 819,
       "total": 960
      },
      {
       "amt": 6,
-      "left": 820,
+      "left": 819,
       "total": 960
      },
      {
       "amt": 4,
-      "left": 17608,
+      "left": 17601,
       "total": 20640
      },
      {
       "amt": 2,
-      "left": 86345,
+      "left": 86302,
       "total": 100800
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 59,
+     "biggest_claimed": 10,
+     "claimed": 53,
+     "hours": 17.6,
+     "jackpot_change": 68,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "244-hit-100-progressive",
    "status": "active"
   },
@@ -49340,6 +50370,11 @@
       "jackpot": 36982,
       "left_pct": 73.1,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 37050,
+      "left_pct": 73.0,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp245.jpg",
@@ -49348,9 +50383,14 @@
      "left": 2,
      "start": 8000,
      "total": 3,
-     "value": 36982
+     "value": 37050
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-11-26 09:35",
+      "v": 37050
+     },
      {
       "left": 2,
       "t": "2026-11-25 16:00",
@@ -49953,7 +50993,7 @@
     "odds": 3.48,
     "prizes": [
      {
-      "amt": 36982,
+      "amt": 37050,
       "jackpot": true,
       "left": 2,
       "total": 3
@@ -49970,7 +51010,7 @@
      },
      {
       "amt": 50,
-      "left": 367,
+      "left": 366,
       "total": 510
      },
      {
@@ -49980,35 +51020,35 @@
      },
      {
       "amt": 10,
-      "left": 655,
+      "left": 654,
       "total": 900
      },
      {
       "amt": 5,
-      "left": 2164,
+      "left": 2160,
       "total": 3000
      },
      {
       "amt": 4,
-      "left": 15235,
+      "left": 15221,
       "total": 21000
      },
      {
       "amt": 2,
-      "left": 44019,
+      "left": 43984,
       "total": 60000
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 59,
+     "biggest_claimed": 50,
+     "claimed": 55,
+     "hours": 17.6,
+     "jackpot_change": 68,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "245-grumpy-cat-progressive",
    "status": "active"
   },
@@ -50601,6 +51641,11 @@
       "jackpot": 33394,
       "left_pct": 86.4,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 33455,
+      "left_pct": 86.4,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp246.jpg",
@@ -50609,9 +51654,14 @@
      "left": 3,
      "start": 4000,
      "total": 3,
-     "value": 33394
+     "value": 33455
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 33455
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -51214,7 +52264,7 @@
     "odds": 4.01,
     "prizes": [
      {
-      "amt": 33394,
+      "amt": 33455,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -51261,30 +52311,30 @@
      },
      {
       "amt": 3,
-      "left": 1650,
+      "left": 1648,
       "total": 1920
      },
      {
       "amt": 2,
-      "left": 10728,
+      "left": 10725,
       "total": 12480
      },
      {
       "amt": 1,
-      "left": 87191,
+      "left": 87143,
       "total": 100800
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
+     "biggest_claimed": 3,
+     "claimed": 53,
+     "hours": 17.6,
      "jackpot_change": 61,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "246-double-play-progressive",
    "status": "active"
   },
@@ -51877,6 +52927,11 @@
       "jackpot": 33394,
       "left_pct": 77.9,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 33455,
+      "left_pct": 77.8,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp247.jpg",
@@ -51885,9 +52940,14 @@
      "left": 3,
      "start": 4000,
      "total": 3,
-     "value": 33394
+     "value": 33455
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 33455
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -52485,7 +53545,7 @@
     "odds": 4.1,
     "prizes": [
      {
-      "amt": 33394,
+      "amt": 33455,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -52537,7 +53597,7 @@
      },
      {
       "amt": 5,
-      "left": 692,
+      "left": 691,
       "total": 900
      },
      {
@@ -52547,30 +53607,30 @@
      },
      {
       "amt": 3,
-      "left": 933,
+      "left": 932,
       "total": 1200
      },
      {
       "amt": 2,
-      "left": 5829,
+      "left": 5823,
       "total": 7500
      },
      {
       "amt": 1,
-      "left": 47728,
+      "left": 47683,
       "total": 61200
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
+     "biggest_claimed": 5,
+     "claimed": 53,
+     "hours": 17.6,
      "jackpot_change": 61,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "247-sugar-crush-progressive",
    "status": "active"
   },
@@ -53163,6 +54223,11 @@
       "jackpot": 48393,
       "left_pct": 87.9,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 48527,
+      "left_pct": 87.9,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp248.jpg",
@@ -53171,9 +54236,14 @@
      "left": 3,
      "start": 40000,
      "total": 3,
-     "value": 48393
+     "value": 48527
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 48527
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -53771,7 +54841,7 @@
     "odds": 3.64,
     "prizes": [
      {
-      "amt": 48393,
+      "amt": 48527,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -53808,25 +54878,25 @@
      },
      {
       "amt": 10,
-      "left": 19740,
+      "left": 19735,
       "total": 22500
      },
      {
       "amt": 5,
-      "left": 98939,
+      "left": 98900,
       "total": 112500
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 131,
+     "biggest_claimed": 10,
+     "claimed": 44,
+     "hours": 17.6,
+     "jackpot_change": 134,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "248-500-frenzy-progressive",
    "status": "active"
   },
@@ -54419,6 +55489,11 @@
       "jackpot": 48393,
       "left_pct": 89.6,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 48521,
+      "left_pct": 89.5,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp250.jpg",
@@ -54427,9 +55502,14 @@
      "left": 2,
      "start": 40000,
      "total": 3,
-     "value": 48393
+     "value": 48521
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-11-26 09:35",
+      "v": 48521
+     },
      {
       "left": 2,
       "t": "2026-11-25 16:00",
@@ -55027,7 +56107,7 @@
     "odds": 3.16,
     "prizes": [
      {
-      "amt": 48393,
+      "amt": 48521,
       "jackpot": true,
       "left": 2,
       "total": 3
@@ -55049,22 +56129,22 @@
      },
      {
       "amt": 150,
-      "left": 40,
+      "left": 39,
       "total": 45
      },
      {
       "amt": 50,
-      "left": 6688,
+      "left": 6686,
       "total": 7495
      },
      {
       "amt": 25,
-      "left": 1343,
+      "left": 1342,
       "total": 1500
      },
      {
       "amt": 20,
-      "left": 896,
+      "left": 895,
       "total": 1000
      },
      {
@@ -55074,30 +56154,30 @@
      },
      {
       "amt": 10,
-      "left": 5820,
+      "left": 5818,
       "total": 6500
      },
      {
       "amt": 8,
-      "left": 34041,
+      "left": 34030,
       "total": 38000
      },
      {
       "amt": 5,
-      "left": 91419,
+      "left": 91372,
       "total": 102000
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 131,
+     "biggest_claimed": 150,
+     "claimed": 65,
+     "hours": 17.6,
+     "jackpot_change": 128,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "250-5-times-lucky-progressive",
    "status": "active"
   },
@@ -55690,6 +56770,11 @@
       "jackpot": 133799,
       "left_pct": 89.0,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 134013,
+      "left_pct": 88.9,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp251.jpg",
@@ -55698,9 +56783,14 @@
      "left": 2,
      "start": 90000,
      "total": 3,
-     "value": 133799
+     "value": 134013
     },
     "jackpot_log": [
+     {
+      "left": 2,
+      "t": "2026-11-26 09:35",
+      "v": 134013
+     },
      {
       "left": 2,
       "t": "2026-11-25 16:00",
@@ -56303,7 +57393,7 @@
     "odds": 3.08,
     "prizes": [
      {
-      "amt": 133799,
+      "amt": 134013,
       "jackpot": true,
       "left": 2,
       "total": 3
@@ -56325,50 +57415,50 @@
      },
      {
       "amt": 200,
-      "left": 896,
+      "left": 894,
       "total": 1008
      },
      {
       "amt": 100,
-      "left": 1308,
+      "left": 1307,
       "total": 1472
      },
      {
       "amt": 80,
-      "left": 567,
+      "left": 566,
       "total": 640
      },
      {
       "amt": 50,
-      "left": 1081,
+      "left": 1078,
       "total": 1216
      },
      {
       "amt": 40,
-      "left": 6032,
+      "left": 6029,
       "total": 6800
      },
      {
       "amt": 20,
-      "left": 17072,
+      "left": 17061,
       "total": 19200
      },
      {
       "amt": 10,
-      "left": 88319,
+      "left": 88262,
       "total": 99200
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 218,
+     "biggest_claimed": 200,
+     "claimed": 78,
+     "hours": 17.6,
+     "jackpot_change": 214,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "251-money-multiplier-progressive",
    "status": "active"
   },
@@ -56961,6 +58051,11 @@
       "jackpot": 133809,
       "left_pct": 91.9,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 134013,
+      "left_pct": 91.8,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp252.jpg",
@@ -56969,9 +58064,14 @@
      "left": 3,
      "start": 90000,
      "total": 3,
-     "value": 133809
+     "value": 134013
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 134013
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -57574,7 +58674,7 @@
     "odds": 3.19,
     "prizes": [
      {
-      "amt": 133809,
+      "amt": 134013,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -57606,25 +58706,25 @@
      },
      {
       "amt": 20,
-      "left": 21290,
+      "left": 21280,
       "total": 23200
      },
      {
       "amt": 10,
-      "left": 91542,
+      "left": 91508,
       "total": 99600
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 228,
+     "biggest_claimed": 20,
+     "claimed": 44,
+     "hours": 17.6,
+     "jackpot_change": 204,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "252-1000-loaded-progressive",
    "status": "active"
   },
@@ -58217,6 +59317,11 @@
       "jackpot": 133799,
       "left_pct": 90.2,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 134013,
+      "left_pct": 90.2,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp253.jpg",
@@ -58225,9 +59330,14 @@
      "left": 3,
      "start": 90000,
      "total": 3,
-     "value": 133799
+     "value": 134013
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 134013
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -58830,7 +59940,7 @@
     "odds": 2.92,
     "prizes": [
      {
-      "amt": 133799,
+      "amt": 134013,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -58852,40 +59962,40 @@
      },
      {
       "amt": 50,
-      "left": 4692,
+      "left": 4689,
       "total": 5208
      },
      {
       "amt": 30,
-      "left": 4324,
+      "left": 4322,
       "total": 4800
      },
      {
       "amt": 20,
-      "left": 14432,
+      "left": 14421,
       "total": 16000
      },
      {
       "amt": 15,
-      "left": 37521,
+      "left": 37501,
       "total": 41600
      },
      {
       "amt": 10,
-      "left": 61739,
+      "left": 61708,
       "total": 68400
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 218,
+     "biggest_claimed": 50,
+     "claimed": 67,
+     "hours": 17.6,
+     "jackpot_change": 214,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "253-casino-royale-progressive",
    "status": "active"
   },
@@ -59478,6 +60588,11 @@
       "jackpot": 610700,
       "left_pct": 97.0,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 611127,
+      "left_pct": 97.0,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp254.jpg",
@@ -59486,9 +60601,14 @@
      "left": 3,
      "start": 500000,
      "total": 3,
-     "value": 610700
+     "value": 611127
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 611127
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -60091,7 +61211,7 @@
     "odds": 2.77,
     "prizes": [
      {
-      "amt": 610700,
+      "amt": 611127,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -60133,7 +61253,7 @@
      },
      {
       "amt": 200,
-      "left": 1493,
+      "left": 1492,
       "total": 1540
      },
      {
@@ -60143,12 +61263,12 @@
      },
      {
       "amt": 80,
-      "left": 1554,
+      "left": 1553,
       "total": 1600
      },
      {
       "amt": 70,
-      "left": 3929,
+      "left": 3928,
       "total": 4050
      },
      {
@@ -60158,30 +61278,30 @@
      },
      {
       "amt": 50,
-      "left": 16977,
+      "left": 16973,
       "total": 17500
      },
      {
       "amt": 40,
-      "left": 49506,
+      "left": 49491,
       "total": 51000
      },
      {
       "amt": 30,
-      "left": 96076,
+      "left": 96058,
       "total": 99000
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 324,
+     "biggest_claimed": 200,
+     "claimed": 40,
+     "hours": 17.6,
+     "jackpot_change": 427,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "254-extreme-green-progressive",
    "status": "active"
   },
@@ -60774,6 +61894,11 @@
       "jackpot": 610749,
       "left_pct": 98.1,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 611127,
+      "left_pct": 98.1,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp255.jpg",
@@ -60782,9 +61907,14 @@
      "left": 3,
      "start": 500000,
      "total": 3,
-     "value": 610749
+     "value": 611127
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 611127
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -61382,7 +62512,7 @@
     "odds": 2.7,
     "prizes": [
      {
-      "amt": 610749,
+      "amt": 611127,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -61429,30 +62559,30 @@
      },
      {
       "amt": 50,
-      "left": 17175,
+      "left": 17172,
       "total": 17500
      },
      {
       "amt": 40,
-      "left": 47093,
+      "left": 47086,
       "total": 48000
      },
      {
       "amt": 30,
-      "left": 110890,
+      "left": 110881,
       "total": 113000
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 373,
+     "biggest_claimed": 50,
+     "claimed": 19,
+     "hours": 17.6,
+     "jackpot_change": 378,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "255-winning-line-progressive",
    "status": "active"
   },
@@ -62045,6 +63175,11 @@
       "jackpot": 183574,
       "left_pct": 97.7,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 183774,
+      "left_pct": 97.6,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp256.jpg",
@@ -62053,9 +63188,14 @@
      "left": 3,
      "start": 150000,
      "total": 3,
-     "value": 183574
+     "value": 183774
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 183774
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -62653,7 +63793,7 @@
     "odds": 2.91,
     "prizes": [
      {
-      "amt": 183574,
+      "amt": 183774,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -62705,35 +63845,35 @@
      },
      {
       "amt": 60,
-      "left": 1704,
+      "left": 1702,
       "total": 1750
      },
      {
       "amt": 40,
-      "left": 20164,
+      "left": 20153,
       "total": 20650
      },
      {
       "amt": 30,
-      "left": 25320,
+      "left": 25311,
       "total": 25900
      },
      {
       "amt": 20,
-      "left": 67005,
+      "left": 66978,
       "total": 68600
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 234,
+     "biggest_claimed": 60,
+     "claimed": 49,
+     "hours": 17.6,
+     "jackpot_change": 200,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "256-high-voltage-progressive",
    "status": "active"
   },
@@ -63326,6 +64466,11 @@
       "jackpot": 183574,
       "left_pct": 98.2,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 183774,
+      "left_pct": 98.2,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp257.jpg",
@@ -63334,9 +64479,14 @@
      "left": 3,
      "start": 150000,
      "total": 3,
-     "value": 183574
+     "value": 183774
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 183774
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -63934,7 +65084,7 @@
     "odds": 2.97,
     "prizes": [
      {
-      "amt": 183574,
+      "amt": 183774,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -63961,7 +65111,7 @@
      },
      {
       "amt": 200,
-      "left": 579,
+      "left": 578,
       "total": 588
      },
      {
@@ -63981,30 +65131,30 @@
      },
      {
       "amt": 50,
-      "left": 14439,
+      "left": 14438,
       "total": 14700
      },
      {
       "amt": 40,
-      "left": 35066,
+      "left": 35058,
       "total": 35700
      },
      {
       "amt": 20,
-      "left": 63279,
+      "left": 63261,
       "total": 64400
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 234,
+     "biggest_claimed": 200,
+     "claimed": 28,
+     "hours": 17.6,
+     "jackpot_change": 200,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "257-cash-blast-progressive",
    "status": "active"
   },
@@ -64597,6 +65747,11 @@
       "jackpot": 29631,
       "left_pct": 96.1,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 29726,
+      "left_pct": 96.0,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp258.jpg",
@@ -64605,9 +65760,14 @@
      "left": 3,
      "start": 20000,
      "total": 3,
-     "value": 29631
+     "value": 29726
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 29726
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -65210,7 +66370,7 @@
     "odds": 3.14,
     "prizes": [
      {
-      "amt": 29631,
+      "amt": 29726,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -65232,7 +66392,7 @@
      },
      {
       "amt": 50,
-      "left": 154,
+      "left": 153,
       "total": 162
      },
      {
@@ -65247,35 +66407,35 @@
      },
      {
       "amt": 12,
-      "left": 1148,
+      "left": 1147,
       "total": 1200
      },
      {
       "amt": 9,
-      "left": 2296,
+      "left": 2294,
       "total": 2400
      },
      {
       "amt": 6,
-      "left": 16099,
+      "left": 16084,
       "total": 16800
      },
      {
       "amt": 3,
-      "left": 70381,
+      "left": 70335,
       "total": 73200
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 65,
+     "biggest_claimed": 50,
+     "claimed": 65,
+     "hours": 17.6,
+     "jackpot_change": 95,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "258-bingo-progressive",
    "status": "active"
   },
@@ -65868,6 +67028,11 @@
       "jackpot": 29631,
       "left_pct": 97.8,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 29726,
+      "left_pct": 97.8,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp259.jpg",
@@ -65876,9 +67041,14 @@
      "left": 3,
      "start": 20000,
      "total": 3,
-     "value": 29631
+     "value": 29726
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 29726
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -66481,7 +67651,7 @@
     "odds": 3.19,
     "prizes": [
      {
-      "amt": 29631,
+      "amt": 29726,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -66523,25 +67693,25 @@
      },
      {
       "amt": 6,
-      "left": 22888,
+      "left": 22877,
       "total": 23400
      },
      {
       "amt": 3,
-      "left": 64272,
+      "left": 64258,
       "total": 65700
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 65,
+     "biggest_claimed": 6,
+     "claimed": 25,
+     "hours": 17.6,
+     "jackpot_change": 95,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "259-scrabble-progressive",
    "status": "active"
   },
@@ -67134,6 +68304,11 @@
       "jackpot": 29631,
       "left_pct": 97.0,
       "t": "2026-11-25 16:00"
+     },
+     {
+      "jackpot": 29726,
+      "left_pct": 97.0,
+      "t": "2026-11-26 09:35"
      }
     ],
     "img": "https://www.gamingdatasolutions.com/images/ok/fp260.jpg",
@@ -67142,9 +68317,14 @@
      "left": 3,
      "start": 20000,
      "total": 3,
-     "value": 29631
+     "value": 29726
     },
     "jackpot_log": [
+     {
+      "left": 3,
+      "t": "2026-11-26 09:35",
+      "v": 29726
+     },
      {
       "left": 3,
       "t": "2026-11-25 16:00",
@@ -67742,7 +68922,7 @@
     "odds": 3.23,
     "prizes": [
      {
-      "amt": 29631,
+      "amt": 29726,
       "jackpot": true,
       "left": 3,
       "total": 3
@@ -67769,40 +68949,40 @@
      },
      {
       "amt": 30,
-      "left": 580,
+      "left": 579,
       "total": 600
      },
      {
       "amt": 15,
-      "left": 871,
+      "left": 868,
       "total": 900
      },
      {
       "amt": 7,
-      "left": 2913,
+      "left": 2910,
       "total": 3000
      },
      {
       "amt": 5,
-      "left": 33158,
+      "left": 33139,
       "total": 34200
      },
      {
       "amt": 3,
-      "left": 52445,
+      "left": 52427,
       "total": 54000
      }
     ],
     "since": {
-     "biggest_claimed": null,
-     "claimed": 0,
-     "hours": 6.4,
-     "jackpot_change": 65,
+     "biggest_claimed": 30,
+     "claimed": 44,
+     "hours": 17.6,
+     "jackpot_change": 95,
      "jackpots_hit_here": 0,
-     "t": "2026-11-25 09:35"
+     "t": "2026-11-25 16:00"
     }
    },
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "slug": "260-crossword-progressive",
    "status": "active"
   }
