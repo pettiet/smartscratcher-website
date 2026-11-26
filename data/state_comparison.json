@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "note": "One row per state lottery, scratch-off games in stores only. Prize counts, ticket prices and overall odds are the lottery's own figures. est_weekly_sales_usd is a SmartScratcher estimate (prizes claimed times printed odds times the ticket price, every game on sale, average of the last four complete weeks) and is null until a state has three weeks of history. est_sales_by_week is the same estimate for each of the last 12 complete weeks (7 days ending on week_ending), null until a state has all 12. avg_overall_odds is 1 in N, the average chance across the games on sale. Free-tier data, CC BY 4.0.",
  "source": "https://www.smartscratcherapp.com/scratchers/compare-states/",
@@ -15,14 +15,14 @@
    "games": 59,
    "games_with_a_top_prize_unclaimed": 59,
    "max_ticket_price_usd": 50.0,
-   "million_dollar_prizes_unclaimed": 21,
+   "million_dollar_prizes_unclaimed": 20,
    "min_ticket_price_usd": 1.0,
    "name": "Arizona",
    "page": "https://www.smartscratcherapp.com/scratchers/arizona/",
    "population_2020_census": 7151502,
-   "prize_money_unclaimed_usd": 795738021,
-   "prizes_unclaimed": 26211427,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 792639193,
+   "prizes_unclaimed": 26125324,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 1
   },
   {
@@ -32,7 +32,7 @@
    "code": "ar",
    "est_sales_by_week": null,
    "est_weekly_sales_per_resident_usd": 2.7,
-   "est_weekly_sales_usd": 8139983,
+   "est_weekly_sales_usd": 8138263,
    "games": 53,
    "games_with_a_top_prize_unclaimed": 51,
    "max_ticket_price_usd": 20.0,
@@ -41,9 +41,9 @@
    "name": "Arkansas",
    "page": "https://www.smartscratcherapp.com/scratchers/arkansas/",
    "population_2020_census": 3011524,
-   "prize_money_unclaimed_usd": 184909614,
-   "prizes_unclaimed": 9597886,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 184046925,
+   "prizes_unclaimed": 9555057,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 6
   },
   {
@@ -53,56 +53,56 @@
    "code": "ca",
    "est_sales_by_week": [
     {
-     "usd": 134228466,
-     "week_ending": "2026-09-09"
+     "usd": 130283707,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 124814635,
-     "week_ending": "2026-09-16"
+     "usd": 124805221,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 126573921,
-     "week_ending": "2026-09-23"
+     "usd": 128344167,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 134384007,
-     "week_ending": "2026-09-30"
+     "usd": 134280385,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 137395310,
-     "week_ending": "2026-10-07"
+     "usd": 137022649,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 131565360,
-     "week_ending": "2026-10-14"
+     "usd": 131118642,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 129695565,
-     "week_ending": "2026-10-21"
+     "usd": 130345047,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 134415419,
-     "week_ending": "2026-10-28"
+     "usd": 134280457,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 138166286,
-     "week_ending": "2026-11-04"
+     "usd": 139553712,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 137655780,
-     "week_ending": "2026-11-11"
+     "usd": 136244620,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 132228854,
-     "week_ending": "2026-11-18"
+     "usd": 131833049,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 135877911,
-     "week_ending": "2026-11-25"
+     "usd": 138998058,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 3.44,
-   "est_weekly_sales_usd": 135982208,
+   "est_weekly_sales_per_resident_usd": 3.46,
+   "est_weekly_sales_usd": 136657360,
    "games": 60,
    "games_with_a_top_prize_unclaimed": 60,
    "max_ticket_price_usd": 40.0,
@@ -111,9 +111,9 @@
    "name": "California",
    "page": "https://www.smartscratcherapp.com/scratchers/california/",
    "population_2020_census": 39538223,
-   "prize_money_unclaimed_usd": 4579911855,
-   "prizes_unclaimed": 158049575,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 4564964730,
+   "prizes_unclaimed": 157441566,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -132,9 +132,9 @@
    "name": "Connecticut",
    "page": "https://www.smartscratcherapp.com/scratchers/connecticut/",
    "population_2020_census": 3605944,
-   "prize_money_unclaimed_usd": 499229739,
-   "prizes_unclaimed": 21575766,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 497721633,
+   "prizes_unclaimed": 21507052,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 1
   },
   {
@@ -144,56 +144,56 @@
    "code": "fl",
    "est_sales_by_week": [
     {
-     "usd": 125953889,
-     "week_ending": "2026-09-09"
+     "usd": 124951271,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 119947378,
-     "week_ending": "2026-09-16"
+     "usd": 119748340,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 120193870,
-     "week_ending": "2026-09-23"
+     "usd": 120982291,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 123495297,
-     "week_ending": "2026-09-30"
+     "usd": 123778658,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 128377170,
-     "week_ending": "2026-10-07"
+     "usd": 127404825,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 118393477,
-     "week_ending": "2026-10-14"
+     "usd": 118440772,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 120352902,
-     "week_ending": "2026-10-21"
+     "usd": 120060898,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 121992816,
-     "week_ending": "2026-10-28"
+     "usd": 123372972,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 131676153,
-     "week_ending": "2026-11-04"
+     "usd": 131869866,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 127780601,
-     "week_ending": "2026-11-11"
+     "usd": 126943245,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 123433520,
-     "week_ending": "2026-11-18"
+     "usd": 122962181,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 124441130,
-     "week_ending": "2026-11-25"
+     "usd": 126859404,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 5.89,
-   "est_weekly_sales_usd": 126832851,
+   "est_weekly_sales_per_resident_usd": 5.9,
+   "est_weekly_sales_usd": 127158674,
    "games": 75,
    "games_with_a_top_prize_unclaimed": 63,
    "max_ticket_price_usd": 50.0,
@@ -202,9 +202,9 @@
    "name": "Florida",
    "page": "https://www.smartscratcherapp.com/scratchers/florida/",
    "population_2020_census": 21538187,
-   "prize_money_unclaimed_usd": 5097833436,
-   "prizes_unclaimed": 148400971,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 5084455231,
+   "prizes_unclaimed": 147942038,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -214,56 +214,56 @@
    "code": "ga",
    "est_sales_by_week": [
     {
-     "usd": 52406422,
-     "week_ending": "2026-09-09"
+     "usd": 51825131,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 49752197,
-     "week_ending": "2026-09-16"
+     "usd": 50029927,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 51280226,
-     "week_ending": "2026-09-23"
+     "usd": 50788770,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 48651521,
-     "week_ending": "2026-09-30"
+     "usd": 48853175,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 54293667,
-     "week_ending": "2026-10-07"
+     "usd": 54408721,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 49845860,
-     "week_ending": "2026-10-14"
+     "usd": 49449002,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 49204229,
-     "week_ending": "2026-10-21"
+     "usd": 50007397,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 53074112,
-     "week_ending": "2026-10-28"
+     "usd": 52855880,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 57491646,
-     "week_ending": "2026-11-04"
+     "usd": 57954852,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 53970768,
-     "week_ending": "2026-11-11"
+     "usd": 53450297,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 52659267,
-     "week_ending": "2026-11-18"
+     "usd": 53150227,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 55807879,
-     "week_ending": "2026-11-25"
+     "usd": 56563450,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 5.13,
-   "est_weekly_sales_usd": 54982390,
+   "est_weekly_sales_per_resident_usd": 5.16,
+   "est_weekly_sales_usd": 55279707,
    "games": 86,
    "games_with_a_top_prize_unclaimed": 85,
    "max_ticket_price_usd": 50.0,
@@ -272,9 +272,9 @@
    "name": "Georgia",
    "page": "https://www.smartscratcherapp.com/scratchers/georgia/",
    "population_2020_census": 10711908,
-   "prize_money_unclaimed_usd": 2310668526,
-   "prizes_unclaimed": 71789632,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 2304276437,
+   "prizes_unclaimed": 71526132,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -283,19 +283,19 @@
    "biggest_prize_unclaimed_usd": 6000000,
    "code": "il",
    "est_sales_by_week": null,
-   "est_weekly_sales_per_resident_usd": 3.11,
-   "est_weekly_sales_usd": 39796630,
+   "est_weekly_sales_per_resident_usd": 3.12,
+   "est_weekly_sales_usd": 39963243,
    "games": 52,
    "games_with_a_top_prize_unclaimed": 49,
    "max_ticket_price_usd": 50.0,
-   "million_dollar_prizes_unclaimed": 21,
+   "million_dollar_prizes_unclaimed": 20,
    "min_ticket_price_usd": 1.0,
    "name": "Illinois",
    "page": "https://www.smartscratcherapp.com/scratchers/illinois/",
    "population_2020_census": 12812508,
-   "prize_money_unclaimed_usd": 1159332215,
-   "prizes_unclaimed": 36243476,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 1153736941,
+   "prizes_unclaimed": 36098350,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 7
   },
   {
@@ -305,7 +305,7 @@
    "code": "ks",
    "est_sales_by_week": null,
    "est_weekly_sales_per_resident_usd": 1.08,
-   "est_weekly_sales_usd": 3165120,
+   "est_weekly_sales_usd": 3180236,
    "games": 45,
    "games_with_a_top_prize_unclaimed": 45,
    "max_ticket_price_usd": 50.0,
@@ -314,9 +314,9 @@
    "name": "Kansas",
    "page": "https://www.smartscratcherapp.com/scratchers/kansas/",
    "population_2020_census": 2937880,
-   "prize_money_unclaimed_usd": 128839251,
-   "prizes_unclaimed": 7199132,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 128487355,
+   "prizes_unclaimed": 7176976,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 7
   },
   {
@@ -335,9 +335,9 @@
    "name": "Louisiana",
    "page": "https://www.smartscratcherapp.com/scratchers/louisiana/",
    "population_2020_census": 4657757,
-   "prize_money_unclaimed_usd": 90076776,
-   "prizes_unclaimed": 8339198,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 89509590,
+   "prizes_unclaimed": 8284664,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 1
   },
   {
@@ -347,56 +347,56 @@
    "code": "md",
    "est_sales_by_week": [
     {
-     "usd": 19017385,
-     "week_ending": "2026-09-09"
+     "usd": 18858433,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 17939249,
-     "week_ending": "2026-09-16"
+     "usd": 17920384,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 18153620,
-     "week_ending": "2026-09-23"
+     "usd": 18338211,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 18303886,
-     "week_ending": "2026-09-30"
+     "usd": 18269971,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 19060433,
-     "week_ending": "2026-10-07"
+     "usd": 18911503,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 17686525,
-     "week_ending": "2026-10-14"
+     "usd": 17651905,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 18521754,
-     "week_ending": "2026-10-21"
+     "usd": 18767497,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 19029712,
-     "week_ending": "2026-10-28"
+     "usd": 19006946,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 19900706,
-     "week_ending": "2026-11-04"
+     "usd": 20028489,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 19225162,
-     "week_ending": "2026-11-11"
+     "usd": 19003165,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 18334984,
-     "week_ending": "2026-11-18"
+     "usd": 18289285,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 18465220,
-     "week_ending": "2026-11-25"
+     "usd": 18918947,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 3.07,
-   "est_weekly_sales_usd": 18981518,
+   "est_weekly_sales_per_resident_usd": 3.09,
+   "est_weekly_sales_usd": 19059972,
    "games": 94,
    "games_with_a_top_prize_unclaimed": 91,
    "max_ticket_price_usd": 50.0,
@@ -405,9 +405,9 @@
    "name": "Maryland",
    "page": "https://www.smartscratcherapp.com/scratchers/maryland/",
    "population_2020_census": 6177224,
-   "prize_money_unclaimed_usd": 1147808287,
-   "prizes_unclaimed": 35367384,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 1145782178,
+   "prizes_unclaimed": 35275534,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -417,56 +417,56 @@
    "code": "ma",
    "est_sales_by_week": [
     {
-     "usd": 68702874,
-     "week_ending": "2026-09-09"
+     "usd": 68230203,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 66063743,
-     "week_ending": "2026-09-16"
+     "usd": 65952102,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 65582795,
-     "week_ending": "2026-09-23"
+     "usd": 65612219,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 62873294,
-     "week_ending": "2026-09-30"
+     "usd": 63053820,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 68846767,
-     "week_ending": "2026-10-07"
+     "usd": 69021262,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 67037344,
-     "week_ending": "2026-10-14"
+     "usd": 66558217,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 65697752,
-     "week_ending": "2026-10-21"
+     "usd": 65706763,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 65068574,
-     "week_ending": "2026-10-28"
+     "usd": 66080295,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 69979391,
-     "week_ending": "2026-11-04"
+     "usd": 69731788,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 67013657,
-     "week_ending": "2026-11-11"
+     "usd": 66104209,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 65037646,
-     "week_ending": "2026-11-18"
+     "usd": 65135544,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 66976426,
-     "week_ending": "2026-11-25"
+     "usd": 68643303,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 9.57,
-   "est_weekly_sales_usd": 67251780,
+   "est_weekly_sales_per_resident_usd": 9.59,
+   "est_weekly_sales_usd": 67403711,
    "games": 134,
    "games_with_a_top_prize_unclaimed": 106,
    "max_ticket_price_usd": 50.0,
@@ -475,9 +475,9 @@
    "name": "Massachusetts",
    "page": "https://www.smartscratcherapp.com/scratchers/massachusetts/",
    "population_2020_census": 7029917,
-   "prize_money_unclaimed_usd": 4441163853,
-   "prizes_unclaimed": 121262280,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 4433129311,
+   "prizes_unclaimed": 121005120,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -487,56 +487,56 @@
    "code": "mi",
    "est_sales_by_week": [
     {
-     "usd": 41637552,
-     "week_ending": "2026-09-09"
+     "usd": 41435313,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 40513994,
-     "week_ending": "2026-09-16"
+     "usd": 40332051,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 39223777,
-     "week_ending": "2026-09-23"
+     "usd": 39145456,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 39542135,
-     "week_ending": "2026-09-30"
+     "usd": 40277694,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 45845468,
-     "week_ending": "2026-10-07"
+     "usd": 45620103,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 42423228,
-     "week_ending": "2026-10-14"
+     "usd": 42372297,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 41542515,
-     "week_ending": "2026-10-21"
+     "usd": 41365763,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 41017466,
-     "week_ending": "2026-10-28"
+     "usd": 41391938,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 44184164,
-     "week_ending": "2026-11-04"
+     "usd": 44109144,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 42338886,
-     "week_ending": "2026-11-11"
+     "usd": 42130043,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 40671239,
-     "week_ending": "2026-11-18"
+     "usd": 40579539,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 41887796,
-     "week_ending": "2026-11-25"
+     "usd": 42841674,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 4.19,
-   "est_weekly_sales_usd": 42270521,
+   "est_weekly_sales_per_resident_usd": 4.21,
+   "est_weekly_sales_usd": 42415100,
    "games": 108,
    "games_with_a_top_prize_unclaimed": 104,
    "max_ticket_price_usd": 50.0,
@@ -545,9 +545,9 @@
    "name": "Michigan",
    "page": "https://www.smartscratcherapp.com/scratchers/michigan/",
    "population_2020_census": 10077331,
-   "prize_money_unclaimed_usd": 3445027421,
-   "prizes_unclaimed": 106771319,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 3439967006,
+   "prizes_unclaimed": 106625253,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -566,9 +566,9 @@
    "name": "Minnesota",
    "page": "https://www.smartscratcherapp.com/scratchers/minnesota/",
    "population_2020_census": 5706494,
-   "prize_money_unclaimed_usd": 267879358,
-   "prizes_unclaimed": 16934454,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 266307556,
+   "prizes_unclaimed": 16840253,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 1
   },
   {
@@ -578,56 +578,56 @@
    "code": "mo",
    "est_sales_by_week": [
     {
-     "usd": 22013724,
-     "week_ending": "2026-09-09"
+     "usd": 21917396,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 21379182,
-     "week_ending": "2026-09-16"
+     "usd": 21264690,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 20554982,
-     "week_ending": "2026-09-23"
+     "usd": 20511095,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 20838336,
-     "week_ending": "2026-09-30"
+     "usd": 20983522,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 22533013,
-     "week_ending": "2026-10-07"
+     "usd": 22416154,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 20899588,
-     "week_ending": "2026-10-14"
+     "usd": 20916141,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 20572911,
-     "week_ending": "2026-10-21"
+     "usd": 20501486,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 20712113,
-     "week_ending": "2026-10-28"
+     "usd": 20712695,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 21592170,
-     "week_ending": "2026-11-04"
+     "usd": 21805888,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 21222162,
-     "week_ending": "2026-11-11"
+     "usd": 21093499,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 20506005,
-     "week_ending": "2026-11-18"
+     "usd": 20501334,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 20891411,
-     "week_ending": "2026-11-25"
+     "usd": 21025982,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 3.42,
-   "est_weekly_sales_usd": 21052937,
+   "est_weekly_sales_per_resident_usd": 3.43,
+   "est_weekly_sales_usd": 21106676,
    "games": 48,
    "games_with_a_top_prize_unclaimed": 46,
    "max_ticket_price_usd": 50.0,
@@ -636,9 +636,9 @@
    "name": "Missouri",
    "page": "https://www.smartscratcherapp.com/scratchers/missouri/",
    "population_2020_census": 6154913,
-   "prize_money_unclaimed_usd": 1167863182,
-   "prizes_unclaimed": 27410837,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 1165497911,
+   "prizes_unclaimed": 27314677,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -648,67 +648,67 @@
    "code": "nj",
    "est_sales_by_week": [
     {
-     "usd": 41524838,
-     "week_ending": "2026-09-09"
+     "usd": 41357101,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 39974466,
-     "week_ending": "2026-09-16"
+     "usd": 40081019,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 40152685,
-     "week_ending": "2026-09-23"
+     "usd": 40125544,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 38402805,
-     "week_ending": "2026-09-30"
+     "usd": 38331848,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 42777102,
-     "week_ending": "2026-10-07"
+     "usd": 43045797,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 40775241,
-     "week_ending": "2026-10-14"
+     "usd": 40720308,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 40629467,
-     "week_ending": "2026-10-21"
+     "usd": 40350957,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 39482925,
-     "week_ending": "2026-10-28"
+     "usd": 39686276,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 42984554,
-     "week_ending": "2026-11-04"
+     "usd": 43229802,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 41192851,
-     "week_ending": "2026-11-11"
+     "usd": 40617714,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 39507024,
-     "week_ending": "2026-11-18"
+     "usd": 39709897,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 40851162,
-     "week_ending": "2026-11-25"
+     "usd": 41673964,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 4.43,
-   "est_weekly_sales_usd": 41133898,
+   "est_weekly_sales_per_resident_usd": 4.45,
+   "est_weekly_sales_usd": 41307844,
    "games": 122,
    "games_with_a_top_prize_unclaimed": 92,
    "max_ticket_price_usd": 30.0,
-   "million_dollar_prizes_unclaimed": 34,
+   "million_dollar_prizes_unclaimed": 33,
    "min_ticket_price_usd": 1.0,
    "name": "New Jersey",
    "page": "https://www.smartscratcherapp.com/scratchers/new-jersey/",
    "population_2020_census": 9288994,
-   "prize_money_unclaimed_usd": 1645079282,
-   "prizes_unclaimed": 50983178,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 1638665223,
+   "prizes_unclaimed": 50803868,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -727,9 +727,9 @@
    "name": "New Mexico",
    "page": "https://www.smartscratcherapp.com/scratchers/new-mexico/",
    "population_2020_census": 2117522,
-   "prize_money_unclaimed_usd": 35615072,
-   "prizes_unclaimed": 3321319,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 35469328,
+   "prizes_unclaimed": 3307823,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 1
   },
   {
@@ -739,56 +739,56 @@
    "code": "ny",
    "est_sales_by_week": [
     {
-     "usd": 81390777,
-     "week_ending": "2026-09-09"
+     "usd": 80767016,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 78211580,
-     "week_ending": "2026-09-16"
+     "usd": 78168146,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 76282922,
-     "week_ending": "2026-09-23"
+     "usd": 76106552,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 74743452,
-     "week_ending": "2026-09-30"
+     "usd": 75189904,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 81515306,
-     "week_ending": "2026-10-07"
+     "usd": 81687696,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 77668541,
-     "week_ending": "2026-10-14"
+     "usd": 77149141,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 76419699,
-     "week_ending": "2026-10-21"
+     "usd": 76342379,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 75684132,
-     "week_ending": "2026-10-28"
+     "usd": 75674287,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 80300258,
-     "week_ending": "2026-11-04"
+     "usd": 81095670,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 80195693,
-     "week_ending": "2026-11-11"
+     "usd": 79426550,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 74887414,
-     "week_ending": "2026-11-18"
+     "usd": 75088111,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 77858643,
-     "week_ending": "2026-11-25"
+     "usd": 79069675,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 3.88,
-   "est_weekly_sales_usd": 78310502,
+   "est_weekly_sales_per_resident_usd": 3.89,
+   "est_weekly_sales_usd": 78670002,
    "games": 110,
    "games_with_a_top_prize_unclaimed": 87,
    "max_ticket_price_usd": 30.0,
@@ -797,9 +797,9 @@
    "name": "New York",
    "page": "https://www.smartscratcherapp.com/scratchers/new-york/",
    "population_2020_census": 20201249,
-   "prize_money_unclaimed_usd": 4303535130,
-   "prizes_unclaimed": 175134701,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 4295383136,
+   "prizes_unclaimed": 174710261,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -809,56 +809,56 @@
    "code": "nc",
    "est_sales_by_week": [
     {
-     "usd": 49178788,
-     "week_ending": "2026-09-09"
+     "usd": 48793261,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 46968360,
-     "week_ending": "2026-09-16"
+     "usd": 46730217,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 44725558,
-     "week_ending": "2026-09-23"
+     "usd": 44551534,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 44830823,
-     "week_ending": "2026-09-30"
+     "usd": 45248444,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 49155566,
-     "week_ending": "2026-10-07"
+     "usd": 49585937,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 49333875,
-     "week_ending": "2026-10-14"
+     "usd": 49060118,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 46980761,
-     "week_ending": "2026-10-21"
+     "usd": 46595791,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 47026648,
-     "week_ending": "2026-10-28"
+     "usd": 47283113,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 50403094,
-     "week_ending": "2026-11-04"
+     "usd": 51138701,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 51214800,
-     "week_ending": "2026-11-11"
+     "usd": 50510431,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 48033650,
-     "week_ending": "2026-11-18"
+     "usd": 48018333,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 49116764,
-     "week_ending": "2026-11-25"
+     "usd": 49933212,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 4.76,
-   "est_weekly_sales_usd": 49692077,
+   "est_weekly_sales_per_resident_usd": 4.78,
+   "est_weekly_sales_usd": 49900169,
    "games": 89,
    "games_with_a_top_prize_unclaimed": 86,
    "max_ticket_price_usd": 50.0,
@@ -867,9 +867,9 @@
    "name": "North Carolina",
    "page": "https://www.smartscratcherapp.com/scratchers/north-carolina/",
    "population_2020_census": 10439388,
-   "prize_money_unclaimed_usd": 2792820808,
-   "prizes_unclaimed": 63843806,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 2787305670,
+   "prizes_unclaimed": 63683844,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -878,8 +878,8 @@
    "biggest_prize_unclaimed_usd": 20000000,
    "code": "oh",
    "est_sales_by_week": null,
-   "est_weekly_sales_per_resident_usd": 3.67,
-   "est_weekly_sales_usd": 43359851,
+   "est_weekly_sales_per_resident_usd": 3.7,
+   "est_weekly_sales_usd": 43626809,
    "games": 84,
    "games_with_a_top_prize_unclaimed": 71,
    "max_ticket_price_usd": 50.0,
@@ -888,9 +888,9 @@
    "name": "Ohio",
    "page": "https://www.smartscratcherapp.com/scratchers/ohio/",
    "population_2020_census": 11799448,
-   "prize_money_unclaimed_usd": 1786719759,
-   "prizes_unclaimed": 52561302,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 1781558770,
+   "prizes_unclaimed": 52333684,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 7
   },
   {
@@ -900,56 +900,56 @@
    "code": "ok",
    "est_sales_by_week": [
     {
-     "usd": 3479248,
-     "week_ending": "2026-09-09"
+     "usd": 3444848,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 3469365,
-     "week_ending": "2026-09-16"
+     "usd": 3471615,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 3301882,
-     "week_ending": "2026-09-23"
+     "usd": 3304731,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 3387326,
-     "week_ending": "2026-09-30"
+     "usd": 3421662,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 3705611,
-     "week_ending": "2026-10-07"
+     "usd": 3702790,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 3444933,
-     "week_ending": "2026-10-14"
+     "usd": 3391208,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 3328845,
-     "week_ending": "2026-10-21"
+     "usd": 3349471,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 3342229,
-     "week_ending": "2026-10-28"
+     "usd": 3358156,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 3609266,
-     "week_ending": "2026-11-04"
+     "usd": 3663026,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 3577340,
-     "week_ending": "2026-11-11"
+     "usd": 3566522,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 3537939,
-     "week_ending": "2026-11-18"
+     "usd": 3518659,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 3604809,
-     "week_ending": "2026-11-25"
+     "usd": 3664276,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 0.9,
-   "est_weekly_sales_usd": 3582339,
+   "est_weekly_sales_per_resident_usd": 0.91,
+   "est_weekly_sales_usd": 3603121,
    "games": 55,
    "games_with_a_top_prize_unclaimed": 47,
    "max_ticket_price_usd": 100.0,
@@ -958,9 +958,9 @@
    "name": "Oklahoma",
    "page": "https://www.smartscratcherapp.com/scratchers/oklahoma/",
    "population_2020_census": 3959353,
-   "prize_money_unclaimed_usd": 238136702,
-   "prizes_unclaimed": 8739559,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 237756602,
+   "prizes_unclaimed": 8713353,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -970,56 +970,56 @@
    "code": "sc",
    "est_sales_by_week": [
     {
-     "usd": 31858431,
-     "week_ending": "2026-09-09"
+     "usd": 31440336,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 29477172,
-     "week_ending": "2026-09-16"
+     "usd": 29248351,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 28482700,
-     "week_ending": "2026-09-23"
+     "usd": 28398032,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 27996486,
-     "week_ending": "2026-09-30"
+     "usd": 28236590,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 30636482,
-     "week_ending": "2026-10-07"
+     "usd": 30731445,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 29646299,
-     "week_ending": "2026-10-14"
+     "usd": 29473283,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 28801579,
-     "week_ending": "2026-10-21"
+     "usd": 28728176,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 28005629,
-     "week_ending": "2026-10-28"
+     "usd": 28015885,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 31105605,
-     "week_ending": "2026-11-04"
+     "usd": 32009637,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 32857160,
-     "week_ending": "2026-11-11"
+     "usd": 32293079,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 30434888,
-     "week_ending": "2026-11-18"
+     "usd": 30185201,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 30271154,
-     "week_ending": "2026-11-25"
+     "usd": 30742425,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 6.09,
-   "est_weekly_sales_usd": 31167202,
+   "est_weekly_sales_per_resident_usd": 6.12,
+   "est_weekly_sales_usd": 31307586,
    "games": 53,
    "games_with_a_top_prize_unclaimed": 44,
    "max_ticket_price_usd": 20.0,
@@ -1028,9 +1028,9 @@
    "name": "South Carolina",
    "page": "https://www.smartscratcherapp.com/scratchers/south-carolina/",
    "population_2020_census": 5118425,
-   "prize_money_unclaimed_usd": 687889721,
-   "prizes_unclaimed": 26173737,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 684594254,
+   "prizes_unclaimed": 26032795,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -1040,56 +1040,56 @@
    "code": "tx",
    "est_sales_by_week": [
     {
-     "usd": 111382136,
-     "week_ending": "2026-09-09"
+     "usd": 110693904,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 106927826,
-     "week_ending": "2026-09-16"
+     "usd": 106730269,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 106401076,
-     "week_ending": "2026-09-23"
+     "usd": 106260608,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 107060941,
-     "week_ending": "2026-09-30"
+     "usd": 108170186,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 114424922,
-     "week_ending": "2026-10-07"
+     "usd": 114107817,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 109015902,
-     "week_ending": "2026-10-14"
+     "usd": 108484586,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 108934648,
-     "week_ending": "2026-10-21"
+     "usd": 109211929,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 109358036,
-     "week_ending": "2026-10-28"
+     "usd": 109432146,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 114800439,
-     "week_ending": "2026-11-04"
+     "usd": 115417830,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 112674423,
-     "week_ending": "2026-11-11"
+     "usd": 112332933,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 110446151,
-     "week_ending": "2026-11-18"
+     "usd": 110380387,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 112602400,
-     "week_ending": "2026-11-25"
+     "usd": 115092064,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 3.86,
-   "est_weekly_sales_usd": 112630853,
+   "est_weekly_sales_per_resident_usd": 3.89,
+   "est_weekly_sales_usd": 113305803,
    "games": 77,
    "games_with_a_top_prize_unclaimed": 76,
    "max_ticket_price_usd": 100.0,
@@ -1098,9 +1098,9 @@
    "name": "Texas",
    "page": "https://www.smartscratcherapp.com/scratchers/texas/",
    "population_2020_census": 29145505,
-   "prize_money_unclaimed_usd": 4448067960,
-   "prizes_unclaimed": 118977005,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 4434939841,
+   "prizes_unclaimed": 118550398,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -1110,67 +1110,67 @@
    "code": "va",
    "est_sales_by_week": [
     {
-     "usd": 21314373,
-     "week_ending": "2026-09-09"
+     "usd": 21103739,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 20025965,
-     "week_ending": "2026-09-16"
+     "usd": 19986711,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 19504487,
-     "week_ending": "2026-09-23"
+     "usd": 19360709,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 19310655,
-     "week_ending": "2026-09-30"
+     "usd": 19479246,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 20912715,
-     "week_ending": "2026-10-07"
+     "usd": 21190282,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 21327272,
-     "week_ending": "2026-10-14"
+     "usd": 21095083,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 20407330,
-     "week_ending": "2026-10-21"
+     "usd": 20375818,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 20242361,
-     "week_ending": "2026-10-28"
+     "usd": 20207325,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 21367829,
-     "week_ending": "2026-11-04"
+     "usd": 21608897,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 20977746,
-     "week_ending": "2026-11-11"
+     "usd": 20727319,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 19953097,
-     "week_ending": "2026-11-18"
+     "usd": 19861944,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 20142951,
-     "week_ending": "2026-11-25"
+     "usd": 20692968,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 2.39,
-   "est_weekly_sales_usd": 20610406,
-   "games": 85,
-   "games_with_a_top_prize_unclaimed": 73,
+   "est_weekly_sales_per_resident_usd": 2.4,
+   "est_weekly_sales_usd": 20722782,
+   "games": 89,
+   "games_with_a_top_prize_unclaimed": 77,
    "max_ticket_price_usd": 50.0,
-   "million_dollar_prizes_unclaimed": 28,
+   "million_dollar_prizes_unclaimed": 31,
    "min_ticket_price_usd": 1.0,
    "name": "Virginia",
    "page": "https://www.smartscratcherapp.com/scratchers/virginia/",
    "population_2020_census": 8631393,
-   "prize_money_unclaimed_usd": 949807603,
-   "prizes_unclaimed": 27175266,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 1002208646,
+   "prizes_unclaimed": 29736027,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -1180,56 +1180,56 @@
    "code": "wa",
    "est_sales_by_week": [
     {
-     "usd": 13208035,
-     "week_ending": "2026-09-09"
+     "usd": 13108079,
+     "week_ending": "2026-09-10"
     },
     {
-     "usd": 12371435,
-     "week_ending": "2026-09-16"
+     "usd": 12332342,
+     "week_ending": "2026-09-17"
     },
     {
-     "usd": 12001202,
-     "week_ending": "2026-09-23"
+     "usd": 11943247,
+     "week_ending": "2026-09-24"
     },
     {
-     "usd": 11599129,
-     "week_ending": "2026-09-30"
+     "usd": 11631316,
+     "week_ending": "2026-10-01"
     },
     {
-     "usd": 12801626,
-     "week_ending": "2026-10-07"
+     "usd": 12797022,
+     "week_ending": "2026-10-08"
     },
     {
-     "usd": 11832654,
-     "week_ending": "2026-10-14"
+     "usd": 11815119,
+     "week_ending": "2026-10-15"
     },
     {
-     "usd": 11847970,
-     "week_ending": "2026-10-21"
+     "usd": 11819648,
+     "week_ending": "2026-10-22"
     },
     {
-     "usd": 11643386,
-     "week_ending": "2026-10-28"
+     "usd": 11667141,
+     "week_ending": "2026-10-29"
     },
     {
-     "usd": 12598063,
-     "week_ending": "2026-11-04"
+     "usd": 12721151,
+     "week_ending": "2026-11-05"
     },
     {
-     "usd": 12447342,
-     "week_ending": "2026-11-11"
+     "usd": 12428915,
+     "week_ending": "2026-11-12"
     },
     {
-     "usd": 12138935,
-     "week_ending": "2026-11-18"
+     "usd": 11982935,
+     "week_ending": "2026-11-19"
     },
     {
-     "usd": 12033702,
-     "week_ending": "2026-11-25"
+     "usd": 12402988,
+     "week_ending": "2026-11-26"
     }
    ],
-   "est_weekly_sales_per_resident_usd": 1.6,
-   "est_weekly_sales_usd": 12304510,
+   "est_weekly_sales_per_resident_usd": 1.61,
+   "est_weekly_sales_usd": 12383997,
    "games": 60,
    "games_with_a_top_prize_unclaimed": 50,
    "max_ticket_price_usd": 30.0,
@@ -1238,9 +1238,9 @@
    "name": "Washington",
    "page": "https://www.smartscratcherapp.com/scratchers/washington/",
    "population_2020_census": 7705281,
-   "prize_money_unclaimed_usd": 252684172,
-   "prizes_unclaimed": 15346107,
-   "updated": "2026-11-25",
+   "prize_money_unclaimed_usd": 251026200,
+   "prizes_unclaimed": 15269414,
+   "updated": "2026-11-26",
    "weeks_of_sales_history": 12
   },
   {
@@ -1259,10 +1259,10 @@
    "name": "Washington DC",
    "page": "https://www.smartscratcherapp.com/scratchers/washington-dc/",
    "population_2020_census": 689545,
-   "prize_money_unclaimed_usd": 81237112,
-   "prizes_unclaimed": 2206833,
-   "updated": "2026-11-25",
-   "weeks_of_sales_history": 1
+   "prize_money_unclaimed_usd": 81169776,
+   "prizes_unclaimed": 2203332,
+   "updated": "2026-11-26",
+   "weeks_of_sales_history": 2
   }
  ]
 }
